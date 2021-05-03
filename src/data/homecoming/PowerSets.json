@@ -1,0 +1,362 @@
+[
+	{
+		"DisplayName": "Archery",
+		"ImageName": "Archery.png",
+		"nIDs": [ 3 ]
+	},
+	{
+		"DisplayName": "Assault Rifle",
+		"ImageName": "AssaultRifle.png",
+		"nIDs": [ 4 ]
+	},
+	{
+		"DisplayName": "Atomic Manipulation",
+		"FileName": "Radiation_Manipulation",
+		"ImageName": "RadiationArmor.png",
+		"nIDs": [ 16 ]
+	},
+	{
+		"DisplayName": "Battle Axe",
+		"ImageName": "BattleAxe.png",
+		"nIDs": 2598
+	},
+	{
+		"DisplayName": "Beam Rifle",
+		"ImageName": "BeamRifle.png",
+		"nIDs": [ 5 ]
+	},
+	{
+		"DisplayName": "Bio Armor",
+		"FileName": "Bio_Organic_Armor",
+		"ImageName": "BioArmor.png",
+		"nIDs": [ 2585 ]
+	},
+	{
+		"DisplayName": "Broad Sword",
+		"ImageName": "BroadSword.png",
+		"nIDs": [ 2599 ]
+	},
+	{
+		"DisplayName": "Claws",
+		"ImageName": "ClawsVillain.png",
+		"nIDs": [ 2600 ]
+	},
+	{
+		"DisplayName": "Cold Domination",
+		"ImageName": "ColdDomination.png",
+		"nIDs": [ 2621 ]
+	},
+	{
+		"DisplayName": "Dark Armor",
+		"ImageName": "DarkArmor.png",
+		"nIDs": [ 2586 ]
+	},
+	{
+		"DisplayName": "Dark Blast",
+		"ImageName": "DarkBlast.png",
+		"nIDs": [ 6 ]
+	},
+	{
+		"DisplayName": "Dark Melee",
+		"ImageName": "DarkMelee.png",
+		"nIDs": 2601
+	},
+	{
+		"DisplayName": "Darkness Affininty",
+		"ImageName": "DarknessAffinity.png",
+		"nIDs": [ 2622 ]
+	},
+	{
+		"DisplayName": "Darkness Manipulation",
+		"ImageName": "DarkMelee.png",
+		"nIDs": [ 17 ]
+	},
+	{
+		"DisplayName": "Devices",
+		"FileName": "Gadgets",
+		"ImageName": "Devices.png",
+		"nIDs": [ 18 ]
+	},
+	{
+		"DisplayName": "Dual Blades",
+		"ImageName": "DualBlades.png",
+		"nIDs": [ 2602 ]
+	},
+	{
+		"DisplayName": "Dual Pistols",
+		"ImageName": "DualPistols.png",
+		"nIDs": [ 7 ]
+	},
+	{
+		"DisplayName": "Electric Armor",
+		"ImageName": "ElectricArmor.png",
+		"nIDs": [ 2587 ]
+	},
+	{
+		"DisplayName": "Electrical Affinity",
+		"ImageName": "ShockTherapy.png",
+		"nIDs": [ 2623 ]
+	},
+	{
+		"DisplayName": "Electrical Blast",
+		"ImageName": "ElecBlast.png",
+		"nIDs": [ 8 ]
+	},
+	{
+		"DisplayName": "Electrical Melee",
+		"ImageName": "ElectricMelee.png",
+		"nIDs": [ 2603 ]
+	},
+	{
+		"DisplayName": "Electricity Manipulation",
+		"ImageName": "ElectricityManipulation.png",
+		"nIDs": [ 19 ]
+	},
+	{
+		"DisplayName": "Empathy",
+		"ImageName": "Empathy.png",
+		"nIDs": [ 2624 ]
+	},
+	{
+		"DisplayName": "Energy Aura",
+		"ImageName": "EnergyAura.png",
+		"nIDs": [ 2588 ]
+	},
+	{
+		"DisplayName": "Energy Blast",
+		"ImageName": "EnergyBlast.png",
+		"nIDs": [ 9 ]
+	},
+	{
+		"DisplayName": "Energy Manipulation",
+		"ImageName": "EnergyManipulation.png",
+		"nIDs": [ 20 ]
+	},
+	{
+		"DisplayName": "Energy Melee",
+		"ImageName": "EnergyMelee.png",
+		"nIDs": [ 2604 ]
+	},
+	{
+		"DisplayName": "Fiery Aura",
+		"ImageName": "FireMastery2.png",
+		"nIDs": [ 2589 ]
+	},
+	{
+		"DisplayName": "Fiery Melee",
+		"ImageName": "FieryMelee.png",
+		"nIDs": [ 2605 ]
+	},
+	{
+		"DisplayName": "Fire Blast",
+		"ImageName": "FireBlast.png",
+		"nIDs": [ 10 ]
+	},
+	{
+		"DisplayName": "Fire Manipulation",
+		"ImageName": "FireManipulation.png",
+		"nIDs": [ 21 ]
+	},
+	{
+		"DisplayName": "Force Field",
+		"ImageName": "ForceField.png",
+		"nIDs": [ 2625 ]
+	},
+	{
+		"DisplayName": "Ice Armor",
+		"ImageName": "IceArmor.png",
+		"nIDs": [ 2590 ]
+	},
+	{
+		"DisplayName": "Ice Blast",
+		"ImageName": "IceBlast.png",
+		"nIDs": [ 11 ]
+	},
+	{
+		"DisplayName": "Ice Manipulation",
+		"ImageName": "IceManipulation.png",
+		"nIDs": [ 22 ]
+	},
+	{
+		"DisplayName": "Ice Melee",
+		"ImageName": "IceMelee.png",
+		"nIDs": [ 2606 ]
+	},
+	{
+		"DisplayName": "Invulnerability",
+		"ImageName": "Invulnerability.png",
+		"nIDs": [ 2591 ]
+	},
+	{
+		"DisplayName": "Katana",
+		"ImageName": "Katana.png",
+		"nIDs": [ 2607 ]
+	},
+	{
+		"DisplayName": "Kinetic Melee",
+		"FileName": "Kinetic_Attack",
+		"ImageName": "KineticMelee.png",
+		"nIDs": [ 2608 ]
+	},
+	{
+		"DisplayName": "Kinetics",
+		"ImageName": "Kinetics.png",
+		"nIDs": [ 2626 ]
+	},
+	{
+		"DisplayName": "Martial Arts",
+		"ImageName": "MartialArtsHero.png",
+		"nIDs": [ 2609 ]
+	},
+	{
+		"DisplayName": "Martial Manipulation",
+		"ImageName": "MartialCombat.png",
+		"nIDs": [ 23 ]
+	},
+	{
+		"DisplayName": "Mental Manipulation",
+		"ImageName": "MindControl.png",
+		"nIDs": [ 24 ]
+	},
+	{
+		"DisplayName": "Nature Affinity",
+		"ImageName": "NatureAffinity.png",
+		"nIDs": [ 2627 ]
+	},
+	{
+		"DisplayName": "Ninja Training",
+		"ImageName": "i12_Pri_Bane.png",
+		"nIDs": [ 25 ]
+	},
+	{
+		"DisplayName": "Pain Domination",
+		"ImageName": "PainDom.png",
+		"nIDs": [ 2628 ]
+	},
+	{
+		"DisplayName": "Plant Manipulation",
+		"ImageName": "NatureAffinity.png",
+		"nIDs": [ 26 ]
+	},
+	{
+		"DisplayName": "Poison",
+		"ImageName": "Poison.png",
+		"nIDs": [ 2629 ]
+	},
+	{
+		"DisplayName": "Psionic Melee",
+		"ImageName": "PsiMeleeHero.png",
+		"nIDs": [ 2610 ]
+	},
+	{
+		"DisplayName": "Psychic Blast",
+		"ImageName": "PsychicBlast.png",
+		"nIDs": [ 12 ]
+	},
+	{
+		"DisplayName": "Radiation Armor",
+		"ImageName": "RadiationArmor.png",
+		"nIDs": [ 2592 ]
+	},
+	{
+		"DisplayName": "Radiation Blast",
+		"ImageName": "RadiationBlast.png",
+		"nIDs": [ 13 ]
+	},
+	{
+		"DisplayName": "Radiation Melee",
+		"ImageName": "RadiationBlast.png",
+		"nIDs": [ 2611 ]
+	},
+	{
+		"DisplayName": "Regeneration",
+		"ImageName": "Regeneration.png",
+		"nIDs": [ 2593 ]
+	},
+	{
+		"DisplayName": "Savage Melee",
+		"ImageName": "SavageMelee.png",
+		"nIDs": [ 2612 ]
+	},
+	{
+		"DisplayName": "Shield Defense",
+		"ImageName": "ShieldDef.png",
+		"nIDs": [ 2594 ]
+	},
+	{
+		"DisplayName": "Sonic Attack",
+		"ImageName": "SonicAttack.png",
+		"nIDs": [ 14 ]
+	},
+	{
+		"DisplayName": "Sonic Manipulation",
+		"ImageName": "SonicManipulation.png",
+		"nIDs": [ 27 ]
+	},
+	{
+		"DisplayName": "Spines",
+		"ImageName": "SpinesHero.png",
+		"nIDs": [ 2613 ]
+	},
+	{
+		"DisplayName": "Staff Fighting",
+		"ImageName": "StaffFighting.png",
+		"nIDs": [ 2614 ]
+	},
+	{
+		"DisplayName": "Stone Armor",
+		"ImageName": "StoneArmor.png",
+		"nIDs": [ 2595 ]
+	},
+	{
+		"DisplayName": "Stone Melee",
+		"ImageName": "StoneMelee.png",
+		"nIDs": [ 2615 ]
+	},
+	{
+		"DisplayName": "Street Justice",
+		"FileName": "Brawling",
+		"ImageName": "StreetJustice.png",
+		"nIDs": [ 2616 ]
+	},
+	{
+		"DisplayName": "Super Reflexes",
+		"ImageName": "SuperReflexes.png",
+		"nIDs": [ 2596 ]
+	},
+	{
+		"DisplayName": "Super Strength",
+		"ImageName": "SuperStrength.png",
+		"nIDs": [ 2617 ]
+	},
+	{
+		"DisplayName": "Tactical Arrow",
+		"ImageName": "TrickArrow.png",
+		"nIDs": [ 28 ]
+	},
+	{
+		"DisplayName": "Temporal Manipulation",
+		"ImageName": "TimeManipulation.png",
+		"nIDs": [ 29 ]
+	},
+	{
+		"DisplayName": "Titan Weapons",
+		"ImageName": "TitanWeapons.png",
+		"nIDs": [ 2618 ]
+	},
+	{
+		"DisplayName": "Water Blast",
+		"ImageName": "WaterBlast.png",
+		"nIDs": [ 15 ]
+	},
+	{
+		"DisplayName": "War Mace",
+		"ImageName": "WarMace.png",
+		"nIDs": [ 2619 ]
+	},
+	{
+		"DisplayName": "Willpower",
+		"ImageName": "Willpower.png",
+		"nIDs": [ 2597 ]
+	}
+]

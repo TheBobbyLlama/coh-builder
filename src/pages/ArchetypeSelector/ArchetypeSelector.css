@@ -1,0 +1,76 @@
+#archetypeSelector {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+#archetypeSelector h2 {
+	font-family: 'Red Circle';
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	background-color: #f3ec78;
+    background-image: linear-gradient(to bottom, var(--header-gold), var(--header-gradient));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+#archetypeSelector .titleHolder {
+	background-color: black;
+	display: inline-block;
+	padding: 0px 8px;
+	position: relative;
+	top: -20px;
+}
+
+#archetypeSelector .selectionBox {
+	border: Solid 4px var(--main-blue);
+	border-radius: 8px;
+	padding: 8px;
+	width: 800px;
+}
+
+#archetypeSelector.Villain .selectionBox {
+	border: Solid 4px var(--main-red);
+}
+
+#archetypeSelector .selectionList {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 400px;
+	width: 100%;
+}
+
+#archetypeSelector .selectionList button {
+	margin: 8px 24px;
+	width: 40%;
+}
+
+#archetypeSelector .buttonControls {
+	text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+	#archetypeSelector {
+		min-height: 840px;
+	}
+
+	#archetypeSelector .selectionBox {
+		width: auto;
+	}
+
+	#archetypeSelector .selectionList {
+		align-items: stretch;
+		flex-wrap: nowrap;
+		height: auto;
+	}
+	
+	#archetypeSelector .selectionList button {
+		width: auto;
+	}
+}

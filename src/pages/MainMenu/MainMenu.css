@@ -1,0 +1,32 @@
+#mainMenu {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+#mainMenu p {
+	margin: 0px 20px;
+}
+
+#mainMenu p + p {
+	margin-top: 16px;
+}
+
+#mainMenu .buttonHolder {
+	display: flex;
+	justify-content: space-evenly;
+	max-width: 800px;
+	width: 100%;
+}
+
+@media screen and (max-width: 980px) {
+	#mainMenu .buttonHolder {
+		align-items: center;
+		flex-direction: column;
+	}
+
+	#mainMenu .buttonHolder button {
+		margin: 10px;
+	}
+}

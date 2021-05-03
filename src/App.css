@@ -1,38 +1,115 @@
-.App {
+:root {
+  --main-blue: #103060;
+  --main-blue-highlight: #204880;
+  --main-red: #401010;
+  --main-red-highlight: #602020;
+  --header-gold: #ffd040;
+  --header-gradient: #804000;
+  --button-confirm: #306030;
+  --button-confirm-highlight: #408040;
+  --button-cancel: #802020;
+  --button-cancel-highlight: #a02020;
+}
+
+@font-face {
+  font-family: 'Red Circle';
+  src: local('Red Circle'), url(./assets/fonts/REDCIRCL.ttf) format('truetype');
+}
+
+h1 {
+  font-family: 'Red Circle';
   text-align: center;
+  text-shadow: 0 0 5px gray;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button.pretty, button.prettyBig {
+  background: var(--main-blue) url('./assets/images/ui/bumperMiddle.png') repeat-x top;
+  background-size: 100% 50%;
+  border: none;
   color: white;
+  cursor: pointer;
+  height: 20px;
+  margin: 0px 20px;
+  padding: 0px;
+  position: relative;
+  vertical-align: middle;
 }
 
-.App-link {
-  color: #61dafb;
+button.pretty:before, button.prettyBig:before {
+  background: var(--main-blue) url('./assets/images/ui/bumperSide.png') no-repeat top left;
+  background-size: 200% 50%;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  content: '';
+  height: 20px;
+  position: absolute;
+  left: -10px;
+  top: 0px;
+  width: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button.pretty:after, button.prettyBig:after {
+  background: var(--main-blue) url('./assets/images/ui/bumperSide.png') no-repeat top right;
+  background-size: 200% 50%;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  content: '';
+  height: 20px;
+  position: absolute;
+  right: -10px;
+  top: 0px;
+  width: 10px;
+}
+
+button.prettyBig {
+  font-family: 'Red Circle';
+  font-size: 16px;
+  height: 32px;
+}
+
+button.prettyBig:before {
+  height: 32px;
+  left: -16px;
+  width: 16px;
+}
+
+button.prettyBig:after {
+  height: 32px;
+  right: -16px;
+  width: 16px;
+}
+
+button.pretty:hover, button.pretty:hover::before, button.pretty:hover::after, button.prettyBig:hover, button.prettyBig:hover::before, button.prettyBig:hover::after {
+  background-color: var(--main-blue-highlight);
+  text-shadow: 0 0 1px white;
+}
+
+.Villain button.pretty, .Villain button.pretty::before, .Villain button.pretty::after, .Villain button.prettyBig, .Villain button.prettyBig::before, .Villain button.prettyBig::after {
+  background-color: var(--main-red);
+}
+
+.Villain button.pretty:hover, .Villain button.pretty:hover::before, .Villain button.pretty:hover::after, .Villain button.prettyBig:hover, .Villain button.prettyBig:hover::before, .Villain button.prettyBig:hover::after {
+  background-color: var(--main-red-highlight);
+}
+
+button.pretty.confirm, button.pretty.confirm::before, button.pretty.confirm::after, button.prettyBig.confirm, button.prettyBig.confirm::before, button.prettyBig.confirm::after {
+  background-color: var(--button-cancel);
+}
+
+button.pretty.confirm:hover, button.pretty.confirm:hover::before, button.pretty.confirm:hover::after, button.prettyBig.confirm:hover, button.prettyBig.confirm:hover::before, button.prettyBig.confirm:hover::after {
+  background-color: var(--button-cancel-highlight);
+}
+
+button.pretty.cancel, button.pretty.cancel::before, button.pretty.cancel::after, button.prettyBig.cancel, button.prettyBig.cancel::before, button.prettyBig.cancel::after {
+  background-color: var(--button-cancel);
+}
+
+button.pretty.cancel:hover, button.pretty.cancel:hover::before, button.pretty.cancel:hover::after, button.prettyBig.cancel:hover, button.prettyBig.cancel:hover::before, button.prettyBig.cancel:hover::after {
+  background-color: var(--button-cancel-highlight);
+}
+
+button.pretty:disabled, button.pretty:disabled::before, button.pretty:disabled::after, button.prettyBig:disabled, button.prettyBig:disabled::before, button.prettyBig:disabled::after {
+  background-color: gray;
+  color: #e0e0e0;
+  pointer-events: none;
 }
