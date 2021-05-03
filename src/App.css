@@ -16,19 +16,27 @@
   src: local('Red Circle'), url(./assets/fonts/REDCIRCL.ttf) format('truetype');
 }
 
-h1 {
+h1, h2, h3, h4, h5 {
   font-family: 'Red Circle';
+  margin: 0;
+  padding: 0;
   text-align: center;
+}
+
+h1 {
   text-shadow: 0 0 5px gray;
 }
 
 button.pretty, button.prettyBig {
+  align-items: center;
   background: var(--main-blue) url('./assets/images/ui/bumperMiddle.png') repeat-x top;
   background-size: 100% 50%;
   border: none;
   color: white;
   cursor: pointer;
+  display: inline-flex;
   height: 20px;
+  justify-content: center;
   margin: 0px 20px;
   padding: 0px;
   position: relative;
@@ -112,4 +120,15 @@ button.pretty:disabled, button.pretty:disabled::before, button.pretty:disabled::
   background-color: gray;
   color: #e0e0e0;
   pointer-events: none;
+}
+
+div.builderPanel {
+	border: Solid 4px var(--main-blue);
+	border-radius: 8px;
+  margin: 8px;
+	padding: 8px;
+}
+
+.Villain div.builderPanel {
+  border-color: var(--main-red);
 }

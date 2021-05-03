@@ -13,7 +13,7 @@ function CharacterCreator() {
 	const [,] = useState(initializeDataset(state.environment)); // HACK - Force the dataset to initialize.
 
 	return (
-		<div id="creator">
+		<div id="creator" className={state.theme}>
 			{((!state.page) || (state.page === PAGE_MAIN_MENU)) ? <MainMenu /> : <></>}
 			{(state.page === PAGE_SELECT_ARCHETYPE) ? <ArchetypeSelector /> : <></>}
 			{(state.page === PAGE_CHARACTER_DESIGNER) ? <></> : <></>}

@@ -9,6 +9,7 @@
 	font-size: 16px;
 	margin: 0;
 	padding: 0;
+	background-clip: initial;
 	background-color: #f3ec78;
     background-image: linear-gradient(to bottom, var(--header-gold), var(--header-gradient));
     background-size: 100%;
@@ -27,14 +28,7 @@
 }
 
 #archetypeSelector .selectionBox {
-	border: Solid 4px var(--main-blue);
-	border-radius: 8px;
-	padding: 8px;
 	width: 800px;
-}
-
-#archetypeSelector.Villain .selectionBox {
-	border: Solid 4px var(--main-red);
 }
 
 #archetypeSelector .selectionList {
@@ -48,14 +42,23 @@
 
 #archetypeSelector .selectionList button {
 	margin: 8px 24px;
+	padding: 0 22px;
+	position: relative;
 	width: 40%;
+}
+
+#archetypeSelector .selectionList button img {
+	height: 24px;
+	left: -8px;
+	position: absolute;
+	width: 24px;
 }
 
 #archetypeSelector .buttonControls {
 	text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
 	#archetypeSelector {
 		min-height: 840px;
 	}

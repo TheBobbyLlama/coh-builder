@@ -10,21 +10,24 @@ function ArchetypeSelector() {
 
 	const archetypes = getArchetypeData(state.environment);
 
-	//console.log(archetypes);
+	console.log(archetypes);
 
 	const setArchetype = (myAT) => {
 		dispatch({ type: SELECT_ARCHETYPE, archetype: myAT });
 	}
 
 	return (
-		<div id="archetypeSelector" className={state.theme}>
-			<div className="selectionBox">
+		<div id="archetypeSelector">
+			<div className="selectionBox builderPanel">
 				<div className="titleHolder">
 					<h2>Archetype Selection</h2>
 				</div>
 				<div className="selectionList">
 					{archetypes.map(curAt => {
-						return <button type="button" className="prettyBig" title={curAt.DescShort} key={curAt.DisplayName} disabled={!(curAt.ClassType % 2)} onClick={() => { setArchetype(curAt); }}>{curAt.DisplayName}</button>
+						console.log("../../assets/images/archetypes/" + curAt.ClassName + ".png");
+						const ATicon = require("../../assets/images/archetypes/" + curAt.ClassName + ".png");
+						console.log(ATicon);
+						return <button type="button" className="prettyBig" title={curAt.DescShort} key={curAt.ClassName} disabled={!(curAt.ClassType % 2)} onClick={() => { setArchetype(curAt); }}><img src={ATicon.default} alt="" /> {curAt.DisplayName}</button>
 					})}
 				</div>
 				<div className="buttonControls">
