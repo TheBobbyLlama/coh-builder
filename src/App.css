@@ -1,8 +1,10 @@
 :root {
   --main-blue: #103060;
   --main-blue-highlight: #204880;
+  --main-blue-dark: #061020;;
   --main-red: #401010;
   --main-red-highlight: #602020;
+  --main-red-dark: #180808;
   --header-gold: #ffd040;
   --header-gradient: #804000;
   --button-confirm: #306030;

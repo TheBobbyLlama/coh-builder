@@ -13,6 +13,14 @@
 	margin-top: 16px;
 }
 
+#mainMenu .builderPanel {
+	background-color: var(--main-blue-dark);
+}
+
+.Villain #mainMenu .builderPanel {
+	background-color: var(--main-red-dark);
+}
+
 #mainMenu .buttonHolder {
 	display: flex;
 	justify-content: space-evenly;
