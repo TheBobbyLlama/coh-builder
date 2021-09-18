@@ -1,0 +1,86 @@
+.iconDropdown {
+	background-color: white;
+	border-radius: 4px;
+	color: black;
+	cursor: pointer;
+	display: inline;
+	margin: 2px;
+	padding: 0 28px 0 4px;
+	position: relative;
+	white-space: nowrap;
+}
+
+.iconDropdown:hover {
+	color: var(--main-blue-highlight);
+}
+
+.iconDropdown > div:first-child::after {
+	background-color: #e0e0e0;
+	border-bottom: solid 1px gray;
+	border-radius: 4px;
+	border-right: solid 1px gray;
+	content: '▼';
+	position: absolute;
+	right: 0px;
+	text-align: center;
+	width: 23px;
+}
+
+.iconDropdown:hover > div:first-child::after {
+	background-color: white;
+	border-bottom: solid 1px silver;
+	border-right: solid 1px silver;
+}
+
+.iconDropdown > div:first-child {
+	align-items: center;
+	display: flex;
+	overflow: hidden;
+	width: 100%;
+}
+
+.iconDropdown img {
+	margin-right: 4px;
+}
+
+.iconDropdown .dropdownList {
+	background-color: white;
+	border-radius: 4px;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	z-index: 100;
+}
+
+.iconDropdown .dropdownList > div {
+	padding: 0 4px;
+}
+
+.iconDropdown .dropdownList > div:hover {
+	background-color: var(--main-blue-highlight);
+	color: white;
+}
+
+.iconDropdown .dropdownList > div.selected {
+	background-color: silver !important;
+}
+
+.iconDropdown .modalBack {
+	background-color: black;
+	bottom: 0;
+	left: 0;
+	opacity: 0.25;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 10;
+}
+
+.Villain .iconDropdown:hover {
+	color: var(--main-red-highlight);
+}
+
+.Villain .iconDropdown .dropdownList > div:hover {
+	background-color: var(--main-red-highlight);
+}

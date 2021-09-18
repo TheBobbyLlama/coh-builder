@@ -18,7 +18,7 @@
 	{
 		"DisplayName": "Battle Axe",
 		"ImageName": "BattleAxe.png",
-		"nIDs": 2598
+		"nIDs": [ 2598 ]
 	},
 	{
 		"DisplayName": "Beam Rifle",
@@ -59,7 +59,7 @@
 	{
 		"DisplayName": "Dark Melee",
 		"ImageName": "DarkMelee.png",
-		"nIDs": 2601
+		"nIDs": [ 2601 ]
 	},
 	{
 		"DisplayName": "Darkness Affininty",

@@ -5,6 +5,7 @@ import { initializeDataset } from "../../lib/db";
 
 import MainMenu from "../MainMenu/MainMenu";
 import ArchetypeSelector from "../ArchetypeSelector/ArchetypeSelector";
+import CharacterDesigner from "../CharacterDesigner/CharacterDesigner";
 
 import "./CharacterCreator.css";
 
@@ -16,7 +17,7 @@ function CharacterCreator() {
 		<div id="creator" className={state.theme}>
 			{((!state.page) || (state.page === PAGE_MAIN_MENU)) ? <MainMenu /> : <></>}
 			{(state.page === PAGE_SELECT_ARCHETYPE) ? <ArchetypeSelector /> : <></>}
-			{(state.page === PAGE_CHARACTER_DESIGNER) ? <></> : <></>}
+			{(state.page === PAGE_CHARACTER_DESIGNER) ? <CharacterDesigner /> : <></>}
 		</div>
 	);
 }

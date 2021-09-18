@@ -1,5 +1,7 @@
 import React, { createContext, useContext } from "react";
-import { useBuilderReducer } from './reducers';
+import { initializeDataset } from "../lib/db";
+import { PAGE_MAIN_MENU } from "./actions";
+import { useBuilderReducer } from "./reducers";
 
 const StoreContext = createContext();
 const { Provider } = StoreContext;
@@ -9,7 +11,8 @@ const StoreProvider = ({ value = [], ...props }) => {
 	const [state, dispatch] = useBuilderReducer({
 		environment: localStorage.getItem("environment") || "homecoming",
 		theme: localStorage.getItem("theme") || "Hero",
-		page: 0
+		page: PAGE_MAIN_MENU,
+		dataset: initializeDataset("homecoming")
 	  });
 	return <Provider value={[state, dispatch]} {...props} />;
 };

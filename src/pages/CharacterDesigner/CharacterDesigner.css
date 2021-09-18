@@ -1,0 +1,53 @@
+#characterDesigner {
+	display: grid;
+}
+
+#characterDesigner #generalInfo input {
+	border: 0;
+	font-family: 'Red Circle';
+	font-size: 20px;
+	margin: 0 0 4px 0;
+	padding: 0;
+	background-clip: initial;
+	background-color: #f3ec78;
+    background-image: linear-gradient(to bottom, var(--header-gold), var(--header-gradient));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+#characterDesigner #ATinfo {
+	align-items: center;
+	display: flex;
+}
+
+#characterDesigner #ATname {
+	flex-basis: 2;
+	font-family: 'Red Circle';
+	font-size: 14px;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	color: white;
+	white-space: nowrap;
+}
+
+#characterDesigner #ATinfo > *:first-child {
+	width: 30%;
+}
+
+#characterDesigner #powersetSelection {
+	display: flex;
+}
+
+#characterDesigner #powersetSelection > * {
+	width: 50%;
+}
+
+#characterDesigner #generalControls {
+	align-items: center;
+	display: flex;
+	justify-content: space-evenly;
+}
