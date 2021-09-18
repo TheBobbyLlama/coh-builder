@@ -9,6 +9,7 @@ const { Provider } = StoreContext;
 const StoreProvider = ({ value = [], ...props }) => {
 	// Set default state here.
 	const [state, dispatch] = useBuilderReducer({
+		characterName: "",
 		environment: localStorage.getItem("environment") || "homecoming",
 		theme: localStorage.getItem("theme") || "Hero",
 		page: PAGE_MAIN_MENU,

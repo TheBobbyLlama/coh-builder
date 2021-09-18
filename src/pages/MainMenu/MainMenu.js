@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import { useStoreContext } from "../../utils/GlobalState";
 import { SET_CURRENT_PAGE, PAGE_SELECT_ARCHETYPE } from "../../utils/actions"
 
@@ -6,6 +7,11 @@ import "./MainMenu.css";
 function MainMenu() {
 	const [, dispatch] = useStoreContext();
 
+	// Bit of a kludge here, but make sure the document title is generic when we get here.
+	useEffect(() => {
+		document.title = "CoH Builder";
+	 }, []);
+
 	const startNewCharacter = () => {
 		dispatch({ type: SET_CURRENT_PAGE, page: PAGE_SELECT_ARCHETYPE });
 	}
@@ -13,7 +19,9 @@ function MainMenu() {
 	return (
 		<div id="mainMenu">
 			<div>
-				<h1>CoH Builder</h1>
+				<div className="builderIcon">
+					<h1>CoH Builder</h1>
+				</div>
 				<div className="builderPanel">
 					<p>An online character builder for City of Heroes!</p>
 					<p>Designed for <a href="https://forums.homecomingservers.com/" target="_blank" rel="noreferrer">Homecoming</a>.</p>

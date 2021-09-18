@@ -131,6 +131,27 @@ div.builderPanel {
 	padding: 8px;
 }
 
+div.builderInset {
+  background-color: black;
+  border: Solid 1px var(--main-blue);
+  border-radius: 4px;
+  padding: 12px 4px 4px 4px;
+  position: relative;
+}
+
+div.builderInset .titleHolder {
+  background-color: black;
+  display: block;
+  font-size: 12px;
+  left: 8px;
+  position: absolute;
+  top: -1px;
+}
+
 .Villain div.builderPanel {
+  border-color: var(--main-red);
+}
+
+.Villain div.builderInset {
   border-color: var(--main-red);
 }

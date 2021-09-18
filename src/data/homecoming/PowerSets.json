@@ -1,16 +1,23 @@
 [
 	{
+		"DisplayName": "File Header",
+		"Info": "This is a lookup file to match powersets to their IDs.  Only Blasters through Dominators have been done so far!",
+		"nIDs": []
+	},
+	{
 		"DisplayName": "Archery",
 		"ImageName": "Archery.png",
-		"nIDs": [ 3 ]
+		"nIDs": [ 3, 2662, 2691 ]
 	},
 	{
 		"DisplayName": "Assault Rifle",
+		"ShortName": "AR",
 		"ImageName": "AssaultRifle.png",
-		"nIDs": [ 4 ]
+		"nIDs": [ 4, 2663, 2692 ]
 	},
 	{
 		"DisplayName": "Atomic Manipulation",
+		"ShortName": "Atomic",
 		"FileName": "Radiation_Manipulation",
 		"ImageName": "RadiationArmor.png",
 		"nIDs": [ 16 ]
@@ -23,10 +30,11 @@
 	{
 		"DisplayName": "Beam Rifle",
 		"ImageName": "BeamRifle.png",
-		"nIDs": [ 5 ]
+		"nIDs": [ 5, 2664, 2693 ]
 	},
 	{
 		"DisplayName": "Bio Armor",
+		"ShortName": "Bio",
 		"FileName": "Bio_Organic_Armor",
 		"ImageName": "BioArmor.png",
 		"nIDs": [ 2585 ]
@@ -43,31 +51,55 @@
 	},
 	{
 		"DisplayName": "Cold Domination",
+		"ShortName": "Cold",
 		"ImageName": "ColdDomination.png",
-		"nIDs": [ 2621 ]
+		"nIDs": [ 2621, 2646, 2675 ]
 	},
 	{
 		"DisplayName": "Dark Armor",
+		"ShortName": "Dark",
 		"ImageName": "DarkArmor.png",
 		"nIDs": [ 2586 ]
 	},
 	{
+		"DisplayName": "Dark Assault",
+		"ShortName": "Dark",
+		"ImageName": "DarknessAssault.png",
+		"nIDs": [ 2704 ]
+	},
+	{
 		"DisplayName": "Dark Blast",
+		"ShortName": "Dark",
 		"ImageName": "DarkBlast.png",
-		"nIDs": [ 6 ]
+		"nIDs": [ 6, 2665, 2694 ]
 	},
 	{
 		"DisplayName": "Dark Melee",
+		"ShortName": "Dark",
 		"ImageName": "DarkMelee.png",
 		"nIDs": [ 2601 ]
 	},
 	{
+		"DisplayName": "Dark Miasma",
+		"ShortName": "Dark",
+		"ImageName": "DarkMiasma.png",
+		"nIDs": [ 2647, 2676 ]
+	},
+	{
 		"DisplayName": "Darkness Affininty",
+		"ShortName": "Dark",
 		"ImageName": "DarknessAffinity.png",
 		"nIDs": [ 2622 ]
 	},
 	{
+		"DisplayName": "Darkness Control",
+		"ShortName": "Dark",
+		"ImageName": "DarknessControl.png",
+		"nIDs": [ 2637, 2715 ]
+	},
+	{
 		"DisplayName": "Darkness Manipulation",
+		"ShortName": "Dark",
 		"ImageName": "DarkMelee.png",
 		"nIDs": [ 17 ]
 	},
@@ -79,111 +111,199 @@
 	},
 	{
 		"DisplayName": "Dual Blades",
+		"ShortName": "DB",
 		"ImageName": "DualBlades.png",
 		"nIDs": [ 2602 ]
 	},
 	{
 		"DisplayName": "Dual Pistols",
+		"ShortName": "DP",
 		"ImageName": "DualPistols.png",
-		"nIDs": [ 7 ]
+		"nIDs": [ 7, 2666, 2695 ]
+	},
+	{
+		"DisplayName": "Earth Assault",
+		"ShortName": "Earth",
+		"ImageName": "StoneMastery.png",
+		"nIDs": [ 2705 ]
+	},
+	{
+		"DisplayName": "Earth Control",
+		"ShortName": "Earth",
+		"ImageName": "EarthControl.png",
+		"nIDs": [ 2638, 2716 ]
 	},
 	{
 		"DisplayName": "Electric Armor",
+		"ShortName": "Elec",
 		"ImageName": "ElectricArmor.png",
 		"nIDs": [ 2587 ]
 	},
 	{
+		"DisplayName": "Electric Control",
+		"ShortName": "Elec",
+		"ImageName": "ElectricControl.png",
+		"nIDs": [ 2639, 2717 ]
+	},
+	{
 		"DisplayName": "Electrical Affinity",
+		"ShortName": "Elec",
 		"ImageName": "ShockTherapy.png",
-		"nIDs": [ 2623 ]
+		"nIDs": [ 2623, 2648 ]
+	},
+	{
+		"DisplayName": "Electrical Affinity",
+		"ShortName": "Elec",
+		"FileName": "Shock_Therapy",
+		"ImageName": "ShockTherapy.png",
+		"nIDs": [ 2677 ]
 	},
 	{
 		"DisplayName": "Electrical Blast",
+		"ShortName": "Elec",
 		"ImageName": "ElecBlast.png",
-		"nIDs": [ 8 ]
+		"nIDs": [ 8, 2667, 2696 ]
 	},
 	{
 		"DisplayName": "Electrical Melee",
+		"ShortName": "Elec",
 		"ImageName": "ElectricMelee.png",
 		"nIDs": [ 2603 ]
 	},
 	{
 		"DisplayName": "Electricity Manipulation",
+		"ShortName": "Elec",
 		"ImageName": "ElectricityManipulation.png",
 		"nIDs": [ 19 ]
 	},
 	{
+		"DisplayName": "Electricity Manipulation",
+		"ShortName": "Elec",
+		"ImageName": "i12_Sec_ElecAssault.png",
+		"nIDs": [ 2706 ]
+	},
+	{
 		"DisplayName": "Empathy",
 		"ImageName": "Empathy.png",
-		"nIDs": [ 2624 ]
+		"nIDs": [ 2624, 2649, 2678 ]
 	},
 	{
 		"DisplayName": "Energy Aura",
+		"ShortName": "Energy",
 		"ImageName": "EnergyAura.png",
 		"nIDs": [ 2588 ]
 	},
 	{
 		"DisplayName": "Energy Blast",
+		"ShortName": "Energy",
 		"ImageName": "EnergyBlast.png",
-		"nIDs": [ 9 ]
+		"nIDs": [ 9, 2668, 2697 ]
 	},
 	{
 		"DisplayName": "Energy Manipulation",
+		"ShortName": "Energy",
 		"ImageName": "EnergyManipulation.png",
 		"nIDs": [ 20 ]
 	},
 	{
 		"DisplayName": "Energy Melee",
+		"ShortName": "Energy",
 		"ImageName": "EnergyMelee.png",
 		"nIDs": [ 2604 ]
 	},
 	{
+		"DisplayName": "Fiery Assault",
+		"ShortName": "Fire",
+		"ImageName": "FireAssault.png",
+		"nIDs": [ 2708 ]
+	},
+	{
 		"DisplayName": "Fiery Aura",
+		"ShortName": "Fire",
 		"ImageName": "FireMastery2.png",
 		"nIDs": [ 2589 ]
 	},
 	{
 		"DisplayName": "Fiery Melee",
+		"ShortName": "Fire",
 		"ImageName": "FieryMelee.png",
 		"nIDs": [ 2605 ]
 	},
 	{
 		"DisplayName": "Fire Blast",
+		"ShortName": "Fire",
 		"ImageName": "FireBlast.png",
-		"nIDs": [ 10 ]
+		"nIDs": [ 10, 2669, 2698 ]
+	},
+	{
+		"DisplayName": "Fire Control",
+		"ShortName": "Fire",
+		"ImageName": "FireControl.png",
+		"nIDs": [ 2640, 2718 ]
 	},
 	{
 		"DisplayName": "Fire Manipulation",
+		"ShortName": "Fire",
 		"ImageName": "FireManipulation.png",
 		"nIDs": [ 21 ]
 	},
 	{
 		"DisplayName": "Force Field",
+		"ShortName": "FF",
 		"ImageName": "ForceField.png",
-		"nIDs": [ 2625 ]
+		"nIDs": [ 2625, 2650, 2679 ]
+	},
+	{
+		"DisplayName": "Gravity Control",
+		"ShortName": "Grav",
+		"ImageName": "GravityControl.png",
+		"nIDs": [ 2641, 2719 ]
 	},
 	{
 		"DisplayName": "Ice Armor",
+		"ShortName": "Ice",
 		"ImageName": "IceArmor.png",
 		"nIDs": [ 2590 ]
 	},
 	{
 		"DisplayName": "Ice Blast",
+		"ShortName": "Ice",
 		"ImageName": "IceBlast.png",
-		"nIDs": [ 11 ]
+		"nIDs": [ 11, 2670, 2699 ]
+	},
+	{
+		"DisplayName": "Ice Control",
+		"ShortName": "Ice",
+		"ImageName": "IceControl.png",
+		"nIDs": [ 2642, 2720 ]
 	},
 	{
 		"DisplayName": "Ice Manipulation",
+		"ShortName": "Ice",
 		"ImageName": "IceManipulation.png",
 		"nIDs": [ 22 ]
 	},
 	{
 		"DisplayName": "Ice Melee",
+		"ShortName": "Ice",
 		"ImageName": "IceMelee.png",
 		"nIDs": [ 2606 ]
 	},
 	{
+		"DisplayName": "Icy Assault",
+		"ShortName": "Ice",
+		"ImageName": "IceAssault.png",
+		"nIDs": [ 2709 ]
+	},
+	{
+		"DisplayName": "IllusionControl",
+		"ShortName": "Ill",
+		"ImageName": "IllusionControl.png",
+		"nIDs": [ 2643 ]
+	},
+	{
 		"DisplayName": "Invulnerability",
+		"ShortName": "Inv",
 		"ImageName": "Invulnerability.png",
 		"nIDs": [ 2591 ]
 	},
@@ -194,104 +314,177 @@
 	},
 	{
 		"DisplayName": "Kinetic Melee",
+		"ShortName": "Kinetic",
 		"FileName": "Kinetic_Attack",
 		"ImageName": "KineticMelee.png",
 		"nIDs": [ 2608 ]
 	},
 	{
 		"DisplayName": "Kinetics",
+		"ShortName": "Kin",
 		"ImageName": "Kinetics.png",
-		"nIDs": [ 2626 ]
+		"nIDs": [ 2626, 2651, 2680 ]
 	},
 	{
 		"DisplayName": "Martial Arts",
+		"ShortName": "MA",
 		"ImageName": "MartialArtsHero.png",
 		"nIDs": [ 2609 ]
 	},
 	{
+		"DisplayName": "Martial Assault",
+		"ShortName": "Martial",
+		"ImageName": "MartialCombat.png",
+		"nIDs": [ 2710 ]
+	},
+	{
 		"DisplayName": "Martial Manipulation",
+		"ShortName": "Martial",
 		"ImageName": "MartialCombat.png",
 		"nIDs": [ 23 ]
 	},
 	{
 		"DisplayName": "Mental Manipulation",
+		"ShortName": "Mental",
 		"ImageName": "MindControl.png",
 		"nIDs": [ 24 ]
 	},
 	{
+		"DisplayName": "Mind Control",
+		"ShortName": "Mind",
+		"ImageName": "MindControl.png",
+		"nIDs": [ 2644, 2721 ]
+	},
+	{
 		"DisplayName": "Nature Affinity",
+		"ShortName": "Nature",
 		"ImageName": "NatureAffinity.png",
-		"nIDs": [ 2627 ]
+		"nIDs": [ 2627, 2652, 2681 ]
 	},
 	{
 		"DisplayName": "Ninja Training",
+		"ShortName": "Ninja",
 		"ImageName": "i12_Pri_Bane.png",
 		"nIDs": [ 25 ]
 	},
 	{
 		"DisplayName": "Pain Domination",
+		"ShortName": "Pain",
 		"ImageName": "PainDom.png",
-		"nIDs": [ 2628 ]
+		"nIDs": [ 2628, 2653, 2682 ]
+	},
+	{
+		"DisplayName": "Plant Control",
+		"ShortName": "Plant",
+		"ImageName": "PlantControl.png",
+		"nIDs": [ 2645, 2722 ]
 	},
 	{
 		"DisplayName": "Plant Manipulation",
+		"ShortName": "Plant",
 		"ImageName": "NatureAffinity.png",
 		"nIDs": [ 26 ]
 	},
 	{
 		"DisplayName": "Poison",
 		"ImageName": "Poison.png",
-		"nIDs": [ 2629 ]
+		"nIDs": [ 2629, 2654, 2683 ]
+	},
+	{
+		"DisplayName": "Psionic Assault",
+		"ShortName": "Psi",
+		"ImageName": "PsionicAssault.png",
+		"nIDs": [ 2711 ]
 	},
 	{
 		"DisplayName": "Psionic Melee",
+		"ShortName": "Psi",
 		"ImageName": "PsiMeleeHero.png",
 		"nIDs": [ 2610 ]
 	},
 	{
 		"DisplayName": "Psychic Blast",
+		"ShortName": "Psi",
 		"ImageName": "PsychicBlast.png",
-		"nIDs": [ 12 ]
+		"nIDs": [ 12, 2671, 2700 ]
 	},
 	{
 		"DisplayName": "Radiation Armor",
+		"ShortName": "Rad",
 		"ImageName": "RadiationArmor.png",
 		"nIDs": [ 2592 ]
 	},
 	{
 		"DisplayName": "Radiation Blast",
+		"ShortName": "Rad",
 		"ImageName": "RadiationBlast.png",
-		"nIDs": [ 13 ]
+		"nIDs": [ 13, 2672, 2701 ]
+	},
+	{
+		"DisplayName": "Radiation Emission",
+		"ShortName": "Rad",
+		"ImageName": "RadiationEmission.png",
+		"nIDs": [ 2630, 2655, 2684 ]
 	},
 	{
 		"DisplayName": "Radiation Melee",
+		"ShortName": "Rad",
 		"ImageName": "RadiationBlast.png",
 		"nIDs": [ 2611 ]
 	},
 	{
+		"DisplayName": "Radioactive Assault",
+		"ShortName": "Rad",
+		"ImageName": "RadiationBlast.png",
+		"nIDs": [ 2712 ]
+	},
+	{
 		"DisplayName": "Regeneration",
+		"ShortName": "Regen",
 		"ImageName": "Regeneration.png",
 		"nIDs": [ 2593 ]
 	},
 	{
+		"DisplayName": "Savage Assault",
+		"ShortName": "Savage",
+		"ImageName": "SavageMelee.png",
+		"nIDs": [ 2713 ]
+	},
+	{
 		"DisplayName": "Savage Melee",
+		"ShortName": "Savage",
 		"ImageName": "SavageMelee.png",
 		"nIDs": [ 2612 ]
 	},
 	{
 		"DisplayName": "Shield Defense",
+		"ShortName": "Shield",
 		"ImageName": "ShieldDef.png",
 		"nIDs": [ 2594 ]
 	},
 	{
 		"DisplayName": "Sonic Attack",
+		"ShortName": "Sonic",
 		"ImageName": "SonicAttack.png",
-		"nIDs": [ 14 ]
+		"nIDs": [ 14, 2673, 2702 ]
+	},
+	{
+		"DisplayName": "Sonic Debuff",
+		"ShortName": "Sonic",
+		"ImageName": "SonicResonance.png",
+		"nIDs": [ 2631, 2685 ]
 	},
 	{
 		"DisplayName": "Sonic Manipulation",
+		"ShortName": "Sonic",
 		"ImageName": "SonicManipulation.png",
 		"nIDs": [ 27 ]
+	},
+	{
+		"DisplayName": "Sonic Resonance",
+		"ShortName": "Sonic",
+		"ImageName": "SonicResonance.png",
+		"nIDs": [ 2656 ]
 	},
 	{
 		"DisplayName": "Spines",
@@ -300,62 +493,109 @@
 	},
 	{
 		"DisplayName": "Staff Fighting",
+		"ShortName": "Staff",
 		"ImageName": "StaffFighting.png",
 		"nIDs": [ 2614 ]
 	},
 	{
 		"DisplayName": "Stone Armor",
+		"ShortName": "Stone",
 		"ImageName": "StoneArmor.png",
 		"nIDs": [ 2595 ]
 	},
 	{
 		"DisplayName": "Stone Melee",
+		"ShortName": "Stone",
 		"ImageName": "StoneMelee.png",
 		"nIDs": [ 2615 ]
 	},
 	{
+		"DisplayName": "Storm Summoning",
+		"ShortName": "Storm",
+		"ImageName": "StormSummon.png",
+		"nIDs": [ 2632, 2657, 2686 ]
+	},
+	{
 		"DisplayName": "Street Justice",
+		"ShortName": "SJ",
 		"FileName": "Brawling",
 		"ImageName": "StreetJustice.png",
 		"nIDs": [ 2616 ]
 	},
 	{
 		"DisplayName": "Super Reflexes",
+		"ShortName": "SR",
 		"ImageName": "SuperReflexes.png",
 		"nIDs": [ 2596 ]
 	},
 	{
 		"DisplayName": "Super Strength",
+		"ShortName": "SS",
 		"ImageName": "SuperStrength.png",
 		"nIDs": [ 2617 ]
 	},
 	{
 		"DisplayName": "Tactical Arrow",
+		"ShortName": "TA",
 		"ImageName": "TrickArrow.png",
 		"nIDs": [ 28 ]
 	},
 	{
 		"DisplayName": "Temporal Manipulation",
+		"ShortName": "Temporal",
 		"ImageName": "TimeManipulation.png",
 		"nIDs": [ 29 ]
 	},
 	{
+		"DisplayName": "Thermal Radiation",
+		"ShortName": "Thermal",
+		"ImageName": "ThermalRadiation.png",
+		"nIDs": [ 2633, 2658, 2687 ]
+	},
+	{
+		"DisplayName": "Thorny Assault",
+		"ShortName": "Thorns",
+		"ImageName": "ThornyAssault.png",
+		"nIDs": [ 2714 ]
+	},
+	{
+		"DisplayName": "Time Manipulation",
+		"ShortName": "Time",
+		"ImageName": "TimeManipulation.png",
+		"nIDs": [ 2634, 2659, 2688 ]
+	},
+	{
 		"DisplayName": "Titan Weapons",
+		"ShortName": "TW",
 		"ImageName": "TitanWeapons.png",
 		"nIDs": [ 2618 ]
 	},
 	{
+		"DisplayName": "Traps",
+		"ImageName": "Traps.png",
+		"nIDs": [ 2635, 2660, 2689 ]
+	},
+	{
+		"DisplayName": "Trick Arrow",
+		"ShortName": "TA",
+		"ImageName": "TrickArrow.png",
+		"nIDs": [ 2636, 2661, 2690 ]
+	},
+	{
 		"DisplayName": "Water Blast",
+		"ShortName": "Water",
 		"ImageName": "WaterBlast.png",
-		"nIDs": [ 15 ]
+		"nIDs": [ 15, 2674, 2703 ]
 	},
 	{
 		"DisplayName": "War Mace",
+		"ShortName": "Mace",
 		"ImageName": "WarMace.png",
 		"nIDs": [ 2619 ]
 	},
 	{
 		"DisplayName": "Willpower",
+		"ShortName": "WP",
 		"ImageName": "Willpower.png",
 		"nIDs": [ 2597 ]
 	}

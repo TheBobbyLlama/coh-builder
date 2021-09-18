@@ -5,6 +5,7 @@ import {
 	SET_DATA_ENVIRONMENT,
 	SET_CURRENT_PAGE,
 	SELECT_ARCHETYPE,
+	SET_CHARACTER_NAME,
 	SELECT_ORIGIN,
 	SELECT_PRIMARY_POWERSET,
 	SELECT_SECONDARY_POWERSET,
@@ -13,6 +14,20 @@ import {
 } from "./actions";
 
 import { initializeDataset } from "../lib/db";
+
+const getPowersetData = (state, powerType, powersetInfo) => {
+	if ((state.environment) && (state.archetype) && (powersetInfo)) {
+		var powerName = powersetInfo.FileName || powersetInfo.DisplayName.replace(" ", "_");
+		var fileName = state.archetype.ClassName + "_" + powerType + ".";
+
+		console.log("../data/" + state.environment + "/db/Player/" + fileName + powerName + ".json");
+		let powerset = require("../data/" + state.environment + "/db/Player/" + fileName + powerName + ".json");
+		return powerset;
+	}
+	else {
+		return null;
+	}
+};
 
 export const reducer = (state, action) => {
 	let newState;
@@ -52,13 +67,13 @@ export const reducer = (state, action) => {
 				newState.secondaryPowersetList = newState.dataset.filter(curSet => curSet.nIDs.find(item => newState.archetype.Secondary.indexOf(item) > -1)).sort(function (a, b) { if (a.DisplayName < b.DisplayName) { return -1; } else if (a.DisplayName > b.DisplayName) { return 1; } else {return 0; }});
 
 				if (newState.primaryPowersetList.length) {
-					newState.primaryPowerset = newState.primaryPowersetList[0];
+					newState.primaryPowerset = getPowersetData(newState, newState.archetype.PrimaryGroup, newState.primaryPowersetList[0]);
 				} else {
 					delete newState.primaryPowerset;
 				}
 
 				if (newState.secondaryPowersetList.length) {
-					newState.secondaryPowerset = newState.secondaryPowersetList[0];
+					newState.secondaryPowerset = getPowersetData(newState, newState.archetype.SecondaryGroup, newState.secondaryPowersetList[0]);
 				} else {
 					delete newState.secondaryPowerset;
 				}
@@ -71,26 +86,39 @@ export const reducer = (state, action) => {
 				delete newState.secondaryPowerset;
 				newState.page = PAGE_MAIN_MENU;
 			}
+
+			return newState;
+		case SET_CHARACTER_NAME:
+			newState = { ...state };
+
+			if (action.name) {
+				state.characterName = action.name;
+			} else {
+				state.characterName = "";
+			}
+
 			return newState;
 		case SELECT_ORIGIN:
 			return { ...state, origin: action.origin };
 		case SELECT_PRIMARY_POWERSET:
 			newState = { ...state };
 
-			if (action.powerset) {
-				newState.primaryPowerset = action.powerset;
+			if ((newState.archetype) && (action.powerset)) {
+				newState.primaryPowerset = getPowersetData(newState, newState.archetype.PrimaryGroup, action.powerset);
 			} else {
 				delete newState.primaryPowerset;
 			}
+
 			return newState;
 		case SELECT_SECONDARY_POWERSET:
 			newState = { ...state };
 
-			if (action.powerset) {
-				newState.secondaryPowerset = action.powerset;
+			if ((newState.archetype) && (action.powerset)) {
+				newState.secondaryPowerset = getPowersetData(newState, newState.archetype.SecondaryGroup, action.powerset);
 			} else {
 				delete newState.secondaryPowerset;
 			}
+
 			return newState;
 		default:
 			return state;

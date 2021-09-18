@@ -5,12 +5,28 @@
 	justify-content: space-evenly;
 }
 
+#mainMenu h1 {
+	font-size: 56px;
+	text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
 #mainMenu p {
 	margin: 0px 20px;
 }
 
 #mainMenu p + p {
 	margin-top: 16px;
+}
+
+#mainMenu .builderIcon {
+	align-items: center;
+	background-image: url('../../assets/images/ui/mainIcon.png');
+	background-repeat: no-repeat;
+    background-size: cover;
+	display: flex;
+	height: 512px;
+	justify-content: center;
+	width: 512px;
 }
 
 #mainMenu .builderPanel {
@@ -29,6 +45,10 @@
 }
 
 @media screen and (max-width: 980px) {
+	#mainMenu .builderPanel {
+		margin: 0 20px;
+	}
+
 	#mainMenu .buttonHolder {
 		align-items: center;
 		flex-direction: column;
@@ -36,5 +56,22 @@
 
 	#mainMenu .buttonHolder button {
 		margin: 10px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	#mainMenu {
+		align-items: stretch;
+	}
+
+	#mainMenu .builderIcon {
+		height: 100vw;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#mainMenu h1 {
+		font-size: 36px;
 	}
 }

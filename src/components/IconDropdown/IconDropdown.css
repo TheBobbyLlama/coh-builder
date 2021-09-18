@@ -4,8 +4,8 @@
 	color: black;
 	cursor: pointer;
 	display: inline;
+	font-size: 14px;
 	margin: 2px;
-	padding: 0 28px 0 4px;
 	position: relative;
 	white-space: nowrap;
 }
@@ -20,6 +20,7 @@
 	border-radius: 4px;
 	border-right: solid 1px gray;
 	content: '▼';
+	padding: 2px 0 1px 0;
 	position: absolute;
 	right: 0px;
 	text-align: center;
@@ -36,6 +37,7 @@
 	align-items: center;
 	display: flex;
 	overflow: hidden;
+	padding: 2px 28px 2px 4px;
 	width: 100%;
 }
 
@@ -54,7 +56,9 @@
 }
 
 .iconDropdown .dropdownList > div {
-	padding: 0 4px;
+	align-items: center;
+	display: flex;
+	padding: 2px 4px;
 }
 
 .iconDropdown .dropdownList > div:hover {

@@ -1,17 +1,30 @@
 #characterDesigner {
 	display: grid;
+	grid-template-columns: 320px auto;
+	grid-template-rows: 220px 60px auto;
+}
+
+#characterDesigner #generalInfo {
+	background-color: var(--main-blue-dark);
+	display: flex;
+	flex-direction: column;
+	grid-column: 1;
+	grid-row: 1;
 }
 
 #characterDesigner #generalInfo input {
 	border: 0;
 	font-family: 'Red Circle';
-	font-size: 20px;
+	font-size: 15px;
 	margin: 0 0 4px 0;
+	overflow: visible;
 	padding: 0;
 	background-clip: initial;
-	background-color: #f3ec78;
+	background-color: var(--header-gold);
     background-image: linear-gradient(to bottom, var(--header-gold), var(--header-gradient));
     background-size: 100%;
+	white-space: nowrap;
+	width: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
@@ -35,7 +48,7 @@
 }
 
 #characterDesigner #ATinfo > *:first-child {
-	width: 30%;
+	width: 50%;
 }
 
 #characterDesigner #powersetSelection {
@@ -46,8 +59,41 @@
 	width: 50%;
 }
 
+#characterDesigner #powerPools {
+	flex-basis: 100%;
+	margin-top: 8px;
+}
+
+#characterDesigner #powerPools #poolList {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 0px 10px;
+}
+
+#characterDesigner #powerPools #poolList > * {
+	background-color: silver;
+	border-radius: 4px;
+	color: black;
+	padding: 0 4px;
+	margin: 2px 0;
+	width: 40%;
+}
+
 #characterDesigner #generalControls {
 	align-items: center;
+	background-color: var(--main-blue-dark);
 	display: flex;
+	grid-column: 1;
+	grid-row: 2;
 	justify-content: space-evenly;
+}
+
+#characterDesigner #powerData {
+	grid-column: 1;
+	grid-row: 3;
+}
+
+.Villain #characterDesigner #generalInfo, .Villain #characterDesigner #generalControls {
+	background-color: var(--main-red-dark);
 }
