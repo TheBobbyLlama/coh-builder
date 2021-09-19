@@ -105,11 +105,11 @@ button.pretty:hover, button.pretty:hover::before, button.pretty:hover::after, bu
 }
 
 button.pretty.confirm, button.pretty.confirm::before, button.pretty.confirm::after, button.prettyBig.confirm, button.prettyBig.confirm::before, button.prettyBig.confirm::after {
-  background-color: var(--button-cancel);
+  background-color: var(--button-confirm);
 }
 
 button.pretty.confirm:hover, button.pretty.confirm:hover::before, button.pretty.confirm:hover::after, button.prettyBig.confirm:hover, button.prettyBig.confirm:hover::before, button.prettyBig.confirm:hover::after {
-  background-color: var(--button-cancel-highlight);
+  background-color: var(--button-confirm-highlight);
 }
 
 button.pretty.cancel, button.pretty.cancel::before, button.pretty.cancel::after, button.prettyBig.cancel, button.prettyBig.cancel::before, button.prettyBig.cancel::after {

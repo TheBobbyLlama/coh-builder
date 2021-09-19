@@ -32,8 +32,6 @@ function CharacterDesigner() {
 		}
 	 }, [ state ]);
 
-	console.log(state.primaryPowersetList);
-
 	const showCloseModal = () => {
 		dispatch({ type: SHOW_MODAL, modal: MODAL_LEAVE_DESIGNER });
 	}
@@ -128,6 +126,7 @@ function CharacterDesigner() {
 									key={"Power" + index}
 									label={Math.floor(item)}
 									target={state.powers[item]}
+									allowChange={item !== 1.1}
 								/>);
 					})}
 				</div>

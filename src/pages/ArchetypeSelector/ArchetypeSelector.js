@@ -10,8 +10,6 @@ function ArchetypeSelector() {
 
 	const archetypes = getArchetypeData(state.environment);
 
-	console.log(archetypes);
-
 	const setArchetype = (myAT) => {
 		dispatch({ type: SELECT_ARCHETYPE, archetype: myAT });
 	}
@@ -24,9 +22,7 @@ function ArchetypeSelector() {
 				</div>
 				<div className="selectionList">
 					{archetypes.map(curAt => {
-						//console.log("../../assets/images/archetypes/" + curAt.ClassName + ".png");
 						const ATicon = require("../../assets/images/archetypes/" + curAt.ClassName + ".png");
-						//console.log(ATicon);
 						return <button type="button" className="prettyBig" title={curAt.DescShort} key={curAt.ClassName} disabled={!(curAt.ClassType % 2)} onClick={() => { setArchetype(curAt); }}><img src={ATicon.default} alt="" /> {curAt.DisplayName}</button>
 					})}
 				</div>

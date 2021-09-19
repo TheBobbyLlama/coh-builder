@@ -24,6 +24,7 @@
 	},
 	{
 		"DisplayName": "Battle Axe",
+		"ShortName": "Axe",
 		"ImageName": "BattleAxe.png",
 		"nIDs": [ 2598, 3306, 3394 ]
 	},
@@ -324,6 +325,7 @@
 	},
 	{
 		"DisplayName": "Katana",
+		"ShortName": "Kat",
 		"ImageName": "Katana.png",
 		"nIDs": [ 2607, 3315, 3403 ]
 	},

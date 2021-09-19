@@ -21,7 +21,7 @@ const getPowersetData = (state, powerType, powersetInfo) => {
 		var powerName = powersetInfo.FileName || powersetInfo.DisplayName.replace(" ", "_");
 		var fileName = state.archetype.ClassName + "_" + powerType + ".";
 
-		console.log("../data/" + state.environment + "/db/Player/" + fileName + powerName + ".json");
+		//console.log("../data/" + state.environment + "/db/Player/" + fileName + powerName + ".json");
 		let powerset = require("../data/" + state.environment + "/db/Player/" + fileName + powerName + ".json");
 		return powerset;
 	}

@@ -2,9 +2,9 @@ import SlotWidget from "../SlotWidget/SlotWidget";
 
 import "./PowerWidget.css";
 
-function PowerWidget({ label, target }) {
+function PowerWidget({ label, target, allowChange }) {
 	return (
-		<div className={"powerWidget" + ((target) ? "" : " empty")}>
+		<div className={"powerWidget" + ((target) ? "" : " empty") + ((allowChange) ? "" : " locked")}>
 			<div>
 				{label || ""}
 			</div>

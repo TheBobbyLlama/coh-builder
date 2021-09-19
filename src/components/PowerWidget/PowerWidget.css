@@ -4,7 +4,6 @@ div.powerWidget {
 	background-size: 100% 50%;
 	border: none;
 	color: white;
-	cursor: pointer;
 	display: inline-flex;
 	height: 40px;
 	justify-content: space-between;
@@ -41,8 +40,16 @@ div.powerWidget:after {
 	top: 0px;
 	width: 20px;
 }
+
+div.powerWidget.locked {
+	cursor: default;
+}
+
+div.powerWidget:not(.locked) {
+	cursor: pointer;
+}
   
-div.powerWidget:hover, div.powerWidget:hover::before, div.powerWidget:hover::after {
+div.powerWidget:not(.locked):hover, div.powerWidget:not(.locked):hover::before, div.powerWidget:not(.locked):hover::after {
 	background-color: var(--main-blue-highlight);
 	text-shadow: 0 0 1px white;
 }
@@ -51,7 +58,7 @@ div.powerWidget:hover, div.powerWidget:hover::before, div.powerWidget:hover::aft
 	background-color: var(--main-red);
 }
   
-.Villain div.powerWidget:hover, .Villain div.powerWidget:hover::before, .Villain div.powerWidget:hover::after {
+.Villain div.powerWidget:not(.locked):hover, .Villain div.powerWidget:not(.locked):hover::before, .Villain div.powerWidget:not(.locked):hover::after {
 	background-color: var(--main-red-highlight);
 }
 
