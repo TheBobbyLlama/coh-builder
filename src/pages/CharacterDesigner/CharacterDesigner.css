@@ -1,7 +1,13 @@
 #characterDesigner {
 	display: grid;
 	grid-template-columns: 320px auto;
-	grid-template-rows: 220px 60px auto;
+	grid-template-rows: 220px 100px auto;
+}
+
+#characterDesigner #closeButtonHolder {
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 
 #characterDesigner #generalInfo {
@@ -84,9 +90,10 @@
 	align-items: center;
 	background-color: var(--main-blue-dark);
 	display: flex;
+	flex-wrap: wrap;
 	grid-column: 1;
 	grid-row: 2;
-	justify-content: space-evenly;
+	justify-content: space-around;
 }
 
 #characterDesigner #powerData {

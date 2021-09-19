@@ -11,7 +11,7 @@ const StoreProvider = ({ value = [], ...props }) => {
 	const [state, dispatch] = useBuilderReducer({
 		characterName: "",
 		environment: localStorage.getItem("environment") || "homecoming",
-		theme: localStorage.getItem("theme") || "Hero",
+		theme: "Hero",
 		page: PAGE_MAIN_MENU,
 		dataset: initializeDataset("homecoming")
 	  });

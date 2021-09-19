@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useStoreContext } from "../../utils/GlobalState";
-import { SET_CHARACTER_NAME, SELECT_ORIGIN, SELECT_PRIMARY_POWERSET, SELECT_SECONDARY_POWERSET } from "../../utils/actions";
+import { SHOW_MODAL, SET_CHARACTER_NAME, SELECT_ORIGIN, SELECT_PRIMARY_POWERSET, SELECT_SECONDARY_POWERSET, MODAL_LEAVE_DESIGNER } from "../../utils/actions";
 
 import IconDropdown from "../../components/IconDropdown/IconDropdown";
 
@@ -30,6 +30,10 @@ function CharacterDesigner() {
 	 }, [ state ]);
 
 	console.log(state.primaryPowersetList);
+
+	const showCloseModal = () => {
+		dispatch({ type: SHOW_MODAL, modal: MODAL_LEAVE_DESIGNER });
+	}
 
 	const setCharacterName = (event) => {
 		dispatch({ type: SET_CHARACTER_NAME, name: event.target.value });
@@ -66,6 +70,9 @@ function CharacterDesigner() {
 
 	return (
 		<div id="characterDesigner">
+			<div id="closeButtonHolder" className="Villain">
+			<button type="button" className="pretty" onClick={showCloseModal}>X</button>
+			</div>
 			<div id="generalInfo" className="builderPanel">
 				<div>
 					<input type="text" placeholder="[Enter Name]" maxLength="20" value={state.characterName} onChange={setCharacterName}></input>
@@ -105,9 +112,11 @@ function CharacterDesigner() {
 			<div id="generalControls" className="builderPanel">
 				<button type="button" className="pretty">View Totals</button>
 				<button type="button" className="pretty">Active Sets</button>
+				<button type="button" className="pretty">Accolades</button>
+				<button type="button" className="pretty">Incarnate</button>
 			</div>
 			<div id="powerData" className="builderPanel">
-				Power Data goes here.
+				TODO
 			</div>
 		</div>
 	);

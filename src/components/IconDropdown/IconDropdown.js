@@ -2,17 +2,19 @@ import React, { useState } from "react";
 
 import "./IconDropdown.css";
 
-function IconDropdown({ itemList, iconFunc, selectedItem, changeFunc}) {
+function IconDropdown({ itemList, iconFunc, selectedItem, changeFunc, disabled}) {
 	const [openState, setOpenState] = useState(false);
 
 	const toggleOpenState = () => {
-		setOpenState(!openState);
+		if (!disabled) {
+			setOpenState(!openState);
+		}
 	}
 
 	return (
-		<div className="iconDropdown" onClick={toggleOpenState}>
+		<div className={"iconDropdown" + ((disabled) ? " disabled" : "")} onClick={toggleOpenState}>
 			<div><img src={iconFunc(selectedItem).default} alt="" /> {selectedItem}</div>
-			{(openState) ? <>
+			{((!disabled) && (openState)) ? <>
 				<div className="dropdownList">
 					{itemList.map(curItem => {
 						var selected = (curItem === selectedItem) ? "selected" : "";

@@ -10,7 +10,7 @@
 	white-space: nowrap;
 }
 
-.iconDropdown:hover {
+.iconDropdown:not(.disabled):hover {
 	color: var(--main-blue-highlight);
 }
 
@@ -38,7 +38,6 @@
 	display: flex;
 	overflow: hidden;
 	padding: 2px 28px 2px 4px;
-	width: 100%;
 }
 
 .iconDropdown img {
@@ -73,6 +72,7 @@
 .iconDropdown .modalBack {
 	background-color: black;
 	bottom: 0;
+	cursor: default;
 	left: 0;
 	opacity: 0.25;
 	position: fixed;
@@ -81,10 +81,25 @@
 	z-index: 10;
 }
 
+.iconDropdown.disabled {
+	background-color: #e0e0e0;
+	color: var(--main-blue-dark);
+	cursor: default;
+}
+
+.iconDropdown.disabled > div:first-child::after {
+	content: '';
+	display: none;
+}
+
 .Villain .iconDropdown:hover {
 	color: var(--main-red-highlight);
 }
 
 .Villain .iconDropdown .dropdownList > div:hover {
 	background-color: var(--main-red-highlight);
+}
+
+.Villain .iconDropdown.disabled {
+	color: var(--main-red-dark);
 }

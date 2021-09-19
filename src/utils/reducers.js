@@ -4,6 +4,7 @@ import {
 	SET_COLOR_THEME,
 	SET_DATA_ENVIRONMENT,
 	SET_CURRENT_PAGE,
+	SHOW_MODAL,
 	SELECT_ARCHETYPE,
 	SET_CHARACTER_NAME,
 	SELECT_ORIGIN,
@@ -34,9 +35,6 @@ export const reducer = (state, action) => {
 
 	switch (action.type) {
 		case SET_COLOR_THEME:
-			if (action.theme) {
-				localStorage.setItem("theme", action.theme);
-			}
 			return { ...state, theme: action.theme };
 		case SET_DATA_ENVIRONMENT:
 			newState = { ...state, environment: action.environment, page: PAGE_MAIN_MENU };
@@ -47,10 +45,21 @@ export const reducer = (state, action) => {
 				delete newState.secondaryPowerset;
 				// TODO - Any other state-related cleanup!
 				state.dataset = initializeDataset(action.environment);
+				localStorage.setItem("environment", action.environment);
 			}
 			return newState;
 		case SET_CURRENT_PAGE:
-			return { ...state, page: action.page };
+			return { ...state, page: action.page, theme: "Hero" };
+		case SHOW_MODAL:
+			newState = { ...state };
+
+			if (action.modal) {
+				newState.modal = action.modal;
+			} else {
+				delete newState.modal;
+			}
+
+			return newState;
 		case SELECT_ARCHETYPE:
 			newState = { ...state };
 
@@ -81,10 +90,12 @@ export const reducer = (state, action) => {
 				newState.theme = newState.archetype.Hero ? "Hero" : "Villain";
 				newState.page = PAGE_CHARACTER_DESIGNER;
 			} else {
+				delete newState.modal;
 				delete newState.archetype;
 				delete newState.primaryPowerset;
 				delete newState.secondaryPowerset;
 				newState.page = PAGE_MAIN_MENU;
+				newState.theme = "Hero";
 			}
 
 			return newState;
