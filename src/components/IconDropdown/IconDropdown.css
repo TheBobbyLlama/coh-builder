@@ -10,7 +10,7 @@
 	white-space: nowrap;
 }
 
-.iconDropdown:not(.disabled):hover {
+.iconDropdown:hover {
 	color: var(--main-blue-highlight);
 }
 
@@ -85,6 +85,7 @@
 	background-color: #e0e0e0;
 	color: var(--main-blue-dark);
 	cursor: default;
+	pointer-events: none;
 }
 
 .iconDropdown.disabled > div:first-child::after {

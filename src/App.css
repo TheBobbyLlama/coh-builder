@@ -40,6 +40,7 @@ button.pretty, button.prettyBig {
   height: 20px;
   justify-content: center;
   margin: 0px 20px;
+  min-height: 20px;
   padding: 0px;
   position: relative;
   vertical-align: middle;
@@ -75,6 +76,7 @@ button.prettyBig {
   font-family: 'Red Circle';
   font-size: 16px;
   height: 32px;
+  min-height: 32px;
 }
 
 button.prettyBig:before {

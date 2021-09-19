@@ -1,0 +1,30 @@
+div.slotWidget {
+	display: flex;
+}
+
+div.slotWidget > div {
+	background: var(--main-blue) url('../../assets/images/ui/enhancementSlot.png') no-repeat top right;
+	background-size: 100%;
+	border-radius: 50%;
+	cursor: pointer;
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	width: 32px;
+}
+
+div.slotWidget:hover > div {
+	background-color: var(--main-blue-highlight);
+}
+
+div.slotWidget > div + div {
+	margin-left: 4px;
+}
+
+.Villain div.slotWidget > div {
+	background-color: var(--main-red);
+}
+
+.Villain div.slotWidget:hover > div {
+	background-color: var(--main-red-highlight);
+}

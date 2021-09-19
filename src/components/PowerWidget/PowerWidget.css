@@ -1,0 +1,112 @@
+div.powerWidget {
+	align-items: flex-start;
+	background: var(--main-blue) url('../../assets/images/ui/bumperMiddle.png') repeat-x top;
+	background-size: 100% 50%;
+	border: none;
+	color: white;
+	cursor: pointer;
+	display: inline-flex;
+	height: 40px;
+	justify-content: space-between;
+	margin: 4px 32px 28px 32px;
+	min-height: 40px;
+	padding: 0;
+	position: relative;
+	vertical-align: middle;
+	width: 256px;
+}
+  
+div.powerWidget:before {
+	background: var(--main-blue) url('../../assets/images/ui/bumperSide.png') no-repeat top left;
+	background-size: 200% 50%;
+	border-bottom-left-radius: 50%;
+	border-top-left-radius: 50%;
+	content: '';
+	height: 40px;
+	position: absolute;
+	left: -20px;
+	top: 0px;
+	width: 20px;
+}
+  
+div.powerWidget:after {
+	background: var(--main-blue) url('../../assets/images/ui/bumperSide.png') no-repeat top right;
+	background-size: 200% 50%;
+	border-bottom-right-radius: 50%;
+	border-top-right-radius: 50%;
+	content: '';
+	height: 40px;
+	position: absolute;
+	right: -20px;
+	top: 0px;
+	width: 20px;
+}
+  
+div.powerWidget:hover, div.powerWidget:hover::before, div.powerWidget:hover::after {
+	background-color: var(--main-blue-highlight);
+	text-shadow: 0 0 1px white;
+}
+
+.Villain div.powerWidget, .Villain div.powerWidget::before, .Villain div.powerWidget::after {
+	background-color: var(--main-red);
+}
+  
+.Villain div.powerWidget:hover, .Villain div.powerWidget:hover::before, .Villain div.powerWidget:hover::after {
+	background-color: var(--main-red-highlight);
+}
+
+div.powerWidget.empty, div.powerWidget.empty::before, div.powerWidget.empty::after {
+	background-color: #404040;
+}
+
+div.powerWidget.empty:hover, div.powerWidget.empty:hover::before, div.powerWidget.empty:hover::after {
+	background-color: #606060;
+}
+
+div.powerWidget > * {
+	margin-top: 4px;
+}
+
+div.powerWidget > *:first-child {
+	font-family: 'Red Circle';
+	font-size: 14px;
+	margin-left: -10px;
+	margin-top: 6px;
+	z-index: 10;
+}
+
+div.powerWidget > *:nth-child(3) {
+	margin-right: -10px;
+	z-index: 10;
+}
+
+div.powerWidget > * i {
+	color: silver;
+}
+
+div.powerWidget:hover > * i {
+	color: white;
+}
+
+div.powerWidget input[type='checkbox'] {
+	background-color: yellow;
+	border-radius: 50%;
+}
+
+div.powerWidget input[type='checkbox']:checked {
+	background-color: red;
+}
+
+div.powerWidget.empty input[type='checkbox'] {
+	display: none;
+}
+
+div.powerWidget .slotHolder {
+	position:absolute;
+	height: 32px;
+	left: 22px;
+	margin: 0;
+	padding: 0;
+	right: 22px;
+	top: 28px;
+}

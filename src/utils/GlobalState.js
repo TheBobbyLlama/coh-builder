@@ -13,7 +13,8 @@ const StoreProvider = ({ value = [], ...props }) => {
 		environment: localStorage.getItem("environment") || "homecoming",
 		theme: "Hero",
 		page: PAGE_MAIN_MENU,
-		dataset: initializeDataset("homecoming")
+		dataset: initializeDataset("homecoming"),
+		powers: {}
 	  });
 	return <Provider value={[state, dispatch]} {...props} />;
 };

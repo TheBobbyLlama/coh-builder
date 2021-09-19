@@ -83,6 +83,7 @@ export const reducer = (state, action) => {
 
 				if (newState.secondaryPowersetList.length) {
 					newState.secondaryPowerset = getPowersetData(newState, newState.archetype.SecondaryGroup, newState.secondaryPowersetList[0]);
+					newState.powers[1.1] = { powerData: newState.secondaryPowerset.Powers.find(item => item.Level === 1), slots: [ undefined ] };
 				} else {
 					delete newState.secondaryPowerset;
 				}
@@ -126,6 +127,7 @@ export const reducer = (state, action) => {
 
 			if ((newState.archetype) && (action.powerset)) {
 				newState.secondaryPowerset = getPowersetData(newState, newState.archetype.SecondaryGroup, action.powerset);
+				newState.powers[1.1] = { powerData: newState.secondaryPowerset.Powers.find(item => item.Level === 1), slots: [ undefined ] }
 			} else {
 				delete newState.secondaryPowerset;
 			}

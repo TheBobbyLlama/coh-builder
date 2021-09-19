@@ -6,7 +6,7 @@
 
 #characterDesigner #closeButtonHolder {
 	position: absolute;
-	right: 0;
+	right: 12px;
 	top: 0;
 }
 
@@ -101,6 +101,57 @@
 	grid-row: 3;
 }
 
+#characterDesigner #powerHolder {
+	grid-column: 2;
+	grid-row: 1 / 4;
+	margin-top: 28px;
+	max-height: calc(100vh - 60px);
+	overflow-x: auto;
+}
+
+#characterDesigner #powerArea {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 100%;
+}
+
 .Villain #characterDesigner #generalInfo, .Villain #characterDesigner #generalControls {
 	background-color: var(--main-red-dark);
+}
+
+@media screen and (max-width: 680px) {
+	#characterDesigner {
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: 220px 100px auto auto;
+	}
+
+	#characterDesigner #closeButtonHolder {
+		right: 8px;
+		top: 16px;
+	}
+
+	#characterDesigner #generalInfo input {
+		width: calc(100% - 36px);
+	}
+
+	#characterDesigner #powerData {
+		display: none;
+		grid-column: 0;
+		grid-row: 0;
+		position: absolute;
+	}
+
+	#characterDesigner #powerHolder {
+		grid-column: 1;
+		grid-row: 4;
+		margin-top: 8px;
+	}
+
+	#characterDesigner #powerArea {
+		align-items: center;
+		flex-wrap: nowrap;
+	}
 }

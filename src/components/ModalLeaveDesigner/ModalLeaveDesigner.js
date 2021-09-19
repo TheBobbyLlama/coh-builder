@@ -19,8 +19,8 @@ function ModalLeaveDesigner() {
 			<h2>Confirm</h2>
 			<p>Are you sure you want to leave?  Your changes will be lost.</p>
 			<div>
-				<button type="button" className="pretty" onClick={confirm}>Ok</button>
-				<button type="button" className="pretty" onClick={cancel}>Cancel</button>
+				<button type="button" className="pretty confirm" onClick={confirm}>Ok</button>
+				<button type="button" className="pretty cancel" onClick={cancel}>Cancel</button>
 			</div>
 		</div>
 	);

@@ -94,7 +94,7 @@
 		"nIDs": [ 2647, 2676, 2901 ]
 	},
 	{
-		"DisplayName": "Darkness Affininty",
+		"DisplayName": "Darkness Affinity",
 		"ShortName": "Dark",
 		"ImageName": "DarknessAffinity.png",
 		"nIDs": [ 2622 ]
@@ -185,8 +185,9 @@
 		"nIDs": [ 2603, 3311, 3370, 3399 ]
 	},
 	{
-		"DisplayName": "Electricity Manipulation",
+		"DisplayName": "Electricity Assault",
 		"ShortName": "Elec",
+		"FileName": "Electricity_Manipulation",
 		"ImageName": "ElectricityManipulation.png",
 		"nIDs": [ 19 ]
 	},
@@ -352,8 +353,9 @@
 		"nIDs": [ 2710 ]
 	},
 	{
-		"DisplayName": "Martial Manipulation",
+		"DisplayName": "Martial Combat",
 		"ShortName": "Martial",
+		"FileName": "Martial_Manipulation",
 		"ImageName": "MartialCombat.png",
 		"nIDs": [ 23 ]
 	},

@@ -3,11 +3,14 @@ import { useStoreContext } from "../../utils/GlobalState";
 import { SHOW_MODAL, SET_CHARACTER_NAME, SELECT_ORIGIN, SELECT_PRIMARY_POWERSET, SELECT_SECONDARY_POWERSET, MODAL_LEAVE_DESIGNER } from "../../utils/actions";
 
 import IconDropdown from "../../components/IconDropdown/IconDropdown";
+import PowerWidget from "../../components/PowerWidget/PowerWidget";
 
 import "./CharacterDesigner.css";
 
 function CharacterDesigner() {
 	const [state, dispatch] = useStoreContext();
+
+	const powerLevels = [ 1, 1.1, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 35, 38, 41, 44, 47, 49 ];
 
 	useEffect(() => {
 		if (state?.archetype) {
@@ -49,7 +52,7 @@ function CharacterDesigner() {
 	};
 
 	const getPrimaryPowersetIcon = (setName) => {
-		const powerset = state.primaryPowersetList.find(item => item.DisplayName === setName);
+		const powerset = state.dataset.find(item => item.DisplayName === setName);
 		const setIcon = require("../../assets/images/powersets/" + powerset.ImageName);
 		return setIcon;
 	};
@@ -59,7 +62,7 @@ function CharacterDesigner() {
 	};
 
 	const getSecondaryPowersetIcon = (setName) => {
-		const powerset = state.secondaryPowersetList.find(item => item.DisplayName === setName);
+		const powerset = state.dataset.find(item => item.DisplayName === setName);
 		const setIcon = require("../../assets/images/powersets/" + powerset.ImageName);
 		return setIcon;
 	};
@@ -70,8 +73,8 @@ function CharacterDesigner() {
 
 	return (
 		<div id="characterDesigner">
-			<div id="closeButtonHolder" className="Villain">
-			<button type="button" className="pretty" onClick={showCloseModal}>X</button>
+			<div id="closeButtonHolder">
+			<button type="button" className="pretty cancel" onClick={showCloseModal}>X</button>
 			</div>
 			<div id="generalInfo" className="builderPanel">
 				<div>
@@ -117,6 +120,17 @@ function CharacterDesigner() {
 			</div>
 			<div id="powerData" className="builderPanel">
 				TODO
+			</div>
+			<div id="powerHolder"  className="builderPanel">
+				<div id="powerArea">
+					{powerLevels.map((item, index) => {
+						return (<PowerWidget
+									key={"Power" + index}
+									label={Math.floor(item)}
+									target={state.powers[item]}
+								/>);
+					})}
+				</div>
 			</div>
 		</div>
 	);
