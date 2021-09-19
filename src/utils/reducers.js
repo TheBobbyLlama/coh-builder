@@ -10,6 +10,7 @@ import {
 	SELECT_ORIGIN,
 	SELECT_PRIMARY_POWERSET,
 	SELECT_SECONDARY_POWERSET,
+	SELECT_POWER,
 	PAGE_MAIN_MENU,
 	PAGE_CHARACTER_DESIGNER
 } from "./actions";
@@ -74,6 +75,7 @@ export const reducer = (state, action) => {
 
 				newState.primaryPowersetList = newState.dataset.filter(curSet => curSet.nIDs.find(item => newState.archetype.Primary.indexOf(item) > -1)).sort(function (a, b) { if (a.DisplayName < b.DisplayName) { return -1; } else if (a.DisplayName > b.DisplayName) { return 1; } else {return 0; }});
 				newState.secondaryPowersetList = newState.dataset.filter(curSet => curSet.nIDs.find(item => newState.archetype.Secondary.indexOf(item) > -1)).sort(function (a, b) { if (a.DisplayName < b.DisplayName) { return -1; } else if (a.DisplayName > b.DisplayName) { return 1; } else {return 0; }});
+				newState.powers = {};
 
 				if (newState.primaryPowersetList.length) {
 					newState.primaryPowerset = getPowersetData(newState, newState.archetype.PrimaryGroup, newState.primaryPowersetList[0]);
@@ -131,6 +133,24 @@ export const reducer = (state, action) => {
 			} else {
 				delete newState.secondaryPowerset;
 			}
+
+			return newState;
+		case SELECT_POWER:
+			newState = { ...state };
+
+			if (action.power?.PowerIndex > 0) {
+				for (const [key, value] of Object.entries(newState.powers)) {
+					if (value?.powerData?.PowerIndex === action.power.PowerIndex) {
+						delete newState.powers[key];
+					}
+				}
+
+				newState.powers[action.level] = { powerData: action.power, slots: [ undefined ] };
+			} else {
+				delete newState.powers[action.level];
+			}
+
+			delete newState.modal;
 
 			return newState;
 		default:

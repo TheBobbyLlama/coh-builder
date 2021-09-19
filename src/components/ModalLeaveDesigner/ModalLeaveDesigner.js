@@ -11,7 +11,7 @@ function ModalLeaveDesigner() {
 	}
 
 	const cancel = () => {
-		dispatch({ type: SHOW_MODAL, modal: MODAL_HIDE });
+		dispatch({ type: SHOW_MODAL, modal: { key: MODAL_HIDE } });
 	}
 
 	return (

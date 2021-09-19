@@ -63,11 +63,11 @@ div.powerWidget:not(.locked):hover, div.powerWidget:not(.locked):hover::before, 
 }
 
 div.powerWidget.empty, div.powerWidget.empty::before, div.powerWidget.empty::after {
-	background-color: #404040;
+	background-color: #404040 !important;
 }
 
 div.powerWidget.empty:hover, div.powerWidget.empty:hover::before, div.powerWidget.empty:hover::after {
-	background-color: #606060;
+	background-color: #606060 !important;
 }
 
 div.powerWidget > * {

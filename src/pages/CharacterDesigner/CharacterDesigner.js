@@ -33,7 +33,7 @@ function CharacterDesigner() {
 	 }, [ state ]);
 
 	const showCloseModal = () => {
-		dispatch({ type: SHOW_MODAL, modal: MODAL_LEAVE_DESIGNER });
+		dispatch({ type: SHOW_MODAL, modal: { key: MODAL_LEAVE_DESIGNER } });
 	}
 
 	const setCharacterName = (event) => {

@@ -1,0 +1,70 @@
+#modalSelectPower {
+	height: 400px;
+	position: relative;
+	width: 600px;
+}
+
+#modalSelectPower h3 {
+	background-clip: initial;
+	background-color: #f3ec78;
+    background-image: linear-gradient(to bottom, var(--header-gold), var(--header-gradient));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+	text-align: left;
+}
+
+#modalSelectPower #modalCloseHolder {
+	position: absolute;
+	right: -8px;
+	top: 0;
+}
+
+#modalSelectPower #powerSelectionPanel {
+	display: flex;
+	height: calc(100% - 40px);
+	justify-content: center;
+	margin-top: 8px;
+}
+
+#modalSelectPower #powerSelectionPanel > div {
+	margin: 0px 4px;
+	overflow: hidden;
+	padding: 0px;
+	white-space: nowrap;
+	width: 100%;
+}
+
+#modalSelectPower #powerSelectionPanel > div > * {
+	cursor: pointer;
+	padding: 0px 8px;
+	position: relative;
+}
+
+#modalSelectPower #powerSelectionPanel > div > *.selected {
+	background-color: var(--main-blue-dark);
+}
+
+#modalSelectPower #powerSelectionPanel > div > *.selected::after {
+	content: '►';
+	position: absolute;
+	right: 4px;
+}
+
+#modalSelectPower #powerSelectionPanel > div > *:hover {
+	background-color: var(--main-blue);
+}
+
+#modalSelectPower #powerSelectionPanel > div > *.taken {
+	color: #a0a0a0;
+}
+
+.Villain #modalSelectPower #powerSelectionPanel > div > *.selected {
+	background-color: var(--main-red-dark);
+}
+
+.Villain #modalSelectPower #powerSelectionPanel > div > *:hover {
+	background-color: var(--main-red);
+}
