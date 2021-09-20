@@ -17,8 +17,8 @@ function CharacterDesigner() {
 			var ATinfo = state.archetype.DisplayName;
 
 			if ((state.primaryPowerset) && (state.secondaryPowerset)) {
-				var primary = state.dataset.find(set => set.DisplayName === state.primaryPowerset.DisplayName);
-				var secondary = state.dataset.find(set => set.DisplayName === state.secondaryPowerset.DisplayName);
+				var primary = state.powerData.find(set => set.DisplayName === state.primaryPowerset.DisplayName);
+				var secondary = state.powerData.find(set => set.DisplayName === state.secondaryPowerset.DisplayName);
 				ATinfo = (primary.ShortName || primary.DisplayName) + "/" + (secondary.ShortName || secondary.DisplayName) + " " + ATinfo;
 			}
 
@@ -50,7 +50,7 @@ function CharacterDesigner() {
 	};
 
 	const getPrimaryPowersetIcon = (setName) => {
-		const powerset = state.dataset.find(item => item.DisplayName === setName);
+		const powerset = state.powerData.find(item => item.DisplayName === setName);
 		const setIcon = require("../../assets/images/powersets/" + powerset.ImageName);
 		return setIcon;
 	};
@@ -60,7 +60,7 @@ function CharacterDesigner() {
 	};
 
 	const getSecondaryPowersetIcon = (setName) => {
-		const powerset = state.dataset.find(item => item.DisplayName === setName);
+		const powerset = state.powerData.find(item => item.DisplayName === setName);
 		const setIcon = require("../../assets/images/powersets/" + powerset.ImageName);
 		return setIcon;
 	};

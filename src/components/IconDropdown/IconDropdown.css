@@ -5,7 +5,9 @@
 	cursor: pointer;
 	display: inline;
 	font-size: 14px;
+	height: 23px;
 	margin: 2px;
+	min-height: 23px;
 	position: relative;
 	white-space: nowrap;
 }

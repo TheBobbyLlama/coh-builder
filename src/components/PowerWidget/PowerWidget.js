@@ -15,7 +15,7 @@ function PowerWidget({ label, target, allowChange }) {
 	}
 
 	return (
-		<div className={"powerWidget" + ((target) ? "" : " empty") + ((allowChange) ? "" : " locked")} onClick={selectPower}>
+		<div className={"powerWidget" + ((target) ? "" : " empty") + ((allowChange) ? "" : " locked")} title={(target?.powerData?.DescShort) ? target.powerData.DescShort : ""} onClick={selectPower}>
 			<div>
 				{label || ""}
 			</div>

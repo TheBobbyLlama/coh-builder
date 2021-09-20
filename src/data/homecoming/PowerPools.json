@@ -1,0 +1,342 @@
+[
+	{
+		"FileInfo": "This file is used to load pool power data files (including epics)",
+		"Usage": "The data here is used to construct the file name.  First the Set Name will be determined either by the FileName field, or replacing any spaces in the DisplayName with underscores.  Then the filename will be built as './db/Other/_[GroupName].[Set Name].json'"
+	},
+	{
+		"DisplayName": "Concealment",
+		"FileName": "Invisibility",
+		"GroupName": "Pool"
+	},
+	{
+		"DisplayName": "Experimentation",
+		"GroupName": "Pool"
+	},
+	{
+		"DisplayName": "Fighting",
+		"GroupName": "Pool"
+	},
+	{
+		"DisplayName": "Flight",
+		"GroupName": "Pool"
+	},
+	{
+		"DisplayName": "Force of Will",
+		"GroupName": "Pool"
+	},
+	{
+		"DisplayName": "Leadership",
+		"GroupName": "Pool"
+	},
+	{
+		"DisplayName": "Leaping",
+		"GroupName": "Pool"
+	},
+	{
+		"DisplayName": "Medicine",
+		"GroupName": "Pool"
+	},
+	{
+		"DisplayName": "Presence",
+		"FileName": "Manipulation",
+		"GroupName": "Pool"
+	},
+	{
+		"DisplayName": "Sorcery",
+		"GroupName": "Pool"
+	},
+	{
+		"DisplayName": "Speed",
+		"GroupName": "Pool"
+	},
+	{
+		"DisplayName": "Teleportation",
+		"GroupName": "Pool"
+	},
+	{
+		"DisplayName": "Arctic Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Mace Mastery",
+		"FileName": "Blaster_Mace_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Mu Mastery",
+		"FileName": "Blaster_Mu_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Blaze Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Body Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Body Mastery",
+		"FileName": "Body_Mastery_Stalker",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Leviathan Mastery",
+		"FileName": "Brute_Leviathan_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Mace Mastery",
+		"FileName": "Brute_Mace_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Mu Mastery",
+		"FileName": "Brute_Mu_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Soul Mastery",
+		"FileName": "Brute_Soul_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Charge Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Chill Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Cold Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Mace Mastery",
+		"FileName": "Controller_Mace_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Flame Mastery",
+		"FileName": "Corr_Flame_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Leviathan Mastery",
+		"FileName": "Corruptor_Leviathan_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Mace Mastery",
+		"FileName": "Corruptor_Mace_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Mu Mastery",
+		"FileName": "Corruptor_Mu_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Soul Mastery",
+		"FileName": "Corruptor_Soul_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Dark Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Darkness Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Leviathan Mastery",
+		"FileName": "Dominator_Leviathan_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Mace Mastery",
+		"FileName": "Dominator_Mace_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Mu Mastery",
+		"FileName": "Dominator_Mu_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Soul Mastery",
+		"FileName": "Dominator_Soul_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Earth Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Electrical Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Electricity Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Energy Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Energy Mastery",
+		"FileName": "Energy_Mastery_Brute",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Field Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Fire Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Fire Mastery",
+		"FileName": "Fire_Mastery_Dominator",
+		"GroupName": "Epic"
+	},
+	{
+
+		"DisplayName": "Flame Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Force Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Heat Mastery",
+		"FileName": "Heat_Mastery_Stalker",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Ice Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Ice Mastery",
+		"FileName": "Ice_Mastery_Dominator",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Leviathan Mastery",
+		"FileName": "Mastermind_Leviathan_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Mace Mastery",
+		"FileName": "Mastermind_Mace_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Mu Mastery",
+		"FileName": "Mastermind_Mu_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Soul Mastery",
+		"FileName": "Mastermind_Soul_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Munitions Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Power Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Primal Forces Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Primal Forces Mastery",
+		"FileName": "Primal_Forces_Mastery_Dominator",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Psionic Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Psionic Mastery",
+		"FileName": "Psionic_Mastery_Dominator",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Psychic Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Pyre Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Mace Mastery",
+		"FileName": "Scrapper_Mace_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Leviathan Mastery",
+		"FileName": "Stalker_Leviathan_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Mace Mastery",
+		"FileName": "Stalker_Mace_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Mu Mastery",
+		"FileName": "Stalker_Mu_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Soul Mastery",
+		"FileName": "Stalker_Soul_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Stone Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Leviathan Mastery",
+		"FileName": "VEAT_Leviathan_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Mace Mastery",
+		"FileName": "VEAT_Mace_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Mu Mastery",
+		"FileName": "VEAT_Mu_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Soul Mastery",
+		"FileName": "VEAT_Soul_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Weapon Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Weapon Mastery",
+		"FileName": "Weapon_Mastery_Stalker",
+		"GroupName": "Epic"
+	}
+]

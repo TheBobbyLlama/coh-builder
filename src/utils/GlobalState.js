@@ -7,15 +7,21 @@ const StoreContext = createContext();
 const { Provider } = StoreContext;
 
 const StoreProvider = ({ value = [], ...props }) => {
+	let environment = localStorage.getItem("environment") || "homecoming";
+	let [powerData, poolAtlas] = initializeDataset(environment);
 	// Set default state here.
 	const [state, dispatch] = useBuilderReducer({
 		characterName: "",
-		environment: localStorage.getItem("environment") || "homecoming",
+		environment,
 		theme: "Hero",
 		page: PAGE_MAIN_MENU,
-		dataset: initializeDataset("homecoming"),
-		powers: {}
-	  });
+		powerData,
+		poolAtlas,
+		poolData: [],
+		powers: {},
+		pools: []
+	});
+	// NOTE: Any character related defaults also need to be set in reducers.js -> clearCharacterData!
 	return <Provider value={[state, dispatch]} {...props} />;
 };
 

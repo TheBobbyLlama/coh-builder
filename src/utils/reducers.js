@@ -4,6 +4,7 @@ import {
 	SET_COLOR_THEME,
 	SET_DATA_ENVIRONMENT,
 	SET_CURRENT_PAGE,
+	LOAD_POWER_POOL,
 	SHOW_MODAL,
 	SELECT_ARCHETYPE,
 	SET_CHARACTER_NAME,
@@ -17,13 +18,33 @@ import {
 
 import { initializeDataset } from "../lib/db";
 
+const displayNameSort = (a, b) => 
+{
+	if (a.DisplayName < b.DisplayName) {
+		return -1;
+	} else if (a.DisplayName > b.DisplayName) {
+		return 1;
+	} else {
+		return 0;
+	}
+};
+
+const clearCharacterData = (state) => {
+	delete state.archetype;
+	delete state.origin
+	delete state.primaryPowerset;
+	delete state.secondaryPowerset;
+	delete state.epicPool;
+	state.powers = {};
+	state.pools = [];
+};
+
 const getPowersetData = (state, powerType, powersetInfo) => {
 	if ((state.environment) && (state.archetype) && (powersetInfo)) {
-		var powerName = powersetInfo.FileName || powersetInfo.DisplayName.replace(" ", "_");
+		var setName = powersetInfo.FileName || powersetInfo.DisplayName.replace(" ", "_");
 		var fileName = state.archetype.ClassName + "_" + powerType + ".";
 
-		//console.log("../data/" + state.environment + "/db/Player/" + fileName + powerName + ".json");
-		let powerset = require("../data/" + state.environment + "/db/Player/" + fileName + powerName + ".json");
+		let powerset = require("../data/" + state.environment + "/db/Player/" + fileName + setName + ".json");
 		return powerset;
 	}
 	else {
@@ -41,16 +62,24 @@ export const reducer = (state, action) => {
 			newState = { ...state, environment: action.environment, page: PAGE_MAIN_MENU };
 
 			if (action.environment) {
-				delete newState.archetype;
-				delete newState.primaryPowerset;
-				delete newState.secondaryPowerset;
+				clearCharacterData(newState);
 				// TODO - Any other state-related cleanup!
-				state.dataset = initializeDataset(action.environment);
+				[newState.powerData, newState.poolAtlas] = initializeDataset(action.environment);
+				newState.poolData = [];
 				localStorage.setItem("environment", action.environment);
 			}
 			return newState;
 		case SET_CURRENT_PAGE:
 			return { ...state, page: action.page, theme: "Hero" };
+		case LOAD_POWER_POOL:
+			newState = { ...state };
+
+			if ((action.powerPool) && (!newState.poolData.find(curPool => curPool.nID === action.powerPool.nID))) {
+				newState.poolData.push(action.powerPool);
+				newState.poolData = newState.poolData.sort(displayNameSort);
+			}
+
+			return newState;
 		case SHOW_MODAL:
 			newState = { ...state };
 
@@ -64,39 +93,32 @@ export const reducer = (state, action) => {
 		case SELECT_ARCHETYPE:
 			newState = { ...state };
 
+			clearCharacterData(newState);
+
 			if (action.archetype) {
 				newState.archetype = action.archetype;
 
 				if (action.archetype.Origin?.length) {
 					newState.origin = action.archetype.Origin[0];
-				} else {
-					delete newState.origin;
 				}
 
-				newState.primaryPowersetList = newState.dataset.filter(curSet => curSet.nIDs.find(item => newState.archetype.Primary.indexOf(item) > -1)).sort(function (a, b) { if (a.DisplayName < b.DisplayName) { return -1; } else if (a.DisplayName > b.DisplayName) { return 1; } else {return 0; }});
-				newState.secondaryPowersetList = newState.dataset.filter(curSet => curSet.nIDs.find(item => newState.archetype.Secondary.indexOf(item) > -1)).sort(function (a, b) { if (a.DisplayName < b.DisplayName) { return -1; } else if (a.DisplayName > b.DisplayName) { return 1; } else {return 0; }});
+				newState.primaryPowersetList = newState.powerData.filter(curSet => curSet.nIDs.find(item => newState.archetype.Primary.indexOf(item) > -1)).sort(displayNameSort);
+				newState.secondaryPowersetList = newState.powerData.filter(curSet => curSet.nIDs.find(item => newState.archetype.Secondary.indexOf(item) > -1)).sort(displayNameSort);
 				newState.powers = {};
 
 				if (newState.primaryPowersetList.length) {
 					newState.primaryPowerset = getPowersetData(newState, newState.archetype.PrimaryGroup, newState.primaryPowersetList[0]);
-				} else {
-					delete newState.primaryPowerset;
 				}
 
 				if (newState.secondaryPowersetList.length) {
 					newState.secondaryPowerset = getPowersetData(newState, newState.archetype.SecondaryGroup, newState.secondaryPowersetList[0]);
 					newState.powers[1.1] = { powerData: newState.secondaryPowerset.Powers.find(item => item.Level === 1), slots: [ undefined ] };
-				} else {
-					delete newState.secondaryPowerset;
 				}
 
 				newState.theme = newState.archetype.Hero ? "Hero" : "Villain";
 				newState.page = PAGE_CHARACTER_DESIGNER;
 			} else {
 				delete newState.modal;
-				delete newState.archetype;
-				delete newState.primaryPowerset;
-				delete newState.secondaryPowerset;
 				newState.page = PAGE_MAIN_MENU;
 				newState.theme = "Hero";
 			}
@@ -138,20 +160,35 @@ export const reducer = (state, action) => {
 		case SELECT_POWER:
 			newState = { ...state };
 
+			delete newState.modal;
+
 			if (action.power?.PowerIndex > 0) {
+				// Clear out the power if we have it selected somewhere else.
 				for (const [key, value] of Object.entries(newState.powers)) {
 					if (value?.powerData?.PowerIndex === action.power.PowerIndex) {
 						delete newState.powers[key];
 					}
 				}
 
+				if (action.power.GroupName === "Pool") {
+					// TODO - Pool tracking!
+				} else if (action.power.GroupName === "Epic") {
+					// TODO - Epic tracking!!
+				}
+
 				newState.powers[action.level] = { powerData: action.power, slots: [ undefined ] };
-			} else {
-				delete newState.powers[action.level];
+				return newState
+			} else if (newState.powers[action.level]) {
+				let myGroup = newState.powers[action.level].powerData.GroupName;
+
+				if (myGroup === "Pool") {
+					// TODO - Pool cleanup!
+				} else if (myGroup === "Epic") {
+					// TODO - Epic cleanup!
+				}
 			}
 
-			delete newState.modal;
-
+			delete newState.powers[action.level]; // This is after all the other logic to ensure bad data is cleaned up.
 			return newState;
 		default:
 			return state;

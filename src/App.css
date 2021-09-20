@@ -157,3 +157,17 @@ div.builderInset .titleHolder {
 .Villain div.builderInset {
   border-color: var(--main-red);
 }
+
+.mobileOnly {
+  display: none;
+}
+
+@media screen and (max-width: 680px) {
+  .hideMobile {
+    display: none;
+  }
+
+  .mobileOnly {
+    display: block;
+  }
+}

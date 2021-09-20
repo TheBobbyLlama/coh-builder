@@ -1,7 +1,8 @@
 [
 	{
 		"DisplayName": "File Header",
-		"Info": "This is a lookup file to match powersets to their IDs.  Only Blasters through Dominators have been done so far!",
+		"Info": "This is a lookup file to match powersets to their IDs.",
+		"Usage": "The data here matches primary and secondary powerset nIDs from the Archetype records to the corresponding data.  It is also used for loading the powerset data files: First the Set Name will be determined either by the FileName field, or replacing any spaces in the DisplayName with underscores.  Then the filename will be built as './db/Player/[ClassName]_[Primary/SecondaryGroup].[Set Name].json'",
 		"nIDs": []
 	},
 	{

@@ -1,8 +1,7 @@
-var powersetAtlas
-
 export const initializeDataset = (environment) => {
-	powersetAtlas = require("../data/" + environment + "/PowerSets.json");
-	return powersetAtlas; // Return the value so we can track changes if needed.
+	var powersetAtlas = require("../data/" + environment + "/PowerSets.json");
+	var poolAtlas = require("../data/" + environment + "/PowerPools.json");
+	return [powersetAtlas, poolAtlas];
 }
 
 export const getArchetypeData = (environment) => {
