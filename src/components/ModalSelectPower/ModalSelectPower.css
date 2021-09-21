@@ -82,6 +82,10 @@
 	background-color: var(--main-red);
 }
 
+.Villain #modalSelectPower .spaceMe {
+	border-color: var(--main-red);
+}
+
 @media screen and (max-width: 680px) {
 	#modalSelectPower {
 		height: 80%;

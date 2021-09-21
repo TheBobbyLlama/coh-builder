@@ -166,15 +166,15 @@ div.builderInset .titleHolder {
 }
 
 .mobileOnly {
-  display: none;
+  display: none !important;
 }
 
 @media screen and (max-width: 680px) {
   .hideMobile {
-    display: none;
+    display: none !important;
   }
 
   .mobileOnly {
-    display: block;
+    display: block !important;
   }
 }
