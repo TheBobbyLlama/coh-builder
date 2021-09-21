@@ -1,0 +1,24 @@
+#modalEnhancePower {
+	display: flex;
+	flex-direction: column;
+}
+
+#modalEnhancePower #enhanceHeader {
+	display: flex;
+}
+
+#modalEnhancePower #modalEnhancePower button {
+	background-color: yellow;
+	flex-basis: 1%;
+	margin: 0px 8px;
+}
+
+#modalEnhancePower #widgetHolder {
+	display: flex;
+	justify-content: center;
+	margin: 8px 0px;
+}
+
+#modalEnhancePower #widgetHolder div.slotWidget {
+	width: 212px;
+}

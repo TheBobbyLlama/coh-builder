@@ -18,7 +18,9 @@ const StoreProvider = ({ value = [], ...props }) => {
 		powerData,
 		poolData,
 		powers: {},
-		pools: []
+		pools: [],
+		slotCount: 0,
+		slotMax: 67
 	});
 	// NOTE: Any character related defaults also need to be set in reducers.js -> clearCharacterData!
 	return <Provider value={[state, dispatch]} {...props} />;

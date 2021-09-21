@@ -68,13 +68,68 @@
 }
 
 #characterDesigner #generalControls {
-	align-items: center;
 	background-color: var(--main-blue-dark);
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
 	grid-column: 1;
 	grid-row: 2;
-	justify-content: space-around;
+	grid-template-columns: 32px auto auto 32px;
+	grid-template-rows: 32px 32px;
+}
+
+#characterDesigner #generalControls > div {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+#characterDesigner #generalControls #themeChanger {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	grid-column: 1;
+	grid-row: 1 / 3;
+	justify-content: center;
+}
+
+#characterDesigner #generalControls #themeChanger > div {
+	height: 32px;
+	width: 32px;
+}
+
+#characterDesigner #generalControls #themeChanger > div:first-child {
+	background: url('../../assets/images/ui/heroIcon.png') no-repeat top right;
+}
+
+#characterDesigner #generalControls #themeChanger > div:last-child {
+	background: url('../../assets/images/ui/villainIcon.png') no-repeat top right;
+}
+
+#characterDesigner #generalControls #themeChanger *.inactive {
+	cursor: pointer;
+	opacity: 0.25;
+}
+
+#characterDesigner #generalControls #themeChanger *:not(.inactive) {
+	pointer-events: none;
+}
+
+#characterDesigner #generalControls #counterHolder {
+	grid-column: 4;
+	grid-row: 1 / 3;
+}
+
+#characterDesigner #generalControls #slotCounter {
+	align-items: center;
+	background: var(--main-blue) url('../../assets/images/ui/enhancementSlot.png') no-repeat top right;
+	background-size: 100%;
+	border-radius: 50%;
+	cursor: default;
+	display: flex;
+	height: 32px;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	width: 32px;
 }
 
 #characterDesigner #powerData {
@@ -100,6 +155,10 @@
 
 .Villain #characterDesigner #generalInfo, .Villain #characterDesigner #generalControls {
 	background-color: var(--main-red-dark);
+}
+
+.Villain #characterDesigner #generalControls #slotCounter {
+	background-color: var(--main-red);
 }
 
 @media screen and (max-width: 680px) {

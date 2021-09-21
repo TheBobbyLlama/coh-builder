@@ -13,18 +13,37 @@ div.slotWidget > div {
 	width: 32px;
 }
 
-div.slotWidget:hover > div {
+div.slotWidget > div:hover {
 	background-color: var(--main-blue-highlight);
+}
+
+div.slotWidget > div.selected, div.slotWidget > div.selected:hover {
+	background-color: var(--button-confirm-highlight) !important;
+	cursor: default;
 }
 
 div.slotWidget > div + div {
 	margin-left: 4px;
 }
 
+div.slotWidget > div.addMe {
+	align-items: center;
+	display: flex;
+	font-family: 'Red Circle';
+	font-size: 24px;
+	font-weight: bold;
+	justify-content: center;
+	opacity: 0.5;
+}
+
+div.slotWidget > div.addMe:hover {
+	opacity: 0.75;
+}
+
 .Villain div.slotWidget > div {
 	background-color: var(--main-red);
 }
 
-.Villain div.slotWidget:hover > div {
+.Villain div.slotWidget > div:hover {
 	background-color: var(--main-red-highlight);
 }

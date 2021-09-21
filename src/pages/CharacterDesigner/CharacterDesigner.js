@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useStoreContext } from "../../utils/GlobalState";
-import { SHOW_MODAL, SET_CHARACTER_NAME, SELECT_ORIGIN, SELECT_PRIMARY_POWERSET, SELECT_SECONDARY_POWERSET, MODAL_LEAVE_DESIGNER } from "../../utils/actions";
+import { SHOW_MODAL, SET_COLOR_THEME, SET_CHARACTER_NAME, SELECT_ORIGIN, SELECT_PRIMARY_POWERSET, SELECT_SECONDARY_POWERSET, MODAL_LEAVE_DESIGNER } from "../../utils/actions";
 
 import IconDropdown from "../../components/IconDropdown/IconDropdown";
 import PowerPoolReadout from "../../components/PowerPoolReadout/PowerPoolReadout";
@@ -72,6 +72,10 @@ function CharacterDesigner() {
 		dispatch({ type: SELECT_SECONDARY_POWERSET, powerset: state.secondaryPowersetList.find(item => item.DisplayName === setName) });
 	};
 
+	const setColorTheme = (theme) => {
+		dispatch({ type: SET_COLOR_THEME, theme });
+	}
+
 	return (
 		<div id="characterDesigner">
 			<div id="generalInfo" className="builderPanel">
@@ -107,10 +111,12 @@ function CharacterDesigner() {
 				<PowerPoolReadout />
 			</div>
 			<div id="generalControls" className="builderPanel">
-				<button type="button" className="pretty">View Totals</button>
-				<button type="button" className="pretty">Active Sets</button>
-				<button type="button" className="pretty">Accolades</button>
-				<button type="button" className="pretty">Incarnate</button>
+				<div id="themeChanger"><div className={(state.theme !== "Hero") ? "inactive" : ""} onClick={() => { setColorTheme("Hero"); }}></div><div className={(state.theme === "Hero") ? "inactive" : ""} onClick={() => { setColorTheme("Villain"); }}></div></div>
+				<div><button type="button" className="pretty">View Totals</button></div>
+				<div><button type="button" className="pretty">Active Sets</button></div>
+				<div id="counterHolder"><div id="slotCounter">{(state.slotMax - state.slotCount)}</div></div>
+				<div><button type="button" className="pretty">Accolades</button></div>
+				<div><button type="button" className="pretty">Incarnate</button></div>
 			</div>
 			<div id="powerData" className="builderPanel">
 				TODO

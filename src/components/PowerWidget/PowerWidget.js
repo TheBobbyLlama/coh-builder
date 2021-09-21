@@ -1,5 +1,5 @@
 import { useStoreContext } from "../../utils/GlobalState";
-import { SHOW_MODAL, MODAL_SELECT_POWER } from "../../utils/actions";
+import { SHOW_MODAL, MODAL_SELECT_POWER, MODAL_ENHANCE_POWER } from "../../utils/actions";
 import { validPoolPower } from "../../utils/util";
 
 import SlotWidget from "../SlotWidget/SlotWidget";
@@ -19,8 +19,12 @@ function PowerWidget({ label, target, allowChange }) {
 
 	const selectPower = () => {
 		if (allowChange) {
-			dispatch({ type: SHOW_MODAL, modal: { key: MODAL_SELECT_POWER, level: label }})
+			dispatch({ type: SHOW_MODAL, modal: { key: MODAL_SELECT_POWER, level: label }});
 		}
+	}
+
+	const selectEnhancement = (index) => {
+		dispatch({ type: SHOW_MODAL, modal: { key: MODAL_ENHANCE_POWER, level: label, powerInfo: target, slotIndex: index }});
 	}
 
 	return (
@@ -36,7 +40,7 @@ function PowerWidget({ label, target, allowChange }) {
 			</div>
 			{(target?.slots?.length) ? 
 				<div className="slotHolder">
-					<SlotWidget target={target} />
+					<SlotWidget target={target} clickFunc={selectEnhancement} />
 				</div> : <></>}
 		</div>
 	);

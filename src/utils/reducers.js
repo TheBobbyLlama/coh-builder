@@ -12,6 +12,7 @@ import {
 	SELECT_PRIMARY_POWERSET,
 	SELECT_SECONDARY_POWERSET,
 	SELECT_POWER,
+	ADD_SLOT_TO_POWER,
 	PAGE_MAIN_MENU,
 	PAGE_CHARACTER_DESIGNER
 } from "./actions";
@@ -46,6 +47,7 @@ const clearCharacterData = (state) => {
 	delete state.epicPool;
 	state.powers = {};
 	state.pools = [];
+	state.slotCount = 0;
 };
 
 const getPowersetData = (state, powerType, powersetInfo) => {
@@ -233,6 +235,16 @@ export const reducer = (state, action) => {
 			}
 
 			delete newState.powers[action.level]; // This is after all the other logic to ensure bad data is cleaned up.
+			return newState;
+		case ADD_SLOT_TO_POWER:
+			newState = { ...state };
+
+			// The index check was needed because clicking the item fired the dispatch twice???
+			if ((action.powerInfo.slots.length < 6) && (newState.slotCount < newState.slotMax)) {
+				action.powerInfo.slots.push(undefined);
+				newState.slotCount++;
+			}
+
 			return newState;
 		default:
 			return state;
