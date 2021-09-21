@@ -72,8 +72,7 @@ export const reducer = (state, action) => {
 
 			if (action.environment) {
 				clearCharacterData(newState);
-				[newState.powerData, newState.poolAtlas] = initializeDataset(action.environment);
-				newState.poolData = [];
+				[newState.powerData, newState.poolData] = initializeDataset(action.environment);
 				localStorage.setItem("environment", action.environment);
 			}
 			return newState;

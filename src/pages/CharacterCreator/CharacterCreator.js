@@ -7,7 +7,6 @@ import MainMenu from "../MainMenu/MainMenu";
 import ArchetypeSelector from "../ArchetypeSelector/ArchetypeSelector";
 import CharacterDesigner from "../CharacterDesigner/CharacterDesigner";
 
-import PoolLoaderAsync from "../../components/PoolLoaderAsync/PoolLoaderAsync";
 import ModalLeaveDesigner from "../../components/ModalLeaveDesigner/ModalLeaveDesigner";
 import ModalSelectPower from "../../components/ModalSelectPower/ModalSelectPower";
 
@@ -24,7 +23,6 @@ function CharacterCreator() {
 				{(state.page === PAGE_SELECT_ARCHETYPE) ? <ArchetypeSelector /> : <></>}
 				{(state.page === PAGE_CHARACTER_DESIGNER) ? <CharacterDesigner /> : <></>}
 			</div>
-			<PoolLoaderAsync />
 			{(state.modal?.key) ? <div className={"modalBG " + state.theme}>
 				{(state.modal.key === MODAL_LEAVE_DESIGNER) ? <ModalLeaveDesigner /> : <></>}
 				{(state.modal.key === MODAL_SELECT_POWER) ? <ModalSelectPower /> : <></>}
