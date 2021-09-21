@@ -11,8 +11,14 @@ function PoolLoaderAsync() {
 
 		poolAtlas.forEach(async (item, index) => {
 			if (item.GroupName) {
-				var setName = item.FileName || item.DisplayName.replaceAll(" ", "_");
-				let powerPool = require("../../data/" + state.environment + "/db/Other/_" + item.GroupName + "." + setName + ".json");
+				let powerPool = {};
+
+				if (item.FileName?.startsWith("/")) {
+					powerPool = await require("../../data/" + state.environment + "/db" + item.FileName + ".json");
+				} else {
+					var setName = item.FileName || item.DisplayName.replaceAll(" ", "_");
+					powerPool = await require("../../data/" + state.environment + "/db/Other/_" + item.GroupName + "." + setName + ".json");
+				}
 
 				dispatch({ type: LOAD_POWER_POOL, powerPool });
 			}

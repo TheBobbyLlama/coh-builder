@@ -147,6 +147,11 @@
 		"GroupName": "Epic"
 	},
 	{
+		"DisplayName": "Dark Mastery",
+		"FileName": "/Player/Class_Sentinel_Epic.Sentinel_Dark_Mastery",
+		"GroupName": "Epic"
+	},
+	{
 		"DisplayName": "Darkness Mastery",
 		"GroupName": "Epic"
 	},
@@ -183,6 +188,11 @@
 		"GroupName": "Epic"
 	},
 	{
+		"DisplayName": "Electricity Mastery",
+		"FileName": "/Player/Class_Sentinel_Epic.Sentinel_Elec_Mastery",
+		"GroupName": "Epic"
+	},
+	{
 		"DisplayName": "Energy Mastery",
 		"GroupName": "Epic"
 	},
@@ -201,12 +211,22 @@
 	},
 	{
 		"DisplayName": "Fire Mastery",
+		"FileName": "/Player/Class_Sentinel_Epic.Sentinel_Fire_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Fire Mastery",
 		"FileName": "Fire_Mastery_Dominator",
 		"GroupName": "Epic"
 	},
 	{
 
 		"DisplayName": "Flame Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Flame Mastery",
+		"FileName": "/Player/Class_Defender_Epic.Def_Flame_Mastery",
 		"GroupName": "Epic"
 	},
 	{
@@ -225,6 +245,11 @@
 	{
 		"DisplayName": "Ice Mastery",
 		"FileName": "Ice_Mastery_Dominator",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Ice Mastery",
+		"FileName": "/Player/Class_Sentinel_Epic.Sentinel_Ice_Mastery",
 		"GroupName": "Epic"
 	},
 	{
@@ -248,7 +273,27 @@
 		"GroupName": "Epic"
 	},
 	{
+		"DisplayName": "Leviathan Mastery",
+		"FileName": "/Player/Class_Sentinel_Epic.Sentinel_Lev_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Mace Mastery",
+		"FileName": "/Player/Class_Sentinel_Epic.Sentinel_Mace_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Mu Mastery",
+		"FileName": "/Player/Class_Sentinel_Epic.Sentinel_Mu_Mastery",
+		"GroupName": "Epic"
+	},
+	{
 		"DisplayName": "Munitions Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Ninja Tool Mastery",
+		"FileName": "/Player/Class_Sentinel_Epic.Sentinel_Ninja_Mastery",
 		"GroupName": "Epic"
 	},
 	{
@@ -275,6 +320,11 @@
 		"GroupName": "Epic"
 	},
 	{
+		"DisplayName": "Psionic Mastery",
+		"FileName": "/Player/Class_Sentinel_Epic.Sentinel_Psi_Mastery",
+		"GroupName": "Epic"
+	},
+	{
 		"DisplayName": "Psychic Mastery",
 		"GroupName": "Epic"
 	},
@@ -285,6 +335,11 @@
 	{
 		"DisplayName": "Mace Mastery",
 		"FileName": "Scrapper_Mace_Mastery",
+		"GroupName": "Epic"
+	},
+	{
+		"DisplayName": "Soul Mastery",
+		"FileName": "/Player/Class_Sentinel_Epic.Sentinel_Soul_Mastery",
 		"GroupName": "Epic"
 	},
 	{
