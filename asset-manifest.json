@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/coh-builder/static/css/main.3ee0fdbe.chunk.css",
-    "main.js": "/coh-builder/static/js/main.7d53d9fc.chunk.js",
-    "main.js.map": "/coh-builder/static/js/main.7d53d9fc.chunk.js.map",
-    "runtime-main.js": "/coh-builder/static/js/runtime-main.e07a133a.js",
-    "runtime-main.js.map": "/coh-builder/static/js/runtime-main.e07a133a.js.map",
-    "static/js/2.ddd43db4.chunk.js": "/coh-builder/static/js/2.ddd43db4.chunk.js",
-    "static/js/2.ddd43db4.chunk.js.map": "/coh-builder/static/js/2.ddd43db4.chunk.js.map",
-    "static/js/3.0db15d6d.chunk.js": "/coh-builder/static/js/3.0db15d6d.chunk.js",
-    "static/js/3.0db15d6d.chunk.js.map": "/coh-builder/static/js/3.0db15d6d.chunk.js.map",
+    "main.css": "/coh-builder/static/css/main.bcf6178f.chunk.css",
+    "main.js": "/coh-builder/static/js/main.1535ba78.chunk.js",
+    "main.js.map": "/coh-builder/static/js/main.1535ba78.chunk.js.map",
+    "runtime-main.js": "/coh-builder/static/js/runtime-main.bf55d09e.js",
+    "runtime-main.js.map": "/coh-builder/static/js/runtime-main.bf55d09e.js.map",
+    "static/js/2.537516cf.chunk.js": "/coh-builder/static/js/2.537516cf.chunk.js",
+    "static/js/2.537516cf.chunk.js.map": "/coh-builder/static/js/2.537516cf.chunk.js.map",
+    "static/js/3.fb51c682.chunk.js": "/coh-builder/static/js/3.fb51c682.chunk.js",
+    "static/js/3.fb51c682.chunk.js.map": "/coh-builder/static/js/3.fb51c682.chunk.js.map",
     "index.html": "/coh-builder/index.html",
-    "static/css/main.3ee0fdbe.chunk.css.map": "/coh-builder/static/css/main.3ee0fdbe.chunk.css.map",
-    "static/js/2.ddd43db4.chunk.js.LICENSE.txt": "/coh-builder/static/js/2.ddd43db4.chunk.js.LICENSE.txt",
+    "static/css/main.bcf6178f.chunk.css.map": "/coh-builder/static/css/main.bcf6178f.chunk.css.map",
+    "static/js/2.537516cf.chunk.js.LICENSE.txt": "/coh-builder/static/js/2.537516cf.chunk.js.LICENSE.txt",
     "static/media/App.css": "/coh-builder/static/media/REDCIRCL.79bf45ec.ttf",
     "static/media/MainMenu.css": "/coh-builder/static/media/mainIcon.ef34a08f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e07a133a.js",
-    "static/js/2.ddd43db4.chunk.js",
-    "static/css/main.3ee0fdbe.chunk.css",
-    "static/js/main.7d53d9fc.chunk.js"
+    "static/js/runtime-main.bf55d09e.js",
+    "static/js/2.537516cf.chunk.js",
+    "static/css/main.bcf6178f.chunk.css",
+    "static/js/main.1535ba78.chunk.js"
   ]
 }
