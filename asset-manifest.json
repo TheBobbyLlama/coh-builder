@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/coh-builder/static/css/main.bcf6178f.chunk.css",
+    "main.css": "/coh-builder/static/css/main.81888c54.chunk.css",
     "main.js": "/coh-builder/static/js/main.1535ba78.chunk.js",
     "main.js.map": "/coh-builder/static/js/main.1535ba78.chunk.js.map",
     "runtime-main.js": "/coh-builder/static/js/runtime-main.bf55d09e.js",
@@ -10,7 +10,7 @@
     "static/js/3.fb51c682.chunk.js": "/coh-builder/static/js/3.fb51c682.chunk.js",
     "static/js/3.fb51c682.chunk.js.map": "/coh-builder/static/js/3.fb51c682.chunk.js.map",
     "index.html": "/coh-builder/index.html",
-    "static/css/main.bcf6178f.chunk.css.map": "/coh-builder/static/css/main.bcf6178f.chunk.css.map",
+    "static/css/main.81888c54.chunk.css.map": "/coh-builder/static/css/main.81888c54.chunk.css.map",
     "static/js/2.537516cf.chunk.js.LICENSE.txt": "/coh-builder/static/js/2.537516cf.chunk.js.LICENSE.txt",
     "static/media/App.css": "/coh-builder/static/media/REDCIRCL.79bf45ec.ttf",
     "static/media/MainMenu.css": "/coh-builder/static/media/mainIcon.ef34a08f.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.bf55d09e.js",
     "static/js/2.537516cf.chunk.js",
-    "static/css/main.bcf6178f.chunk.css",
+    "static/css/main.81888c54.chunk.css",
     "static/js/main.1535ba78.chunk.js"
   ]
 }
