@@ -3,27 +3,30 @@ div.slotWidget {
 }
 
 div.slotWidget > div {
+	padding: 0 2px;
+}
+
+div.slotWidget > div {
+	cursor: pointer;
+}
+
+div.slotWidget > div > * {
 	background: var(--main-blue) url('../../assets/images/ui/enhancementSlot.png') no-repeat top right;
 	background-size: 100%;
 	border-radius: 50%;
-	cursor: pointer;
 	height: 32px;
 	margin: 0;
 	padding: 0;
 	width: 32px;
 }
 
-div.slotWidget > div:hover {
+div.slotWidget > div:hover > * {
 	background-color: var(--main-blue-highlight);
 }
 
-div.slotWidget > div.selected, div.slotWidget > div.selected:hover {
+div.slotWidget > div.selected > *, div.slotWidget > div.selected:hover > * {
 	background-color: var(--button-confirm-highlight) !important;
 	cursor: default;
-}
-
-div.slotWidget > div + div {
-	margin-left: 4px;
 }
 
 div.slotWidget > div.addMe {
@@ -40,10 +43,10 @@ div.slotWidget > div.addMe:hover {
 	opacity: 0.75;
 }
 
-.Villain div.slotWidget > div {
+.Villain div.slotWidget > div > * {
 	background-color: var(--main-red);
 }
 
-.Villain div.slotWidget > div:hover {
+.Villain div.slotWidget > div > *:hover {
 	background-color: var(--main-red-highlight);
 }

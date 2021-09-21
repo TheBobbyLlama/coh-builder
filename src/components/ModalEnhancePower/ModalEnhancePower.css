@@ -1,10 +1,16 @@
 #modalEnhancePower {
 	display: flex;
 	flex-direction: column;
+	height: 400px;
+	width: 600px;
 }
 
 #modalEnhancePower #enhanceHeader {
 	display: flex;
+}
+
+#modalEnhancePower #enhanceHeader h3 {
+	flex-basis: 99%;
 }
 
 #modalEnhancePower #modalEnhancePower button {
@@ -21,4 +27,11 @@
 
 #modalEnhancePower #widgetHolder div.slotWidget {
 	width: 212px;
+}
+
+@media screen and (max-width: 680px) {
+	#modalEnhancePower {
+		margin: 0px 10px;
+		width: 100%;
+	}
 }

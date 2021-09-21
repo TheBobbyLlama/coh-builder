@@ -170,6 +170,24 @@ div.builderInset .titleHolder {
 }
 
 @media screen and (max-width: 680px) {
+  button.pretty {
+    font-size: 14px;
+    height: 28px;
+    min-height: 28px;
+  }
+  
+  button.pretty:before {
+    height: 28px;
+    left: -14px;
+    width: 14px;
+  }
+  
+  button.pretty:after {
+    height: 28px;
+    right: -14px;
+    width: 14px;
+  }
+
   .hideMobile {
     display: none !important;
   }
