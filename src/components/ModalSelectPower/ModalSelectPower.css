@@ -39,9 +39,15 @@
 }
 
 #modalSelectPower #powerSelectionPanel > div > * {
+	align-items: center;
 	cursor: pointer;
+	display: flex;
 	padding: 0px 8px;
 	position: relative;
+}
+
+#modalSelectPower #powerSelectionPanel > div > * img {
+	margin-right: 4px;
 }
 
 #modalSelectPower #powerSelectionPanel > div > *.selected {
@@ -74,4 +80,19 @@
 
 .Villain #modalSelectPower #powerSelectionPanel > div > *:hover {
 	background-color: var(--main-red);
+}
+
+@media screen and (max-width: 680px) {
+	#modalSelectPower {
+		height: 80%;
+		width: 100%;
+	}
+
+	#modalSelectPower #powerSelectionPanel > div > * {
+		height: 30px;
+	}
+
+	#modalSelectPower #powerSelectionPanel > div:first-child > *.selected::after {
+		content: '';
+	}
 }

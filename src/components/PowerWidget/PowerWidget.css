@@ -48,6 +48,10 @@ div.powerWidget.locked {
 div.powerWidget:not(.locked) {
 	cursor: pointer;
 }
+
+div.powerWidget *.invalid {
+	color: red;
+}
   
 div.powerWidget:not(.locked):hover, div.powerWidget:not(.locked):hover::before, div.powerWidget:not(.locked):hover::after {
 	background-color: var(--main-blue-highlight);
@@ -93,19 +97,6 @@ div.powerWidget > * i {
 
 div.powerWidget:hover > * i {
 	color: white;
-}
-
-div.powerWidget input[type='checkbox'] {
-	background-color: yellow;
-	border-radius: 50%;
-}
-
-div.powerWidget input[type='checkbox']:checked {
-	background-color: red;
-}
-
-div.powerWidget.empty input[type='checkbox'] {
-	display: none;
 }
 
 div.powerWidget .slotHolder {

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useStoreContext } from "../../utils/GlobalState";
 import { SELECT_POWER, SHOW_MODAL, MODAL_HIDE } from "../../utils/actions";
+import { validPoolPower } from "../../utils/util";
 
 import "./ModalSelectPower.css";
 
@@ -19,10 +20,22 @@ function ModalSelectPower() {
 		return state.primaryPowerset;
 	};
 
+	const findSelectedPowerList = (set) => {
+		if ((set.GroupName === "Pool") || (set.GroupName === "Epic")) {
+			return set.Powers.filter(item => ((item?.Level <= state.modal.level) && (validPoolPower(item, state.modal.level, state.powers))))
+		} else if (set.nID === state.primaryPowerset.nID) {
+			return set.Powers.filter(item => item?.Level <= state.modal.level);
+		} else if (set.nID === state.secondaryPowerset.nID) {
+			return set.Powers.filter(item => item?.Level <= state.modal.level && item.Level > 1)
+		} else {
+			return [];
+		}
+	}
+
 	const [state, dispatch] = useStoreContext();
 	const [selectedPowerset, setSelectedPowerset] = useState(findSelectedPowerset());
-	const [powerList, setPowerList] = useState(selectedPowerset.Powers.filter(item => item?.Level <= state.modal.level));
-	const [showSelectedPowers, setShowSelectedPowers] = useState(false); // TODO - Will be used for mobile viewing!
+	const [powerList, setPowerList] = useState(findSelectedPowerList(selectedPowerset));
+	const [showSelectedPowers, setShowSelectedPowers] = useState(false);
 
 	const cancel = () => {
 		dispatch({ type: SHOW_MODAL, modal: MODAL_HIDE });
@@ -30,19 +43,19 @@ function ModalSelectPower() {
 
 	const selectPrimaryPowerset = () => {
 		setSelectedPowerset(state.primaryPowerset);
-		setPowerList(state.primaryPowerset.Powers.filter(item => item?.Level <= state.modal.level));
+		setPowerList(findSelectedPowerList(state.primaryPowerset));
 		setShowSelectedPowers(true);
 	};
 
 	const selectSecondaryPowerset = () => {
 		setSelectedPowerset(state.secondaryPowerset);
-		setPowerList(state.secondaryPowerset.Powers.filter(item => item?.Level <= state.modal.level && item.Level > 1));
+		setPowerList(findSelectedPowerList(state.secondaryPowerset));
 		setShowSelectedPowers(true);
 	};
 
 	const selectPoolPowerset = (set) => {
 		setSelectedPowerset(set);
-		setPowerList(set.Powers.filter(item => item?.Level <= state.modal.level && item.Level > 1));
+		setPowerList(findSelectedPowerList(set));
 		setShowSelectedPowers(true);
 	}
 	
@@ -57,7 +70,18 @@ function ModalSelectPower() {
 		dispatch({ type: SELECT_POWER, level: state.modal.level, power });
 	};
 
-	const powerPools = ((state.pools.length >= 4) ? state.pools.map(item => item.pool) : state.poolData.filter(set => set.GroupName === "Pool")).filter(set => set.Powers.find(power => power.Level <= state.modal.level));
+	const backToPowersets = () => {
+		setSelectedPowerset(findSelectedPowerset());
+		setShowSelectedPowers(false);
+	}
+
+	const getIcon = (item) => {
+		var icon = require("../../assets/images/powersets/" + item.ImageName)?.default;
+		return icon;
+	}
+
+	const powerPools = ((state.pools.length >= 4) ? state.pools : state.poolData.filter(set => set.GroupName === "Pool")).filter(set => set.Powers.find(power => power.Level <= state.modal.level));
+	const epicPools = ((state.epicPool) ? [ state.epicPool ] : state.poolData.filter(set => state.archetype.Ancillary.indexOf(set.nID) > -1)).filter(set => set.Powers.find(power => power.Level <= state.modal.level));
 
 	return (
 		<div id="modalSelectPower" className="builderPanel">
@@ -67,10 +91,13 @@ function ModalSelectPower() {
 			<h3>Select Power</h3>
 			<div id="powerSelectionPanel">
 				<div id="powersetList" className={"builderInset" + ((showSelectedPowers) ? " hideMobile" : "")}>
-					<div onClick={selectPrimaryPowerset} className={(state.primaryPowerset.nID === selectedPowerset?.nID) ? "selected" : ""}><b>{state.primaryPowerset.DisplayName}</b></div>
-					{(state.modal.level >= 2) ? <div onClick={selectSecondaryPowerset} className={(state.secondaryPowerset.nID === selectedPowerset?.nID) ? "selected" : ""}><b>{state.secondaryPowerset.DisplayName}</b></div> : <></> }
+					<div onClick={selectPrimaryPowerset} className={(state.primaryPowerset.nID === selectedPowerset?.nID) ? "selected" : ""}><img src={getIcon(state.primaryPowerset)} alt="" /> <b>{state.primaryPowerset.DisplayName}</b></div>
+					{(state.modal.level >= 2) ? <div onClick={selectSecondaryPowerset} className={(state.secondaryPowerset.nID === selectedPowerset?.nID) ? "selected" : ""}><img src={getIcon(state.secondaryPowerset)} alt="" /> <b>{state.secondaryPowerset.DisplayName}</b></div> : <></> }
 					{powerPools.map((poolSet, index) => {
-						return (<div key={"pool" + index} onClick={() => {selectPoolPowerset(poolSet); }} className={(poolSet.nID === selectedPowerset?.nID) ? "selected" : ""}>{poolSet.DisplayName}</div>);
+						return (<div key={"pool" + index} onClick={() => {selectPoolPowerset(poolSet); }} className={(poolSet.nID === selectedPowerset?.nID) ? "selected" : ""}><img src={getIcon(poolSet)} alt="" /> {poolSet.DisplayName}</div>);
+					})}
+					{epicPools.map((poolSet, index) => {
+						return (<div key={"pool" + index} onClick={() => {selectPoolPowerset(poolSet); }} className={(poolSet.nID === selectedPowerset?.nID) ? "selected" : ""}><img src={getIcon(poolSet)} alt="" /> <i>{poolSet.DisplayName}</i></div>);
 					})}
 					{(state.powers[state.modal.level]) ? <div onClick={setClearList} className={"spaceMe" + ((selectedPowerset?.nID === -1) ? " selected" : "")}><i>Remove Power</i></div> : <></>}
 				</div>
@@ -79,7 +106,7 @@ function ModalSelectPower() {
 						var hasTaken = Object.entries(state.powers).find(testMe => { return testMe[1].powerData?.PowerIndex === item.PowerIndex});
 						return (<div key={item.PowerIndex} className={((hasTaken) ? "taken " : "") + ((state.powers[state.modal.level]?.powerData.PowerIndex === item.PowerIndex) ? "selected" : "") } title={item.DescShort} onClick={() => { choosePower(item); }}>{item.DisplayName}</div>);
 					})}
-					<div className="mobileOnly spaceMe" onClick={() => { setShowSelectedPowers(false); }}>◄ <i>Go Back</i></div>
+					<div className="mobileOnly spaceMe" onClick={backToPowersets}>◄ <i>Go Back</i></div>
 				</div>
 			</div>
 		</div>

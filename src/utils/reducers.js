@@ -18,8 +18,17 @@ import {
 
 import { initializeDataset } from "../lib/db";
 
-const displayNameSort = (a, b) => 
+const displayNameSort = (a, b, path="") => 
 {
+	if (path) {
+		var pathParts = path.split('.');
+
+		pathParts.forEach(branch => {
+			a = a[branch];
+			b = b[branch];
+		});
+	}
+
 	if (a.DisplayName < b.DisplayName) {
 		return -1;
 	} else if (a.DisplayName > b.DisplayName) {
@@ -63,7 +72,6 @@ export const reducer = (state, action) => {
 
 			if (action.environment) {
 				clearCharacterData(newState);
-				// TODO - Any other state-related cleanup!
 				[newState.powerData, newState.poolAtlas] = initializeDataset(action.environment);
 				newState.poolData = [];
 				localStorage.setItem("environment", action.environment);
@@ -139,6 +147,14 @@ export const reducer = (state, action) => {
 		case SELECT_PRIMARY_POWERSET:
 			newState = { ...state };
 
+			if (newState.primaryPowerset) {
+				Object.entries(newState.powers).forEach(item => {
+					if (item[1].powerData.PowerSetID === newState.primaryPowerset.nID) {
+						delete newState.powers[item[0]];
+					}
+				})
+			}
+
 			if ((newState.archetype) && (action.powerset)) {
 				newState.primaryPowerset = getPowersetData(newState, newState.archetype.PrimaryGroup, action.powerset);
 			} else {
@@ -148,6 +164,14 @@ export const reducer = (state, action) => {
 			return newState;
 		case SELECT_SECONDARY_POWERSET:
 			newState = { ...state };
+
+			if (newState.secondaryPowerset) {
+				Object.entries(newState.powers).forEach(item => {
+					if (item[1].powerData.PowerSetID === newState.secondaryPowerset.nID) {
+						delete newState.powers[item[0]];
+					}
+				})
+			}
 
 			if ((newState.archetype) && (action.powerset)) {
 				newState.secondaryPowerset = getPowersetData(newState, newState.archetype.SecondaryGroup, action.powerset);
@@ -171,20 +195,41 @@ export const reducer = (state, action) => {
 				}
 
 				if (action.power.GroupName === "Pool") {
-					// TODO - Pool tracking!
+					var selectedPool = newState.pools.find(curPool => curPool.nID === action.power.PowerSetID);
+
+					if (!selectedPool) {
+						selectedPool = newState.poolData.find(mySet => mySet.nID === action.power.PowerSetID);
+						newState.pools.push(selectedPool);
+						newState.pools.sort(displayNameSort);
+					}
 				} else if (action.power.GroupName === "Epic") {
-					// TODO - Epic tracking!!
+					if (!newState.epicPool) {
+						newState.epicPool = newState.poolData.find(mySet => mySet.nID === action.power.PowerSetID);
+					} else if (state.epicPool.nID !== action.power.PowerSetID) {
+						console.log("ERROR!  Tried to add an epic power from another pool!"); // TODO - Make this an error modal!
+						return newState;
+					}
 				}
 
 				newState.powers[action.level] = { powerData: action.power, slots: [ undefined ] };
 				return newState
 			} else if (newState.powers[action.level]) {
-				let myGroup = newState.powers[action.level].powerData.GroupName;
+				if (newState.powers[action.level].powerData.GroupName === "Pool") {
+					let powerCount = Object.entries(newState.powers).filter(item => item[1].powerData.PowerSetID === newState.powers[action.level].powerData.PowerSetID).length;
 
-				if (myGroup === "Pool") {
-					// TODO - Pool cleanup!
-				} else if (myGroup === "Epic") {
-					// TODO - Epic cleanup!
+					if (powerCount <= 1) {
+						let poolIndex = newState.pools.findIndex(item => item.nID === newState.powers[action.level].powerData.PowerSetID);
+
+						if (poolIndex > -1) {
+							newState.pools.splice(poolIndex, 1);
+						}
+					}
+				} else if (newState.powers[action.level].powerData.GroupName === "Epic") {
+					let powerCount = Object.entries(newState.powers).filter(item => item[1].powerData.PowerSetID === newState.powers[action.level].powerData.PowerSetID).length;
+
+					if (powerCount <= 1) {
+						delete newState.epicPool;
+					}
 				}
 			}
 

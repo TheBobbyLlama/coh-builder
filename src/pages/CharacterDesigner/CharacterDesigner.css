@@ -5,7 +5,7 @@
 }
 
 #characterDesigner #closeButtonHolder {
-	position: absolute;
+	position: fixed;
 	right: 12px;
 	top: 0;
 }
@@ -16,6 +16,7 @@
 	flex-direction: column;
 	grid-column: 1;
 	grid-row: 1;
+	position: relative;
 }
 
 #characterDesigner #generalInfo input {
@@ -43,6 +44,7 @@
 }
 
 #characterDesigner #ATname {
+	cursor: default;
 	flex-basis: 2;
 	font-family: 'Red Circle';
 	font-size: 14px;
@@ -63,27 +65,6 @@
 
 #characterDesigner #powersetSelection > * {
 	width: 50%;
-}
-
-#characterDesigner #powerPools {
-	flex-basis: 100%;
-	margin-top: 8px;
-}
-
-#characterDesigner #powerPools #poolList {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	padding: 0px 10px;
-}
-
-#characterDesigner #powerPools #poolList > * {
-	background-color: silver;
-	border-radius: 4px;
-	color: black;
-	padding: 0 4px;
-	margin: 2px 0;
-	width: 40%;
 }
 
 #characterDesigner #generalControls {
@@ -122,6 +103,7 @@
 }
 
 @media screen and (max-width: 680px) {
+
 	#characterDesigner {
 		display: grid;
 		grid-template-columns: 100%;
@@ -129,8 +111,9 @@
 	}
 
 	#characterDesigner #closeButtonHolder {
-		right: 8px;
-		top: 16px;
+		position: absolute;
+		right: -2px;
+		top: 6px;
 	}
 
 	#characterDesigner #generalInfo input {
@@ -148,6 +131,8 @@
 		grid-column: 1;
 		grid-row: 4;
 		margin-top: 8px;
+		max-height: initial;
+		overflow: visible;
 	}
 
 	#characterDesigner #powerArea {

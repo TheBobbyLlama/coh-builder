@@ -1,14 +1,16 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useStoreContext } from "../../utils/GlobalState";
 import { SHOW_MODAL, SET_CHARACTER_NAME, SELECT_ORIGIN, SELECT_PRIMARY_POWERSET, SELECT_SECONDARY_POWERSET, MODAL_LEAVE_DESIGNER } from "../../utils/actions";
 
 import IconDropdown from "../../components/IconDropdown/IconDropdown";
+import PowerPoolReadout from "../../components/PowerPoolReadout/PowerPoolReadout";
 import PowerWidget from "../../components/PowerWidget/PowerWidget";
 
 import "./CharacterDesigner.css";
 
 function CharacterDesigner() {
 	const [state, dispatch] = useStoreContext();
+	const [myName, setMyName] = useState("");
 
 	const powerLevels = [ 1, 1.1, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 35, 38, 41, 44, 47, 49 ];
 
@@ -37,6 +39,7 @@ function CharacterDesigner() {
 	}
 
 	const setCharacterName = (event) => {
+		setMyName(event.target.value);
 		dispatch({ type: SET_CHARACTER_NAME, name: event.target.value });
 	};
 
@@ -71,12 +74,12 @@ function CharacterDesigner() {
 
 	return (
 		<div id="characterDesigner">
-			<div id="closeButtonHolder">
-			<button type="button" className="pretty cancel" onClick={showCloseModal}>X</button>
-			</div>
 			<div id="generalInfo" className="builderPanel">
 				<div>
-					<input type="text" placeholder="[Enter Name]" maxLength="20" value={state.characterName} onChange={setCharacterName}></input>
+					<input type="text" placeholder="[Enter Name]" maxLength="20" value={myName} onChange={setCharacterName}></input>
+				</div>
+				<div id="closeButtonHolder">
+					<button type="button" className="pretty cancel" onClick={showCloseModal}>X</button>
 				</div>
 				<div id="ATinfo">
 					<IconDropdown
@@ -101,14 +104,7 @@ function CharacterDesigner() {
 						changeFunc={changeSecondaryPowerset}
 					/>
 				</div>
-				<div id="powerPools" className="builderInset">
-					<div className="titleHolder">
-						<h4>Pools</h4>
-					</div>
-					<div id="poolList">
-
-					</div>
-				</div>
+				<PowerPoolReadout />
 			</div>
 			<div id="generalControls" className="builderPanel">
 				<button type="button" className="pretty">View Totals</button>

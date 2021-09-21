@@ -6,6 +6,7 @@
 }
 
 #mainMenu h1 {
+	cursor: default;
 	font-size: 56px;
 	text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }

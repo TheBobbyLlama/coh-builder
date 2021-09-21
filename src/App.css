@@ -29,6 +29,12 @@ h1 {
   text-shadow: 0 0 5px gray;
 }
 
+/* Any image of unspecified size is assumed to be a small power icon. */
+img {
+  height: 16px;
+  width: 16px;
+}
+
 button.pretty, button.prettyBig {
   align-items: center;
   background: var(--main-blue) url('./assets/images/ui/bumperMiddle.png') repeat-x top;
@@ -143,6 +149,7 @@ div.builderInset {
 
 div.builderInset .titleHolder {
   background-color: black;
+  cursor: default;
   display: block;
   font-size: 12px;
   left: 8px;

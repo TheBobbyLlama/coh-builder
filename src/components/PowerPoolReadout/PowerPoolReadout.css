@@ -1,0 +1,32 @@
+#powerPools {
+	flex-basis: 100%;
+	margin-top: 8px;
+	padding-top: 16px;
+}
+
+#powerPools #poolList {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	padding: 0px 8px;
+}
+
+#powerPools #poolList > div {
+	align-items: center;
+	background-color: silver;
+	border-radius: 4px;
+	color: black;
+	cursor: default;
+	display: flex;
+	font-size: 12px;
+	height: 20px;
+	padding: 0 4px;
+	margin: 2px 2px;
+	overflow: hidden;
+	white-space: nowrap;
+	width: calc(50% - 12px);
+}
+
+#powerPools #poolList > div > img {
+	padding-right: 4px;
+}
