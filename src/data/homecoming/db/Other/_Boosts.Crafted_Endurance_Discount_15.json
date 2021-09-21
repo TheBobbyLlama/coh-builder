@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Endurance_Discount_15",
   "ImageName": "",
   "Power": [
-    1450
+    1456
   ],
   "SetType": 10,
   "DisplayName": "Crafted Endurance Discount 15",
   "nArchetype": -1,
-  "nID": 1204,
+  "nID": 1210,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1450,
-      "PowerSetID": 1204,
+      "PowerIndex": 1456,
+      "PowerSetID": 1210,
       "StaticIndex": 7395,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Endurance_Discount_15.Crafted_Endurance_Discount_15",

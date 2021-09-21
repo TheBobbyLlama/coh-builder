@@ -4,12 +4,12 @@
   "FullName": "Pets.Chain_Stun_Controller_Jump1",
   "ImageName": "",
   "Power": [
-    6247
+    6256
   ],
   "SetType": 8,
   "DisplayName": "Chain Stun Jump 1",
   "nArchetype": -1,
-  "nID": 3055,
+  "nID": 3066,
   "SubName": "Chain Stun Jump 1",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6247,
-      "PowerSetID": 3055,
+      "PowerIndex": 6256,
+      "PowerSetID": 3066,
       "StaticIndex": 4416,
       "NGroupMembership": [],
       "FullName": "Pets.Chain_Stun_Controller_Jump1.Charge",

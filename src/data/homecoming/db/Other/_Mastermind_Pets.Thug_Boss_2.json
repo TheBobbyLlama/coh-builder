@@ -4,13 +4,13 @@
   "FullName": "Mastermind_Pets.Thug_Boss_2",
   "ImageName": "",
   "Power": [
-    6048,
-    6049
+    6057,
+    6058
   ],
   "SetType": 8,
   "DisplayName": "Thug Boss",
   "nArchetype": -1,
-  "nID": 2990,
+  "nID": 3000,
   "SubName": "Thugs",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
     {
       "CastTimeReal": 1.5,
       "ToggleCost": 8.528,
-      "PowerIndex": 6048,
-      "PowerSetID": 2990,
+      "PowerIndex": 6057,
+      "PowerSetID": 3000,
       "StaticIndex": 1350,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Thug_Boss_2.Haymaker",
@@ -149,7 +149,6 @@
           "Probability": 1.0,
           "Mag": 0.816803,
           "MagPercent": 0.816803,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Damage",
@@ -385,8 +384,8 @@
     {
       "CastTimeReal": 1.23,
       "ToggleCost": 13.0,
-      "PowerIndex": 6049,
-      "PowerSetID": 2990,
+      "PowerIndex": 6058,
+      "PowerSetID": 3000,
       "PowerSetIndex": 1,
       "StaticIndex": 1351,
       "NGroupMembership": [],

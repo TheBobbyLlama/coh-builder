@@ -4,18 +4,18 @@
   "FullName": "Mastermind_Pets.Thug_Boss",
   "ImageName": "",
   "Power": [
-    6041,
-    6042,
-    6043,
-    6044,
-    6045,
-    6046,
-    6047
+    6050,
+    6051,
+    6052,
+    6053,
+    6054,
+    6055,
+    6056
   ],
   "SetType": 8,
   "DisplayName": "Thug Boss",
   "nArchetype": -1,
-  "nID": 2989,
+  "nID": 3002,
   "SubName": "Thugs",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
   "GroupName": "Mastermind_Pets",
   "Powers": [
     {
-      "PowerIndex": 6041,
-      "PowerSetID": 2989,
+      "PowerIndex": 6050,
+      "PowerSetID": 3002,
       "StaticIndex": 1337,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Thug_Boss.Resistance",
@@ -643,8 +643,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 6042,
-      "PowerSetID": 2989,
+      "PowerIndex": 6051,
+      "PowerSetID": 3002,
       "PowerSetIndex": 1,
       "StaticIndex": 1338,
       "NGroupMembership": [],
@@ -800,8 +800,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 6043,
-      "PowerSetID": 2989,
+      "PowerIndex": 6052,
+      "PowerSetID": 3002,
       "PowerSetIndex": 2,
       "StaticIndex": 1339,
       "NGroupMembership": [],
@@ -1338,8 +1338,8 @@
     {
       "CastTimeReal": 1.07,
       "ToggleCost": 3.536,
-      "PowerIndex": 6044,
-      "PowerSetID": 2989,
+      "PowerIndex": 6053,
+      "PowerSetID": 3002,
       "PowerSetIndex": 3,
       "StaticIndex": 1340,
       "NGroupMembership": [],
@@ -1463,7 +1463,6 @@
           "Probability": 1.0,
           "Mag": 0.335079372,
           "MagPercent": 0.335079372,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Damage",
@@ -1703,8 +1702,8 @@
     {
       "CastTimeReal": 1.2,
       "ToggleCost": 5.2,
-      "PowerIndex": 6045,
-      "PowerSetID": 2989,
+      "PowerIndex": 6054,
+      "PowerSetID": 3002,
       "PowerSetIndex": 4,
       "StaticIndex": 1341,
       "NGroupMembership": [],
@@ -1828,7 +1827,6 @@
           "Probability": 1.0,
           "Mag": 0.500492,
           "MagPercent": 0.500492,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Damage",
@@ -2062,8 +2060,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 6046,
-      "PowerSetID": 2989,
+      "PowerIndex": 6055,
+      "PowerSetID": 3002,
       "PowerSetIndex": 5,
       "StaticIndex": 1342,
       "NGroupMembership": [],
@@ -2168,8 +2166,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 6047,
-      "PowerSetID": 2989,
+      "PowerIndex": 6056,
+      "PowerSetID": 3002,
       "PowerSetIndex": 6,
       "StaticIndex": 1343,
       "NGroupMembership": [],

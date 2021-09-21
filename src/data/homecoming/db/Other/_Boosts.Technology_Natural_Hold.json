@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Natural_Hold",
   "ImageName": "",
   "Power": [
-    2786
+    2798
   ],
   "SetType": 10,
   "DisplayName": "Technology Natural Hold",
   "nArchetype": -1,
-  "nID": 2541,
+  "nID": 2553,
   "SubName": "Gadget (Technology, Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2786,
-      "PowerSetID": 2541,
+      "PowerIndex": 2798,
+      "PowerSetID": 2553,
       "StaticIndex": 8609,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Natural_Hold.Technology_Natural_Hold",

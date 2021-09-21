@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Trap_of_the_Hunter_C",
   "ImageName": "",
   "Power": [
-    1110
+    1116
   ],
   "SetType": 10,
   "DisplayName": "Attuned Trap of the Hunter C",
   "nArchetype": -1,
-  "nID": 865,
+  "nID": 871,
   "SubName": "Set: Trap of the Hunter",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1110,
-      "PowerSetID": 865,
+      "PowerIndex": 1116,
+      "PowerSetID": 871,
       "StaticIndex": 7086,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Trap_of_the_Hunter_C.Attuned_Trap_of_the_Hunter_C",

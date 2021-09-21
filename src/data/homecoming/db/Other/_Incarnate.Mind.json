@@ -4,12 +4,12 @@
   "FullName": "Incarnate.Mind",
   "ImageName": "",
   "Power": [
-    5457
+    5466
   ],
   "SetType": 11,
   "DisplayName": "Mind",
   "nArchetype": -1,
-  "nID": 2884,
+  "nID": 2895,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
     {
       "CastTimeReal": 2.17,
       "ToggleCost": 20.0,
-      "PowerIndex": 5457,
-      "PowerSetID": 2884,
+      "PowerIndex": 5466,
+      "PowerSetID": 2895,
       "StaticIndex": 4678,
       "NGroupMembership": [],
       "FullName": "Incarnate.Mind.Nothing",

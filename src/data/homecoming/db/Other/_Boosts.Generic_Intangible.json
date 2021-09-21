@@ -4,12 +4,12 @@
   "FullName": "Boosts.Generic_Intangible",
   "ImageName": "",
   "Power": [
-    2248
+    2254
   ],
   "SetType": 10,
   "DisplayName": "Generic Intangible",
   "nArchetype": -1,
-  "nID": 2003,
+  "nID": 2009,
   "SubName": "Training (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2248,
-      "PowerSetID": 2003,
+      "PowerIndex": 2254,
+      "PowerSetID": 2009,
       "StaticIndex": 8173,
       "NGroupMembership": [],
       "FullName": "Boosts.Generic_Intangible.Generic_Intangible",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Magic_Fly",
   "ImageName": "",
   "Power": [
-    2427
+    2433
   ],
   "SetType": 10,
   "DisplayName": "Natural Magic Fly",
   "nArchetype": -1,
-  "nID": 2182,
+  "nID": 2188,
   "SubName": "Relic (Natural, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2427,
-      "PowerSetID": 2182,
+      "PowerIndex": 2433,
+      "PowerSetID": 2188,
       "StaticIndex": 8352,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Magic_Fly.Natural_Magic_Fly",

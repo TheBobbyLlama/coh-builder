@@ -4,14 +4,14 @@
   "FullName": "Pets.Galvanic_Sentinel_Defender",
   "ImageName": "",
   "Power": [
-    6336,
-    6337,
-    6338
+    6345,
+    6346,
+    6347
   ],
   "SetType": 8,
   "DisplayName": "Galvanic Sentinel",
   "nArchetype": -1,
-  "nID": 3093,
+  "nID": 3105,
   "SubName": "",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6336,
-      "PowerSetID": 3093,
+      "PowerIndex": 6345,
+      "PowerSetID": 3105,
       "StaticIndex": 10838,
       "NGroupMembership": [],
       "FullName": "Pets.Galvanic_Sentinel_Defender.Fly",
@@ -177,8 +177,8 @@
     {
       "CastTimeReal": 2.03,
       "ToggleCost": 5.0,
-      "PowerIndex": 6337,
-      "PowerSetID": 3093,
+      "PowerIndex": 6346,
+      "PowerSetID": 3105,
       "PowerSetIndex": 1,
       "StaticIndex": 10839,
       "NGroupMembership": [],
@@ -943,8 +943,8 @@
       "AoEModifier": 3.25
     },
     {
-      "PowerIndex": 6338,
-      "PowerSetID": 3093,
+      "PowerIndex": 6347,
+      "PowerSetID": 3105,
       "PowerSetIndex": 2,
       "StaticIndex": 10848,
       "NGroupMembership": [],

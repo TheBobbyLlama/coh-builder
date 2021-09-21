@@ -4,12 +4,12 @@
   "FullName": "Boosts.Generic_Defense_Buff",
   "ImageName": "",
   "Power": [
-    2239
+    2245
   ],
   "SetType": 10,
   "DisplayName": "Generic Defense Buff",
   "nArchetype": -1,
-  "nID": 1993,
+  "nID": 1999,
   "SubName": "Training (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2239,
-      "PowerSetID": 1993,
+      "PowerIndex": 2245,
+      "PowerSetID": 1999,
       "StaticIndex": 8164,
       "NGroupMembership": [],
       "FullName": "Boosts.Generic_Defense_Buff.Generic_Defense_Buff",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Nightmare_C",
   "ImageName": "",
   "Power": [
-    1818
+    1824
   ],
   "SetType": 10,
   "DisplayName": "Crafted Nightmare C",
   "nArchetype": -1,
-  "nID": 1572,
+  "nID": 1578,
   "SubName": "Set: Nightmare",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1818,
-      "PowerSetID": 1572,
+      "PowerIndex": 1824,
+      "PowerSetID": 1578,
       "StaticIndex": 7763,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Nightmare_C.Crafted_Nightmare_C",

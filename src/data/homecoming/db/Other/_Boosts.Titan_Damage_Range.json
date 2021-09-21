@@ -4,12 +4,12 @@
   "FullName": "Boosts.Titan_Damage_Range",
   "ImageName": "",
   "Power": [
-    2819
+    2831
   ],
   "SetType": 10,
   "DisplayName": "Titan Damage Range",
   "nArchetype": -1,
-  "nID": 2574,
+  "nID": 2586,
   "SubName": "Titan (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2819,
-      "PowerSetID": 2574,
+      "PowerIndex": 2831,
+      "PowerSetID": 2586,
       "StaticIndex": 8642,
       "NGroupMembership": [],
       "FullName": "Boosts.Titan_Damage_Range.Titan_Damage_Range",

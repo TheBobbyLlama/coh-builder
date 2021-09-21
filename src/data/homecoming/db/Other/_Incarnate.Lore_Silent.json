@@ -4,12 +4,12 @@
   "FullName": "Incarnate.Lore_Silent",
   "ImageName": "",
   "Power": [
-    5456
+    5465
   ],
   "SetType": 11,
   "DisplayName": "Lore_Silent",
   "nArchetype": -1,
-  "nID": 2883,
+  "nID": 2894,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Incarnate",
   "Powers": [
     {
-      "PowerIndex": 5456,
-      "PowerSetID": 2883,
+      "PowerIndex": 5465,
+      "PowerSetID": 2894,
       "StaticIndex": 5207,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Silent.Level_Shift",

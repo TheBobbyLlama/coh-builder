@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Unspeakable_Terror_C",
   "ImageName": "",
   "Power": [
-    2221
+    2227
   ],
   "SetType": 10,
   "DisplayName": "Crafted Unspeakable Terror C",
   "nArchetype": -1,
-  "nID": 1973,
+  "nID": 1979,
   "SubName": "Set: Unspeakable Terror",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2221,
-      "PowerSetID": 1973,
+      "PowerIndex": 2227,
+      "PowerSetID": 1979,
       "StaticIndex": 8146,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Unspeakable_Terror_C.Crafted_Unspeakable_Terror_C",

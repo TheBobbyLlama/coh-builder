@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Triumphant_Insult_B",
   "ImageName": "",
   "Power": [
-    1119
+    1125
   ],
   "SetType": 10,
   "DisplayName": "Attuned Triumphant Insult B",
   "nArchetype": -1,
-  "nID": 874,
+  "nID": 880,
   "SubName": "Set: Triumphant Insult",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1119,
-      "PowerSetID": 874,
+      "PowerIndex": 1125,
+      "PowerSetID": 880,
       "StaticIndex": 7095,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Triumphant_Insult_B.Attuned_Triumphant_Insult_B",

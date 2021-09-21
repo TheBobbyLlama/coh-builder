@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Triage_C",
   "ImageName": "",
   "Power": [
-    1116
+    1122
   ],
   "SetType": 10,
   "DisplayName": "Attuned Triage C",
   "nArchetype": -1,
-  "nID": 871,
+  "nID": 877,
   "SubName": "Set: Triage",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1116,
-      "PowerSetID": 871,
+      "PowerIndex": 1122,
+      "PowerSetID": 877,
       "StaticIndex": 7092,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Triage_C.Attuned_Triage_C",

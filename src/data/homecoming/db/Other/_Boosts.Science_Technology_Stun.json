@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Technology_Stun",
   "ImageName": "",
   "Power": [
-    2507
+    2513
   ],
   "SetType": 10,
   "DisplayName": "Science Technology Stun",
   "nArchetype": -1,
-  "nID": 2262,
+  "nID": 2268,
   "SubName": "Invention (Science, Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2507,
-      "PowerSetID": 2262,
+      "PowerIndex": 2513,
+      "PowerSetID": 2268,
       "StaticIndex": 8432,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Technology_Stun.Science_Technology_Stun",

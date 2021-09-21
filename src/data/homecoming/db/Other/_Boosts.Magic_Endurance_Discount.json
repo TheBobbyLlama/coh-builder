@@ -4,12 +4,12 @@
   "FullName": "Boosts.Magic_Endurance_Discount",
   "ImageName": "",
   "Power": [
-    2296
+    2302
   ],
   "SetType": 10,
   "DisplayName": "Magic Endurance Discount",
   "nArchetype": -1,
-  "nID": 2051,
+  "nID": 2057,
   "SubName": "Dimensional Entities (Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2296,
-      "PowerSetID": 2051,
+      "PowerIndex": 2302,
+      "PowerSetID": 2057,
       "StaticIndex": 8221,
       "NGroupMembership": [],
       "FullName": "Boosts.Magic_Endurance_Discount.Magic_Endurance_Discount",

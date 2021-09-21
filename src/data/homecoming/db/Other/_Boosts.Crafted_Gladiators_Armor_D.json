@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Gladiators_Armor_D",
   "ImageName": "",
   "Power": [
-    1582
+    1588
   ],
   "SetType": 10,
   "DisplayName": "Crafted Gladiators Armor D",
   "nArchetype": -1,
-  "nID": 1336,
+  "nID": 1342,
   "SubName": "Set: Gladiator's Armor",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1582,
-      "PowerSetID": 1336,
+      "PowerIndex": 1588,
+      "PowerSetID": 1342,
       "StaticIndex": 7527,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Gladiators_Armor_D.Crafted_Gladiators_Armor_D",

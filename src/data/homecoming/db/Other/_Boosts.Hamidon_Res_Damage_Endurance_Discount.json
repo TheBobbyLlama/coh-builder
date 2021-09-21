@@ -4,12 +4,12 @@
   "FullName": "Boosts.Hamidon_Res_Damage_Endurance_Discount",
   "ImageName": "",
   "Power": [
-    2276
+    2282
   ],
   "SetType": 10,
   "DisplayName": "Hamidon Res Damage Endurance Discount",
   "nArchetype": -1,
-  "nID": 2031,
+  "nID": 2037,
   "SubName": "Hamidon (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2276,
-      "PowerSetID": 2031,
+      "PowerIndex": 2282,
+      "PowerSetID": 2037,
       "StaticIndex": 8201,
       "NGroupMembership": [],
       "FullName": "Boosts.Hamidon_Res_Damage_Endurance_Discount.Hamidon_Res_Damage_Endurance_Discount",

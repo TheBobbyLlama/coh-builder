@@ -4,13 +4,13 @@
   "FullName": "Mastermind_Pets.Lioness_2",
   "ImageName": "",
   "Power": [
-    5964,
-    5965
+    5973,
+    5974
   ],
   "SetType": 8,
   "DisplayName": "Lioness",
   "nArchetype": -1,
-  "nID": 2967,
+  "nID": 2978,
   "SubName": "Beasts",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
     {
       "CastTimeReal": 2.0,
       "ToggleCost": 13.0,
-      "PowerIndex": 5964,
-      "PowerSetID": 2967,
+      "PowerIndex": 5973,
+      "PowerSetID": 2978,
       "StaticIndex": 6204,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Lioness_2.Lions_Roar",
@@ -667,8 +667,8 @@
     {
       "CastTimeReal": 1.53,
       "ToggleCost": 13.0,
-      "PowerIndex": 5965,
-      "PowerSetID": 2967,
+      "PowerIndex": 5974,
+      "PowerSetID": 2978,
       "PowerSetIndex": 1,
       "StaticIndex": 6205,
       "NGroupMembership": [],

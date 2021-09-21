@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Undermined_Defenses_E",
   "ImageName": "",
   "Power": [
-    1134
+    1140
   ],
   "SetType": 10,
   "DisplayName": "Attuned Undermined Defenses E",
   "nArchetype": -1,
-  "nID": 889,
+  "nID": 895,
   "SubName": "Set: Undermined Defenses",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1134,
-      "PowerSetID": 889,
+      "PowerIndex": 1140,
+      "PowerSetID": 895,
       "StaticIndex": 7104,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Undermined_Defenses_E.Attuned_Undermined_Defenses_E",

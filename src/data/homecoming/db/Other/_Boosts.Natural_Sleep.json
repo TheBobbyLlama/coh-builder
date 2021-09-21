@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Sleep",
   "ImageName": "",
   "Power": [
-    2451
+    2457
   ],
   "SetType": 10,
   "DisplayName": "Natural Sleep",
   "nArchetype": -1,
-  "nID": 2206,
+  "nID": 2212,
   "SubName": "Technique (Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2451,
-      "PowerSetID": 2206,
+      "PowerIndex": 2457,
+      "PowerSetID": 2212,
       "StaticIndex": 8376,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Sleep.Natural_Sleep",

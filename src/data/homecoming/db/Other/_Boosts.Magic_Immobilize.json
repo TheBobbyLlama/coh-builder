@@ -4,12 +4,12 @@
   "FullName": "Boosts.Magic_Immobilize",
   "ImageName": "",
   "Power": [
-    2301
+    2307
   ],
   "SetType": 10,
   "DisplayName": "Magic Immobilize",
   "nArchetype": -1,
-  "nID": 2056,
+  "nID": 2062,
   "SubName": "Dimensional Entities (Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2301,
-      "PowerSetID": 2056,
+      "PowerIndex": 2307,
+      "PowerSetID": 2062,
       "StaticIndex": 8226,
       "NGroupMembership": [],
       "FullName": "Boosts.Magic_Immobilize.Magic_Immobilize",

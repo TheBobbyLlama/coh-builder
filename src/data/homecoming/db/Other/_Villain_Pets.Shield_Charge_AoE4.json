@@ -4,12 +4,12 @@
   "FullName": "Villain_Pets.Shield_Charge_AoE4",
   "ImageName": "",
   "Power": [
-    10241
+    10257
   ],
   "SetType": 8,
   "DisplayName": "Shield Defense",
   "nArchetype": -1,
-  "nID": 3517,
+  "nID": 3531,
   "SubName": "Shield Defense",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Villain_Pets",
   "Powers": [
     {
-      "PowerIndex": 10241,
-      "PowerSetID": 3517,
+      "PowerIndex": 10257,
+      "PowerSetID": 3531,
       "StaticIndex": 10706,
       "NGroupMembership": [],
       "FullName": "Villain_Pets.Shield_Charge_AoE4.Shield_Charge_AoE_Scrapper",

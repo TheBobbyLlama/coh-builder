@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Blood_Mandate_F",
   "ImageName": "",
   "Power": [
-    1263
+    1269
   ],
   "SetType": 10,
   "DisplayName": "Crafted Blood Mandate F",
   "nArchetype": -1,
-  "nID": 1018,
+  "nID": 1024,
   "SubName": "Set: Blood Mandate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1263,
-      "PowerSetID": 1018,
+      "PowerIndex": 1269,
+      "PowerSetID": 1024,
       "StaticIndex": 7209,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Blood_Mandate_F.Crafted_Blood_Mandate_F",

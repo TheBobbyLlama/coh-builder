@@ -4,23 +4,23 @@
   "FullName": "Sentinel_Defense.Bio_Organic_Armor",
   "ImageName": "BioArmor.png",
   "Power": [
-    7078,
-    7079,
-    7080,
-    7081,
-    7082,
-    7083,
-    7084,
-    7085,
-    7086,
-    7087,
-    7088,
-    7089
+    7093,
+    7094,
+    7095,
+    7096,
+    7097,
+    7098,
+    7099,
+    7100,
+    7101,
+    7102,
+    7103,
+    7104
   ],
   "SetType": 2,
   "DisplayName": "Bio Armor",
   "nArchetype": 7,
-  "nID": 3326,
+  "nID": 3340,
   "SubName": "Bio Armor",
   "ATClass": "Class_Sentinel",
   "UIDTrunkSet": "",
@@ -35,8 +35,8 @@
       "CastTimeReal": 1.0,
       "IsEpic": true,
       "LocationIndex": 42,
-      "PowerIndex": 7078,
-      "PowerSetID": 3326,
+      "PowerIndex": 7093,
+      "PowerSetID": 3340,
       "StaticIndex": 10523,
       "NGroupMembership": [
         1
@@ -53,7 +53,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            7084,
+            7099,
             -1
           ]
         ],
@@ -728,8 +728,8 @@
       "CastTimeReal": 0.67,
       "IsEpic": true,
       "LocationIndex": 43,
-      "PowerIndex": 7079,
-      "PowerSetID": 3326,
+      "PowerIndex": 7094,
+      "PowerSetID": 3340,
       "PowerSetIndex": 1,
       "StaticIndex": 10524,
       "NGroupMembership": [
@@ -747,7 +747,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            7084,
+            7099,
             -1
           ]
         ],
@@ -912,8 +912,8 @@
       "CastTimeReal": 0.67,
       "IsEpic": true,
       "LocationIndex": 44,
-      "PowerIndex": 7080,
-      "PowerSetID": 3326,
+      "PowerIndex": 7095,
+      "PowerSetID": 3340,
       "PowerSetIndex": 2,
       "StaticIndex": 10526,
       "NGroupMembership": [
@@ -931,7 +931,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            7084,
+            7099,
             -1
           ]
         ],
@@ -1604,8 +1604,8 @@
     {
       "CastTimeReal": 0.67,
       "ToggleCost": 0.26,
-      "PowerIndex": 7081,
-      "PowerSetID": 3326,
+      "PowerIndex": 7096,
+      "PowerSetID": 3340,
       "PowerSetIndex": 3,
       "StaticIndex": 10519,
       "NGroupMembership": [],
@@ -2780,11 +2780,13 @@
       "FullSetName": "Sentinel_Defense.Bio_Organic_Armor",
       "CastTime": 0.67,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Active": true,
+      "Taken": true
     },
     {
-      "PowerIndex": 7082,
-      "PowerSetID": 3326,
+      "PowerIndex": 7097,
+      "PowerSetID": 3340,
       "PowerSetIndex": 4,
       "StaticIndex": 10520,
       "NGroupMembership": [],
@@ -3577,8 +3579,8 @@
     {
       "CastTimeReal": 0.73,
       "ToggleCost": 0.26,
-      "PowerIndex": 7083,
-      "PowerSetID": 3326,
+      "PowerIndex": 7098,
+      "PowerSetID": 3340,
       "PowerSetIndex": 5,
       "StaticIndex": 10521,
       "NGroupMembership": [],
@@ -5158,8 +5160,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 7084,
-      "PowerSetID": 3326,
+      "PowerIndex": 7099,
+      "PowerSetID": 3340,
       "PowerSetIndex": 6,
       "StaticIndex": 10665,
       "NGroupMembership": [],
@@ -5269,8 +5271,8 @@
     {
       "CastTimeReal": 2.03,
       "ToggleCost": 10.4,
-      "PowerIndex": 7085,
-      "PowerSetID": 3326,
+      "PowerIndex": 7100,
+      "PowerSetID": 3340,
       "PowerSetIndex": 7,
       "StaticIndex": 10522,
       "NGroupMembership": [],
@@ -5562,8 +5564,8 @@
     {
       "CastTimeReal": 0.73,
       "ToggleCost": 13.0,
-      "PowerIndex": 7086,
-      "PowerSetID": 3326,
+      "PowerIndex": 7101,
+      "PowerSetID": 3340,
       "PowerSetIndex": 8,
       "StaticIndex": 10528,
       "NGroupMembership": [],
@@ -5969,8 +5971,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 7087,
-      "PowerSetID": 3326,
+      "PowerIndex": 7102,
+      "PowerSetID": 3340,
       "PowerSetIndex": 9,
       "StaticIndex": 10530,
       "NGroupMembership": [],
@@ -6717,8 +6719,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 7088,
-      "PowerSetID": 3326,
+      "PowerIndex": 7103,
+      "PowerSetID": 3340,
       "PowerSetIndex": 10,
       "StaticIndex": 10531,
       "NGroupMembership": [],
@@ -7809,8 +7811,8 @@
     {
       "CastTimeReal": 1.87,
       "ToggleCost": 18.2,
-      "PowerIndex": 7089,
-      "PowerSetID": 3326,
+      "PowerIndex": 7104,
+      "PowerSetID": 3340,
       "PowerSetIndex": 11,
       "StaticIndex": 10529,
       "NGroupMembership": [],

@@ -4,15 +4,15 @@
   "FullName": "Incarnate.Lore_Pet_Rikti_Boss",
   "ImageName": "",
   "Power": [
-    5392,
-    5393,
-    5394,
-    5395
+    5401,
+    5402,
+    5403,
+    5404
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Rikti_Boss",
   "nArchetype": -1,
-  "nID": 2860,
+  "nID": 2871,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -25,8 +25,8 @@
   "Powers": [
     {
       "CastTimeReal": 2.5,
-      "PowerIndex": 5392,
-      "PowerSetID": 2860,
+      "PowerIndex": 5401,
+      "PowerSetID": 2871,
       "StaticIndex": 5546,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Rikti_Boss.Greater_Rikti_Sword",
@@ -318,8 +318,8 @@
     },
     {
       "CastTimeReal": 1.67,
-      "PowerIndex": 5393,
-      "PowerSetID": 2860,
+      "PowerIndex": 5402,
+      "PowerSetID": 2871,
       "PowerSetIndex": 1,
       "StaticIndex": 5547,
       "NGroupMembership": [],
@@ -557,8 +557,8 @@
     },
     {
       "CastTimeReal": 1.67,
-      "PowerIndex": 5394,
-      "PowerSetID": 2860,
+      "PowerIndex": 5403,
+      "PowerSetID": 2871,
       "PowerSetIndex": 2,
       "StaticIndex": 5548,
       "NGroupMembership": [],
@@ -801,8 +801,8 @@
     },
     {
       "CastTimeReal": 2.03,
-      "PowerIndex": 5395,
-      "PowerSetID": 2860,
+      "PowerIndex": 5404,
+      "PowerSetID": 2871,
       "PowerSetIndex": 3,
       "StaticIndex": 5549,
       "NGroupMembership": [],

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Superior_Command_of_the_Mastermind_A",
   "ImageName": "",
   "Power": [
-    2615
+    2621
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Superior Command of the Mastermind A",
   "nArchetype": -1,
-  "nID": 2370,
+  "nID": 2376,
   "SubName": "Set: Superior Command of the Mastermind",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2615,
-      "PowerSetID": 2370,
+      "PowerIndex": 2621,
+      "PowerSetID": 2376,
       "StaticIndex": 8510,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Superior_Command_of_the_Mastermind_A.Superior_Attuned_Superior_Command_of_the_Mastermind_A",

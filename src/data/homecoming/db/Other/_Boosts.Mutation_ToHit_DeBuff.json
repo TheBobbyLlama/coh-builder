@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_ToHit_DeBuff",
   "ImageName": "",
   "Power": [
-    2400
+    2406
   ],
   "SetType": 10,
   "DisplayName": "Mutation ToHit DeBuff",
   "nArchetype": -1,
-  "nID": 2155,
+  "nID": 2161,
   "SubName": "Secondary Mutation (Mutation)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2400,
-      "PowerSetID": 2155,
+      "PowerIndex": 2406,
+      "PowerSetID": 2161,
       "StaticIndex": 8325,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_ToHit_DeBuff.Mutation_ToHit_DeBuff",

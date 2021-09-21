@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Siphon_Insight_F",
   "ImageName": "",
   "Power": [
-    1010
+    1016
   ],
   "SetType": 10,
   "DisplayName": "Attuned Siphon Insight F",
   "nArchetype": -1,
-  "nID": 765,
+  "nID": 771,
   "SubName": "Set: Siphon Insight",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1010,
-      "PowerSetID": 765,
+      "PowerIndex": 1016,
+      "PowerSetID": 771,
       "StaticIndex": 6992,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Siphon_Insight_F.Attuned_Siphon_Insight_F",
@@ -89,7 +89,7 @@
           "Special": "",
           "EffectType": 12,
           "Summon": "Set_Bonus.Set_Bonus.Siphon_Insight",
-          "nSummon": 8241,
+          "nSummon": 8256,
           "Ticks": 1,
           "UIDClassName": "",
           "nIDClassName": -1,

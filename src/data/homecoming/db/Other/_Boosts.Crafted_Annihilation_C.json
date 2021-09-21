@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Annihilation_C",
   "ImageName": "",
   "Power": [
-    1225
+    1231
   ],
   "SetType": 10,
   "DisplayName": "Crafted Annihilation C",
   "nArchetype": -1,
-  "nID": 980,
+  "nID": 986,
   "SubName": "Set: Annihilation",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1225,
-      "PowerSetID": 980,
+      "PowerIndex": 1231,
+      "PowerSetID": 986,
       "StaticIndex": 9298,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Annihilation_C.Crafted_Annihilation_C",

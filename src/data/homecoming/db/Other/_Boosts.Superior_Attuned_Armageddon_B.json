@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Armageddon_B",
   "ImageName": "",
   "Power": [
-    2526
+    2532
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Armageddon B",
   "nArchetype": -1,
-  "nID": 2281,
+  "nID": 2287,
   "SubName": "Set: Armageddon",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2526,
-      "PowerSetID": 2281,
+      "PowerIndex": 2532,
+      "PowerSetID": 2287,
       "StaticIndex": 8451,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Armageddon_B.Superior_Attuned_Armageddon_B",

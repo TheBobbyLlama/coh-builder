@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Taunt_25",
   "ImageName": "",
   "Power": [
-    2106
+    2112
   ],
   "SetType": 10,
   "DisplayName": "Crafted Taunt 25",
   "nArchetype": -1,
-  "nID": 1858,
+  "nID": 1864,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2106,
-      "PowerSetID": 1858,
+      "PowerIndex": 2112,
+      "PowerSetID": 1864,
       "StaticIndex": 8037,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Taunt_25.Crafted_Taunt_25",

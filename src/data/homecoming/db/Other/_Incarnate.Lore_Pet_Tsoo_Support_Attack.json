@@ -4,12 +4,12 @@
   "FullName": "Incarnate.Lore_Pet_Tsoo_Support_Attack",
   "ImageName": "",
   "Power": [
-    5438
+    5447
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Tsoo_Support_Attack",
   "nArchetype": -1,
-  "nID": 2877,
+  "nID": 2888,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -22,8 +22,8 @@
   "Powers": [
     {
       "CastTimeReal": 1.67,
-      "PowerIndex": 5438,
-      "PowerSetID": 2877,
+      "PowerIndex": 5447,
+      "PowerSetID": 2888,
       "StaticIndex": 9519,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Tsoo_Support_Attack.Petrifying_Gaze",

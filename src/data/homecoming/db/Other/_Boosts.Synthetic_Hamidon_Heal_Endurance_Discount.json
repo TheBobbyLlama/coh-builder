@@ -4,12 +4,12 @@
   "FullName": "Boosts.Synthetic_Hamidon_Heal_Endurance_Discount",
   "ImageName": "",
   "Power": [
-    2755
+    2767
   ],
   "SetType": 10,
   "DisplayName": "Synthetic Hamidon Heal Endurance Discount",
   "nArchetype": -1,
-  "nID": 2510,
+  "nID": 2522,
   "SubName": "Hamidon (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2755,
-      "PowerSetID": 2510,
+      "PowerIndex": 2767,
+      "PowerSetID": 2522,
       "StaticIndex": 8578,
       "NGroupMembership": [],
       "FullName": "Boosts.Synthetic_Hamidon_Heal_Endurance_Discount.Synthetic_Hamidon_Heal_Endurance_Discount",

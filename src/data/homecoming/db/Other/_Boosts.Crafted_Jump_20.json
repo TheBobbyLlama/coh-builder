@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Jump_20",
   "ImageName": "",
   "Power": [
-    1722
+    1728
   ],
   "SetType": 10,
   "DisplayName": "Crafted Jump 20",
   "nArchetype": -1,
-  "nID": 1476,
+  "nID": 1482,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1722,
-      "PowerSetID": 1476,
+      "PowerIndex": 1728,
+      "PowerSetID": 1482,
       "StaticIndex": 7667,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Jump_20.Crafted_Jump_20",

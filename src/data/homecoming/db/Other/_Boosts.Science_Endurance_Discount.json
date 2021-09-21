@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Endurance_Discount",
   "ImageName": "",
   "Power": [
-    2464
+    2470
   ],
   "SetType": 10,
   "DisplayName": "Science Endurance Discount",
   "nArchetype": -1,
-  "nID": 2219,
+  "nID": 2225,
   "SubName": "Experiment (Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2464,
-      "PowerSetID": 2219,
+      "PowerIndex": 2470,
+      "PowerSetID": 2225,
       "StaticIndex": 8389,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Endurance_Discount.Science_Endurance_Discount",

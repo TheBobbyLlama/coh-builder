@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Endurance_Discount",
   "ImageName": "",
   "Power": [
-    2408
+    2414
   ],
   "SetType": 10,
   "DisplayName": "Natural Endurance Discount",
   "nArchetype": -1,
-  "nID": 2163,
+  "nID": 2169,
   "SubName": "Technique (Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2408,
-      "PowerSetID": 2163,
+      "PowerIndex": 2414,
+      "PowerSetID": 2169,
       "StaticIndex": 8333,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Endurance_Discount.Natural_Endurance_Discount",

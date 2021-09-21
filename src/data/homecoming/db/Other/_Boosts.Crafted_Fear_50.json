@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Fear_50",
   "ImageName": "",
   "Power": [
-    1524
+    1530
   ],
   "SetType": 10,
   "DisplayName": "Crafted Fear 50",
   "nArchetype": -1,
-  "nID": 1278,
+  "nID": 1284,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1524,
-      "PowerSetID": 1278,
+      "PowerIndex": 1530,
+      "PowerSetID": 1284,
       "StaticIndex": 7469,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Fear_50.Crafted_Fear_50",

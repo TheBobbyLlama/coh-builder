@@ -4,15 +4,15 @@
   "FullName": "Incarnate.Lore_Pet_Vanguard_Boss",
   "ImageName": "",
   "Power": [
-    5439,
-    5440,
-    5441,
-    5442
+    5448,
+    5449,
+    5450,
+    5451
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Vanguard_Boss",
   "nArchetype": -1,
-  "nID": 2878,
+  "nID": 2889,
   "SubName": "Vanguard",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -25,8 +25,8 @@
   "Powers": [
     {
       "CastTimeReal": 2.5,
-      "PowerIndex": 5439,
-      "PowerSetID": 2878,
+      "PowerIndex": 5448,
+      "PowerSetID": 2889,
       "StaticIndex": 5565,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Vanguard_Boss.Life_Drain",
@@ -320,8 +320,8 @@
     },
     {
       "CastTimeReal": 2.5,
-      "PowerIndex": 5440,
-      "PowerSetID": 2878,
+      "PowerIndex": 5449,
+      "PowerSetID": 2889,
       "PowerSetIndex": 1,
       "StaticIndex": 5568,
       "NGroupMembership": [],
@@ -557,8 +557,8 @@
     },
     {
       "CastTimeReal": 2.5,
-      "PowerIndex": 5441,
-      "PowerSetID": 2878,
+      "PowerIndex": 5450,
+      "PowerSetID": 2889,
       "PowerSetIndex": 2,
       "StaticIndex": 5566,
       "NGroupMembership": [],
@@ -1085,8 +1085,8 @@
     },
     {
       "CastTimeReal": 2.5,
-      "PowerIndex": 5442,
-      "PowerSetID": 2878,
+      "PowerIndex": 5451,
+      "PowerSetID": 2889,
       "PowerSetIndex": 3,
       "StaticIndex": 5567,
       "NGroupMembership": [],

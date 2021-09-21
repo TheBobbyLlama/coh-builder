@@ -4,16 +4,16 @@
   "FullName": "Pool.Flight",
   "ImageName": "Flight.png",
   "Power": [
-    6718,
-    6719,
-    6720,
-    6721,
-    6722
+    6738,
+    6739,
+    6740,
+    6741,
+    6742
   ],
   "SetType": 5,
   "DisplayName": "Flight",
   "nArchetype": -1,
-  "nID": 3283,
+  "nID": 3298,
   "SubName": "Flight",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
     {
       "CastTimeReal": 1.5,
       "ToggleCost": 6.5,
-      "PowerIndex": 6718,
-      "PowerSetID": 3283,
+      "PowerIndex": 6738,
+      "PowerSetID": 3298,
       "StaticIndex": 1802,
       "NGroupMembership": [],
       "FullName": "Pool.Flight.Air_Superiority",
@@ -1722,9 +1722,9 @@
     },
     {
       "CastTimeReal": 1.716,
-      "ToggleCost": 1.0,
-      "PowerIndex": 6719,
-      "PowerSetID": 3283,
+      "ToggleCost": 0.456,
+      "PowerIndex": 6739,
+      "PowerSetID": 3298,
       "PowerSetIndex": 1,
       "StaticIndex": 1803,
       "NGroupMembership": [
@@ -1758,7 +1758,7 @@
       "EntitiesAutoHit": 1,
       "Target": 1,
       "TargetLoS": true,
-      "EndCost": 0.5,
+      "EndCost": 0.228,
       "ActivatePeriod": 0.5,
       "EffectArea": 1,
       "MaxBoosts": "",
@@ -2368,13 +2368,12 @@
       "FullSetName": "Pool.Flight",
       "CastTime": 1.716,
       "Slottable": true,
-      "AoEModifier": 1.0,
-      "Taken": true
+      "AoEModifier": 1.0
     },
     {
-      "ToggleCost": 0.19,
-      "PowerIndex": 6720,
-      "PowerSetID": 3283,
+      "ToggleCost": 0.196,
+      "PowerIndex": 6740,
+      "PowerSetID": 3298,
       "PowerSetIndex": 2,
       "StaticIndex": 1801,
       "NGroupMembership": [
@@ -2408,7 +2407,7 @@
       "EntitiesAutoHit": 1,
       "Target": 1,
       "TargetLoS": true,
-      "EndCost": 0.095,
+      "EndCost": 0.098,
       "ActivatePeriod": 0.5,
       "EffectArea": 1,
       "MaxBoosts": "",
@@ -4031,15 +4030,13 @@
       ],
       "FullSetName": "Pool.Flight",
       "Slottable": true,
-      "AoEModifier": 1.0,
-      "Active": true,
-      "Taken": true
+      "AoEModifier": 1.0
     },
     {
       "ToggleCost": 0.65,
       "IsEpic": true,
-      "PowerIndex": 6721,
-      "PowerSetID": 3283,
+      "PowerIndex": 6741,
+      "PowerSetID": 3298,
       "PowerSetIndex": 3,
       "StaticIndex": 5632,
       "NGroupMembership": [],
@@ -4055,16 +4052,16 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6720,
-            6718
+            6740,
+            6738
           ],
           [
-            6720,
-            6719
+            6740,
+            6739
           ],
           [
-            6718,
-            6719
+            6738,
+            6739
           ]
         ],
         "NPowerIDNot": [],
@@ -5602,15 +5599,14 @@
       ],
       "FullSetName": "Pool.Flight",
       "Slottable": true,
-      "AoEModifier": 1.0,
-      "Taken": true
+      "AoEModifier": 1.0
     },
     {
       "CastTimeReal": 2.03,
       "ToggleCost": 0.65,
       "IsEpic": true,
-      "PowerIndex": 6722,
-      "PowerSetID": 3283,
+      "PowerIndex": 6742,
+      "PowerSetID": 3298,
       "PowerSetIndex": 4,
       "StaticIndex": 1804,
       "NGroupMembership": [
@@ -5629,16 +5625,16 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6720,
-            6718
+            6740,
+            6738
           ],
           [
-            6720,
-            6719
+            6740,
+            6739
           ],
           [
-            6718,
-            6719
+            6738,
+            6739
           ]
         ],
         "NPowerIDNot": [],

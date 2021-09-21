@@ -4,14 +4,14 @@
   "FullName": "Incarnate.Lore_Pet_Arachnos_Boss",
   "ImageName": "",
   "Power": [
-    5273,
-    5274,
-    5275
+    5282,
+    5283,
+    5284
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Arachnos_Boss",
   "nArchetype": -1,
-  "nID": 2816,
+  "nID": 2827,
   "SubName": "Arachnos",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "Powers": [
     {
       "CastTimeReal": 1.7,
-      "PowerIndex": 5273,
-      "PowerSetID": 2816,
+      "PowerIndex": 5282,
+      "PowerSetID": 2827,
       "StaticIndex": 5468,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Arachnos_Boss.Venom_Burst",
@@ -620,8 +620,8 @@
     },
     {
       "CastTimeReal": 0.67,
-      "PowerIndex": 5274,
-      "PowerSetID": 2816,
+      "PowerIndex": 5283,
+      "PowerSetID": 2827,
       "PowerSetIndex": 1,
       "StaticIndex": 5470,
       "NGroupMembership": [],
@@ -856,8 +856,8 @@
     },
     {
       "CastTimeReal": 0.83,
-      "PowerIndex": 5275,
-      "PowerSetID": 2816,
+      "PowerIndex": 5284,
+      "PowerSetID": 2827,
       "PowerSetIndex": 2,
       "StaticIndex": 5469,
       "NGroupMembership": [],

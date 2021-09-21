@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Far_Strike_A",
   "ImageName": "",
   "Power": [
-    1512
+    1518
   ],
   "SetType": 10,
   "DisplayName": "Crafted Far Strike A",
   "nArchetype": -1,
-  "nID": 1266,
+  "nID": 1272,
   "SubName": "Set: Far Strike",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1512,
-      "PowerSetID": 1266,
+      "PowerIndex": 1518,
+      "PowerSetID": 1272,
       "StaticIndex": 7457,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Far_Strike_A.Crafted_Far_Strike_A",

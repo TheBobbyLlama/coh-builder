@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Makos_Bite_B",
   "ImageName": "",
   "Power": [
-    1781
+    1787
   ],
   "SetType": 10,
   "DisplayName": "Crafted Mako's Bite B",
   "nArchetype": -1,
-  "nID": 1534,
+  "nID": 1540,
   "SubName": "Set: Mako's Bite",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1781,
-      "PowerSetID": 1534,
+      "PowerIndex": 1787,
+      "PowerSetID": 1540,
       "StaticIndex": 7726,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Makos_Bite_B.Crafted_Makos_Bite_B",

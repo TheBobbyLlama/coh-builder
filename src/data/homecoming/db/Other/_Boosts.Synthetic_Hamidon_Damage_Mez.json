@@ -4,12 +4,12 @@
   "FullName": "Boosts.Synthetic_Hamidon_Damage_Mez",
   "ImageName": "",
   "Power": [
-    2751
+    2763
   ],
   "SetType": 10,
   "DisplayName": "Synthetic Hamidon Damage Mez",
   "nArchetype": -1,
-  "nID": 2506,
+  "nID": 2518,
   "SubName": "Hamidon (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2751,
-      "PowerSetID": 2506,
+      "PowerIndex": 2763,
+      "PowerSetID": 2518,
       "StaticIndex": 8574,
       "NGroupMembership": [],
       "FullName": "Boosts.Synthetic_Hamidon_Damage_Mez.Synthetic_Hamidon_Damage_Mez",

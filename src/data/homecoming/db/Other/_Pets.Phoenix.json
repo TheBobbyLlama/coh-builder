@@ -4,12 +4,12 @@
   "FullName": "Pets.Phoenix",
   "ImageName": "",
   "Power": [
-    6447
+    6467
   ],
   "SetType": 8,
   "DisplayName": "Phoenix",
   "nArchetype": -1,
-  "nID": 3157,
+  "nID": 3172,
   "SubName": "Phoenix",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6447,
-      "PowerSetID": 3157,
+      "PowerIndex": 6467,
+      "PowerSetID": 3172,
       "StaticIndex": 1679,
       "NGroupMembership": [],
       "FullName": "Pets.Phoenix.Phoenix",

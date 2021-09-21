@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Brilliant_Leadership_D",
   "ImageName": "",
   "Power": [
-    1271
+    1277
   ],
   "SetType": 10,
   "DisplayName": "Crafted Brilliant Leadership D",
   "nArchetype": -1,
-  "nID": 1025,
+  "nID": 1031,
   "SubName": "Set: Brilliant Leadership",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1271,
-      "PowerSetID": 1025,
+      "PowerIndex": 1277,
+      "PowerSetID": 1031,
       "StaticIndex": 7216,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Brilliant_Leadership_D.Crafted_Brilliant_Leadership_D",

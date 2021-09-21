@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Sting_of_the_Manticore_D",
   "ImageName": "",
   "Power": [
-    2082
+    2088
   ],
   "SetType": 10,
   "DisplayName": "Crafted Sting of the Manticore D",
   "nArchetype": -1,
-  "nID": 1835,
+  "nID": 1841,
   "SubName": "Set: Sting of the Manticore",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2082,
-      "PowerSetID": 1835,
+      "PowerIndex": 2088,
+      "PowerSetID": 1841,
       "StaticIndex": 8014,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Sting_of_the_Manticore_D.Crafted_Sting_of_the_Manticore_D",

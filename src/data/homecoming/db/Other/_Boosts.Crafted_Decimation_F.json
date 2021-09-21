@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Decimation_F",
   "ImageName": "",
   "Power": [
-    1379
+    1385
   ],
   "SetType": 10,
   "DisplayName": "Crafted Decimation F",
   "nArchetype": -1,
-  "nID": 1133,
+  "nID": 1139,
   "SubName": "Set: Decimation",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1379,
-      "PowerSetID": 1133,
+      "PowerIndex": 1385,
+      "PowerSetID": 1139,
       "StaticIndex": 7324,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Decimation_F.Crafted_Decimation_F",
@@ -89,7 +89,7 @@
           "Special": "",
           "EffectType": 12,
           "Summon": "Set_Bonus.Set_Bonus.Boost_Up",
-          "nSummon": 7774,
+          "nSummon": 7789,
           "Ticks": 1,
           "UIDClassName": "",
           "nIDClassName": -1,

@@ -4,13 +4,13 @@
   "FullName": "Incarnate.Lore_Pet_Carnival_Support",
   "ImageName": "",
   "Power": [
-    5299,
-    5300
+    5308,
+    5309
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Carnival_Support",
   "nArchetype": -1,
-  "nID": 2826,
+  "nID": 2837,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "Powers": [
     {
       "CastTimeReal": 2.27,
-      "PowerIndex": 5299,
-      "PowerSetID": 2826,
+      "PowerIndex": 5308,
+      "PowerSetID": 2837,
       "StaticIndex": 5484,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Carnival_Support.Cauterize",
@@ -136,8 +136,8 @@
     },
     {
       "CastTimeReal": 2.27,
-      "PowerIndex": 5300,
-      "PowerSetID": 2826,
+      "PowerIndex": 5309,
+      "PowerSetID": 2837,
       "PowerSetIndex": 1,
       "StaticIndex": 5485,
       "NGroupMembership": [],

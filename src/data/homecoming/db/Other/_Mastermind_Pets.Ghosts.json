@@ -4,18 +4,18 @@
   "FullName": "Mastermind_Pets.Ghosts",
   "ImageName": "",
   "Power": [
-    5905,
-    5906,
-    5907,
-    5908,
-    5909,
-    5910,
-    5911
+    5914,
+    5915,
+    5916,
+    5917,
+    5918,
+    5919,
+    5920
   ],
   "SetType": 8,
   "DisplayName": "Ghosts",
   "nArchetype": -1,
-  "nID": 2950,
+  "nID": 2961,
   "SubName": "Ghosts",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
   "GroupName": "Mastermind_Pets",
   "Powers": [
     {
-      "PowerIndex": 5905,
-      "PowerSetID": 2950,
+      "PowerIndex": 5914,
+      "PowerSetID": 2961,
       "StaticIndex": 1207,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Ghosts.Resistance",
@@ -699,8 +699,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5906,
-      "PowerSetID": 2950,
+      "PowerIndex": 5915,
+      "PowerSetID": 2961,
       "PowerSetIndex": 1,
       "StaticIndex": 1210,
       "NGroupMembership": [],
@@ -979,8 +979,8 @@
     {
       "CastTimeReal": 1.67,
       "ToggleCost": 2.6,
-      "PowerIndex": 5907,
-      "PowerSetID": 2950,
+      "PowerIndex": 5916,
+      "PowerSetID": 2961,
       "PowerSetIndex": 2,
       "StaticIndex": 1211,
       "NGroupMembership": [],
@@ -1163,8 +1163,8 @@
     {
       "CastTimeReal": 1.93,
       "ToggleCost": 7.8,
-      "PowerIndex": 5908,
-      "PowerSetID": 2950,
+      "PowerIndex": 5917,
+      "PowerSetID": 2961,
       "PowerSetIndex": 3,
       "StaticIndex": 1212,
       "NGroupMembership": [],
@@ -1410,8 +1410,8 @@
     {
       "CastTimeReal": 2.07,
       "ToggleCost": 6.24,
-      "PowerIndex": 5909,
-      "PowerSetID": 2950,
+      "PowerIndex": 5918,
+      "PowerSetID": 2961,
       "PowerSetIndex": 4,
       "StaticIndex": 1213,
       "NGroupMembership": [],
@@ -1714,8 +1714,8 @@
     {
       "CastTimeReal": 3.0,
       "ToggleCost": 3.64,
-      "PowerIndex": 5910,
-      "PowerSetID": 2950,
+      "PowerIndex": 5919,
+      "PowerSetID": 2961,
       "PowerSetIndex": 5,
       "StaticIndex": 1214,
       "NGroupMembership": [],
@@ -2165,8 +2165,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5911,
-      "PowerSetID": 2950,
+      "PowerIndex": 5920,
+      "PowerSetID": 2961,
       "PowerSetIndex": 6,
       "StaticIndex": 1215,
       "NGroupMembership": [],

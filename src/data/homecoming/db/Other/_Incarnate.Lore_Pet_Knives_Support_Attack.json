@@ -4,12 +4,12 @@
   "FullName": "Incarnate.Lore_Pet_Knives_Support_Attack",
   "ImageName": "",
   "Power": [
-    5359
+    5368
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Knives_Support_Attack",
   "nArchetype": -1,
-  "nID": 2846,
+  "nID": 2857,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -22,8 +22,8 @@
   "Powers": [
     {
       "CastTimeReal": 2.1,
-      "PowerIndex": 5359,
-      "PowerSetID": 2846,
+      "PowerIndex": 5368,
+      "PowerSetID": 2857,
       "StaticIndex": 9498,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Knives_Support_Attack.Concussive_Blow",

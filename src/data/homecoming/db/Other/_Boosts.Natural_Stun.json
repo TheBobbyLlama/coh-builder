@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Stun",
   "ImageName": "",
   "Power": [
-    2453
+    2459
   ],
   "SetType": 10,
   "DisplayName": "Natural Stun",
   "nArchetype": -1,
-  "nID": 2208,
+  "nID": 2214,
   "SubName": "Technique (Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2453,
-      "PowerSetID": 2208,
+      "PowerIndex": 2459,
+      "PowerSetID": 2214,
       "StaticIndex": 8378,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Stun.Natural_Stun",

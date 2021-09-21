@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Superior_Defenders_Bastion_B",
   "ImageName": "",
   "Power": [
-    2628
+    2634
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Superior Defenders Bastion B",
   "nArchetype": -1,
-  "nID": 2383,
+  "nID": 2389,
   "SubName": "Set: Superior Defender's Bastion",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2628,
-      "PowerSetID": 2383,
+      "PowerIndex": 2634,
+      "PowerSetID": 2389,
       "StaticIndex": 8517,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Superior_Defenders_Bastion_B.Superior_Attuned_Superior_Defenders_Bastion_B",

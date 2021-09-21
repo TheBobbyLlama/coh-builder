@@ -4,13 +4,13 @@
   "FullName": "Mastermind_Pets.Lich_3",
   "ImageName": "",
   "Power": [
-    5955,
-    5956
+    5964,
+    5965
   ],
   "SetType": 8,
   "DisplayName": "Lich",
   "nArchetype": -1,
-  "nID": 2965,
+  "nID": 2976,
   "SubName": "Lich",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
     {
       "CastTimeReal": 2.03,
       "ToggleCost": 3.64,
-      "PowerIndex": 5955,
-      "PowerSetID": 2965,
+      "PowerIndex": 5964,
+      "PowerSetID": 2976,
       "StaticIndex": 1239,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Lich_3.Fearsome_Stare",
@@ -275,8 +275,8 @@
     {
       "CastTimeReal": 1.67,
       "ToggleCost": 3.64,
-      "PowerIndex": 5956,
-      "PowerSetID": 2965,
+      "PowerIndex": 5965,
+      "PowerSetID": 2976,
       "PowerSetIndex": 1,
       "StaticIndex": 1243,
       "NGroupMembership": [],

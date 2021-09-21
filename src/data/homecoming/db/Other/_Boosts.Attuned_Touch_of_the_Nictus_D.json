@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Touch_of_the_Nictus_D",
   "ImageName": "",
   "Power": [
-    1105
+    1111
   ],
   "SetType": 10,
   "DisplayName": "Attuned Touch of the Nictus D",
   "nArchetype": -1,
-  "nID": 860,
+  "nID": 866,
   "SubName": "Set: Touch of the Nictus",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1105,
-      "PowerSetID": 860,
+      "PowerIndex": 1111,
+      "PowerSetID": 866,
       "StaticIndex": 7081,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Touch_of_the_Nictus_D.Attuned_Touch_of_the_Nictus_D",

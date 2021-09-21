@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Run",
   "ImageName": "",
   "Power": [
-    2450
+    2456
   ],
   "SetType": 10,
   "DisplayName": "Natural Run",
   "nArchetype": -1,
-  "nID": 2205,
+  "nID": 2211,
   "SubName": "Technique (Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2450,
-      "PowerSetID": 2205,
+      "PowerIndex": 2456,
+      "PowerSetID": 2211,
       "StaticIndex": 8375,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Run.Natural_Run",

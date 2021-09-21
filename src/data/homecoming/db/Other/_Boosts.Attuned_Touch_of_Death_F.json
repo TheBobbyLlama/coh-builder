@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Touch_of_Death_F",
   "ImageName": "",
   "Power": [
-    1095
+    1101
   ],
   "SetType": 10,
   "DisplayName": "Attuned Touch of Death F",
   "nArchetype": -1,
-  "nID": 850,
+  "nID": 856,
   "SubName": "Set: Touch of Death",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1095,
-      "PowerSetID": 850,
+      "PowerIndex": 1101,
+      "PowerSetID": 856,
       "StaticIndex": 7071,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Touch_of_Death_F.Attuned_Touch_of_Death_F",

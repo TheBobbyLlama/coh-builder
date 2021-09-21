@@ -4,14 +4,14 @@
   "FullName": "Mastermind_Pets.Demon_Prince_2",
   "ImageName": "",
   "Power": [
-    5857,
-    5858,
-    5859
+    5866,
+    5867,
+    5868
   ],
   "SetType": 8,
   "DisplayName": "Demon Prince",
   "nArchetype": -1,
-  "nID": 2932,
+  "nID": 2943,
   "SubName": "Demons",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -25,8 +25,8 @@
     {
       "CastTimeReal": 1.87,
       "ToggleCost": 8.528,
-      "PowerIndex": 5857,
-      "PowerSetID": 2932,
+      "PowerIndex": 5866,
+      "PowerSetID": 2943,
       "StaticIndex": 4201,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Demon_Prince_2.Block_of_Ice",
@@ -856,8 +856,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5858,
-      "PowerSetID": 2932,
+      "PowerIndex": 5867,
+      "PowerSetID": 2943,
       "PowerSetIndex": 1,
       "StaticIndex": 4203,
       "NGroupMembership": [],
@@ -1276,8 +1276,8 @@
     {
       "CastTimeReal": 1.83,
       "ToggleCost": 8.528,
-      "PowerIndex": 5859,
-      "PowerSetID": 2932,
+      "PowerIndex": 5868,
+      "PowerSetID": 2943,
       "PowerSetIndex": 2,
       "StaticIndex": 4204,
       "NGroupMembership": [],

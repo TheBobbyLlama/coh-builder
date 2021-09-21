@@ -4,20 +4,20 @@
   "FullName": "Tanker_Melee.Super_Strength",
   "ImageName": "SuperStrength.png",
   "Power": [
-    8856,
-    8857,
-    8858,
-    8859,
-    8860,
-    8861,
-    8862,
-    8863,
-    8864
+    8871,
+    8872,
+    8873,
+    8874,
+    8875,
+    8876,
+    8877,
+    8878,
+    8879
   ],
   "SetType": 2,
   "DisplayName": "Super Strength",
   "nArchetype": 4,
-  "nID": 3413,
+  "nID": 3427,
   "SubName": "Super Strength",
   "ATClass": "Class_Tanker",
   "UIDTrunkSet": "",
@@ -31,8 +31,8 @@
     {
       "CastTimeReal": 1.07,
       "ToggleCost": 3.536,
-      "PowerIndex": 8856,
-      "PowerSetID": 3413,
+      "PowerIndex": 8871,
+      "PowerSetID": 3427,
       "StaticIndex": 2604,
       "NGroupMembership": [],
       "FullName": "Tanker_Melee.Super_Strength.Jab",
@@ -577,13 +577,14 @@
       "FullSetName": "Tanker_Melee.Super_Strength",
       "CastTime": 1.07,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.2,
       "ToggleCost": 5.2,
-      "PowerIndex": 8857,
-      "PowerSetID": 3413,
+      "PowerIndex": 8872,
+      "PowerSetID": 3427,
       "PowerSetIndex": 1,
       "StaticIndex": 2605,
       "NGroupMembership": [],
@@ -1129,8 +1130,8 @@
     {
       "CastTimeReal": 1.5,
       "ToggleCost": 8.528,
-      "PowerIndex": 8858,
-      "PowerSetID": 3413,
+      "PowerIndex": 8873,
+      "PowerSetID": 3427,
       "PowerSetIndex": 2,
       "StaticIndex": 2606,
       "NGroupMembership": [],
@@ -1675,8 +1676,8 @@
     },
     {
       "CastTimeReal": 1.67,
-      "PowerIndex": 8859,
-      "PowerSetID": 3413,
+      "PowerIndex": 8874,
+      "PowerSetID": 3427,
       "PowerSetIndex": 3,
       "StaticIndex": 2607,
       "NGroupMembership": [],
@@ -1985,8 +1986,8 @@
     {
       "CastTimeReal": 1.23,
       "ToggleCost": 13.0,
-      "PowerIndex": 8860,
-      "PowerSetID": 3413,
+      "PowerIndex": 8875,
+      "PowerSetID": 3427,
       "PowerSetIndex": 4,
       "StaticIndex": 2608,
       "NGroupMembership": [],
@@ -2598,8 +2599,8 @@
     {
       "CastTimeReal": 2.23,
       "ToggleCost": 18.51,
-      "PowerIndex": 8861,
-      "PowerSetID": 3413,
+      "PowerIndex": 8876,
+      "PowerSetID": 3427,
       "PowerSetIndex": 5,
       "StaticIndex": 2609,
       "NGroupMembership": [],
@@ -3264,13 +3265,15 @@
       "FullSetName": "Tanker_Melee.Super_Strength",
       "CastTime": 2.23,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.17,
       "ToggleCost": 5.2,
-      "PowerIndex": 8862,
-      "PowerSetID": 3413,
+      "PowerIndex": 8877,
+      "PowerSetID": 3427,
       "PowerSetIndex": 6,
       "StaticIndex": 2610,
       "NGroupMembership": [],
@@ -4573,13 +4576,14 @@
       "FullSetName": "Tanker_Melee.Super_Strength",
       "CastTime": 1.17,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 2.5,
       "ToggleCost": 9.36,
-      "PowerIndex": 8863,
-      "PowerSetID": 3413,
+      "PowerIndex": 8878,
+      "PowerSetID": 3427,
       "PowerSetIndex": 7,
       "StaticIndex": 2611,
       "NGroupMembership": [],
@@ -5185,8 +5189,8 @@
     {
       "CastTimeReal": 2.1,
       "ToggleCost": 18.512,
-      "PowerIndex": 8864,
-      "PowerSetID": 3413,
+      "PowerIndex": 8879,
+      "PowerSetID": 3427,
       "PowerSetIndex": 8,
       "StaticIndex": 2612,
       "NGroupMembership": [],
@@ -5732,7 +5736,9 @@
       "FullSetName": "Tanker_Melee.Super_Strength",
       "CastTime": 2.1,
       "Slottable": true,
-      "AoEModifier": 3.25
+      "AoEModifier": 3.25,
+      "Active": true,
+      "Taken": true
     }
   ]
 }

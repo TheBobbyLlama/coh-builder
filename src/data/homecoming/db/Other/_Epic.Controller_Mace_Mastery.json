@@ -4,16 +4,16 @@
   "FullName": "Epic.Controller_Mace_Mastery",
   "ImageName": "PatronShield.png",
   "Power": [
-    4143,
-    4144,
-    4145,
-    4146,
-    4147
+    4152,
+    4153,
+    4154,
+    4155,
+    4156
   ],
   "SetType": 3,
   "DisplayName": "Mace Mastery",
   "nArchetype": -1,
-  "nID": 2767,
+  "nID": 2771,
   "SubName": "Mace Mastery",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
     {
       "CastTimeReal": 2.0,
       "ToggleCost": 13.0,
-      "PowerIndex": 4143,
-      "PowerSetID": 2767,
+      "PowerIndex": 4152,
+      "PowerSetID": 2771,
       "StaticIndex": 4500,
       "NGroupMembership": [],
       "FullName": "Epic.Controller_Mace_Mastery.Poisonous_Ray",
@@ -979,8 +979,8 @@
     {
       "CastTimeReal": 2.0,
       "ToggleCost": 0.325,
-      "PowerIndex": 4144,
-      "PowerSetID": 2767,
+      "PowerIndex": 4153,
+      "PowerSetID": 2771,
       "PowerSetIndex": 1,
       "StaticIndex": 4501,
       "NGroupMembership": [],
@@ -2173,8 +2173,8 @@
     {
       "CastTimeReal": 2.0,
       "ToggleCost": 18.98,
-      "PowerIndex": 4145,
-      "PowerSetID": 2767,
+      "PowerIndex": 4154,
+      "PowerSetID": 2771,
       "PowerSetIndex": 2,
       "StaticIndex": 4502,
       "NGroupMembership": [],
@@ -2739,8 +2739,8 @@
       "CastTimeReal": 1.17,
       "ToggleCost": 0.78,
       "IsEpic": true,
-      "PowerIndex": 4146,
-      "PowerSetID": 2767,
+      "PowerIndex": 4155,
+      "PowerSetID": 2771,
       "PowerSetIndex": 3,
       "StaticIndex": 4541,
       "NGroupMembership": [],
@@ -2756,11 +2756,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4143,
+            4152,
             -1
           ],
           [
-            4144,
+            4153,
             -1
           ]
         ],
@@ -3116,8 +3116,8 @@
       "CastTimeReal": 3.03,
       "ToggleCost": 26.0,
       "IsEpic": true,
-      "PowerIndex": 4147,
-      "PowerSetID": 2767,
+      "PowerIndex": 4156,
+      "PowerSetID": 2771,
       "PowerSetIndex": 4,
       "StaticIndex": 4504,
       "NGroupMembership": [],
@@ -3133,24 +3133,24 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4143,
-            4144
+            4152,
+            4153
           ],
           [
-            4143,
-            4145
+            4152,
+            4154
           ],
           [
-            4143,
-            4146
+            4152,
+            4155
           ],
           [
-            4144,
-            4145
+            4153,
+            4154
           ],
           [
-            4144,
-            4146
+            4153,
+            4155
           ]
         ],
         "NPowerIDNot": [],

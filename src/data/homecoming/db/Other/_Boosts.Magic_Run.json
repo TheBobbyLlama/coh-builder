@@ -4,12 +4,12 @@
   "FullName": "Boosts.Magic_Run",
   "ImageName": "",
   "Power": [
-    2310
+    2316
   ],
   "SetType": 10,
   "DisplayName": "Magic Run",
   "nArchetype": -1,
-  "nID": 2065,
+  "nID": 2071,
   "SubName": "Dimensional Entities (Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2310,
-      "PowerSetID": 2065,
+      "PowerIndex": 2316,
+      "PowerSetID": 2071,
       "StaticIndex": 8235,
       "NGroupMembership": [],
       "FullName": "Boosts.Magic_Run.Magic_Run",

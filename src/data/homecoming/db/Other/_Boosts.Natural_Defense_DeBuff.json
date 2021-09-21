@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Defense_DeBuff",
   "ImageName": "",
   "Power": [
-    2406
+    2412
   ],
   "SetType": 10,
   "DisplayName": "Natural Defense DeBuff",
   "nArchetype": -1,
-  "nID": 2160,
+  "nID": 2166,
   "SubName": "Technique (Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2406,
-      "PowerSetID": 2160,
+      "PowerIndex": 2412,
+      "PowerSetID": 2166,
       "StaticIndex": 8331,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Defense_DeBuff.Natural_Defense_DeBuff",

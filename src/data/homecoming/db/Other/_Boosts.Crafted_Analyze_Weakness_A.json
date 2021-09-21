@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Analyze_Weakness_A",
   "ImageName": "",
   "Power": [
-    1217
+    1223
   ],
   "SetType": 10,
   "DisplayName": "Crafted Analyze Weakness A",
   "nArchetype": -1,
-  "nID": 972,
+  "nID": 978,
   "SubName": "Set: Analyze Weakness",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1217,
-      "PowerSetID": 972,
+      "PowerIndex": 1223,
+      "PowerSetID": 978,
       "StaticIndex": 7169,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Analyze_Weakness_A.Crafted_Analyze_Weakness_A",

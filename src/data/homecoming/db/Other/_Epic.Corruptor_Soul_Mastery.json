@@ -4,16 +4,16 @@
   "FullName": "Epic.Corruptor_Soul_Mastery",
   "ImageName": "PatronHold.png",
   "Power": [
-    4163,
-    4164,
-    4165,
-    4166,
-    4167
+    4172,
+    4173,
+    4174,
+    4175,
+    4176
   ],
   "SetType": 3,
   "DisplayName": "Soul Mastery",
   "nArchetype": -1,
-  "nID": 2787,
+  "nID": 2802,
   "SubName": "Soul Mastery",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
     {
       "CastTimeReal": 4.092,
       "ToggleCost": 19.5,
-      "PowerIndex": 4163,
-      "PowerSetID": 2787,
+      "PowerIndex": 4172,
+      "PowerSetID": 2802,
       "StaticIndex": 887,
       "NGroupMembership": [],
       "FullName": "Epic.Corruptor_Soul_Mastery.Soul_Drain",
@@ -1329,8 +1329,8 @@
     {
       "CastTimeReal": 0.67,
       "ToggleCost": 0.325,
-      "PowerIndex": 4164,
-      "PowerSetID": 2787,
+      "PowerIndex": 4173,
+      "PowerSetID": 2802,
       "PowerSetIndex": 1,
       "StaticIndex": 888,
       "NGroupMembership": [],
@@ -2105,8 +2105,8 @@
       "CastTimeReal": 1.17,
       "ToggleCost": 9.75,
       "IsEpic": true,
-      "PowerIndex": 4165,
-      "PowerSetID": 2787,
+      "PowerIndex": 4174,
+      "PowerSetID": 2802,
       "PowerSetIndex": 2,
       "StaticIndex": 3300,
       "NGroupMembership": [],
@@ -2122,11 +2122,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4163,
+            4172,
             -1
           ],
           [
-            4164,
+            4173,
             -1
           ]
         ],
@@ -3537,8 +3537,8 @@
       "CastTimeReal": 2.17,
       "ToggleCost": 10.66,
       "IsEpic": true,
-      "PowerIndex": 4166,
-      "PowerSetID": 2787,
+      "PowerIndex": 4175,
+      "PowerSetID": 2802,
       "PowerSetIndex": 3,
       "StaticIndex": 889,
       "NGroupMembership": [],
@@ -3554,11 +3554,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4163,
+            4172,
             -1
           ],
           [
-            4164,
+            4173,
             -1
           ]
         ],
@@ -4000,8 +4000,8 @@
       "CastTimeReal": 3.2,
       "ToggleCost": 26.0,
       "IsEpic": true,
-      "PowerIndex": 4167,
-      "PowerSetID": 2787,
+      "PowerIndex": 4176,
+      "PowerSetID": 2802,
       "PowerSetIndex": 4,
       "StaticIndex": 890,
       "NGroupMembership": [],
@@ -4017,24 +4017,24 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4163,
-            4164
+            4172,
+            4173
           ],
           [
-            4163,
-            4165
+            4172,
+            4174
           ],
           [
-            4163,
-            4166
+            4172,
+            4175
           ],
           [
-            4164,
-            4165
+            4173,
+            4174
           ],
           [
-            4164,
-            4166
+            4173,
+            4175
           ]
         ],
         "NPowerIDNot": [],

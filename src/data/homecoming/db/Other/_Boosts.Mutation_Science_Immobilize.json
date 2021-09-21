@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Science_Immobilize",
   "ImageName": "",
   "Power": [
-    2379
+    2385
   ],
   "SetType": 10,
   "DisplayName": "Mutation Science Immobilize",
   "nArchetype": -1,
-  "nID": 2134,
+  "nID": 2140,
   "SubName": "Genetic Alteration (Mutation, Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2379,
-      "PowerSetID": 2134,
+      "PowerIndex": 2385,
+      "PowerSetID": 2140,
       "StaticIndex": 8304,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Science_Immobilize.Mutation_Science_Immobilize",

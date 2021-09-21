@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Theft_of_Essence_B",
   "ImageName": "",
   "Power": [
-    1070
+    1076
   ],
   "SetType": 10,
   "DisplayName": "Attuned Theft of Essence B",
   "nArchetype": -1,
-  "nID": 825,
+  "nID": 831,
   "SubName": "Set: Theft of Essence",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1070,
-      "PowerSetID": 825,
+      "PowerIndex": 1076,
+      "PowerSetID": 831,
       "StaticIndex": 7046,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Theft_of_Essence_B.Attuned_Theft_of_Essence_B",

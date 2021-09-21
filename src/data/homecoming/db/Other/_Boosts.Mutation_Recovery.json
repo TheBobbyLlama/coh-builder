@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Recovery",
   "ImageName": "",
   "Power": [
-    2364
+    2370
   ],
   "SetType": 10,
   "DisplayName": "Mutation Endurance",
   "nArchetype": -1,
-  "nID": 2078,
+  "nID": 2084,
   "SubName": "Secondary Mutation (Mutation)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2364,
-      "PowerSetID": 2078,
+      "PowerIndex": 2370,
+      "PowerSetID": 2084,
       "StaticIndex": 8289,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Recovery.Mutation_Recovery",

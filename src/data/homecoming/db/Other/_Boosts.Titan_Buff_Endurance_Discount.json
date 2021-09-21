@@ -4,12 +4,12 @@
   "FullName": "Boosts.Titan_Buff_Endurance_Discount",
   "ImageName": "",
   "Power": [
-    2815
+    2827
   ],
   "SetType": 10,
   "DisplayName": "Titan Buff Endurance Discount",
   "nArchetype": -1,
-  "nID": 2570,
+  "nID": 2582,
   "SubName": "Titan (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2815,
-      "PowerSetID": 2570,
+      "PowerIndex": 2827,
+      "PowerSetID": 2582,
       "StaticIndex": 8638,
       "NGroupMembership": [],
       "FullName": "Boosts.Titan_Buff_Endurance_Discount.Titan_Buff_Endurance_Discount",

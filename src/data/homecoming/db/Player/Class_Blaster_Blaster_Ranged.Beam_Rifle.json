@@ -1947,7 +1947,8 @@
       "FullSetName": "Blaster_Ranged.Beam_Rifle",
       "CastTime": 1.67,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.9,
@@ -2794,7 +2795,8 @@
       "FullSetName": "Blaster_Ranged.Beam_Rifle",
       "CastTime": 1.9,
       "Slottable": true,
-      "AoEModifier": 2.44994545
+      "AoEModifier": 2.44994545,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.9,
@@ -3651,7 +3653,7 @@
           "nID": 13,
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.Beam_Rifle_Debuff",
-          "nSummon": 9414,
+          "nSummon": 9430,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 1,
@@ -3698,7 +3700,8 @@
       "FullSetName": "Blaster_Ranged.Beam_Rifle",
       "CastTime": 1.9,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.17,
@@ -3747,7 +3750,7 @@
         8,
         18
       ],
-      "DescShort": "Self +To-hit, +DMG",
+      "DescShort": "Self +To Hit, +DMG",
       "DescLong": "Greatly increases the chance to hit of your attacks for a few seconds. Slightly increases damage. Recharge: Long",
       "SetTypes": [
         25
@@ -4296,7 +4299,8 @@
       "FullSetName": "Blaster_Ranged.Beam_Rifle",
       "CastTime": 1.17,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.9,
@@ -5259,10 +5263,11 @@
       "FullSetName": "Blaster_Ranged.Beam_Rifle",
       "CastTime": 1.9,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
-      "CastTimeReal": 1.67,
+      "CastTimeReal": 3.4,
       "ToggleCost": 14.352,
       "PowerIndex": 52,
       "PowerSetID": 5,
@@ -5285,8 +5290,8 @@
         "PowerIDNot": []
       },
       "ModesDisallowed": 2,
-      "Accuracy": 1.05,
-      "AccuracyMult": 1.05,
+      "Accuracy": 1.25,
+      "AccuracyMult": 1.25,
       "AttackTypes": 130,
       "GroupMembership": [],
       "EntitiesAffected": 2048,
@@ -5294,6 +5299,7 @@
       "TargetLoS": true,
       "Range": 150.0,
       "EndCost": 14.352,
+      "InterruptTime": 2.0,
       "RechargeTime": 12.0,
       "BaseRechargeTime": 12.0,
       "EffectArea": 1,
@@ -5965,7 +5971,6 @@
           "Probability": 1.0,
           "Mag": 1.36497819,
           "MagPercent": 1.36497819,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Damage",
@@ -6141,7 +6146,6 @@
           "Mag": 0.150147587,
           "MagPercent": 0.150147587,
           "Duration": 3.1,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Damage",
@@ -6479,9 +6483,10 @@
         }
       ],
       "FullSetName": "Blaster_Ranged.Beam_Rifle",
-      "CastTime": 1.67,
+      "CastTime": 3.4,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 2.33,

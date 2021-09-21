@@ -4,12 +4,12 @@
   "FullName": "Villain_Pets.Chain_Stun_Dominator_Jump1",
   "ImageName": "",
   "Power": [
-    10074
+    10090
   ],
   "SetType": 8,
   "DisplayName": "Chain Stun Jump 1",
   "nArchetype": -1,
-  "nID": 3468,
+  "nID": 3482,
   "SubName": "Chain Stun Jump 1",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Villain_Pets",
   "Powers": [
     {
-      "PowerIndex": 10074,
-      "PowerSetID": 3468,
+      "PowerIndex": 10090,
+      "PowerSetID": 3482,
       "StaticIndex": 4488,
       "NGroupMembership": [],
       "FullName": "Villain_Pets.Chain_Stun_Dominator_Jump1.Charge",

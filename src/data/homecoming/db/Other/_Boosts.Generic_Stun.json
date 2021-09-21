@@ -4,12 +4,12 @@
   "FullName": "Boosts.Generic_Stun",
   "ImageName": "",
   "Power": [
-    2261
+    2267
   ],
   "SetType": 10,
   "DisplayName": "Generic Stun",
   "nArchetype": -1,
-  "nID": 2016,
+  "nID": 2022,
   "SubName": "Training (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2261,
-      "PowerSetID": 2016,
+      "PowerIndex": 2267,
+      "PowerSetID": 2022,
       "StaticIndex": 8186,
       "NGroupMembership": [],
       "FullName": "Boosts.Generic_Stun.Generic_Stun",

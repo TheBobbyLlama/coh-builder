@@ -4,13 +4,13 @@
   "FullName": "Mastermind_Pets.Howler_Wolf_2",
   "ImageName": "",
   "Power": [
-    5932,
-    5933
+    5941,
+    5942
   ],
   "SetType": 8,
   "DisplayName": "Howler Wolf",
   "nArchetype": -1,
-  "nID": 2958,
+  "nID": 2969,
   "SubName": "Beasts",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
     {
       "CastTimeReal": 2.47,
       "ToggleCost": 6.864,
-      "PowerIndex": 5932,
-      "PowerSetID": 2958,
+      "PowerIndex": 5941,
+      "PowerSetID": 2969,
       "StaticIndex": 6190,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Howler_Wolf_2.Maiming_Bite",
@@ -561,7 +561,6 @@
           "Probability": 1.0,
           "Mag": 0.657146,
           "MagPercent": 0.657146,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Damage",
@@ -674,7 +673,6 @@
           "MagnitudeExpression": "",
           "Mag": 0.3253198,
           "MagPercent": 0.3253198,
-          "VariableModified": true,
           "Reward": "",
           "EffectId": "CritActive",
           "Special": "",
@@ -789,8 +787,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5933,
-      "PowerSetID": 2958,
+      "PowerIndex": 5942,
+      "PowerSetID": 2969,
       "PowerSetIndex": 1,
       "StaticIndex": 6191,
       "NGroupMembership": [],
@@ -847,7 +845,7 @@
           "Special": "",
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.Pack_Mentality",
-          "nSummon": 9755,
+          "nSummon": 9771,
           "Stacking": 1,
           "UIDClassName": "",
           "nIDClassName": -1,

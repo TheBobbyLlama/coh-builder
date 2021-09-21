@@ -4,14 +4,14 @@
   "FullName": "Villain_Pets.Traps_FF_Generator",
   "ImageName": "",
   "Power": [
-    10274,
-    10275,
-    10276
+    10290,
+    10291,
+    10292
   ],
   "SetType": 8,
   "DisplayName": "Force Field Generator",
   "nArchetype": -1,
-  "nID": 3486,
+  "nID": 3500,
   "SubName": "Traps",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "Powers": [
     {
       "CastTimeReal": 1.07,
-      "PowerIndex": 10274,
-      "PowerSetID": 3486,
+      "PowerIndex": 10290,
+      "PowerSetID": 3500,
       "StaticIndex": 3159,
       "NGroupMembership": [],
       "FullName": "Villain_Pets.Traps_FF_Generator.Dispersion_Bubble",
@@ -1012,8 +1012,8 @@
       "AoEModifier": 4.75
     },
     {
-      "PowerIndex": 10275,
-      "PowerSetID": 3486,
+      "PowerIndex": 10291,
+      "PowerSetID": 3500,
       "PowerSetIndex": 1,
       "StaticIndex": 3160,
       "NGroupMembership": [],
@@ -1231,8 +1231,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 10276,
-      "PowerSetID": 3486,
+      "PowerIndex": 10292,
+      "PowerSetID": 3500,
       "PowerSetIndex": 2,
       "StaticIndex": 3161,
       "NGroupMembership": [],

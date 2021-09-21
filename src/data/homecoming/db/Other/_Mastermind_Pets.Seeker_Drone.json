@@ -4,14 +4,14 @@
   "FullName": "Mastermind_Pets.Seeker_Drone",
   "ImageName": "",
   "Power": [
-    5998,
-    5999,
-    6000
+    6007,
+    6008,
+    6009
   ],
   "SetType": 8,
   "DisplayName": "Seeker Drone",
   "nArchetype": -1,
-  "nID": 2979,
+  "nID": 2990,
   "SubName": "",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "GroupName": "Mastermind_Pets",
   "Powers": [
     {
-      "PowerIndex": 5998,
-      "PowerSetID": 2979,
+      "PowerIndex": 6007,
+      "PowerSetID": 2990,
       "StaticIndex": 10796,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Seeker_Drone.Flash_Pulse",
@@ -946,8 +946,8 @@
       "AoEModifier": 3.25
     },
     {
-      "PowerIndex": 5999,
-      "PowerSetID": 2979,
+      "PowerIndex": 6008,
+      "PowerSetID": 2990,
       "PowerSetIndex": 1,
       "StaticIndex": 10798,
       "NGroupMembership": [],
@@ -1163,8 +1163,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 6000,
-      "PowerSetID": 2979,
+      "PowerIndex": 6009,
+      "PowerSetID": 2990,
       "PowerSetIndex": 2,
       "StaticIndex": 10797,
       "NGroupMembership": [],

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Technology_Immobilize",
   "ImageName": "",
   "Power": [
-    2495
+    2501
   ],
   "SetType": 10,
   "DisplayName": "Science Technology Immobilize",
   "nArchetype": -1,
-  "nID": 2250,
+  "nID": 2256,
   "SubName": "Invention (Science, Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2495,
-      "PowerSetID": 2250,
+      "PowerIndex": 2501,
+      "PowerSetID": 2256,
       "StaticIndex": 8420,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Technology_Immobilize.Science_Technology_Immobilize",

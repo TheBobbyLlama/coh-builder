@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Knockback_10",
   "ImageName": "",
   "Power": [
-    1749
+    1755
   ],
   "SetType": 10,
   "DisplayName": "Crafted Knockback 10",
   "nArchetype": -1,
-  "nID": 1503,
+  "nID": 1509,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1749,
-      "PowerSetID": 1503,
+      "PowerIndex": 1755,
+      "PowerSetID": 1509,
       "StaticIndex": 7694,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Knockback_10.Crafted_Knockback_10",

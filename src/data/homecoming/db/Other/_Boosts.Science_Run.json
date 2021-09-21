@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Run",
   "ImageName": "",
   "Power": [
-    2478
+    2484
   ],
   "SetType": 10,
   "DisplayName": "Science Run",
   "nArchetype": -1,
-  "nID": 2233,
+  "nID": 2239,
   "SubName": "Experiment (Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2478,
-      "PowerSetID": 2233,
+      "PowerIndex": 2484,
+      "PowerSetID": 2239,
       "StaticIndex": 8403,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Run.Science_Run",

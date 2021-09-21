@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Volley_Fire_A",
   "ImageName": "",
   "Power": [
-    2225
+    2231
   ],
   "SetType": 10,
   "DisplayName": "Crafted Volley Fire A",
   "nArchetype": -1,
-  "nID": 1977,
+  "nID": 1983,
   "SubName": "Set: Volley Fire",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2225,
-      "PowerSetID": 1977,
+      "PowerIndex": 2231,
+      "PowerSetID": 1983,
       "StaticIndex": 8150,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Volley_Fire_A.Crafted_Volley_Fire_A",

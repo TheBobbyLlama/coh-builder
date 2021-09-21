@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Deflated_Ego_C",
   "ImageName": "",
   "Power": [
-    1411
+    1417
   ],
   "SetType": 10,
   "DisplayName": "Crafted Deflated Ego C",
   "nArchetype": -1,
-  "nID": 1165,
+  "nID": 1171,
   "SubName": "Set: Deflated Ego",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1411,
-      "PowerSetID": 1165,
+      "PowerIndex": 1417,
+      "PowerSetID": 1171,
       "StaticIndex": 7356,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Deflated_Ego_C.Crafted_Deflated_Ego_C",

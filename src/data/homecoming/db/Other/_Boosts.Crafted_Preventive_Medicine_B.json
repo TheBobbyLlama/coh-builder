@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Preventive_Medicine_B",
   "ImageName": "",
   "Power": [
-    1881
+    1887
   ],
   "SetType": 10,
   "DisplayName": "Crafted Preventive Medicine B",
   "nArchetype": -1,
-  "nID": 1634,
+  "nID": 1640,
   "SubName": "Set: Preventive Medicine",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1881,
-      "PowerSetID": 1634,
+      "PowerIndex": 1887,
+      "PowerSetID": 1640,
       "StaticIndex": 9303,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Preventive_Medicine_B.Crafted_Preventive_Medicine_B",

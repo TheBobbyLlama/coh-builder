@@ -4,16 +4,16 @@
   "FullName": "Epic.Psychic_Mastery",
   "ImageName": "PsychicMastery.png",
   "Power": [
-    4323,
-    4324,
-    4325,
-    4326,
-    4327
+    4332,
+    4333,
+    4334,
+    4335,
+    4336
   ],
   "SetType": 3,
   "DisplayName": "Psychic Mastery",
   "nArchetype": -1,
-  "nID": 2784,
+  "nID": 2795,
   "SubName": "Psychic Mastery",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
     {
       "CastTimeReal": 1.1,
       "ToggleCost": 10.66,
-      "PowerIndex": 4323,
-      "PowerSetID": 2784,
+      "PowerIndex": 4332,
+      "PowerSetID": 2795,
       "StaticIndex": 979,
       "NGroupMembership": [],
       "FullName": "Epic.Psychic_Mastery.Dominate",
@@ -465,8 +465,8 @@
     {
       "CastTimeReal": 2.03,
       "ToggleCost": 19.5,
-      "PowerIndex": 4324,
-      "PowerSetID": 2784,
+      "PowerIndex": 4333,
+      "PowerSetID": 2795,
       "PowerSetIndex": 1,
       "StaticIndex": 980,
       "NGroupMembership": [],
@@ -667,8 +667,8 @@
       "CastTimeReal": 0.67,
       "ToggleCost": 0.325,
       "IsEpic": true,
-      "PowerIndex": 4325,
-      "PowerSetID": 2784,
+      "PowerIndex": 4334,
+      "PowerSetID": 2795,
       "PowerSetIndex": 2,
       "StaticIndex": 981,
       "NGroupMembership": [],
@@ -684,11 +684,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4323,
+            4332,
             -1
           ],
           [
-            4324,
+            4333,
             -1
           ]
         ],
@@ -1396,8 +1396,8 @@
       "CastTimeReal": 1.67,
       "ToggleCost": 0.325,
       "IsEpic": true,
-      "PowerIndex": 4326,
-      "PowerSetID": 2784,
+      "PowerIndex": 4335,
+      "PowerSetID": 2795,
       "PowerSetIndex": 3,
       "StaticIndex": 3315,
       "NGroupMembership": [],
@@ -1413,11 +1413,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4323,
+            4332,
             -1
           ],
           [
-            4324,
+            4333,
             -1
           ]
         ],
@@ -1610,8 +1610,8 @@
       "CastTimeReal": 1.13,
       "ToggleCost": 3.9,
       "IsEpic": true,
-      "PowerIndex": 4327,
-      "PowerSetID": 2784,
+      "PowerIndex": 4336,
+      "PowerSetID": 2795,
       "PowerSetIndex": 4,
       "StaticIndex": 982,
       "NGroupMembership": [],
@@ -1627,24 +1627,24 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4323,
-            4324
+            4332,
+            4333
           ],
           [
-            4323,
-            4325
+            4332,
+            4334
           ],
           [
-            4323,
-            4326
+            4332,
+            4335
           ],
           [
-            4324,
-            4325
+            4333,
+            4334
           ],
           [
-            4324,
-            4326
+            4333,
+            4335
           ]
         ],
         "NPowerIDNot": [],
@@ -1902,7 +1902,7 @@
           "nID": 3,
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.KillTk",
-          "nSummon": 9660,
+          "nSummon": 9676,
           "UIDClassName": "",
           "nIDClassName": -1,
           "PvMode": 2,

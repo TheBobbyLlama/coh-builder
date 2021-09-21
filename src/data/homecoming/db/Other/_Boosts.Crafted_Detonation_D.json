@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Detonation_D",
   "ImageName": "",
   "Power": [
-    1415
+    1421
   ],
   "SetType": 10,
   "DisplayName": "Crafted Detonation D",
   "nArchetype": -1,
-  "nID": 1169,
+  "nID": 1175,
   "SubName": "Set: Detonation",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1415,
-      "PowerSetID": 1169,
+      "PowerIndex": 1421,
+      "PowerSetID": 1175,
       "StaticIndex": 7360,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Detonation_D.Crafted_Detonation_D",

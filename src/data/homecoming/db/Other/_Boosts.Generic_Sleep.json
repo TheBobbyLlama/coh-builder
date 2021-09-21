@@ -4,12 +4,12 @@
   "FullName": "Boosts.Generic_Sleep",
   "ImageName": "",
   "Power": [
-    2259
+    2265
   ],
   "SetType": 10,
   "DisplayName": "Generic Sleep",
   "nArchetype": -1,
-  "nID": 2014,
+  "nID": 2020,
   "SubName": "Training (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2259,
-      "PowerSetID": 2014,
+      "PowerIndex": 2265,
+      "PowerSetID": 2020,
       "StaticIndex": 8184,
       "NGroupMembership": [],
       "FullName": "Boosts.Generic_Sleep.Generic_Sleep",

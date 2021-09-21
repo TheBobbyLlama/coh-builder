@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Accuracy",
   "ImageName": "",
   "Power": [
-    2758
+    2770
   ],
   "SetType": 10,
   "DisplayName": "Technology Accuracy",
   "nArchetype": -1,
-  "nID": 2513,
+  "nID": 2525,
   "SubName": "Cybernetics (Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2758,
-      "PowerSetID": 2513,
+      "PowerIndex": 2770,
+      "PowerSetID": 2525,
       "StaticIndex": 8581,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Accuracy.Technology_Accuracy",

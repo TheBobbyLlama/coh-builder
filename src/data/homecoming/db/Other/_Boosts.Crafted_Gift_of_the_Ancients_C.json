@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Gift_of_the_Ancients_C",
   "ImageName": "",
   "Power": [
-    1575
+    1581
   ],
   "SetType": 10,
   "DisplayName": "Crafted Gift of the Ancients C",
   "nArchetype": -1,
-  "nID": 1329,
+  "nID": 1335,
   "SubName": "Set: Gift of the Ancients",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1575,
-      "PowerSetID": 1329,
+      "PowerIndex": 1581,
+      "PowerSetID": 1335,
       "StaticIndex": 7520,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Gift_of_the_Ancients_C.Crafted_Gift_of_the_Ancients_C",

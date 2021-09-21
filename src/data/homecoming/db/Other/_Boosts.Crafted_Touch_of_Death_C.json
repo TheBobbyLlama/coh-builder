@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Touch_of_Death_C",
   "ImageName": "",
   "Power": [
-    2165
+    2171
   ],
   "SetType": 10,
   "DisplayName": "Crafted Touch of Death C",
   "nArchetype": -1,
-  "nID": 1917,
+  "nID": 1923,
   "SubName": "Set: Touch of Death",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2165,
-      "PowerSetID": 1917,
+      "PowerIndex": 2171,
+      "PowerSetID": 1923,
       "StaticIndex": 8096,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Touch_of_Death_C.Crafted_Touch_of_Death_C",

@@ -4,14 +4,14 @@
   "FullName": "Kheldian_Pets.Omega_Bomb",
   "ImageName": "",
   "Power": [
-    5663,
-    5664,
-    5665
+    5672,
+    5673,
+    5674
   ],
   "SetType": 8,
   "DisplayName": "",
   "nArchetype": -1,
-  "nID": 2895,
+  "nID": 2906,
   "SubName": "Arachnos",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "GroupName": "Kheldian_Pets",
   "Powers": [
     {
-      "PowerIndex": 5663,
-      "PowerSetID": 2895,
+      "PowerIndex": 5672,
+      "PowerSetID": 2906,
       "StaticIndex": 3249,
       "NGroupMembership": [],
       "FullName": "Kheldian_Pets.Omega_Bomb.Explosion",
@@ -314,8 +314,8 @@
       "AoEModifier": 4.0
     },
     {
-      "PowerIndex": 5664,
-      "PowerSetID": 2895,
+      "PowerIndex": 5673,
+      "PowerSetID": 2906,
       "PowerSetIndex": 1,
       "StaticIndex": 3251,
       "NGroupMembership": [],
@@ -533,8 +533,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5665,
-      "PowerSetID": 2895,
+      "PowerIndex": 5674,
+      "PowerSetID": 2906,
       "PowerSetIndex": 2,
       "StaticIndex": 3250,
       "NGroupMembership": [],

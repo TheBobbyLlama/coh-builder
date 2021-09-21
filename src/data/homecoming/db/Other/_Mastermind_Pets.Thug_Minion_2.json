@@ -4,13 +4,13 @@
   "FullName": "Mastermind_Pets.Thug_Minion_2",
   "ImageName": "",
   "Power": [
-    6070,
-    6071
+    6079,
+    6080
   ],
   "SetType": 8,
   "DisplayName": "Thug Minion",
   "nArchetype": -1,
-  "nID": 2997,
+  "nID": 3007,
   "SubName": "Thugs",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
     {
       "CastTimeReal": 1.2,
       "ToggleCost": 5.2,
-      "PowerIndex": 6070,
-      "PowerSetID": 2997,
+      "PowerIndex": 6079,
+      "PowerSetID": 3007,
       "StaticIndex": 1396,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Thug_Minion_2.Pistols",
@@ -206,8 +206,8 @@
     {
       "CastTimeReal": 1.2,
       "ToggleCost": 6.864,
-      "PowerIndex": 6071,
-      "PowerSetID": 2997,
+      "PowerIndex": 6080,
+      "PowerSetID": 3007,
       "PowerSetIndex": 1,
       "StaticIndex": 1397,
       "NGroupMembership": [],

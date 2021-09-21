@@ -4,12 +4,12 @@
   "FullName": "Pets.Experiment_Corrosive_Vial",
   "ImageName": "",
   "Power": [
-    6323
+    6332
   ],
   "SetType": 8,
   "DisplayName": "Corrosive Vial",
   "nArchetype": -1,
-  "nID": 3058,
+  "nID": 3069,
   "SubName": "",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6323,
-      "PowerSetID": 3058,
+      "PowerIndex": 6332,
+      "PowerSetID": 3069,
       "StaticIndex": 10854,
       "NGroupMembership": [],
       "FullName": "Pets.Experiment_Corrosive_Vial.Damage_AoE",

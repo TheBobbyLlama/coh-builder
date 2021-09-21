@@ -4,18 +4,18 @@
   "FullName": "Villain_Pets.Corolax_Red_Hybrid",
   "ImageName": "",
   "Power": [
-    10101,
-    10102,
-    10103,
-    10104,
-    10105,
-    10106,
-    10107
+    10117,
+    10118,
+    10119,
+    10120,
+    10121,
+    10122,
+    10123
   ],
   "SetType": 8,
   "DisplayName": "Coralax Red Hybrid",
   "nArchetype": -1,
-  "nID": 3474,
+  "nID": 3488,
   "SubName": "Leviathan Mastery",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
   "GroupName": "Villain_Pets",
   "Powers": [
     {
-      "PowerIndex": 10101,
-      "PowerSetID": 3474,
+      "PowerIndex": 10117,
+      "PowerSetID": 3488,
       "StaticIndex": 3064,
       "NGroupMembership": [],
       "FullName": "Villain_Pets.Corolax_Red_Hybrid.Resistance",
@@ -192,8 +192,8 @@
     {
       "CastTimeReal": 1.5,
       "ToggleCost": 10.66,
-      "PowerIndex": 10102,
-      "PowerSetID": 3474,
+      "PowerIndex": 10118,
+      "PowerSetID": 3488,
       "PowerSetIndex": 1,
       "StaticIndex": 3065,
       "NGroupMembership": [],
@@ -434,8 +434,8 @@
     {
       "CastTimeReal": 1.67,
       "ToggleCost": 8.58,
-      "PowerIndex": 10103,
-      "PowerSetID": 3474,
+      "PowerIndex": 10119,
+      "PowerSetID": 3488,
       "PowerSetIndex": 2,
       "StaticIndex": 3066,
       "NGroupMembership": [],
@@ -618,8 +618,8 @@
     {
       "CastTimeReal": 1.2,
       "ToggleCost": 6.5,
-      "PowerIndex": 10104,
-      "PowerSetID": 3474,
+      "PowerIndex": 10120,
+      "PowerSetID": 3488,
       "PowerSetIndex": 3,
       "StaticIndex": 3067,
       "NGroupMembership": [],
@@ -858,8 +858,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 10105,
-      "PowerSetID": 3474,
+      "PowerIndex": 10121,
+      "PowerSetID": 3488,
       "PowerSetIndex": 4,
       "StaticIndex": 3068,
       "NGroupMembership": [],
@@ -965,8 +965,8 @@
     {
       "CastTimeReal": 1.67,
       "ToggleCost": 8.58,
-      "PowerIndex": 10106,
-      "PowerSetID": 3474,
+      "PowerIndex": 10122,
+      "PowerSetID": 3488,
       "PowerSetIndex": 5,
       "StaticIndex": 3069,
       "NGroupMembership": [],
@@ -1213,8 +1213,8 @@
     {
       "CastTimeReal": 3.0,
       "ToggleCost": 13.0,
-      "PowerIndex": 10107,
-      "PowerSetID": 3474,
+      "PowerIndex": 10123,
+      "PowerSetID": 3488,
       "PowerSetIndex": 6,
       "StaticIndex": 3070,
       "NGroupMembership": [],

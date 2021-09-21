@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Impeded_Swiftness_C",
   "ImageName": "",
   "Power": [
-    1669
+    1675
   ],
   "SetType": 10,
   "DisplayName": "Crafted Impeded Swiftness C",
   "nArchetype": -1,
-  "nID": 1423,
+  "nID": 1429,
   "SubName": "Set: Impeded Swiftness",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1669,
-      "PowerSetID": 1423,
+      "PowerIndex": 1675,
+      "PowerSetID": 1429,
       "StaticIndex": 7614,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Impeded_Swiftness_C.Crafted_Impeded_Swiftness_C",

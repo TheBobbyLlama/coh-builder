@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Siphon_Insight_D",
   "ImageName": "",
   "Power": [
-    2026
+    2032
   ],
   "SetType": 10,
   "DisplayName": "Crafted Siphon Insight D",
   "nArchetype": -1,
-  "nID": 1779,
+  "nID": 1785,
   "SubName": "Set: Siphon Insight",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2026,
-      "PowerSetID": 1779,
+      "PowerIndex": 2032,
+      "PowerSetID": 1785,
       "StaticIndex": 7958,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Siphon_Insight_D.Crafted_Siphon_Insight_D",

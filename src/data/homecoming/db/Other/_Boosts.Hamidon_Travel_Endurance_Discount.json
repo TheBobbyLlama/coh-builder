@@ -4,12 +4,12 @@
   "FullName": "Boosts.Hamidon_Travel_Endurance_Discount",
   "ImageName": "",
   "Power": [
-    2277
+    2283
   ],
   "SetType": 10,
   "DisplayName": "Hamidon Travel Endurance Discount",
   "nArchetype": -1,
-  "nID": 2032,
+  "nID": 2038,
   "SubName": "Hamidon (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2277,
-      "PowerSetID": 2032,
+      "PowerIndex": 2283,
+      "PowerSetID": 2038,
       "StaticIndex": 8202,
       "NGroupMembership": [],
       "FullName": "Boosts.Hamidon_Travel_Endurance_Discount.Hamidon_Travel_Endurance_Discount",

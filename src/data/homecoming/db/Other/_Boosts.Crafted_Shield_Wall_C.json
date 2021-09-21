@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Shield_Wall_C",
   "ImageName": "",
   "Power": [
-    2019
+    2025
   ],
   "SetType": 10,
   "DisplayName": "Crafted Shield Wall C",
   "nArchetype": -1,
-  "nID": 1772,
+  "nID": 1778,
   "SubName": "Set: Shield Wall",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2019,
-      "PowerSetID": 1772,
+      "PowerIndex": 2025,
+      "PowerSetID": 1778,
       "StaticIndex": 7951,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Shield_Wall_C.Crafted_Shield_Wall_C",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Sovereign_Right_F",
   "ImageName": "",
   "Power": [
-    1023
+    1029
   ],
   "SetType": 10,
   "DisplayName": "Attuned Sovereign Right F",
   "nArchetype": -1,
-  "nID": 778,
+  "nID": 784,
   "SubName": "Set: Sovereign Right",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1023,
-      "PowerSetID": 778,
+      "PowerIndex": 1029,
+      "PowerSetID": 784,
       "StaticIndex": 7005,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Sovereign_Right_F.Attuned_Sovereign_Right_F",

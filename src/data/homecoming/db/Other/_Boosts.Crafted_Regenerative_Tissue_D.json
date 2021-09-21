@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Regenerative_Tissue_D",
   "ImageName": "",
   "Power": [
-    1958
+    1964
   ],
   "SetType": 10,
   "DisplayName": "Crafted Regenerative Tissue D",
   "nArchetype": -1,
-  "nID": 1711,
+  "nID": 1717,
   "SubName": "Set: Regenerative Tissue",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1958,
-      "PowerSetID": 1711,
+      "PowerIndex": 1964,
+      "PowerSetID": 1717,
       "StaticIndex": 7890,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Regenerative_Tissue_D.Crafted_Regenerative_Tissue_D",

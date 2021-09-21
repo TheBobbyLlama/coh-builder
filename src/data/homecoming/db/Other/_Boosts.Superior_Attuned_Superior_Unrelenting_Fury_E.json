@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Superior_Unrelenting_Fury_E",
   "ImageName": "",
   "Power": [
-    2721
+    2733
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Superior Unrelenting Fury E",
   "nArchetype": -1,
-  "nID": 2476,
+  "nID": 2488,
   "SubName": "Set: Superior Unrelenting Fury",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2721,
-      "PowerSetID": 2476,
+      "PowerIndex": 2733,
+      "PowerSetID": 2488,
       "StaticIndex": 8857,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Superior_Unrelenting_Fury_E.Superior_Attuned_Superior_Unrelenting_Fury_E",

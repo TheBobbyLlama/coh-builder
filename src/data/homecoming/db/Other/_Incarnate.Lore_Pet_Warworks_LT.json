@@ -4,13 +4,13 @@
   "FullName": "Incarnate.Lore_Pet_Warworks_LT",
   "ImageName": "",
   "Power": [
-    5454,
-    5455
+    5463,
+    5464
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Warworks_LT",
   "nArchetype": -1,
-  "nID": 2882,
+  "nID": 2893,
   "SubName": "Warworks",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "Powers": [
     {
       "CastTimeReal": 3.73,
-      "PowerIndex": 5454,
-      "PowerSetID": 2882,
+      "PowerIndex": 5463,
+      "PowerSetID": 2893,
       "StaticIndex": 4676,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Warworks_LT.Plasma_Full_Auto",
@@ -207,8 +207,8 @@
     },
     {
       "CastTimeReal": 1.33,
-      "PowerIndex": 5455,
-      "PowerSetID": 2882,
+      "PowerIndex": 5464,
+      "PowerSetID": 2893,
       "PowerSetIndex": 1,
       "StaticIndex": 4677,
       "NGroupMembership": [],

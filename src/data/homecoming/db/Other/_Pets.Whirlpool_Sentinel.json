@@ -4,13 +4,13 @@
   "FullName": "Pets.Whirlpool_Sentinel",
   "ImageName": "",
   "Power": [
-    6690,
-    6691
+    6710,
+    6711
   ],
   "SetType": 8,
   "DisplayName": "Whirlpool",
   "nArchetype": -1,
-  "nID": 3272,
+  "nID": 3286,
   "SubName": "Water Blast",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -22,8 +22,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6690,
-      "PowerSetID": 3272,
+      "PowerIndex": 6710,
+      "PowerSetID": 3286,
       "StaticIndex": 10651,
       "NGroupMembership": [],
       "FullName": "Pets.Whirlpool_Sentinel.Whirlpool",
@@ -79,6 +79,8 @@
       "IgnoreEnh": [],
       "Ignore_Buff": [],
       "MutexAuto": true,
+      "AbsorbSummonEffects": true,
+      "AbsorbSummonAttributes": true,
       "ForcedClass": "Class_Minion_Pets",
       "Effects": [
         {
@@ -547,8 +549,8 @@
       "AoEModifier": 4.75
     },
     {
-      "PowerIndex": 6691,
-      "PowerSetID": 3272,
+      "PowerIndex": 6711,
+      "PowerSetID": 3286,
       "PowerSetIndex": 1,
       "StaticIndex": 10652,
       "NGroupMembership": [],

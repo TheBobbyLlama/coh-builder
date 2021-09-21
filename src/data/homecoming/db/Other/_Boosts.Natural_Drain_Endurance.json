@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Drain_Endurance",
   "ImageName": "",
   "Power": [
-    2407
+    2413
   ],
   "SetType": 10,
   "DisplayName": "Natural Endurance",
   "nArchetype": -1,
-  "nID": 2161,
+  "nID": 2167,
   "SubName": "Technique (Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2407,
-      "PowerSetID": 2161,
+      "PowerIndex": 2413,
+      "PowerSetID": 2167,
       "StaticIndex": 8332,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Drain_Endurance.Natural_Drain_Endurance",

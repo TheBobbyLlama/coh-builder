@@ -52,6 +52,7 @@
 }
 
 .iconDropdown .dropdownList {
+	align-self: flex-start;
 	background-color: white;
 	border-radius: 4px;
 	left: 0;
@@ -64,6 +65,7 @@
 .iconDropdown .dropdownList > div {
 	align-items: center;
 	display: flex;
+	height: 30px;
 	padding: 2px 4px;
 }
 

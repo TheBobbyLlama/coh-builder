@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Recharge",
   "ImageName": "",
   "Power": [
-    2475
+    2481
   ],
   "SetType": 10,
   "DisplayName": "Science Recharge",
   "nArchetype": -1,
-  "nID": 2231,
+  "nID": 2237,
   "SubName": "Experiment (Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2475,
-      "PowerSetID": 2231,
+      "PowerIndex": 2481,
+      "PowerSetID": 2237,
       "StaticIndex": 8400,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Recharge.Science_Recharge",

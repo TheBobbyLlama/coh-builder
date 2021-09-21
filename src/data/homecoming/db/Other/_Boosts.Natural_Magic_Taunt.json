@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Magic_Taunt",
   "ImageName": "",
   "Power": [
-    2443
+    2449
   ],
   "SetType": 10,
   "DisplayName": "Natural Magic Taunt",
   "nArchetype": -1,
-  "nID": 2198,
+  "nID": 2204,
   "SubName": "Relic (Natural, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2443,
-      "PowerSetID": 2198,
+      "PowerIndex": 2449,
+      "PowerSetID": 2204,
       "StaticIndex": 8368,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Magic_Taunt.Natural_Magic_Taunt",

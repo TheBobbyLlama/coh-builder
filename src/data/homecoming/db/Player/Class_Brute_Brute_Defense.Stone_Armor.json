@@ -4,20 +4,20 @@
   "FullName": "Brute_Defense.Stone_Armor",
   "ImageName": "StoneArmor.png",
   "Power": [
-    2923,
-    2924,
-    2925,
-    2926,
-    2927,
-    2928,
-    2929,
-    2930,
-    2931
+    2935,
+    2936,
+    2937,
+    2938,
+    2939,
+    2940,
+    2941,
+    2942,
+    2943
   ],
   "SetType": 2,
   "DisplayName": "Stone Armor",
   "nArchetype": 8,
-  "nID": 2595,
+  "nID": 2607,
   "SubName": "Stone Armor",
   "ATClass": "Class_Brute",
   "UIDTrunkSet": "",
@@ -28,15 +28,15 @@
     "Brute_Melee.Claws"
   ],
   "nIDMutexSets": [
-    2600
+    2612
   ],
   "GroupName": "Brute_Defense",
   "Powers": [
     {
       "CastTimeReal": 0.73,
       "ToggleCost": 0.26,
-      "PowerIndex": 2923,
-      "PowerSetID": 2595,
+      "PowerIndex": 2935,
+      "PowerSetID": 2607,
       "StaticIndex": 199,
       "NGroupMembership": [
         15
@@ -529,8 +529,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 2924,
-      "PowerSetID": 2595,
+      "PowerIndex": 2936,
+      "PowerSetID": 2607,
       "PowerSetIndex": 1,
       "StaticIndex": 200,
       "NGroupMembership": [],
@@ -704,8 +704,8 @@
     {
       "CastTimeReal": 2.03,
       "ToggleCost": 10.4,
-      "PowerIndex": 2925,
-      "PowerSetID": 2595,
+      "PowerIndex": 2937,
+      "PowerSetID": 2607,
       "PowerSetIndex": 2,
       "StaticIndex": 201,
       "NGroupMembership": [],
@@ -1003,8 +1003,8 @@
     {
       "CastTimeReal": 2.03,
       "ToggleCost": 0.78,
-      "PowerIndex": 2926,
-      "PowerSetID": 2595,
+      "PowerIndex": 2938,
+      "PowerSetID": 2607,
       "PowerSetIndex": 3,
       "StaticIndex": 202,
       "NGroupMembership": [],
@@ -1614,8 +1614,8 @@
     {
       "CastTimeReal": 1.17,
       "ToggleCost": 0.208,
-      "PowerIndex": 2927,
-      "PowerSetID": 2595,
+      "PowerIndex": 2939,
+      "PowerSetID": 2607,
       "PowerSetIndex": 4,
       "StaticIndex": 203,
       "NGroupMembership": [
@@ -3760,8 +3760,8 @@
     {
       "CastTimeReal": 0.73,
       "ToggleCost": 0.26,
-      "PowerIndex": 2928,
-      "PowerSetID": 2595,
+      "PowerIndex": 2940,
+      "PowerSetID": 2607,
       "PowerSetIndex": 5,
       "StaticIndex": 204,
       "NGroupMembership": [
@@ -4068,8 +4068,8 @@
     {
       "CastTimeReal": 2.03,
       "ToggleCost": 0.26,
-      "PowerIndex": 2929,
-      "PowerSetID": 2595,
+      "PowerIndex": 2941,
+      "PowerSetID": 2607,
       "PowerSetIndex": 6,
       "StaticIndex": 205,
       "NGroupMembership": [
@@ -4553,8 +4553,8 @@
     {
       "CastTimeReal": 0.73,
       "ToggleCost": 0.26,
-      "PowerIndex": 2930,
-      "PowerSetID": 2595,
+      "PowerIndex": 2942,
+      "PowerSetID": 2607,
       "PowerSetIndex": 7,
       "StaticIndex": 206,
       "NGroupMembership": [
@@ -5095,8 +5095,8 @@
     {
       "CastTimeReal": 0.73,
       "ToggleCost": 0.26,
-      "PowerIndex": 2931,
-      "PowerSetID": 2595,
+      "PowerIndex": 2943,
+      "PowerSetID": 2607,
       "PowerSetIndex": 8,
       "StaticIndex": 207,
       "NGroupMembership": [

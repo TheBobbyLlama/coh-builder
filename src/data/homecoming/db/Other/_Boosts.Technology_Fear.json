@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Fear",
   "ImageName": "",
   "Power": [
-    2766
+    2778
   ],
   "SetType": 10,
   "DisplayName": "Technology Fear",
   "nArchetype": -1,
-  "nID": 2521,
+  "nID": 2533,
   "SubName": "Cybernetics (Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2766,
-      "PowerSetID": 2521,
+      "PowerIndex": 2778,
+      "PowerSetID": 2533,
       "StaticIndex": 8589,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Fear.Technology_Fear",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Hydra_Buff_Recharge",
   "ImageName": "",
   "Power": [
-    2280
+    2286
   ],
   "SetType": 10,
   "DisplayName": "Hydra Buff Recharge",
   "nArchetype": -1,
-  "nID": 2035,
+  "nID": 2041,
   "SubName": "Hydra (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2280,
-      "PowerSetID": 2035,
+      "PowerIndex": 2286,
+      "PowerSetID": 2041,
       "StaticIndex": 8205,
       "NGroupMembership": [],
       "FullName": "Boosts.Hydra_Buff_Recharge.Hydra_Buff_Recharge",

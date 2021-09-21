@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Gladiators_Javelin_A",
   "ImageName": "",
   "Power": [
-    1585
+    1591
   ],
   "SetType": 10,
   "DisplayName": "Crafted Gladiators Javelin A",
   "nArchetype": -1,
-  "nID": 1339,
+  "nID": 1345,
   "SubName": "Set: Gladiator's Javelin",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1585,
-      "PowerSetID": 1339,
+      "PowerIndex": 1591,
+      "PowerSetID": 1345,
       "StaticIndex": 7530,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Gladiators_Javelin_A.Crafted_Gladiators_Javelin_A",

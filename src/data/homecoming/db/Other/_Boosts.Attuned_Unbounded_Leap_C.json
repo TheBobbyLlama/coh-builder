@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Unbounded_Leap_C",
   "ImageName": "",
   "Power": [
-    1123
+    1129
   ],
   "SetType": 10,
   "DisplayName": "Attuned Unbounded Leap C",
   "nArchetype": -1,
-  "nID": 878,
+  "nID": 884,
   "SubName": "Set: Unbounded Leap",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1123,
-      "PowerSetID": 878,
+      "PowerIndex": 1129,
+      "PowerSetID": 884,
       "StaticIndex": 7099,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Unbounded_Leap_C.Attuned_Unbounded_Leap_C",

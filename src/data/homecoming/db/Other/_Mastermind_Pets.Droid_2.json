@@ -4,12 +4,12 @@
   "FullName": "Mastermind_Pets.Droid_2",
   "ImageName": "",
   "Power": [
-    5880
+    5889
   ],
   "SetType": 8,
   "DisplayName": "Droid",
   "nArchetype": -1,
-  "nID": 2938,
+  "nID": 2950,
   "SubName": "Droid",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
     {
       "CastTimeReal": 3.33,
       "ToggleCost": 8.528,
-      "PowerIndex": 5880,
-      "PowerSetID": 2938,
+      "PowerIndex": 5889,
+      "PowerSetID": 2950,
       "StaticIndex": 1192,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Droid_2.Heavy_Laser_Burst",

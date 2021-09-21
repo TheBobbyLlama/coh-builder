@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Ruin_E",
   "ImageName": "",
   "Power": [
-    1985
+    1991
   ],
   "SetType": 10,
   "DisplayName": "Crafted Ruin E",
   "nArchetype": -1,
-  "nID": 1738,
+  "nID": 1744,
   "SubName": "Set: Ruin",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1985,
-      "PowerSetID": 1738,
+      "PowerIndex": 1991,
+      "PowerSetID": 1744,
       "StaticIndex": 7917,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Ruin_E.Crafted_Ruin_E",

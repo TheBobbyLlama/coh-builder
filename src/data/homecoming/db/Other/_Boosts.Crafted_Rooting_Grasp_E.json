@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Rooting_Grasp_E",
   "ImageName": "",
   "Power": [
-    1974
+    1980
   ],
   "SetType": 10,
   "DisplayName": "Crafted Rooting Grasp E",
   "nArchetype": -1,
-  "nID": 1727,
+  "nID": 1733,
   "SubName": "Set: Rooting Grasp",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1974,
-      "PowerSetID": 1727,
+      "PowerIndex": 1980,
+      "PowerSetID": 1733,
       "StaticIndex": 7906,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Rooting_Grasp_E.Crafted_Rooting_Grasp_E",

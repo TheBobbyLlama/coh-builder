@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Encouraged_Accuracy_C",
   "ImageName": "",
   "Power": [
-    1447
+    1453
   ],
   "SetType": 10,
   "DisplayName": "Crafted Encouraged Accuracy C",
   "nArchetype": -1,
-  "nID": 1201,
+  "nID": 1207,
   "SubName": "Set: Encouraged Accuracy",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1447,
-      "PowerSetID": 1201,
+      "PowerIndex": 1453,
+      "PowerSetID": 1207,
       "StaticIndex": 7392,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Encouraged_Accuracy_C.Crafted_Encouraged_Accuracy_C",

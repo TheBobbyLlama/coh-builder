@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Smashing_Haymaker_D",
   "ImageName": "",
   "Power": [
-    1014
+    1020
   ],
   "SetType": 10,
   "DisplayName": "Attuned Smashing Haymaker D",
   "nArchetype": -1,
-  "nID": 769,
+  "nID": 775,
   "SubName": "Set: Smashing Haymaker",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1014,
-      "PowerSetID": 769,
+      "PowerIndex": 1020,
+      "PowerSetID": 775,
       "StaticIndex": 6996,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Smashing_Haymaker_D.Attuned_Smashing_Haymaker_D",

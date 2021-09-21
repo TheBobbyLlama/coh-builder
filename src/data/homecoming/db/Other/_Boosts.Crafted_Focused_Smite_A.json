@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Focused_Smite_A",
   "ImageName": "",
   "Power": [
-    1535
+    1541
   ],
   "SetType": 10,
   "DisplayName": "Crafted Focused Smite A",
   "nArchetype": -1,
-  "nID": 1289,
+  "nID": 1295,
   "SubName": "Set: Focused Smite",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1535,
-      "PowerSetID": 1289,
+      "PowerIndex": 1541,
+      "PowerSetID": 1295,
       "StaticIndex": 7480,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Focused_Smite_A.Crafted_Focused_Smite_A",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Coercive_Persuasion_D",
   "ImageName": "",
   "Power": [
-    2546
+    2552
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Coercive Persuasion D",
   "nArchetype": -1,
-  "nID": 2301,
+  "nID": 2307,
   "SubName": "Set: Coercive Persuasion",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2546,
-      "PowerSetID": 2301,
+      "PowerIndex": 2552,
+      "PowerSetID": 2307,
       "StaticIndex": 8459,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Coercive_Persuasion_D.Superior_Attuned_Coercive_Persuasion_D",

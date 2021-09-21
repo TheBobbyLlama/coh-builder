@@ -4,12 +4,12 @@
   "FullName": "Mastermind_Pets.Thug_Pose_Sledgehammer",
   "ImageName": "",
   "Power": [
-    6083
+    6092
   ],
   "SetType": 8,
   "DisplayName": "Thug Posse",
   "nArchetype": -1,
-  "nID": 3007,
+  "nID": 3018,
   "SubName": "Thugs",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
     {
       "CastTimeReal": 2.17,
       "ToggleCost": 10.192,
-      "PowerIndex": 6083,
-      "PowerSetID": 3007,
+      "PowerIndex": 6092,
+      "PowerSetID": 3018,
       "StaticIndex": 1429,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Thug_Pose_Sledgehammer.Sledgehammer",

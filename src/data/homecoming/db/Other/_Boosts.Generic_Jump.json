@@ -4,12 +4,12 @@
   "FullName": "Boosts.Generic_Jump",
   "ImageName": "",
   "Power": [
-    2250
+    2256
   ],
   "SetType": 10,
   "DisplayName": "Generic Jump",
   "nArchetype": -1,
-  "nID": 2005,
+  "nID": 2011,
   "SubName": "Training (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2250,
-      "PowerSetID": 2005,
+      "PowerIndex": 2256,
+      "PowerSetID": 2011,
       "StaticIndex": 8175,
       "NGroupMembership": [],
       "FullName": "Boosts.Generic_Jump.Generic_Jump",

@@ -4,14 +4,14 @@
   "FullName": "Incarnate.Lore_Pet_Drones_Boss",
   "ImageName": "",
   "Power": [
-    5322,
-    5323,
-    5324
+    5331,
+    5332,
+    5333
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Drones_Boss",
   "nArchetype": -1,
-  "nID": 2834,
+  "nID": 2845,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "Powers": [
     {
       "CastTimeReal": 1.33,
-      "PowerIndex": 5322,
-      "PowerSetID": 2834,
+      "PowerIndex": 5331,
+      "PowerSetID": 2845,
       "StaticIndex": 5499,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Drones_Boss.Plasma_Cannon_Blast",
@@ -202,8 +202,8 @@
     },
     {
       "CastTimeReal": 1.33,
-      "PowerIndex": 5323,
-      "PowerSetID": 2834,
+      "PowerIndex": 5332,
+      "PowerSetID": 2845,
       "PowerSetIndex": 1,
       "StaticIndex": 5501,
       "NGroupMembership": [],
@@ -383,8 +383,8 @@
     },
     {
       "CastTimeReal": 3.5,
-      "PowerIndex": 5324,
-      "PowerSetID": 2834,
+      "PowerIndex": 5333,
+      "PowerSetID": 2845,
       "PowerSetIndex": 2,
       "StaticIndex": 5500,
       "NGroupMembership": [],

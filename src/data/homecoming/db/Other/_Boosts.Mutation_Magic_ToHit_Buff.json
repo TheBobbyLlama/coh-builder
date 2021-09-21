@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Magic_ToHit_Buff",
   "ImageName": "",
   "Power": [
-    2360
+    2366
   ],
   "SetType": 10,
   "DisplayName": "Mutation Magic ToHit Buff",
   "nArchetype": -1,
-  "nID": 2115,
+  "nID": 2121,
   "SubName": "Focusing Device (Mutation, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2360,
-      "PowerSetID": 2115,
+      "PowerIndex": 2366,
+      "PowerSetID": 2121,
       "StaticIndex": 8285,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Magic_ToHit_Buff.Mutation_Magic_ToHit_Buff",

@@ -4,13 +4,13 @@
   "FullName": "Pets.DisintegrateSpread",
   "ImageName": "",
   "Power": [
-    6299,
-    6300
+    6308,
+    6309
   ],
   "SetType": 8,
   "DisplayName": "Disintegrate Spread",
   "nArchetype": -1,
-  "nID": 3066,
+  "nID": 3077,
   "SubName": "Beam Rifle",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -22,8 +22,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6299,
-      "PowerSetID": 3066,
+      "PowerIndex": 6308,
+      "PowerSetID": 3077,
       "StaticIndex": 5604,
       "NGroupMembership": [],
       "FullName": "Pets.DisintegrateSpread.Disintegration_Spread",
@@ -87,8 +87,8 @@
       "AoEModifier": 3.25
     },
     {
-      "PowerIndex": 6300,
-      "PowerSetID": 3066,
+      "PowerIndex": 6309,
+      "PowerSetID": 3077,
       "PowerSetIndex": 1,
       "StaticIndex": 6227,
       "NGroupMembership": [],
@@ -396,7 +396,7 @@
           "nID": 4,
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.Beam_Rifle_Debuff",
-          "nSummon": 9414,
+          "nSummon": 9430,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 1,

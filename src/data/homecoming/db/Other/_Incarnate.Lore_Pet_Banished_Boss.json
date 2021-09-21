@@ -4,15 +4,15 @@
   "FullName": "Incarnate.Lore_Pet_Banished_Boss",
   "ImageName": "",
   "Power": [
-    5282,
-    5283,
-    5284,
-    5285
+    5291,
+    5292,
+    5293,
+    5294
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Banished_Boss",
   "nArchetype": -1,
-  "nID": 2820,
+  "nID": 2831,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -25,8 +25,8 @@
   "Powers": [
     {
       "CastTimeReal": 4.83,
-      "PowerIndex": 5282,
-      "PowerSetID": 2820,
+      "PowerIndex": 5291,
+      "PowerSetID": 2831,
       "StaticIndex": 9479,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Banished_Boss.Frigid_Smash",
@@ -378,8 +378,8 @@
     },
     {
       "CastTimeReal": 4.0,
-      "PowerIndex": 5283,
-      "PowerSetID": 2820,
+      "PowerIndex": 5292,
+      "PowerSetID": 2831,
       "PowerSetIndex": 1,
       "StaticIndex": 9480,
       "NGroupMembership": [],
@@ -1079,8 +1079,8 @@
     },
     {
       "CastTimeReal": 1.67,
-      "PowerIndex": 5284,
-      "PowerSetID": 2820,
+      "PowerIndex": 5293,
+      "PowerSetID": 2831,
       "PowerSetIndex": 2,
       "StaticIndex": 9481,
       "NGroupMembership": [],
@@ -1613,8 +1613,8 @@
     },
     {
       "CastTimeReal": 1.67,
-      "PowerIndex": 5285,
-      "PowerSetID": 2820,
+      "PowerIndex": 5294,
+      "PowerSetID": 2831,
       "PowerSetIndex": 3,
       "StaticIndex": 9482,
       "NGroupMembership": [],

@@ -4,12 +4,12 @@
   "FullName": "Pets.Twilight",
   "ImageName": "",
   "Power": [
-    6647
+    6667
   ],
   "SetType": 8,
   "DisplayName": "Twilight",
   "nArchetype": -1,
-  "nID": 3251,
+  "nID": 3266,
   "SubName": "Dark Miasma",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6647,
-      "PowerSetID": 3251,
+      "PowerIndex": 6667,
+      "PowerSetID": 3266,
       "StaticIndex": 1764,
       "NGroupMembership": [],
       "FullName": "Pets.Twilight.Twilight",

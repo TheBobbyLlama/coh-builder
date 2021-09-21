@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Recharge",
   "ImageName": "",
   "Power": [
-    2447
+    2453
   ],
   "SetType": 10,
   "DisplayName": "Natural Recharge",
   "nArchetype": -1,
-  "nID": 2203,
+  "nID": 2209,
   "SubName": "Technique (Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2447,
-      "PowerSetID": 2203,
+      "PowerIndex": 2453,
+      "PowerSetID": 2209,
       "StaticIndex": 8372,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Recharge.Natural_Recharge",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Hold",
   "ImageName": "",
   "Power": [
-    2328
+    2334
   ],
   "SetType": 10,
   "DisplayName": "Mutation Hold",
   "nArchetype": -1,
-  "nID": 2083,
+  "nID": 2089,
   "SubName": "Secondary Mutation (Mutation)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2328,
-      "PowerSetID": 2083,
+      "PowerIndex": 2334,
+      "PowerSetID": 2089,
       "StaticIndex": 8253,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Hold.Mutation_Hold",

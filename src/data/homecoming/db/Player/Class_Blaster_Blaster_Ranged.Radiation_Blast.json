@@ -3101,7 +3101,7 @@
         8,
         18
       ],
-      "DescShort": "Self +To-hit, +DMG",
+      "DescShort": "Self +To Hit, +DMG",
       "DescLong": "Greatly increases the chance to hit of your attacks for a few seconds. Slightly increases damage. Recharge: Long",
       "SetTypes": [
         25
@@ -4106,7 +4106,6 @@
           "Mag": 0.341244549,
           "MagPercent": 0.341244549,
           "Duration": 1.6,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Damage",

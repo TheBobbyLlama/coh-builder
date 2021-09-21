@@ -4,12 +4,12 @@
   "FullName": "Boosts.Generic_ToHit_Buff",
   "ImageName": "",
   "Power": [
-    2264
+    2270
   ],
   "SetType": 10,
   "DisplayName": "Generic ToHit Buff",
   "nArchetype": -1,
-  "nID": 2019,
+  "nID": 2025,
   "SubName": "Training (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2264,
-      "PowerSetID": 2019,
+      "PowerIndex": 2270,
+      "PowerSetID": 2025,
       "StaticIndex": 8189,
       "NGroupMembership": [],
       "FullName": "Boosts.Generic_ToHit_Buff.Generic_ToHit_Buff",

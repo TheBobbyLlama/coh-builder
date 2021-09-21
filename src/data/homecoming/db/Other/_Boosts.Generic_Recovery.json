@@ -4,12 +4,12 @@
   "FullName": "Boosts.Generic_Recovery",
   "ImageName": "",
   "Power": [
-    2255
+    2261
   ],
   "SetType": 10,
   "DisplayName": "Generic Endurance",
   "nArchetype": -1,
-  "nID": 1995,
+  "nID": 2002,
   "SubName": "Training (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2255,
-      "PowerSetID": 1995,
+      "PowerIndex": 2261,
+      "PowerSetID": 2002,
       "StaticIndex": 8180,
       "NGroupMembership": [],
       "FullName": "Boosts.Generic_Recovery.Generic_Recovery",

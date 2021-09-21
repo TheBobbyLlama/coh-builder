@@ -4,13 +4,13 @@
   "FullName": "Mastermind_Pets.Medic_3",
   "ImageName": "",
   "Power": [
-    5979,
-    5980
+    5988,
+    5989
   ],
   "SetType": 8,
   "DisplayName": "Medic",
   "nArchetype": -1,
-  "nID": 2972,
+  "nID": 2982,
   "SubName": "Mercenaries",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
     {
       "CastTimeReal": 3.17,
       "ToggleCost": 10.4,
-      "PowerIndex": 5979,
-      "PowerSetID": 2972,
+      "PowerIndex": 5988,
+      "PowerSetID": 2982,
       "StaticIndex": 1251,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Medic_3.Stimulant",
@@ -434,8 +434,8 @@
     {
       "CastTimeReal": 1.87,
       "ToggleCost": 10.4,
-      "PowerIndex": 5980,
-      "PowerSetID": 2972,
+      "PowerIndex": 5989,
+      "PowerSetID": 2982,
       "PowerSetIndex": 1,
       "StaticIndex": 1252,
       "NGroupMembership": [],

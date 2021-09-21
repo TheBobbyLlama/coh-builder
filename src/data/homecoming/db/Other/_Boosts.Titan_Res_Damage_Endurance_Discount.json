@@ -4,12 +4,12 @@
   "FullName": "Boosts.Titan_Res_Damage_Endurance_Discount",
   "ImageName": "",
   "Power": [
-    2823
+    2835
   ],
   "SetType": 10,
   "DisplayName": "Titan Res Damage Endurance Discount",
   "nArchetype": -1,
-  "nID": 2578,
+  "nID": 2590,
   "SubName": "Titan (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2823,
-      "PowerSetID": 2578,
+      "PowerIndex": 2835,
+      "PowerSetID": 2590,
       "StaticIndex": 8646,
       "NGroupMembership": [],
       "FullName": "Boosts.Titan_Res_Damage_Endurance_Discount.Titan_Res_Damage_Endurance_Discount",

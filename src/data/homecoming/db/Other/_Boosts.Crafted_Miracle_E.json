@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Miracle_E",
   "ImageName": "",
   "Power": [
-    1796
+    1802
   ],
   "SetType": 10,
   "DisplayName": "Crafted Miracle E",
   "nArchetype": -1,
-  "nID": 1550,
+  "nID": 1556,
   "SubName": "Set: Miracle",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1796,
-      "PowerSetID": 1550,
+      "PowerIndex": 1802,
+      "PowerSetID": 1556,
       "StaticIndex": 7741,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Miracle_E.Crafted_Miracle_E",

@@ -4,13 +4,13 @@
   "FullName": "Mastermind_Pets.Commando_2",
   "ImageName": "",
   "Power": [
-    5847,
-    5848
+    5856,
+    5857
   ],
   "SetType": 8,
   "DisplayName": "Commando",
   "nArchetype": -1,
-  "nID": 2930,
+  "nID": 2941,
   "SubName": "Mercenaries",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
     {
       "CastTimeReal": 1.87,
       "ToggleCost": 10.192,
-      "PowerIndex": 5847,
-      "PowerSetID": 2930,
+      "PowerIndex": 5856,
+      "PowerSetID": 2941,
       "StaticIndex": 1180,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Commando_2.Buckshot",
@@ -328,8 +328,8 @@
     {
       "CastTimeReal": 6.0,
       "ToggleCost": 15.6,
-      "PowerIndex": 5848,
-      "PowerSetID": 2930,
+      "PowerIndex": 5857,
+      "PowerSetID": 2941,
       "PowerSetIndex": 1,
       "StaticIndex": 1182,
       "NGroupMembership": [],

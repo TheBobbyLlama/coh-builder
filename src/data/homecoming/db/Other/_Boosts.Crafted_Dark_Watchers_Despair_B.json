@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Dark_Watchers_Despair_B",
   "ImageName": "",
   "Power": [
-    1363
+    1369
   ],
   "SetType": 10,
   "DisplayName": "Crafted Dark Watchers Despair B",
   "nArchetype": -1,
-  "nID": 1117,
+  "nID": 1123,
   "SubName": "Set: Dark Watcher's Despair",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1363,
-      "PowerSetID": 1117,
+      "PowerIndex": 1369,
+      "PowerSetID": 1123,
       "StaticIndex": 7308,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Dark_Watchers_Despair_B.Crafted_Dark_Watchers_Despair_B",

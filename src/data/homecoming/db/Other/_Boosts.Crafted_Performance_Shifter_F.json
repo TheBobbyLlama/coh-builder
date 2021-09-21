@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Performance_Shifter_F",
   "ImageName": "",
   "Power": [
-    1862
+    1868
   ],
   "SetType": 10,
   "DisplayName": "Crafted Performance Shifter F",
   "nArchetype": -1,
-  "nID": 1616,
+  "nID": 1622,
   "SubName": "Set: Performance Shifter",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1862,
-      "PowerSetID": 1616,
+      "PowerIndex": 1868,
+      "PowerSetID": 1622,
       "StaticIndex": 7807,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Performance_Shifter_F.Crafted_Performance_Shifter_F",

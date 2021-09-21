@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Technology_ToHit_Buff",
   "ImageName": "",
   "Power": [
-    2509
+    2515
   ],
   "SetType": 10,
   "DisplayName": "Science Technology ToHit Buff",
   "nArchetype": -1,
-  "nID": 2264,
+  "nID": 2270,
   "SubName": "Invention (Science, Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2509,
-      "PowerSetID": 2264,
+      "PowerIndex": 2515,
+      "PowerSetID": 2270,
       "StaticIndex": 8434,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Technology_ToHit_Buff.Science_Technology_ToHit_Buff",

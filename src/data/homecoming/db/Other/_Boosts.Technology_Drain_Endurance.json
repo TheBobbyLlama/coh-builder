@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Drain_Endurance",
   "ImageName": "",
   "Power": [
-    2764
+    2776
   ],
   "SetType": 10,
   "DisplayName": "Technology Endurance",
   "nArchetype": -1,
-  "nID": 2519,
+  "nID": 2530,
   "SubName": "Cybernetics (Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2764,
-      "PowerSetID": 2519,
+      "PowerIndex": 2776,
+      "PowerSetID": 2530,
       "StaticIndex": 8587,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Drain_Endurance.Technology_Drain_Endurance",

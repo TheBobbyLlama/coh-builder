@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Natural_Heal",
   "ImageName": "",
   "Power": [
-    2785
+    2797
   ],
   "SetType": 10,
   "DisplayName": "Technology Natural Heal",
   "nArchetype": -1,
-  "nID": 2540,
+  "nID": 2552,
   "SubName": "Gadget (Technology, Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2785,
-      "PowerSetID": 2540,
+      "PowerIndex": 2797,
+      "PowerSetID": 2552,
       "StaticIndex": 8608,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Natural_Heal.Technology_Natural_Heal",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Sleep",
   "ImageName": "",
   "Power": [
-    2808
+    2820
   ],
   "SetType": 10,
   "DisplayName": "Technology Sleep",
   "nArchetype": -1,
-  "nID": 2563,
+  "nID": 2575,
   "SubName": "Cybernetics (Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2808,
-      "PowerSetID": 2563,
+      "PowerIndex": 2820,
+      "PowerSetID": 2575,
       "StaticIndex": 8631,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Sleep.Technology_Sleep",

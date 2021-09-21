@@ -4,12 +4,12 @@
   "FullName": "Pets.Savage_Assault_Feral_Charge",
   "ImageName": "",
   "Power": [
-    6506
+    6526
   ],
   "SetType": 8,
   "DisplayName": "Savage Assault",
   "nArchetype": -1,
-  "nID": 3190,
+  "nID": 3205,
   "SubName": "",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -22,8 +22,8 @@
   "Powers": [
     {
       "CastTimeReal": 1.17,
-      "PowerIndex": 6506,
-      "PowerSetID": 3190,
+      "PowerIndex": 6526,
+      "PowerSetID": 3205,
       "StaticIndex": 10773,
       "NGroupMembership": [],
       "FullName": "Pets.Savage_Assault_Feral_Charge.Feral_Charge",

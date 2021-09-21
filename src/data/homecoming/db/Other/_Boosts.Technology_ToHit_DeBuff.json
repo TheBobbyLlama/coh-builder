@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_ToHit_DeBuff",
   "ImageName": "",
   "Power": [
-    2813
+    2825
   ],
   "SetType": 10,
   "DisplayName": "Technology ToHit DeBuff",
   "nArchetype": -1,
-  "nID": 2568,
+  "nID": 2580,
   "SubName": "Cybernetics (Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2813,
-      "PowerSetID": 2568,
+      "PowerIndex": 2825,
+      "PowerSetID": 2580,
       "StaticIndex": 8636,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_ToHit_DeBuff.Technology_ToHit_DeBuff",

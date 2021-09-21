@@ -4,12 +4,12 @@
   "FullName": "Pets.Warburg_Nuclear",
   "ImageName": "",
   "Power": [
-    6677
+    6697
   ],
   "SetType": 8,
   "DisplayName": "Warburg_Nuclear",
   "nArchetype": -1,
-  "nID": 3266,
+  "nID": 3281,
   "SubName": "Warburg",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6677,
-      "PowerSetID": 3266,
+      "PowerIndex": 6697,
+      "PowerSetID": 3281,
       "StaticIndex": 1788,
       "NGroupMembership": [],
       "FullName": "Pets.Warburg_Nuclear.Warburg_Nuclear",

@@ -4,12 +4,12 @@
   "FullName": "Pets.Embraced_Lightning_Rod_Scrapper",
   "ImageName": "",
   "Power": [
-    6309
+    6318
   ],
   "SetType": 8,
   "DisplayName": "Electric Melee",
   "nArchetype": -1,
-  "nID": 3071,
+  "nID": 3083,
   "SubName": "Electric Melee",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6309,
-      "PowerSetID": 3071,
+      "PowerIndex": 6318,
+      "PowerSetID": 3083,
       "StaticIndex": 4419,
       "NGroupMembership": [],
       "FullName": "Pets.Embraced_Lightning_Rod_Scrapper.Lightning_Rod",

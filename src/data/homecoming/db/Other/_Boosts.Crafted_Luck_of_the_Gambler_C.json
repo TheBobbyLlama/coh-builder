@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Luck_of_the_Gambler_C",
   "ImageName": "",
   "Power": [
-    1772
+    1778
   ],
   "SetType": 10,
   "DisplayName": "Crafted Luck of the Gambler C",
   "nArchetype": -1,
-  "nID": 1526,
+  "nID": 1532,
   "SubName": "Set: Luck of the Gambler",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1772,
-      "PowerSetID": 1526,
+      "PowerIndex": 1778,
+      "PowerSetID": 1532,
       "StaticIndex": 7717,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Luck_of_the_Gambler_C.Crafted_Luck_of_the_Gambler_C",

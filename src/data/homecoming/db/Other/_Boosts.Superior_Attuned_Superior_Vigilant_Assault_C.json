@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Superior_Vigilant_Assault_C",
   "ImageName": "",
   "Power": [
-    2725
+    2737
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Superior Vigilant Assault C",
   "nArchetype": -1,
-  "nID": 2480,
+  "nID": 2492,
   "SubName": "Set: Superior Vigilant Assault",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2725,
-      "PowerSetID": 2480,
+      "PowerIndex": 2737,
+      "PowerSetID": 2492,
       "StaticIndex": 8861,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Superior_Vigilant_Assault_C.Superior_Attuned_Superior_Vigilant_Assault_C",

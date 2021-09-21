@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Multi_Strike_D",
   "ImageName": "",
   "Power": [
-    1807
+    1813
   ],
   "SetType": 10,
   "DisplayName": "Crafted Multi-Strike D",
   "nArchetype": -1,
-  "nID": 1561,
+  "nID": 1567,
   "SubName": "Set: Multi-Strike",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1807,
-      "PowerSetID": 1561,
+      "PowerIndex": 1813,
+      "PowerSetID": 1567,
       "StaticIndex": 7752,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Multi_Strike_D.Crafted_Multi_Strike_D",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Magic_Confuse",
   "ImageName": "",
   "Power": [
-    2291
+    2297
   ],
   "SetType": 10,
   "DisplayName": "Magic Confuse",
   "nArchetype": -1,
-  "nID": 2045,
+  "nID": 2051,
   "SubName": "Dimensional Entities (Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2291,
-      "PowerSetID": 2045,
+      "PowerIndex": 2297,
+      "PowerSetID": 2051,
       "StaticIndex": 8216,
       "NGroupMembership": [],
       "FullName": "Boosts.Magic_Confuse.Magic_Confuse",

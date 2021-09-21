@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Heal",
   "ImageName": "",
   "Power": [
-    2327
+    2333
   ],
   "SetType": 10,
   "DisplayName": "Mutation Heal",
   "nArchetype": -1,
-  "nID": 2082,
+  "nID": 2088,
   "SubName": "Secondary Mutation (Mutation)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2327,
-      "PowerSetID": 2082,
+      "PowerIndex": 2333,
+      "PowerSetID": 2088,
       "StaticIndex": 8252,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Heal.Mutation_Heal",

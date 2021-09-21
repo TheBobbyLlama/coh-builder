@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Paralytic_E",
   "ImageName": "",
   "Power": [
-    1850
+    1856
   ],
   "SetType": 10,
   "DisplayName": "Crafted Paralytic E",
   "nArchetype": -1,
-  "nID": 1604,
+  "nID": 1610,
   "SubName": "Set: Paralytic",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1850,
-      "PowerSetID": 1604,
+      "PowerIndex": 1856,
+      "PowerSetID": 1610,
       "StaticIndex": 7795,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Paralytic_E.Crafted_Paralytic_E",

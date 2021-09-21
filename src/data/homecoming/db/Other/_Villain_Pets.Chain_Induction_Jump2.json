@@ -4,12 +4,12 @@
   "FullName": "Villain_Pets.Chain_Induction_Jump2",
   "ImageName": "",
   "Power": [
-    10064
+    10080
   ],
   "SetType": 8,
   "DisplayName": "Chain Induction Jump 2",
   "nArchetype": -1,
-  "nID": 3461,
+  "nID": 3475,
   "SubName": "Chain Induction Jump 2",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Villain_Pets",
   "Powers": [
     {
-      "PowerIndex": 10064,
-      "PowerSetID": 3461,
+      "PowerIndex": 10080,
+      "PowerSetID": 3475,
       "StaticIndex": 3263,
       "NGroupMembership": [],
       "FullName": "Villain_Pets.Chain_Induction_Jump2.Charge",

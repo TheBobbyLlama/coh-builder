@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Magic_Drain_Endurance",
   "ImageName": "",
   "Power": [
-    2424
+    2430
   ],
   "SetType": 10,
   "DisplayName": "Natural Magic Endurance",
   "nArchetype": -1,
-  "nID": 2179,
+  "nID": 2185,
   "SubName": "Relic (Natural, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2424,
-      "PowerSetID": 2179,
+      "PowerIndex": 2430,
+      "PowerSetID": 2185,
       "StaticIndex": 8349,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Magic_Drain_Endurance.Natural_Magic_Drain_Endurance",

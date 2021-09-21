@@ -4,15 +4,15 @@
   "FullName": "Incarnate.Lore_Pet_Rularuu_Boss",
   "ImageName": "",
   "Power": [
-    5401,
-    5402,
-    5403,
-    5404
+    5410,
+    5411,
+    5412,
+    5413
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Rularuu_Boss",
   "nArchetype": -1,
-  "nID": 2863,
+  "nID": 2874,
   "SubName": "Rularuu",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -25,8 +25,8 @@
   "Powers": [
     {
       "CastTimeReal": 2.0,
-      "PowerIndex": 5401,
-      "PowerSetID": 2863,
+      "PowerIndex": 5410,
+      "PowerSetID": 2874,
       "StaticIndex": 5555,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Rularuu_Boss.Quill_Blast",
@@ -266,8 +266,8 @@
     },
     {
       "CastTimeReal": 1.5,
-      "PowerIndex": 5402,
-      "PowerSetID": 2863,
+      "PowerIndex": 5411,
+      "PowerSetID": 2874,
       "PowerSetIndex": 1,
       "StaticIndex": 5556,
       "NGroupMembership": [],
@@ -386,8 +386,8 @@
     },
     {
       "CastTimeReal": 2.67,
-      "PowerIndex": 5403,
-      "PowerSetID": 2863,
+      "PowerIndex": 5412,
+      "PowerSetID": 2874,
       "PowerSetIndex": 2,
       "StaticIndex": 5558,
       "NGroupMembership": [],
@@ -861,8 +861,8 @@
     },
     {
       "CastTimeReal": 2.67,
-      "PowerIndex": 5404,
-      "PowerSetID": 2863,
+      "PowerIndex": 5413,
+      "PowerSetID": 2874,
       "PowerSetIndex": 3,
       "StaticIndex": 5557,
       "NGroupMembership": [],

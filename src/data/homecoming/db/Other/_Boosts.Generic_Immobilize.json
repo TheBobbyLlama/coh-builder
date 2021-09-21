@@ -4,12 +4,12 @@
   "FullName": "Boosts.Generic_Immobilize",
   "ImageName": "",
   "Power": [
-    2247
+    2253
   ],
   "SetType": 10,
   "DisplayName": "Generic Immobilize",
   "nArchetype": -1,
-  "nID": 2002,
+  "nID": 2008,
   "SubName": "Training (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2247,
-      "PowerSetID": 2002,
+      "PowerIndex": 2253,
+      "PowerSetID": 2008,
       "StaticIndex": 8172,
       "NGroupMembership": [],
       "FullName": "Boosts.Generic_Immobilize.Generic_Immobilize",

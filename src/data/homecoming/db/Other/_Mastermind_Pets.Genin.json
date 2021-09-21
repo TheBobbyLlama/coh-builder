@@ -4,15 +4,15 @@
   "FullName": "Mastermind_Pets.Genin",
   "ImageName": "",
   "Power": [
-    5897,
-    5898,
-    5899,
-    5900
+    5906,
+    5907,
+    5908,
+    5909
   ],
   "SetType": 8,
   "DisplayName": "Genin",
   "nArchetype": -1,
-  "nID": 2949,
+  "nID": 2959,
   "SubName": "Ninjas",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "GroupName": "Mastermind_Pets",
   "Powers": [
     {
-      "PowerIndex": 5897,
-      "PowerSetID": 2949,
+      "PowerIndex": 5906,
+      "PowerSetID": 2959,
       "StaticIndex": 1196,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Genin.Resistance",
@@ -480,8 +480,8 @@
     {
       "CastTimeReal": 1.07,
       "ToggleCost": 5.2,
-      "PowerIndex": 5898,
-      "PowerSetID": 2949,
+      "PowerIndex": 5907,
+      "PowerSetID": 2959,
       "PowerSetIndex": 1,
       "StaticIndex": 1197,
       "NGroupMembership": [],
@@ -719,8 +719,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5899,
-      "PowerSetID": 2949,
+      "PowerIndex": 5908,
+      "PowerSetID": 2959,
       "PowerSetIndex": 2,
       "StaticIndex": 1198,
       "NGroupMembership": [],
@@ -1062,8 +1062,8 @@
     {
       "CastTimeReal": 1.07,
       "ToggleCost": 5.2,
-      "PowerIndex": 5900,
-      "PowerSetID": 2949,
+      "PowerIndex": 5909,
+      "PowerSetID": 2959,
       "PowerSetIndex": 3,
       "StaticIndex": 1199,
       "NGroupMembership": [],

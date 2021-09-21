@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Pounding_Slugfest_A",
   "ImageName": "",
   "Power": [
-    1875
+    1881
   ],
   "SetType": 10,
   "DisplayName": "Crafted Pounding Slugfest A",
   "nArchetype": -1,
-  "nID": 1629,
+  "nID": 1635,
   "SubName": "Set: Pounding Slugfest",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1875,
-      "PowerSetID": 1629,
+      "PowerIndex": 1881,
+      "PowerSetID": 1635,
       "StaticIndex": 7820,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Pounding_Slugfest_A.Crafted_Pounding_Slugfest_A",

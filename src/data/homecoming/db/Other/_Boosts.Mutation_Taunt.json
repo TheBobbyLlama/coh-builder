@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Taunt",
   "ImageName": "",
   "Power": [
-    2398
+    2404
   ],
   "SetType": 10,
   "DisplayName": "Mutation Taunt",
   "nArchetype": -1,
-  "nID": 2153,
+  "nID": 2159,
   "SubName": "Secondary Mutation (Mutation)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2398,
-      "PowerSetID": 2153,
+      "PowerIndex": 2404,
+      "PowerSetID": 2159,
       "StaticIndex": 8323,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Taunt.Mutation_Taunt",

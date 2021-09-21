@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Explosive_Strike_A",
   "ImageName": "",
   "Power": [
-    1503
+    1509
   ],
   "SetType": 10,
   "DisplayName": "Crafted Explosive Strike A",
   "nArchetype": -1,
-  "nID": 1257,
+  "nID": 1263,
   "SubName": "Set: Explosive Strike",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1503,
-      "PowerSetID": 1257,
+      "PowerIndex": 1509,
+      "PowerSetID": 1263,
       "StaticIndex": 7448,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Explosive_Strike_A.Crafted_Explosive_Strike_A",

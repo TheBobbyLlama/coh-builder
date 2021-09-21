@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Cone",
   "ImageName": "",
   "Power": [
-    2318
+    2324
   ],
   "SetType": 10,
   "DisplayName": "Mutation Range",
   "nArchetype": -1,
-  "nID": 2118,
+  "nID": 2124,
   "SubName": "Secondary Mutation (Mutation)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2318,
-      "PowerSetID": 2118,
+      "PowerIndex": 2324,
+      "PowerSetID": 2124,
       "StaticIndex": 8243,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Cone.Mutation_Cone",

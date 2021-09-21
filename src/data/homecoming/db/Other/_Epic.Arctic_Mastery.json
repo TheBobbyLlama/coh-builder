@@ -4,16 +4,16 @@
   "FullName": "Epic.Arctic_Mastery",
   "ImageName": "ArcticMastery.png",
   "Power": [
-    4078,
-    4079,
-    4080,
-    4081,
-    4082
+    4087,
+    4088,
+    4089,
+    4090,
+    4091
   ],
   "SetType": 3,
   "DisplayName": "Arctic Mastery",
   "nArchetype": -1,
-  "nID": 2723,
+  "nID": 2734,
   "SubName": "Arctic Mastery",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
     {
       "CastTimeReal": 1.17,
       "ToggleCost": 9.75,
-      "PowerIndex": 4078,
-      "PowerSetID": 2723,
+      "PowerIndex": 4087,
+      "PowerSetID": 2734,
       "StaticIndex": 847,
       "NGroupMembership": [],
       "FullName": "Epic.Arctic_Mastery.Chilblain",
@@ -1175,8 +1175,8 @@
     {
       "CastTimeReal": 1.87,
       "ToggleCost": 10.66,
-      "PowerIndex": 4079,
-      "PowerSetID": 2723,
+      "PowerIndex": 4088,
+      "PowerSetID": 2734,
       "PowerSetIndex": 1,
       "StaticIndex": 848,
       "NGroupMembership": [],
@@ -2249,14 +2249,16 @@
       "FullSetName": "Epic.Arctic_Mastery",
       "CastTime": 1.87,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.67,
       "ToggleCost": 6.5,
       "IsEpic": true,
-      "PowerIndex": 4080,
-      "PowerSetID": 2723,
+      "PowerIndex": 4089,
+      "PowerSetID": 2734,
       "PowerSetIndex": 2,
       "StaticIndex": 849,
       "NGroupMembership": [],
@@ -2272,11 +2274,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4078,
+            4087,
             -1
           ],
           [
-            4079,
+            4088,
             -1
           ]
         ],
@@ -3109,8 +3111,8 @@
       "CastTimeReal": 2.17,
       "ToggleCost": 15.6,
       "IsEpic": true,
-      "PowerIndex": 4081,
-      "PowerSetID": 2723,
+      "PowerIndex": 4090,
+      "PowerSetID": 2734,
       "PowerSetIndex": 3,
       "StaticIndex": 3292,
       "NGroupMembership": [],
@@ -3126,11 +3128,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4078,
+            4087,
             -1
           ],
           [
-            4079,
+            4088,
             -1
           ]
         ],
@@ -3791,8 +3793,8 @@
       "CastTimeReal": 2.03,
       "ToggleCost": 19.5,
       "IsEpic": true,
-      "PowerIndex": 4082,
-      "PowerSetID": 2723,
+      "PowerIndex": 4091,
+      "PowerSetID": 2734,
       "PowerSetIndex": 4,
       "StaticIndex": 850,
       "NGroupMembership": [],
@@ -3808,24 +3810,24 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4078,
-            4079
+            4087,
+            4088
           ],
           [
-            4078,
-            4080
+            4087,
+            4089
           ],
           [
-            4078,
-            4081
+            4087,
+            4090
           ],
           [
-            4079,
-            4080
+            4088,
+            4089
           ],
           [
-            4079,
-            4081
+            4088,
+            4090
           ]
         ],
         "NPowerIDNot": [],
@@ -3907,6 +3909,7 @@
           "MagPercent": 5000.0,
           "Duration": 15.0,
           "DisplayPercentage": true,
+          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Level",
@@ -3964,6 +3967,7 @@
           "MagPercent": 5000.0,
           "Duration": 15.0,
           "DisplayPercentage": true,
+          "VariableModified": true,
           "Reward": "",
           "EffectId": "FieryEmbrace",
           "Special": "",

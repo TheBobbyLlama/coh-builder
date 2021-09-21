@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Kinetic_Crash_A",
   "ImageName": "",
   "Power": [
-    1737
+    1743
   ],
   "SetType": 10,
   "DisplayName": "Crafted Kinetic Crash A",
   "nArchetype": -1,
-  "nID": 1491,
+  "nID": 1497,
   "SubName": "Set: Kinetic Crash",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1737,
-      "PowerSetID": 1491,
+      "PowerIndex": 1743,
+      "PowerSetID": 1497,
       "StaticIndex": 7682,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Kinetic_Crash_A.Crafted_Kinetic_Crash_A",

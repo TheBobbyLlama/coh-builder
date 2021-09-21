@@ -4,12 +4,12 @@
   "FullName": "Pets.NemesisBang",
   "ImageName": "",
   "Power": [
-    6425
+    6434
   ],
   "SetType": 8,
   "DisplayName": "Nemesis",
   "nArchetype": -1,
-  "nID": 3150,
+  "nID": 3162,
   "SubName": "Nemesis",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6425,
-      "PowerSetID": 3150,
+      "PowerIndex": 6434,
+      "PowerSetID": 3162,
       "StaticIndex": 1662,
       "NGroupMembership": [],
       "FullName": "Pets.NemesisBang.Explode",

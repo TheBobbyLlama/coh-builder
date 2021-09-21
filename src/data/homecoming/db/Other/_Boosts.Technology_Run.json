@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Run",
   "ImageName": "",
   "Power": [
-    2807
+    2819
   ],
   "SetType": 10,
   "DisplayName": "Technology Run",
   "nArchetype": -1,
-  "nID": 2562,
+  "nID": 2574,
   "SubName": "Cybernetics (Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2807,
-      "PowerSetID": 2562,
+      "PowerIndex": 2819,
+      "PowerSetID": 2574,
       "StaticIndex": 8630,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Run.Technology_Run",

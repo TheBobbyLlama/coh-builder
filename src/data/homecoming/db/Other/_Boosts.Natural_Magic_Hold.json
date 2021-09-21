@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Magic_Hold",
   "ImageName": "",
   "Power": [
-    2429
+    2435
   ],
   "SetType": 10,
   "DisplayName": "Natural Magic Hold",
   "nArchetype": -1,
-  "nID": 2184,
+  "nID": 2190,
   "SubName": "Relic (Natural, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2429,
-      "PowerSetID": 2184,
+      "PowerIndex": 2435,
+      "PowerSetID": 2190,
       "StaticIndex": 8354,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Magic_Hold.Natural_Magic_Hold",

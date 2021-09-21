@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Titanium_Coating_D",
   "ImageName": "",
   "Power": [
-    2140
+    2146
   ],
   "SetType": 10,
   "DisplayName": "Crafted Titanium Coating D",
   "nArchetype": -1,
-  "nID": 1892,
+  "nID": 1898,
   "SubName": "Set: Titanium Coating",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2140,
-      "PowerSetID": 1892,
+      "PowerIndex": 2146,
+      "PowerSetID": 1898,
       "StaticIndex": 8071,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Titanium_Coating_D.Crafted_Titanium_Coating_D",

@@ -4,16 +4,16 @@
   "FullName": "Pool.Invisibility",
   "ImageName": "Invisibility.png",
   "Power": [
-    6729,
-    6730,
-    6731,
-    6732,
-    6733
+    6749,
+    6750,
+    6751,
+    6752,
+    6753
   ],
   "SetType": 5,
   "DisplayName": "Concealment",
   "nArchetype": -1,
-  "nID": 3280,
+  "nID": 3295,
   "SubName": "Concealment",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
     {
       "CastTimeReal": 0.73,
       "ToggleCost": 0.325,
-      "PowerIndex": 6729,
-      "PowerSetID": 3280,
+      "PowerIndex": 6749,
+      "PowerSetID": 3295,
       "StaticIndex": 1805,
       "NGroupMembership": [
         20
@@ -2892,8 +2892,8 @@
     {
       "CastTimeReal": 1.17,
       "ToggleCost": 15.6,
-      "PowerIndex": 6730,
-      "PowerSetID": 3280,
+      "PowerIndex": 6750,
+      "PowerSetID": 3295,
       "PowerSetIndex": 1,
       "StaticIndex": 1806,
       "NGroupMembership": [],
@@ -4362,8 +4362,8 @@
       "CastTimeReal": 0.73,
       "ToggleCost": 0.455,
       "IsEpic": true,
-      "PowerIndex": 6731,
-      "PowerSetID": 3280,
+      "PowerIndex": 6751,
+      "PowerSetID": 3295,
       "PowerSetIndex": 2,
       "StaticIndex": 1807,
       "NGroupMembership": [
@@ -4381,11 +4381,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6729,
+            6749,
             -1
           ],
           [
-            6730,
+            6750,
             -1
           ]
         ],
@@ -5811,8 +5811,8 @@
       "CastTimeReal": 1.5,
       "ToggleCost": 9.75,
       "IsEpic": true,
-      "PowerIndex": 6732,
-      "PowerSetID": 3280,
+      "PowerIndex": 6752,
+      "PowerSetID": 3295,
       "PowerSetIndex": 3,
       "StaticIndex": 9613,
       "NGroupMembership": [],
@@ -5828,28 +5828,28 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6729,
-            6730
+            6749,
+            6750
           ],
           [
-            6729,
-            6731
+            6749,
+            6751
           ],
           [
-            6729,
-            6733
+            6749,
+            6753
           ],
           [
-            6730,
-            6731
+            6750,
+            6751
           ],
           [
-            6730,
-            6733
+            6750,
+            6753
           ],
           [
-            6731,
-            6733
+            6751,
+            6753
           ]
         ],
         "NPowerIDNot": [],
@@ -6512,8 +6512,8 @@
       "CastTimeReal": 0.5,
       "ToggleCost": 0.65,
       "IsEpic": true,
-      "PowerIndex": 6733,
-      "PowerSetID": 3280,
+      "PowerIndex": 6753,
+      "PowerSetID": 3295,
       "PowerSetIndex": 4,
       "StaticIndex": 1808,
       "NGroupMembership": [
@@ -6531,16 +6531,16 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6729,
-            6730
+            6749,
+            6750
           ],
           [
-            6729,
-            6731
+            6749,
+            6751
           ],
           [
-            6730,
-            6731
+            6750,
+            6751
           ]
         ],
         "NPowerIDNot": [],
@@ -7012,7 +7012,7 @@
           "nID": 7,
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.NoPhase",
-          "nSummon": 9741,
+          "nSummon": 9757,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Superior_Dominating_Grasp_B",
   "ImageName": "",
   "Power": [
-    2640
+    2646
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Superior Dominating Grasp B",
   "nArchetype": -1,
-  "nID": 2395,
+  "nID": 2401,
   "SubName": "Set: Dominating Grasp",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2640,
-      "PowerSetID": 2395,
+      "PowerIndex": 2646,
+      "PowerSetID": 2401,
       "StaticIndex": 8812,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Superior_Dominating_Grasp_B.Superior_Attuned_Superior_Dominating_Grasp_B",

@@ -4,12 +4,12 @@
   "FullName": "Villain_Pets.Savage_Melee_Stalker",
   "ImageName": "",
   "Power": [
-    10224
+    10240
   ],
   "SetType": 8,
   "DisplayName": "Savage Melee: Stalker",
   "nArchetype": -1,
-  "nID": 3507,
+  "nID": 3521,
   "SubName": "",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
     {
       "CastTimeReal": 2.0,
       "ToggleCost": 3.52,
-      "PowerIndex": 10224,
-      "PowerSetID": 3507,
+      "PowerIndex": 10240,
+      "PowerSetID": 3521,
       "StaticIndex": 10893,
       "NGroupMembership": [],
       "FullName": "Villain_Pets.Savage_Melee_Stalker.Hemorrhage_5Stack",

@@ -4,12 +4,12 @@
   "FullName": "Pets.IcePatch",
   "ImageName": "",
   "Power": [
-    6357
+    6366
   ],
   "SetType": 8,
   "DisplayName": "Ice Patch",
   "nArchetype": -1,
-  "nID": 3103,
+  "nID": 3115,
   "SubName": "Ice Armor",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6357,
-      "PowerSetID": 3103,
+      "PowerIndex": 6366,
+      "PowerSetID": 3115,
       "StaticIndex": 1617,
       "NGroupMembership": [],
       "FullName": "Pets.IcePatch.IcePatch",

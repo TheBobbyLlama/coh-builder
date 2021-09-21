@@ -4,13 +4,13 @@
   "FullName": "Incarnate.Lore_Pet_Clockwork_Support",
   "ImageName": "",
   "Power": [
-    5320,
-    5321
+    5329,
+    5330
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Clockwork_Support",
   "nArchetype": -1,
-  "nID": 2833,
+  "nID": 2844,
   "SubName": "Clockwork",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "Powers": [
     {
       "CastTimeReal": 2.27,
-      "PowerIndex": 5320,
-      "PowerSetID": 2833,
+      "PowerIndex": 5329,
+      "PowerSetID": 2844,
       "StaticIndex": 4654,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Clockwork_Support.Nano_Repair",
@@ -195,8 +195,8 @@
     },
     {
       "CastTimeReal": 2.07,
-      "PowerIndex": 5321,
-      "PowerSetID": 2833,
+      "PowerIndex": 5330,
+      "PowerSetID": 2844,
       "PowerSetIndex": 1,
       "StaticIndex": 4655,
       "NGroupMembership": [],

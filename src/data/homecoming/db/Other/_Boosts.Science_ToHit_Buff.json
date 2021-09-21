@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_ToHit_Buff",
   "ImageName": "",
   "Power": [
-    2511
+    2517
   ],
   "SetType": 10,
   "DisplayName": "Science ToHit Buff",
   "nArchetype": -1,
-  "nID": 2266,
+  "nID": 2272,
   "SubName": "Experiment (Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2511,
-      "PowerSetID": 2266,
+      "PowerIndex": 2517,
+      "PowerSetID": 2272,
       "StaticIndex": 8436,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_ToHit_Buff.Science_ToHit_Buff",

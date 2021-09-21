@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Sleep",
   "ImageName": "",
   "Power": [
-    2395
+    2401
   ],
   "SetType": 10,
   "DisplayName": "Mutation Sleep",
   "nArchetype": -1,
-  "nID": 2150,
+  "nID": 2156,
   "SubName": "Secondary Mutation (Mutation)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2395,
-      "PowerSetID": 2150,
+      "PowerIndex": 2401,
+      "PowerSetID": 2156,
       "StaticIndex": 8320,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Sleep.Mutation_Sleep",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Magic_Fear",
   "ImageName": "",
   "Power": [
-    2342
+    2348
   ],
   "SetType": 10,
   "DisplayName": "Mutation Magic Fear",
   "nArchetype": -1,
-  "nID": 2097,
+  "nID": 2103,
   "SubName": "Focusing Device (Mutation, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2342,
-      "PowerSetID": 2097,
+      "PowerIndex": 2348,
+      "PowerSetID": 2103,
       "StaticIndex": 8267,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Magic_Fear.Mutation_Magic_Fear",

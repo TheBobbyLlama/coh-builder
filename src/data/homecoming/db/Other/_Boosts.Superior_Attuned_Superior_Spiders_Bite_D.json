@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Superior_Spiders_Bite_D",
   "ImageName": "",
   "Power": [
-    2708
+    2720
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Superior Spiders Bite D",
   "nArchetype": -1,
-  "nID": 2463,
+  "nID": 2475,
   "SubName": "Set: Superior Spider's Bite",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2708,
-      "PowerSetID": 2463,
+      "PowerIndex": 2720,
+      "PowerSetID": 2475,
       "StaticIndex": 8850,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Superior_Spiders_Bite_D.Superior_Attuned_Superior_Spiders_Bite_D",

@@ -4,17 +4,17 @@
   "FullName": "Mastermind_Pets.Spec_Ops",
   "ImageName": "",
   "Power": [
-    6024,
-    6025,
-    6026,
-    6027,
-    6028,
-    6029
+    6033,
+    6034,
+    6035,
+    6036,
+    6037,
+    6038
   ],
   "SetType": 8,
   "DisplayName": "Spec Ops",
   "nArchetype": -1,
-  "nID": 2987,
+  "nID": 2997,
   "SubName": "Mercenaries",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -26,8 +26,8 @@
   "GroupName": "Mastermind_Pets",
   "Powers": [
     {
-      "PowerIndex": 6024,
-      "PowerSetID": 2987,
+      "PowerIndex": 6033,
+      "PowerSetID": 2997,
       "StaticIndex": 1306,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Spec_Ops.Resistance",
@@ -361,8 +361,8 @@
     {
       "CastTimeReal": 0.67,
       "ToggleCost": 4.368,
-      "PowerIndex": 6025,
-      "PowerSetID": 2987,
+      "PowerIndex": 6034,
+      "PowerSetID": 2997,
       "PowerSetIndex": 1,
       "StaticIndex": 1307,
       "NGroupMembership": [],
@@ -542,8 +542,8 @@
     {
       "CastTimeReal": 2.2,
       "ToggleCost": 4.368,
-      "PowerIndex": 6026,
-      "PowerSetID": 2987,
+      "PowerIndex": 6035,
+      "PowerSetID": 2997,
       "PowerSetIndex": 2,
       "StaticIndex": 1308,
       "NGroupMembership": [],
@@ -791,8 +791,8 @@
     {
       "CastTimeReal": 2.67,
       "ToggleCost": 6.864,
-      "PowerIndex": 6027,
-      "PowerSetID": 2987,
+      "PowerIndex": 6036,
+      "PowerSetID": 2997,
       "PowerSetIndex": 3,
       "StaticIndex": 1309,
       "NGroupMembership": [],
@@ -1038,8 +1038,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 6028,
-      "PowerSetID": 2987,
+      "PowerIndex": 6037,
+      "PowerSetID": 2997,
       "PowerSetIndex": 4,
       "StaticIndex": 1310,
       "NGroupMembership": [],
@@ -1377,8 +1377,8 @@
     {
       "CastTimeReal": 1.87,
       "ToggleCost": 7.8,
-      "PowerIndex": 6029,
-      "PowerSetID": 2987,
+      "PowerIndex": 6038,
+      "PowerSetID": 2997,
       "PowerSetIndex": 5,
       "StaticIndex": 1311,
       "NGroupMembership": [],

@@ -4,16 +4,16 @@
   "FullName": "Mastermind_Pets.Ember_Demon",
   "ImageName": "",
   "Power": [
-    5882,
-    5883,
-    5884,
-    5885,
-    5886
+    5891,
+    5892,
+    5893,
+    5894,
+    5895
   ],
   "SetType": 8,
   "DisplayName": "Ember Demon",
   "nArchetype": -1,
-  "nID": 2943,
+  "nID": 2953,
   "SubName": "Demons",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -25,8 +25,8 @@
   "GroupName": "Mastermind_Pets",
   "Powers": [
     {
-      "PowerIndex": 5882,
-      "PowerSetID": 2943,
+      "PowerIndex": 5891,
+      "PowerSetID": 2953,
       "StaticIndex": 4208,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Ember_Demon.Resistance",
@@ -468,8 +468,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5883,
-      "PowerSetID": 2943,
+      "PowerIndex": 5892,
+      "PowerSetID": 2953,
       "PowerSetIndex": 1,
       "StaticIndex": 4406,
       "NGroupMembership": [],
@@ -819,8 +819,8 @@
     {
       "CastTimeReal": 1.2,
       "ToggleCost": 5.2,
-      "PowerIndex": 5884,
-      "PowerSetID": 2943,
+      "PowerIndex": 5893,
+      "PowerSetID": 2953,
       "PowerSetIndex": 2,
       "StaticIndex": 4209,
       "NGroupMembership": [],
@@ -1125,8 +1125,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5885,
-      "PowerSetID": 2943,
+      "PowerIndex": 5894,
+      "PowerSetID": 2953,
       "PowerSetIndex": 3,
       "StaticIndex": 4210,
       "NGroupMembership": [],
@@ -1474,8 +1474,8 @@
       "AoEModifier": 10.0
     },
     {
-      "PowerIndex": 5886,
-      "PowerSetID": 2943,
+      "PowerIndex": 5895,
+      "PowerSetID": 2953,
       "PowerSetIndex": 4,
       "StaticIndex": 4211,
       "NGroupMembership": [],

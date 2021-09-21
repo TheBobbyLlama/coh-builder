@@ -4,14 +4,14 @@
   "FullName": "Incarnate.Lore_Pet_Longbow_LT",
   "ImageName": "",
   "Power": [
-    5371,
-    5372,
-    5373
+    5380,
+    5381,
+    5382
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Longbow_LT",
   "nArchetype": -1,
-  "nID": 2851,
+  "nID": 2862,
   "SubName": "Longbow",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "Powers": [
     {
       "CastTimeReal": 2.2,
-      "PowerIndex": 5371,
-      "PowerSetID": 2851,
+      "PowerIndex": 5380,
+      "PowerSetID": 2862,
       "StaticIndex": 5525,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Longbow_LT.Burst",
@@ -207,8 +207,8 @@
     },
     {
       "CastTimeReal": 1.87,
-      "PowerIndex": 5372,
-      "PowerSetID": 2851,
+      "PowerIndex": 5381,
+      "PowerSetID": 2862,
       "PowerSetIndex": 1,
       "StaticIndex": 5527,
       "NGroupMembership": [],
@@ -504,8 +504,8 @@
     },
     {
       "CastTimeReal": 1.87,
-      "PowerIndex": 5373,
-      "PowerSetID": 2851,
+      "PowerIndex": 5382,
+      "PowerSetID": 2862,
       "PowerSetIndex": 2,
       "StaticIndex": 5526,
       "NGroupMembership": [],

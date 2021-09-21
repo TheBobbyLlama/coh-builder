@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Recharge_25",
   "ImageName": "",
   "Power": [
-    1930
+    1936
   ],
   "SetType": 10,
   "DisplayName": "Crafted Recharge 25",
   "nArchetype": -1,
-  "nID": 1683,
+  "nID": 1689,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1930,
-      "PowerSetID": 1683,
+      "PowerIndex": 1936,
+      "PowerSetID": 1689,
       "StaticIndex": 7862,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Recharge_25.Crafted_Recharge_25",

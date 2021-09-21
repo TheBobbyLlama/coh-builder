@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Knockback",
   "ImageName": "",
   "Power": [
-    2417
+    2423
   ],
   "SetType": 10,
   "DisplayName": "Natural Knockback",
   "nArchetype": -1,
-  "nID": 2172,
+  "nID": 2178,
   "SubName": "Technique (Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2417,
-      "PowerSetID": 2172,
+      "PowerIndex": 2423,
+      "PowerSetID": 2178,
       "StaticIndex": 8342,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Knockback.Natural_Knockback",

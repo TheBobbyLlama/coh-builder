@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Salvo_A",
   "ImageName": "",
   "Power": [
-    1996
+    2002
   ],
   "SetType": 10,
   "DisplayName": "Crafted Salvo A",
   "nArchetype": -1,
-  "nID": 1749,
+  "nID": 1755,
   "SubName": "Set: Salvo",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1996,
-      "PowerSetID": 1749,
+      "PowerIndex": 2002,
+      "PowerSetID": 1755,
       "StaticIndex": 7928,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Salvo_A.Crafted_Salvo_A",

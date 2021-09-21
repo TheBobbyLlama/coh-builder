@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Endurance_Discount",
   "ImageName": "",
   "Power": [
-    2765
+    2777
   ],
   "SetType": 10,
   "DisplayName": "Technology Endurance Discount",
   "nArchetype": -1,
-  "nID": 2520,
+  "nID": 2532,
   "SubName": "Cybernetics (Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2765,
-      "PowerSetID": 2520,
+      "PowerIndex": 2777,
+      "PowerSetID": 2532,
       "StaticIndex": 8588,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Endurance_Discount.Technology_Endurance_Discount",

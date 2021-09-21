@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Dampened_Spirits_E",
   "ImageName": "",
   "Power": [
-    1360
+    1366
   ],
   "SetType": 10,
   "DisplayName": "Crafted Dampened Spirits E",
   "nArchetype": -1,
-  "nID": 1114,
+  "nID": 1120,
   "SubName": "Set: Dampened Spirits",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1360,
-      "PowerSetID": 1114,
+      "PowerIndex": 1366,
+      "PowerSetID": 1120,
       "StaticIndex": 7305,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Dampened_Spirits_E.Crafted_Dampened_Spirits_E",

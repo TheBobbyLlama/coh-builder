@@ -4,18 +4,18 @@
   "FullName": "Villain_Pets.Toxic_Tarantula",
   "ImageName": "",
   "Power": [
-    10264,
-    10265,
-    10266,
-    10267,
-    10268,
-    10269,
-    10270
+    10280,
+    10281,
+    10282,
+    10283,
+    10284,
+    10285,
+    10286
   ],
   "SetType": 8,
   "DisplayName": "Toxic Tarantula",
   "nArchetype": -1,
-  "nID": 3532,
+  "nID": 3546,
   "SubName": "Mace Mastery",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -29,8 +29,8 @@
     {
       "CastTimeReal": 1.53,
       "ToggleCost": 6.5,
-      "PowerIndex": 10264,
-      "PowerSetID": 3532,
+      "PowerIndex": 10280,
+      "PowerSetID": 3546,
       "StaticIndex": 3149,
       "NGroupMembership": [],
       "FullName": "Villain_Pets.Toxic_Tarantula.Venom_Bolt",
@@ -271,8 +271,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 10265,
-      "PowerSetID": 3532,
+      "PowerIndex": 10281,
+      "PowerSetID": 3546,
       "PowerSetIndex": 1,
       "StaticIndex": 3150,
       "NGroupMembership": [],
@@ -490,8 +490,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 10266,
-      "PowerSetID": 3532,
+      "PowerIndex": 10282,
+      "PowerSetID": 3546,
       "PowerSetIndex": 2,
       "StaticIndex": 3151,
       "NGroupMembership": [],
@@ -597,8 +597,8 @@
     {
       "CastTimeReal": 0.67,
       "ToggleCost": 6.5,
-      "PowerIndex": 10267,
-      "PowerSetID": 3532,
+      "PowerIndex": 10283,
+      "PowerSetID": 3546,
       "PowerSetIndex": 3,
       "StaticIndex": 3152,
       "NGroupMembership": [],
@@ -780,8 +780,8 @@
     {
       "CastTimeReal": 0.83,
       "ToggleCost": 10.66,
-      "PowerIndex": 10268,
-      "PowerSetID": 3532,
+      "PowerIndex": 10284,
+      "PowerSetID": 3546,
       "PowerSetIndex": 4,
       "StaticIndex": 3153,
       "NGroupMembership": [],
@@ -966,8 +966,8 @@
     {
       "CastTimeReal": 1.7,
       "ToggleCost": 10.66,
-      "PowerIndex": 10269,
-      "PowerSetID": 3532,
+      "PowerIndex": 10285,
+      "PowerSetID": 3546,
       "PowerSetIndex": 5,
       "StaticIndex": 3154,
       "NGroupMembership": [],
@@ -1511,8 +1511,8 @@
     {
       "CastTimeReal": 1.17,
       "ToggleCost": 13.0,
-      "PowerIndex": 10270,
-      "PowerSetID": 3532,
+      "PowerIndex": 10286,
+      "PowerSetID": 3546,
       "PowerSetIndex": 6,
       "StaticIndex": 3155,
       "NGroupMembership": [],

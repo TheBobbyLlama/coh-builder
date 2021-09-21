@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Gravitational_Anchor_F",
   "ImageName": "",
   "Power": [
-    2572
+    2578
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Gravitational Anchor F",
   "nArchetype": -1,
-  "nID": 2327,
+  "nID": 2333,
   "SubName": "Set: Gravitational Anchor",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2572,
-      "PowerSetID": 2327,
+      "PowerIndex": 2578,
+      "PowerSetID": 2333,
       "StaticIndex": 8473,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Gravitational_Anchor_F.Superior_Attuned_Gravitational_Anchor_F",

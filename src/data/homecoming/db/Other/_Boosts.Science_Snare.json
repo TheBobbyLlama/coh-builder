@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Snare",
   "ImageName": "",
   "Power": [
-    2480
+    2486
   ],
   "SetType": 10,
   "DisplayName": "Science Snare",
   "nArchetype": -1,
-  "nID": 2235,
+  "nID": 2241,
   "SubName": "Experiment (Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2480,
-      "PowerSetID": 2235,
+      "PowerIndex": 2486,
+      "PowerSetID": 2241,
       "StaticIndex": 8405,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Snare.Science_Snare",

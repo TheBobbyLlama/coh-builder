@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Reactive_Defenses_F",
   "ImageName": "",
   "Power": [
-    1925
+    1931
   ],
   "SetType": 10,
   "DisplayName": "Crafted Reactive Defenses F",
   "nArchetype": -1,
-  "nID": 1678,
+  "nID": 1684,
   "SubName": "Set: Reactive Defenses",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1925,
-      "PowerSetID": 1678,
+      "PowerIndex": 1931,
+      "PowerSetID": 1684,
       "StaticIndex": 9313,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Reactive_Defenses_F.Crafted_Reactive_Defenses_F",

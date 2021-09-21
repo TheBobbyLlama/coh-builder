@@ -4,12 +4,12 @@
   "FullName": "Incarnate.Faux_Untouchable",
   "ImageName": "",
   "Power": [
-    4716
+    4725
   ],
   "SetType": 11,
   "DisplayName": "Temporal",
   "nArchetype": -1,
-  "nID": 2889,
+  "nID": 2900,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Incarnate",
   "Powers": [
     {
-      "PowerIndex": 4716,
-      "PowerSetID": 2889,
+      "PowerIndex": 4725,
+      "PowerSetID": 2900,
       "StaticIndex": 4613,
       "NGroupMembership": [],
       "FullName": "Incarnate.Faux_Untouchable.Paradox_Core_Eternity",

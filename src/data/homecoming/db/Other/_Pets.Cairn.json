@@ -4,13 +4,13 @@
   "FullName": "Pets.Cairn",
   "ImageName": "",
   "Power": [
-    6231,
-    6232
+    6240,
+    6241
   ],
   "SetType": 8,
   "DisplayName": "Cairn",
   "nArchetype": -1,
-  "nID": 3040,
+  "nID": 3051,
   "SubName": "Devouring Earth",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -22,8 +22,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6231,
-      "PowerSetID": 3040,
+      "PowerIndex": 6240,
+      "PowerSetID": 3051,
       "StaticIndex": 1555,
       "NGroupMembership": [],
       "FullName": "Pets.Cairn.Cairn",
@@ -474,8 +474,8 @@
     },
     {
       "CastTimeReal": 0.5,
-      "PowerIndex": 6232,
-      "PowerSetID": 3040,
+      "PowerIndex": 6241,
+      "PowerSetID": 3051,
       "PowerSetIndex": 1,
       "StaticIndex": 1556,
       "NGroupMembership": [],

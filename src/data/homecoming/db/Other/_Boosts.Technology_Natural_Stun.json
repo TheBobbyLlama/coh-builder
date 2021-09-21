@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Natural_Stun",
   "ImageName": "",
   "Power": [
-    2799
+    2811
   ],
   "SetType": 10,
   "DisplayName": "Technology Natural Stun",
   "nArchetype": -1,
-  "nID": 2554,
+  "nID": 2566,
   "SubName": "Gadget (Technology, Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2799,
-      "PowerSetID": 2554,
+      "PowerIndex": 2811,
+      "PowerSetID": 2566,
       "StaticIndex": 8622,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Natural_Stun.Technology_Natural_Stun",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Panacea_E",
   "ImageName": "",
   "Power": [
-    1844
+    1850
   ],
   "SetType": 10,
   "DisplayName": "Crafted Panacea E",
   "nArchetype": -1,
-  "nID": 1598,
+  "nID": 1604,
   "SubName": "Set: Panacea",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1844,
-      "PowerSetID": 1598,
+      "PowerIndex": 1850,
+      "PowerSetID": 1604,
       "StaticIndex": 7789,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Panacea_E.Crafted_Panacea_E",

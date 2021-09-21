@@ -4,14 +4,14 @@
   "FullName": "Mastermind_Pets.Living_Hellfire",
   "ImageName": "",
   "Power": [
-    5970,
-    5971,
-    5972
+    5979,
+    5980,
+    5981
   ],
   "SetType": 8,
   "DisplayName": "Living Hellfire",
   "nArchetype": -1,
-  "nID": 2969,
+  "nID": 2980,
   "SubName": "Demons",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "GroupName": "Mastermind_Pets",
   "Powers": [
     {
-      "PowerIndex": 5970,
-      "PowerSetID": 2969,
+      "PowerIndex": 5979,
+      "PowerSetID": 2980,
       "StaticIndex": 4245,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Living_Hellfire.Resistance",
@@ -245,8 +245,8 @@
     {
       "CastTimeReal": 0.67,
       "ToggleCost": 5.2,
-      "PowerIndex": 5971,
-      "PowerSetID": 2969,
+      "PowerIndex": 5980,
+      "PowerSetID": 2980,
       "PowerSetIndex": 1,
       "StaticIndex": 4246,
       "NGroupMembership": [],
@@ -421,8 +421,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5972,
-      "PowerSetID": 2969,
+      "PowerIndex": 5981,
+      "PowerSetID": 2980,
       "PowerSetIndex": 2,
       "StaticIndex": 4247,
       "NGroupMembership": [],

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Heal",
   "ImageName": "",
   "Power": [
-    2411
+    2417
   ],
   "SetType": 10,
   "DisplayName": "Natural Heal",
   "nArchetype": -1,
-  "nID": 2166,
+  "nID": 2172,
   "SubName": "Technique (Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2411,
-      "PowerSetID": 2166,
+      "PowerIndex": 2417,
+      "PowerSetID": 2172,
       "StaticIndex": 8336,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Heal.Natural_Heal",

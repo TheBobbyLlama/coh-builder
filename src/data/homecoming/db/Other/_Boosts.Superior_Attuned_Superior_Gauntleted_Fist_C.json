@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Superior_Gauntleted_Fist_C",
   "ImageName": "",
   "Power": [
-    2659
+    2665
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Superior Gauntleted Fist C",
   "nArchetype": -1,
-  "nID": 2414,
+  "nID": 2420,
   "SubName": "Set: Superior Gauntleted Fist",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2659,
-      "PowerSetID": 2414,
+      "PowerIndex": 2665,
+      "PowerSetID": 2420,
       "StaticIndex": 8825,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Superior_Gauntleted_Fist_C.Superior_Attuned_Superior_Gauntleted_Fist_C",

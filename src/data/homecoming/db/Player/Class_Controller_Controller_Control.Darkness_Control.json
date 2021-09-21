@@ -4,20 +4,20 @@
   "FullName": "Controller_Control.Darkness_Control",
   "ImageName": "DarknessControl.png",
   "Power": [
-    3298,
-    3299,
-    3300,
-    3301,
-    3302,
-    3303,
-    3304,
-    3305,
-    3306
+    3307,
+    3308,
+    3309,
+    3310,
+    3311,
+    3312,
+    3313,
+    3314,
+    3315
   ],
   "SetType": 1,
   "DisplayName": "Darkness Control",
   "nArchetype": 1,
-  "nID": 2637,
+  "nID": 2648,
   "SubName": "Darkness Control",
   "ATClass": "Class_Controller",
   "UIDTrunkSet": "",
@@ -31,8 +31,8 @@
     {
       "CastTimeReal": 1.2,
       "ToggleCost": 7.8,
-      "PowerIndex": 3298,
-      "PowerSetID": 2637,
+      "PowerIndex": 3307,
+      "PowerSetID": 2648,
       "StaticIndex": 6121,
       "NGroupMembership": [],
       "FullName": "Controller_Control.Darkness_Control.Shadowy_Binds",
@@ -889,8 +889,8 @@
     {
       "CastTimeReal": 1.67,
       "ToggleCost": 8.528,
-      "PowerIndex": 3299,
-      "PowerSetID": 2637,
+      "PowerIndex": 3308,
+      "PowerSetID": 2648,
       "PowerSetIndex": 1,
       "StaticIndex": 6122,
       "NGroupMembership": [],
@@ -1440,13 +1440,15 @@
       "FullSetName": "Controller_Control.Darkness_Control",
       "CastTime": 1.67,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.67,
       "ToggleCost": 13.0,
-      "PowerIndex": 3300,
-      "PowerSetID": 2637,
+      "PowerIndex": 3309,
+      "PowerSetID": 2648,
       "PowerSetIndex": 2,
       "StaticIndex": 6123,
       "NGroupMembership": [],
@@ -2301,13 +2303,15 @@
       "FullSetName": "Controller_Control.Darkness_Control",
       "CastTime": 1.67,
       "Slottable": true,
-      "AoEModifier": 3.39994049
+      "AoEModifier": 3.39994049,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 2.33,
       "ToggleCost": 8.528,
-      "PowerIndex": 3301,
-      "PowerSetID": 2637,
+      "PowerIndex": 3310,
+      "PowerSetID": 2648,
       "PowerSetIndex": 3,
       "StaticIndex": 6124,
       "NGroupMembership": [],
@@ -2555,13 +2559,15 @@
       "FullSetName": "Controller_Control.Darkness_Control",
       "CastTime": 2.33,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 2.03,
       "ToggleCost": 8.528,
-      "PowerIndex": 3302,
-      "PowerSetID": 2637,
+      "PowerIndex": 3311,
+      "PowerSetID": 2648,
       "PowerSetIndex": 4,
       "StaticIndex": 6125,
       "NGroupMembership": [],
@@ -2879,8 +2885,8 @@
     {
       "CastTimeReal": 1.67,
       "ToggleCost": 15.6,
-      "PowerIndex": 3303,
-      "PowerSetID": 2637,
+      "PowerIndex": 3312,
+      "PowerSetID": 2648,
       "PowerSetIndex": 5,
       "StaticIndex": 6126,
       "NGroupMembership": [],
@@ -3448,13 +3454,15 @@
       "FullSetName": "Controller_Control.Darkness_Control",
       "CastTime": 1.67,
       "Slottable": true,
-      "AoEModifier": 4.75
+      "AoEModifier": 4.75,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 2.33,
       "ToggleCost": 10.4,
-      "PowerIndex": 3304,
-      "PowerSetID": 2637,
+      "PowerIndex": 3313,
+      "PowerSetID": 2648,
       "PowerSetIndex": 6,
       "StaticIndex": 6127,
       "NGroupMembership": [],
@@ -3645,7 +3653,7 @@
           "nID": 2,
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.Haunted",
-          "nSummon": 9567,
+          "nSummon": 9583,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 1,
@@ -3692,13 +3700,14 @@
       "FullSetName": "Controller_Control.Darkness_Control",
       "CastTime": 2.33,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 2.67,
       "ToggleCost": 15.6,
-      "PowerIndex": 3305,
-      "PowerSetID": 2637,
+      "PowerIndex": 3314,
+      "PowerSetID": 2648,
       "PowerSetIndex": 7,
       "StaticIndex": 6128,
       "NGroupMembership": [],
@@ -3775,6 +3784,7 @@
           "MagPercent": 5000.0,
           "Duration": 45.0,
           "DisplayPercentage": true,
+          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Level",
@@ -3828,13 +3838,14 @@
       "FullSetName": "Controller_Control.Darkness_Control",
       "CastTime": 2.67,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 2.33,
       "ToggleCost": 26.0,
-      "PowerIndex": 3306,
-      "PowerSetID": 2637,
+      "PowerIndex": 3315,
+      "PowerSetID": 2648,
       "PowerSetIndex": 8,
       "StaticIndex": 6129,
       "NGroupMembership": [],
@@ -3965,7 +3976,8 @@
       "FullSetName": "Controller_Control.Darkness_Control",
       "CastTime": 2.33,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     }
   ]
 }

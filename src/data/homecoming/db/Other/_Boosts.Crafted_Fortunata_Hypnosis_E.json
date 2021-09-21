@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Fortunata_Hypnosis_E",
   "ImageName": "",
   "Power": [
-    1550
+    1556
   ],
   "SetType": 10,
   "DisplayName": "Crafted Fortunata Hypnosis E",
   "nArchetype": -1,
-  "nID": 1304,
+  "nID": 1310,
   "SubName": "Set: Fortunata Hypnosis",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1550,
-      "PowerSetID": 1304,
+      "PowerIndex": 1556,
+      "PowerSetID": 1310,
       "StaticIndex": 7495,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Fortunata_Hypnosis_E.Crafted_Fortunata_Hypnosis_E",

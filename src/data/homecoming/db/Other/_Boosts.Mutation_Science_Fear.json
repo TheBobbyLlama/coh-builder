@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Science_Fear",
   "ImageName": "",
   "Power": [
-    2375
+    2381
   ],
   "SetType": 10,
   "DisplayName": "Mutation Science Fear",
   "nArchetype": -1,
-  "nID": 2130,
+  "nID": 2136,
   "SubName": "Genetic Alteration (Mutation, Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2375,
-      "PowerSetID": 2130,
+      "PowerIndex": 2381,
+      "PowerSetID": 2136,
       "StaticIndex": 8300,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Science_Fear.Mutation_Science_Fear",

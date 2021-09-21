@@ -4,13 +4,13 @@
   "FullName": "Villain_Pets.Shadow_Field",
   "ImageName": "",
   "Power": [
-    10230,
-    10231
+    10246,
+    10247
   ],
   "SetType": 8,
   "DisplayName": "Shadow Field",
   "nArchetype": -1,
-  "nID": 3515,
+  "nID": 3529,
   "SubName": "Darkness Control",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -22,8 +22,8 @@
   "GroupName": "Villain_Pets",
   "Powers": [
     {
-      "PowerIndex": 10230,
-      "PowerSetID": 3515,
+      "PowerIndex": 10246,
+      "PowerSetID": 3529,
       "StaticIndex": 6342,
       "NGroupMembership": [],
       "FullName": "Villain_Pets.Shadow_Field.Shadow_Field",
@@ -262,8 +262,8 @@
       "AoEModifier": 4.75
     },
     {
-      "PowerIndex": 10231,
-      "PowerSetID": 3515,
+      "PowerIndex": 10247,
+      "PowerSetID": 3529,
       "PowerSetIndex": 1,
       "StaticIndex": 6343,
       "NGroupMembership": [],

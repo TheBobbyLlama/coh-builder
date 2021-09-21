@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Bruising_Blow_A",
   "ImageName": "",
   "Power": [
-    1274
+    1280
   ],
   "SetType": 10,
   "DisplayName": "Crafted Bruising Blow A",
   "nArchetype": -1,
-  "nID": 1028,
+  "nID": 1034,
   "SubName": "Set: Bruising Blow",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1274,
-      "PowerSetID": 1028,
+      "PowerIndex": 1280,
+      "PowerSetID": 1034,
       "StaticIndex": 7219,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Bruising_Blow_A.Crafted_Bruising_Blow_A",

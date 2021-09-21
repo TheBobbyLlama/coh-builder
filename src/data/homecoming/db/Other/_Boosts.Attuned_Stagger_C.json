@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Stagger_C",
   "ImageName": "",
   "Power": [
-    1035
+    1041
   ],
   "SetType": 10,
   "DisplayName": "Attuned Stagger C",
   "nArchetype": -1,
-  "nID": 790,
+  "nID": 796,
   "SubName": "Set: Stagger",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1035,
-      "PowerSetID": 790,
+      "PowerIndex": 1041,
+      "PowerSetID": 796,
       "StaticIndex": 7011,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Stagger_C.Attuned_Stagger_C",

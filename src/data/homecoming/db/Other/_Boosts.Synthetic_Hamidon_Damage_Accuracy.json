@@ -4,12 +4,12 @@
   "FullName": "Boosts.Synthetic_Hamidon_Damage_Accuracy",
   "ImageName": "",
   "Power": [
-    2750
+    2762
   ],
   "SetType": 10,
   "DisplayName": "Synthetic Hamidon Damage Accuracy",
   "nArchetype": -1,
-  "nID": 2505,
+  "nID": 2517,
   "SubName": "Hamidon (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2750,
-      "PowerSetID": 2505,
+      "PowerIndex": 2762,
+      "PowerSetID": 2517,
       "StaticIndex": 8573,
       "NGroupMembership": [],
       "FullName": "Boosts.Synthetic_Hamidon_Damage_Accuracy.Synthetic_Hamidon_Damage_Accuracy",

@@ -4,14 +4,14 @@
   "FullName": "Incarnate.Lore_Pet_Tsoo_Support",
   "ImageName": "",
   "Power": [
-    5435,
-    5436,
-    5437
+    5444,
+    5445,
+    5446
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Tsoo_Support",
   "nArchetype": -1,
-  "nID": 2876,
+  "nID": 2887,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "Powers": [
     {
       "CastTimeReal": 2.27,
-      "PowerIndex": 5435,
-      "PowerSetID": 2876,
+      "PowerIndex": 5444,
+      "PowerSetID": 2887,
       "StaticIndex": 9516,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Tsoo_Support.O2_Boost",
@@ -373,8 +373,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5436,
-      "PowerSetID": 2876,
+      "PowerIndex": 5445,
+      "PowerSetID": 2887,
       "PowerSetIndex": 1,
       "StaticIndex": 9517,
       "NGroupMembership": [],
@@ -609,8 +609,8 @@
     },
     {
       "CastTimeReal": 2.0,
-      "PowerIndex": 5437,
-      "PowerSetID": 2876,
+      "PowerIndex": 5446,
+      "PowerSetID": 2887,
       "PowerSetIndex": 2,
       "StaticIndex": 9518,
       "NGroupMembership": [],

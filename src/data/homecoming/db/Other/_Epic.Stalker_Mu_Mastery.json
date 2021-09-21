@@ -4,16 +4,16 @@
   "FullName": "Epic.Stalker_Mu_Mastery",
   "ImageName": "PatronSnipe.png",
   "Power": [
-    4398,
-    4399,
-    4400,
-    4401,
-    4402
+    4407,
+    4408,
+    4409,
+    4410,
+    4411
   ],
   "SetType": 3,
   "DisplayName": "Mu Mastery",
   "nArchetype": -1,
-  "nID": 2771,
+  "nID": 2784,
   "SubName": "Mu Mastery",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
     {
       "CastTimeReal": 1.17,
       "ToggleCost": 6.5,
-      "PowerIndex": 4398,
-      "PowerSetID": 2771,
+      "PowerIndex": 4407,
+      "PowerSetID": 2784,
       "StaticIndex": 995,
       "NGroupMembership": [],
       "FullName": "Epic.Stalker_Mu_Mastery.Mu_Bolts",
@@ -679,14 +679,13 @@
       "FullSetName": "Epic.Stalker_Mu_Mastery",
       "CastTime": 1.17,
       "Slottable": true,
-      "AoEModifier": 1.0,
-      "Taken": true
+      "AoEModifier": 1.0
     },
     {
-      "CastTimeReal": 4.33,
+      "CastTimeReal": 1.33,
       "ToggleCost": 17.94,
-      "PowerIndex": 4399,
-      "PowerSetID": 2771,
+      "PowerIndex": 4408,
+      "PowerSetID": 2784,
       "PowerSetIndex": 1,
       "StaticIndex": 996,
       "NGroupMembership": [],
@@ -712,8 +711,8 @@
         "PowerIDNot": []
       },
       "ModesDisallowed": 74,
-      "Accuracy": 1.2,
-      "AccuracyMult": 1.2,
+      "Accuracy": 1.0,
+      "AccuracyMult": 1.0,
       "AttackTypes": 130,
       "GroupMembership": [],
       "EntitiesAffected": 2048,
@@ -721,7 +720,6 @@
       "TargetLoS": true,
       "Range": 150.0,
       "EndCost": 17.94,
-      "InterruptTime": 3.0,
       "RechargeTime": 24.0,
       "BaseRechargeTime": 24.0,
       "EffectArea": 1,
@@ -819,9 +817,8 @@
         {
           "MagnitudeExpression": "",
           "Probability": 1.0,
-          "Mag": 2.43294621,
-          "MagPercent": 2.43294621,
-          "VariableModified": true,
+          "Mag": 1.390255,
+          "MagPercent": 1.390255,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Damage",
@@ -839,7 +836,7 @@
           "VariableModifiedOverride": true,
           "PvMode": 1,
           "ToWho": 1,
-          "Scale": 1.75,
+          "Scale": 1.0,
           "nMagnitude": 0.025,
           "Aspect": 2,
           "ModifierTable": "Melee_Damage",
@@ -980,6 +977,10 @@
             {
               "Key": "Active:Inherent.Inherent.Critical_Hit",
               "Value": "True"
+            },
+            {
+              "Key": "Taken:Inherent.Inherent.Critical_Hit",
+              "Value": "True"
             }
           ],
           "nOverride": -1
@@ -1036,6 +1037,10 @@
             {
               "Key": "Active:Inherent.Inherent.Assassination",
               "Value": "True"
+            },
+            {
+              "Key": "Taken:Inherent.Inherent.Assassination",
+              "Value": "True"
             }
           ],
           "nOverride": -1
@@ -1043,9 +1048,8 @@
         {
           "MagnitudeExpression": "",
           "Probability": 1.0,
-          "Mag": 2.43294621,
-          "MagPercent": 2.43294621,
-          "VariableModified": true,
+          "Mag": 1.390255,
+          "MagPercent": 1.390255,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Damage",
@@ -1063,7 +1067,7 @@
           "VariableModifiedOverride": true,
           "PvMode": 1,
           "ToWho": 1,
-          "Scale": 1.75,
+          "Scale": 1.0,
           "nMagnitude": 0.025,
           "Aspect": 2,
           "ModifierTable": "Melee_Damage",
@@ -1093,6 +1097,10 @@
             },
             {
               "Key": "Active:Inherent.Inherent.Assassination",
+              "Value": "True"
+            },
+            {
+              "Key": "Taken:Inherent.Inherent.Assassination",
               "Value": "True"
             }
           ],
@@ -1321,6 +1329,10 @@
             {
               "Key": "Active:Inherent.Inherent.Critical_Hit",
               "Value": "True"
+            },
+            {
+              "Key": "Taken:Inherent.Inherent.Critical_Hit",
+              "Value": "True"
             }
           ],
           "nOverride": -1
@@ -1377,6 +1389,10 @@
             },
             {
               "Key": "Active:Inherent.Inherent.Assassination",
+              "Value": "True"
+            },
+            {
+              "Key": "Taken:Inherent.Inherent.Assassination",
               "Value": "True"
             }
           ],
@@ -1589,6 +1605,10 @@
             {
               "Key": "Active:Inherent.Inherent.Critical_Hit",
               "Value": "True"
+            },
+            {
+              "Key": "Taken:Inherent.Inherent.Critical_Hit",
+              "Value": "True"
             }
           ],
           "nOverride": -1
@@ -1645,6 +1665,10 @@
             {
               "Key": "Active:Inherent.Inherent.Assassination",
               "Value": "True"
+            },
+            {
+              "Key": "Taken:Inherent.Inherent.Assassination",
+              "Value": "True"
             }
           ],
           "nOverride": -1
@@ -1696,10 +1720,6 @@
           "ActiveConditionals": [
             {
               "Key": "Active:Inherent.Inherent.Fast_Snipe",
-              "Value": "False"
-            },
-            {
-              "Key": "Active:Inherent.Inherent.Assassination",
               "Value": "False"
             },
             {
@@ -1815,6 +1835,10 @@
             {
               "Key": "Active:Inherent.Inherent.Critical_Hit",
               "Value": "True"
+            },
+            {
+              "Key": "Taken:Inherent.Inherent.Critical_Hit",
+              "Value": "True"
             }
           ],
           "nOverride": -1
@@ -1871,6 +1895,10 @@
             },
             {
               "Key": "Active:Inherent.Inherent.Assassination",
+              "Value": "True"
+            },
+            {
+              "Key": "Taken:Inherent.Inherent.Assassination",
               "Value": "True"
             }
           ],
@@ -2158,16 +2186,18 @@
         }
       ],
       "FullSetName": "Epic.Stalker_Mu_Mastery",
-      "CastTime": 4.33,
+      "CastTime": 1.33,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.07,
       "ToggleCost": 18.98,
       "IsEpic": true,
-      "PowerIndex": 4400,
-      "PowerSetID": 2771,
+      "PowerIndex": 4409,
+      "PowerSetID": 2784,
       "PowerSetIndex": 2,
       "StaticIndex": 3319,
       "NGroupMembership": [],
@@ -2183,11 +2213,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4398,
+            4407,
             -1
           ],
           [
-            4399,
+            4408,
             -1
           ]
         ],
@@ -2896,14 +2926,15 @@
       "FullSetName": "Epic.Stalker_Mu_Mastery",
       "CastTime": 1.07,
       "Slottable": true,
-      "AoEModifier": 3.25
+      "AoEModifier": 3.25,
+      "Taken": true
     },
     {
       "CastTimeReal": 2.17,
       "ToggleCost": 8.58,
       "IsEpic": true,
-      "PowerIndex": 4401,
-      "PowerSetID": 2771,
+      "PowerIndex": 4410,
+      "PowerSetID": 2784,
       "PowerSetIndex": 3,
       "StaticIndex": 997,
       "NGroupMembership": [],
@@ -2919,11 +2950,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4398,
+            4407,
             -1
           ],
           [
-            4399,
+            4408,
             -1
           ]
         ],
@@ -3470,8 +3501,8 @@
       "CastTimeReal": 1.17,
       "ToggleCost": 26.0,
       "IsEpic": true,
-      "PowerIndex": 4402,
-      "PowerSetID": 2771,
+      "PowerIndex": 4411,
+      "PowerSetID": 2784,
       "PowerSetIndex": 4,
       "StaticIndex": 998,
       "NGroupMembership": [],
@@ -3487,24 +3518,24 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4398,
-            4399
+            4407,
+            4408
           ],
           [
-            4398,
-            4400
+            4407,
+            4409
           ],
           [
-            4398,
-            4401
+            4407,
+            4410
           ],
           [
-            4399,
-            4400
+            4408,
+            4409
           ],
           [
-            4399,
-            4401
+            4408,
+            4410
           ]
         ],
         "NPowerIDNot": [],

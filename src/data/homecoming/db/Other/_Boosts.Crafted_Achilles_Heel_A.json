@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Achilles_Heel_A",
   "ImageName": "",
   "Power": [
-    1195
+    1201
   ],
   "SetType": 10,
   "DisplayName": "Crafted Achilles Heel A",
   "nArchetype": -1,
-  "nID": 950,
+  "nID": 956,
   "SubName": "Set: Achilles' Heel",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1195,
-      "PowerSetID": 950,
+      "PowerIndex": 1201,
+      "PowerSetID": 956,
       "StaticIndex": 7147,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Achilles_Heel_A.Crafted_Achilles_Heel_A",

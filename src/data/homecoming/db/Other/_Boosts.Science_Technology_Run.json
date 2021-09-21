@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Technology_Run",
   "ImageName": "",
   "Power": [
-    2504
+    2510
   ],
   "SetType": 10,
   "DisplayName": "Science Technology Run",
   "nArchetype": -1,
-  "nID": 2259,
+  "nID": 2265,
   "SubName": "Invention (Science, Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2504,
-      "PowerSetID": 2259,
+      "PowerIndex": 2510,
+      "PowerSetID": 2265,
       "StaticIndex": 8429,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Technology_Run.Science_Technology_Run",

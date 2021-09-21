@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Superior_Malice_of_the_Corruptor_B",
   "ImageName": "",
   "Power": [
-    2670
+    2676
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Superior Malice of the Corruptor B",
   "nArchetype": -1,
-  "nID": 2425,
+  "nID": 2431,
   "SubName": "Set: Superior Malice of the Corruptor",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2670,
-      "PowerSetID": 2425,
+      "PowerIndex": 2676,
+      "PowerSetID": 2431,
       "StaticIndex": 8535,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Superior_Malice_of_the_Corruptor_B.Superior_Attuned_Superior_Malice_of_the_Corruptor_B",

@@ -4,12 +4,12 @@
   "FullName": "Inherent.Savage_Melee",
   "ImageName": "",
   "Power": [
-    5653
+    5662
   ],
   "SetType": 4,
   "DisplayName": "Blood Frenzy",
   "nArchetype": -1,
-  "nID": 2892,
+  "nID": 2903,
   "SubName": "",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
     {
       "IsEpic": true,
       "LocationIndex": 8,
-      "PowerIndex": 5653,
-      "PowerSetID": 2892,
+      "PowerIndex": 5662,
+      "PowerSetID": 2903,
       "StaticIndex": 10085,
       "NGroupMembership": [],
       "FullName": "Inherent.Savage_Melee.Blood_Frenzy",
@@ -39,35 +39,35 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            3086,
+            3098,
             -1
           ],
           [
-            3085,
+            3097,
             -1
           ],
           [
-            7039,
+            7054,
             -1
           ],
           [
-            7040,
+            7055,
             -1
           ],
           [
-            8554,
+            8569,
             -1
           ],
           [
-            8553,
+            8568,
             -1
           ],
           [
-            8817,
+            8832,
             -1
           ],
           [
-            3988,
+            3997,
             -1
           ]
         ],
@@ -259,7 +259,9 @@
       ],
       "FullSetName": "Inherent.Savage_Melee",
       "AoEModifier": 1.0,
-      "DisplayLocation": 8
+      "DisplayLocation": 8,
+      "Active": true,
+      "Taken": true
     }
   ]
 }

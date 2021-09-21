@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_TimeSpace_Manipulation_C",
   "ImageName": "",
   "Power": [
-    2136
+    2142
   ],
   "SetType": 10,
   "DisplayName": "Crafted TimeSpace Manipulation C",
   "nArchetype": -1,
-  "nID": 1888,
+  "nID": 1894,
   "SubName": "Set: Jaunt",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2136,
-      "PowerSetID": 1888,
+      "PowerIndex": 2142,
+      "PowerSetID": 1894,
       "StaticIndex": 8067,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_TimeSpace_Manipulation_C.Crafted_TimeSpace_Manipulation_C",

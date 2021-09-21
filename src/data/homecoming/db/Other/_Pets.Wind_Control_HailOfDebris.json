@@ -4,12 +4,12 @@
   "FullName": "Pets.Wind_Control_HailOfDebris",
   "ImageName": "",
   "Power": [
-    6692
+    6712
   ],
   "SetType": 8,
   "DisplayName": "Wind Control",
   "nArchetype": -1,
-  "nID": 3278,
+  "nID": 3291,
   "SubName": "Wind Control",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6692,
-      "PowerSetID": 3278,
+      "PowerIndex": 6712,
+      "PowerSetID": 3291,
       "StaticIndex": 9601,
       "NGroupMembership": [],
       "FullName": "Pets.Wind_Control_HailOfDebris.Hail_of_Debris",

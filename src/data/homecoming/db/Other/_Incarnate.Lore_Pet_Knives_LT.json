@@ -4,14 +4,14 @@
   "FullName": "Incarnate.Lore_Pet_Knives_LT",
   "ImageName": "",
   "Power": [
-    5354,
-    5355,
-    5356
+    5363,
+    5364,
+    5365
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Knives_LT",
   "nArchetype": -1,
-  "nID": 2844,
+  "nID": 2855,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "Powers": [
     {
       "CastTimeReal": 2.33,
-      "PowerIndex": 5354,
-      "PowerSetID": 2844,
+      "PowerIndex": 5363,
+      "PowerSetID": 2855,
       "StaticIndex": 9493,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Knives_LT.Shockwave_Slice",
@@ -562,8 +562,8 @@
     },
     {
       "CastTimeReal": 2.43,
-      "PowerIndex": 5355,
-      "PowerSetID": 2844,
+      "PowerIndex": 5364,
+      "PowerSetID": 2855,
       "PowerSetIndex": 1,
       "StaticIndex": 9494,
       "NGroupMembership": [],
@@ -859,8 +859,8 @@
     },
     {
       "CastTimeReal": 1.2,
-      "PowerIndex": 5356,
-      "PowerSetID": 2844,
+      "PowerIndex": 5365,
+      "PowerSetID": 2855,
       "PowerSetIndex": 2,
       "StaticIndex": 9495,
       "NGroupMembership": [],

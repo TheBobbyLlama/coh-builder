@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Spiders_Bite_B",
   "ImageName": "",
   "Power": [
-    1025
+    1031
   ],
   "SetType": 10,
   "DisplayName": "Attuned Spiders Bite B",
   "nArchetype": -1,
-  "nID": 780,
+  "nID": 786,
   "SubName": "Set: Spider's Bite",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1025,
-      "PowerSetID": 780,
+      "PowerIndex": 1031,
+      "PowerSetID": 786,
       "StaticIndex": 8776,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Spiders_Bite_B.Attuned_Spiders_Bite_B",

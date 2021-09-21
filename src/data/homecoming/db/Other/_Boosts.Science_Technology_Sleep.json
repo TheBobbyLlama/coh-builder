@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Technology_Sleep",
   "ImageName": "",
   "Power": [
-    2505
+    2511
   ],
   "SetType": 10,
   "DisplayName": "Science Technology Sleep",
   "nArchetype": -1,
-  "nID": 2260,
+  "nID": 2266,
   "SubName": "Invention (Science, Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2505,
-      "PowerSetID": 2260,
+      "PowerIndex": 2511,
+      "PowerSetID": 2266,
       "StaticIndex": 8430,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Technology_Sleep.Science_Technology_Sleep",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Hydra_DeBuff_Accuracy",
   "ImageName": "",
   "Power": [
-    2284
+    2290
   ],
   "SetType": 10,
   "DisplayName": "Hydra DeBuff Accuracy",
   "nArchetype": -1,
-  "nID": 2039,
+  "nID": 2045,
   "SubName": "Hydra (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2284,
-      "PowerSetID": 2039,
+      "PowerIndex": 2290,
+      "PowerSetID": 2045,
       "StaticIndex": 8209,
       "NGroupMembership": [],
       "FullName": "Boosts.Hydra_DeBuff_Accuracy.Hydra_DeBuff_Accuracy",

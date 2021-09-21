@@ -4,12 +4,12 @@
   "FullName": "Boosts.Yins_Science_Recharge",
   "ImageName": "",
   "Power": [
-    2828
+    2840
   ],
   "SetType": 10,
   "DisplayName": "Yins Science Recharge",
   "nArchetype": -1,
-  "nID": 2583,
+  "nID": 2595,
   "SubName": "Yin's Talisman (Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2828,
-      "PowerSetID": 2583,
+      "PowerIndex": 2840,
+      "PowerSetID": 2595,
       "StaticIndex": 8651,
       "NGroupMembership": [],
       "FullName": "Boosts.Yins_Science_Recharge.Yins_Science_Recharge",

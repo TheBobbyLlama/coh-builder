@@ -4,15 +4,15 @@
   "FullName": "Mastermind_Pets.Thug_Arsonist",
   "ImageName": "",
   "Power": [
-    6035,
-    6036,
-    6037,
-    6038
+    6044,
+    6045,
+    6046,
+    6047
   ],
   "SetType": 8,
   "DisplayName": "Arsonist",
   "nArchetype": -1,
-  "nID": 2922,
+  "nID": 2931,
   "SubName": "Thugs",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "GroupName": "Mastermind_Pets",
   "Powers": [
     {
-      "PowerIndex": 6035,
-      "PowerSetID": 2922,
+      "PowerIndex": 6044,
+      "PowerSetID": 2931,
       "StaticIndex": 1319,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Thug_Arsonist.Resistance",
@@ -134,8 +134,8 @@
     {
       "CastTimeReal": 0.67,
       "ToggleCost": 4.368,
-      "PowerIndex": 6036,
-      "PowerSetID": 2922,
+      "PowerIndex": 6045,
+      "PowerSetID": 2931,
       "PowerSetIndex": 1,
       "StaticIndex": 1320,
       "NGroupMembership": [],
@@ -314,8 +314,8 @@
     {
       "CastTimeReal": 1.37,
       "ToggleCost": 10.4,
-      "PowerIndex": 6037,
-      "PowerSetID": 2922,
+      "PowerIndex": 6046,
+      "PowerSetID": 2931,
       "PowerSetIndex": 2,
       "StaticIndex": 1321,
       "NGroupMembership": [],
@@ -501,8 +501,8 @@
       "AoEModifier": 1.75
     },
     {
-      "PowerIndex": 6038,
-      "PowerSetID": 2922,
+      "PowerIndex": 6047,
+      "PowerSetID": 2931,
       "PowerSetIndex": 3,
       "StaticIndex": 1322,
       "NGroupMembership": [],

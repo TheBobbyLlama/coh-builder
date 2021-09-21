@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Magic_Jump",
   "ImageName": "",
   "Power": [
-    2433
+    2439
   ],
   "SetType": 10,
   "DisplayName": "Natural Magic Jump",
   "nArchetype": -1,
-  "nID": 2188,
+  "nID": 2194,
   "SubName": "Relic (Natural, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2433,
-      "PowerSetID": 2188,
+      "PowerIndex": 2439,
+      "PowerSetID": 2194,
       "StaticIndex": 8358,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Magic_Jump.Natural_Magic_Jump",

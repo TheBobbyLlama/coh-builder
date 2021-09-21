@@ -4,15 +4,15 @@
   "FullName": "Incarnate.Lore_Pet_Talons_Boss",
   "ImageName": "",
   "Power": [
-    5418,
-    5419,
-    5420,
-    5421
+    5427,
+    5428,
+    5429,
+    5430
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Talons_Boss",
   "nArchetype": -1,
-  "nID": 2870,
+  "nID": 2881,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -25,8 +25,8 @@
   "Powers": [
     {
       "CastTimeReal": 3.3,
-      "PowerIndex": 5418,
-      "PowerSetID": 2870,
+      "PowerIndex": 5427,
+      "PowerSetID": 2881,
       "StaticIndex": 9499,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Talons_Boss.Seasons_End",
@@ -325,8 +325,8 @@
     },
     {
       "CastTimeReal": 1.23,
-      "PowerIndex": 5419,
-      "PowerSetID": 2870,
+      "PowerIndex": 5428,
+      "PowerSetID": 2881,
       "PowerSetIndex": 1,
       "StaticIndex": 9502,
       "NGroupMembership": [],
@@ -1083,8 +1083,8 @@
     },
     {
       "CastTimeReal": 1.23,
-      "PowerIndex": 5420,
-      "PowerSetID": 2870,
+      "PowerIndex": 5429,
+      "PowerSetID": 2881,
       "PowerSetIndex": 2,
       "StaticIndex": 9500,
       "NGroupMembership": [],
@@ -1612,8 +1612,8 @@
     },
     {
       "CastTimeReal": 3.0,
-      "PowerIndex": 5421,
-      "PowerSetID": 2870,
+      "PowerIndex": 5430,
+      "PowerSetID": 2881,
       "PowerSetIndex": 3,
       "StaticIndex": 9501,
       "NGroupMembership": [],

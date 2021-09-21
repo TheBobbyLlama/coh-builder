@@ -4,12 +4,12 @@
   "FullName": "Boosts.Magic_Stun",
   "ImageName": "",
   "Power": [
-    2313
+    2319
   ],
   "SetType": 10,
   "DisplayName": "Magic Stun",
   "nArchetype": -1,
-  "nID": 2068,
+  "nID": 2074,
   "SubName": "Dimensional Entities (Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2313,
-      "PowerSetID": 2068,
+      "PowerIndex": 2319,
+      "PowerSetID": 2074,
       "StaticIndex": 8238,
       "NGroupMembership": [],
       "FullName": "Boosts.Magic_Stun.Magic_Stun",

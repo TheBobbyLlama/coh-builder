@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Heal",
   "ImageName": "",
   "Power": [
-    2768
+    2780
   ],
   "SetType": 10,
   "DisplayName": "Technology Heal",
   "nArchetype": -1,
-  "nID": 2523,
+  "nID": 2535,
   "SubName": "Cybernetics (Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2768,
-      "PowerSetID": 2523,
+      "PowerIndex": 2780,
+      "PowerSetID": 2535,
       "StaticIndex": 8591,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Heal.Technology_Heal",

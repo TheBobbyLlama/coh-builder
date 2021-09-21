@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Razzle_Dazzle_D",
   "ImageName": "",
   "Power": [
-    1911
+    1917
   ],
   "SetType": 10,
   "DisplayName": "Crafted Razzle Dazzle D",
   "nArchetype": -1,
-  "nID": 1664,
+  "nID": 1670,
   "SubName": "Set: Razzle Dazzle",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1911,
-      "PowerSetID": 1664,
+      "PowerIndex": 1917,
+      "PowerSetID": 1670,
       "StaticIndex": 7849,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Razzle_Dazzle_D.Crafted_Razzle_Dazzle_D",

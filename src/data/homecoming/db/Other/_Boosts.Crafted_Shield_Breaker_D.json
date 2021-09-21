@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Shield_Breaker_D",
   "ImageName": "",
   "Power": [
-    2014
+    2020
   ],
   "SetType": 10,
   "DisplayName": "Crafted Shield Breaker D",
   "nArchetype": -1,
-  "nID": 1767,
+  "nID": 1773,
   "SubName": "Set: Shield Breaker",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2014,
-      "PowerSetID": 1767,
+      "PowerIndex": 2020,
+      "PowerSetID": 1773,
       "StaticIndex": 7946,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Shield_Breaker_D.Crafted_Shield_Breaker_D",

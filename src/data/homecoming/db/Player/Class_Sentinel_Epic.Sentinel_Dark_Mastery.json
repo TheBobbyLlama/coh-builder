@@ -4,16 +4,16 @@
   "FullName": "Epic.Sentinel_Dark_Mastery",
   "ImageName": "DarkMastery.png",
   "Power": [
-    4338,
-    4339,
-    4340,
-    4341,
-    4342
+    4347,
+    4348,
+    4349,
+    4350,
+    4351
   ],
   "SetType": 3,
   "DisplayName": "Dark Mastery",
   "nArchetype": 7,
-  "nID": 2731,
+  "nID": 2742,
   "SubName": "Dark Mastery",
   "ATClass": "Class_Sentinel",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
     {
       "CastTimeReal": 1.67,
       "ToggleCost": 16.25,
-      "PowerIndex": 4338,
-      "PowerSetID": 2731,
+      "PowerIndex": 4347,
+      "PowerSetID": 2742,
       "StaticIndex": 10587,
       "NGroupMembership": [],
       "FullName": "Epic.Sentinel_Dark_Mastery.Netherworld_Tentacles",
@@ -703,8 +703,8 @@
     {
       "CastTimeReal": 0.97,
       "ToggleCost": 8.58,
-      "PowerIndex": 4339,
-      "PowerSetID": 2731,
+      "PowerIndex": 4348,
+      "PowerSetID": 2742,
       "PowerSetIndex": 1,
       "StaticIndex": 10398,
       "NGroupMembership": [],
@@ -1072,8 +1072,8 @@
       "CastTimeReal": 2.0,
       "ToggleCost": 21.06,
       "IsEpic": true,
-      "PowerIndex": 4340,
-      "PowerSetID": 2731,
+      "PowerIndex": 4349,
+      "PowerSetID": 2742,
       "PowerSetIndex": 2,
       "StaticIndex": 10589,
       "NGroupMembership": [],
@@ -1089,11 +1089,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4338,
+            4347,
             -1
           ],
           [
-            4339,
+            4348,
             -1
           ]
         ],
@@ -1402,8 +1402,8 @@
       "CastTimeReal": 2.07,
       "ToggleCost": 10.66,
       "IsEpic": true,
-      "PowerIndex": 4341,
-      "PowerSetID": 2731,
+      "PowerIndex": 4350,
+      "PowerSetID": 2742,
       "PowerSetIndex": 3,
       "StaticIndex": 10588,
       "NGroupMembership": [],
@@ -1419,11 +1419,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4338,
+            4347,
             -1
           ],
           [
-            4339,
+            4348,
             -1
           ]
         ],
@@ -1790,14 +1790,16 @@
       "FullSetName": "Epic.Sentinel_Dark_Mastery",
       "CastTime": 2.07,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 3.17,
       "ToggleCost": 0.65,
       "IsEpic": true,
-      "PowerIndex": 4342,
-      "PowerSetID": 2731,
+      "PowerIndex": 4351,
+      "PowerSetID": 2742,
       "PowerSetIndex": 4,
       "StaticIndex": 10402,
       "NGroupMembership": [],
@@ -1813,24 +1815,24 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4338,
-            4339
+            4347,
+            4348
           ],
           [
-            4338,
-            4340
+            4347,
+            4349
           ],
           [
-            4338,
-            4341
+            4347,
+            4350
           ],
           [
-            4339,
-            4340
+            4348,
+            4349
           ],
           [
-            4339,
-            4341
+            4348,
+            4350
           ]
         ],
         "NPowerIDNot": [],

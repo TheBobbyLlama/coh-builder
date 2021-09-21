@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Avalanche_E",
   "ImageName": "",
   "Power": [
-    2535
+    2541
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Avalanche E",
   "nArchetype": -1,
-  "nID": 2290,
+  "nID": 2296,
   "SubName": "Set: Superior Avalanche",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2535,
-      "PowerSetID": 2290,
+      "PowerIndex": 2541,
+      "PowerSetID": 2296,
       "StaticIndex": 9324,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Avalanche_E.Superior_Attuned_Avalanche_E",

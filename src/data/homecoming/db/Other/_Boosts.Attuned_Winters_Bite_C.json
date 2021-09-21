@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Winters_Bite_C",
   "ImageName": "",
   "Power": [
-    1172
+    1178
   ],
   "SetType": 10,
   "DisplayName": "Attuned Winters Bite C",
   "nArchetype": -1,
-  "nID": 930,
+  "nID": 936,
   "SubName": "Set: Winter's Bite",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1172,
-      "PowerSetID": 930,
+      "PowerIndex": 1178,
+      "PowerSetID": 936,
       "StaticIndex": 9292,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Winters_Bite_C.Attuned_Winters_Bite_C",

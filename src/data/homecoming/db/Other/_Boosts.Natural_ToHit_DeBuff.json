@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_ToHit_DeBuff",
   "ImageName": "",
   "Power": [
-    2456
+    2462
   ],
   "SetType": 10,
   "DisplayName": "Natural ToHit DeBuff",
   "nArchetype": -1,
-  "nID": 2211,
+  "nID": 2217,
   "SubName": "Technique (Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2456,
-      "PowerSetID": 2211,
+      "PowerIndex": 2462,
+      "PowerSetID": 2217,
       "StaticIndex": 8381,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_ToHit_DeBuff.Natural_ToHit_DeBuff",

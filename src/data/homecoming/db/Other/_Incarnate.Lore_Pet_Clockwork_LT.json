@@ -4,14 +4,14 @@
   "FullName": "Incarnate.Lore_Pet_Clockwork_LT",
   "ImageName": "",
   "Power": [
-    5317,
-    5318,
-    5319
+    5326,
+    5327,
+    5328
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Clockwork_LT",
   "nArchetype": -1,
-  "nID": 2832,
+  "nID": 2843,
   "SubName": "Clockwork",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "Powers": [
     {
       "CastTimeReal": 1.2,
-      "PowerIndex": 5317,
-      "PowerSetID": 2832,
+      "PowerIndex": 5326,
+      "PowerSetID": 2843,
       "StaticIndex": 4652,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Clockwork_LT.Particle_Blast",
@@ -205,8 +205,8 @@
     },
     {
       "CastTimeReal": 1.93,
-      "PowerIndex": 5318,
-      "PowerSetID": 2832,
+      "PowerIndex": 5327,
+      "PowerSetID": 2843,
       "PowerSetIndex": 1,
       "StaticIndex": 5201,
       "NGroupMembership": [],
@@ -386,8 +386,8 @@
     },
     {
       "CastTimeReal": 0.13,
-      "PowerIndex": 5319,
-      "PowerSetID": 2832,
+      "PowerIndex": 5328,
+      "PowerSetID": 2843,
       "PowerSetIndex": 2,
       "StaticIndex": 4653,
       "NGroupMembership": [],

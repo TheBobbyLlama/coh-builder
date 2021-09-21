@@ -4,13 +4,13 @@
   "FullName": "Mastermind_Pets.Assault_3",
   "ImageName": "",
   "Power": [
-    5834,
-    5835
+    5843,
+    5844
   ],
   "SetType": 8,
   "DisplayName": "Assault",
   "nArchetype": -1,
-  "nID": 2923,
+  "nID": 2936,
   "SubName": "Assault",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
     {
       "CastTimeReal": 2.67,
       "ToggleCost": 10.4,
-      "PowerIndex": 5834,
-      "PowerSetID": 2923,
+      "PowerIndex": 5843,
+      "PowerSetID": 2936,
       "StaticIndex": 1172,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Assault_3.Swarm_Missiles",
@@ -333,8 +333,8 @@
     {
       "CastTimeReal": 2.67,
       "ToggleCost": 10.4,
-      "PowerIndex": 5835,
-      "PowerSetID": 2923,
+      "PowerIndex": 5844,
+      "PowerSetID": 2936,
       "PowerSetIndex": 1,
       "StaticIndex": 1173,
       "NGroupMembership": [],

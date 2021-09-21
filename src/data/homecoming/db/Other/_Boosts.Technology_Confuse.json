@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Confuse",
   "ImageName": "",
   "Power": [
-    2760
+    2772
   ],
   "SetType": 10,
   "DisplayName": "Technology Confuse",
   "nArchetype": -1,
-  "nID": 2514,
+  "nID": 2526,
   "SubName": "Cybernetics (Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2760,
-      "PowerSetID": 2514,
+      "PowerIndex": 2772,
+      "PowerSetID": 2526,
       "StaticIndex": 8583,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Confuse.Technology_Confuse",

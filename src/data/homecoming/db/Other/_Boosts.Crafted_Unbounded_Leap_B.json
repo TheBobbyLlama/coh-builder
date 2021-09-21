@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Unbounded_Leap_B",
   "ImageName": "",
   "Power": [
-    2195
+    2201
   ],
   "SetType": 10,
   "DisplayName": "Crafted Unbounded Leap B",
   "nArchetype": -1,
-  "nID": 1947,
+  "nID": 1953,
   "SubName": "Set: Unbounded Leap",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2195,
-      "PowerSetID": 1947,
+      "PowerIndex": 2201,
+      "PowerSetID": 1953,
       "StaticIndex": 8126,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Unbounded_Leap_B.Crafted_Unbounded_Leap_B",

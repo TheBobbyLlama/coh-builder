@@ -4,12 +4,12 @@
   "FullName": "Boosts.Hydra_Heal_Endurance_Discount",
   "ImageName": "",
   "Power": [
-    2286
+    2292
   ],
   "SetType": 10,
   "DisplayName": "Hydra Heal Endurance Discount",
   "nArchetype": -1,
-  "nID": 2041,
+  "nID": 2047,
   "SubName": "Hydra (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2286,
-      "PowerSetID": 2041,
+      "PowerIndex": 2292,
+      "PowerSetID": 2047,
       "StaticIndex": 8211,
       "NGroupMembership": [],
       "FullName": "Boosts.Hydra_Heal_Endurance_Discount.Hydra_Heal_Endurance_Discount",

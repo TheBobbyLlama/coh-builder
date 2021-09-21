@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Magic_Fear",
   "ImageName": "",
   "Power": [
-    2426
+    2432
   ],
   "SetType": 10,
   "DisplayName": "Natural Magic Fear",
   "nArchetype": -1,
-  "nID": 2181,
+  "nID": 2187,
   "SubName": "Relic (Natural, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2426,
-      "PowerSetID": 2181,
+      "PowerIndex": 2432,
+      "PowerSetID": 2187,
       "StaticIndex": 8351,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Magic_Fear.Natural_Magic_Fear",

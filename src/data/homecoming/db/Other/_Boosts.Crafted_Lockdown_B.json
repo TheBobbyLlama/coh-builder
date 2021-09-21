@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Lockdown_B",
   "ImageName": "",
   "Power": [
-    1765
+    1771
   ],
   "SetType": 10,
   "DisplayName": "Crafted Lockdown B",
   "nArchetype": -1,
-  "nID": 1519,
+  "nID": 1525,
   "SubName": "Set: Lockdown",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1765,
-      "PowerSetID": 1519,
+      "PowerIndex": 1771,
+      "PowerSetID": 1525,
       "StaticIndex": 7710,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Lockdown_B.Crafted_Lockdown_B",

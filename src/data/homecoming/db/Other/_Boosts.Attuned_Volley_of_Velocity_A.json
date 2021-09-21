@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Volley_of_Velocity_A",
   "ImageName": "",
   "Power": [
-    1161
+    1167
   ],
   "SetType": 10,
   "DisplayName": "Attuned Volley of Velocity A",
   "nArchetype": -1,
-  "nID": 916,
+  "nID": 922,
   "SubName": "Set: Volley of Velocity",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1161,
-      "PowerSetID": 916,
+      "PowerIndex": 1167,
+      "PowerSetID": 922,
       "StaticIndex": 7119,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Volley_of_Velocity_A.Attuned_Volley_of_Velocity_A",

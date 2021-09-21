@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Basilisks_Gaze_C",
   "ImageName": "",
   "Power": [
-    1246
+    1252
   ],
   "SetType": 10,
   "DisplayName": "Crafted Basilisks Gaze C",
   "nArchetype": -1,
-  "nID": 1001,
+  "nID": 1007,
   "SubName": "Set: Basilisk's Gaze",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1246,
-      "PowerSetID": 1001,
+      "PowerIndex": 1252,
+      "PowerSetID": 1007,
       "StaticIndex": 7192,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Basilisks_Gaze_C.Crafted_Basilisks_Gaze_C",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Volley_of_Velocity_C",
   "ImageName": "",
   "Power": [
-    2230
+    2236
   ],
   "SetType": 10,
   "DisplayName": "Crafted Volley of Velocity C",
   "nArchetype": -1,
-  "nID": 1982,
+  "nID": 1988,
   "SubName": "Set: Volley of Velocity",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2230,
-      "PowerSetID": 1982,
+      "PowerIndex": 2236,
+      "PowerSetID": 1988,
       "StaticIndex": 8155,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Volley_of_Velocity_C.Crafted_Volley_of_Velocity_C",

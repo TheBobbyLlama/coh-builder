@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Magic_Intangible",
   "ImageName": "",
   "Power": [
-    2431
+    2437
   ],
   "SetType": 10,
   "DisplayName": "Natural Magic Intangible",
   "nArchetype": -1,
-  "nID": 2186,
+  "nID": 2192,
   "SubName": "Relic (Natural, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2431,
-      "PowerSetID": 2186,
+      "PowerIndex": 2437,
+      "PowerSetID": 2192,
       "StaticIndex": 8356,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Magic_Intangible.Natural_Magic_Intangible",

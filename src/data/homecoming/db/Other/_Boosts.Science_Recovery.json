@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Recovery",
   "ImageName": "",
   "Power": [
-    2476
+    2482
   ],
   "SetType": 10,
   "DisplayName": "Science Endurance",
   "nArchetype": -1,
-  "nID": 2218,
+  "nID": 2224,
   "SubName": "Experiment (Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2476,
-      "PowerSetID": 2218,
+      "PowerIndex": 2482,
+      "PowerSetID": 2224,
       "StaticIndex": 8401,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Recovery.Science_Recovery",

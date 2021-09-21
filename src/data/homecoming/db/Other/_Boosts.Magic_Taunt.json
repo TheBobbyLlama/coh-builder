@@ -4,12 +4,12 @@
   "FullName": "Boosts.Magic_Taunt",
   "ImageName": "",
   "Power": [
-    2314
+    2320
   ],
   "SetType": 10,
   "DisplayName": "Magic Taunt",
   "nArchetype": -1,
-  "nID": 2069,
+  "nID": 2075,
   "SubName": "Dimensional Entities (Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2314,
-      "PowerSetID": 2069,
+      "PowerIndex": 2320,
+      "PowerSetID": 2075,
       "StaticIndex": 8239,
       "NGroupMembership": [],
       "FullName": "Boosts.Magic_Taunt.Magic_Taunt",

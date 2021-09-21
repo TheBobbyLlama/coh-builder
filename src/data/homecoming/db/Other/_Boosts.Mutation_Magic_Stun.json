@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Magic_Stun",
   "ImageName": "",
   "Power": [
-    2358
+    2364
   ],
   "SetType": 10,
   "DisplayName": "Mutation Magic Stun",
   "nArchetype": -1,
-  "nID": 2113,
+  "nID": 2119,
   "SubName": "Focusing Device (Mutation, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2358,
-      "PowerSetID": 2113,
+      "PowerIndex": 2364,
+      "PowerSetID": 2119,
       "StaticIndex": 8283,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Magic_Stun.Mutation_Magic_Stun",

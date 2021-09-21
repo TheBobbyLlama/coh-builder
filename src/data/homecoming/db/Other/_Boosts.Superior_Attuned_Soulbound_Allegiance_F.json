@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Soulbound_Allegiance_F",
   "ImageName": "",
   "Power": [
-    2590
+    2596
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Soulbound Allegiance F",
   "nArchetype": -1,
-  "nID": 2345,
+  "nID": 2351,
   "SubName": "Set: Soulbound Allegiance",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2590,
-      "PowerSetID": 2345,
+      "PowerIndex": 2596,
+      "PowerSetID": 2351,
       "StaticIndex": 8491,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Soulbound_Allegiance_F.Superior_Attuned_Soulbound_Allegiance_F",
@@ -89,7 +89,7 @@
           "Special": "",
           "EffectType": 12,
           "Summon": "Set_Bonus.Set_Bonus.Boost_Up",
-          "nSummon": 7774,
+          "nSummon": 7789,
           "Ticks": 1,
           "UIDClassName": "",
           "nIDClassName": -1,

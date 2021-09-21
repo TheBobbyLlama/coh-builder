@@ -4,12 +4,12 @@
   "FullName": "Pets.Fallout_Controller",
   "ImageName": "",
   "Power": [
-    6326
+    6335
   ],
   "SetType": 8,
   "DisplayName": "Fallout",
   "nArchetype": -1,
-  "nID": 3083,
+  "nID": 3096,
   "SubName": "Radiation Emission",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6326,
-      "PowerSetID": 3083,
+      "PowerIndex": 6335,
+      "PowerSetID": 3096,
       "StaticIndex": 1594,
       "NGroupMembership": [],
       "FullName": "Pets.Fallout_Controller.Fallout",

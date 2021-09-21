@@ -4,12 +4,12 @@
   "FullName": "Boosts.Yins_Technology_Endurance_Discount",
   "ImageName": "",
   "Power": [
-    2829
+    2841
   ],
   "SetType": 10,
   "DisplayName": "Yins Technology Endurance Discount",
   "nArchetype": -1,
-  "nID": 2584,
+  "nID": 2596,
   "SubName": "Yin's Talisman (Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2829,
-      "PowerSetID": 2584,
+      "PowerIndex": 2841,
+      "PowerSetID": 2596,
       "StaticIndex": 8652,
       "NGroupMembership": [],
       "FullName": "Boosts.Yins_Technology_Endurance_Discount.Yins_Technology_Endurance_Discount",

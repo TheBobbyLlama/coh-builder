@@ -4,20 +4,20 @@
   "FullName": "Mastermind_Buff.Cold_Domination",
   "ImageName": "ColdDomination.png",
   "Power": [
-    5671,
-    5672,
-    5673,
-    5674,
-    5675,
-    5676,
-    5677,
-    5678,
-    5679
+    5680,
+    5681,
+    5682,
+    5683,
+    5684,
+    5685,
+    5686,
+    5687,
+    5688
   ],
   "SetType": 2,
   "DisplayName": "Cold Domination",
   "nArchetype": 10,
-  "nID": 2900,
+  "nID": 2911,
   "SubName": "Cold Domination",
   "ATClass": "Class_Mastermind",
   "UIDTrunkSet": "",
@@ -31,8 +31,8 @@
     {
       "CastTimeReal": 1.0,
       "ToggleCost": 16.0,
-      "PowerIndex": 5671,
-      "PowerSetID": 2900,
+      "PowerIndex": 5680,
+      "PowerSetID": 2911,
       "StaticIndex": 10604,
       "NGroupMembership": [],
       "FullName": "Mastermind_Buff.Cold_Domination.Infrigidate",
@@ -564,13 +564,14 @@
       "FullSetName": "Mastermind_Buff.Cold_Domination",
       "CastTime": 1.0,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.17,
       "ToggleCost": 12.0,
-      "PowerIndex": 5672,
-      "PowerSetID": 2900,
+      "PowerIndex": 5681,
+      "PowerSetID": 2911,
       "PowerSetIndex": 1,
       "StaticIndex": 10605,
       "NGroupMembership": [],
@@ -928,13 +929,14 @@
       "FullSetName": "Mastermind_Buff.Cold_Domination",
       "CastTime": 1.17,
       "Slottable": true,
-      "AoEModifier": 5.5
+      "AoEModifier": 5.5,
+      "Taken": true
     },
     {
       "CastTimeReal": 2.03,
       "ToggleCost": 0.8,
-      "PowerIndex": 5673,
-      "PowerSetID": 2900,
+      "PowerIndex": 5682,
+      "PowerSetID": 2911,
       "PowerSetIndex": 2,
       "StaticIndex": 10606,
       "NGroupMembership": [],
@@ -1405,13 +1407,14 @@
       "FullSetName": "Mastermind_Buff.Cold_Domination",
       "CastTime": 2.03,
       "Slottable": true,
-      "AoEModifier": 4.75
+      "AoEModifier": 4.75,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.17,
       "ToggleCost": 12.0,
-      "PowerIndex": 5674,
-      "PowerSetID": 2900,
+      "PowerIndex": 5683,
+      "PowerSetID": 2911,
       "PowerSetIndex": 3,
       "StaticIndex": 10607,
       "NGroupMembership": [],
@@ -1770,13 +1773,14 @@
       "FullSetName": "Mastermind_Buff.Cold_Domination",
       "CastTime": 1.17,
       "Slottable": true,
-      "AoEModifier": 5.5
+      "AoEModifier": 5.5,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.17,
       "ToggleCost": 22.4,
-      "PowerIndex": 5675,
-      "PowerSetID": 2900,
+      "PowerIndex": 5684,
+      "PowerSetID": 2911,
       "PowerSetIndex": 4,
       "StaticIndex": 10608,
       "NGroupMembership": [],
@@ -1952,13 +1956,14 @@
       "FullSetName": "Mastermind_Buff.Cold_Domination",
       "CastTime": 1.17,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.87,
       "ToggleCost": 0.8,
-      "PowerIndex": 5676,
-      "PowerSetID": 2900,
+      "PowerIndex": 5685,
+      "PowerSetID": 2911,
       "PowerSetIndex": 5,
       "StaticIndex": 10609,
       "NGroupMembership": [
@@ -3256,8 +3261,8 @@
     {
       "CastTimeReal": 2.07,
       "ToggleCost": 20.0,
-      "PowerIndex": 5677,
-      "PowerSetID": 2900,
+      "PowerIndex": 5686,
+      "PowerSetID": 2911,
       "PowerSetIndex": 6,
       "StaticIndex": 10610,
       "NGroupMembership": [],
@@ -7416,8 +7421,8 @@
     {
       "CastTimeReal": 2.03,
       "ToggleCost": 28.0,
-      "PowerIndex": 5678,
-      "PowerSetID": 2900,
+      "PowerIndex": 5687,
+      "PowerSetID": 2911,
       "PowerSetIndex": 7,
       "StaticIndex": 10611,
       "NGroupMembership": [],
@@ -7494,6 +7499,7 @@
           "MagPercent": -100.0,
           "Duration": 15.0,
           "DisplayPercentage": true,
+          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Ones",
@@ -7552,8 +7558,8 @@
     {
       "CastTimeReal": 2.17,
       "ToggleCost": 24.0,
-      "PowerIndex": 5679,
-      "PowerSetID": 2900,
+      "PowerIndex": 5688,
+      "PowerSetID": 2911,
       "PowerSetIndex": 8,
       "StaticIndex": 10612,
       "NGroupMembership": [],

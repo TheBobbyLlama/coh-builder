@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Unrelenting_Fury_A",
   "ImageName": "",
   "Power": [
-    1140
+    1146
   ],
   "SetType": 10,
   "DisplayName": "Attuned Unrelenting Fury A",
   "nArchetype": -1,
-  "nID": 895,
+  "nID": 901,
   "SubName": "Set: Unrelenting Fury",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1140,
-      "PowerSetID": 895,
+      "PowerIndex": 1146,
+      "PowerSetID": 901,
       "StaticIndex": 8781,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Unrelenting_Fury_A.Attuned_Unrelenting_Fury_A",

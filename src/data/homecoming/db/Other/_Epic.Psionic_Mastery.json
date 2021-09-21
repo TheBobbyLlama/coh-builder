@@ -4,16 +4,16 @@
   "FullName": "Epic.Psionic_Mastery",
   "ImageName": "PsionicMastery.png",
   "Power": [
-    4313,
-    4314,
-    4315,
-    4316,
-    4317
+    4322,
+    4323,
+    4324,
+    4325,
+    4326
   ],
   "SetType": 3,
   "DisplayName": "Psionic Mastery",
   "nArchetype": -1,
-  "nID": 2783,
+  "nID": 2794,
   "SubName": "Psionic Mastery",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
     {
       "CastTimeReal": 1.67,
       "ToggleCost": 6.5,
-      "PowerIndex": 4313,
-      "PowerSetID": 2783,
+      "PowerIndex": 4322,
+      "PowerSetID": 2794,
       "StaticIndex": 975,
       "NGroupMembership": [],
       "FullName": "Epic.Psionic_Mastery.Mental_Blast",
@@ -398,8 +398,8 @@
     {
       "CastTimeReal": 0.73,
       "ToggleCost": 19.5,
-      "PowerIndex": 4314,
-      "PowerSetID": 2783,
+      "PowerIndex": 4323,
+      "PowerSetID": 2794,
       "PowerSetIndex": 1,
       "StaticIndex": 976,
       "NGroupMembership": [],
@@ -1120,8 +1120,8 @@
       "CastTimeReal": 0.67,
       "ToggleCost": 0.325,
       "IsEpic": true,
-      "PowerIndex": 4315,
-      "PowerSetID": 2783,
+      "PowerIndex": 4324,
+      "PowerSetID": 2794,
       "PowerSetIndex": 2,
       "StaticIndex": 977,
       "NGroupMembership": [],
@@ -1137,11 +1137,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4313,
+            4322,
             -1
           ],
           [
-            4314,
+            4323,
             -1
           ]
         ],
@@ -1850,8 +1850,8 @@
       "CastTimeReal": 1.67,
       "ToggleCost": 0.1625,
       "IsEpic": true,
-      "PowerIndex": 4316,
-      "PowerSetID": 2783,
+      "PowerIndex": 4325,
+      "PowerSetID": 2794,
       "PowerSetIndex": 3,
       "StaticIndex": 3503,
       "NGroupMembership": [],
@@ -1867,11 +1867,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4313,
+            4322,
             -1
           ],
           [
-            4314,
+            4323,
             -1
           ]
         ],
@@ -2123,8 +2123,8 @@
       "CastTimeReal": 2.37,
       "ToggleCost": 23.14,
       "IsEpic": true,
-      "PowerIndex": 4317,
-      "PowerSetID": 2783,
+      "PowerIndex": 4326,
+      "PowerSetID": 2794,
       "PowerSetIndex": 4,
       "StaticIndex": 978,
       "NGroupMembership": [],
@@ -2140,24 +2140,24 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4313,
-            4314
+            4322,
+            4323
           ],
           [
-            4313,
-            4315
+            4322,
+            4324
           ],
           [
-            4313,
-            4316
+            4322,
+            4325
           ],
           [
-            4314,
-            4315
+            4323,
+            4324
           ],
           [
-            4314,
-            4316
+            4323,
+            4325
           ]
         ],
         "NPowerIDNot": [],

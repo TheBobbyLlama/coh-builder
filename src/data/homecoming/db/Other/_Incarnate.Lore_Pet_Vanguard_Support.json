@@ -4,13 +4,13 @@
   "FullName": "Incarnate.Lore_Pet_Vanguard_Support",
   "ImageName": "",
   "Power": [
-    5446,
-    5447
+    5455,
+    5456
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Vanguard_Support",
   "nArchetype": -1,
-  "nID": 2880,
+  "nID": 2891,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "Powers": [
     {
       "CastTimeReal": 3.67,
-      "PowerIndex": 5446,
-      "PowerSetID": 2880,
+      "PowerIndex": 5455,
+      "PowerSetID": 2891,
       "StaticIndex": 5572,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Vanguard_Support.Assault",
@@ -666,8 +666,8 @@
     },
     {
       "CastTimeReal": 2.37,
-      "PowerIndex": 5447,
-      "PowerSetID": 2880,
+      "PowerIndex": 5456,
+      "PowerSetID": 2891,
       "PowerSetIndex": 1,
       "StaticIndex": 5573,
       "NGroupMembership": [],

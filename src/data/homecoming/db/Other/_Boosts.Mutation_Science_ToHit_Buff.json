@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Science_ToHit_Buff",
   "ImageName": "",
   "Power": [
-    2393
+    2399
   ],
   "SetType": 10,
   "DisplayName": "Mutation Science ToHit Buff",
   "nArchetype": -1,
-  "nID": 2148,
+  "nID": 2154,
   "SubName": "Genetic Alteration (Mutation, Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2393,
-      "PowerSetID": 2148,
+      "PowerIndex": 2399,
+      "PowerSetID": 2154,
       "StaticIndex": 8318,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Science_ToHit_Buff.Mutation_Science_ToHit_Buff",

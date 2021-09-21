@@ -4,13 +4,13 @@
   "FullName": "Incarnate.Lore_Pet_IDF_LT",
   "ImageName": "",
   "Power": [
-    5346,
-    5347
+    5355,
+    5356
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_IDF_LT",
   "nArchetype": -1,
-  "nID": 2841,
+  "nID": 2852,
   "SubName": "Imperial Defense Force",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "Powers": [
     {
       "CastTimeReal": 2.07,
-      "PowerIndex": 5346,
-      "PowerSetID": 2841,
+      "PowerIndex": 5355,
+      "PowerSetID": 2852,
       "StaticIndex": 4662,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_IDF_LT.Plasma_Blast",
@@ -321,8 +321,8 @@
     },
     {
       "CastTimeReal": 1.67,
-      "PowerIndex": 5347,
-      "PowerSetID": 2841,
+      "PowerIndex": 5356,
+      "PowerSetID": 2852,
       "PowerSetIndex": 1,
       "StaticIndex": 4663,
       "NGroupMembership": [],

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Soaring_A",
   "ImageName": "",
   "Power": [
-    1015
+    1021
   ],
   "SetType": 10,
   "DisplayName": "Attuned Soaring A",
   "nArchetype": -1,
-  "nID": 770,
+  "nID": 776,
   "SubName": "Set: Soaring",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1015,
-      "PowerSetID": 770,
+      "PowerIndex": 1021,
+      "PowerSetID": 776,
       "StaticIndex": 6997,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Soaring_A.Attuned_Soaring_A",

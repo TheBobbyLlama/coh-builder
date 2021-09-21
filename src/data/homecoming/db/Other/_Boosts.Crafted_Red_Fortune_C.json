@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Red_Fortune_C",
   "ImageName": "",
   "Power": [
-    1951
+    1957
   ],
   "SetType": 10,
   "DisplayName": "Crafted Red Fortune C",
   "nArchetype": -1,
-  "nID": 1704,
+  "nID": 1710,
   "SubName": "Set: Red Fortune",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1951,
-      "PowerSetID": 1704,
+      "PowerIndex": 1957,
+      "PowerSetID": 1710,
       "StaticIndex": 7883,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Red_Fortune_C.Crafted_Red_Fortune_C",

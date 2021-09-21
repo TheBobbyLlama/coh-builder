@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Essence_of_Curare_D",
   "ImageName": "",
   "Power": [
-    1481
+    1487
   ],
   "SetType": 10,
   "DisplayName": "Crafted Essence of Curare D",
   "nArchetype": -1,
-  "nID": 1235,
+  "nID": 1241,
   "SubName": "Set: Essence of Curare",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1481,
-      "PowerSetID": 1235,
+      "PowerIndex": 1487,
+      "PowerSetID": 1241,
       "StaticIndex": 7426,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Essence_of_Curare_D.Crafted_Essence_of_Curare_D",

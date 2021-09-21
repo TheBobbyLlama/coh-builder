@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Bonesnap_C",
   "ImageName": "",
   "Power": [
-    1267
+    1273
   ],
   "SetType": 10,
   "DisplayName": "Crafted Bonesnap C",
   "nArchetype": -1,
-  "nID": 1021,
+  "nID": 1027,
   "SubName": "Set: Bonesnap",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1267,
-      "PowerSetID": 1021,
+      "PowerIndex": 1273,
+      "PowerSetID": 1027,
       "StaticIndex": 7212,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Bonesnap_C.Crafted_Bonesnap_C",

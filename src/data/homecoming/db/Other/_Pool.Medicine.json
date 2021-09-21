@@ -4,16 +4,16 @@
   "FullName": "Pool.Medicine",
   "ImageName": "Medicine.png",
   "Power": [
-    6754,
-    6755,
-    6756,
-    6757,
-    6758
+    6769,
+    6770,
+    6771,
+    6772,
+    6773
   ],
   "SetType": 5,
   "DisplayName": "Medicine",
   "nArchetype": -1,
-  "nID": 3287,
+  "nID": 3302,
   "SubName": "Medicine",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
     {
       "CastTimeReal": 3.93,
       "ToggleCost": 6.5,
-      "PowerIndex": 6754,
-      "PowerSetID": 3287,
+      "PowerIndex": 6769,
+      "PowerSetID": 3302,
       "StaticIndex": 1821,
       "NGroupMembership": [],
       "FullName": "Pool.Medicine.Aid_Other",
@@ -102,7 +102,7 @@
           "Special": "",
           "EffectType": 53,
           "Summon": "",
-          "nSummon": 6459,
+          "nSummon": 6479,
           "Stacking": 1,
           "UIDClassName": "",
           "nIDClassName": -1,
@@ -142,7 +142,7 @@
           "AtrModRechargeTime": -1.0,
           "AtrModSecondaryRange": -1.0,
           "ActiveConditionals": [],
-          "nOverride": 6459
+          "nOverride": 6479
         },
         {
           "MagnitudeExpression": "",
@@ -158,7 +158,7 @@
           "nID": 1,
           "EffectType": 53,
           "Summon": "",
-          "nSummon": 6460,
+          "nSummon": 6480,
           "Stacking": 1,
           "UIDClassName": "",
           "nIDClassName": -1,
@@ -198,7 +198,7 @@
           "AtrModRechargeTime": -1.0,
           "AtrModSecondaryRange": -1.0,
           "ActiveConditionals": [],
-          "nOverride": 6460
+          "nOverride": 6480
         },
         {
           "MagnitudeExpression": "",
@@ -266,8 +266,8 @@
     {
       "CastTimeReal": 2.93,
       "ToggleCost": 13.0,
-      "PowerIndex": 6755,
-      "PowerSetID": 3287,
+      "PowerIndex": 6770,
+      "PowerSetID": 3302,
       "PowerSetIndex": 1,
       "StaticIndex": 1822,
       "NGroupMembership": [],
@@ -2240,8 +2240,8 @@
       "CastTimeReal": 4.33,
       "ToggleCost": 13.0,
       "IsEpic": true,
-      "PowerIndex": 6756,
-      "PowerSetID": 3287,
+      "PowerIndex": 6771,
+      "PowerSetID": 3302,
       "PowerSetIndex": 2,
       "StaticIndex": 1823,
       "NGroupMembership": [],
@@ -2257,11 +2257,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6754,
+            6769,
             -1
           ],
           [
-            6755,
+            6770,
             -1
           ]
         ],
@@ -2409,29 +2409,24 @@
           "Absorbed_EffectID": -1,
           "UniqueID": 2,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigCastTime": 4.33,
+          "AtrOrigEffectArea": 1,
+          "AtrOrigEnduranceCost": 13.0,
+          "AtrOrigInterruptTime": 1.0,
+          "AtrOrigRechargeTime": 20.0,
+          "AtrModAccuracy": 1.0,
+          "AtrModCastTime": 4.33,
+          "AtrModEffectArea": 1,
+          "AtrModEnduranceCost": 13.0,
+          "AtrModInterruptTime": 1.0,
+          "AtrModRechargeTime": 20.0,
+          "ActiveConditionals": [
+            {
+              "Key": "Taken:Pool.Medicine.Field_Medic",
+              "Value": "True"
+            }
+          ],
           "nOverride": -1
         },
         {
@@ -2501,8 +2496,8 @@
       "CastTimeReal": 3.33,
       "ToggleCost": 19.5,
       "IsEpic": true,
-      "PowerIndex": 6757,
-      "PowerSetID": 3287,
+      "PowerIndex": 6772,
+      "PowerSetID": 3302,
       "PowerSetIndex": 3,
       "StaticIndex": 9616,
       "NGroupMembership": [],
@@ -2518,28 +2513,28 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6754,
-            6755
+            6769,
+            6770
           ],
           [
-            6754,
-            6756
+            6769,
+            6771
           ],
           [
-            6754,
-            6758
+            6769,
+            6773
           ],
           [
-            6755,
-            6756
+            6770,
+            6771
           ],
           [
-            6755,
-            6758
+            6770,
+            6773
           ],
           [
-            6756,
-            6758
+            6771,
+            6773
           ]
         ],
         "NPowerIDNot": [],
@@ -2732,8 +2727,8 @@
       "CastTimeReal": 7.33,
       "ToggleCost": 32.5,
       "IsEpic": true,
-      "PowerIndex": 6758,
-      "PowerSetID": 3287,
+      "PowerIndex": 6773,
+      "PowerSetID": 3302,
       "PowerSetIndex": 4,
       "StaticIndex": 1824,
       "NGroupMembership": [],
@@ -2749,16 +2744,16 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6754,
-            6755
+            6769,
+            6770
           ],
           [
-            6754,
-            6756
+            6769,
+            6771
           ],
           [
-            6755,
-            6756
+            6770,
+            6771
           ]
         ],
         "NPowerIDNot": [],

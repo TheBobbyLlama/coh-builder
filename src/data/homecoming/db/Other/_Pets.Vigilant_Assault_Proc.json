@@ -4,12 +4,12 @@
   "FullName": "Pets.Vigilant_Assault_Proc",
   "ImageName": "",
   "Power": [
-    6650
+    6670
   ],
   "SetType": 8,
   "DisplayName": "Vigilant Assault",
   "nArchetype": -1,
-  "nID": 3254,
+  "nID": 3269,
   "SubName": "Vigilant Assault",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6650,
-      "PowerSetID": 3254,
+      "PowerIndex": 6670,
+      "PowerSetID": 3269,
       "StaticIndex": 8970,
       "NGroupMembership": [],
       "FullName": "Pets.Vigilant_Assault_Proc.Vigilant_Assault",

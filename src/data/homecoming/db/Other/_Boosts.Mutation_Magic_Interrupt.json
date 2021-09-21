@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Magic_Interrupt",
   "ImageName": "",
   "Power": [
-    2348
+    2354
   ],
   "SetType": 10,
   "DisplayName": "Mutation Magic Interrupt",
   "nArchetype": -1,
-  "nID": 2103,
+  "nID": 2109,
   "SubName": "Focusing Device (Mutation, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2348,
-      "PowerSetID": 2103,
+      "PowerIndex": 2354,
+      "PowerSetID": 2109,
       "StaticIndex": 8273,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Magic_Interrupt.Mutation_Magic_Interrupt",

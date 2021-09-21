@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Befuddling_Aura_E",
   "ImageName": "",
   "Power": [
-    1254
+    1260
   ],
   "SetType": 10,
   "DisplayName": "Crafted Befuddling Aura E",
   "nArchetype": -1,
-  "nID": 1009,
+  "nID": 1015,
   "SubName": "Set: Befuddling Aura",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1254,
-      "PowerSetID": 1009,
+      "PowerIndex": 1260,
+      "PowerSetID": 1015,
       "StaticIndex": 7200,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Befuddling_Aura_E.Crafted_Befuddling_Aura_E",

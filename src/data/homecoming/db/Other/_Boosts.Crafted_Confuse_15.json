@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Confuse_15",
   "ImageName": "",
   "Power": [
-    1327
+    1333
   ],
   "SetType": 10,
   "DisplayName": "Crafted Confuse 15",
   "nArchetype": -1,
-  "nID": 1081,
+  "nID": 1087,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1327,
-      "PowerSetID": 1081,
+      "PowerIndex": 1333,
+      "PowerSetID": 1087,
       "StaticIndex": 7272,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Confuse_15.Crafted_Confuse_15",

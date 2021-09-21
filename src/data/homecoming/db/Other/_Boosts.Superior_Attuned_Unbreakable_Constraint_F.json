@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Unbreakable_Constraint_F",
   "ImageName": "",
   "Power": [
-    2740
+    2752
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Unbreakable Constraint F",
   "nArchetype": -1,
-  "nID": 2495,
+  "nID": 2507,
   "SubName": "Set: Unbreakable Constraint",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2740,
-      "PowerSetID": 2495,
+      "PowerIndex": 2752,
+      "PowerSetID": 2507,
       "StaticIndex": 8569,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Unbreakable_Constraint_F.Superior_Attuned_Unbreakable_Constraint_F",

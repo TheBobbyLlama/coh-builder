@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Magic_Heal",
   "ImageName": "",
   "Power": [
-    2344
+    2350
   ],
   "SetType": 10,
   "DisplayName": "Mutation Magic Heal",
   "nArchetype": -1,
-  "nID": 2099,
+  "nID": 2105,
   "SubName": "Focusing Device (Mutation, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2344,
-      "PowerSetID": 2099,
+      "PowerIndex": 2350,
+      "PowerSetID": 2105,
       "StaticIndex": 8269,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Magic_Heal.Mutation_Magic_Heal",

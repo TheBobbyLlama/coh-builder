@@ -4,13 +4,13 @@
   "FullName": "Mastermind_Pets.Protector_2",
   "ImageName": "",
   "Power": [
-    5994,
-    5995
+    6003,
+    6004
   ],
   "SetType": 8,
   "DisplayName": "Protector",
   "nArchetype": -1,
-  "nID": 2978,
+  "nID": 2989,
   "SubName": "Protector",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
     {
       "CastTimeReal": 2.0,
       "ToggleCost": 8.528,
-      "PowerIndex": 5994,
-      "PowerSetID": 2978,
+      "PowerIndex": 6003,
+      "PowerSetID": 2989,
       "StaticIndex": 1269,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Protector_2.Heavy_Laser_Burst",
@@ -453,8 +453,8 @@
     {
       "CastTimeReal": 3.0,
       "ToggleCost": 13.0,
-      "PowerIndex": 5995,
-      "PowerSetID": 2978,
+      "PowerIndex": 6004,
+      "PowerSetID": 2989,
       "PowerSetIndex": 1,
       "StaticIndex": 1271,
       "NGroupMembership": [],

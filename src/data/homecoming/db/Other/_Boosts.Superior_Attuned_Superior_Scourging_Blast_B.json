@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Superior_Scourging_Blast_B",
   "ImageName": "",
   "Power": [
-    2694
+    2700
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Superior Scourging Blast B",
   "nArchetype": -1,
-  "nID": 2449,
+  "nID": 2455,
   "SubName": "Set: Superior Scourging Blast",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2694,
-      "PowerSetID": 2449,
+      "PowerIndex": 2700,
+      "PowerSetID": 2455,
       "StaticIndex": 8842,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Superior_Scourging_Blast_B.Superior_Attuned_Superior_Scourging_Blast_B",

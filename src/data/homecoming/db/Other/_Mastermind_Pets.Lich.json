@@ -4,15 +4,15 @@
   "FullName": "Mastermind_Pets.Lich",
   "ImageName": "",
   "Power": [
-    5949,
-    5950,
-    5951,
-    5952
+    5958,
+    5959,
+    5960,
+    5961
   ],
   "SetType": 8,
   "DisplayName": "Lich",
   "nArchetype": -1,
-  "nID": 2963,
+  "nID": 2975,
   "SubName": "Lich",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "GroupName": "Mastermind_Pets",
   "Powers": [
     {
-      "PowerIndex": 5949,
-      "PowerSetID": 2963,
+      "PowerIndex": 5958,
+      "PowerSetID": 2975,
       "StaticIndex": 1231,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Lich.Resistance",
@@ -359,8 +359,8 @@
     {
       "CastTimeReal": 1.0,
       "ToggleCost": 2.6,
-      "PowerIndex": 5950,
-      "PowerSetID": 2963,
+      "PowerIndex": 5959,
+      "PowerSetID": 2975,
       "PowerSetIndex": 1,
       "StaticIndex": 1232,
       "NGroupMembership": [],
@@ -600,8 +600,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5951,
-      "PowerSetID": 2963,
+      "PowerIndex": 5960,
+      "PowerSetID": 2975,
       "PowerSetIndex": 2,
       "StaticIndex": 1233,
       "NGroupMembership": [],
@@ -939,8 +939,8 @@
     {
       "CastTimeReal": 1.03,
       "ToggleCost": 7.28,
-      "PowerIndex": 5952,
-      "PowerSetID": 2963,
+      "PowerIndex": 5961,
+      "PowerSetID": 2975,
       "PowerSetIndex": 3,
       "StaticIndex": 1234,
       "NGroupMembership": [],

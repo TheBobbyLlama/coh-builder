@@ -4,12 +4,12 @@
   "FullName": "Pets.Blind",
   "ImageName": "",
   "Power": [
-    6209
+    6218
   ],
   "SetType": 8,
   "DisplayName": "Blind",
   "nArchetype": -1,
-  "nID": 3025,
+  "nID": 3036,
   "SubName": "Illusion Control",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6209,
-      "PowerSetID": 3025,
+      "PowerIndex": 6218,
+      "PowerSetID": 3036,
       "StaticIndex": 1544,
       "NGroupMembership": [],
       "FullName": "Pets.Blind.Blind",

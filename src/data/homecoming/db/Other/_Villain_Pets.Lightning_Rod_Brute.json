@@ -4,12 +4,12 @@
   "FullName": "Villain_Pets.Lightning_Rod_Brute",
   "ImageName": "",
   "Power": [
-    10160
+    10176
   ],
   "SetType": 8,
   "DisplayName": "Electric Melee",
   "nArchetype": -1,
-  "nID": 3482,
+  "nID": 3496,
   "SubName": "Electric Melee",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Villain_Pets",
   "Powers": [
     {
-      "PowerIndex": 10160,
-      "PowerSetID": 3482,
+      "PowerIndex": 10176,
+      "PowerSetID": 3496,
       "StaticIndex": 4112,
       "NGroupMembership": [],
       "FullName": "Villain_Pets.Lightning_Rod_Brute.Lightning_Rod",

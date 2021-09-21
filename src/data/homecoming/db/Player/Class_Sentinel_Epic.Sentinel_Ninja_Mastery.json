@@ -4,16 +4,16 @@
   "FullName": "Epic.Sentinel_Ninja_Mastery",
   "ImageName": "NinjaBlade.png",
   "Power": [
-    4373,
-    4374,
-    4375,
-    4376,
-    4377
+    4382,
+    4383,
+    4384,
+    4385,
+    4386
   ],
   "SetType": 3,
   "DisplayName": "Ninja Tool Mastery",
   "nArchetype": 7,
-  "nID": 2777,
+  "nID": 2788,
   "SubName": "Ninja Tool Mastery",
   "ATClass": "Class_Sentinel",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
     {
       "CastTimeReal": 1.07,
       "ToggleCost": 9.75,
-      "PowerIndex": 4373,
-      "PowerSetID": 2777,
+      "PowerIndex": 4382,
+      "PowerSetID": 2788,
       "StaticIndex": 10403,
       "NGroupMembership": [],
       "FullName": "Epic.Sentinel_Ninja_Mastery.Caltrops",
@@ -106,6 +106,7 @@
           "MagPercent": 5000.0,
           "Duration": 45.0,
           "DisplayPercentage": true,
+          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Level",
@@ -166,8 +167,8 @@
     {
       "CastTimeReal": 1.17,
       "ToggleCost": 7.54,
-      "PowerIndex": 4374,
-      "PowerSetID": 2777,
+      "PowerIndex": 4383,
+      "PowerSetID": 2788,
       "PowerSetIndex": 1,
       "StaticIndex": 10404,
       "NGroupMembership": [],
@@ -422,8 +423,8 @@
       "CastTimeReal": 1.5,
       "ToggleCost": 6.5,
       "IsEpic": true,
-      "PowerIndex": 4375,
-      "PowerSetID": 2777,
+      "PowerIndex": 4384,
+      "PowerSetID": 2788,
       "PowerSetIndex": 2,
       "StaticIndex": 10590,
       "NGroupMembership": [],
@@ -439,11 +440,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4373,
+            4382,
             -1
           ],
           [
-            4374,
+            4383,
             -1
           ]
         ],
@@ -1052,8 +1053,8 @@
       "CastTimeReal": 1.83,
       "ToggleCost": 16.25,
       "IsEpic": true,
-      "PowerIndex": 4376,
-      "PowerSetID": 2777,
+      "PowerIndex": 4385,
+      "PowerSetID": 2788,
       "PowerSetIndex": 3,
       "StaticIndex": 10591,
       "NGroupMembership": [],
@@ -1069,11 +1070,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4373,
+            4382,
             -1
           ],
           [
-            4374,
+            4383,
             -1
           ]
         ],
@@ -1383,8 +1384,8 @@
       "CastTimeReal": 1.83,
       "ToggleCost": 19.5,
       "IsEpic": true,
-      "PowerIndex": 4377,
-      "PowerSetID": 2777,
+      "PowerIndex": 4386,
+      "PowerSetID": 2788,
       "PowerSetIndex": 4,
       "StaticIndex": 10407,
       "NGroupMembership": [],
@@ -1400,24 +1401,24 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4373,
-            4374
+            4382,
+            4383
           ],
           [
-            4373,
-            4375
+            4382,
+            4384
           ],
           [
-            4373,
-            4376
+            4382,
+            4385
           ],
           [
-            4374,
-            4375
+            4383,
+            4384
           ],
           [
-            4374,
-            4376
+            4383,
+            4385
           ]
         ],
         "NPowerIDNot": [],

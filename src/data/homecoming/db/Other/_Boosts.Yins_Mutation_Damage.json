@@ -4,12 +4,12 @@
   "FullName": "Boosts.Yins_Mutation_Damage",
   "ImageName": "",
   "Power": [
-    2826
+    2838
   ],
   "SetType": 10,
   "DisplayName": "Yins Mutation Damage",
   "nArchetype": -1,
-  "nID": 2581,
+  "nID": 2593,
   "SubName": "Yin's Talisman (Mutation)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2826,
-      "PowerSetID": 2581,
+      "PowerIndex": 2838,
+      "PowerSetID": 2593,
       "StaticIndex": 8649,
       "NGroupMembership": [],
       "FullName": "Boosts.Yins_Mutation_Damage.Yins_Mutation_Damage",

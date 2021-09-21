@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Pacing_of_the_Turtle_C",
   "ImageName": "",
   "Power": [
-    1836
+    1842
   ],
   "SetType": 10,
   "DisplayName": "Crafted Pacing of the Turtle C",
   "nArchetype": -1,
-  "nID": 1590,
+  "nID": 1596,
   "SubName": "Set: Pacing of the Turtle",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1836,
-      "PowerSetID": 1590,
+      "PowerIndex": 1842,
+      "PowerSetID": 1596,
       "StaticIndex": 7781,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Pacing_of_the_Turtle_C.Crafted_Pacing_of_the_Turtle_C",

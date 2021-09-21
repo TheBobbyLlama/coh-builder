@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Aegis_D",
   "ImageName": "",
   "Power": [
-    1210
+    1216
   ],
   "SetType": 10,
   "DisplayName": "Crafted Aegis D",
   "nArchetype": -1,
-  "nID": 965,
+  "nID": 971,
   "SubName": "Set: Aegis",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1210,
-      "PowerSetID": 965,
+      "PowerIndex": 1216,
+      "PowerSetID": 971,
       "StaticIndex": 7162,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Aegis_D.Crafted_Aegis_D",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Science_Accuracy",
   "ImageName": "",
   "Power": [
-    2367
+    2373
   ],
   "SetType": 10,
   "DisplayName": "Mutation Science Accuracy",
   "nArchetype": -1,
-  "nID": 2122,
+  "nID": 2128,
   "SubName": "Genetic Alteration (Mutation, Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2367,
-      "PowerSetID": 2122,
+      "PowerIndex": 2373,
+      "PowerSetID": 2128,
       "StaticIndex": 8292,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Science_Accuracy.Mutation_Science_Accuracy",

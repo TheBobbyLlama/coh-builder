@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Res_Damage",
   "ImageName": "",
   "Power": [
-    2477
+    2483
   ],
   "SetType": 10,
   "DisplayName": "Science Res Damage",
   "nArchetype": -1,
-  "nID": 2232,
+  "nID": 2238,
   "SubName": "Experiment (Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2477,
-      "PowerSetID": 2232,
+      "PowerIndex": 2483,
+      "PowerSetID": 2238,
       "StaticIndex": 8402,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Res_Damage.Science_Res_Damage",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Magic_Heal",
   "ImageName": "",
   "Power": [
-    2428
+    2434
   ],
   "SetType": 10,
   "DisplayName": "Natural Magic Heal",
   "nArchetype": -1,
-  "nID": 2183,
+  "nID": 2189,
   "SubName": "Relic (Natural, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2428,
-      "PowerSetID": 2183,
+      "PowerIndex": 2434,
+      "PowerSetID": 2189,
       "StaticIndex": 8353,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Magic_Heal.Natural_Magic_Heal",

@@ -4,13 +4,13 @@
   "FullName": "Pets.Pool_Medicine_AidOther",
   "ImageName": "",
   "Power": [
-    6459,
-    6460
+    6479,
+    6480
   ],
   "SetType": 8,
   "DisplayName": "Medicine",
   "nArchetype": -1,
-  "nID": 3140,
+  "nID": 3152,
   "SubName": "Medicine",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
     {
       "CastTimeReal": 2.93,
       "ToggleCost": 6.5,
-      "PowerIndex": 6459,
-      "PowerSetID": 3140,
+      "PowerIndex": 6479,
+      "PowerSetID": 3152,
       "StaticIndex": 9599,
       "NGroupMembership": [],
       "FullName": "Pets.Pool_Medicine_AidOther.AidOther_NoInterrupt",
@@ -146,8 +146,8 @@
     {
       "CastTimeReal": 3.93,
       "ToggleCost": 6.5,
-      "PowerIndex": 6460,
-      "PowerSetID": 3140,
+      "PowerIndex": 6480,
+      "PowerSetID": 3152,
       "PowerSetIndex": 1,
       "StaticIndex": 9600,
       "NGroupMembership": [],

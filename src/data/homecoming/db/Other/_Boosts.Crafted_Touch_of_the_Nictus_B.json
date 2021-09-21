@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Touch_of_the_Nictus_B",
   "ImageName": "",
   "Power": [
-    2176
+    2182
   ],
   "SetType": 10,
   "DisplayName": "Crafted Touch of the Nictus B",
   "nArchetype": -1,
-  "nID": 1928,
+  "nID": 1934,
   "SubName": "Set: Touch of the Nictus",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2176,
-      "PowerSetID": 1928,
+      "PowerIndex": 2182,
+      "PowerSetID": 1934,
       "StaticIndex": 8107,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Touch_of_the_Nictus_B.Crafted_Touch_of_the_Nictus_B",

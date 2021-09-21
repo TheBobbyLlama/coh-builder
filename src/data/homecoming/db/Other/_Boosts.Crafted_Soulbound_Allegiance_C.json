@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Soulbound_Allegiance_C",
   "ImageName": "",
   "Power": [
-    2058
+    2064
   ],
   "SetType": 10,
   "DisplayName": "Crafted Soulbound Allegiance C",
   "nArchetype": -1,
-  "nID": 1811,
+  "nID": 1817,
   "SubName": "Set: Soulbound Allegiance",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2058,
-      "PowerSetID": 1811,
+      "PowerIndex": 2064,
+      "PowerSetID": 1817,
       "StaticIndex": 7990,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Soulbound_Allegiance_C.Crafted_Soulbound_Allegiance_C",

@@ -4,17 +4,17 @@
   "FullName": "Mastermind_Pets.Thug_Lt",
   "ImageName": "",
   "Power": [
-    6053,
-    6054,
-    6055,
-    6056,
-    6057,
-    6058
+    6062,
+    6063,
+    6064,
+    6065,
+    6066,
+    6067
   ],
   "SetType": 8,
   "DisplayName": "Thug Lieutenant",
   "nArchetype": -1,
-  "nID": 2994,
+  "nID": 3004,
   "SubName": "Thugs",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -26,8 +26,8 @@
   "GroupName": "Mastermind_Pets",
   "Powers": [
     {
-      "PowerIndex": 6053,
-      "PowerSetID": 2994,
+      "PowerIndex": 6062,
+      "PowerSetID": 3004,
       "StaticIndex": 1361,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Thug_Lt.Resistance",
@@ -136,8 +136,8 @@
     {
       "CastTimeReal": 0.67,
       "ToggleCost": 4.368,
-      "PowerIndex": 6054,
-      "PowerSetID": 2994,
+      "PowerIndex": 6063,
+      "PowerSetID": 3004,
       "PowerSetIndex": 1,
       "StaticIndex": 1362,
       "NGroupMembership": [],
@@ -316,8 +316,8 @@
     {
       "CastTimeReal": 2.2,
       "ToggleCost": 4.368,
-      "PowerIndex": 6055,
-      "PowerSetID": 2994,
+      "PowerIndex": 6064,
+      "PowerSetID": 3004,
       "PowerSetIndex": 2,
       "StaticIndex": 1363,
       "NGroupMembership": [],
@@ -564,8 +564,8 @@
     {
       "CastTimeReal": 2.67,
       "ToggleCost": 6.864,
-      "PowerIndex": 6056,
-      "PowerSetID": 2994,
+      "PowerIndex": 6065,
+      "PowerSetID": 3004,
       "PowerSetIndex": 3,
       "StaticIndex": 1364,
       "NGroupMembership": [],
@@ -811,8 +811,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 6057,
-      "PowerSetID": 2994,
+      "PowerIndex": 6066,
+      "PowerSetID": 3004,
       "PowerSetIndex": 4,
       "StaticIndex": 1365,
       "NGroupMembership": [],
@@ -1448,8 +1448,8 @@
       "AoEModifier": 5.5
     },
     {
-      "PowerIndex": 6058,
-      "PowerSetID": 2994,
+      "PowerIndex": 6067,
+      "PowerSetID": 3004,
       "PowerSetIndex": 5,
       "StaticIndex": 1366,
       "NGroupMembership": [],

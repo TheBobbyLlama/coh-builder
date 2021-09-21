@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Hold_40",
   "ImageName": "",
   "Power": [
-    1649
+    1655
   ],
   "SetType": 10,
   "DisplayName": "Crafted Hold 40",
   "nArchetype": -1,
-  "nID": 1403,
+  "nID": 1409,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1649,
-      "PowerSetID": 1403,
+      "PowerIndex": 1655,
+      "PowerSetID": 1409,
       "StaticIndex": 7594,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Hold_40.Crafted_Hold_40",

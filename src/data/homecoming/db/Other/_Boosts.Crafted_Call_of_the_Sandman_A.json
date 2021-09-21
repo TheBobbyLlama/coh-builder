@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Call_of_the_Sandman_A",
   "ImageName": "",
   "Power": [
-    1289
+    1295
   ],
   "SetType": 10,
   "DisplayName": "Crafted Call of the Sandman A",
   "nArchetype": -1,
-  "nID": 1043,
+  "nID": 1049,
   "SubName": "Set: Call of the Sandman",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1289,
-      "PowerSetID": 1043,
+      "PowerIndex": 1295,
+      "PowerSetID": 1049,
       "StaticIndex": 7234,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Call_of_the_Sandman_A.Crafted_Call_of_the_Sandman_A",

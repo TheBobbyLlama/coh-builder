@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Unbreakable_Guard_C",
   "ImageName": "",
   "Power": [
-    2205
+    2211
   ],
   "SetType": 10,
   "DisplayName": "Crafted Unbreakable Guard C",
   "nArchetype": -1,
-  "nID": 1957,
+  "nID": 1963,
   "SubName": "Set: Unbreakable Guard",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2205,
-      "PowerSetID": 1957,
+      "PowerIndex": 2211,
+      "PowerSetID": 1963,
       "StaticIndex": 9316,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Unbreakable_Guard_C.Crafted_Unbreakable_Guard_C",

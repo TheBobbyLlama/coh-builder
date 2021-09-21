@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Defense_DeBuff",
   "ImageName": "",
   "Power": [
-    2462
+    2468
   ],
   "SetType": 10,
   "DisplayName": "Science Defense DeBuff",
   "nArchetype": -1,
-  "nID": 2216,
+  "nID": 2222,
   "SubName": "Experiment (Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2462,
-      "PowerSetID": 2216,
+      "PowerIndex": 2468,
+      "PowerSetID": 2222,
       "StaticIndex": 8387,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Defense_DeBuff.Science_Defense_DeBuff",

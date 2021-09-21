@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Ragnarok_F",
   "ImageName": "",
   "Power": [
-    1897
+    1903
   ],
   "SetType": 10,
   "DisplayName": "Crafted Ragnarok F",
   "nArchetype": -1,
-  "nID": 1650,
+  "nID": 1656,
   "SubName": "Set: Ragnarok",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1897,
-      "PowerSetID": 1650,
+      "PowerIndex": 1903,
+      "PowerSetID": 1656,
       "StaticIndex": 7835,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Ragnarok_F.Crafted_Ragnarok_F",

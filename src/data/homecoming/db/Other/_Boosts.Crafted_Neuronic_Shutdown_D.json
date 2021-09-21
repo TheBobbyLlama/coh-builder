@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Neuronic_Shutdown_D",
   "ImageName": "",
   "Power": [
-    1813
+    1819
   ],
   "SetType": 10,
   "DisplayName": "Crafted Neuronic Shutdown D",
   "nArchetype": -1,
-  "nID": 1567,
+  "nID": 1573,
   "SubName": "Set: Neuronic Shutdown",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1813,
-      "PowerSetID": 1567,
+      "PowerIndex": 1819,
+      "PowerSetID": 1573,
       "StaticIndex": 7758,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Neuronic_Shutdown_D.Crafted_Neuronic_Shutdown_D",

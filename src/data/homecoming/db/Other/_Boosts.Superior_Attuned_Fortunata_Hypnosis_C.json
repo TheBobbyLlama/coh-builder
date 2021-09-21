@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Fortunata_Hypnosis_C",
   "ImageName": "",
   "Power": [
-    2557
+    2563
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Fortunata Hypnosis C",
   "nArchetype": -1,
-  "nID": 2312,
+  "nID": 2318,
   "SubName": "Set: Fortunata Hypnosis",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2557,
-      "PowerSetID": 2312,
+      "PowerIndex": 2563,
+      "PowerSetID": 2318,
       "StaticIndex": 8464,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Fortunata_Hypnosis_C.Superior_Attuned_Fortunata_Hypnosis_C",

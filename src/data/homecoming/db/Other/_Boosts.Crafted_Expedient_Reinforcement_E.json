@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Expedient_Reinforcement_E",
   "ImageName": "",
   "Power": [
-    1494
+    1500
   ],
   "SetType": 10,
   "DisplayName": "Crafted Expedient Reinforcement E",
   "nArchetype": -1,
-  "nID": 1248,
+  "nID": 1254,
   "SubName": "Set: Expedient Reinforcement",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1494,
-      "PowerSetID": 1248,
+      "PowerIndex": 1500,
+      "PowerSetID": 1254,
       "StaticIndex": 7439,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Expedient_Reinforcement_E.Crafted_Expedient_Reinforcement_E",

@@ -4,16 +4,16 @@
   "FullName": "Epic.Blaster_Mace_Mastery",
   "ImageName": "PatronShield.png",
   "Power": [
-    4083,
-    4084,
-    4085,
-    4086,
-    4087
+    4092,
+    4093,
+    4094,
+    4095,
+    4096
   ],
   "SetType": 3,
   "DisplayName": "Mace Mastery",
   "nArchetype": -1,
-  "nID": 2765,
+  "nID": 2777,
   "SubName": "Mace Mastery",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
     {
       "CastTimeReal": 2.0,
       "ToggleCost": 12.74,
-      "PowerIndex": 4083,
-      "PowerSetID": 2765,
+      "PowerIndex": 4092,
+      "PowerSetID": 2777,
       "StaticIndex": 4346,
       "NGroupMembership": [],
       "FullName": "Epic.Blaster_Mace_Mastery.Web_Envelope",
@@ -520,8 +520,8 @@
     {
       "CastTimeReal": 2.0,
       "ToggleCost": 0.325,
-      "PowerIndex": 4084,
-      "PowerSetID": 2765,
+      "PowerIndex": 4093,
+      "PowerSetID": 2777,
       "PowerSetIndex": 1,
       "StaticIndex": 4347,
       "NGroupMembership": [],
@@ -1709,14 +1709,16 @@
       "FullSetName": "Epic.Blaster_Mace_Mastery",
       "CastTime": 2.0,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 2.0,
       "ToggleCost": 18.98,
       "IsEpic": true,
-      "PowerIndex": 4085,
-      "PowerSetID": 2765,
+      "PowerIndex": 4094,
+      "PowerSetID": 2777,
       "PowerSetIndex": 2,
       "StaticIndex": 4348,
       "NGroupMembership": [],
@@ -1732,11 +1734,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4083,
+            4092,
             -1
           ],
           [
-            4084,
+            4093,
             -1
           ]
         ],
@@ -2161,8 +2163,8 @@
       "CastTimeReal": 3.03,
       "ToggleCost": 26.0,
       "IsEpic": true,
-      "PowerIndex": 4086,
-      "PowerSetID": 2765,
+      "PowerIndex": 4095,
+      "PowerSetID": 2777,
       "PowerSetIndex": 3,
       "StaticIndex": 4539,
       "NGroupMembership": [],
@@ -2178,11 +2180,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4083,
+            4092,
             -1
           ],
           [
-            4084,
+            4093,
             -1
           ]
         ],
@@ -2427,8 +2429,8 @@
       "CastTimeReal": 2.0,
       "ToggleCost": 10.66,
       "IsEpic": true,
-      "PowerIndex": 4087,
-      "PowerSetID": 2765,
+      "PowerIndex": 4096,
+      "PowerSetID": 2777,
       "PowerSetIndex": 4,
       "StaticIndex": 4350,
       "NGroupMembership": [],
@@ -2444,16 +2446,16 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4083,
-            4084
+            4092,
+            4093
           ],
           [
-            4083,
-            4085
+            4092,
+            4094
           ],
           [
-            4084,
-            4085
+            4093,
+            4094
           ]
         ],
         "NPowerIDNot": [],

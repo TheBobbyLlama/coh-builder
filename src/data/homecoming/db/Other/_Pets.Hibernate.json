@@ -4,12 +4,12 @@
   "FullName": "Pets.Hibernate",
   "ImageName": "",
   "Power": [
-    6348
+    6357
   ],
   "SetType": 8,
   "DisplayName": "Hibernate",
   "nArchetype": -1,
-  "nID": 3098,
+  "nID": 3110,
   "SubName": "Ice Armor",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6348,
-      "PowerSetID": 3098,
+      "PowerIndex": 6357,
+      "PowerSetID": 3110,
       "StaticIndex": 1608,
       "NGroupMembership": [],
       "FullName": "Pets.Hibernate.Glacier",

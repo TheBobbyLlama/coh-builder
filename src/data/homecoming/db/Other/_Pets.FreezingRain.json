@@ -4,13 +4,13 @@
   "FullName": "Pets.FreezingRain",
   "ImageName": "",
   "Power": [
-    6330,
-    6331
+    6339,
+    6340
   ],
   "SetType": 8,
   "DisplayName": "Freezing Rain",
   "nArchetype": -1,
-  "nID": 3090,
+  "nID": 3101,
   "SubName": "Storm Summoning",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -22,8 +22,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6330,
-      "PowerSetID": 3090,
+      "PowerIndex": 6339,
+      "PowerSetID": 3101,
       "StaticIndex": 1597,
       "NGroupMembership": [],
       "FullName": "Pets.FreezingRain.FreezingRain",
@@ -1938,8 +1938,8 @@
       "AoEModifier": 4.0
     },
     {
-      "PowerIndex": 6331,
-      "PowerSetID": 3090,
+      "PowerIndex": 6340,
+      "PowerSetID": 3101,
       "PowerSetIndex": 1,
       "StaticIndex": 1598,
       "NGroupMembership": [],

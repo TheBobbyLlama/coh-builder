@@ -4,12 +4,12 @@
   "FullName": "Mastermind_Pets.Thug_Arsonist_3",
   "ImageName": "",
   "Power": [
-    6040
+    6049
   ],
   "SetType": 8,
   "DisplayName": "Arsonist",
   "nArchetype": -1,
-  "nID": 2920,
+  "nID": 2932,
   "SubName": "Thugs",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
     {
       "CastTimeReal": 1.37,
       "ToggleCost": 7.8,
-      "PowerIndex": 6040,
-      "PowerSetID": 2920,
+      "PowerIndex": 6049,
+      "PowerSetID": 2932,
       "StaticIndex": 1330,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Thug_Arsonist_3.Fire_Bomb",

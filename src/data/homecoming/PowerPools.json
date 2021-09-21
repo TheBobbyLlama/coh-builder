@@ -270,7 +270,8 @@
 	},
 	{
 		"DisplayName": "Psionic Mastery",
-		"FileName": "Psionic_Mastery_Dominator",
+		"FileName": "Psionic_Mastery_Domingator",
+		"Comment": "Yes, that typo is supposed to be there...",
 		"GroupName": "Epic"
 	},
 	{

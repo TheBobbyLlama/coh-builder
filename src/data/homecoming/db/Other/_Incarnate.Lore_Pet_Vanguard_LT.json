@@ -4,14 +4,14 @@
   "FullName": "Incarnate.Lore_Pet_Vanguard_LT",
   "ImageName": "",
   "Power": [
-    5443,
-    5444,
-    5445
+    5452,
+    5453,
+    5454
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Vanguard_LT",
   "nArchetype": -1,
-  "nID": 2879,
+  "nID": 2890,
   "SubName": "Vanguard",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "Powers": [
     {
       "CastTimeReal": 1.17,
-      "PowerIndex": 5443,
-      "PowerSetID": 2879,
+      "PowerIndex": 5452,
+      "PowerSetID": 2890,
       "StaticIndex": 5569,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Vanguard_LT.Bayonet",
@@ -374,8 +374,8 @@
     },
     {
       "CastTimeReal": 2.2,
-      "PowerIndex": 5444,
-      "PowerSetID": 2879,
+      "PowerIndex": 5453,
+      "PowerSetID": 2890,
       "PowerSetIndex": 1,
       "StaticIndex": 5570,
       "NGroupMembership": [],
@@ -617,8 +617,8 @@
     },
     {
       "CastTimeReal": 1.87,
-      "PowerIndex": 5445,
-      "PowerSetID": 2879,
+      "PowerIndex": 5454,
+      "PowerSetID": 2890,
       "PowerSetIndex": 2,
       "StaticIndex": 5571,
       "NGroupMembership": [],

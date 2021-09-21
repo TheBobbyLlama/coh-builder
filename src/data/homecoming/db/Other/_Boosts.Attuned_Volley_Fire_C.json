@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Volley_Fire_C",
   "ImageName": "",
   "Power": [
-    1160
+    1166
   ],
   "SetType": 10,
   "DisplayName": "Attuned Volley Fire C",
   "nArchetype": -1,
-  "nID": 915,
+  "nID": 921,
   "SubName": "Set: Volley Fire",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1160,
-      "PowerSetID": 915,
+      "PowerIndex": 1166,
+      "PowerSetID": 921,
       "StaticIndex": 7118,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Volley_Fire_C.Attuned_Volley_Fire_C",

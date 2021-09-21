@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Defense_DeBuff_30",
   "ImageName": "",
   "Power": [
-    1404
+    1410
   ],
   "SetType": 10,
   "DisplayName": "Crafted Defense DeBuff 30",
   "nArchetype": -1,
-  "nID": 1158,
+  "nID": 1164,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1404,
-      "PowerSetID": 1158,
+      "PowerIndex": 1410,
+      "PowerSetID": 1164,
       "StaticIndex": 7349,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Defense_DeBuff_30.Crafted_Defense_DeBuff_30",

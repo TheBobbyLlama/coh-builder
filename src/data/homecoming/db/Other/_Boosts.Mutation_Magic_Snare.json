@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Magic_Snare",
   "ImageName": "",
   "Power": [
-    2357
+    2363
   ],
   "SetType": 10,
   "DisplayName": "Mutation Magic Snare",
   "nArchetype": -1,
-  "nID": 2112,
+  "nID": 2118,
   "SubName": "Focusing Device (Mutation, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2357,
-      "PowerSetID": 2112,
+      "PowerIndex": 2363,
+      "PowerSetID": 2118,
       "StaticIndex": 8282,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Magic_Snare.Mutation_Magic_Snare",

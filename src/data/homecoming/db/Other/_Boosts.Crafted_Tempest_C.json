@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Tempest_C",
   "ImageName": "",
   "Power": [
-    2120
+    2126
   ],
   "SetType": 10,
   "DisplayName": "Crafted Tempest C",
   "nArchetype": -1,
-  "nID": 1872,
+  "nID": 1878,
   "SubName": "Set: Tempest",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2120,
-      "PowerSetID": 1872,
+      "PowerIndex": 2126,
+      "PowerSetID": 1878,
       "StaticIndex": 8051,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Tempest_C.Crafted_Tempest_C",

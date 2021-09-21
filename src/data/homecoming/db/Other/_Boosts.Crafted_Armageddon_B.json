@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Armageddon_B",
   "ImageName": "",
   "Power": [
-    1239
+    1245
   ],
   "SetType": 10,
   "DisplayName": "Crafted Armageddon B",
   "nArchetype": -1,
-  "nID": 994,
+  "nID": 1000,
   "SubName": "Set: Armageddon",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1239,
-      "PowerSetID": 994,
+      "PowerIndex": 1245,
+      "PowerSetID": 1000,
       "StaticIndex": 7185,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Armageddon_B.Crafted_Armageddon_B",

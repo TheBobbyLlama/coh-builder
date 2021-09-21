@@ -4,13 +4,13 @@
   "FullName": "Mastermind_Pets.Protector_3",
   "ImageName": "",
   "Power": [
-    5996,
-    5997
+    6005,
+    6006
   ],
   "SetType": 8,
   "DisplayName": "Protector",
   "nArchetype": -1,
-  "nID": 2977,
+  "nID": 2988,
   "SubName": "",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
     {
       "CastTimeReal": 2.0,
       "ToggleCost": 15.184,
-      "PowerIndex": 5996,
-      "PowerSetID": 2977,
+      "PowerIndex": 6005,
+      "PowerSetID": 2988,
       "StaticIndex": 1272,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Protector_3.Photon_Grenade",
@@ -432,8 +432,8 @@
     {
       "CastTimeReal": 2.67,
       "ToggleCost": 13.0,
-      "PowerIndex": 5997,
-      "PowerSetID": 2977,
+      "PowerIndex": 6006,
+      "PowerSetID": 2988,
       "PowerSetIndex": 1,
       "StaticIndex": 1273,
       "NGroupMembership": [],

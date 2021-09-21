@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Magic_Defense_Buff",
   "ImageName": "",
   "Power": [
-    2338
+    2344
   ],
   "SetType": 10,
   "DisplayName": "Mutation Magic Defense Buff",
   "nArchetype": -1,
-  "nID": 2092,
+  "nID": 2098,
   "SubName": "Focusing Device (Mutation, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2338,
-      "PowerSetID": 2092,
+      "PowerIndex": 2344,
+      "PowerSetID": 2098,
       "StaticIndex": 8263,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Magic_Defense_Buff.Mutation_Magic_Defense_Buff",

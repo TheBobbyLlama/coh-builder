@@ -4,19 +4,19 @@
   "FullName": "Villain_Pets.Arachnobot_Blaster",
   "ImageName": "",
   "Power": [
-    10028,
-    10029,
-    10030,
-    10031,
-    10032,
-    10033,
-    10034,
-    10035
+    10044,
+    10045,
+    10046,
+    10047,
+    10048,
+    10049,
+    10050,
+    10051
   ],
   "SetType": 8,
   "DisplayName": "Arachnobot Blaster",
   "nArchetype": -1,
-  "nID": 3451,
+  "nID": 3465,
   "SubName": "Mace Mastery",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -30,8 +30,8 @@
     {
       "CastTimeReal": 1.7,
       "ToggleCost": 6.5,
-      "PowerIndex": 10028,
-      "PowerSetID": 3451,
+      "PowerIndex": 10044,
+      "PowerSetID": 3465,
       "StaticIndex": 3006,
       "NGroupMembership": [],
       "FullName": "Villain_Pets.Arachnobot_Blaster.Energy_Pulse",
@@ -275,8 +275,8 @@
     {
       "CastTimeReal": 0.67,
       "ToggleCost": 5.46,
-      "PowerIndex": 10029,
-      "PowerSetID": 3451,
+      "PowerIndex": 10045,
+      "PowerSetID": 3465,
       "PowerSetIndex": 1,
       "StaticIndex": 3007,
       "NGroupMembership": [],
@@ -398,8 +398,8 @@
     {
       "CastTimeReal": 1.53,
       "ToggleCost": 8.58,
-      "PowerIndex": 10030,
-      "PowerSetID": 3451,
+      "PowerIndex": 10046,
+      "PowerSetID": 3465,
       "PowerSetIndex": 2,
       "StaticIndex": 3008,
       "NGroupMembership": [],
@@ -637,8 +637,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 10031,
-      "PowerSetID": 3451,
+      "PowerIndex": 10047,
+      "PowerSetID": 3465,
       "PowerSetIndex": 3,
       "StaticIndex": 3009,
       "NGroupMembership": [],
@@ -916,8 +916,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 10032,
-      "PowerSetID": 3451,
+      "PowerIndex": 10048,
+      "PowerSetID": 3465,
       "PowerSetIndex": 4,
       "StaticIndex": 3010,
       "NGroupMembership": [],
@@ -1192,8 +1192,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 10033,
-      "PowerSetID": 3451,
+      "PowerIndex": 10049,
+      "PowerSetID": 3465,
       "PowerSetIndex": 5,
       "StaticIndex": 3011,
       "NGroupMembership": [],
@@ -1299,8 +1299,8 @@
     {
       "CastTimeReal": 1.7,
       "ToggleCost": 12.74,
-      "PowerIndex": 10034,
-      "PowerSetID": 3451,
+      "PowerIndex": 10050,
+      "PowerSetID": 3465,
       "PowerSetIndex": 6,
       "StaticIndex": 3012,
       "NGroupMembership": [],
@@ -1428,8 +1428,8 @@
     {
       "CastTimeReal": 1.17,
       "ToggleCost": 13.0,
-      "PowerIndex": 10035,
-      "PowerSetID": 3451,
+      "PowerIndex": 10051,
+      "PowerSetID": 3465,
       "PowerSetIndex": 7,
       "StaticIndex": 3013,
       "NGroupMembership": [],

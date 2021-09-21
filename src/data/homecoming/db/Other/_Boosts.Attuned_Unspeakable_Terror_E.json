@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Unspeakable_Terror_E",
   "ImageName": "",
   "Power": [
-    1150
+    1156
   ],
   "SetType": 10,
   "DisplayName": "Attuned Unspeakable Terror E",
   "nArchetype": -1,
-  "nID": 905,
+  "nID": 911,
   "SubName": "Set: Unspeakable Terror",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1150,
-      "PowerSetID": 905,
+      "PowerIndex": 1156,
+      "PowerSetID": 911,
       "StaticIndex": 7114,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Unspeakable_Terror_E.Attuned_Unspeakable_Terror_E",

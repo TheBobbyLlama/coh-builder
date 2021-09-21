@@ -4,20 +4,20 @@
   "FullName": "Controller_Buff.Darkness_Affinity",
   "ImageName": "DarknessAffinity.png",
   "Power": [
-    3163,
-    3164,
-    3165,
-    3166,
-    3167,
-    3168,
-    3169,
-    3170,
-    3171
+    3172,
+    3173,
+    3174,
+    3175,
+    3176,
+    3177,
+    3178,
+    3179,
+    3180
   ],
   "SetType": 2,
   "DisplayName": "Darkness Affinity",
   "nArchetype": 1,
-  "nID": 2622,
+  "nID": 2633,
   "SubName": "Darkness Affinity",
   "ATClass": "Class_Controller",
   "UIDTrunkSet": "",
@@ -31,8 +31,8 @@
     {
       "CastTimeReal": 2.37,
       "ToggleCost": 7.8,
-      "PowerIndex": 3163,
-      "PowerSetID": 2622,
+      "PowerIndex": 3172,
+      "PowerSetID": 2633,
       "StaticIndex": 6112,
       "NGroupMembership": [],
       "FullName": "Controller_Buff.Darkness_Affinity.Twilight_Grasp",
@@ -817,13 +817,15 @@
       "FullSetName": "Controller_Buff.Darkness_Affinity",
       "CastTime": 2.37,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 3.1,
       "ToggleCost": 7.8,
-      "PowerIndex": 3164,
-      "PowerSetID": 2622,
+      "PowerIndex": 3173,
+      "PowerSetID": 2633,
       "PowerSetIndex": 1,
       "StaticIndex": 6113,
       "NGroupMembership": [],
@@ -893,6 +895,7 @@
           "MagPercent": -100.0,
           "Duration": 45.0,
           "DisplayPercentage": true,
+          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Ones",
@@ -948,13 +951,14 @@
       "FullSetName": "Controller_Buff.Darkness_Affinity",
       "CastTime": 3.1,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 3.17,
       "ToggleCost": 0.52,
-      "PowerIndex": 3165,
-      "PowerSetID": 2622,
+      "PowerIndex": 3174,
+      "PowerSetID": 2633,
       "PowerSetIndex": 2,
       "StaticIndex": 6114,
       "NGroupMembership": [],
@@ -1544,13 +1548,14 @@
       "FullSetName": "Controller_Buff.Darkness_Affinity",
       "CastTime": 3.17,
       "Slottable": true,
-      "AoEModifier": 4.75
+      "AoEModifier": 4.75,
+      "Taken": true
     },
     {
       "CastTimeReal": 3.17,
       "ToggleCost": 26.0,
-      "PowerIndex": 3166,
-      "PowerSetID": 2622,
+      "PowerIndex": 3175,
+      "PowerSetID": 2633,
       "PowerSetIndex": 3,
       "StaticIndex": 6115,
       "NGroupMembership": [],
@@ -2333,13 +2338,14 @@
       "FullSetName": "Controller_Buff.Darkness_Affinity",
       "CastTime": 3.17,
       "Slottable": true,
-      "AoEModifier": 3.25
+      "AoEModifier": 3.25,
+      "Taken": true
     },
     {
       "CastTimeReal": 2.03,
       "ToggleCost": 0.52,
-      "PowerIndex": 3167,
-      "PowerSetID": 2622,
+      "PowerIndex": 3176,
+      "PowerSetID": 2633,
       "PowerSetIndex": 4,
       "StaticIndex": 6116,
       "NGroupMembership": [
@@ -3523,13 +3529,15 @@
       "FullSetName": "Controller_Buff.Darkness_Affinity",
       "CastTime": 2.03,
       "Slottable": true,
-      "AoEModifier": 7.0
+      "AoEModifier": 7.0,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 2.03,
       "ToggleCost": 7.8,
-      "PowerIndex": 3168,
-      "PowerSetID": 2622,
+      "PowerIndex": 3177,
+      "PowerSetID": 2633,
       "PowerSetIndex": 5,
       "StaticIndex": 6117,
       "NGroupMembership": [],
@@ -4459,12 +4467,14 @@
       "FullSetName": "Controller_Buff.Darkness_Affinity",
       "CastTime": 2.03,
       "Slottable": true,
-      "AoEModifier": 7.0
+      "AoEModifier": 7.0,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 3.0,
-      "PowerIndex": 3169,
-      "PowerSetID": 2622,
+      "PowerIndex": 3178,
+      "PowerSetID": 2633,
       "PowerSetIndex": 6,
       "StaticIndex": 6118,
       "NGroupMembership": [],
@@ -4656,13 +4666,15 @@
       "FullSetName": "Controller_Buff.Darkness_Affinity",
       "CastTime": 3.0,
       "Slottable": true,
-      "AoEModifier": 4.0
+      "AoEModifier": 4.0,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.03,
       "ToggleCost": 13.0,
-      "PowerIndex": 3170,
-      "PowerSetID": 2622,
+      "PowerIndex": 3179,
+      "PowerSetID": 2633,
       "PowerSetIndex": 7,
       "StaticIndex": 6119,
       "NGroupMembership": [],
@@ -5330,8 +5342,8 @@
     {
       "CastTimeReal": 3.17,
       "ToggleCost": 26.0,
-      "PowerIndex": 3171,
-      "PowerSetID": 2622,
+      "PowerIndex": 3180,
+      "PowerSetID": 2633,
       "PowerSetIndex": 8,
       "StaticIndex": 6120,
       "NGroupMembership": [],

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Apocalypse_F",
   "ImageName": "",
   "Power": [
-    2524
+    2530
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Apocalypse F",
   "nArchetype": -1,
-  "nID": 2279,
+  "nID": 2285,
   "SubName": "Set: Apocalypse",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2524,
-      "PowerSetID": 2279,
+      "PowerIndex": 2530,
+      "PowerSetID": 2285,
       "StaticIndex": 8449,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Apocalypse_F.Superior_Attuned_Apocalypse_F",

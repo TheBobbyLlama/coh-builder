@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Glimpse_of_the_Abyss_B",
   "ImageName": "",
   "Power": [
-    1604
+    1610
   ],
   "SetType": 10,
   "DisplayName": "Crafted Glimpse of the Abyss B",
   "nArchetype": -1,
-  "nID": 1358,
+  "nID": 1364,
   "SubName": "Set: Glimpse of the Abyss",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1604,
-      "PowerSetID": 1358,
+      "PowerIndex": 1610,
+      "PowerSetID": 1364,
       "StaticIndex": 7549,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Glimpse_of_the_Abyss_B.Crafted_Glimpse_of_the_Abyss_B",

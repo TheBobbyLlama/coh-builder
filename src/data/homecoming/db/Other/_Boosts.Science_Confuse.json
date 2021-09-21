@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Confuse",
   "ImageName": "",
   "Power": [
-    2459
+    2465
   ],
   "SetType": 10,
   "DisplayName": "Science Confuse",
   "nArchetype": -1,
-  "nID": 2213,
+  "nID": 2219,
   "SubName": "Experiment (Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2459,
-      "PowerSetID": 2213,
+      "PowerIndex": 2465,
+      "PowerSetID": 2219,
       "StaticIndex": 8384,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Confuse.Science_Confuse",

@@ -4,18 +4,18 @@
   "FullName": "Incarnate.Lore_Pet_Generic",
   "ImageName": "",
   "Power": [
-    5336,
-    5337,
-    5338,
-    5339,
-    5340,
-    5341,
-    5342
+    5345,
+    5346,
+    5347,
+    5348,
+    5349,
+    5350,
+    5351
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Generic",
   "nArchetype": -1,
-  "nID": 2839,
+  "nID": 2850,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
   "GroupName": "Incarnate",
   "Powers": [
     {
-      "PowerIndex": 5336,
-      "PowerSetID": 2839,
+      "PowerIndex": 5345,
+      "PowerSetID": 2850,
       "StaticIndex": 4656,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Generic.Lore_Evasion",
@@ -584,8 +584,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5337,
-      "PowerSetID": 2839,
+      "PowerIndex": 5346,
+      "PowerSetID": 2850,
       "PowerSetIndex": 1,
       "StaticIndex": 5513,
       "NGroupMembership": [],
@@ -688,8 +688,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5338,
-      "PowerSetID": 2839,
+      "PowerIndex": 5347,
+      "PowerSetID": 2850,
       "PowerSetIndex": 2,
       "StaticIndex": 5202,
       "NGroupMembership": [],
@@ -966,8 +966,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5339,
-      "PowerSetID": 2839,
+      "PowerIndex": 5348,
+      "PowerSetID": 2850,
       "PowerSetIndex": 3,
       "StaticIndex": 8963,
       "NGroupMembership": [],
@@ -1473,8 +1473,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5340,
-      "PowerSetID": 2839,
+      "PowerIndex": 5349,
+      "PowerSetID": 2850,
       "PowerSetIndex": 4,
       "StaticIndex": 4658,
       "NGroupMembership": [],
@@ -1980,8 +1980,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5341,
-      "PowerSetID": 2839,
+      "PowerIndex": 5350,
+      "PowerSetID": 2850,
       "PowerSetIndex": 5,
       "StaticIndex": 4657,
       "NGroupMembership": [],
@@ -2143,8 +2143,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5342,
-      "PowerSetID": 2839,
+      "PowerIndex": 5351,
+      "PowerSetID": 2850,
       "PowerSetIndex": 6,
       "StaticIndex": 5203,
       "NGroupMembership": [],

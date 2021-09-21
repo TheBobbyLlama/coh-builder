@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Force_Feedback_C",
   "ImageName": "",
   "Power": [
-    1542
+    1548
   ],
   "SetType": 10,
   "DisplayName": "Crafted Force Feedback C",
   "nArchetype": -1,
-  "nID": 1296,
+  "nID": 1302,
   "SubName": "Set: Force Feedback",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1542,
-      "PowerSetID": 1296,
+      "PowerIndex": 1548,
+      "PowerSetID": 1302,
       "StaticIndex": 7487,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Force_Feedback_C.Crafted_Force_Feedback_C",

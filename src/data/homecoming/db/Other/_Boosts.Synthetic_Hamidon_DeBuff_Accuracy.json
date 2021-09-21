@@ -4,12 +4,12 @@
   "FullName": "Boosts.Synthetic_Hamidon_DeBuff_Accuracy",
   "ImageName": "",
   "Power": [
-    2753
+    2765
   ],
   "SetType": 10,
   "DisplayName": "Synthetic Hamidon DeBuff Accuracy",
   "nArchetype": -1,
-  "nID": 2508,
+  "nID": 2520,
   "SubName": "Hamidon (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2753,
-      "PowerSetID": 2508,
+      "PowerIndex": 2765,
+      "PowerSetID": 2520,
       "StaticIndex": 8576,
       "NGroupMembership": [],
       "FullName": "Boosts.Synthetic_Hamidon_DeBuff_Accuracy.Synthetic_Hamidon_DeBuff_Accuracy",

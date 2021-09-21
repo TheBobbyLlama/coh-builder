@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Springfoot_A",
   "ImageName": "",
   "Power": [
-    2068
+    2074
   ],
   "SetType": 10,
   "DisplayName": "Crafted Springfoot A",
   "nArchetype": -1,
-  "nID": 1821,
+  "nID": 1827,
   "SubName": "Set: Springfoot",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2068,
-      "PowerSetID": 1821,
+      "PowerIndex": 2074,
+      "PowerSetID": 1827,
       "StaticIndex": 8000,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Springfoot_A.Crafted_Springfoot_A",

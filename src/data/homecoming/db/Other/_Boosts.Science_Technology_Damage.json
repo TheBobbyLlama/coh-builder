@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Technology_Damage",
   "ImageName": "",
   "Power": [
-    2486
+    2492
   ],
   "SetType": 10,
   "DisplayName": "Science Technology Damage",
   "nArchetype": -1,
-  "nID": 2240,
+  "nID": 2246,
   "SubName": "Invention (Science, Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2486,
-      "PowerSetID": 2240,
+      "PowerIndex": 2492,
+      "PowerSetID": 2246,
       "StaticIndex": 8411,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Technology_Damage.Science_Technology_Damage",

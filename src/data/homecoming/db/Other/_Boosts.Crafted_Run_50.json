@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Run_50",
   "ImageName": "",
   "Power": [
-    1995
+    2001
   ],
   "SetType": 10,
   "DisplayName": "Crafted Run 50",
   "nArchetype": -1,
-  "nID": 1748,
+  "nID": 1754,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1995,
-      "PowerSetID": 1748,
+      "PowerIndex": 2001,
+      "PowerSetID": 1754,
       "StaticIndex": 7927,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Run_50.Crafted_Run_50",

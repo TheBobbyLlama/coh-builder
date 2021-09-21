@@ -4,13 +4,13 @@
   "FullName": "Pets.Tanker_Savage_Melee",
   "ImageName": "",
   "Power": [
-    6544,
-    6545
+    6564,
+    6565
   ],
   "SetType": 8,
   "DisplayName": "Savage Melee",
   "nArchetype": -1,
-  "nID": 3193,
+  "nID": 3207,
   "SubName": "Savage Melee",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
     {
       "CastTimeReal": 2.17,
       "ToggleCost": 13.52,
-      "PowerIndex": 6544,
-      "PowerSetID": 3193,
+      "PowerIndex": 6564,
+      "PowerSetID": 3207,
       "StaticIndex": 10636,
       "NGroupMembership": [],
       "FullName": "Pets.Tanker_Savage_Melee.Rending_Flurry_Normal",
@@ -683,8 +683,8 @@
     {
       "CastTimeReal": 2.17,
       "ToggleCost": 13.52,
-      "PowerIndex": 6545,
-      "PowerSetID": 3193,
+      "PowerIndex": 6565,
+      "PowerSetID": 3207,
       "PowerSetIndex": 1,
       "StaticIndex": 10637,
       "NGroupMembership": [],
@@ -1053,7 +1053,7 @@
           "nID": 5,
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.Savage_Melee_Exhausted",
-          "nSummon": 9867,
+          "nSummon": 9883,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,

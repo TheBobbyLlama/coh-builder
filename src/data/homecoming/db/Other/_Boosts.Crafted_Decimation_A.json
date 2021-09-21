@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Decimation_A",
   "ImageName": "",
   "Power": [
-    1374
+    1380
   ],
   "SetType": 10,
   "DisplayName": "Crafted Decimation A",
   "nArchetype": -1,
-  "nID": 1128,
+  "nID": 1134,
   "SubName": "Set: Decimation",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1374,
-      "PowerSetID": 1128,
+      "PowerIndex": 1380,
+      "PowerSetID": 1134,
       "StaticIndex": 7319,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Decimation_A.Crafted_Decimation_A",

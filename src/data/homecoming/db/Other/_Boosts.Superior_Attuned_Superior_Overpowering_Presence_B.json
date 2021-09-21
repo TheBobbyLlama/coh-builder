@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Superior_Overpowering_Presence_B",
   "ImageName": "",
   "Power": [
-    2688
+    2694
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Superior Overpowering Presence B",
   "nArchetype": -1,
-  "nID": 2443,
+  "nID": 2449,
   "SubName": "Set: Superior Overpowering Presence",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2688,
-      "PowerSetID": 2443,
+      "PowerIndex": 2694,
+      "PowerSetID": 2449,
       "StaticIndex": 8836,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Superior_Overpowering_Presence_B.Superior_Attuned_Superior_Overpowering_Presence_B",

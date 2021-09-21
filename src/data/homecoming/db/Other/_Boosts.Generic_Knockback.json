@@ -4,12 +4,12 @@
   "FullName": "Boosts.Generic_Knockback",
   "ImageName": "",
   "Power": [
-    2251
+    2257
   ],
   "SetType": 10,
   "DisplayName": "Generic Knockback",
   "nArchetype": -1,
-  "nID": 2006,
+  "nID": 2012,
   "SubName": "Training (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2251,
-      "PowerSetID": 2006,
+      "PowerIndex": 2257,
+      "PowerSetID": 2012,
       "StaticIndex": 8176,
       "NGroupMembership": [],
       "FullName": "Boosts.Generic_Knockback.Generic_Knockback",

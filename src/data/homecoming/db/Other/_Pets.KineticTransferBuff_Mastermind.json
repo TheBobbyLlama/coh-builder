@@ -4,12 +4,12 @@
   "FullName": "Pets.KineticTransferBuff_Mastermind",
   "ImageName": "",
   "Power": [
-    6378
+    6387
   ],
   "SetType": 8,
   "DisplayName": "Kinetic Transfer",
   "nArchetype": -1,
-  "nID": 3114,
+  "nID": 3131,
   "SubName": "",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6378,
-      "PowerSetID": 3114,
+      "PowerIndex": 6387,
+      "PowerSetID": 3131,
       "StaticIndex": 10770,
       "NGroupMembership": [],
       "FullName": "Pets.KineticTransferBuff_Mastermind.KineticTransfer",

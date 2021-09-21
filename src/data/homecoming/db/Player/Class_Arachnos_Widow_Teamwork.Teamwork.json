@@ -4,18 +4,18 @@
   "FullName": "Teamwork.Teamwork",
   "ImageName": "i12_Sec_Widow.png",
   "Power": [
-    8888,
-    8889,
-    8890,
-    8891,
-    8892,
-    8893,
-    8894
+    8903,
+    8904,
+    8905,
+    8906,
+    8907,
+    8908,
+    8909
   ],
   "SetType": 2,
   "DisplayName": "Teamwork",
   "nArchetype": 13,
-  "nID": 3417,
+  "nID": 3431,
   "SubName": "Teamwork",
   "ATClass": "Class_Arachnos_Widow",
   "UIDTrunkSet": "",
@@ -28,8 +28,8 @@
   "Powers": [
     {
       "CastTimeReal": 0.67,
-      "PowerIndex": 8888,
-      "PowerSetID": 3417,
+      "PowerIndex": 8903,
+      "PowerSetID": 3431,
       "StaticIndex": 2627,
       "NGroupMembership": [],
       "FullName": "Teamwork.Teamwork.Combat_Training:_Defensive",
@@ -461,12 +461,14 @@
       "FullSetName": "Teamwork.Teamwork",
       "CastTime": 0.67,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 0.67,
-      "PowerIndex": 8889,
-      "PowerSetID": 3417,
+      "PowerIndex": 8904,
+      "PowerSetID": 3431,
       "PowerSetIndex": 1,
       "StaticIndex": 2628,
       "NGroupMembership": [],
@@ -639,8 +641,8 @@
     {
       "CastTimeReal": 1.5,
       "ToggleCost": 0.208,
-      "PowerIndex": 8890,
-      "PowerSetID": 3417,
+      "PowerIndex": 8905,
+      "PowerSetID": 3431,
       "PowerSetIndex": 2,
       "StaticIndex": 2629,
       "NGroupMembership": [],
@@ -1900,8 +1902,8 @@
     {
       "CastTimeReal": 0.73,
       "ToggleCost": 0.208,
-      "PowerIndex": 8891,
-      "PowerSetID": 3417,
+      "PowerIndex": 8906,
+      "PowerSetID": 3431,
       "PowerSetIndex": 3,
       "StaticIndex": 2630,
       "NGroupMembership": [],
@@ -3456,8 +3458,8 @@
     {
       "CastTimeReal": 1.5,
       "ToggleCost": 0.208,
-      "PowerIndex": 8892,
-      "PowerSetID": 3417,
+      "PowerIndex": 8907,
+      "PowerSetID": 3431,
       "PowerSetIndex": 4,
       "StaticIndex": 2631,
       "NGroupMembership": [],
@@ -4105,8 +4107,8 @@
     {
       "CastTimeReal": 1.5,
       "ToggleCost": 0.208,
-      "PowerIndex": 8893,
-      "PowerSetID": 3417,
+      "PowerIndex": 8908,
+      "PowerSetID": 3431,
       "PowerSetIndex": 5,
       "StaticIndex": 2632,
       "NGroupMembership": [],
@@ -4700,8 +4702,8 @@
       "AoEModifier": 13.0
     },
     {
-      "PowerIndex": 8894,
-      "PowerSetID": 3417,
+      "PowerIndex": 8909,
+      "PowerSetID": 3431,
       "PowerSetIndex": 6,
       "StaticIndex": 2633,
       "NGroupMembership": [],

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Sleep_25",
   "ImageName": "",
   "Power": [
-    2033
+    2039
   ],
   "SetType": 10,
   "DisplayName": "Crafted Sleep 25",
   "nArchetype": -1,
-  "nID": 1786,
+  "nID": 1792,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2033,
-      "PowerSetID": 1786,
+      "PowerIndex": 2039,
+      "PowerSetID": 1792,
       "StaticIndex": 7965,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Sleep_25.Crafted_Sleep_25",

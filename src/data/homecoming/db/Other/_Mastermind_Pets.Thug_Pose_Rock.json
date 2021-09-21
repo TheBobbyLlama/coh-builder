@@ -4,12 +4,12 @@
   "FullName": "Mastermind_Pets.Thug_Pose_Rock",
   "ImageName": "",
   "Power": [
-    6082
+    6091
   ],
   "SetType": 8,
   "DisplayName": "Thug Posse",
   "nArchetype": -1,
-  "nID": 3002,
+  "nID": 3016,
   "SubName": "Thugs",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
     {
       "CastTimeReal": 3.33,
       "ToggleCost": 3.536,
-      "PowerIndex": 6082,
-      "PowerSetID": 3002,
+      "PowerIndex": 6091,
+      "PowerSetID": 3016,
       "StaticIndex": 1428,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Thug_Pose_Rock.Rock",

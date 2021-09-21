@@ -4,14 +4,14 @@
   "FullName": "Incarnate.Lore_Pet_Longbow_Boss",
   "ImageName": "",
   "Power": [
-    5368,
-    5369,
-    5370
+    5377,
+    5378,
+    5379
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Longbow_Boss",
   "nArchetype": -1,
-  "nID": 2850,
+  "nID": 2861,
   "SubName": "Longbow",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "Powers": [
     {
       "CastTimeReal": 2.67,
-      "PowerIndex": 5368,
-      "PowerSetID": 2850,
+      "PowerIndex": 5377,
+      "PowerSetID": 2861,
       "StaticIndex": 5522,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Longbow_Boss.Grenade",
@@ -321,8 +321,8 @@
     },
     {
       "CastTimeReal": 4.0,
-      "PowerIndex": 5369,
-      "PowerSetID": 2850,
+      "PowerIndex": 5378,
+      "PowerSetID": 2861,
       "PowerSetIndex": 1,
       "StaticIndex": 5524,
       "NGroupMembership": [],
@@ -623,8 +623,8 @@
     },
     {
       "CastTimeReal": 4.0,
-      "PowerIndex": 5370,
-      "PowerSetID": 2850,
+      "PowerIndex": 5379,
+      "PowerSetID": 2861,
       "PowerSetIndex": 2,
       "StaticIndex": 5523,
       "NGroupMembership": [],

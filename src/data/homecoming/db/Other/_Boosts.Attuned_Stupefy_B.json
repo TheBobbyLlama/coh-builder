@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Stupefy_B",
   "ImageName": "",
   "Power": [
-    1054
+    1060
   ],
   "SetType": 10,
   "DisplayName": "Attuned Stupefy B",
   "nArchetype": -1,
-  "nID": 809,
+  "nID": 815,
   "SubName": "Set: Stupefy",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1054,
-      "PowerSetID": 809,
+      "PowerIndex": 1060,
+      "PowerSetID": 815,
       "StaticIndex": 7030,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Stupefy_B.Attuned_Stupefy_B",

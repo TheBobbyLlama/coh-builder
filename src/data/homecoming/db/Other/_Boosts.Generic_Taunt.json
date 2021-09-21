@@ -4,12 +4,12 @@
   "FullName": "Boosts.Generic_Taunt",
   "ImageName": "",
   "Power": [
-    2263
+    2269
   ],
   "SetType": 10,
   "DisplayName": "Generic Taunt",
   "nArchetype": -1,
-  "nID": 2018,
+  "nID": 2024,
   "SubName": "Training (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2263,
-      "PowerSetID": 2018,
+      "PowerIndex": 2269,
+      "PowerSetID": 2024,
       "StaticIndex": 8188,
       "NGroupMembership": [],
       "FullName": "Boosts.Generic_Taunt.Generic_Taunt",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Superior_Dominion_of_Arachnos_A",
   "ImageName": "",
   "Power": [
-    2645
+    2651
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Superior Dominion of Arachnos A",
   "nArchetype": -1,
-  "nID": 2400,
+  "nID": 2406,
   "SubName": "Set: Superior Dominion of Arachnos",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2645,
-      "PowerSetID": 2400,
+      "PowerIndex": 2651,
+      "PowerSetID": 2406,
       "StaticIndex": 8522,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Superior_Dominion_of_Arachnos_A.Superior_Attuned_Superior_Dominion_of_Arachnos_A",

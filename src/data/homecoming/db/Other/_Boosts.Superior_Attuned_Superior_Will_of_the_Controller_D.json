@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Superior_Will_of_the_Controller_D",
   "ImageName": "",
   "Power": [
-    2732
+    2744
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Superior Will of the Controller D",
   "nArchetype": -1,
-  "nID": 2487,
+  "nID": 2499,
   "SubName": "Set: Superior Will of the Controller",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2732,
-      "PowerSetID": 2487,
+      "PowerIndex": 2744,
+      "PowerSetID": 2499,
       "StaticIndex": 8561,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Superior_Will_of_the_Controller_D.Superior_Attuned_Superior_Will_of_the_Controller_D",

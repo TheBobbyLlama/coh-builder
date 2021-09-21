@@ -109,7 +109,7 @@
           "Special": "",
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.Reach_For_The_Limit",
-          "nSummon": 9846,
+          "nSummon": 9862,
           "Stacking": 1,
           "Buffable": true,
           "UIDClassName": "",
@@ -2089,7 +2089,7 @@
       "NumAllowed": 1,
       "BoostsAllowed": [],
       "Enhancements": [],
-      "DescShort": "All Attacks: Chance for +ToHit, +DMG(All)",
+      "DescShort": "All Attacks: Chance for +To Hit, +DMG(All)",
       "DescLong": "You are constantly looking for vulnerabilities in your foes' stances and positioning.  Whenever you attack, you have a chance to gain a moderate +ToHit and +Damage bonus for a short duration.",
       "SetTypes": [],
       "Level": 4,
@@ -3776,8 +3776,7 @@
       "SetTypes": [
         9,
         13,
-        22,
-        29
+        22
       ],
       "Level": 20,
       "VariableName": "",
@@ -7576,8 +7575,7 @@
       "FullSetName": "Blaster_Support.Martial_Manipulation",
       "CastTime": 2.53,
       "Slottable": true,
-      "AoEModifier": 1.0,
-      "Taken": true
+      "AoEModifier": 1.0
     }
   ]
 }

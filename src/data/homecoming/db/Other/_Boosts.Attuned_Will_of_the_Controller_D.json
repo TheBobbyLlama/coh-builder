@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Will_of_the_Controller_D",
   "ImageName": "",
   "Power": [
-    1167
+    1173
   ],
   "SetType": 10,
   "DisplayName": "Attuned Will of the Controller D",
   "nArchetype": -1,
-  "nID": 922,
+  "nID": 928,
   "SubName": "Set: Will of the Controller",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1167,
-      "PowerSetID": 922,
+      "PowerIndex": 1173,
+      "PowerSetID": 928,
       "StaticIndex": 7125,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Will_of_the_Controller_D.Attuned_Will_of_the_Controller_D",

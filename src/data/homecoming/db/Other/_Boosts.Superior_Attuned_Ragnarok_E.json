@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Ragnarok_E",
   "ImageName": "",
   "Power": [
-    2583
+    2589
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Ragnarok E",
   "nArchetype": -1,
-  "nID": 2338,
+  "nID": 2344,
   "SubName": "Set: Ragnarok",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2583,
-      "PowerSetID": 2338,
+      "PowerIndex": 2589,
+      "PowerSetID": 2344,
       "StaticIndex": 8484,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Ragnarok_E.Superior_Attuned_Ragnarok_E",

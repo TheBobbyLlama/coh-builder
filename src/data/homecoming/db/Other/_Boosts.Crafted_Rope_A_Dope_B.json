@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Rope_A_Dope_B",
   "ImageName": "",
   "Power": [
-    1976
+    1982
   ],
   "SetType": 10,
   "DisplayName": "Crafted Rope A Dope B",
   "nArchetype": -1,
-  "nID": 1729,
+  "nID": 1735,
   "SubName": "Set: Rope A Dope",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1976,
-      "PowerSetID": 1729,
+      "PowerIndex": 1982,
+      "PowerSetID": 1735,
       "StaticIndex": 7908,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Rope_A_Dope_B.Crafted_Rope_A_Dope_B",

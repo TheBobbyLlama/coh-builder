@@ -4,12 +4,12 @@
   "FullName": "Boosts.Magic_Res_Damage",
   "ImageName": "",
   "Power": [
-    2309
+    2315
   ],
   "SetType": 10,
   "DisplayName": "Magic Res Damage",
   "nArchetype": -1,
-  "nID": 2064,
+  "nID": 2070,
   "SubName": "Dimensional Entities (Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2309,
-      "PowerSetID": 2064,
+      "PowerIndex": 2315,
+      "PowerSetID": 2070,
       "StaticIndex": 8234,
       "NGroupMembership": [],
       "FullName": "Boosts.Magic_Res_Damage.Magic_Res_Damage",

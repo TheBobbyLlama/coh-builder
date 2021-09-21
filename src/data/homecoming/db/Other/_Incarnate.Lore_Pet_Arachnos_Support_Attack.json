@@ -4,12 +4,12 @@
   "FullName": "Incarnate.Lore_Pet_Arachnos_Support_Attack",
   "ImageName": "",
   "Power": [
-    5281
+    5290
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Arachnos_Support_Attack",
   "nArchetype": -1,
-  "nID": 2819,
+  "nID": 2830,
   "SubName": "Arachnos",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -22,8 +22,8 @@
   "Powers": [
     {
       "CastTimeReal": 1.67,
-      "PowerIndex": 5281,
-      "PowerSetID": 2819,
+      "PowerIndex": 5290,
+      "PowerSetID": 2830,
       "StaticIndex": 5476,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Arachnos_Support_Attack.Mental_Blast",

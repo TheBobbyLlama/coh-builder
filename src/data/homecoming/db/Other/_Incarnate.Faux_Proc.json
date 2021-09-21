@@ -4,13 +4,13 @@
   "FullName": "Incarnate.Faux_Proc",
   "ImageName": "",
   "Power": [
-    4713,
-    4714
+    4722,
+    4723
   ],
   "SetType": 11,
   "DisplayName": "Overthruster",
   "nArchetype": -1,
-  "nID": 2886,
+  "nID": 2897,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -22,8 +22,8 @@
   "GroupName": "Incarnate",
   "Powers": [
     {
-      "PowerIndex": 4713,
-      "PowerSetID": 2886,
+      "PowerIndex": 4722,
+      "PowerSetID": 2897,
       "StaticIndex": 4610,
       "NGroupMembership": [],
       "FullName": "Incarnate.Faux_Proc.Divine_Core_Oscillation",
@@ -81,8 +81,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 4714,
-      "PowerSetID": 2886,
+      "PowerIndex": 4723,
+      "PowerSetID": 2897,
       "PowerSetIndex": 1,
       "StaticIndex": 4611,
       "NGroupMembership": [],

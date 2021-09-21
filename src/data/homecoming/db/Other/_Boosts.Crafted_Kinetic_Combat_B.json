@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Kinetic_Combat_B",
   "ImageName": "",
   "Power": [
-    1733
+    1739
   ],
   "SetType": 10,
   "DisplayName": "Crafted Kinetic Combat B",
   "nArchetype": -1,
-  "nID": 1487,
+  "nID": 1493,
   "SubName": "Set: Kinetic Combat",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1733,
-      "PowerSetID": 1487,
+      "PowerIndex": 1739,
+      "PowerSetID": 1493,
       "StaticIndex": 7678,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Kinetic_Combat_B.Crafted_Kinetic_Combat_B",

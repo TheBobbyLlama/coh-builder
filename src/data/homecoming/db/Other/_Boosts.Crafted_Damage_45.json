@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Damage_45",
   "ImageName": "",
   "Power": [
-    1354
+    1360
   ],
   "SetType": 10,
   "DisplayName": "Crafted Damage 45",
   "nArchetype": -1,
-  "nID": 1108,
+  "nID": 1114,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1354,
-      "PowerSetID": 1108,
+      "PowerIndex": 1360,
+      "PowerSetID": 1114,
       "StaticIndex": 7299,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Damage_45.Crafted_Damage_45",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Kismet_C",
   "ImageName": "",
   "Power": [
-    1745
+    1751
   ],
   "SetType": 10,
   "DisplayName": "Crafted Kismet C",
   "nArchetype": -1,
-  "nID": 1499,
+  "nID": 1505,
   "SubName": "Set: Kismet",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1745,
-      "PowerSetID": 1499,
+      "PowerIndex": 1751,
+      "PowerSetID": 1505,
       "StaticIndex": 7690,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Kismet_C.Crafted_Kismet_C",

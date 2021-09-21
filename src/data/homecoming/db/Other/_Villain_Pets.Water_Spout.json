@@ -4,16 +4,16 @@
   "FullName": "Villain_Pets.Water_Spout",
   "ImageName": "",
   "Power": [
-    10309,
-    10310,
-    10311,
-    10312,
-    10313
+    10325,
+    10326,
+    10327,
+    10328,
+    10329
   ],
   "SetType": 8,
   "DisplayName": "Water Spout",
   "nArchetype": -1,
-  "nID": 3540,
+  "nID": 3554,
   "SubName": "Leviathan Mastery",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -25,8 +25,8 @@
   "GroupName": "Villain_Pets",
   "Powers": [
     {
-      "PowerIndex": 10309,
-      "PowerSetID": 3540,
+      "PowerIndex": 10325,
+      "PowerSetID": 3554,
       "StaticIndex": 3184,
       "NGroupMembership": [],
       "FullName": "Villain_Pets.Water_Spout.Water_Spout",
@@ -388,8 +388,8 @@
       "AoEModifier": 2.05
     },
     {
-      "PowerIndex": 10310,
-      "PowerSetID": 3540,
+      "PowerIndex": 10326,
+      "PowerSetID": 3554,
       "PowerSetIndex": 1,
       "StaticIndex": 3185,
       "NGroupMembership": [],
@@ -663,8 +663,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 10311,
-      "PowerSetID": 3540,
+      "PowerIndex": 10327,
+      "PowerSetID": 3554,
       "PowerSetIndex": 2,
       "StaticIndex": 3186,
       "NGroupMembership": [],
@@ -768,8 +768,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 10312,
-      "PowerSetID": 3540,
+      "PowerIndex": 10328,
+      "PowerSetID": 3554,
       "PowerSetIndex": 3,
       "StaticIndex": 3187,
       "NGroupMembership": [],
@@ -876,8 +876,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 10313,
-      "PowerSetID": 3540,
+      "PowerIndex": 10329,
+      "PowerSetID": 3554,
       "PowerSetIndex": 4,
       "StaticIndex": 3188,
       "NGroupMembership": [],

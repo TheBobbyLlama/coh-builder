@@ -4,13 +4,13 @@
   "FullName": "Villain_Pets.Energy_Melee_Assassins_Strike",
   "ImageName": "",
   "Power": [
-    10128,
-    10129
+    10144,
+    10145
   ],
   "SetType": 8,
   "DisplayName": "",
   "nArchetype": -1,
-  "nID": 3444,
+  "nID": 3459,
   "SubName": "Energy Melee",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
     {
       "CastTimeReal": 3.0,
       "ToggleCost": 14.352,
-      "PowerIndex": 10128,
-      "PowerSetID": 3444,
+      "PowerIndex": 10144,
+      "PowerSetID": 3459,
       "StaticIndex": 6330,
       "NGroupMembership": [],
       "FullName": "Villain_Pets.Energy_Melee_Assassins_Strike.Assassins_Strike_Stealth",
@@ -388,7 +388,7 @@
           "nID": 5,
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.Demoralized",
-          "nSummon": 9289,
+          "nSummon": 9305,
           "SpecialCase": 9,
           "UIDClassName": "",
           "nIDClassName": -1,
@@ -554,8 +554,8 @@
     {
       "CastTimeReal": 1.0,
       "ToggleCost": 14.352,
-      "PowerIndex": 10129,
-      "PowerSetID": 3444,
+      "PowerIndex": 10145,
+      "PowerSetID": 3459,
       "PowerSetIndex": 1,
       "StaticIndex": 6331,
       "NGroupMembership": [],

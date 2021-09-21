@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Extreme_Measures_B",
   "ImageName": "",
   "Power": [
-    1507
+    1513
   ],
   "SetType": 10,
   "DisplayName": "Crafted Extreme Measures B",
   "nArchetype": -1,
-  "nID": 1261,
+  "nID": 1267,
   "SubName": "Set: Extreme Measures",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1507,
-      "PowerSetID": 1261,
+      "PowerIndex": 1513,
+      "PowerSetID": 1267,
       "StaticIndex": 7452,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Extreme_Measures_B.Crafted_Extreme_Measures_B",

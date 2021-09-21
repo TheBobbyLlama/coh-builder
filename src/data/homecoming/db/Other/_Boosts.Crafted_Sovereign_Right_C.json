@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Sovereign_Right_C",
   "ImageName": "",
   "Power": [
-    2064
+    2070
   ],
   "SetType": 10,
   "DisplayName": "Crafted Sovereign Right C",
   "nArchetype": -1,
-  "nID": 1817,
+  "nID": 1823,
   "SubName": "Set: Sovereign Right",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2064,
-      "PowerSetID": 1817,
+      "PowerIndex": 2070,
+      "PowerSetID": 1823,
       "StaticIndex": 7996,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Sovereign_Right_C.Crafted_Sovereign_Right_C",

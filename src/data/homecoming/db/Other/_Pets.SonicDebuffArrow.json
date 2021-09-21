@@ -4,12 +4,12 @@
   "FullName": "Pets.SonicDebuffArrow",
   "ImageName": "",
   "Power": [
-    6526
+    6546
   ],
   "SetType": 8,
   "DisplayName": "Disruption Arrow",
   "nArchetype": -1,
-  "nID": 3068,
+  "nID": 3079,
   "SubName": "Trick Arrow",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6526,
-      "PowerSetID": 3068,
+      "PowerIndex": 6546,
+      "PowerSetID": 3079,
       "StaticIndex": 1717,
       "NGroupMembership": [],
       "FullName": "Pets.SonicDebuffArrow.SonicDebuffArrow",
@@ -77,8 +77,8 @@
         {
           "MagnitudeExpression": "",
           "Probability": 1.0,
-          "Mag": -0.28,
-          "MagPercent": -28.0,
+          "Mag": -0.26,
+          "MagPercent": -26.0,
           "Duration": 1.25,
           "DisplayPercentage": true,
           "BaseProbability": 1.0,
@@ -95,8 +95,8 @@
           "Scale": -4.0,
           "nMagnitude": 1.0,
           "nDuration": 1.25,
-          "ModifierTable": "Melee_Res_Dmg",
-          "nModifierTable": 18,
+          "ModifierTable": "Ranged_Res_Dmg",
+          "nModifierTable": 39,
           "PowerFullName": "Pets.SonicDebuffArrow.SonicDebuffArrow",
           "Absorbed_PowerType": 1,
           "Absorbed_Power_nID": -1,
@@ -140,8 +140,8 @@
           "nMagnitude": 1.0,
           "nDuration": 1.25,
           "Aspect": 1,
-          "ModifierTable": "Melee_EndDrain",
-          "nModifierTable": 2,
+          "ModifierTable": "Ranged_EndDrain",
+          "nModifierTable": 22,
           "PowerFullName": "Pets.SonicDebuffArrow.SonicDebuffArrow",
           "Absorbed_PowerType": 1,
           "Absorbed_Power_nID": -1,

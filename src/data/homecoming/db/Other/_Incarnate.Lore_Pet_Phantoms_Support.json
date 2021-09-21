@@ -4,13 +4,13 @@
   "FullName": "Incarnate.Lore_Pet_Phantoms_Support",
   "ImageName": "",
   "Power": [
-    5390,
-    5391
+    5399,
+    5400
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Phantoms_Support",
   "nArchetype": -1,
-  "nID": 2859,
+  "nID": 2870,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "Powers": [
     {
       "CastTimeReal": 2.27,
-      "PowerIndex": 5390,
-      "PowerSetID": 2859,
+      "PowerIndex": 5399,
+      "PowerSetID": 2870,
       "StaticIndex": 5544,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Phantoms_Support.Heal_Other",
@@ -136,8 +136,8 @@
     },
     {
       "CastTimeReal": 2.27,
-      "PowerIndex": 5391,
-      "PowerSetID": 2859,
+      "PowerIndex": 5400,
+      "PowerSetID": 2870,
       "PowerSetIndex": 1,
       "StaticIndex": 5545,
       "NGroupMembership": [],

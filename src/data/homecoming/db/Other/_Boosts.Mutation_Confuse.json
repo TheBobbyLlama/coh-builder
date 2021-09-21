@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Confuse",
   "ImageName": "",
   "Power": [
-    2319
+    2325
   ],
   "SetType": 10,
   "DisplayName": "Mutation Confuse",
   "nArchetype": -1,
-  "nID": 2073,
+  "nID": 2079,
   "SubName": "Secondary Mutation (Mutation)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2319,
-      "PowerSetID": 2073,
+      "PowerIndex": 2325,
+      "PowerSetID": 2079,
       "StaticIndex": 8244,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Confuse.Mutation_Confuse",

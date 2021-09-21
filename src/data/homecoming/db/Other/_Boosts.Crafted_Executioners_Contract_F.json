@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Executioners_Contract_F",
   "ImageName": "",
   "Power": [
-    1489
+    1495
   ],
   "SetType": 10,
   "DisplayName": "Crafted Executioners Contract F",
   "nArchetype": -1,
-  "nID": 1243,
+  "nID": 1249,
   "SubName": "Set: Executioners Contract",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1489,
-      "PowerSetID": 1243,
+      "PowerIndex": 1495,
+      "PowerSetID": 1249,
       "StaticIndex": 7434,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Executioners_Contract_F.Crafted_Executioners_Contract_F",

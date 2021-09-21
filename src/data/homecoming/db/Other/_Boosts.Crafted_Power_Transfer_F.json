@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Power_Transfer_F",
   "ImageName": "",
   "Power": [
-    1879
+    1885
   ],
   "SetType": 10,
   "DisplayName": "Crafted_Power_Transfer_F",
   "nArchetype": -1,
-  "nID": 1987,
+  "nID": 1993,
   "SubName": "",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1879,
-      "PowerSetID": 1987,
+      "PowerIndex": 1885,
+      "PowerSetID": 1993,
       "StaticIndex": 10883,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Power_Transfer_F.Crafted_Power_Transfer_F",

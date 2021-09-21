@@ -4,13 +4,13 @@
   "FullName": "Incarnate.Lore_Pet_Knives_Support",
   "ImageName": "",
   "Power": [
-    5357,
-    5358
+    5366,
+    5367
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Knives_Support",
   "nArchetype": -1,
-  "nID": 2845,
+  "nID": 2856,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "Powers": [
     {
       "CastTimeReal": 2.27,
-      "PowerIndex": 5357,
-      "PowerSetID": 2845,
+      "PowerIndex": 5366,
+      "PowerSetID": 2856,
       "StaticIndex": 9496,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Knives_Support.Adrenalin_Boost",
@@ -661,8 +661,8 @@
     },
     {
       "CastTimeReal": 1.17,
-      "PowerIndex": 5358,
-      "PowerSetID": 2845,
+      "PowerIndex": 5367,
+      "PowerSetID": 2856,
       "PowerSetIndex": 1,
       "StaticIndex": 9497,
       "NGroupMembership": [],

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Technology_Jump",
   "ImageName": "",
   "Power": [
-    2498
+    2504
   ],
   "SetType": 10,
   "DisplayName": "Science Technology Jump",
   "nArchetype": -1,
-  "nID": 2253,
+  "nID": 2259,
   "SubName": "Invention (Science, Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2498,
-      "PowerSetID": 2253,
+      "PowerIndex": 2504,
+      "PowerSetID": 2259,
       "StaticIndex": 8423,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Technology_Jump.Science_Technology_Jump",

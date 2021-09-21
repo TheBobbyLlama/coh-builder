@@ -4,12 +4,12 @@
   "FullName": "Mastermind_Pets.Thug_Pose_Bat",
   "ImageName": "",
   "Power": [
-    6076
+    6085
   ],
   "SetType": 8,
   "DisplayName": "Thug Posse",
   "nArchetype": -1,
-  "nID": 3003,
+  "nID": 3014,
   "SubName": "Thugs",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
     {
       "CastTimeReal": 2.5,
       "ToggleCost": 6.864,
-      "PowerIndex": 6076,
-      "PowerSetID": 3003,
+      "PowerIndex": 6085,
+      "PowerSetID": 3014,
       "StaticIndex": 1422,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Thug_Pose_Bat.Baseball_Bat",

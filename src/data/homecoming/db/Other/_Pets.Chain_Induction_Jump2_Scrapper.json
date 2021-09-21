@@ -4,12 +4,12 @@
   "FullName": "Pets.Chain_Induction_Jump2_Scrapper",
   "ImageName": "",
   "Power": [
-    6238
+    6247
   ],
   "SetType": 8,
   "DisplayName": "Chain Induction Jump 2",
   "nArchetype": -1,
-  "nID": 3046,
+  "nID": 3057,
   "SubName": "Chain Induction Jump 2",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6238,
-      "PowerSetID": 3046,
+      "PowerIndex": 6247,
+      "PowerSetID": 3057,
       "StaticIndex": 3527,
       "NGroupMembership": [],
       "FullName": "Pets.Chain_Induction_Jump2_Scrapper.Charge",

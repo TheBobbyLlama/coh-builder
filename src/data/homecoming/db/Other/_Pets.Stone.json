@@ -4,16 +4,16 @@
   "FullName": "Pets.Stone",
   "ImageName": "",
   "Power": [
-    6537,
-    6538,
-    6539,
-    6540,
-    6541
+    6557,
+    6558,
+    6559,
+    6560,
+    6561
   ],
   "SetType": 8,
   "DisplayName": "Stone",
   "nArchetype": -1,
-  "nID": 3214,
+  "nID": 3229,
   "SubName": "Earth Control",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -26,8 +26,8 @@
   "Powers": [
     {
       "CastTimeReal": 0.57,
-      "PowerIndex": 6537,
-      "PowerSetID": 3214,
+      "PowerIndex": 6557,
+      "PowerSetID": 3229,
       "StaticIndex": 1721,
       "NGroupMembership": [],
       "FullName": "Pets.Stone.Stone_Fist",
@@ -328,8 +328,8 @@
     {
       "CastTimeReal": 3.83,
       "ToggleCost": 9.36,
-      "PowerIndex": 6538,
-      "PowerSetID": 3214,
+      "PowerIndex": 6558,
+      "PowerSetID": 3229,
       "PowerSetIndex": 1,
       "StaticIndex": 1722,
       "NGroupMembership": [],
@@ -570,8 +570,8 @@
     },
     {
       "CastTimeReal": 0.5,
-      "PowerIndex": 6539,
-      "PowerSetID": 3214,
+      "PowerIndex": 6559,
+      "PowerSetID": 3229,
       "PowerSetIndex": 2,
       "StaticIndex": 1723,
       "NGroupMembership": [],
@@ -1573,8 +1573,8 @@
     {
       "CastTimeReal": 1.5,
       "ToggleCost": 23.14,
-      "PowerIndex": 6540,
-      "PowerSetID": 3214,
+      "PowerIndex": 6560,
+      "PowerSetID": 3229,
       "PowerSetIndex": 3,
       "StaticIndex": 3270,
       "NGroupMembership": [],
@@ -1876,8 +1876,8 @@
     {
       "CastTimeReal": 2.904,
       "IsEpic": true,
-      "PowerIndex": 6541,
-      "PowerSetID": 3214,
+      "PowerIndex": 6561,
+      "PowerSetID": 3229,
       "PowerSetIndex": 4,
       "StaticIndex": 1724,
       "NGroupMembership": [],
@@ -1893,28 +1893,28 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6537,
-            6538
+            6557,
+            6558
           ],
           [
-            6537,
-            6539
+            6557,
+            6559
           ],
           [
-            6537,
-            6540
+            6557,
+            6560
           ],
           [
-            6538,
-            6539
+            6558,
+            6559
           ],
           [
-            6538,
-            6540
+            6558,
+            6560
           ],
           [
-            6539,
-            6540
+            6559,
+            6560
           ]
         ],
         "NPowerIDNot": [],

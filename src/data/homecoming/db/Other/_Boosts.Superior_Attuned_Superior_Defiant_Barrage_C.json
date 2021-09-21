@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Superior_Defiant_Barrage_C",
   "ImageName": "",
   "Power": [
-    2635
+    2641
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Superior Defiant Barrage C",
   "nArchetype": -1,
-  "nID": 2390,
+  "nID": 2396,
   "SubName": "Set: Superior Defiant Barrage",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2635,
-      "PowerSetID": 2390,
+      "PowerIndex": 2641,
+      "PowerSetID": 2396,
       "StaticIndex": 8807,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Superior_Defiant_Barrage_C.Superior_Attuned_Superior_Defiant_Barrage_C",

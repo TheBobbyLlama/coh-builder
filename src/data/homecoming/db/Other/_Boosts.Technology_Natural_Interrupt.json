@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Natural_Interrupt",
   "ImageName": "",
   "Power": [
-    2789
+    2801
   ],
   "SetType": 10,
   "DisplayName": "Technology Natural Interrupt",
   "nArchetype": -1,
-  "nID": 2544,
+  "nID": 2556,
   "SubName": "Gadget (Technology, Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2789,
-      "PowerSetID": 2544,
+      "PowerIndex": 2801,
+      "PowerSetID": 2556,
       "StaticIndex": 8612,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Natural_Interrupt.Technology_Natural_Interrupt",

@@ -4,12 +4,12 @@
   "FullName": "Incarnate.Faux_Uberbuff",
   "ImageName": "",
   "Power": [
-    4715
+    4724
   ],
   "SetType": 11,
   "DisplayName": "Freem",
   "nArchetype": -1,
-  "nID": 2806,
+  "nID": 2817,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Incarnate",
   "Powers": [
     {
-      "PowerIndex": 4715,
-      "PowerSetID": 2806,
+      "PowerIndex": 4724,
+      "PowerSetID": 2817,
       "StaticIndex": 4612,
       "NGroupMembership": [],
       "FullName": "Incarnate.Faux_Uberbuff.Limitless_Radial_Freeeem",

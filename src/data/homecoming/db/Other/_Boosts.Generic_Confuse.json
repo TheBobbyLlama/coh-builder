@@ -4,12 +4,12 @@
   "FullName": "Boosts.Generic_Confuse",
   "ImageName": "",
   "Power": [
-    2237
+    2243
   ],
   "SetType": 10,
   "DisplayName": "Generic Confuse",
   "nArchetype": -1,
-  "nID": 1991,
+  "nID": 1997,
   "SubName": "Training (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2237,
-      "PowerSetID": 1991,
+      "PowerIndex": 2243,
+      "PowerSetID": 1997,
       "StaticIndex": 8162,
       "NGroupMembership": [],
       "FullName": "Boosts.Generic_Confuse.Generic_Confuse",

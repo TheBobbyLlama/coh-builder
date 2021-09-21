@@ -4,15 +4,15 @@
   "FullName": "Inherent.Fitness",
   "ImageName": "",
   "Power": [
-    5480,
-    5481,
-    5482,
-    5483
+    5489,
+    5490,
+    5491,
+    5492
   ],
   "SetType": 4,
   "DisplayName": "Inherent Fitness",
   "nArchetype": -1,
-  "nID": 2894,
+  "nID": 2905,
   "SubName": "Fitness",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -25,8 +25,8 @@
   "Powers": [
     {
       "LocationIndex": 4,
-      "PowerIndex": 5480,
-      "PowerSetID": 2894,
+      "PowerIndex": 5489,
+      "PowerSetID": 2905,
       "StaticIndex": 2797,
       "NGroupMembership": [],
       "FullName": "Inherent.Fitness.Swift",
@@ -238,8 +238,8 @@
     },
     {
       "LocationIndex": 6,
-      "PowerIndex": 5481,
-      "PowerSetID": 2894,
+      "PowerIndex": 5490,
+      "PowerSetID": 2905,
       "PowerSetIndex": 1,
       "StaticIndex": 2799,
       "NGroupMembership": [],
@@ -442,6 +442,7 @@
           "nOverride": -1
         }
       ],
+      "HasProcSlotted": true,
       "FullSetName": "Inherent.Fitness",
       "Slottable": true,
       "AoEModifier": 1.0,
@@ -451,8 +452,8 @@
     },
     {
       "LocationIndex": 5,
-      "PowerIndex": 5482,
-      "PowerSetID": 2894,
+      "PowerIndex": 5491,
+      "PowerSetID": 2905,
       "PowerSetIndex": 2,
       "StaticIndex": 2798,
       "NGroupMembership": [],
@@ -662,8 +663,8 @@
     },
     {
       "LocationIndex": 7,
-      "PowerIndex": 5483,
-      "PowerSetID": 2894,
+      "PowerIndex": 5492,
+      "PowerSetID": 2905,
       "PowerSetIndex": 3,
       "StaticIndex": 2800,
       "NGroupMembership": [],
@@ -809,6 +810,7 @@
           "nOverride": -1
         }
       ],
+      "HasProcSlotted": true,
       "FullSetName": "Inherent.Fitness",
       "Slottable": true,
       "AoEModifier": 1.0,

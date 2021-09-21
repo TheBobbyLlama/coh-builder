@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Science_Endurance_Discount",
   "ImageName": "",
   "Power": [
-    2374
+    2380
   ],
   "SetType": 10,
   "DisplayName": "Mutation Science Endurance Discount",
   "nArchetype": -1,
-  "nID": 2129,
+  "nID": 2135,
   "SubName": "Genetic Alteration (Mutation, Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2374,
-      "PowerSetID": 2129,
+      "PowerIndex": 2380,
+      "PowerSetID": 2135,
       "StaticIndex": 8299,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Science_Endurance_Discount.Mutation_Science_Endurance_Discount",

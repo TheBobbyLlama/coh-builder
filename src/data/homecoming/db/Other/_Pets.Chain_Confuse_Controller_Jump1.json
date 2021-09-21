@@ -4,12 +4,12 @@
   "FullName": "Pets.Chain_Confuse_Controller_Jump1",
   "ImageName": "",
   "Power": [
-    6234
+    6243
   ],
   "SetType": 8,
   "DisplayName": "Chain Confuse Jump 1",
   "nArchetype": -1,
-  "nID": 3042,
+  "nID": 3053,
   "SubName": "Chain Confuse Jump 1",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6234,
-      "PowerSetID": 3042,
+      "PowerIndex": 6243,
+      "PowerSetID": 3053,
       "StaticIndex": 4407,
       "NGroupMembership": [],
       "FullName": "Pets.Chain_Confuse_Controller_Jump1.Charge",

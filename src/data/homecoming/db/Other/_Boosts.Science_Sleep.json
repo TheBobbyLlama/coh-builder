@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Sleep",
   "ImageName": "",
   "Power": [
-    2479
+    2485
   ],
   "SetType": 10,
   "DisplayName": "Science Sleep",
   "nArchetype": -1,
-  "nID": 2234,
+  "nID": 2240,
   "SubName": "Experiment (Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2479,
-      "PowerSetID": 2234,
+      "PowerIndex": 2485,
+      "PowerSetID": 2240,
       "StaticIndex": 8404,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Sleep.Science_Sleep",

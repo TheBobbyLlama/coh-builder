@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Fly",
   "ImageName": "",
   "Power": [
-    2466
+    2472
   ],
   "SetType": 10,
   "DisplayName": "Science Fly",
   "nArchetype": -1,
-  "nID": 2221,
+  "nID": 2227,
   "SubName": "Experiment (Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2466,
-      "PowerSetID": 2221,
+      "PowerIndex": 2472,
+      "PowerSetID": 2227,
       "StaticIndex": 8391,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Fly.Science_Fly",

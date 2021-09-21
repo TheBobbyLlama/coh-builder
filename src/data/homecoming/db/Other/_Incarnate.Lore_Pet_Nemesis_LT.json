@@ -4,13 +4,13 @@
   "FullName": "Incarnate.Lore_Pet_Nemesis_LT",
   "ImageName": "",
   "Power": [
-    5380,
-    5381
+    5389,
+    5390
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Nemesis_LT",
   "nArchetype": -1,
-  "nID": 2854,
+  "nID": 2865,
   "SubName": "Nemesis",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "Powers": [
     {
       "CastTimeReal": 3.83,
-      "PowerIndex": 5380,
-      "PowerSetID": 2854,
+      "PowerIndex": 5389,
+      "PowerSetID": 2865,
       "StaticIndex": 5534,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Nemesis_LT.Lance_Rifle",
@@ -320,8 +320,8 @@
     },
     {
       "CastTimeReal": 2.0,
-      "PowerIndex": 5381,
-      "PowerSetID": 2854,
+      "PowerIndex": 5390,
+      "PowerSetID": 2865,
       "PowerSetIndex": 1,
       "StaticIndex": 5535,
       "NGroupMembership": [],

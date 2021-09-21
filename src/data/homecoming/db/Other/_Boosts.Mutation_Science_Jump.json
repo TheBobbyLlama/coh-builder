@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Science_Jump",
   "ImageName": "",
   "Power": [
-    2382
+    2388
   ],
   "SetType": 10,
   "DisplayName": "Mutation Science Jump",
   "nArchetype": -1,
-  "nID": 2137,
+  "nID": 2143,
   "SubName": "Genetic Alteration (Mutation, Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2382,
-      "PowerSetID": 2137,
+      "PowerIndex": 2388,
+      "PowerSetID": 2143,
       "StaticIndex": 8307,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Science_Jump.Mutation_Science_Jump",

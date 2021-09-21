@@ -4,12 +4,12 @@
   "FullName": "Pets.NemesisGas",
   "ImageName": "",
   "Power": [
-    6426
+    6435
   ],
   "SetType": 8,
   "DisplayName": "Nemesis Gas",
   "nArchetype": -1,
-  "nID": 3151,
+  "nID": 3163,
   "SubName": "Nemesis",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6426,
-      "PowerSetID": 3151,
+      "PowerIndex": 6435,
+      "PowerSetID": 3163,
       "StaticIndex": 1663,
       "NGroupMembership": [],
       "FullName": "Pets.NemesisGas.Nemesis_Gas",

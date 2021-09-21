@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_ToHit_Buff",
   "ImageName": "",
   "Power": [
-    2455
+    2461
   ],
   "SetType": 10,
   "DisplayName": "Natural ToHit Buff",
   "nArchetype": -1,
-  "nID": 2210,
+  "nID": 2216,
   "SubName": "Technique (Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2455,
-      "PowerSetID": 2210,
+      "PowerIndex": 2461,
+      "PowerSetID": 2216,
       "StaticIndex": 8380,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_ToHit_Buff.Natural_ToHit_Buff",

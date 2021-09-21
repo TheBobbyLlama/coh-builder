@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Tempered_Readiness_F",
   "ImageName": "",
   "Power": [
-    2117
+    2123
   ],
   "SetType": 10,
   "DisplayName": "Crafted Tempered Readiness F",
   "nArchetype": -1,
-  "nID": 1869,
+  "nID": 1875,
   "SubName": "Set: Tempered Readiness",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2117,
-      "PowerSetID": 1869,
+      "PowerIndex": 2123,
+      "PowerSetID": 1875,
       "StaticIndex": 8048,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Tempered_Readiness_F.Crafted_Tempered_Readiness_F",

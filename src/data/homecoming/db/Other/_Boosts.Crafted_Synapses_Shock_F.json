@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Synapses_Shock_F",
   "ImageName": "",
   "Power": [
-    2101
+    2107
   ],
   "SetType": 10,
   "DisplayName": "Crafted_Synapses_Shock_F",
   "nArchetype": -1,
-  "nID": 1988,
+  "nID": 1994,
   "SubName": "",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2101,
-      "PowerSetID": 1988,
+      "PowerIndex": 2107,
+      "PowerSetID": 1994,
       "StaticIndex": 10884,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Synapses_Shock_F.Crafted_Synapses_Shock_F",

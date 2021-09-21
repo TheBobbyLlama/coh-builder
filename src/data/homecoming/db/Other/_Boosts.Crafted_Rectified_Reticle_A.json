@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Rectified_Reticle_A",
   "ImageName": "",
   "Power": [
-    1946
+    1952
   ],
   "SetType": 10,
   "DisplayName": "Crafted Rectified Reticle A",
   "nArchetype": -1,
-  "nID": 1699,
+  "nID": 1705,
   "SubName": "Set: Rectified Reticle",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1946,
-      "PowerSetID": 1699,
+      "PowerIndex": 1952,
+      "PowerSetID": 1705,
       "StaticIndex": 7878,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Rectified_Reticle_A.Crafted_Rectified_Reticle_A",

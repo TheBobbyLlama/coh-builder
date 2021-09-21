@@ -4,14 +4,14 @@
   "FullName": "Incarnate.Barrier_Rez",
   "ImageName": "",
   "Power": [
-    4642,
-    4643,
-    4644
+    4651,
+    4652,
+    4653
   ],
   "SetType": 11,
   "DisplayName": "Destiny",
   "nArchetype": -1,
-  "nID": 2801,
+  "nID": 2812,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "GroupName": "Incarnate",
   "Powers": [
     {
-      "PowerIndex": 4642,
-      "PowerSetID": 2801,
+      "PowerIndex": 4651,
+      "PowerSetID": 2812,
       "StaticIndex": 5005,
       "NGroupMembership": [],
       "FullName": "Incarnate.Barrier_Rez.Barrier_Rez_Single",
@@ -250,8 +250,8 @@
       "AoEModifier": 5.5
     },
     {
-      "PowerIndex": 4643,
-      "PowerSetID": 2801,
+      "PowerIndex": 4652,
+      "PowerSetID": 2812,
       "PowerSetIndex": 1,
       "StaticIndex": 5006,
       "NGroupMembership": [],
@@ -477,8 +477,8 @@
       "AoEModifier": 5.5
     },
     {
-      "PowerIndex": 4644,
-      "PowerSetID": 2801,
+      "PowerIndex": 4653,
+      "PowerSetID": 2812,
       "PowerSetIndex": 2,
       "StaticIndex": 5007,
       "NGroupMembership": [],

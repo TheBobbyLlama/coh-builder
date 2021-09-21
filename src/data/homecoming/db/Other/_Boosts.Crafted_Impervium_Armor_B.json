@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Impervium_Armor_B",
   "ImageName": "",
   "Power": [
-    1679
+    1685
   ],
   "SetType": 10,
   "DisplayName": "Crafted Impervium Armor B",
   "nArchetype": -1,
-  "nID": 1433,
+  "nID": 1439,
   "SubName": "Set: Impervium Armor",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1679,
-      "PowerSetID": 1433,
+      "PowerIndex": 1685,
+      "PowerSetID": 1439,
       "StaticIndex": 7624,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Impervium_Armor_B.Crafted_Impervium_Armor_B",

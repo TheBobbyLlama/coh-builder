@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Magic_Cone",
   "ImageName": "",
   "Power": [
-    2335
+    2341
   ],
   "SetType": 10,
   "DisplayName": "Mutation Magic Range",
   "nArchetype": -1,
-  "nID": 2106,
+  "nID": 2113,
   "SubName": "Focusing Device (Mutation, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2335,
-      "PowerSetID": 2106,
+      "PowerIndex": 2341,
+      "PowerSetID": 2113,
       "StaticIndex": 8260,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Magic_Cone.Mutation_Magic_Cone",

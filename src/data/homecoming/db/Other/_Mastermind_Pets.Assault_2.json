@@ -4,13 +4,13 @@
   "FullName": "Mastermind_Pets.Assault_2",
   "ImageName": "",
   "Power": [
-    5832,
-    5833
+    5841,
+    5842
   ],
   "SetType": 8,
   "DisplayName": "Assault",
   "nArchetype": -1,
-  "nID": 2925,
+  "nID": 2935,
   "SubName": "Assault",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
     {
       "CastTimeReal": 4.0,
       "ToggleCost": 10.192,
-      "PowerIndex": 5832,
-      "PowerSetID": 2925,
+      "PowerIndex": 5841,
+      "PowerSetID": 2935,
       "StaticIndex": 1169,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Assault_2.Dual_Plasma_Blast",
@@ -571,8 +571,8 @@
     {
       "CastTimeReal": 6.33,
       "ToggleCost": 8.528,
-      "PowerIndex": 5833,
-      "PowerSetID": 2925,
+      "PowerIndex": 5842,
+      "PowerSetID": 2935,
       "PowerSetIndex": 1,
       "StaticIndex": 1171,
       "NGroupMembership": [],

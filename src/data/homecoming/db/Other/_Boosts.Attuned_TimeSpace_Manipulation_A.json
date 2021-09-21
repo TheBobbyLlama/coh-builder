@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_TimeSpace_Manipulation_A",
   "ImageName": "",
   "Power": [
-    1081
+    1087
   ],
   "SetType": 10,
   "DisplayName": "Attuned TimeSpace Manipulation A",
   "nArchetype": -1,
-  "nID": 836,
+  "nID": 842,
   "SubName": "Set: Jaunt",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1081,
-      "PowerSetID": 836,
+      "PowerIndex": 1087,
+      "PowerSetID": 842,
       "StaticIndex": 7057,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_TimeSpace_Manipulation_A.Attuned_TimeSpace_Manipulation_A",

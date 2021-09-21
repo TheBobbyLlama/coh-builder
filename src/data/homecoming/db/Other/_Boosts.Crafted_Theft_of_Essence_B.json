@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Theft_of_Essence_B",
   "ImageName": "",
   "Power": [
-    2123
+    2129
   ],
   "SetType": 10,
   "DisplayName": "Crafted Theft of Essence B",
   "nArchetype": -1,
-  "nID": 1875,
+  "nID": 1881,
   "SubName": "Set: Theft of Essence",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2123,
-      "PowerSetID": 1875,
+      "PowerIndex": 2129,
+      "PowerSetID": 1881,
       "StaticIndex": 8054,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Theft_of_Essence_B.Crafted_Theft_of_Essence_B",

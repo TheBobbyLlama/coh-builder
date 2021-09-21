@@ -4,12 +4,12 @@
   "FullName": "Boosts.Titan_DeBuff_Accuracy",
   "ImageName": "",
   "Power": [
-    2820
+    2832
   ],
   "SetType": 10,
   "DisplayName": "Titan DeBuff Accuracy",
   "nArchetype": -1,
-  "nID": 2575,
+  "nID": 2587,
   "SubName": "Titan (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2820,
-      "PowerSetID": 2575,
+      "PowerIndex": 2832,
+      "PowerSetID": 2587,
       "StaticIndex": 8643,
       "NGroupMembership": [],
       "FullName": "Boosts.Titan_DeBuff_Accuracy.Titan_DeBuff_Accuracy",

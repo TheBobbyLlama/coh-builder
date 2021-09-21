@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Steadfast_Protection_A",
   "ImageName": "",
   "Power": [
-    2076
+    2082
   ],
   "SetType": 10,
   "DisplayName": "Crafted Steadfast Protection A",
   "nArchetype": -1,
-  "nID": 1829,
+  "nID": 1835,
   "SubName": "Set: Steadfast Protection",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2076,
-      "PowerSetID": 1829,
+      "PowerIndex": 2082,
+      "PowerSetID": 1835,
       "StaticIndex": 8008,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Steadfast_Protection_A.Crafted_Steadfast_Protection_A",

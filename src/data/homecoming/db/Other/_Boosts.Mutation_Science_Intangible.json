@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Science_Intangible",
   "ImageName": "",
   "Power": [
-    2380
+    2386
   ],
   "SetType": 10,
   "DisplayName": "Mutation Science Intangible",
   "nArchetype": -1,
-  "nID": 2135,
+  "nID": 2141,
   "SubName": "Genetic Alteration (Mutation, Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2380,
-      "PowerSetID": 2135,
+      "PowerIndex": 2386,
+      "PowerSetID": 2141,
       "StaticIndex": 8305,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Science_Intangible.Mutation_Science_Intangible",

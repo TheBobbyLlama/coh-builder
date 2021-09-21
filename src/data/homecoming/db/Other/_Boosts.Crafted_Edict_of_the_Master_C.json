@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Edict_of_the_Master_C",
   "ImageName": "",
   "Power": [
-    1435
+    1441
   ],
   "SetType": 10,
   "DisplayName": "Crafted Edict of the Master C",
   "nArchetype": -1,
-  "nID": 1189,
+  "nID": 1195,
   "SubName": "Set: Edict of the Master",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1435,
-      "PowerSetID": 1189,
+      "PowerIndex": 1441,
+      "PowerSetID": 1195,
       "StaticIndex": 7380,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Edict_of_the_Master_C.Crafted_Edict_of_the_Master_C",

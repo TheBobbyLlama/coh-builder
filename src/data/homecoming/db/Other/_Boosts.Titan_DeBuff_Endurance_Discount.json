@@ -4,12 +4,12 @@
   "FullName": "Boosts.Titan_DeBuff_Endurance_Discount",
   "ImageName": "",
   "Power": [
-    2821
+    2833
   ],
   "SetType": 10,
   "DisplayName": "Titan DeBuff Endurance Discount",
   "nArchetype": -1,
-  "nID": 2576,
+  "nID": 2588,
   "SubName": "Titan (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2821,
-      "PowerSetID": 2576,
+      "PowerIndex": 2833,
+      "PowerSetID": 2588,
       "StaticIndex": 8644,
       "NGroupMembership": [],
       "FullName": "Boosts.Titan_DeBuff_Endurance_Discount.Titan_DeBuff_Endurance_Discount",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Javelin_Volley_A",
   "ImageName": "",
   "Power": [
-    1713
+    1719
   ],
   "SetType": 10,
   "DisplayName": "Crafted Javelin Volley A",
   "nArchetype": -1,
-  "nID": 1467,
+  "nID": 1473,
   "SubName": "Set: Javelin Volley",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1713,
-      "PowerSetID": 1467,
+      "PowerIndex": 1719,
+      "PowerSetID": 1473,
       "StaticIndex": 7658,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Javelin_Volley_A.Crafted_Javelin_Volley_A",

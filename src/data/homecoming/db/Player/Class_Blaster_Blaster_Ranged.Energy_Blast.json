@@ -873,7 +873,8 @@
       "FullSetName": "Blaster_Ranged.Energy_Blast",
       "CastTime": 1.0,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.67,
@@ -1721,7 +1722,8 @@
       "FullSetName": "Blaster_Ranged.Energy_Blast",
       "CastTime": 1.67,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.07,
@@ -2555,7 +2557,8 @@
       "FullSetName": "Blaster_Ranged.Energy_Blast",
       "CastTime": 1.07,
       "Slottable": true,
-      "AoEModifier": 2.37995839
+      "AoEModifier": 2.37995839,
+      "Taken": true
     },
     {
       "CastTimeReal": 2.0,
@@ -3402,7 +3405,8 @@
       "FullSetName": "Blaster_Ranged.Energy_Blast",
       "CastTime": 2.0,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 3.33,
@@ -4088,7 +4092,6 @@
           "Probability": 1.0,
           "Mag": 0.409493476,
           "MagPercent": 0.409493476,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Damage",
@@ -4145,7 +4148,6 @@
           "Probability": 1.0,
           "Mag": 0.955484748,
           "MagPercent": 0.955484748,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Damage",
@@ -4465,7 +4467,8 @@
       "FullSetName": "Blaster_Ranged.Energy_Blast",
       "CastTime": 3.33,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.17,
@@ -5063,7 +5066,8 @@
       "FullSetName": "Blaster_Ranged.Energy_Blast",
       "CastTime": 1.17,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.1,
@@ -5967,7 +5971,8 @@
       "FullSetName": "Blaster_Ranged.Energy_Blast",
       "CastTime": 1.1,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.67,

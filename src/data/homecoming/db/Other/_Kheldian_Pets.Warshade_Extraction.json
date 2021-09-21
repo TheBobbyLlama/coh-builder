@@ -4,16 +4,16 @@
   "FullName": "Kheldian_Pets.Warshade_Extraction",
   "ImageName": "",
   "Power": [
-    5666,
-    5667,
-    5668,
-    5669,
-    5670
+    5675,
+    5676,
+    5677,
+    5678,
+    5679
   ],
   "SetType": 8,
   "DisplayName": "Warshade Extraction",
   "nArchetype": -1,
-  "nID": 2899,
+  "nID": 2910,
   "SubName": "Warshade",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -26,8 +26,8 @@
   "Powers": [
     {
       "CastTimeReal": 1.0,
-      "PowerIndex": 5666,
-      "PowerSetID": 2899,
+      "PowerIndex": 5675,
+      "PowerSetID": 2910,
       "StaticIndex": 3252,
       "NGroupMembership": [],
       "FullName": "Kheldian_Pets.Warshade_Extraction.Shadow_Bolt",
@@ -439,8 +439,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5667,
-      "PowerSetID": 2899,
+      "PowerIndex": 5676,
+      "PowerSetID": 2910,
       "PowerSetIndex": 1,
       "StaticIndex": 3256,
       "NGroupMembership": [],
@@ -709,8 +709,8 @@
     },
     {
       "CastTimeReal": 1.0,
-      "PowerIndex": 5668,
-      "PowerSetID": 2899,
+      "PowerIndex": 5677,
+      "PowerSetID": 2910,
       "PowerSetIndex": 2,
       "StaticIndex": 3254,
       "NGroupMembership": [],
@@ -1125,8 +1125,8 @@
       "AoEModifier": 3.06993747
     },
     {
-      "PowerIndex": 5669,
-      "PowerSetID": 2899,
+      "PowerIndex": 5678,
+      "PowerSetID": 2910,
       "PowerSetIndex": 3,
       "StaticIndex": 3255,
       "NGroupMembership": [],
@@ -1231,8 +1231,8 @@
     },
     {
       "CastTimeReal": 1.67,
-      "PowerIndex": 5670,
-      "PowerSetID": 2899,
+      "PowerIndex": 5679,
+      "PowerSetID": 2910,
       "PowerSetIndex": 4,
       "StaticIndex": 3253,
       "NGroupMembership": [],

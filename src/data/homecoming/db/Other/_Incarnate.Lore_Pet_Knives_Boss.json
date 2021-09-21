@@ -4,15 +4,15 @@
   "FullName": "Incarnate.Lore_Pet_Knives_Boss",
   "ImageName": "",
   "Power": [
-    5350,
-    5351,
-    5352,
-    5353
+    5359,
+    5360,
+    5361,
+    5362
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Knives_Boss",
   "nArchetype": -1,
-  "nID": 2843,
+  "nID": 2854,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -25,8 +25,8 @@
   "Powers": [
     {
       "CastTimeReal": 1.0,
-      "PowerIndex": 5350,
-      "PowerSetID": 2843,
+      "PowerIndex": 5359,
+      "PowerSetID": 2854,
       "StaticIndex": 9489,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Knives_Boss.Focused_Shot",
@@ -207,8 +207,8 @@
     },
     {
       "CastTimeReal": 1.67,
-      "PowerIndex": 5351,
-      "PowerSetID": 2843,
+      "PowerIndex": 5360,
+      "PowerSetID": 2854,
       "PowerSetIndex": 1,
       "StaticIndex": 9490,
       "NGroupMembership": [],
@@ -917,8 +917,8 @@
     },
     {
       "CastTimeReal": 1.67,
-      "PowerIndex": 5352,
-      "PowerSetID": 2843,
+      "PowerIndex": 5361,
+      "PowerSetID": 2854,
       "PowerSetIndex": 2,
       "StaticIndex": 9492,
       "NGroupMembership": [],
@@ -1211,8 +1211,8 @@
     },
     {
       "CastTimeReal": 1.67,
-      "PowerIndex": 5353,
-      "PowerSetID": 2843,
+      "PowerIndex": 5362,
+      "PowerSetID": 2854,
       "PowerSetIndex": 3,
       "StaticIndex": 9491,
       "NGroupMembership": [],

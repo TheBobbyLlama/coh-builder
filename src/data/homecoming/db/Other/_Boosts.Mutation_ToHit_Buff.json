@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_ToHit_Buff",
   "ImageName": "",
   "Power": [
-    2399
+    2405
   ],
   "SetType": 10,
   "DisplayName": "Mutation ToHit Buff",
   "nArchetype": -1,
-  "nID": 2154,
+  "nID": 2160,
   "SubName": "Secondary Mutation (Mutation)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2399,
-      "PowerSetID": 2154,
+      "PowerIndex": 2405,
+      "PowerSetID": 2160,
       "StaticIndex": 8324,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_ToHit_Buff.Mutation_ToHit_Buff",

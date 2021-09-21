@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Jump",
   "ImageName": "",
   "Power": [
-    2332
+    2338
   ],
   "SetType": 10,
   "DisplayName": "Mutation Jump",
   "nArchetype": -1,
-  "nID": 2087,
+  "nID": 2093,
   "SubName": "Secondary Mutation (Mutation)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2332,
-      "PowerSetID": 2087,
+      "PowerIndex": 2338,
+      "PowerSetID": 2093,
       "StaticIndex": 8257,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Jump.Mutation_Jump",

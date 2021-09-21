@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Call_to_Arms_D",
   "ImageName": "",
   "Power": [
-    1298
+    1304
   ],
   "SetType": 10,
   "DisplayName": "Crafted Call to Arms D",
   "nArchetype": -1,
-  "nID": 1052,
+  "nID": 1058,
   "SubName": "Set: Call to Arms",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1298,
-      "PowerSetID": 1052,
+      "PowerIndex": 1304,
+      "PowerSetID": 1058,
       "StaticIndex": 7243,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Call_to_Arms_D.Crafted_Call_to_Arms_D",

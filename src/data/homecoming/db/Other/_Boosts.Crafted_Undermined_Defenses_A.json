@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Undermined_Defenses_A",
   "ImageName": "",
   "Power": [
-    2209
+    2215
   ],
   "SetType": 10,
   "DisplayName": "Crafted Undermined Defenses A",
   "nArchetype": -1,
-  "nID": 1961,
+  "nID": 1967,
   "SubName": "Set: Undermined Defenses",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2209,
-      "PowerSetID": 1961,
+      "PowerIndex": 2215,
+      "PowerSetID": 1967,
       "StaticIndex": 8134,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Undermined_Defenses_A.Crafted_Undermined_Defenses_A",

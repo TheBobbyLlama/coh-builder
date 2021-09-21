@@ -4,16 +4,16 @@
   "FullName": "Pool.Fighting",
   "ImageName": "Fighting.png",
   "Power": [
-    6713,
-    6714,
-    6715,
-    6716,
-    6717
+    6733,
+    6734,
+    6735,
+    6736,
+    6737
   ],
   "SetType": 5,
   "DisplayName": "Fighting",
   "nArchetype": -1,
-  "nID": 3282,
+  "nID": 3297,
   "SubName": "Fighting",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
     {
       "CastTimeReal": 1.07,
       "ToggleCost": 4.42,
-      "PowerIndex": 6713,
-      "PowerSetID": 3282,
+      "PowerIndex": 6733,
+      "PowerSetID": 3297,
       "StaticIndex": 1793,
       "NGroupMembership": [],
       "FullName": "Pool.Fighting.Boxing",
@@ -2076,8 +2076,8 @@
     {
       "CastTimeReal": 1.83,
       "ToggleCost": 4.94,
-      "PowerIndex": 6714,
-      "PowerSetID": 3282,
+      "PowerIndex": 6734,
+      "PowerSetID": 3297,
       "PowerSetIndex": 1,
       "StaticIndex": 1794,
       "NGroupMembership": [],
@@ -4169,8 +4169,8 @@
       "CastTimeReal": 3.1,
       "ToggleCost": 0.325,
       "IsEpic": true,
-      "PowerIndex": 6715,
-      "PowerSetID": 3282,
+      "PowerIndex": 6735,
+      "PowerSetID": 3297,
       "PowerSetIndex": 2,
       "StaticIndex": 1795,
       "NGroupMembership": [],
@@ -4186,11 +4186,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6713,
+            6733,
             -1
           ],
           [
-            6714,
+            6734,
             -1
           ]
         ],
@@ -4835,14 +4835,16 @@
       "FullSetName": "Pool.Fighting",
       "CastTime": 3.1,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 0.67,
       "ToggleCost": 0.325,
       "IsEpic": true,
-      "PowerIndex": 6716,
-      "PowerSetID": 3282,
+      "PowerIndex": 6736,
+      "PowerSetID": 3297,
       "PowerSetIndex": 3,
       "StaticIndex": 1796,
       "NGroupMembership": [],
@@ -4858,16 +4860,16 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6713,
-            6714
+            6733,
+            6734
           ],
           [
-            6713,
-            6715
+            6733,
+            6735
           ],
           [
-            6714,
-            6715
+            6734,
+            6735
           ]
         ],
         "NPowerIDNot": [],
@@ -6181,14 +6183,15 @@
       "CastTime": 0.67,
       "Slottable": true,
       "AoEModifier": 1.0,
+      "Active": true,
       "Taken": true
     },
     {
       "CastTimeReal": 1.67,
       "ToggleCost": 10.66,
       "IsEpic": true,
-      "PowerIndex": 6717,
-      "PowerSetID": 3282,
+      "PowerIndex": 6737,
+      "PowerSetID": 3297,
       "PowerSetIndex": 4,
       "StaticIndex": 9612,
       "NGroupMembership": [],
@@ -6204,28 +6207,28 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6713,
-            6714
+            6733,
+            6734
           ],
           [
-            6713,
-            6715
+            6733,
+            6735
           ],
           [
-            6713,
-            6716
+            6733,
+            6736
           ],
           [
-            6714,
-            6715
+            6734,
+            6735
           ],
           [
-            6714,
-            6716
+            6734,
+            6736
           ],
           [
-            6715,
-            6716
+            6735,
+            6736
           ]
         ],
         "NPowerIDNot": [],
@@ -6299,6 +6302,7 @@
         23,
         44
       ],
+      "ClickBuff": true,
       "Level": 14,
       "VariableEnabled": true,
       "VariableName": "Targets Hit",
@@ -6663,7 +6667,6 @@
           "MagPercent": 5.0,
           "Duration": 6.0,
           "DisplayPercentage": true,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Ones",
@@ -6724,7 +6727,6 @@
           "MagPercent": 5.0,
           "Duration": 6.0,
           "DisplayPercentage": true,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Ones",
@@ -6785,14 +6787,13 @@
           "MagPercent": 5.0,
           "Duration": 6.0,
           "DisplayPercentage": true,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Ones",
           "Special": "",
           "nID": 8,
           "EffectClass": 1,
-          "EffectType": 9,
+          "EffectType": 40,
           "ETModifies": 40,
           "Summon": "",
           "nSummon": -1,
@@ -6847,14 +6848,13 @@
           "MagPercent": 5.0,
           "Duration": 6.0,
           "DisplayPercentage": true,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Ones",
           "Special": "",
           "nID": 9,
           "EffectClass": 1,
-          "EffectType": 9,
+          "EffectType": 40,
           "ETModifies": 40,
           "Summon": "",
           "nSummon": -1,

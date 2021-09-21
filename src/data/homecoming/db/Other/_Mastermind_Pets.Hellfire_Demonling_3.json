@@ -4,12 +4,12 @@
   "FullName": "Mastermind_Pets.Hellfire_Demonling_3",
   "ImageName": "",
   "Power": [
-    5917
+    5926
   ],
   "SetType": 8,
   "DisplayName": "Hellfire Demonling",
   "nArchetype": -1,
-  "nID": 2951,
+  "nID": 2963,
   "SubName": "Demons",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
     {
       "CastTimeReal": 2.67,
       "ToggleCost": 15.184,
-      "PowerIndex": 5917,
-      "PowerSetID": 2951,
+      "PowerIndex": 5926,
+      "PowerSetID": 2963,
       "StaticIndex": 4232,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Hellfire_Demonling_3.Hellfire_Breath",

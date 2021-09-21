@@ -4,20 +4,20 @@
   "FullName": "Controller_Buff.Electrical_Affinity",
   "ImageName": "ShockTherapy.png",
   "Power": [
-    3172,
-    3173,
-    3174,
-    3175,
-    3176,
-    3177,
-    3178,
-    3179,
-    3180
+    3181,
+    3182,
+    3183,
+    3184,
+    3185,
+    3186,
+    3187,
+    3188,
+    3189
   ],
   "SetType": 2,
   "DisplayName": "Electrical Affinity",
   "nArchetype": 1,
-  "nID": 2623,
+  "nID": 2634,
   "SubName": "",
   "ATClass": "Class_Controller",
   "UIDTrunkSet": "",
@@ -31,8 +31,8 @@
     {
       "CastTimeReal": 2.0,
       "ToggleCost": 8.0,
-      "PowerIndex": 3172,
-      "PowerSetID": 2623,
+      "PowerIndex": 3181,
+      "PowerSetID": 2634,
       "StaticIndex": 10855,
       "NGroupMembership": [],
       "FullName": "Controller_Buff.Electrical_Affinity.Shock",
@@ -61,7 +61,13 @@
       "RechargeTime": 12.0,
       "BaseRechargeTime": 12.0,
       "MaxBoosts": "",
-      "BoostsAllowed": [],
+      "BoostsAllowed": [
+        "Accuracy_Boost",
+        "Recovery_Boost",
+        "EnduranceDiscount_Boost",
+        "Range_Boost",
+        "Recharge_Boost"
+      ],
       "Enhancements": [
         1,
         7,
@@ -805,8 +811,8 @@
     {
       "CastTimeReal": 1.17,
       "ToggleCost": 13.0,
-      "PowerIndex": 3173,
-      "PowerSetID": 2623,
+      "PowerIndex": 3182,
+      "PowerSetID": 2634,
       "PowerSetIndex": 1,
       "StaticIndex": 10856,
       "NGroupMembership": [],
@@ -840,7 +846,12 @@
       "Radius": 25.0,
       "MaxBoosts": "",
       "AIReport": 1,
-      "BoostsAllowed": [],
+      "BoostsAllowed": [
+        "EnduranceDiscount_Boost",
+        "Heal_Boost",
+        "Range_Boost",
+        "Recharge_Boost"
+      ],
       "Enhancements": [
         8,
         11,
@@ -925,8 +936,8 @@
     {
       "CastTimeReal": 2.03,
       "ToggleCost": 25.0,
-      "PowerIndex": 3174,
-      "PowerSetID": 2623,
+      "PowerIndex": 3183,
+      "PowerSetID": 2634,
       "PowerSetIndex": 2,
       "StaticIndex": 10857,
       "NGroupMembership": [],
@@ -956,7 +967,12 @@
       "EffectArea": 4,
       "MaxBoosts": "",
       "AIReport": 1,
-      "BoostsAllowed": [],
+      "BoostsAllowed": [
+        "Accuracy_Boost",
+        "Recovery_Boost",
+        "EnduranceDiscount_Boost",
+        "Recharge_Boost"
+      ],
       "Enhancements": [
         1,
         7,
@@ -1040,8 +1056,8 @@
     {
       "CastTimeReal": 1.67,
       "ToggleCost": 13.0,
-      "PowerIndex": 3175,
-      "PowerSetID": 2623,
+      "PowerIndex": 3184,
+      "PowerSetID": 2634,
       "PowerSetIndex": 3,
       "StaticIndex": 10858,
       "NGroupMembership": [],
@@ -1075,7 +1091,12 @@
       "Radius": 25.0,
       "MaxBoosts": "",
       "AIReport": 1,
-      "BoostsAllowed": [],
+      "BoostsAllowed": [
+        "Recovery_Boost",
+        "EnduranceDiscount_Boost",
+        "Range_Boost",
+        "Recharge_Boost"
+      ],
       "Enhancements": [
         7,
         8,
@@ -1216,8 +1237,8 @@
     {
       "CastTimeReal": 1.07,
       "ToggleCost": 13.0,
-      "PowerIndex": 3176,
-      "PowerSetID": 2623,
+      "PowerIndex": 3185,
+      "PowerSetID": 2634,
       "PowerSetIndex": 4,
       "StaticIndex": 10859,
       "NGroupMembership": [],
@@ -1249,7 +1270,11 @@
       "EffectArea": 4,
       "MaxBoosts": "",
       "AIReport": 1,
-      "BoostsAllowed": [],
+      "BoostsAllowed": [
+        "EnduranceDiscount_Boost",
+        "Recharge_Boost",
+        "Res_Damage_Boost"
+      ],
       "Enhancements": [
         8,
         18,
@@ -2539,8 +2564,8 @@
     {
       "CastTimeReal": 1.0,
       "ToggleCost": 13.0,
-      "PowerIndex": 3177,
-      "PowerSetID": 2623,
+      "PowerIndex": 3186,
+      "PowerSetID": 2634,
       "PowerSetIndex": 5,
       "StaticIndex": 10860,
       "NGroupMembership": [],
@@ -2574,7 +2599,12 @@
       "Radius": 25.0,
       "MaxBoosts": "",
       "AIReport": 1,
-      "BoostsAllowed": [],
+      "BoostsAllowed": [
+        "EnduranceDiscount_Boost",
+        "Range_Boost",
+        "Recharge_Boost",
+        "Buff_ToHit_Boost"
+      ],
       "Enhancements": [
         8,
         17,
@@ -3133,8 +3163,8 @@
     {
       "CastTimeReal": 3.3,
       "ToggleCost": 26.0,
-      "PowerIndex": 3178,
-      "PowerSetID": 2623,
+      "PowerIndex": 3187,
+      "PowerSetID": 2634,
       "PowerSetIndex": 6,
       "StaticIndex": 10861,
       "NGroupMembership": [],
@@ -3167,7 +3197,13 @@
       "Radius": 20.0,
       "MaxBoosts": "",
       "AIReport": 1,
-      "BoostsAllowed": [],
+      "BoostsAllowed": [
+        "Accuracy_Boost",
+        "Recovery_Boost",
+        "EnduranceDiscount_Boost",
+        "Recharge_Boost",
+        "Sleep_Boost"
+      ],
       "Enhancements": [
         1,
         7,
@@ -3548,8 +3584,8 @@
     {
       "CastTimeReal": 1.0,
       "ToggleCost": 13.0,
-      "PowerIndex": 3179,
-      "PowerSetID": 2623,
+      "PowerIndex": 3188,
+      "PowerSetID": 2634,
       "PowerSetIndex": 7,
       "StaticIndex": 10862,
       "NGroupMembership": [],
@@ -3583,7 +3619,12 @@
       "Radius": 25.0,
       "MaxBoosts": "",
       "AIReport": 1,
-      "BoostsAllowed": [],
+      "BoostsAllowed": [
+        "EnduranceDiscount_Boost",
+        "Heal_Boost",
+        "Range_Boost",
+        "Recharge_Boost"
+      ],
       "Enhancements": [
         8,
         11,
@@ -3731,8 +3772,8 @@
     {
       "CastTimeReal": 2.57,
       "ToggleCost": 10.4,
-      "PowerIndex": 3180,
-      "PowerSetID": 2623,
+      "PowerIndex": 3189,
+      "PowerSetID": 2634,
       "PowerSetIndex": 8,
       "StaticIndex": 10864,
       "NGroupMembership": [],
@@ -3764,7 +3805,11 @@
       "BaseRechargeTime": 300.0,
       "MaxBoosts": "",
       "AIReport": 1,
-      "BoostsAllowed": [],
+      "BoostsAllowed": [
+        "EnduranceDiscount_Boost",
+        "Range_Boost",
+        "Recharge_Boost"
+      ],
       "Enhancements": [
         8,
         17,

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Natural_Recharge",
   "ImageName": "",
   "Power": [
-    2793
+    2805
   ],
   "SetType": 10,
   "DisplayName": "Technology Natural Recharge",
   "nArchetype": -1,
-  "nID": 2549,
+  "nID": 2561,
   "SubName": "Gadget (Technology, Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2793,
-      "PowerSetID": 2549,
+      "PowerIndex": 2805,
+      "PowerSetID": 2561,
       "StaticIndex": 8616,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Natural_Recharge.Technology_Natural_Recharge",

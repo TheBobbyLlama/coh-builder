@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Impervious_Skin_A",
   "ImageName": "",
   "Power": [
-    1673
+    1679
   ],
   "SetType": 10,
   "DisplayName": "Crafted Impervious Skin A",
   "nArchetype": -1,
-  "nID": 1427,
+  "nID": 1433,
   "SubName": "Set: Impervious Skin",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1673,
-      "PowerSetID": 1427,
+      "PowerIndex": 1679,
+      "PowerSetID": 1433,
       "StaticIndex": 7618,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Impervious_Skin_A.Crafted_Impervious_Skin_A",

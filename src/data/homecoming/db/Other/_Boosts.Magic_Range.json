@@ -4,12 +4,12 @@
   "FullName": "Boosts.Magic_Range",
   "ImageName": "",
   "Power": [
-    2306
+    2312
   ],
   "SetType": 10,
   "DisplayName": "Magic Range",
   "nArchetype": -1,
-  "nID": 2061,
+  "nID": 2067,
   "SubName": "Dimensional Entities (Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2306,
-      "PowerSetID": 2061,
+      "PowerIndex": 2312,
+      "PowerSetID": 2067,
       "StaticIndex": 8231,
       "NGroupMembership": [],
       "FullName": "Boosts.Magic_Range.Magic_Range",

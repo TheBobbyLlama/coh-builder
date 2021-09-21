@@ -4,12 +4,12 @@
   "FullName": "Boosts.Synthetic_Hamidon_Accuracy_Mez",
   "ImageName": "",
   "Power": [
-    2747
+    2759
   ],
   "SetType": 10,
   "DisplayName": "Synthetic Hamidon Accuracy Mez",
   "nArchetype": -1,
-  "nID": 2502,
+  "nID": 2514,
   "SubName": "Hamidon (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2747,
-      "PowerSetID": 2502,
+      "PowerIndex": 2759,
+      "PowerSetID": 2514,
       "StaticIndex": 8570,
       "NGroupMembership": [],
       "FullName": "Boosts.Synthetic_Hamidon_Accuracy_Mez.Synthetic_Hamidon_Accuracy_Mez",

@@ -4,13 +4,13 @@
   "FullName": "Villain_Pets.Kinetic_Melee_Assassins_Strike",
   "ImageName": "",
   "Power": [
-    10156,
-    10157
+    10172,
+    10173
   ],
   "SetType": 8,
   "DisplayName": "",
   "nArchetype": -1,
-  "nID": 3437,
+  "nID": 3451,
   "SubName": "Kinetic Melee",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
     {
       "CastTimeReal": 2.67,
       "ToggleCost": 14.352,
-      "PowerIndex": 10156,
-      "PowerSetID": 3437,
+      "PowerIndex": 10172,
+      "PowerSetID": 3451,
       "StaticIndex": 6332,
       "NGroupMembership": [],
       "FullName": "Villain_Pets.Kinetic_Melee_Assassins_Strike.Assassins_Strike_Stealth",
@@ -388,7 +388,7 @@
           "nID": 5,
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.Demoralized",
-          "nSummon": 9289,
+          "nSummon": 9305,
           "SpecialCase": 9,
           "UIDClassName": "",
           "nIDClassName": -1,
@@ -554,8 +554,8 @@
     {
       "CastTimeReal": 0.67,
       "ToggleCost": 14.352,
-      "PowerIndex": 10157,
-      "PowerSetID": 3437,
+      "PowerIndex": 10173,
+      "PowerSetID": 3451,
       "PowerSetIndex": 1,
       "StaticIndex": 6333,
       "NGroupMembership": [],

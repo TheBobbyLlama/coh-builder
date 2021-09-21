@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Apocalypse_E",
   "ImageName": "",
   "Power": [
-    1236
+    1242
   ],
   "SetType": 10,
   "DisplayName": "Crafted Apocalypse E",
   "nArchetype": -1,
-  "nID": 991,
+  "nID": 997,
   "SubName": "Set: Apocalypse",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1236,
-      "PowerSetID": 991,
+      "PowerIndex": 1242,
+      "PowerSetID": 997,
       "StaticIndex": 7182,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Apocalypse_E.Crafted_Apocalypse_E",

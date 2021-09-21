@@ -4,13 +4,13 @@
   "FullName": "Villain_Pets.Electric_Melee_Assassins_Strike",
   "ImageName": "",
   "Power": [
-    10126,
-    10127
+    10142,
+    10143
   ],
   "SetType": 8,
   "DisplayName": "",
   "nArchetype": -1,
-  "nID": 3432,
+  "nID": 3458,
   "SubName": "Electrical Melee",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
     {
       "CastTimeReal": 3.0,
       "ToggleCost": 14.352,
-      "PowerIndex": 10126,
-      "PowerSetID": 3432,
+      "PowerIndex": 10142,
+      "PowerSetID": 3458,
       "StaticIndex": 6328,
       "NGroupMembership": [],
       "FullName": "Villain_Pets.Electric_Melee_Assassins_Strike.Assassins_Shock_Stealth",
@@ -388,7 +388,7 @@
           "nID": 5,
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.Demoralized",
-          "nSummon": 9289,
+          "nSummon": 9305,
           "SpecialCase": 9,
           "UIDClassName": "",
           "nIDClassName": -1,
@@ -554,8 +554,8 @@
     {
       "CastTimeReal": 1.0,
       "ToggleCost": 14.352,
-      "PowerIndex": 10127,
-      "PowerSetID": 3432,
+      "PowerIndex": 10143,
+      "PowerSetID": 3458,
       "PowerSetIndex": 1,
       "StaticIndex": 6329,
       "NGroupMembership": [],

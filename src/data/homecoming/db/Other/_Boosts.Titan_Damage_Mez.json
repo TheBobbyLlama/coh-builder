@@ -4,12 +4,12 @@
   "FullName": "Boosts.Titan_Damage_Mez",
   "ImageName": "",
   "Power": [
-    2818
+    2830
   ],
   "SetType": 10,
   "DisplayName": "Titan Damage Mez",
   "nArchetype": -1,
-  "nID": 2573,
+  "nID": 2585,
   "SubName": "Titan (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2818,
-      "PowerSetID": 2573,
+      "PowerIndex": 2830,
+      "PowerSetID": 2585,
       "StaticIndex": 8641,
       "NGroupMembership": [],
       "FullName": "Boosts.Titan_Damage_Mez.Titan_Damage_Mez",

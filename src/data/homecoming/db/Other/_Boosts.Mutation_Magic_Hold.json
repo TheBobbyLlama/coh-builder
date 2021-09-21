@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Magic_Hold",
   "ImageName": "",
   "Power": [
-    2345
+    2351
   ],
   "SetType": 10,
   "DisplayName": "Mutation Magic Hold",
   "nArchetype": -1,
-  "nID": 2100,
+  "nID": 2106,
   "SubName": "Focusing Device (Mutation, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2345,
-      "PowerSetID": 2100,
+      "PowerIndex": 2351,
+      "PowerSetID": 2106,
       "StaticIndex": 8270,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Magic_Hold.Mutation_Magic_Hold",

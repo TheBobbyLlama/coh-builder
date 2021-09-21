@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Gaussians_Synchronized_FireControl_C",
   "ImageName": "",
   "Power": [
-    1563
+    1569
   ],
   "SetType": 10,
   "DisplayName": "Crafted Gaussians Synchronized FireControl C",
   "nArchetype": -1,
-  "nID": 1317,
+  "nID": 1323,
   "SubName": "Set: Gaussian's Synchronized Fire-Control",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1563,
-      "PowerSetID": 1317,
+      "PowerIndex": 1569,
+      "PowerSetID": 1323,
       "StaticIndex": 7508,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Gaussians_Synchronized_FireControl_C.Crafted_Gaussians_Synchronized_FireControl_C",

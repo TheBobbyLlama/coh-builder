@@ -4,12 +4,12 @@
   "FullName": "Boosts.Magic_Drain_Endurance",
   "ImageName": "",
   "Power": [
-    2295
+    2301
   ],
   "SetType": 10,
   "DisplayName": "Magic Endurance",
   "nArchetype": -1,
-  "nID": 2049,
+  "nID": 2056,
   "SubName": "Dimensional Entities (Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2295,
-      "PowerSetID": 2049,
+      "PowerIndex": 2301,
+      "PowerSetID": 2056,
       "StaticIndex": 8220,
       "NGroupMembership": [],
       "FullName": "Boosts.Magic_Drain_Endurance.Magic_Drain_Endurance",

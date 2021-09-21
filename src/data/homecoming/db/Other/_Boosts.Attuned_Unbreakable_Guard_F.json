@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Unbreakable_Guard_F",
   "ImageName": "",
   "Power": [
-    1129
+    1135
   ],
   "SetType": 10,
   "DisplayName": "Attuned Unbreakable Guard F",
   "nArchetype": -1,
-  "nID": 884,
+  "nID": 890,
   "SubName": "Set: Unbreakable Guard",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1129,
-      "PowerSetID": 884,
+      "PowerIndex": 1135,
+      "PowerSetID": 890,
       "StaticIndex": 9289,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Unbreakable_Guard_F.Attuned_Unbreakable_Guard_F",

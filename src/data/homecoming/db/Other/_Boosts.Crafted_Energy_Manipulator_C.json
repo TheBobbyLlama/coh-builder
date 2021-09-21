@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Energy_Manipulator_C",
   "ImageName": "",
   "Power": [
-    1460
+    1466
   ],
   "SetType": 10,
   "DisplayName": "Crafted Energy Manipulator C",
   "nArchetype": -1,
-  "nID": 1214,
+  "nID": 1220,
   "SubName": "Set: Energy Manipulator",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1460,
-      "PowerSetID": 1214,
+      "PowerIndex": 1466,
+      "PowerSetID": 1220,
       "StaticIndex": 7405,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Energy_Manipulator_C.Crafted_Energy_Manipulator_C",

@@ -4,20 +4,20 @@
   "FullName": "Brute_Melee.Titan_Weapons",
   "ImageName": "TitanWeapons.png",
   "Power": [
-    3133,
-    3134,
-    3135,
-    3136,
-    3137,
-    3138,
-    3139,
-    3140,
-    3141
+    3145,
+    3146,
+    3147,
+    3148,
+    3149,
+    3150,
+    3151,
+    3152,
+    3153
   ],
   "SetType": 1,
   "DisplayName": "Titan Weapons",
   "nArchetype": 8,
-  "nID": 2618,
+  "nID": 2630,
   "SubName": "Titan Weapons",
   "ATClass": "Class_Brute",
   "UIDTrunkSet": "",
@@ -31,8 +31,8 @@
     {
       "CastTimeReal": 2.2,
       "ToggleCost": 5.356,
-      "PowerIndex": 3133,
-      "PowerSetID": 2618,
+      "PowerIndex": 3145,
+      "PowerSetID": 2630,
       "StaticIndex": 5866,
       "NGroupMembership": [],
       "FullName": "Brute_Melee.Titan_Weapons.Defensive_Sweep",
@@ -1163,13 +1163,15 @@
       "FullSetName": "Brute_Melee.Titan_Weapons",
       "CastTime": 2.2,
       "Slottable": true,
-      "AoEModifier": 1.61999214
+      "AoEModifier": 1.61999214,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 2.0,
       "ToggleCost": 8.78384,
-      "PowerIndex": 3134,
-      "PowerSetID": 2618,
+      "PowerIndex": 3146,
+      "PowerSetID": 2630,
       "PowerSetIndex": 1,
       "StaticIndex": 5867,
       "NGroupMembership": [],
@@ -2057,8 +2059,8 @@
     {
       "CastTimeReal": 2.43,
       "ToggleCost": 10.49776,
-      "PowerIndex": 3135,
-      "PowerSetID": 2618,
+      "PowerIndex": 3147,
+      "PowerSetID": 2630,
       "PowerSetIndex": 2,
       "StaticIndex": 5868,
       "NGroupMembership": [],
@@ -3062,8 +3064,8 @@
     {
       "CastTimeReal": 1.17,
       "ToggleCost": 5.2,
-      "PowerIndex": 3136,
-      "PowerSetID": 2618,
+      "PowerIndex": 3148,
+      "PowerSetID": 2630,
       "PowerSetIndex": 3,
       "StaticIndex": 5869,
       "NGroupMembership": [],
@@ -3766,13 +3768,14 @@
       "FullSetName": "Brute_Melee.Titan_Weapons",
       "CastTime": 1.17,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.1,
       "ToggleCost": 10.49776,
-      "PowerIndex": 3137,
-      "PowerSetID": 2618,
+      "PowerIndex": 3149,
+      "PowerSetID": 2630,
       "PowerSetIndex": 4,
       "StaticIndex": 5870,
       "NGroupMembership": [],
@@ -4406,12 +4409,13 @@
       "FullSetName": "Brute_Melee.Titan_Weapons",
       "CastTime": 1.1,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.67,
-      "PowerIndex": 3138,
-      "PowerSetID": 2618,
+      "PowerIndex": 3150,
+      "PowerSetID": 2630,
       "PowerSetIndex": 5,
       "StaticIndex": 5871,
       "NGroupMembership": [],
@@ -4715,13 +4719,14 @@
       "FullSetName": "Brute_Melee.Titan_Weapons",
       "CastTime": 1.67,
       "Slottable": true,
-      "AoEModifier": 3.25
+      "AoEModifier": 3.25,
+      "Taken": true
     },
     {
       "CastTimeReal": 2.3,
       "ToggleCost": 15.63952,
-      "PowerIndex": 3139,
-      "PowerSetID": 2618,
+      "PowerIndex": 3151,
+      "PowerSetID": 2630,
       "PowerSetIndex": 6,
       "StaticIndex": 5872,
       "NGroupMembership": [],
@@ -6045,13 +6050,14 @@
       "FullSetName": "Brute_Melee.Titan_Weapons",
       "CastTime": 2.3,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.0,
       "ToggleCost": 13.9256,
-      "PowerIndex": 3140,
-      "PowerSetID": 2618,
+      "PowerIndex": 3152,
+      "PowerSetID": 2630,
       "PowerSetIndex": 7,
       "StaticIndex": 5873,
       "NGroupMembership": [],
@@ -6568,13 +6574,15 @@
       "FullSetName": "Brute_Melee.Titan_Weapons",
       "CastTime": 1.0,
       "Slottable": true,
-      "AoEModifier": 2.5
+      "AoEModifier": 2.5,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 2.7,
       "ToggleCost": 15.64,
-      "PowerIndex": 3141,
-      "PowerSetID": 2618,
+      "PowerIndex": 3153,
+      "PowerSetID": 2630,
       "PowerSetIndex": 8,
       "StaticIndex": 5874,
       "NGroupMembership": [],
@@ -7568,7 +7576,8 @@
       "FullSetName": "Brute_Melee.Titan_Weapons",
       "CastTime": 2.7,
       "Slottable": true,
-      "AoEModifier": 1.61999214
+      "AoEModifier": 1.61999214,
+      "Taken": true
     }
   ]
 }

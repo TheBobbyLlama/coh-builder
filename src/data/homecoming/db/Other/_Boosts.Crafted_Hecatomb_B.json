@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Hecatomb_B",
   "ImageName": "",
   "Power": [
-    1632
+    1638
   ],
   "SetType": 10,
   "DisplayName": "Crafted Hecatomb B",
   "nArchetype": -1,
-  "nID": 1386,
+  "nID": 1392,
   "SubName": "Set: Hecatomb",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1632,
-      "PowerSetID": 1386,
+      "PowerIndex": 1638,
+      "PowerSetID": 1392,
       "StaticIndex": 7577,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Hecatomb_B.Crafted_Hecatomb_B",

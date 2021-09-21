@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Science_Defense_Buff",
   "ImageName": "",
   "Power": [
-    2371
+    2377
   ],
   "SetType": 10,
   "DisplayName": "Mutation Science Defense Buff",
   "nArchetype": -1,
-  "nID": 2125,
+  "nID": 2131,
   "SubName": "Genetic Alteration (Mutation, Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2371,
-      "PowerSetID": 2125,
+      "PowerIndex": 2377,
+      "PowerSetID": 2131,
       "StaticIndex": 8296,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Science_Defense_Buff.Mutation_Science_Defense_Buff",

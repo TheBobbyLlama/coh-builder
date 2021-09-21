@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Drain_Endurance",
   "ImageName": "",
   "Power": [
-    2323
+    2329
   ],
   "SetType": 10,
   "DisplayName": "Mutation Endurance",
   "nArchetype": -1,
-  "nID": 2077,
+  "nID": 2083,
   "SubName": "Secondary Mutation (Mutation)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2323,
-      "PowerSetID": 2077,
+      "PowerIndex": 2329,
+      "PowerSetID": 2083,
       "StaticIndex": 8248,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Drain_Endurance.Mutation_Drain_Endurance",

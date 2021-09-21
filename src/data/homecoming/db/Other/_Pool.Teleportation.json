@@ -4,16 +4,16 @@
   "FullName": "Pool.Teleportation",
   "ImageName": "Teleportation.png",
   "Power": [
-    6770,
-    6771,
-    6772,
-    6773,
-    6774
+    6785,
+    6786,
+    6787,
+    6788,
+    6789
   ],
   "SetType": 5,
   "DisplayName": "Teleportation",
   "nArchetype": -1,
-  "nID": 3291,
+  "nID": 3306,
   "SubName": "Teleportation",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
     {
       "CastTimeReal": 3.17,
       "ToggleCost": 15.0,
-      "PowerIndex": 6770,
-      "PowerSetID": 3291,
+      "PowerIndex": 6785,
+      "PowerSetID": 3306,
       "StaticIndex": 1829,
       "NGroupMembership": [],
       "FullName": "Pool.Teleportation.Recall_Friend",
@@ -999,14 +999,13 @@
       "FullSetName": "Pool.Teleportation",
       "CastTime": 3.17,
       "Slottable": true,
-      "AoEModifier": 1.0,
-      "Taken": true
+      "AoEModifier": 1.0
     },
     {
       "CastTimeReal": 2.0,
       "ToggleCost": 13.0,
-      "PowerIndex": 6771,
-      "PowerSetID": 3291,
+      "PowerIndex": 6786,
+      "PowerSetID": 3306,
       "PowerSetIndex": 1,
       "StaticIndex": 1831,
       "NGroupMembership": [],
@@ -1411,13 +1410,14 @@
       "FullSetName": "Pool.Teleportation",
       "CastTime": 2.0,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 0.67,
       "ToggleCost": 5.57,
-      "PowerIndex": 6772,
-      "PowerSetID": 3291,
+      "PowerIndex": 6787,
+      "PowerSetID": 3306,
       "PowerSetIndex": 2,
       "StaticIndex": 1830,
       "NGroupMembership": [],
@@ -1476,6 +1476,7 @@
         25,
         28
       ],
+      "ClickBuff": true,
       "Level": 4,
       "VariableName": "",
       "NIDSubPower": [],
@@ -1585,14 +1586,15 @@
       "FullSetName": "Pool.Teleportation",
       "CastTime": 0.67,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.67,
       "ToggleCost": 13.52,
       "IsEpic": true,
-      "PowerIndex": 6773,
-      "PowerSetID": 3291,
+      "PowerIndex": 6788,
+      "PowerSetID": 3306,
       "PowerSetIndex": 3,
       "StaticIndex": 5635,
       "NGroupMembership": [],
@@ -1608,16 +1610,16 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6770,
-            6772
+            6785,
+            6787
           ],
           [
-            6770,
-            6771
+            6785,
+            6786
           ],
           [
-            6772,
-            6771
+            6787,
+            6786
           ]
         ],
         "NPowerIDNot": [],
@@ -1658,6 +1660,7 @@
         "Recharge_Boost"
       ],
       "Enhancements": [
+        1,
         8,
         18
       ],
@@ -1790,8 +1793,8 @@
       "CastTimeReal": 1.67,
       "ToggleCost": 16.0,
       "IsEpic": true,
-      "PowerIndex": 6774,
-      "PowerSetID": 3291,
+      "PowerIndex": 6789,
+      "PowerSetID": 3306,
       "PowerSetIndex": 4,
       "StaticIndex": 1832,
       "NGroupMembership": [],
@@ -1807,16 +1810,16 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6770,
-            6772
+            6785,
+            6787
           ],
           [
-            6770,
-            6771
+            6785,
+            6786
           ],
           [
-            6772,
-            6771
+            6787,
+            6786
           ]
         ],
         "NPowerIDNot": [],

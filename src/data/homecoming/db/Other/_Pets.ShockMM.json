@@ -4,12 +4,12 @@
   "FullName": "Pets.ShockMM",
   "ImageName": "",
   "Power": [
-    6514
+    6534
   ],
   "SetType": 8,
   "DisplayName": "Liquefy",
   "nArchetype": -1,
-  "nID": 3133,
+  "nID": 3147,
   "SubName": "Sonic Attack",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6514,
-      "PowerSetID": 3133,
+      "PowerIndex": 6534,
+      "PowerSetID": 3147,
       "StaticIndex": 5608,
       "NGroupMembership": [],
       "FullName": "Pets.ShockMM.Liquefy",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Titan_Travel_Endurance_Discount",
   "ImageName": "",
   "Power": [
-    2824
+    2836
   ],
   "SetType": 10,
   "DisplayName": "Titan Travel Endurance Discount",
   "nArchetype": -1,
-  "nID": 2579,
+  "nID": 2591,
   "SubName": "Titan (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2824,
-      "PowerSetID": 2579,
+      "PowerIndex": 2836,
+      "PowerSetID": 2591,
       "StaticIndex": 8647,
       "NGroupMembership": [],
       "FullName": "Boosts.Titan_Travel_Endurance_Discount.Titan_Travel_Endurance_Discount",

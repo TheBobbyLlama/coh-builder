@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Range",
   "ImageName": "",
   "Power": [
-    2474
+    2480
   ],
   "SetType": 10,
   "DisplayName": "Science Range",
   "nArchetype": -1,
-  "nID": 2230,
+  "nID": 2236,
   "SubName": "Experiment (Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2474,
-      "PowerSetID": 2230,
+      "PowerIndex": 2480,
+      "PowerSetID": 2236,
       "StaticIndex": 8399,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Range.Science_Range",

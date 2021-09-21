@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Natural_Intangible",
   "ImageName": "",
   "Power": [
-    2788
+    2800
   ],
   "SetType": 10,
   "DisplayName": "Technology Natural Intangible",
   "nArchetype": -1,
-  "nID": 2543,
+  "nID": 2555,
   "SubName": "Gadget (Technology, Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2788,
-      "PowerSetID": 2543,
+      "PowerIndex": 2800,
+      "PowerSetID": 2555,
       "StaticIndex": 8611,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Natural_Intangible.Technology_Natural_Intangible",

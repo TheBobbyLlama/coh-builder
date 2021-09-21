@@ -4,16 +4,16 @@
   "FullName": "Epic.Earth_Mastery",
   "ImageName": "StoneMastery.png",
   "Power": [
-    4208,
-    4209,
-    4210,
-    4211,
-    4212
+    4217,
+    4218,
+    4219,
+    4220,
+    4221
   ],
   "SetType": 3,
   "DisplayName": "Earth Mastery",
   "nArchetype": -1,
-  "nID": 2733,
+  "nID": 2744,
   "SubName": "Earth Mastery",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
     {
       "CastTimeReal": 1.93,
       "ToggleCost": 9.75,
-      "PowerIndex": 4208,
-      "PowerSetID": 2733,
+      "PowerIndex": 4217,
+      "PowerSetID": 2744,
       "StaticIndex": 915,
       "NGroupMembership": [],
       "FullName": "Epic.Earth_Mastery.Stone_Prison",
@@ -1003,8 +1003,8 @@
     {
       "CastTimeReal": 1.07,
       "ToggleCost": 19.5,
-      "PowerIndex": 4209,
-      "PowerSetID": 2733,
+      "PowerIndex": 4218,
+      "PowerSetID": 2744,
       "PowerSetIndex": 1,
       "StaticIndex": 916,
       "NGroupMembership": [],
@@ -1504,8 +1504,8 @@
       "CastTimeReal": 2.07,
       "ToggleCost": 10.66,
       "IsEpic": true,
-      "PowerIndex": 4210,
-      "PowerSetID": 2733,
+      "PowerIndex": 4219,
+      "PowerSetID": 2744,
       "PowerSetIndex": 2,
       "StaticIndex": 917,
       "NGroupMembership": [],
@@ -1521,11 +1521,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4208,
+            4217,
             -1
           ],
           [
-            4209,
+            4218,
             -1
           ]
         ],
@@ -2130,8 +2130,8 @@
       "CastTimeReal": 3.1,
       "ToggleCost": 7.8,
       "IsEpic": true,
-      "PowerIndex": 4211,
-      "PowerSetID": 2733,
+      "PowerIndex": 4220,
+      "PowerSetID": 2744,
       "PowerSetIndex": 3,
       "StaticIndex": 3305,
       "NGroupMembership": [],
@@ -2147,11 +2147,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4208,
+            4217,
             -1
           ],
           [
-            4209,
+            4218,
             -1
           ]
         ],
@@ -2219,6 +2219,7 @@
           "MagPercent": -100.0,
           "Duration": 45.0,
           "DisplayPercentage": true,
+          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Ones",
@@ -2274,6 +2275,7 @@
           "MagPercent": 5000.0,
           "Duration": 15.0,
           "DisplayPercentage": true,
+          "VariableModified": true,
           "Reward": "",
           "EffectId": "FieryEmbrace",
           "Special": "",
@@ -2335,8 +2337,8 @@
       "CastTimeReal": 2.1,
       "ToggleCost": 18.98,
       "IsEpic": true,
-      "PowerIndex": 4212,
-      "PowerSetID": 2733,
+      "PowerIndex": 4221,
+      "PowerSetID": 2744,
       "PowerSetIndex": 4,
       "StaticIndex": 918,
       "NGroupMembership": [],
@@ -2352,24 +2354,24 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4208,
-            4209
+            4217,
+            4218
           ],
           [
-            4208,
-            4210
+            4217,
+            4219
           ],
           [
-            4208,
-            4211
+            4217,
+            4220
           ],
           [
-            4209,
-            4210
+            4218,
+            4219
           ],
           [
-            4209,
-            4211
+            4218,
+            4220
           ]
         ],
         "NPowerIDNot": [],

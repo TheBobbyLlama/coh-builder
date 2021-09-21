@@ -4,12 +4,12 @@
   "FullName": "Mastermind_Pets.Cold_Demonling_3",
   "ImageName": "",
   "Power": [
-    5841
+    5850
   ],
   "SetType": 8,
   "DisplayName": "Cold Demonling",
   "nArchetype": -1,
-  "nID": 2926,
+  "nID": 2937,
   "SubName": "Demons",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
     {
       "CastTimeReal": 2.67,
       "ToggleCost": 15.184,
-      "PowerIndex": 5841,
-      "PowerSetID": 2926,
+      "PowerIndex": 5850,
+      "PowerSetID": 2937,
       "StaticIndex": 4195,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Cold_Demonling_3.Frost_Breath",

@@ -4,14 +4,14 @@
   "FullName": "Incarnate.Destiny_Silent",
   "ImageName": "",
   "Power": [
-    4700,
-    4701,
-    4702
+    4709,
+    4710,
+    4711
   ],
   "SetType": 11,
   "DisplayName": "Destiny_Silent",
   "nArchetype": -1,
-  "nID": 2803,
+  "nID": 2814,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "GroupName": "Incarnate",
   "Powers": [
     {
-      "PowerIndex": 4700,
-      "PowerSetID": 2803,
+      "PowerIndex": 4709,
+      "PowerSetID": 2814,
       "StaticIndex": 5044,
       "NGroupMembership": [],
       "FullName": "Incarnate.Destiny_Silent.Level_Shift",
@@ -129,8 +129,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 4701,
-      "PowerSetID": 2803,
+      "PowerIndex": 4710,
+      "PowerSetID": 2814,
       "PowerSetIndex": 1,
       "StaticIndex": 5940,
       "NGroupMembership": [],
@@ -414,8 +414,8 @@
       "AoEModifier": 5.5
     },
     {
-      "PowerIndex": 4702,
-      "PowerSetID": 2803,
+      "PowerIndex": 4711,
+      "PowerSetID": 2814,
       "PowerSetIndex": 2,
       "StaticIndex": 5941,
       "NGroupMembership": [],

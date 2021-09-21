@@ -4,13 +4,13 @@
   "FullName": "Pets.Water_Blast_Corruptor",
   "ImageName": "",
   "Power": [
-    6680,
-    6681
+    6700,
+    6701
   ],
   "SetType": 8,
   "DisplayName": "Water Blast",
   "nArchetype": -1,
-  "nID": 3268,
+  "nID": 3284,
   "SubName": "Water Blast",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
     {
       "CastTimeReal": 1.43,
       "ToggleCost": 10.192,
-      "PowerIndex": 6680,
-      "PowerSetID": 3268,
+      "PowerIndex": 6700,
+      "PowerSetID": 3284,
       "StaticIndex": 9121,
       "NGroupMembership": [],
       "FullName": "Pets.Water_Blast_Corruptor.Water_Jet_Normal",
@@ -691,7 +691,7 @@
           "nID": 10,
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.Tidal_Power",
-          "nSummon": 9954,
+          "nSummon": 9970,
           "SpecialCase": 42,
           "UIDClassName": "",
           "nIDClassName": -1,
@@ -742,8 +742,8 @@
     {
       "CastTimeReal": 1.0,
       "ToggleCost": 5.096,
-      "PowerIndex": 6681,
-      "PowerSetID": 3268,
+      "PowerIndex": 6701,
+      "PowerSetID": 3284,
       "PowerSetIndex": 1,
       "StaticIndex": 9122,
       "NGroupMembership": [],

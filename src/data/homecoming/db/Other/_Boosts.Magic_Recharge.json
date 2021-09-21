@@ -4,12 +4,12 @@
   "FullName": "Boosts.Magic_Recharge",
   "ImageName": "",
   "Power": [
-    2307
+    2313
   ],
   "SetType": 10,
   "DisplayName": "Magic Recharge",
   "nArchetype": -1,
-  "nID": 2063,
+  "nID": 2069,
   "SubName": "Dimensional Entities (Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2307,
-      "PowerSetID": 2063,
+      "PowerIndex": 2313,
+      "PowerSetID": 2069,
       "StaticIndex": 8232,
       "NGroupMembership": [],
       "FullName": "Boosts.Magic_Recharge.Magic_Recharge",

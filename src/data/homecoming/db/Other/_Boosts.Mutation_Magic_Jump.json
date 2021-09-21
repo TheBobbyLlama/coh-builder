@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Magic_Jump",
   "ImageName": "",
   "Power": [
-    2349
+    2355
   ],
   "SetType": 10,
   "DisplayName": "Mutation Magic Jump",
   "nArchetype": -1,
-  "nID": 2104,
+  "nID": 2110,
   "SubName": "Focusing Device (Mutation, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2349,
-      "PowerSetID": 2104,
+      "PowerIndex": 2355,
+      "PowerSetID": 2110,
       "StaticIndex": 8274,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Magic_Jump.Mutation_Magic_Jump",

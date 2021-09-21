@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Decreased_Regeneration_7",
   "ImageName": "",
   "Power": [
-    1387
+    1393
   ],
   "SetType": 10,
   "DisplayName": "Crafted Decreased Regeneration 7",
   "nArchetype": -1,
-  "nID": 1141,
+  "nID": 1147,
   "SubName": "Crafted Decreased Regeneration 7",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1387,
-      "PowerSetID": 1141,
+      "PowerIndex": 1393,
+      "PowerSetID": 1147,
       "StaticIndex": 7332,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Decreased_Regeneration_7.Crafted_Decreased_Regeneration_7",

@@ -4,12 +4,12 @@
   "FullName": "Pets.Warburg_Chemical",
   "ImageName": "",
   "Power": [
-    6676
+    6696
   ],
   "SetType": 8,
   "DisplayName": "Warburg_Chemical",
   "nArchetype": -1,
-  "nID": 3265,
+  "nID": 3280,
   "SubName": "Warburg",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6676,
-      "PowerSetID": 3265,
+      "PowerIndex": 6696,
+      "PowerSetID": 3280,
       "StaticIndex": 1787,
       "NGroupMembership": [],
       "FullName": "Pets.Warburg_Chemical.Warburg_Chemical",

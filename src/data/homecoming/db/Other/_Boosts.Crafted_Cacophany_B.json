@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Cacophany_B",
   "ImageName": "",
   "Power": [
-    1278
+    1284
   ],
   "SetType": 10,
   "DisplayName": "Crafted Cacophony B",
   "nArchetype": -1,
-  "nID": 1032,
+  "nID": 1038,
   "SubName": "Set: Cacophony",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1278,
-      "PowerSetID": 1032,
+      "PowerIndex": 1284,
+      "PowerSetID": 1038,
       "StaticIndex": 7223,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Cacophany_B.Crafted_Cacophany_B",

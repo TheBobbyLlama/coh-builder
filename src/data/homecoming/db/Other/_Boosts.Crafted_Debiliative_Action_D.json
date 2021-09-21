@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Debiliative_Action_D",
   "ImageName": "",
   "Power": [
-    1371
+    1377
   ],
   "SetType": 10,
   "DisplayName": "Crafted Debilitative Action D",
   "nArchetype": -1,
-  "nID": 1125,
+  "nID": 1131,
   "SubName": "Set: Debilitative Action",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1371,
-      "PowerSetID": 1125,
+      "PowerIndex": 1377,
+      "PowerSetID": 1131,
       "StaticIndex": 7316,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Debiliative_Action_D.Crafted_Debiliative_Action_D",

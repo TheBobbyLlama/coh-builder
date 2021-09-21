@@ -4,14 +4,14 @@
   "FullName": "Incarnate.Lore_Pet_Talons_LT",
   "ImageName": "",
   "Power": [
-    5422,
-    5423,
-    5424
+    5431,
+    5432,
+    5433
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Talons_LT",
   "nArchetype": -1,
-  "nID": 2871,
+  "nID": 2882,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "Powers": [
     {
       "CastTimeReal": 1.0,
-      "PowerIndex": 5422,
-      "PowerSetID": 2871,
+      "PowerIndex": 5431,
+      "PowerSetID": 2882,
       "StaticIndex": 9503,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Talons_LT.Snap_Shot",
@@ -145,8 +145,8 @@
     },
     {
       "CastTimeReal": 1.67,
-      "PowerIndex": 5423,
-      "PowerSetID": 2871,
+      "PowerIndex": 5432,
+      "PowerSetID": 2882,
       "PowerSetIndex": 1,
       "StaticIndex": 9504,
       "NGroupMembership": [],
@@ -845,8 +845,8 @@
     },
     {
       "CastTimeReal": 1.5,
-      "PowerIndex": 5424,
-      "PowerSetID": 2871,
+      "PowerIndex": 5433,
+      "PowerSetID": 2882,
       "PowerSetIndex": 2,
       "StaticIndex": 9505,
       "NGroupMembership": [],

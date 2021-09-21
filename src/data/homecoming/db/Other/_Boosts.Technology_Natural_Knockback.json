@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Natural_Knockback",
   "ImageName": "",
   "Power": [
-    2791
+    2803
   ],
   "SetType": 10,
   "DisplayName": "Technology Natural Knockback",
   "nArchetype": -1,
-  "nID": 2546,
+  "nID": 2558,
   "SubName": "Gadget (Technology, Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2791,
-      "PowerSetID": 2546,
+      "PowerIndex": 2803,
+      "PowerSetID": 2558,
       "StaticIndex": 8614,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Natural_Knockback.Technology_Natural_Knockback",

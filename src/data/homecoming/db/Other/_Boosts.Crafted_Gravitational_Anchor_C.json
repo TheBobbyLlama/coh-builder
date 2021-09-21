@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Gravitational_Anchor_C",
   "ImageName": "",
   "Power": [
-    1611
+    1617
   ],
   "SetType": 10,
   "DisplayName": "Crafted Gravitational Anchor C",
   "nArchetype": -1,
-  "nID": 1365,
+  "nID": 1371,
   "SubName": "Set: Gravitational Anchor",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1611,
-      "PowerSetID": 1365,
+      "PowerIndex": 1617,
+      "PowerSetID": 1371,
       "StaticIndex": 7556,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Gravitational_Anchor_C.Crafted_Gravitational_Anchor_C",

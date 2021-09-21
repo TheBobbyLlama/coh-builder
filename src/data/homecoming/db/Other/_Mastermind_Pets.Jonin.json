@@ -4,16 +4,16 @@
   "FullName": "Mastermind_Pets.Jonin",
   "ImageName": "",
   "Power": [
-    5937,
-    5938,
-    5939,
-    5940,
-    5941
+    5946,
+    5947,
+    5948,
+    5949,
+    5950
   ],
   "SetType": 8,
   "DisplayName": "Jounin",
   "nArchetype": -1,
-  "nID": 2961,
+  "nID": 2973,
   "SubName": "Ninjas",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -25,8 +25,8 @@
   "GroupName": "Mastermind_Pets",
   "Powers": [
     {
-      "PowerIndex": 5937,
-      "PowerSetID": 2961,
+      "PowerIndex": 5946,
+      "PowerSetID": 2973,
       "StaticIndex": 1216,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Jonin.Resistance",
@@ -481,8 +481,8 @@
     {
       "CastTimeReal": 1.07,
       "ToggleCost": 7.8,
-      "PowerIndex": 5938,
-      "PowerSetID": 2961,
+      "PowerIndex": 5947,
+      "PowerSetID": 2973,
       "PowerSetIndex": 1,
       "StaticIndex": 1217,
       "NGroupMembership": [],
@@ -669,8 +669,8 @@
     {
       "CastTimeReal": 1.67,
       "ToggleCost": 6.032,
-      "PowerIndex": 5939,
-      "PowerSetID": 2961,
+      "PowerIndex": 5948,
+      "PowerSetID": 2973,
       "PowerSetIndex": 2,
       "StaticIndex": 1218,
       "NGroupMembership": [],
@@ -970,8 +970,8 @@
     {
       "CastTimeReal": 1.33,
       "ToggleCost": 4.368,
-      "PowerIndex": 5940,
-      "PowerSetID": 2961,
+      "PowerIndex": 5949,
+      "PowerSetID": 2973,
       "PowerSetIndex": 3,
       "StaticIndex": 1219,
       "NGroupMembership": [],
@@ -1269,8 +1269,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5941,
-      "PowerSetID": 2961,
+      "PowerIndex": 5950,
+      "PowerSetID": 2973,
       "PowerSetIndex": 4,
       "StaticIndex": 1220,
       "NGroupMembership": [],

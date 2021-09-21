@@ -4,16 +4,16 @@
   "FullName": "Epic.Ice_Mastery_Dominator",
   "ImageName": "IceMastery.png",
   "Power": [
-    4268,
-    4269,
-    4270,
-    4271,
-    4272
+    4277,
+    4278,
+    4279,
+    4280,
+    4281
   ],
   "SetType": 3,
   "DisplayName": "Ice Mastery",
   "nArchetype": -1,
-  "nID": 2748,
+  "nID": 2761,
   "SubName": "Ice Mastery",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
     {
       "CastTimeReal": 0.07,
       "ToggleCost": 0.325,
-      "PowerIndex": 4268,
-      "PowerSetID": 2748,
+      "PowerIndex": 4277,
+      "PowerSetID": 2761,
       "StaticIndex": 4377,
       "NGroupMembership": [
         6
@@ -617,7 +617,7 @@
           "nID": 9,
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.NoPhase",
-          "nSummon": 9741,
+          "nSummon": 9757,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
@@ -668,8 +668,8 @@
     {
       "CastTimeReal": 2.03,
       "ToggleCost": 22.75,
-      "PowerIndex": 4269,
-      "PowerSetID": 2748,
+      "PowerIndex": 4278,
+      "PowerSetID": 2761,
       "PowerSetIndex": 1,
       "StaticIndex": 4376,
       "NGroupMembership": [],
@@ -751,6 +751,7 @@
           "MagPercent": -100.0,
           "Duration": 15.0,
           "DisplayPercentage": true,
+          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Ones",
@@ -810,8 +811,8 @@
       "CastTimeReal": 0.73,
       "ToggleCost": 18.2,
       "IsEpic": true,
-      "PowerIndex": 4270,
-      "PowerSetID": 2748,
+      "PowerIndex": 4279,
+      "PowerSetID": 2761,
       "PowerSetIndex": 2,
       "StaticIndex": 4378,
       "NGroupMembership": [],
@@ -827,11 +828,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4268,
+            4277,
             -1
           ],
           [
-            4269,
+            4278,
             -1
           ]
         ],
@@ -1129,8 +1130,8 @@
       "CastTimeReal": 0.73,
       "ToggleCost": 0.325,
       "IsEpic": true,
-      "PowerIndex": 4271,
-      "PowerSetID": 2748,
+      "PowerIndex": 4280,
+      "PowerSetID": 2761,
       "PowerSetIndex": 3,
       "StaticIndex": 4379,
       "NGroupMembership": [],
@@ -1146,11 +1147,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4268,
+            4277,
             -1
           ],
           [
-            4269,
+            4278,
             -1
           ]
         ],
@@ -2215,8 +2216,8 @@
       "CastTimeReal": 2.03,
       "ToggleCost": 19.5,
       "IsEpic": true,
-      "PowerIndex": 4272,
-      "PowerSetID": 2748,
+      "PowerIndex": 4281,
+      "PowerSetID": 2761,
       "PowerSetIndex": 4,
       "StaticIndex": 4380,
       "NGroupMembership": [],
@@ -2232,24 +2233,24 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4268,
-            4269
+            4277,
+            4278
           ],
           [
-            4268,
-            4270
+            4277,
+            4279
           ],
           [
-            4268,
-            4271
+            4277,
+            4280
           ],
           [
-            4269,
-            4270
+            4278,
+            4279
           ],
           [
-            4269,
-            4271
+            4278,
+            4280
           ]
         ],
         "NPowerIDNot": [],
@@ -2330,6 +2331,7 @@
           "MagPercent": 5000.0,
           "Duration": 15.0,
           "DisplayPercentage": true,
+          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Level",

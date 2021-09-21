@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Reactive_Armor_E",
   "ImageName": "",
   "Power": [
-    1918
+    1924
   ],
   "SetType": 10,
   "DisplayName": "Crafted Reactive Armor E",
   "nArchetype": -1,
-  "nID": 1671,
+  "nID": 1677,
   "SubName": "Set: Reactive Armor",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1918,
-      "PowerSetID": 1671,
+      "PowerIndex": 1924,
+      "PowerSetID": 1677,
       "StaticIndex": 7856,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Reactive_Armor_E.Crafted_Reactive_Armor_E",

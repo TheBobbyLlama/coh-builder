@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Superior_Assassins_Mark_E",
   "ImageName": "",
   "Power": [
-    2601
+    2607
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Superior Assassins Mark E",
   "nArchetype": -1,
-  "nID": 2356,
+  "nID": 2362,
   "SubName": "Set: Superior Assassin's Mark",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2601,
-      "PowerSetID": 2356,
+      "PowerIndex": 2607,
+      "PowerSetID": 2362,
       "StaticIndex": 8797,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Superior_Assassins_Mark_E.Superior_Attuned_Superior_Assassins_Mark_E",

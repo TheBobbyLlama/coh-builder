@@ -4,14 +4,14 @@
   "FullName": "Villain_Pets.Dominating_Grasp",
   "ImageName": "",
   "Power": [
-    10121,
-    10122,
-    10123
+    10137,
+    10138,
+    10139
   ],
   "SetType": 8,
   "DisplayName": "Dominating Grasp",
   "nArchetype": -1,
-  "nID": 3479,
+  "nID": 3493,
   "SubName": "Dominating Grasp",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "GroupName": "Villain_Pets",
   "Powers": [
     {
-      "PowerIndex": 10121,
-      "PowerSetID": 3479,
+      "PowerIndex": 10137,
+      "PowerSetID": 3493,
       "StaticIndex": 9024,
       "NGroupMembership": [],
       "FullName": "Villain_Pets.Dominating_Grasp.Blazing_Aura",
@@ -193,8 +193,8 @@
       "AoEModifier": 3.25
     },
     {
-      "PowerIndex": 10122,
-      "PowerSetID": 3479,
+      "PowerIndex": 10138,
+      "PowerSetID": 3493,
       "PowerSetIndex": 1,
       "StaticIndex": 9025,
       "NGroupMembership": [],
@@ -299,8 +299,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 10123,
-      "PowerSetID": 3479,
+      "PowerIndex": 10139,
+      "PowerSetID": 3493,
       "PowerSetIndex": 2,
       "StaticIndex": 9026,
       "NGroupMembership": [],

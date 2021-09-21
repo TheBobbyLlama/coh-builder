@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Natural_Drain_Endurance",
   "ImageName": "",
   "Power": [
-    2781
+    2793
   ],
   "SetType": 10,
   "DisplayName": "Technology Natural Endurance",
   "nArchetype": -1,
-  "nID": 2536,
+  "nID": 2548,
   "SubName": "Gadget (Technology, Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2781,
-      "PowerSetID": 2536,
+      "PowerIndex": 2793,
+      "PowerSetID": 2548,
       "StaticIndex": 8604,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Natural_Drain_Endurance.Technology_Natural_Drain_Endurance",

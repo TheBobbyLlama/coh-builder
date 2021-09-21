@@ -4,13 +4,13 @@
   "FullName": "Incarnate.Lore_Pet_Talons_Support",
   "ImageName": "",
   "Power": [
-    5425,
-    5426
+    5434,
+    5435
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Talons_Support",
   "nArchetype": -1,
-  "nID": 2872,
+  "nID": 2883,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "Powers": [
     {
       "CastTimeReal": 2.0,
-      "PowerIndex": 5425,
-      "PowerSetID": 2872,
+      "PowerIndex": 5434,
+      "PowerSetID": 2883,
       "StaticIndex": 9506,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Talons_Support.Seductive_Song",
@@ -660,8 +660,8 @@
     },
     {
       "CastTimeReal": 2.67,
-      "PowerIndex": 5426,
-      "PowerSetID": 2872,
+      "PowerIndex": 5435,
+      "PowerSetID": 2883,
       "PowerSetIndex": 1,
       "StaticIndex": 9507,
       "NGroupMembership": [],

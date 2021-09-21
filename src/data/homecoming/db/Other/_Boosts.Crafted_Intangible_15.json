@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Intangible_15",
   "ImageName": "",
   "Power": [
-    1692
+    1698
   ],
   "SetType": 10,
   "DisplayName": "Crafted Intangible 15",
   "nArchetype": -1,
-  "nID": 1446,
+  "nID": 1452,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1692,
-      "PowerSetID": 1446,
+      "PowerIndex": 1698,
+      "PowerSetID": 1452,
       "StaticIndex": 7637,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Intangible_15.Crafted_Intangible_15",

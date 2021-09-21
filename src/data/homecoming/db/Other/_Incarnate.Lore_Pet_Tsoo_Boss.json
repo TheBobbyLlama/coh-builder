@@ -4,15 +4,15 @@
   "FullName": "Incarnate.Lore_Pet_Tsoo_Boss",
   "ImageName": "",
   "Power": [
-    5428,
-    5429,
-    5430,
-    5431
+    5437,
+    5438,
+    5439,
+    5440
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Tsoo_Boss",
   "nArchetype": -1,
-  "nID": 2874,
+  "nID": 2885,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -25,8 +25,8 @@
   "Powers": [
     {
       "CastTimeReal": 1.0,
-      "PowerIndex": 5428,
-      "PowerSetID": 2874,
+      "PowerIndex": 5437,
+      "PowerSetID": 2885,
       "StaticIndex": 9509,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Tsoo_Boss.Mercurial_Blow",
@@ -206,8 +206,8 @@
     },
     {
       "CastTimeReal": 2.57,
-      "PowerIndex": 5429,
-      "PowerSetID": 2874,
+      "PowerIndex": 5438,
+      "PowerSetID": 2885,
       "PowerSetIndex": 1,
       "StaticIndex": 9512,
       "NGroupMembership": [],
@@ -1017,8 +1017,8 @@
     },
     {
       "CastTimeReal": 1.13,
-      "PowerIndex": 5430,
-      "PowerSetID": 2874,
+      "PowerIndex": 5439,
+      "PowerSetID": 2885,
       "PowerSetIndex": 2,
       "StaticIndex": 9510,
       "NGroupMembership": [],
@@ -1198,8 +1198,8 @@
     },
     {
       "CastTimeReal": 1.77,
-      "PowerIndex": 5431,
-      "PowerSetID": 2874,
+      "PowerIndex": 5440,
+      "PowerSetID": 2885,
       "PowerSetIndex": 3,
       "StaticIndex": 9511,
       "NGroupMembership": [],

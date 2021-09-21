@@ -4,16 +4,16 @@
   "FullName": "Epic.Sentinel_Elec_Mastery",
   "ImageName": "ElectricMelee.png",
   "Power": [
-    4343,
-    4344,
-    4345,
-    4346,
-    4347
+    4352,
+    4353,
+    4354,
+    4355,
+    4356
   ],
   "SetType": 3,
   "DisplayName": "Electricity Mastery",
   "nArchetype": 7,
-  "nID": 2736,
+  "nID": 2746,
   "SubName": "",
   "ATClass": "Class_Sentinel",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
     {
       "CastTimeReal": 1.17,
       "ToggleCost": 19.5,
-      "PowerIndex": 4343,
-      "PowerSetID": 2736,
+      "PowerIndex": 4352,
+      "PowerSetID": 2746,
       "StaticIndex": 10718,
       "NGroupMembership": [],
       "FullName": "Epic.Sentinel_Elec_Mastery.Chain_Fences",
@@ -521,8 +521,8 @@
     {
       "CastTimeReal": 1.5,
       "ToggleCost": 16.9,
-      "PowerIndex": 4344,
-      "PowerSetID": 2736,
+      "PowerIndex": 4353,
+      "PowerSetID": 2746,
       "PowerSetIndex": 1,
       "StaticIndex": 10719,
       "NGroupMembership": [],
@@ -957,8 +957,8 @@
       "CastTimeReal": 2.03,
       "ToggleCost": 0.52,
       "IsEpic": true,
-      "PowerIndex": 4345,
-      "PowerSetID": 2736,
+      "PowerIndex": 4354,
+      "PowerSetID": 2746,
       "PowerSetIndex": 2,
       "StaticIndex": 10721,
       "NGroupMembership": [],
@@ -978,11 +978,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4343,
+            4352,
             -1
           ],
           [
-            4344,
+            4353,
             -1
           ]
         ],
@@ -1231,8 +1231,8 @@
       "CastTimeReal": 2.07,
       "ToggleCost": 8.59,
       "IsEpic": true,
-      "PowerIndex": 4346,
-      "PowerSetID": 2736,
+      "PowerIndex": 4355,
+      "PowerSetID": 2746,
       "PowerSetIndex": 3,
       "StaticIndex": 10720,
       "NGroupMembership": [],
@@ -1252,11 +1252,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4343,
+            4352,
             -1
           ],
           [
-            4344,
+            4353,
             -1
           ]
         ],
@@ -1568,8 +1568,8 @@
       "CastTimeReal": 1.0,
       "ToggleCost": 16.25,
       "IsEpic": true,
-      "PowerIndex": 4347,
-      "PowerSetID": 2736,
+      "PowerIndex": 4356,
+      "PowerSetID": 2746,
       "PowerSetIndex": 4,
       "StaticIndex": 10722,
       "NGroupMembership": [],
@@ -1585,24 +1585,24 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4343,
-            4344
+            4352,
+            4353
           ],
           [
-            4343,
-            4345
+            4352,
+            4354
           ],
           [
-            4343,
-            4346
+            4352,
+            4355
           ],
           [
-            4344,
-            4345
+            4353,
+            4354
           ],
           [
-            4344,
-            4346
+            4353,
+            4355
           ]
         ],
         "NPowerIDNot": [],

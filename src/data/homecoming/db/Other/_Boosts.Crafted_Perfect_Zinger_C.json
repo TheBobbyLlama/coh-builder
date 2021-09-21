@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Perfect_Zinger_C",
   "ImageName": "",
   "Power": [
-    1853
+    1859
   ],
   "SetType": 10,
   "DisplayName": "Crafted Perfect Zinger C",
   "nArchetype": -1,
-  "nID": 1607,
+  "nID": 1613,
   "SubName": "Set: Perfect Zinger",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1853,
-      "PowerSetID": 1607,
+      "PowerIndex": 1859,
+      "PowerSetID": 1613,
       "StaticIndex": 7798,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Perfect_Zinger_C.Crafted_Perfect_Zinger_C",

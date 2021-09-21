@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Adjusted_Targeting_F",
   "ImageName": "",
   "Power": [
-    1203
+    1209
   ],
   "SetType": 10,
   "DisplayName": "Crafted Adjusted Targeting F",
   "nArchetype": -1,
-  "nID": 958,
+  "nID": 964,
   "SubName": "Set: Adjusted Targeting",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1203,
-      "PowerSetID": 958,
+      "PowerIndex": 1209,
+      "PowerSetID": 964,
       "StaticIndex": 7155,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Adjusted_Targeting_F.Crafted_Adjusted_Targeting_F",

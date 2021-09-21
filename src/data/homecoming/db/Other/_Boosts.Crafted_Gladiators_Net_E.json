@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Gladiators_Net_E",
   "ImageName": "",
   "Power": [
-    1595
+    1601
   ],
   "SetType": 10,
   "DisplayName": "Crafted Gladiators Net E",
   "nArchetype": -1,
-  "nID": 1349,
+  "nID": 1355,
   "SubName": "Set: Gladiator's Net",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1595,
-      "PowerSetID": 1349,
+      "PowerIndex": 1601,
+      "PowerSetID": 1355,
       "StaticIndex": 7540,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Gladiators_Net_E.Crafted_Gladiators_Net_E",

@@ -3691,7 +3691,7 @@
         8,
         18
       ],
-      "DescShort": "Self +DMG +To Hit",
+      "DescShort": "Self +DMG, +To Hit",
       "DescLong": "Greatly boosts your attacks for a few seconds. Slightly increases chance to hit. Recharge: Long",
       "SetTypes": [
         25

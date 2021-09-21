@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Shield_Wall_E",
   "ImageName": "",
   "Power": [
-    1003
+    1009
   ],
   "SetType": 10,
   "DisplayName": "Attuned Shield Wall E",
   "nArchetype": -1,
-  "nID": 758,
+  "nID": 764,
   "SubName": "Set: Shield Wall",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1003,
-      "PowerSetID": 758,
+      "PowerIndex": 1009,
+      "PowerSetID": 764,
       "StaticIndex": 6985,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Shield_Wall_E.Attuned_Shield_Wall_E",

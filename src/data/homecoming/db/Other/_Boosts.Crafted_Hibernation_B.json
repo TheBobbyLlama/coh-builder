@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Hibernation_B",
   "ImageName": "",
   "Power": [
-    1638
+    1644
   ],
   "SetType": 10,
   "DisplayName": "Crafted Hibernation B",
   "nArchetype": -1,
-  "nID": 1392,
+  "nID": 1398,
   "SubName": "Set: Hibernation",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1638,
-      "PowerSetID": 1392,
+      "PowerIndex": 1644,
+      "PowerSetID": 1398,
       "StaticIndex": 7583,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Hibernation_B.Crafted_Hibernation_B",

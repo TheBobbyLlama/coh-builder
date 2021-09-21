@@ -4,12 +4,12 @@
   "FullName": "Boosts.Generic_Resistance_Tactics",
   "ImageName": "",
   "Power": [
-    2256
+    2262
   ],
   "SetType": 10,
   "DisplayName": "Generic Resistance Tactics",
   "nArchetype": -1,
-  "nID": 2012,
+  "nID": 2018,
   "SubName": "Resistance Tactics",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2256,
-      "PowerSetID": 2012,
+      "PowerIndex": 2262,
+      "PowerSetID": 2018,
       "StaticIndex": 8182,
       "NGroupMembership": [],
       "FullName": "Boosts.Generic_Resistance_Tactics.Generic_Resistance_Tactics",

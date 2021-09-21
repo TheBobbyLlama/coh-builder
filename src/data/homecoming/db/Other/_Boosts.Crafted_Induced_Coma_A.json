@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Induced_Coma_A",
   "ImageName": "",
   "Power": [
-    1684
+    1690
   ],
   "SetType": 10,
   "DisplayName": "Crafted Induced Coma A",
   "nArchetype": -1,
-  "nID": 1438,
+  "nID": 1444,
   "SubName": "Set: Induced Coma",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1684,
-      "PowerSetID": 1438,
+      "PowerIndex": 1690,
+      "PowerSetID": 1444,
       "StaticIndex": 7629,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Induced_Coma_A.Crafted_Induced_Coma_A",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Recovery_50",
   "ImageName": "",
   "Power": [
-    1945
+    1951
   ],
   "SetType": 10,
   "DisplayName": "Crafted Recovery 50",
   "nArchetype": -1,
-  "nID": 1698,
+  "nID": 1704,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1945,
-      "PowerSetID": 1698,
+      "PowerIndex": 1951,
+      "PowerSetID": 1704,
       "StaticIndex": 7877,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Recovery_50.Crafted_Recovery_50",

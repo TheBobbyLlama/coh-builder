@@ -4,13 +4,13 @@
   "FullName": "Incarnate.Lore_Pet_Rikti_Support",
   "ImageName": "",
   "Power": [
-    5399,
-    5400
+    5408,
+    5409
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Rikti_Support",
   "nArchetype": -1,
-  "nID": 2862,
+  "nID": 2873,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "Powers": [
     {
       "CastTimeReal": 2.03,
-      "PowerIndex": 5399,
-      "PowerSetID": 2862,
+      "PowerIndex": 5408,
+      "PowerSetID": 2873,
       "StaticIndex": 5553,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Rikti_Support.Radiation_Emission",
@@ -137,8 +137,8 @@
     },
     {
       "CastTimeReal": 2.03,
-      "PowerIndex": 5400,
-      "PowerSetID": 2862,
+      "PowerIndex": 5409,
+      "PowerSetID": 2873,
       "PowerSetIndex": 1,
       "StaticIndex": 5554,
       "NGroupMembership": [],

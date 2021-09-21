@@ -4,14 +4,14 @@
   "FullName": "Pets.Dust_Devil",
   "ImageName": "",
   "Power": [
-    6303,
-    6304,
-    6305
+    6312,
+    6313,
+    6314
   ],
   "SetType": 8,
   "DisplayName": "",
   "nArchetype": -1,
-  "nID": 3020,
+  "nID": 3031,
   "SubName": "Dust_Devil",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6303,
-      "PowerSetID": 3020,
+      "PowerIndex": 6312,
+      "PowerSetID": 3031,
       "StaticIndex": 3530,
       "NGroupMembership": [],
       "FullName": "Pets.Dust_Devil.Destroy_All",
@@ -130,8 +130,8 @@
       "AoEModifier": 2.5
     },
     {
-      "PowerIndex": 6304,
-      "PowerSetID": 3020,
+      "PowerIndex": 6313,
+      "PowerSetID": 3031,
       "PowerSetIndex": 1,
       "StaticIndex": 3531,
       "NGroupMembership": [],
@@ -238,8 +238,8 @@
       "AoEModifier": 2.95
     },
     {
-      "PowerIndex": 6305,
-      "PowerSetID": 3020,
+      "PowerIndex": 6314,
+      "PowerSetID": 3031,
       "PowerSetIndex": 2,
       "StaticIndex": 3532,
       "NGroupMembership": [],

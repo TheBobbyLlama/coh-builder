@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Blistering_Cold_C",
   "ImageName": "",
   "Power": [
-    2539
+    2545
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Blistering Cold C",
   "nArchetype": -1,
-  "nID": 2294,
+  "nID": 2300,
   "SubName": "Set: Superior Blistering Cold",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2539,
-      "PowerSetID": 2294,
+      "PowerIndex": 2545,
+      "PowerSetID": 2300,
       "StaticIndex": 9328,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Blistering_Cold_C.Superior_Attuned_Blistering_Cold_C",

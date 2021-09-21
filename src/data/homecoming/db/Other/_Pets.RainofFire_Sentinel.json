@@ -4,13 +4,13 @@
   "FullName": "Pets.RainofFire_Sentinel",
   "ImageName": "",
   "Power": [
-    6492,
-    6493
+    6512,
+    6513
   ],
   "SetType": 8,
   "DisplayName": "Rain of Fire",
   "nArchetype": -1,
-  "nID": 3181,
+  "nID": 3196,
   "SubName": "Fire Blast",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -22,8 +22,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6492,
-      "PowerSetID": 3181,
+      "PowerIndex": 6512,
+      "PowerSetID": 3196,
       "StaticIndex": 10628,
       "NGroupMembership": [],
       "FullName": "Pets.RainofFire_Sentinel.RainofFire",
@@ -537,8 +537,8 @@
       "AoEModifier": 4.75
     },
     {
-      "PowerIndex": 6493,
-      "PowerSetID": 3181,
+      "PowerIndex": 6513,
+      "PowerSetID": 3196,
       "PowerSetIndex": 1,
       "StaticIndex": 10629,
       "NGroupMembership": [],

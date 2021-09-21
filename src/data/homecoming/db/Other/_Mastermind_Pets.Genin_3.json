@@ -4,13 +4,13 @@
   "FullName": "Mastermind_Pets.Genin_3",
   "ImageName": "",
   "Power": [
-    5903,
-    5904
+    5912,
+    5913
   ],
   "SetType": 8,
   "DisplayName": "Genin",
   "nArchetype": -1,
-  "nID": 2947,
+  "nID": 2960,
   "SubName": "Ninjas",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
     {
       "CastTimeReal": 1.07,
       "ToggleCost": 15.184,
-      "PowerIndex": 5903,
-      "PowerSetID": 2947,
+      "PowerIndex": 5912,
+      "PowerSetID": 2960,
       "StaticIndex": 1203,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Genin_3.Aimed_Shot",
@@ -265,8 +265,8 @@
     {
       "CastTimeReal": 2.0,
       "ToggleCost": 8.528,
-      "PowerIndex": 5904,
-      "PowerSetID": 2947,
+      "PowerIndex": 5913,
+      "PowerSetID": 2960,
       "PowerSetIndex": 1,
       "StaticIndex": 1206,
       "NGroupMembership": [],

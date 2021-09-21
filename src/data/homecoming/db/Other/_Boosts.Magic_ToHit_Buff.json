@@ -4,12 +4,12 @@
   "FullName": "Boosts.Magic_ToHit_Buff",
   "ImageName": "",
   "Power": [
-    2315
+    2321
   ],
   "SetType": 10,
   "DisplayName": "Magic ToHit Buff",
   "nArchetype": -1,
-  "nID": 2070,
+  "nID": 2076,
   "SubName": "Dimensional Entities (Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2315,
-      "PowerSetID": 2070,
+      "PowerIndex": 2321,
+      "PowerSetID": 2076,
       "StaticIndex": 8240,
       "NGroupMembership": [],
       "FullName": "Boosts.Magic_ToHit_Buff.Magic_ToHit_Buff",

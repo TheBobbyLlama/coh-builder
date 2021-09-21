@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Hold",
   "ImageName": "",
   "Power": [
-    2412
+    2418
   ],
   "SetType": 10,
   "DisplayName": "Natural Hold",
   "nArchetype": -1,
-  "nID": 2167,
+  "nID": 2173,
   "SubName": "Technique (Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2412,
-      "PowerSetID": 2167,
+      "PowerIndex": 2418,
+      "PowerSetID": 2173,
       "StaticIndex": 8337,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Hold.Natural_Hold",

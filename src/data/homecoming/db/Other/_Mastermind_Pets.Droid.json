@@ -4,15 +4,15 @@
   "FullName": "Mastermind_Pets.Droid",
   "ImageName": "",
   "Power": [
-    5876,
-    5877,
-    5878,
-    5879
+    5885,
+    5886,
+    5887,
+    5888
   ],
   "SetType": 8,
   "DisplayName": "Droid",
   "nArchetype": -1,
-  "nID": 2940,
+  "nID": 2951,
   "SubName": "Droid",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "GroupName": "Mastermind_Pets",
   "Powers": [
     {
-      "PowerIndex": 5876,
-      "PowerSetID": 2940,
+      "PowerIndex": 5885,
+      "PowerSetID": 2951,
       "StaticIndex": 1188,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Droid.Resistance",
@@ -528,8 +528,8 @@
     {
       "CastTimeReal": 2.0,
       "ToggleCost": 5.2,
-      "PowerIndex": 5877,
-      "PowerSetID": 2940,
+      "PowerIndex": 5886,
+      "PowerSetID": 2951,
       "PowerSetIndex": 1,
       "StaticIndex": 1189,
       "NGroupMembership": [],
@@ -716,8 +716,8 @@
     {
       "CastTimeReal": 0.67,
       "ToggleCost": 5.2,
-      "PowerIndex": 5878,
-      "PowerSetID": 2940,
+      "PowerIndex": 5887,
+      "PowerSetID": 2951,
       "PowerSetIndex": 2,
       "StaticIndex": 1190,
       "NGroupMembership": [],
@@ -895,8 +895,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5879,
-      "PowerSetID": 2940,
+      "PowerIndex": 5888,
+      "PowerSetID": 2951,
       "PowerSetIndex": 3,
       "StaticIndex": 1191,
       "NGroupMembership": [],

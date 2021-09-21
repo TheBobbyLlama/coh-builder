@@ -4,13 +4,13 @@
   "FullName": "Villain_Pets.Spines_Assassins_Strike",
   "ImageName": "",
   "Power": [
-    10244,
-    10245
+    10260,
+    10261
   ],
   "SetType": 8,
   "DisplayName": "",
   "nArchetype": -1,
-  "nID": 3445,
+  "nID": 3462,
   "SubName": "Spines",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
     {
       "CastTimeReal": 3.0,
       "ToggleCost": 14.352,
-      "PowerIndex": 10244,
-      "PowerSetID": 3445,
+      "PowerIndex": 10260,
+      "PowerSetID": 3462,
       "StaticIndex": 6348,
       "NGroupMembership": [],
       "FullName": "Villain_Pets.Spines_Assassins_Strike.Assassins_Impaler_Stealth",
@@ -332,7 +332,7 @@
           "nID": 4,
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.Demoralized",
-          "nSummon": 9289,
+          "nSummon": 9305,
           "SpecialCase": 9,
           "UIDClassName": "",
           "nIDClassName": -1,
@@ -498,8 +498,8 @@
     {
       "CastTimeReal": 1.0,
       "ToggleCost": 14.352,
-      "PowerIndex": 10245,
-      "PowerSetID": 3445,
+      "PowerIndex": 10261,
+      "PowerSetID": 3462,
       "PowerSetIndex": 1,
       "StaticIndex": 6349,
       "NGroupMembership": [],

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Recovery",
   "ImageName": "",
   "Power": [
-    2448
+    2454
   ],
   "SetType": 10,
   "DisplayName": "Natural Endurance",
   "nArchetype": -1,
-  "nID": 2162,
+  "nID": 2168,
   "SubName": "Technique (Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2448,
-      "PowerSetID": 2162,
+      "PowerIndex": 2454,
+      "PowerSetID": 2168,
       "StaticIndex": 8373,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Recovery.Natural_Recovery",

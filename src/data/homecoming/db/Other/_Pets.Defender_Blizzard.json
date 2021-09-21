@@ -4,14 +4,14 @@
   "FullName": "Pets.Defender_Blizzard",
   "ImageName": "",
   "Power": [
-    6291,
-    6292,
-    6293
+    6300,
+    6301,
+    6302
   ],
   "SetType": 8,
   "DisplayName": "Blizzard",
   "nArchetype": -1,
-  "nID": 3026,
+  "nID": 3040,
   "SubName": "Ice Blast",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6291,
-      "PowerSetID": 3026,
+      "PowerIndex": 6300,
+      "PowerSetID": 3040,
       "StaticIndex": 9569,
       "NGroupMembership": [],
       "FullName": "Pets.Defender_Blizzard.Blizzard",
@@ -831,8 +831,8 @@
       "AoEModifier": 5.5
     },
     {
-      "PowerIndex": 6292,
-      "PowerSetID": 3026,
+      "PowerIndex": 6301,
+      "PowerSetID": 3040,
       "PowerSetIndex": 1,
       "StaticIndex": 9570,
       "NGroupMembership": [],
@@ -941,8 +941,8 @@
       "AoEModifier": 5.5
     },
     {
-      "PowerIndex": 6293,
-      "PowerSetID": 3026,
+      "PowerIndex": 6302,
+      "PowerSetID": 3040,
       "PowerSetIndex": 2,
       "StaticIndex": 9571,
       "NGroupMembership": [],

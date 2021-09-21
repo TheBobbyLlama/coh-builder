@@ -4,13 +4,13 @@
   "FullName": "Incarnate.Lore_Pet_Lights_Support",
   "ImageName": "",
   "Power": [
-    5366,
-    5367
+    5375,
+    5376
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Lights_Support",
   "nArchetype": -1,
-  "nID": 2849,
+  "nID": 2860,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "Powers": [
     {
       "CastTimeReal": 2.27,
-      "PowerIndex": 5366,
-      "PowerSetID": 2849,
+      "PowerIndex": 5375,
+      "PowerSetID": 2860,
       "StaticIndex": 5520,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Lights_Support.Glowing_Touch",
@@ -145,8 +145,8 @@
     },
     {
       "CastTimeReal": 3.67,
-      "PowerIndex": 5367,
-      "PowerSetID": 2849,
+      "PowerIndex": 5376,
+      "PowerSetID": 2860,
       "PowerSetIndex": 1,
       "StaticIndex": 5521,
       "NGroupMembership": [],

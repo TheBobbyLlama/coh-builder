@@ -4,13 +4,13 @@
   "FullName": "Villain_Pets.Broad_Sword_Assassins_Strike",
   "ImageName": "",
   "Power": [
-    10058,
-    10059
+    10074,
+    10075
   ],
   "SetType": 8,
   "DisplayName": "",
   "nArchetype": -1,
-  "nID": 3433,
+  "nID": 3454,
   "SubName": "Broad Sword",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
     {
       "CastTimeReal": 3.67,
       "ToggleCost": 14.352,
-      "PowerIndex": 10058,
-      "PowerSetID": 3433,
+      "PowerIndex": 10074,
+      "PowerSetID": 3454,
       "StaticIndex": 6320,
       "NGroupMembership": [],
       "FullName": "Villain_Pets.Broad_Sword_Assassins_Strike.Assassins_Slash_Stealth",
@@ -332,7 +332,7 @@
           "nID": 4,
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.Demoralized",
-          "nSummon": 9289,
+          "nSummon": 9305,
           "SpecialCase": 9,
           "UIDClassName": "",
           "nIDClassName": -1,
@@ -498,8 +498,8 @@
     {
       "CastTimeReal": 1.67,
       "ToggleCost": 14.352,
-      "PowerIndex": 10059,
-      "PowerSetID": 3433,
+      "PowerIndex": 10075,
+      "PowerSetID": 3454,
       "PowerSetIndex": 1,
       "StaticIndex": 6321,
       "NGroupMembership": [],

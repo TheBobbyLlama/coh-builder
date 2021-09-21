@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Accuracy",
   "ImageName": "",
   "Power": [
-    2401
+    2407
   ],
   "SetType": 10,
   "DisplayName": "Natural Accuracy",
   "nArchetype": -1,
-  "nID": 2156,
+  "nID": 2162,
   "SubName": "Technique (Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2401,
-      "PowerSetID": 2156,
+      "PowerIndex": 2407,
+      "PowerSetID": 2162,
       "StaticIndex": 8326,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Accuracy.Natural_Accuracy",

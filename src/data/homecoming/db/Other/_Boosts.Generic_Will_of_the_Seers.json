@@ -4,12 +4,12 @@
   "FullName": "Boosts.Generic_Will_of_the_Seers",
   "ImageName": "",
   "Power": [
-    2266
+    2272
   ],
   "SetType": 10,
   "DisplayName": "Generic Will of the Seers",
   "nArchetype": -1,
-  "nID": 2021,
+  "nID": 2027,
   "SubName": "Will of the Seers",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2266,
-      "PowerSetID": 2021,
+      "PowerIndex": 2272,
+      "PowerSetID": 2027,
       "StaticIndex": 8191,
       "NGroupMembership": [],
       "FullName": "Boosts.Generic_Will_of_the_Seers.Generic_Will_of_the_Seers",

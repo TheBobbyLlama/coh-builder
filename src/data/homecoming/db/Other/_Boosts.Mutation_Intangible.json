@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Intangible",
   "ImageName": "",
   "Power": [
-    2330
+    2336
   ],
   "SetType": 10,
   "DisplayName": "Mutation Intangible",
   "nArchetype": -1,
-  "nID": 2085,
+  "nID": 2091,
   "SubName": "Secondary Mutation (Mutation)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2330,
-      "PowerSetID": 2085,
+      "PowerIndex": 2336,
+      "PowerSetID": 2091,
       "StaticIndex": 8255,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Intangible.Mutation_Intangible",

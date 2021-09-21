@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Endurance_Discount",
   "ImageName": "",
   "Power": [
-    2324
+    2330
   ],
   "SetType": 10,
   "DisplayName": "Mutation Endurance Discount",
   "nArchetype": -1,
-  "nID": 2079,
+  "nID": 2085,
   "SubName": "Secondary Mutation (Mutation)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2324,
-      "PowerSetID": 2079,
+      "PowerIndex": 2330,
+      "PowerSetID": 2085,
       "StaticIndex": 8249,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Endurance_Discount.Mutation_Endurance_Discount",

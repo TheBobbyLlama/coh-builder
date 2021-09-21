@@ -4,14 +4,14 @@
   "FullName": "Incarnate.Lore_Pet_Rikti_LT",
   "ImageName": "",
   "Power": [
-    5396,
-    5397,
-    5398
+    5405,
+    5406,
+    5407
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Rikti_LT",
   "nArchetype": -1,
-  "nID": 2861,
+  "nID": 2872,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "Powers": [
     {
       "CastTimeReal": 2.5,
-      "PowerIndex": 5396,
-      "PowerSetID": 2861,
+      "PowerIndex": 5405,
+      "PowerSetID": 2872,
       "StaticIndex": 5550,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Rikti_LT.Rikti_Sword",
@@ -317,8 +317,8 @@
     },
     {
       "CastTimeReal": 2.5,
-      "PowerIndex": 5397,
-      "PowerSetID": 2861,
+      "PowerIndex": 5406,
+      "PowerSetID": 2872,
       "PowerSetIndex": 1,
       "StaticIndex": 5551,
       "NGroupMembership": [],
@@ -610,8 +610,8 @@
     },
     {
       "CastTimeReal": 2.33,
-      "PowerIndex": 5398,
-      "PowerSetID": 2861,
+      "PowerIndex": 5407,
+      "PowerSetID": 2872,
       "PowerSetIndex": 2,
       "StaticIndex": 5552,
       "NGroupMembership": [],

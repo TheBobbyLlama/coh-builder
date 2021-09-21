@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Cleaving_Blow_C",
   "ImageName": "",
   "Power": [
-    1306
+    1312
   ],
   "SetType": 10,
   "DisplayName": "Crafted Cleaving Blow C",
   "nArchetype": -1,
-  "nID": 1060,
+  "nID": 1066,
   "SubName": "Set: Cleaving Blow",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1306,
-      "PowerSetID": 1060,
+      "PowerIndex": 1312,
+      "PowerSetID": 1066,
       "StaticIndex": 7251,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Cleaving_Blow_C.Crafted_Cleaving_Blow_C",

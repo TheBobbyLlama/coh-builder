@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Sciroccos_Dervish_C",
   "ImageName": "",
   "Power": [
-    2001
+    2007
   ],
   "SetType": 10,
   "DisplayName": "Crafted Sciroccos Dervish C",
   "nArchetype": -1,
-  "nID": 1754,
+  "nID": 1760,
   "SubName": "Set: Scirocco's Dervish",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2001,
-      "PowerSetID": 1754,
+      "PowerIndex": 2007,
+      "PowerSetID": 1760,
       "StaticIndex": 7933,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Sciroccos_Dervish_C.Crafted_Sciroccos_Dervish_C",

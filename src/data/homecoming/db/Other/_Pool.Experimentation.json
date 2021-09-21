@@ -4,17 +4,17 @@
   "FullName": "Pool.Experimentation",
   "ImageName": "Experimentation.png",
   "Power": [
-    6707,
-    6708,
-    6709,
-    6710,
-    6711,
-    6712
+    6727,
+    6728,
+    6729,
+    6730,
+    6731,
+    6732
   ],
   "SetType": 5,
   "DisplayName": "Experimentation",
   "nArchetype": -1,
-  "nID": 3281,
+  "nID": 3296,
   "SubName": "",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -26,8 +26,8 @@
     "Pool.Sorcery"
   ],
   "nIDMutexSets": [
-    3284,
-    3289
+    3299,
+    3304
   ],
   "GroupName": "Pool",
   "Powers": [
@@ -36,8 +36,8 @@
       "ToggleCost": 13.0,
       "IsEpic": true,
       "LocationIndex": 26,
-      "PowerIndex": 6707,
-      "PowerSetID": 3281,
+      "PowerIndex": 6727,
+      "PowerSetID": 3296,
       "StaticIndex": 10833,
       "NGroupMembership": [],
       "FullName": "Pool.Experimentation.Jaunt",
@@ -52,7 +52,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6710,
+            6730,
             -1
           ]
         ],
@@ -214,8 +214,8 @@
     {
       "CastTimeReal": 1.36,
       "ToggleCost": 10.4,
-      "PowerIndex": 6708,
-      "PowerSetID": 3281,
+      "PowerIndex": 6728,
+      "PowerSetID": 3296,
       "PowerSetIndex": 1,
       "StaticIndex": 10830,
       "NGroupMembership": [],
@@ -232,27 +232,27 @@
         "NPowerID": [],
         "NPowerIDNot": [
           [
-            6760,
+            6775,
             -1
           ],
           [
-            6761,
+            6776,
             -1
           ],
           [
-            6762,
+            6777,
             -1
           ],
           [
-            6724,
+            6744,
             -1
           ],
           [
-            6725,
+            6745,
             -1
           ],
           [
-            6726,
+            6746,
             -1
           ]
         ],
@@ -296,7 +296,12 @@
       "BaseRechargeTime": 180.0,
       "MaxBoosts": "",
       "AIReport": 1,
-      "BoostsAllowed": [],
+      "BoostsAllowed": [
+        "Recovery_Boost",
+        "EnduranceDiscount_Boost",
+        "Heal_Boost",
+        "Recharge_Boost"
+      ],
       "Enhancements": [
         7,
         8,
@@ -1139,8 +1144,8 @@
     {
       "CastTimeReal": 1.07,
       "ToggleCost": 8.58,
-      "PowerIndex": 6709,
-      "PowerSetID": 3281,
+      "PowerIndex": 6729,
+      "PowerSetID": 3296,
       "PowerSetIndex": 2,
       "StaticIndex": 10831,
       "NGroupMembership": [],
@@ -1157,27 +1162,27 @@
         "NPowerID": [],
         "NPowerIDNot": [
           [
-            6724,
+            6744,
             -1
           ],
           [
-            6725,
+            6745,
             -1
           ],
           [
-            6726,
+            6746,
             -1
           ],
           [
-            6760,
+            6775,
             -1
           ],
           [
-            6761,
+            6776,
             -1
           ],
           [
-            6762,
+            6777,
             -1
           ]
         ],
@@ -1220,7 +1225,13 @@
       "RechargeTime": 6.0,
       "BaseRechargeTime": 6.0,
       "MaxBoosts": "",
-      "BoostsAllowed": [],
+      "BoostsAllowed": [
+        "Accuracy_Boost",
+        "Damage_Boost",
+        "EnduranceDiscount_Boost",
+        "Range_Boost",
+        "Recharge_Boost"
+      ],
       "Enhancements": [
         1,
         4,
@@ -1432,8 +1443,8 @@
     },
     {
       "ToggleCost": 0.455,
-      "PowerIndex": 6710,
-      "PowerSetID": 3281,
+      "PowerIndex": 6730,
+      "PowerSetID": 3296,
       "PowerSetIndex": 3,
       "StaticIndex": 10832,
       "NGroupMembership": [
@@ -1453,27 +1464,27 @@
         "NPowerID": [],
         "NPowerIDNot": [
           [
-            6724,
+            6744,
             -1
           ],
           [
-            6725,
+            6745,
             -1
           ],
           [
-            6726,
+            6746,
             -1
           ],
           [
-            6760,
+            6775,
             -1
           ],
           [
-            6761,
+            6776,
             -1
           ],
           [
-            6762,
+            6777,
             -1
           ]
         ],
@@ -1672,8 +1683,8 @@
       "CastTimeReal": 1.53,
       "ToggleCost": 20.8,
       "IsEpic": true,
-      "PowerIndex": 6711,
-      "PowerSetID": 3281,
+      "PowerIndex": 6731,
+      "PowerSetID": 3296,
       "PowerSetIndex": 4,
       "StaticIndex": 10834,
       "NGroupMembership": [],
@@ -1689,16 +1700,16 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6708,
-            6709
+            6728,
+            6729
           ],
           [
-            6708,
-            6710
+            6728,
+            6730
           ],
           [
-            6709,
-            6710
+            6729,
+            6730
           ]
         ],
         "NPowerIDNot": [],
@@ -1731,7 +1742,14 @@
       "EffectArea": 4,
       "Radius": 10.0,
       "MaxBoosts": "",
-      "BoostsAllowed": [],
+      "BoostsAllowed": [
+        "Accuracy_Boost",
+        "Damage_Boost",
+        "Debuff_Defense_Boost",
+        "EnduranceDiscount_Boost",
+        "Range_Boost",
+        "Recharge_Boost"
+      ],
       "Enhancements": [
         1,
         4,
@@ -1819,8 +1837,8 @@
       "CastTimeReal": 1.3,
       "ToggleCost": 2.6,
       "IsEpic": true,
-      "PowerIndex": 6712,
-      "PowerSetID": 3281,
+      "PowerIndex": 6732,
+      "PowerSetID": 3296,
       "PowerSetIndex": 5,
       "StaticIndex": 10835,
       "NGroupMembership": [],
@@ -1836,24 +1854,24 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6708,
-            6709
+            6728,
+            6729
           ],
           [
-            6708,
-            6710
+            6728,
+            6730
           ],
           [
-            6708,
-            6711
+            6728,
+            6731
           ],
           [
-            6709,
-            6710
+            6729,
+            6730
           ],
           [
-            6709,
-            6711
+            6729,
+            6731
           ]
         ],
         "NPowerIDNot": [],
@@ -1893,7 +1911,11 @@
       "EffectArea": 1,
       "MaxBoosts": "",
       "AIReport": 1,
-      "BoostsAllowed": [],
+      "BoostsAllowed": [
+        "EnduranceDiscount_Boost",
+        "Recharge_Boost",
+        "Buff_ToHit_Boost"
+      ],
       "Enhancements": [
         8,
         18,
@@ -3624,7 +3646,8 @@
       "FullSetName": "Pool.Experimentation",
       "CastTime": 1.3,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     }
   ]
 }

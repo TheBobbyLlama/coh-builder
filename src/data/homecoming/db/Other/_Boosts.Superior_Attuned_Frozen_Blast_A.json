@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Frozen_Blast_A",
   "ImageName": "",
   "Power": [
-    2561
+    2567
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Frozen Blast A",
   "nArchetype": -1,
-  "nID": 2316,
+  "nID": 2322,
   "SubName": "Set: Superior Frozen Blast",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2561,
-      "PowerSetID": 2316,
+      "PowerIndex": 2567,
+      "PowerSetID": 2322,
       "StaticIndex": 9338,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Frozen_Blast_A.Superior_Attuned_Frozen_Blast_A",

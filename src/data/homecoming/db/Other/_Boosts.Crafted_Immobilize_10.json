@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Immobilize_10",
   "ImageName": "",
   "Power": [
-    1658
+    1664
   ],
   "SetType": 10,
   "DisplayName": "Crafted Immobilize 10",
   "nArchetype": -1,
-  "nID": 1411,
+  "nID": 1418,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1658,
-      "PowerSetID": 1411,
+      "PowerIndex": 1664,
+      "PowerSetID": 1418,
       "StaticIndex": 7603,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Immobilize_10.Crafted_Immobilize_10",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Magic_Recovery",
   "ImageName": "",
   "Power": [
-    2437
+    2443
   ],
   "SetType": 10,
   "DisplayName": "Natural Magic Endurance",
   "nArchetype": -1,
-  "nID": 2178,
+  "nID": 2184,
   "SubName": "Relic (Natural, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2437,
-      "PowerSetID": 2178,
+      "PowerIndex": 2443,
+      "PowerSetID": 2184,
       "StaticIndex": 8362,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Magic_Recovery.Natural_Magic_Recovery",

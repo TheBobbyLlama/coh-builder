@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Natural_Range",
   "ImageName": "",
   "Power": [
-    2792
+    2804
   ],
   "SetType": 10,
   "DisplayName": "Technology Natural Range",
   "nArchetype": -1,
-  "nID": 2547,
+  "nID": 2559,
   "SubName": "Gadget (Technology, Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2792,
-      "PowerSetID": 2547,
+      "PowerIndex": 2804,
+      "PowerSetID": 2559,
       "StaticIndex": 8615,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Natural_Range.Technology_Natural_Range",

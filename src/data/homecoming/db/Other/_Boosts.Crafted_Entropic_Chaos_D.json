@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Entropic_Chaos_D",
   "ImageName": "",
   "Power": [
-    1470
+    1476
   ],
   "SetType": 10,
   "DisplayName": "Crafted Entropic Chaos D",
   "nArchetype": -1,
-  "nID": 1224,
+  "nID": 1230,
   "SubName": "Set: Entropic Chaos",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1470,
-      "PowerSetID": 1224,
+      "PowerIndex": 1476,
+      "PowerSetID": 1230,
       "StaticIndex": 7415,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Entropic_Chaos_D.Crafted_Entropic_Chaos_D",

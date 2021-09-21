@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Res_Damage",
   "ImageName": "",
   "Power": [
-    2365
+    2371
   ],
   "SetType": 10,
   "DisplayName": "Mutation Res Damage",
   "nArchetype": -1,
-  "nID": 2120,
+  "nID": 2126,
   "SubName": "Secondary Mutation (Mutation)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2365,
-      "PowerSetID": 2120,
+      "PowerIndex": 2371,
+      "PowerSetID": 2126,
       "StaticIndex": 8290,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Res_Damage.Mutation_Res_Damage",

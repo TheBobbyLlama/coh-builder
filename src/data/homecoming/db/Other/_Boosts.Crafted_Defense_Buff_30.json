@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Defense_Buff_30",
   "ImageName": "",
   "Power": [
-    1394
+    1400
   ],
   "SetType": 10,
   "DisplayName": "Crafted Defense Buff 30",
   "nArchetype": -1,
-  "nID": 1148,
+  "nID": 1154,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1394,
-      "PowerSetID": 1148,
+      "PowerIndex": 1400,
+      "PowerSetID": 1154,
       "StaticIndex": 7339,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Defense_Buff_30.Crafted_Defense_Buff_30",

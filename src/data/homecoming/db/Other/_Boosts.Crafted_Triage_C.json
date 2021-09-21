@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Triage_C",
   "ImageName": "",
   "Power": [
-    2189
+    2195
   ],
   "SetType": 10,
   "DisplayName": "Crafted Triage C",
   "nArchetype": -1,
-  "nID": 1941,
+  "nID": 1947,
   "SubName": "Set: Triage",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2189,
-      "PowerSetID": 1941,
+      "PowerIndex": 2195,
+      "PowerSetID": 1947,
       "StaticIndex": 8120,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Triage_C.Crafted_Triage_C",

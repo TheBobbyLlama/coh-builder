@@ -4,15 +4,15 @@
   "FullName": "Villain_Pets.Chain_Lightning",
   "ImageName": "",
   "Power": [
-    10070,
-    10071,
-    10072,
-    10073
+    10086,
+    10087,
+    10088,
+    10089
   ],
   "SetType": 8,
   "DisplayName": "Chain Lightning",
   "nArchetype": -1,
-  "nID": 3467,
+  "nID": 3481,
   "SubName": "Chain Lightning",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "GroupName": "Villain_Pets",
   "Powers": [
     {
-      "PowerIndex": 10070,
-      "PowerSetID": 3467,
+      "PowerIndex": 10086,
+      "PowerSetID": 3481,
       "StaticIndex": 3036,
       "NGroupMembership": [],
       "FullName": "Villain_Pets.Chain_Lightning.Charge",
@@ -143,7 +143,7 @@
           "nID": 1,
           "EffectType": 12,
           "Summon": "Villain_Pets.Chain_Lightning.Charge2",
-          "nSummon": 10071,
+          "nSummon": 10087,
           "DelayedTime": 1.5,
           "UIDClassName": "",
           "nIDClassName": -1,
@@ -249,8 +249,8 @@
       "AoEModifier": 2.5
     },
     {
-      "PowerIndex": 10071,
-      "PowerSetID": 3467,
+      "PowerIndex": 10087,
+      "PowerSetID": 3481,
       "PowerSetIndex": 1,
       "StaticIndex": 3037,
       "NGroupMembership": [],
@@ -368,7 +368,7 @@
           "nID": 1,
           "EffectType": 12,
           "Summon": "Villain_Pets.Chain_Lightning.Charge3",
-          "nSummon": 10072,
+          "nSummon": 10088,
           "DelayedTime": 1.5,
           "UIDClassName": "",
           "nIDClassName": -1,
@@ -474,8 +474,8 @@
       "AoEModifier": 2.5
     },
     {
-      "PowerIndex": 10072,
-      "PowerSetID": 3467,
+      "PowerIndex": 10088,
+      "PowerSetID": 3481,
       "PowerSetIndex": 2,
       "StaticIndex": 3038,
       "NGroupMembership": [],
@@ -593,7 +593,7 @@
           "nID": 1,
           "EffectType": 12,
           "Summon": "Villain_Pets.Chain_Lightning.Charge4",
-          "nSummon": 10073,
+          "nSummon": 10089,
           "DelayedTime": 1.5,
           "UIDClassName": "",
           "nIDClassName": -1,
@@ -699,8 +699,8 @@
       "AoEModifier": 2.5
     },
     {
-      "PowerIndex": 10073,
-      "PowerSetID": 3467,
+      "PowerIndex": 10089,
+      "PowerSetID": 3481,
       "PowerSetIndex": 3,
       "StaticIndex": 3039,
       "NGroupMembership": [],

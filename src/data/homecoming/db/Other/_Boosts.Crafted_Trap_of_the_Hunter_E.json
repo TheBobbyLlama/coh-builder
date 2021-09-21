@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Trap_of_the_Hunter_E",
   "ImageName": "",
   "Power": [
-    2185
+    2191
   ],
   "SetType": 10,
   "DisplayName": "Crafted Trap of the Hunter E",
   "nArchetype": -1,
-  "nID": 1937,
+  "nID": 1943,
   "SubName": "Set: Trap of the Hunter",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2185,
-      "PowerSetID": 1937,
+      "PowerIndex": 2191,
+      "PowerSetID": 1943,
       "StaticIndex": 8116,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Trap_of_the_Hunter_E.Crafted_Trap_of_the_Hunter_E",

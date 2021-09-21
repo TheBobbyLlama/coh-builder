@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Hold",
   "ImageName": "",
   "Power": [
-    2769
+    2781
   ],
   "SetType": 10,
   "DisplayName": "Technology Hold",
   "nArchetype": -1,
-  "nID": 2524,
+  "nID": 2536,
   "SubName": "Cybernetics (Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2769,
-      "PowerSetID": 2524,
+      "PowerIndex": 2781,
+      "PowerSetID": 2536,
       "StaticIndex": 8592,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Hold.Technology_Hold",

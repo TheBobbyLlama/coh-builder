@@ -63,7 +63,13 @@
       "BaseRechargeTime": 6.0,
       "EffectArea": 1,
       "MaxBoosts": "",
-      "BoostsAllowed": [],
+      "BoostsAllowed": [
+        "Accuracy_Boost",
+        "Damage_Boost",
+        "EnduranceDiscount_Boost",
+        "Knockback_Boost",
+        "Recharge_Boost"
+      ],
       "Enhancements": [
         1,
         4,
@@ -974,7 +980,13 @@
       "BaseRechargeTime": 11.0,
       "EffectArea": 1,
       "MaxBoosts": "",
-      "BoostsAllowed": [],
+      "BoostsAllowed": [
+        "Accuracy_Boost",
+        "Damage_Boost",
+        "EnduranceDiscount_Boost",
+        "Hold_Boost",
+        "Recharge_Boost"
+      ],
       "Enhancements": [
         1,
         4,
@@ -1804,7 +1816,14 @@
       "BaseRechargeTime": 16.0,
       "EffectArea": 1,
       "MaxBoosts": "",
-      "BoostsAllowed": [],
+      "BoostsAllowed": [
+        "Accuracy_Boost",
+        "Damage_Boost",
+        "EnduranceDiscount_Boost",
+        "Hold_Boost",
+        "Range_Boost",
+        "Recharge_Boost"
+      ],
       "Enhancements": [
         1,
         4,
@@ -2611,7 +2630,11 @@
       "EffectArea": 1,
       "MaxBoosts": "",
       "AIReport": 1,
-      "BoostsAllowed": [],
+      "BoostsAllowed": [
+        "EnduranceDiscount_Boost",
+        "Recharge_Boost",
+        "Buff_ToHit_Boost"
+      ],
       "Enhancements": [
         8,
         18,
@@ -3573,7 +3596,13 @@
       "Radius": 15.0,
       "MaxTargets": 10,
       "MaxBoosts": "",
-      "BoostsAllowed": [],
+      "BoostsAllowed": [
+        "Accuracy_Boost",
+        "Damage_Boost",
+        "EnduranceDiscount_Boost",
+        "Hold_Boost",
+        "Recharge_Boost"
+      ],
       "Enhancements": [
         1,
         4,
@@ -4402,7 +4431,12 @@
       "ActivatePeriod": 2.0,
       "EffectArea": 1,
       "MaxBoosts": "",
-      "BoostsAllowed": [],
+      "BoostsAllowed": [
+        "Recovery_Boost",
+        "Heal_Boost",
+        "Recharge_Boost",
+        "Res_Damage_Boost"
+      ],
       "Enhancements": [
         7,
         11,
@@ -4788,7 +4822,10 @@
       "Radius": 15.0,
       "MaxTargets": 10,
       "MaxBoosts": "",
-      "BoostsAllowed": [],
+      "BoostsAllowed": [
+        "EnduranceDiscount_Boost",
+        "Recharge_Boost"
+      ],
       "Enhancements": [
         8,
         18
@@ -5306,7 +5343,14 @@
       "Arc": 90,
       "MaxTargets": 10,
       "MaxBoosts": "",
-      "BoostsAllowed": [],
+      "BoostsAllowed": [
+        "Accuracy_Boost",
+        "EnduranceDiscount_Boost",
+        "Knockback_Boost",
+        "Range_Boost",
+        "Recharge_Boost",
+        "Stunned_Boost"
+      ],
       "Enhancements": [
         1,
         8,
@@ -6096,7 +6140,13 @@
       "BaseRechargeTime": 20.0,
       "EffectArea": 1,
       "MaxBoosts": "",
-      "BoostsAllowed": [],
+      "BoostsAllowed": [
+        "Accuracy_Boost",
+        "Damage_Boost",
+        "EnduranceDiscount_Boost",
+        "Hold_Boost",
+        "Recharge_Boost"
+      ],
       "Enhancements": [
         1,
         4,

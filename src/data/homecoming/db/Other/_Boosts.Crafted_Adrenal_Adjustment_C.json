@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Adrenal_Adjustment_C",
   "ImageName": "",
   "Power": [
-    1206
+    1212
   ],
   "SetType": 10,
   "DisplayName": "Crafted Adrenal Adjustment C",
   "nArchetype": -1,
-  "nID": 961,
+  "nID": 967,
   "SubName": "Set: Adrenal Adjustment",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1206,
-      "PowerSetID": 961,
+      "PowerIndex": 1212,
+      "PowerSetID": 967,
       "StaticIndex": 7158,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Adrenal_Adjustment_C.Crafted_Adrenal_Adjustment_C",

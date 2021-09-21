@@ -4,15 +4,15 @@
   "FullName": "Incarnate.Lore_Pet_Carnival_Boss",
   "ImageName": "",
   "Power": [
-    5292,
-    5293,
-    5294,
-    5295
+    5301,
+    5302,
+    5303,
+    5304
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Carnival_Boss",
   "nArchetype": -1,
-  "nID": 2824,
+  "nID": 2835,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -25,8 +25,8 @@
   "Powers": [
     {
       "CastTimeReal": 1.0,
-      "PowerIndex": 5292,
-      "PowerSetID": 2824,
+      "PowerIndex": 5301,
+      "PowerSetID": 2835,
       "StaticIndex": 5477,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Carnival_Boss.Telekinetic_Blast",
@@ -320,8 +320,8 @@
     },
     {
       "CastTimeReal": 1.67,
-      "PowerIndex": 5293,
-      "PowerSetID": 2824,
+      "PowerIndex": 5302,
+      "PowerSetID": 2835,
       "PowerSetIndex": 1,
       "StaticIndex": 5478,
       "NGroupMembership": [],
@@ -559,8 +559,8 @@
     },
     {
       "CastTimeReal": 2.37,
-      "PowerIndex": 5294,
-      "PowerSetID": 2824,
+      "PowerIndex": 5303,
+      "PowerSetID": 2835,
       "PowerSetIndex": 2,
       "StaticIndex": 5479,
       "NGroupMembership": [],
@@ -860,8 +860,8 @@
     },
     {
       "CastTimeReal": 1.67,
-      "PowerIndex": 5295,
-      "PowerSetID": 2824,
+      "PowerIndex": 5304,
+      "PowerSetID": 2835,
       "PowerSetIndex": 3,
       "StaticIndex": 5480,
       "NGroupMembership": [],

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Hydra_DeBuff_Endurance_Discount",
   "ImageName": "",
   "Power": [
-    2285
+    2291
   ],
   "SetType": 10,
   "DisplayName": "Hydra DeBuff Endurance Discount",
   "nArchetype": -1,
-  "nID": 2040,
+  "nID": 2046,
   "SubName": "Hydra (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2285,
-      "PowerSetID": 2040,
+      "PowerIndex": 2291,
+      "PowerSetID": 2046,
       "StaticIndex": 8210,
       "NGroupMembership": [],
       "FullName": "Boosts.Hydra_DeBuff_Endurance_Discount.Hydra_DeBuff_Endurance_Discount",

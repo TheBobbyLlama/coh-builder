@@ -4,15 +4,15 @@
   "FullName": "Mastermind_Pets.Soldier",
   "ImageName": "",
   "Power": [
-    6015,
-    6016,
-    6017,
-    6018
+    6024,
+    6025,
+    6026,
+    6027
   ],
   "SetType": 8,
   "DisplayName": "Soldier",
   "nArchetype": -1,
-  "nID": 2983,
+  "nID": 2996,
   "SubName": "Mercenaries",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "GroupName": "Mastermind_Pets",
   "Powers": [
     {
-      "PowerIndex": 6015,
-      "PowerSetID": 2983,
+      "PowerIndex": 6024,
+      "PowerSetID": 2996,
       "StaticIndex": 1295,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Soldier.Resistance",
@@ -359,8 +359,8 @@
     {
       "CastTimeReal": 2.2,
       "ToggleCost": 4.368,
-      "PowerIndex": 6016,
-      "PowerSetID": 2983,
+      "PowerIndex": 6025,
+      "PowerSetID": 2996,
       "PowerSetIndex": 1,
       "StaticIndex": 1296,
       "NGroupMembership": [],
@@ -608,8 +608,8 @@
     {
       "CastTimeReal": 0.67,
       "ToggleCost": 4.368,
-      "PowerIndex": 6017,
-      "PowerSetID": 2983,
+      "PowerIndex": 6026,
+      "PowerSetID": 2996,
       "PowerSetIndex": 2,
       "StaticIndex": 1297,
       "NGroupMembership": [],
@@ -787,8 +787,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 6018,
-      "PowerSetID": 2983,
+      "PowerIndex": 6027,
+      "PowerSetID": 2996,
       "PowerSetIndex": 3,
       "StaticIndex": 1298,
       "NGroupMembership": [],

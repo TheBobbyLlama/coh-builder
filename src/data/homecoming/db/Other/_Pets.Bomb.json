@@ -4,14 +4,14 @@
   "FullName": "Pets.Bomb",
   "ImageName": "",
   "Power": [
-    6216,
-    6217,
-    6218
+    6225,
+    6226,
+    6227
   ],
   "SetType": 8,
   "DisplayName": "Bomb",
   "nArchetype": -1,
-  "nID": 3033,
+  "nID": 3043,
   "SubName": "Devices",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6216,
-      "PowerSetID": 3033,
+      "PowerIndex": 6225,
+      "PowerSetID": 3043,
       "StaticIndex": 1548,
       "NGroupMembership": [],
       "FullName": "Pets.Bomb.Time_Bomb",
@@ -467,8 +467,8 @@
       "AoEModifier": 4.0
     },
     {
-      "PowerIndex": 6217,
-      "PowerSetID": 3033,
+      "PowerIndex": 6226,
+      "PowerSetID": 3043,
       "PowerSetIndex": 1,
       "StaticIndex": 1549,
       "NGroupMembership": [],
@@ -2533,8 +2533,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 6218,
-      "PowerSetID": 3033,
+      "PowerIndex": 6227,
+      "PowerSetID": 3043,
       "PowerSetIndex": 2,
       "StaticIndex": 1550,
       "NGroupMembership": [],

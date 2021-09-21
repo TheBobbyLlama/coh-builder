@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Annoyance_A",
   "ImageName": "",
   "Power": [
-    1229
+    1235
   ],
   "SetType": 10,
   "DisplayName": "Crafted Annoyance A",
   "nArchetype": -1,
-  "nID": 984,
+  "nID": 990,
   "SubName": "Set: Annoyance",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1229,
-      "PowerSetID": 984,
+      "PowerIndex": 1235,
+      "PowerSetID": 990,
       "StaticIndex": 7175,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Annoyance_A.Crafted_Annoyance_A",

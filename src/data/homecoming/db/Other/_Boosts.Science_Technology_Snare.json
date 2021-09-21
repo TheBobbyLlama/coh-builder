@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Technology_Snare",
   "ImageName": "",
   "Power": [
-    2506
+    2512
   ],
   "SetType": 10,
   "DisplayName": "Science Technology Snare",
   "nArchetype": -1,
-  "nID": 2261,
+  "nID": 2267,
   "SubName": "Invention (Science, Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2506,
-      "PowerSetID": 2261,
+      "PowerIndex": 2512,
+      "PowerSetID": 2267,
       "StaticIndex": 8431,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Technology_Snare.Science_Technology_Snare",

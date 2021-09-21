@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Superior_Scrappers_Strike_C",
   "ImageName": "",
   "Power": [
-    2701
+    2707
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Superior Scrappers Strike C",
   "nArchetype": -1,
-  "nID": 2456,
+  "nID": 2462,
   "SubName": "Set: Superior Scrapper's Strike",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2701,
-      "PowerSetID": 2456,
+      "PowerIndex": 2707,
+      "PowerSetID": 2462,
       "StaticIndex": 8548,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Superior_Scrappers_Strike_C.Superior_Attuned_Superior_Scrappers_Strike_C",

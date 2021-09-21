@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Science_Res_Damage",
   "ImageName": "",
   "Power": [
-    2387
+    2393
   ],
   "SetType": 10,
   "DisplayName": "Mutation Science Res Damage",
   "nArchetype": -1,
-  "nID": 2142,
+  "nID": 2148,
   "SubName": "Genetic Alteration (Mutation, Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2387,
-      "PowerSetID": 2142,
+      "PowerIndex": 2393,
+      "PowerSetID": 2148,
       "StaticIndex": 8312,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Science_Res_Damage.Mutation_Science_Res_Damage",

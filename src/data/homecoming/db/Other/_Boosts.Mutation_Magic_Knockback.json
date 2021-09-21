@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Magic_Knockback",
   "ImageName": "",
   "Power": [
-    2350
+    2356
   ],
   "SetType": 10,
   "DisplayName": "Mutation Magic Knockback",
   "nArchetype": -1,
-  "nID": 2105,
+  "nID": 2111,
   "SubName": "Focusing Device (Mutation, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2350,
-      "PowerSetID": 2105,
+      "PowerIndex": 2356,
+      "PowerSetID": 2111,
       "StaticIndex": 8275,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Magic_Knockback.Mutation_Magic_Knockback",

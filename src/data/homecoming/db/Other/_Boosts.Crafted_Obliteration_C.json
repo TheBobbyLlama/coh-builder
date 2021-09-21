@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Obliteration_C",
   "ImageName": "",
   "Power": [
-    1830
+    1836
   ],
   "SetType": 10,
   "DisplayName": "Crafted Obliteration C",
   "nArchetype": -1,
-  "nID": 1584,
+  "nID": 1590,
   "SubName": "Set: Obliteration",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1830,
-      "PowerSetID": 1584,
+      "PowerIndex": 1836,
+      "PowerSetID": 1590,
       "StaticIndex": 7775,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Obliteration_C.Crafted_Obliteration_C",

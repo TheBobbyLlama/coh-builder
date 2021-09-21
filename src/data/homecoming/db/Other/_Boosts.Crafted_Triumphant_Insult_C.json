@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Triumphant_Insult_C",
   "ImageName": "",
   "Power": [
-    2193
+    2199
   ],
   "SetType": 10,
   "DisplayName": "Crafted Triumphant Insult C",
   "nArchetype": -1,
-  "nID": 1945,
+  "nID": 1951,
   "SubName": "Set: Triumphant Insult",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2193,
-      "PowerSetID": 1945,
+      "PowerIndex": 2199,
+      "PowerSetID": 1951,
       "StaticIndex": 8124,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Triumphant_Insult_C.Crafted_Triumphant_Insult_C",

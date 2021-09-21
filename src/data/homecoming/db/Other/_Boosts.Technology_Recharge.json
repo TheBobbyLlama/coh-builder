@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Recharge",
   "ImageName": "",
   "Power": [
-    2804
+    2816
   ],
   "SetType": 10,
   "DisplayName": "Technology Recharge",
   "nArchetype": -1,
-  "nID": 2560,
+  "nID": 2572,
   "SubName": "Cybernetics (Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2804,
-      "PowerSetID": 2560,
+      "PowerIndex": 2816,
+      "PowerSetID": 2572,
       "StaticIndex": 8627,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Recharge.Technology_Recharge",

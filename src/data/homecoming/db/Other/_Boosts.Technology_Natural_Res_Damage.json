@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Natural_Res_Damage",
   "ImageName": "",
   "Power": [
-    2795
+    2807
   ],
   "SetType": 10,
   "DisplayName": "Technology Natural Res Damage",
   "nArchetype": -1,
-  "nID": 2550,
+  "nID": 2562,
   "SubName": "Gadget (Technology, Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2795,
-      "PowerSetID": 2550,
+      "PowerIndex": 2807,
+      "PowerSetID": 2562,
       "StaticIndex": 8618,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Natural_Res_Damage.Technology_Natural_Res_Damage",

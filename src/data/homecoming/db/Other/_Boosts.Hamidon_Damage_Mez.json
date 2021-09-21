@@ -4,12 +4,12 @@
   "FullName": "Boosts.Hamidon_Damage_Mez",
   "ImageName": "",
   "Power": [
-    2271
+    2277
   ],
   "SetType": 10,
   "DisplayName": "Hamidon Damage Mez",
   "nArchetype": -1,
-  "nID": 2026,
+  "nID": 2032,
   "SubName": "Hamidon (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2271,
-      "PowerSetID": 2026,
+      "PowerIndex": 2277,
+      "PowerSetID": 2032,
       "StaticIndex": 8196,
       "NGroupMembership": [],
       "FullName": "Boosts.Hamidon_Damage_Mez.Hamidon_Damage_Mez",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Science_Interrupt",
   "ImageName": "",
   "Power": [
-    2381
+    2387
   ],
   "SetType": 10,
   "DisplayName": "Mutation Science Interrupt",
   "nArchetype": -1,
-  "nID": 2136,
+  "nID": 2142,
   "SubName": "Genetic Alteration (Mutation, Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2381,
-      "PowerSetID": 2136,
+      "PowerIndex": 2387,
+      "PowerSetID": 2142,
       "StaticIndex": 8306,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Science_Interrupt.Mutation_Science_Interrupt",

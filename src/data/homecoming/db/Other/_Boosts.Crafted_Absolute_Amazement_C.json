@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Absolute_Amazement_C",
   "ImageName": "",
   "Power": [
-    1181
+    1187
   ],
   "SetType": 10,
   "DisplayName": "Crafted Absolute Amazement C",
   "nArchetype": -1,
-  "nID": 936,
+  "nID": 942,
   "SubName": "Set: Absolute Amazement",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1181,
-      "PowerSetID": 936,
+      "PowerIndex": 1187,
+      "PowerSetID": 942,
       "StaticIndex": 7133,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Absolute_Amazement_C.Crafted_Absolute_Amazement_C",

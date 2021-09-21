@@ -4,12 +4,12 @@
   "FullName": "Pets.SiphonPower_Mastermind",
   "ImageName": "",
   "Power": [
-    6522
+    6542
   ],
   "SetType": 8,
   "DisplayName": "Siphon Power",
   "nArchetype": -1,
-  "nID": 3203,
+  "nID": 3219,
   "SubName": "",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6522,
-      "PowerSetID": 3203,
+      "PowerIndex": 6542,
+      "PowerSetID": 3219,
       "StaticIndex": 10768,
       "NGroupMembership": [],
       "FullName": "Pets.SiphonPower_Mastermind.SiphonPower",

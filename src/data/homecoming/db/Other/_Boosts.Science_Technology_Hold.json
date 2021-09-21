@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Technology_Hold",
   "ImageName": "",
   "Power": [
-    2494
+    2500
   ],
   "SetType": 10,
   "DisplayName": "Science Technology Hold",
   "nArchetype": -1,
-  "nID": 2249,
+  "nID": 2255,
   "SubName": "Invention (Science, Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2494,
-      "PowerSetID": 2249,
+      "PowerIndex": 2500,
+      "PowerSetID": 2255,
       "StaticIndex": 8419,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Technology_Hold.Science_Technology_Hold",

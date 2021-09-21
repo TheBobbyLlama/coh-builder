@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Absolute_Amazement_F",
   "ImageName": "",
   "Power": [
-    2518
+    2524
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Absolute Amazement F",
   "nArchetype": -1,
-  "nID": 2273,
+  "nID": 2279,
   "SubName": "Set: Absolute Amazement",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2518,
-      "PowerSetID": 2273,
+      "PowerIndex": 2524,
+      "PowerSetID": 2279,
       "StaticIndex": 8443,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Absolute_Amazement_F.Superior_Attuned_Absolute_Amazement_F",

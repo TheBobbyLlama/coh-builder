@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Cone",
   "ImageName": "",
   "Power": [
-    2458
+    2464
   ],
   "SetType": 10,
   "DisplayName": "Science Range",
   "nArchetype": -1,
-  "nID": 2229,
+  "nID": 2235,
   "SubName": "Experiment (Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2458,
-      "PowerSetID": 2229,
+      "PowerIndex": 2464,
+      "PowerSetID": 2235,
       "StaticIndex": 8383,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Cone.Science_Cone",

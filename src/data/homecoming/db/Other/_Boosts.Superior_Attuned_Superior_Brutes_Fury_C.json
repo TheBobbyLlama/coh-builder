@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Superior_Brutes_Fury_C",
   "ImageName": "",
   "Power": [
-    2611
+    2617
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Superior Brutes Fury C",
   "nArchetype": -1,
-  "nID": 2366,
+  "nID": 2372,
   "SubName": "Set: Superior Brute's Fury",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2611,
-      "PowerSetID": 2366,
+      "PowerIndex": 2617,
+      "PowerSetID": 2372,
       "StaticIndex": 8506,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Superior_Brutes_Fury_C.Superior_Attuned_Superior_Brutes_Fury_C",

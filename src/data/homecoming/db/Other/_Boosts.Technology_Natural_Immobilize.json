@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Natural_Immobilize",
   "ImageName": "",
   "Power": [
-    2787
+    2799
   ],
   "SetType": 10,
   "DisplayName": "Technology Natural Immobilize",
   "nArchetype": -1,
-  "nID": 2542,
+  "nID": 2554,
   "SubName": "Gadget (Technology, Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2787,
-      "PowerSetID": 2542,
+      "PowerIndex": 2799,
+      "PowerSetID": 2554,
       "StaticIndex": 8610,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Natural_Immobilize.Technology_Natural_Immobilize",

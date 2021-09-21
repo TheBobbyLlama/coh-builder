@@ -4,13 +4,13 @@
   "FullName": "Incarnate.Lore_Pet_Seers_LT",
   "ImageName": "",
   "Power": [
-    5414,
-    5415
+    5423,
+    5424
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Seers_LT",
   "nArchetype": -1,
-  "nID": 2868,
+  "nID": 2879,
   "SubName": "Diviner",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "Powers": [
     {
       "CastTimeReal": 1.07,
-      "PowerIndex": 5414,
-      "PowerSetID": 2868,
+      "PowerIndex": 5423,
+      "PowerSetID": 2879,
       "StaticIndex": 4669,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Seers_LT.Mental_Blast",
@@ -263,8 +263,8 @@
     },
     {
       "CastTimeReal": 1.0,
-      "PowerIndex": 5415,
-      "PowerSetID": 2868,
+      "PowerIndex": 5424,
+      "PowerSetID": 2879,
       "PowerSetIndex": 1,
       "StaticIndex": 4670,
       "NGroupMembership": [],

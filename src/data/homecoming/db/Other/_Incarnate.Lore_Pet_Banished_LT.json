@@ -4,14 +4,14 @@
   "FullName": "Incarnate.Lore_Pet_Banished_LT",
   "ImageName": "",
   "Power": [
-    5286,
-    5287,
-    5288
+    5295,
+    5296,
+    5297
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Banished_LT",
   "nArchetype": -1,
-  "nID": 2821,
+  "nID": 2832,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "Powers": [
     {
       "CastTimeReal": 0.67,
-      "PowerIndex": 5286,
-      "PowerSetID": 2821,
+      "PowerIndex": 5295,
+      "PowerSetID": 2832,
       "StaticIndex": 9483,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Banished_LT.Frigid_Slash",
@@ -316,8 +316,8 @@
     },
     {
       "CastTimeReal": 2.0,
-      "PowerIndex": 5287,
-      "PowerSetID": 2821,
+      "PowerIndex": 5296,
+      "PowerSetID": 2832,
       "PowerSetIndex": 1,
       "StaticIndex": 9485,
       "NGroupMembership": [],
@@ -729,8 +729,8 @@
     },
     {
       "CastTimeReal": 1.5,
-      "PowerIndex": 5288,
-      "PowerSetID": 2821,
+      "PowerIndex": 5297,
+      "PowerSetID": 2832,
       "PowerSetIndex": 2,
       "StaticIndex": 9484,
       "NGroupMembership": [],

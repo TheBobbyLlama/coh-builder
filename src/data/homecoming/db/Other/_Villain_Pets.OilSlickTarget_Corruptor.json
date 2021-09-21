@@ -4,15 +4,15 @@
   "FullName": "Villain_Pets.OilSlickTarget_Corruptor",
   "ImageName": "",
   "Power": [
-    10206,
-    10207,
-    10208,
-    10209
+    10222,
+    10223,
+    10224,
+    10225
   ],
   "SetType": 8,
   "DisplayName": "Oil Slick",
   "nArchetype": -1,
-  "nID": 3499,
+  "nID": 3514,
   "SubName": "Trick Arrow",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "GroupName": "Villain_Pets",
   "Powers": [
     {
-      "PowerIndex": 10206,
-      "PowerSetID": 3499,
+      "PowerIndex": 10222,
+      "PowerSetID": 3514,
       "StaticIndex": 4098,
       "NGroupMembership": [],
       "FullName": "Villain_Pets.OilSlickTarget_Corruptor.Ignited_Oil",
@@ -82,6 +82,7 @@
           "Mag": -1.0,
           "MagPercent": -100.0,
           "DisplayPercentage": true,
+          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Ones",
@@ -135,8 +136,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 10207,
-      "PowerSetID": 3499,
+      "PowerIndex": 10223,
+      "PowerSetID": 3514,
       "PowerSetIndex": 1,
       "StaticIndex": 4099,
       "NGroupMembership": [],
@@ -241,8 +242,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 10208,
-      "PowerSetID": 3499,
+      "PowerIndex": 10224,
+      "PowerSetID": 3514,
       "PowerSetIndex": 2,
       "StaticIndex": 4100,
       "NGroupMembership": [],
@@ -2475,8 +2476,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 10209,
-      "PowerSetID": 3499,
+      "PowerIndex": 10225,
+      "PowerSetID": 3514,
       "PowerSetIndex": 3,
       "StaticIndex": 4101,
       "NGroupMembership": [],

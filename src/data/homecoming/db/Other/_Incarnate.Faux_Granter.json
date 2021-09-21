@@ -4,12 +4,12 @@
   "FullName": "Incarnate.Faux_Granter",
   "ImageName": "",
   "Power": [
-    4712
+    4721
   ],
   "SetType": 11,
   "DisplayName": "Faux_Granter",
   "nArchetype": -1,
-  "nID": 2805,
+  "nID": 2816,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Incarnate",
   "Powers": [
     {
-      "PowerIndex": 4712,
-      "PowerSetID": 2805,
+      "PowerIndex": 4721,
+      "PowerSetID": 2816,
       "StaticIndex": 4609,
       "NGroupMembership": [],
       "FullName": "Incarnate.Faux_Granter.Faux_Grant",

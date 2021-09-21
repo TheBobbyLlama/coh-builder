@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Heal_50",
   "ImageName": "",
   "Power": [
-    1630
+    1636
   ],
   "SetType": 10,
   "DisplayName": "Crafted Heal 50",
   "nArchetype": -1,
-  "nID": 1384,
+  "nID": 1390,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1630,
-      "PowerSetID": 1384,
+      "PowerIndex": 1636,
+      "PowerSetID": 1390,
       "StaticIndex": 7575,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Heal_50.Crafted_Heal_50",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Jump",
   "ImageName": "",
   "Power": [
-    2773
+    2785
   ],
   "SetType": 10,
   "DisplayName": "Technology Jump",
   "nArchetype": -1,
-  "nID": 2528,
+  "nID": 2540,
   "SubName": "Cybernetics (Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2773,
-      "PowerSetID": 2528,
+      "PowerIndex": 2785,
+      "PowerSetID": 2540,
       "StaticIndex": 8596,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Jump.Technology_Jump",

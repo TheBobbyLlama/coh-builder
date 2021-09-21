@@ -4,12 +4,12 @@
   "FullName": "Boosts.Generic_Accuracy",
   "ImageName": "",
   "Power": [
-    2234
+    2240
   ],
   "SetType": 10,
   "DisplayName": "Generic Accuracy",
   "nArchetype": -1,
-  "nID": 1989,
+  "nID": 1995,
   "SubName": "Training (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2234,
-      "PowerSetID": 1989,
+      "PowerIndex": 2240,
+      "PowerSetID": 1995,
       "StaticIndex": 8159,
       "NGroupMembership": [],
       "FullName": "Boosts.Generic_Accuracy.Generic_Accuracy",

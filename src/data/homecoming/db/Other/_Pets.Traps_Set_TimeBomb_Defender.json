@@ -4,12 +4,12 @@
   "FullName": "Pets.Traps_Set_TimeBomb_Defender",
   "ImageName": "",
   "Power": [
-    6632
+    6652
   ],
   "SetType": 8,
   "DisplayName": "Time Bomb",
   "nArchetype": -1,
-  "nID": 3236,
+  "nID": 3251,
   "SubName": "Traps",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -22,8 +22,8 @@
   "Powers": [
     {
       "CastTimeReal": 2.17,
-      "PowerIndex": 6632,
-      "PowerSetID": 3236,
+      "PowerIndex": 6652,
+      "PowerSetID": 3251,
       "StaticIndex": 3555,
       "NGroupMembership": [],
       "FullName": "Pets.Traps_Set_TimeBomb_Defender.Time_Bomb",

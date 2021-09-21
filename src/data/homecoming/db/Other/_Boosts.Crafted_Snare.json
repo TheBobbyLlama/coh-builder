@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Snare",
   "ImageName": "",
   "Power": [
-    2043
+    2049
   ],
   "SetType": 10,
   "DisplayName": "Crafted Snare 10",
   "nArchetype": -1,
-  "nID": 1797,
+  "nID": 1802,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2043,
-      "PowerSetID": 1797,
+      "PowerIndex": 2049,
+      "PowerSetID": 1802,
       "StaticIndex": 7975,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Snare.Crafted_Snare",

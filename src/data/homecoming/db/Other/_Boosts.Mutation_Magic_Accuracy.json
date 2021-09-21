@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Magic_Accuracy",
   "ImageName": "",
   "Power": [
-    2334
+    2340
   ],
   "SetType": 10,
   "DisplayName": "Mutation Magic Accuracy",
   "nArchetype": -1,
-  "nID": 2089,
+  "nID": 2095,
   "SubName": "Focusing Device (Mutation, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2334,
-      "PowerSetID": 2089,
+      "PowerIndex": 2340,
+      "PowerSetID": 2095,
       "StaticIndex": 8259,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Magic_Accuracy.Mutation_Magic_Accuracy",

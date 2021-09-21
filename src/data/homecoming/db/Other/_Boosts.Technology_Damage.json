@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Damage",
   "ImageName": "",
   "Power": [
-    2761
+    2773
   ],
   "SetType": 10,
   "DisplayName": "Technology Damage",
   "nArchetype": -1,
-  "nID": 2515,
+  "nID": 2527,
   "SubName": "Cybernetics (Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2761,
-      "PowerSetID": 2515,
+      "PowerIndex": 2773,
+      "PowerSetID": 2527,
       "StaticIndex": 8584,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Damage.Technology_Damage",

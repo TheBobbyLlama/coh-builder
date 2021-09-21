@@ -4,12 +4,12 @@
   "FullName": "Boosts.Generic_ToHit_DeBuff",
   "ImageName": "",
   "Power": [
-    2265
+    2271
   ],
   "SetType": 10,
   "DisplayName": "Generic ToHit DeBuff",
   "nArchetype": -1,
-  "nID": 2020,
+  "nID": 2026,
   "SubName": "Training (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2265,
-      "PowerSetID": 2020,
+      "PowerIndex": 2271,
+      "PowerSetID": 2026,
       "StaticIndex": 8190,
       "NGroupMembership": [],
       "FullName": "Boosts.Generic_ToHit_DeBuff.Generic_ToHit_DeBuff",

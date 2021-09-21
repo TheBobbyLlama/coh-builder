@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Ghost_Widows_Embrace_A",
   "ImageName": "",
   "Power": [
-    1567
+    1573
   ],
   "SetType": 10,
   "DisplayName": "Crafted Ghost Widows Embrace A",
   "nArchetype": -1,
-  "nID": 1321,
+  "nID": 1327,
   "SubName": "Set: Ghost Widows Embrace",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1567,
-      "PowerSetID": 1321,
+      "PowerIndex": 1573,
+      "PowerSetID": 1327,
       "StaticIndex": 7512,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Ghost_Widows_Embrace_A.Crafted_Ghost_Widows_Embrace_A",

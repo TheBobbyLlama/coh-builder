@@ -4,13 +4,13 @@
   "FullName": "Incarnate.Lore_Pet_Phantoms_LT",
   "ImageName": "",
   "Power": [
-    5388,
-    5389
+    5397,
+    5398
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Phantoms_LT",
   "nArchetype": -1,
-  "nID": 2858,
+  "nID": 2869,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "Powers": [
     {
       "CastTimeReal": 1.67,
-      "PowerIndex": 5388,
-      "PowerSetID": 2858,
+      "PowerIndex": 5397,
+      "PowerSetID": 2869,
       "StaticIndex": 5542,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Phantoms_LT.Fire_Blast",
@@ -206,8 +206,8 @@
     },
     {
       "CastTimeReal": 1.33,
-      "PowerIndex": 5389,
-      "PowerSetID": 2858,
+      "PowerIndex": 5398,
+      "PowerSetID": 2869,
       "PowerSetIndex": 1,
       "StaticIndex": 5543,
       "NGroupMembership": [],

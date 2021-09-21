@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Magic_Damage",
   "ImageName": "",
   "Power": [
-    2421
+    2427
   ],
   "SetType": 10,
   "DisplayName": "Natural Magic Damage",
   "nArchetype": -1,
-  "nID": 2175,
+  "nID": 2181,
   "SubName": "Relic (Natural, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2421,
-      "PowerSetID": 2175,
+      "PowerIndex": 2427,
+      "PowerSetID": 2181,
       "StaticIndex": 8346,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Magic_Damage.Natural_Magic_Damage",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Tempered_Readiness_D",
   "ImageName": "",
   "Power": [
-    1062
+    1068
   ],
   "SetType": 10,
   "DisplayName": "Attuned Tempered Readiness D",
   "nArchetype": -1,
-  "nID": 817,
+  "nID": 823,
   "SubName": "Set: Tempered Readiness",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1062,
-      "PowerSetID": 817,
+      "PowerIndex": 1068,
+      "PowerSetID": 823,
       "StaticIndex": 7038,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Tempered_Readiness_D.Attuned_Tempered_Readiness_D",

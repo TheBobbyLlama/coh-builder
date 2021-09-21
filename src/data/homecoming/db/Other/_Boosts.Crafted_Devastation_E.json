@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Devastation_E",
   "ImageName": "",
   "Power": [
-    1422
+    1428
   ],
   "SetType": 10,
   "DisplayName": "Crafted Devastation E",
   "nArchetype": -1,
-  "nID": 1176,
+  "nID": 1182,
   "SubName": "Set: Devastation",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1422,
-      "PowerSetID": 1176,
+      "PowerIndex": 1428,
+      "PowerSetID": 1182,
       "StaticIndex": 7367,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Devastation_E.Crafted_Devastation_E",

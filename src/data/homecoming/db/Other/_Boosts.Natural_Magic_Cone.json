@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Magic_Cone",
   "ImageName": "",
   "Power": [
-    2419
+    2425
   ],
   "SetType": 10,
   "DisplayName": "Natural Magic Range",
   "nArchetype": -1,
-  "nID": 2190,
+  "nID": 2197,
   "SubName": "Relic (Natural, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2419,
-      "PowerSetID": 2190,
+      "PowerIndex": 2425,
+      "PowerSetID": 2197,
       "StaticIndex": 8344,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Magic_Cone.Natural_Magic_Cone",

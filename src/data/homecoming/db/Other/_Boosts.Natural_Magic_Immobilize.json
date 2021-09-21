@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Magic_Immobilize",
   "ImageName": "",
   "Power": [
-    2430
+    2436
   ],
   "SetType": 10,
   "DisplayName": "Natural Magic Immobilize",
   "nArchetype": -1,
-  "nID": 2185,
+  "nID": 2191,
   "SubName": "Relic (Natural, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2430,
-      "PowerSetID": 2185,
+      "PowerIndex": 2436,
+      "PowerSetID": 2191,
       "StaticIndex": 8355,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Magic_Immobilize.Natural_Magic_Immobilize",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Touch_of_Lady_Grey_B",
   "ImageName": "",
   "Power": [
-    2170
+    2176
   ],
   "SetType": 10,
   "DisplayName": "Crafted Touch of Lady Grey B",
   "nArchetype": -1,
-  "nID": 1922,
+  "nID": 1928,
   "SubName": "Set: Touch of Lady Grey",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2170,
-      "PowerSetID": 1922,
+      "PowerIndex": 2176,
+      "PowerSetID": 1928,
       "StaticIndex": 8101,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Touch_of_Lady_Grey_B.Crafted_Touch_of_Lady_Grey_B",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Science_Confuse",
   "ImageName": "",
   "Power": [
-    2369
+    2375
   ],
   "SetType": 10,
   "DisplayName": "Mutation Science Confuse",
   "nArchetype": -1,
-  "nID": 2123,
+  "nID": 2129,
   "SubName": "Genetic Alteration (Mutation, Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2369,
-      "PowerSetID": 2123,
+      "PowerIndex": 2375,
+      "PowerSetID": 2129,
       "StaticIndex": 8294,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Science_Confuse.Mutation_Science_Confuse",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Mocking_Beratement_A",
   "ImageName": "",
   "Power": [
-    1798
+    1804
   ],
   "SetType": 10,
   "DisplayName": "Crafted Mocking Beratement A",
   "nArchetype": -1,
-  "nID": 1552,
+  "nID": 1558,
   "SubName": "Set: Mocking Beratement",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1798,
-      "PowerSetID": 1552,
+      "PowerIndex": 1804,
+      "PowerSetID": 1558,
       "StaticIndex": 7743,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Mocking_Beratement_A.Crafted_Mocking_Beratement_A",

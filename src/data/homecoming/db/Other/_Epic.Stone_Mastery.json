@@ -4,16 +4,16 @@
   "FullName": "Epic.Stone_Mastery",
   "ImageName": "StoneArmor.png",
   "Power": [
-    4408,
-    4409,
-    4410,
-    4411,
-    4412
+    4417,
+    4418,
+    4419,
+    4420,
+    4421
   ],
   "SetType": 3,
   "DisplayName": "Stone Mastery",
   "nArchetype": -1,
-  "nID": 2793,
+  "nID": 2804,
   "SubName": "Stone Mastery",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
     {
       "CastTimeReal": 2.1,
       "ToggleCost": 12.74,
-      "PowerIndex": 4408,
-      "PowerSetID": 2793,
+      "PowerIndex": 4417,
+      "PowerSetID": 2804,
       "StaticIndex": 1004,
       "NGroupMembership": [],
       "FullName": "Epic.Stone_Mastery.Fissure",
@@ -646,8 +646,8 @@
     {
       "CastTimeReal": 2.5,
       "ToggleCost": 11.7,
-      "PowerIndex": 4409,
-      "PowerSetID": 2793,
+      "PowerIndex": 4418,
+      "PowerSetID": 2804,
       "PowerSetIndex": 1,
       "StaticIndex": 1003,
       "NGroupMembership": [],
@@ -1077,8 +1077,8 @@
       "CastTimeReal": 1.5,
       "ToggleCost": 18.512,
       "IsEpic": true,
-      "PowerIndex": 4410,
-      "PowerSetID": 2793,
+      "PowerIndex": 4419,
+      "PowerSetID": 2804,
       "PowerSetIndex": 2,
       "StaticIndex": 3321,
       "NGroupMembership": [],
@@ -1094,11 +1094,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4409,
+            4418,
             -1
           ],
           [
-            4408,
+            4417,
             -1
           ]
         ],
@@ -1524,8 +1524,8 @@
       "CastTimeReal": 0.73,
       "ToggleCost": 0.325,
       "IsEpic": true,
-      "PowerIndex": 4411,
-      "PowerSetID": 2793,
+      "PowerIndex": 4420,
+      "PowerSetID": 2804,
       "PowerSetIndex": 3,
       "StaticIndex": 1005,
       "NGroupMembership": [],
@@ -1541,11 +1541,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4409,
+            4418,
             -1
           ],
           [
-            4408,
+            4417,
             -1
           ]
         ],
@@ -2614,8 +2614,8 @@
       "CastTimeReal": 2.03,
       "ToggleCost": 13.0,
       "IsEpic": true,
-      "PowerIndex": 4412,
-      "PowerSetID": 2793,
+      "PowerIndex": 4421,
+      "PowerSetID": 2804,
       "PowerSetIndex": 4,
       "StaticIndex": 1006,
       "NGroupMembership": [],
@@ -2631,24 +2631,24 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4409,
-            4408
+            4418,
+            4417
           ],
           [
-            4409,
-            4410
+            4418,
+            4419
           ],
           [
-            4409,
-            4411
+            4418,
+            4420
           ],
           [
-            4408,
-            4410
+            4417,
+            4419
           ],
           [
-            4408,
-            4411
+            4417,
+            4420
           ]
         ],
         "NPowerIDNot": [],

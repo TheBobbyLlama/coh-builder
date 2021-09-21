@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Interrupt",
   "ImageName": "",
   "Power": [
-    2471
+    2477
   ],
   "SetType": 10,
   "DisplayName": "Science Interrupt",
   "nArchetype": -1,
-  "nID": 2226,
+  "nID": 2232,
   "SubName": "Experiment (Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2471,
-      "PowerSetID": 2226,
+      "PowerIndex": 2477,
+      "PowerSetID": 2232,
       "StaticIndex": 8396,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Interrupt.Science_Interrupt",

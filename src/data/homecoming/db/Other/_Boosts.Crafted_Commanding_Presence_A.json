@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Commanding_Presence_A",
   "ImageName": "",
   "Power": [
-    1320
+    1326
   ],
   "SetType": 10,
   "DisplayName": "Crafted Commanding Presence A",
   "nArchetype": -1,
-  "nID": 1074,
+  "nID": 1080,
   "SubName": "Set: Commanding Presence",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1320,
-      "PowerSetID": 1074,
+      "PowerIndex": 1326,
+      "PowerSetID": 1080,
       "StaticIndex": 7265,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Commanding_Presence_A.Crafted_Commanding_Presence_A",

@@ -758,7 +758,9 @@
       "FullSetName": "Blaster_Ranged.Dark_Blast",
       "CastTime": 1.0,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.67,
@@ -1497,7 +1499,9 @@
       "FullSetName": "Blaster_Ranged.Dark_Blast",
       "CastTime": 1.67,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.03,
@@ -2385,7 +2389,7 @@
         8,
         18
       ],
-      "DescShort": "Self +To-hit, +DMG",
+      "DescShort": "Self +To Hit, +DMG",
       "DescLong": "Greatly increases the chance to hit of your attacks for a few seconds. Slightly increases damage. Recharge: Long",
       "SetTypes": [
         25
@@ -2934,7 +2938,8 @@
       "FullSetName": "Blaster_Ranged.Dark_Blast",
       "CastTime": 1.17,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.33,
@@ -3073,7 +3078,6 @@
           "Probability": 1.0,
           "Mag": 1.67811048,
           "MagPercent": 1.67811048,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Damage",
@@ -3662,7 +3666,9 @@
       "FullSetName": "Blaster_Ranged.Dark_Blast",
       "CastTime": 1.33,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.67,
@@ -4627,7 +4633,9 @@
       "FullSetName": "Blaster_Ranged.Dark_Blast",
       "CastTime": 1.67,
       "Slottable": true,
-      "AoEModifier": 2.30662441
+      "AoEModifier": 2.30662441,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.67,
@@ -5489,7 +5497,9 @@
       "FullSetName": "Blaster_Ranged.Dark_Blast",
       "CastTime": 1.67,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.93,
@@ -6283,7 +6293,9 @@
       "FullSetName": "Blaster_Ranged.Dark_Blast",
       "CastTime": 1.93,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 3.0,
@@ -7114,7 +7126,9 @@
       "FullSetName": "Blaster_Ranged.Dark_Blast",
       "CastTime": 3.0,
       "Slottable": true,
-      "AoEModifier": 4.75
+      "AoEModifier": 4.75,
+      "Active": true,
+      "Taken": true
     }
   ]
 }

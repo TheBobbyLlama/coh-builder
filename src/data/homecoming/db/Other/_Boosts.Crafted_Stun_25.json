@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Stun_25",
   "ImageName": "",
   "Power": [
-    2089
+    2095
   ],
   "SetType": 10,
   "DisplayName": "Crafted Stun 25",
   "nArchetype": -1,
-  "nID": 1842,
+  "nID": 1848,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2089,
-      "PowerSetID": 1842,
+      "PowerIndex": 2095,
+      "PowerSetID": 1848,
       "StaticIndex": 8021,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Stun_25.Crafted_Stun_25",

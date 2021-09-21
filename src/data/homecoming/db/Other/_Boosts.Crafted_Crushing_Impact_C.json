@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Crushing_Impact_C",
   "ImageName": "",
   "Power": [
-    1337
+    1343
   ],
   "SetType": 10,
   "DisplayName": "Crafted Crushing Impact C",
   "nArchetype": -1,
-  "nID": 1091,
+  "nID": 1097,
   "SubName": "Set: Crushing Impact",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1337,
-      "PowerSetID": 1091,
+      "PowerIndex": 1343,
+      "PowerSetID": 1097,
       "StaticIndex": 7282,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Crushing_Impact_C.Crafted_Crushing_Impact_C",

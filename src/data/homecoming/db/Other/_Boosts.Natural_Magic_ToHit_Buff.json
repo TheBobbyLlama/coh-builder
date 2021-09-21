@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Magic_ToHit_Buff",
   "ImageName": "",
   "Power": [
-    2444
+    2450
   ],
   "SetType": 10,
   "DisplayName": "Natural Magic ToHit Buff",
   "nArchetype": -1,
-  "nID": 2199,
+  "nID": 2205,
   "SubName": "Relic (Natural, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2444,
-      "PowerSetID": 2199,
+      "PowerIndex": 2450,
+      "PowerSetID": 2205,
       "StaticIndex": 8369,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Magic_ToHit_Buff.Natural_Magic_ToHit_Buff",

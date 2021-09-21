@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Natural_Jump",
   "ImageName": "",
   "Power": [
-    2790
+    2802
   ],
   "SetType": 10,
   "DisplayName": "Technology Natural Jump",
   "nArchetype": -1,
-  "nID": 2545,
+  "nID": 2557,
   "SubName": "Gadget (Technology, Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2790,
-      "PowerSetID": 2545,
+      "PowerIndex": 2802,
+      "PowerSetID": 2557,
       "StaticIndex": 8613,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Natural_Jump.Technology_Natural_Jump",

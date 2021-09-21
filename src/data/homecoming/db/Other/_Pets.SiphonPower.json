@@ -4,12 +4,12 @@
   "FullName": "Pets.SiphonPower",
   "ImageName": "",
   "Power": [
-    6520
+    6540
   ],
   "SetType": 8,
   "DisplayName": "Siphon Power",
   "nArchetype": -1,
-  "nID": 3204,
+  "nID": 3220,
   "SubName": "Kinetics",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6520,
-      "PowerSetID": 3204,
+      "PowerIndex": 6540,
+      "PowerSetID": 3220,
       "StaticIndex": 1712,
       "NGroupMembership": [],
       "FullName": "Pets.SiphonPower.SiphonPower",

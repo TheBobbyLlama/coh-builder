@@ -4,12 +4,12 @@
   "FullName": "Boosts.Magic_Defense_Buff",
   "ImageName": "",
   "Power": [
-    2293
+    2299
   ],
   "SetType": 10,
   "DisplayName": "Magic Defense Buff",
   "nArchetype": -1,
-  "nID": 2047,
+  "nID": 2053,
   "SubName": "Dimensional Entities (Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2293,
-      "PowerSetID": 2047,
+      "PowerIndex": 2299,
+      "PowerSetID": 2053,
       "StaticIndex": 8218,
       "NGroupMembership": [],
       "FullName": "Boosts.Magic_Defense_Buff.Magic_Defense_Buff",

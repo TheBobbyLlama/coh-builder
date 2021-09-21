@@ -4,12 +4,12 @@
   "FullName": "Pets.ChargeImpact",
   "ImageName": "",
   "Power": [
-    6249
+    6258
   ],
   "SetType": 8,
   "DisplayName": "Charge Impact",
   "nArchetype": -1,
-  "nID": 3057,
+  "nID": 3068,
   "SubName": "Charge Impact",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6249,
-      "PowerSetID": 3057,
+      "PowerIndex": 6258,
+      "PowerSetID": 3068,
       "StaticIndex": 3334,
       "NGroupMembership": [],
       "FullName": "Pets.ChargeImpact.Shield_Charge",

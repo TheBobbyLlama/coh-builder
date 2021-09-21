@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Snare",
   "ImageName": "",
   "Power": [
-    2452
+    2458
   ],
   "SetType": 10,
   "DisplayName": "Natural Snare",
   "nArchetype": -1,
-  "nID": 2207,
+  "nID": 2213,
   "SubName": "Technique (Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2452,
-      "PowerSetID": 2207,
+      "PowerIndex": 2458,
+      "PowerSetID": 2213,
       "StaticIndex": 8377,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Snare.Natural_Snare",

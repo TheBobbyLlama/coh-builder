@@ -4,14 +4,14 @@
   "FullName": "Pets.Villain_Mine",
   "ImageName": "",
   "Power": [
-    6655,
-    6656,
-    6657
+    6675,
+    6676,
+    6677
   ],
   "SetType": 8,
   "DisplayName": "Mine",
   "nArchetype": -1,
-  "nID": 3144,
+  "nID": 3156,
   "SubName": "Devices",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6655,
-      "PowerSetID": 3144,
+      "PowerIndex": 6675,
+      "PowerSetID": 3156,
       "StaticIndex": 1770,
       "NGroupMembership": [],
       "FullName": "Pets.Villain_Mine.Trip_Mine",
@@ -311,8 +311,8 @@
       "AoEModifier": 2.8
     },
     {
-      "PowerIndex": 6656,
-      "PowerSetID": 3144,
+      "PowerIndex": 6676,
+      "PowerSetID": 3156,
       "PowerSetIndex": 1,
       "StaticIndex": 1771,
       "NGroupMembership": [],
@@ -2379,8 +2379,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 6657,
-      "PowerSetID": 3144,
+      "PowerIndex": 6677,
+      "PowerSetID": 3156,
       "PowerSetIndex": 2,
       "StaticIndex": 1772,
       "NGroupMembership": [],

@@ -4,12 +4,12 @@
   "FullName": "Pets.Lifegiving_Spores_Mastermind",
   "ImageName": "",
   "Power": [
-    6385
+    6394
   ],
   "SetType": 8,
   "DisplayName": "Lifegiving Spores",
   "nArchetype": -1,
-  "nID": 3126,
+  "nID": 3138,
   "SubName": "Nature Affinity",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -22,8 +22,8 @@
   "Powers": [
     {
       "CastTimeReal": 3.1,
-      "PowerIndex": 6385,
-      "PowerSetID": 3126,
+      "PowerIndex": 6394,
+      "PowerSetID": 3138,
       "StaticIndex": 9107,
       "NGroupMembership": [],
       "FullName": "Pets.Lifegiving_Spores_Mastermind.Lifegiving_Spores",

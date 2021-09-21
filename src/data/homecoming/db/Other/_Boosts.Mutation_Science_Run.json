@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Science_Run",
   "ImageName": "",
   "Power": [
-    2388
+    2394
   ],
   "SetType": 10,
   "DisplayName": "Mutation Science Run",
   "nArchetype": -1,
-  "nID": 2143,
+  "nID": 2149,
   "SubName": "Genetic Alteration (Mutation, Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2388,
-      "PowerSetID": 2143,
+      "PowerIndex": 2394,
+      "PowerSetID": 2149,
       "StaticIndex": 8313,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Science_Run.Mutation_Science_Run",

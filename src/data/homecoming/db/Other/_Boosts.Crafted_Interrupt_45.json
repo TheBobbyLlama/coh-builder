@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Interrupt_45",
   "ImageName": "",
   "Power": [
-    1708
+    1714
   ],
   "SetType": 10,
   "DisplayName": "Crafted Interrupt 45",
   "nArchetype": -1,
-  "nID": 1462,
+  "nID": 1468,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1708,
-      "PowerSetID": 1462,
+      "PowerIndex": 1714,
+      "PowerSetID": 1468,
       "StaticIndex": 7653,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Interrupt_45.Crafted_Interrupt_45",

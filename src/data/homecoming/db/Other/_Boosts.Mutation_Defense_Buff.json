@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Defense_Buff",
   "ImageName": "",
   "Power": [
-    2321
+    2327
   ],
   "SetType": 10,
   "DisplayName": "Mutation Defense Buff",
   "nArchetype": -1,
-  "nID": 2075,
+  "nID": 2081,
   "SubName": "Secondary Mutation (Mutation)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2321,
-      "PowerSetID": 2075,
+      "PowerIndex": 2327,
+      "PowerSetID": 2081,
       "StaticIndex": 8246,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Defense_Buff.Mutation_Defense_Buff",

@@ -4,12 +4,12 @@
   "FullName": "Pets.Savage_Melee_Savage_Leap",
   "ImageName": "",
   "Power": [
-    6508
+    6528
   ],
   "SetType": 8,
   "DisplayName": "Savage Melee",
   "nArchetype": -1,
-  "nID": 3194,
+  "nID": 3210,
   "SubName": "Savage Melee",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6508,
-      "PowerSetID": 3194,
+      "PowerIndex": 6528,
+      "PowerSetID": 3210,
       "StaticIndex": 10630,
       "NGroupMembership": [],
       "FullName": "Pets.Savage_Melee_Savage_Leap.Savage_Leap",

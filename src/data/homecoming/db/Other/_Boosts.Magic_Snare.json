@@ -4,12 +4,12 @@
   "FullName": "Boosts.Magic_Snare",
   "ImageName": "",
   "Power": [
-    2312
+    2318
   ],
   "SetType": 10,
   "DisplayName": "Magic Snare",
   "nArchetype": -1,
-  "nID": 2067,
+  "nID": 2073,
   "SubName": "Dimensional Entities (Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2312,
-      "PowerSetID": 2067,
+      "PowerIndex": 2318,
+      "PowerSetID": 2073,
       "StaticIndex": 8237,
       "NGroupMembership": [],
       "FullName": "Boosts.Magic_Snare.Magic_Snare",

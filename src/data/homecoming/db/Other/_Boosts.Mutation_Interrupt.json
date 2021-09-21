@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Interrupt",
   "ImageName": "",
   "Power": [
-    2331
+    2337
   ],
   "SetType": 10,
   "DisplayName": "Mutation Interrupt",
   "nArchetype": -1,
-  "nID": 2086,
+  "nID": 2092,
   "SubName": "Secondary Mutation (Mutation)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2331,
-      "PowerSetID": 2086,
+      "PowerIndex": 2337,
+      "PowerSetID": 2092,
       "StaticIndex": 8256,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Interrupt.Mutation_Interrupt",

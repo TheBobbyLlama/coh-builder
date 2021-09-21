@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Shield_Breaker_E",
   "ImageName": "",
   "Power": [
-    997
+    1003
   ],
   "SetType": 10,
   "DisplayName": "Attuned Shield Breaker E",
   "nArchetype": -1,
-  "nID": 752,
+  "nID": 758,
   "SubName": "Set: Shield Breaker",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 997,
-      "PowerSetID": 752,
+      "PowerIndex": 1003,
+      "PowerSetID": 758,
       "StaticIndex": 6979,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Shield_Breaker_E.Attuned_Shield_Breaker_E",

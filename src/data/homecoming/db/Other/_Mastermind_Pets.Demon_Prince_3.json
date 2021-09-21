@@ -4,13 +4,13 @@
   "FullName": "Mastermind_Pets.Demon_Prince_3",
   "ImageName": "",
   "Power": [
-    5860,
-    5861
+    5869,
+    5870
   ],
   "SetType": 8,
   "DisplayName": "Demon Prince",
   "nArchetype": -1,
-  "nID": 2934,
+  "nID": 2945,
   "SubName": "Demons",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
     {
       "CastTimeReal": 1.83,
       "ToggleCost": 10.192,
-      "PowerIndex": 5860,
-      "PowerSetID": 2934,
+      "PowerIndex": 5869,
+      "PowerSetID": 2945,
       "StaticIndex": 4205,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Demon_Prince_3.Ice_Slash",
@@ -617,8 +617,8 @@
     {
       "CastTimeReal": 2.1,
       "ToggleCost": 18.512,
-      "PowerIndex": 5861,
-      "PowerSetID": 2934,
+      "PowerIndex": 5870,
+      "PowerSetID": 2945,
       "PowerSetIndex": 1,
       "StaticIndex": 4207,
       "NGroupMembership": [],

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Enfeebled_Operation_B",
   "ImageName": "",
   "Power": [
-    1462
+    1468
   ],
   "SetType": 10,
   "DisplayName": "Crafted Enfeebled Operation B",
   "nArchetype": -1,
-  "nID": 1216,
+  "nID": 1222,
   "SubName": "Set: Enfeebled Operation",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1462,
-      "PowerSetID": 1216,
+      "PowerIndex": 1468,
+      "PowerSetID": 1222,
       "StaticIndex": 7407,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Enfeebled_Operation_B.Crafted_Enfeebled_Operation_B",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Accuracy_15",
   "ImageName": "",
   "Power": [
-    1187
+    1193
   ],
   "SetType": 10,
   "DisplayName": "Crafted Accuracy 15",
   "nArchetype": -1,
-  "nID": 942,
+  "nID": 948,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1187,
-      "PowerSetID": 942,
+      "PowerIndex": 1193,
+      "PowerSetID": 948,
       "StaticIndex": 7139,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Accuracy_15.Crafted_Accuracy_15",

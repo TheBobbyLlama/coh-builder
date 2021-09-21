@@ -33,7 +33,7 @@
     {
       "CastTimeReal": 0.63,
       "IsEpic": true,
-      "LocationIndex": 12,
+      "LocationIndex": 8,
       "PowerIndex": 64,
       "PowerSetID": 7,
       "StaticIndex": 4506,
@@ -828,12 +828,13 @@
       "FullSetName": "Blaster_Ranged.Dual_Pistols",
       "CastTime": 0.63,
       "AoEModifier": 1.0,
-      "DisplayLocation": 12
+      "DisplayLocation": 8,
+      "Taken": true
     },
     {
       "CastTimeReal": 0.63,
       "IsEpic": true,
-      "LocationIndex": 15,
+      "LocationIndex": 9,
       "PowerIndex": 65,
       "PowerSetID": 7,
       "PowerSetIndex": 1,
@@ -1629,12 +1630,13 @@
       "FullSetName": "Blaster_Ranged.Dual_Pistols",
       "CastTime": 0.63,
       "AoEModifier": 1.0,
-      "DisplayLocation": 15
+      "DisplayLocation": 9,
+      "Taken": true
     },
     {
       "CastTimeReal": 0.63,
       "IsEpic": true,
-      "LocationIndex": 18,
+      "LocationIndex": 10,
       "PowerIndex": 66,
       "PowerSetID": 7,
       "PowerSetIndex": 2,
@@ -2429,7 +2431,8 @@
       "FullSetName": "Blaster_Ranged.Dual_Pistols",
       "CastTime": 0.63,
       "AoEModifier": 1.0,
-      "DisplayLocation": 18
+      "DisplayLocation": 10,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.0,
@@ -4408,7 +4411,8 @@
       "FullSetName": "Blaster_Ranged.Dual_Pistols",
       "CastTime": 1.0,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.67,
@@ -8688,7 +8692,9 @@
         }
       ],
       "FullSetName": "Blaster_Ranged.Dual_Pistols",
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.67,

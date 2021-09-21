@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Stagger_D",
   "ImageName": "",
   "Power": [
-    2074
+    2080
   ],
   "SetType": 10,
   "DisplayName": "Crafted Stagger D",
   "nArchetype": -1,
-  "nID": 1827,
+  "nID": 1833,
   "SubName": "Set: Stagger",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2074,
-      "PowerSetID": 1827,
+      "PowerIndex": 2080,
+      "PowerSetID": 1833,
       "StaticIndex": 8006,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Stagger_D.Crafted_Stagger_D",

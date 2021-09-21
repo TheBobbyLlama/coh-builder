@@ -4,15 +4,15 @@
   "FullName": "Mastermind_Pets.Demon_Prince",
   "ImageName": "",
   "Power": [
-    5853,
-    5854,
-    5855,
-    5856
+    5862,
+    5863,
+    5864,
+    5865
   ],
   "SetType": 8,
   "DisplayName": "Demon Prince",
   "nArchetype": -1,
-  "nID": 2933,
+  "nID": 2944,
   "SubName": "Demons",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "GroupName": "Mastermind_Pets",
   "Powers": [
     {
-      "PowerIndex": 5853,
-      "PowerSetID": 2933,
+      "PowerIndex": 5862,
+      "PowerSetID": 2944,
       "StaticIndex": 4197,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Demon_Prince.Resistance",
@@ -981,8 +981,8 @@
     {
       "CastTimeReal": 1.0,
       "ToggleCost": 8.528,
-      "PowerIndex": 5854,
-      "PowerSetID": 2933,
+      "PowerIndex": 5863,
+      "PowerSetID": 2944,
       "PowerSetIndex": 1,
       "StaticIndex": 4198,
       "NGroupMembership": [],
@@ -1576,8 +1576,8 @@
     {
       "CastTimeReal": 2.17,
       "ToggleCost": 10.4,
-      "PowerIndex": 5855,
-      "PowerSetID": 2933,
+      "PowerIndex": 5864,
+      "PowerSetID": 2944,
       "PowerSetIndex": 2,
       "StaticIndex": 4199,
       "NGroupMembership": [],
@@ -1995,8 +1995,8 @@
       "AoEModifier": 5.04995537
     },
     {
-      "PowerIndex": 5856,
-      "PowerSetID": 2933,
+      "PowerIndex": 5865,
+      "PowerSetID": 2944,
       "PowerSetIndex": 3,
       "StaticIndex": 4200,
       "NGroupMembership": [],

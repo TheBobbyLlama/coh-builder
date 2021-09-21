@@ -4,14 +4,14 @@
   "FullName": "Incarnate.Lore_Pet_Seers_Boss",
   "ImageName": "",
   "Power": [
-    5411,
-    5412,
-    5413
+    5420,
+    5421,
+    5422
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Seers_Boss",
   "nArchetype": -1,
-  "nID": 2867,
+  "nID": 2878,
   "SubName": "Diviner",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "Powers": [
     {
       "CastTimeReal": 0.57,
-      "PowerIndex": 5411,
-      "PowerSetID": 2867,
+      "PowerIndex": 5420,
+      "PowerSetID": 2878,
       "StaticIndex": 4666,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Seers_Boss.Levitate",
@@ -322,8 +322,8 @@
     },
     {
       "CastTimeReal": 0.93,
-      "PowerIndex": 5412,
-      "PowerSetID": 2867,
+      "PowerIndex": 5421,
+      "PowerSetID": 2878,
       "PowerSetIndex": 1,
       "StaticIndex": 4668,
       "NGroupMembership": [],
@@ -567,8 +567,8 @@
     },
     {
       "CastTimeReal": 1.07,
-      "PowerIndex": 5413,
-      "PowerSetID": 2867,
+      "PowerIndex": 5422,
+      "PowerSetID": 2878,
       "PowerSetIndex": 2,
       "StaticIndex": 4667,
       "NGroupMembership": [],

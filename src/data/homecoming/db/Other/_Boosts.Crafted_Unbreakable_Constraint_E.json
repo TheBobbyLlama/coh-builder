@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Unbreakable_Constraint_E",
   "ImageName": "",
   "Power": [
-    2201
+    2207
   ],
   "SetType": 10,
   "DisplayName": "Crafted Unbreakable Constraint E",
   "nArchetype": -1,
-  "nID": 1953,
+  "nID": 1959,
   "SubName": "Set: Unbreakable Constraint",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2201,
-      "PowerSetID": 1953,
+      "PowerIndex": 2207,
+      "PowerSetID": 1959,
       "StaticIndex": 8132,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Unbreakable_Constraint_E.Crafted_Unbreakable_Constraint_E",

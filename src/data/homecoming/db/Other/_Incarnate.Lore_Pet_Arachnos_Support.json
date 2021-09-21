@@ -4,13 +4,13 @@
   "FullName": "Incarnate.Lore_Pet_Arachnos_Support",
   "ImageName": "",
   "Power": [
-    5279,
-    5280
+    5288,
+    5289
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Arachnos_Support",
   "nArchetype": -1,
-  "nID": 2818,
+  "nID": 2829,
   "SubName": "Arachnos",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "Powers": [
     {
       "CastTimeReal": 3.67,
-      "PowerIndex": 5279,
-      "PowerSetID": 2818,
+      "PowerIndex": 5288,
+      "PowerSetID": 2829,
       "StaticIndex": 5474,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Arachnos_Support.Mind_Link",
@@ -375,8 +375,8 @@
     },
     {
       "CastTimeReal": 2.27,
-      "PowerIndex": 5280,
-      "PowerSetID": 2818,
+      "PowerIndex": 5289,
+      "PowerSetID": 2829,
       "PowerSetIndex": 1,
       "StaticIndex": 5475,
       "NGroupMembership": [],

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_ToHit_DeBuff",
   "ImageName": "",
   "Power": [
-    2512
+    2518
   ],
   "SetType": 10,
   "DisplayName": "Science ToHit DeBuff",
   "nArchetype": -1,
-  "nID": 2267,
+  "nID": 2273,
   "SubName": "Experiment (Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2512,
-      "PowerSetID": 2267,
+      "PowerIndex": 2518,
+      "PowerSetID": 2273,
       "StaticIndex": 8437,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_ToHit_DeBuff.Science_ToHit_DeBuff",

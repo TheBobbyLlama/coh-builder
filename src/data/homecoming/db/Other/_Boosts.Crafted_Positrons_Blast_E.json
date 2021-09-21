@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Positrons_Blast_E",
   "ImageName": "",
   "Power": [
-    1873
+    1879
   ],
   "SetType": 10,
   "DisplayName": "Crafted Positrons Blast E",
   "nArchetype": -1,
-  "nID": 1627,
+  "nID": 1633,
   "SubName": "Set: Positrons Blast",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1873,
-      "PowerSetID": 1627,
+      "PowerIndex": 1879,
+      "PowerSetID": 1633,
       "StaticIndex": 7818,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Positrons_Blast_E.Crafted_Positrons_Blast_E",

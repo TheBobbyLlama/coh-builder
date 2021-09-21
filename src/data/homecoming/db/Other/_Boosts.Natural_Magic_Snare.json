@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Magic_Snare",
   "ImageName": "",
   "Power": [
-    2441
+    2447
   ],
   "SetType": 10,
   "DisplayName": "Natural Magic Snare",
   "nArchetype": -1,
-  "nID": 2196,
+  "nID": 2202,
   "SubName": "Relic (Natural, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2441,
-      "PowerSetID": 2196,
+      "PowerIndex": 2447,
+      "PowerSetID": 2202,
       "StaticIndex": 8366,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Magic_Snare.Natural_Magic_Snare",

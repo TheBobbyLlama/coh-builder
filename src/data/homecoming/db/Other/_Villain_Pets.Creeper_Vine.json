@@ -4,15 +4,15 @@
   "FullName": "Villain_Pets.Creeper_Vine",
   "ImageName": "",
   "Power": [
-    10113,
-    10114,
-    10115,
-    10116
+    10129,
+    10130,
+    10131,
+    10132
   ],
   "SetType": 8,
   "DisplayName": "Creeper Vine",
   "nArchetype": -1,
-  "nID": 3477,
+  "nID": 3491,
   "SubName": "Plant Control",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -26,8 +26,8 @@
     {
       "CastTimeReal": 0.9,
       "ToggleCost": 5.2,
-      "PowerIndex": 10113,
-      "PowerSetID": 3477,
+      "PowerIndex": 10129,
+      "PowerSetID": 3491,
       "StaticIndex": 3076,
       "NGroupMembership": [],
       "FullName": "Villain_Pets.Creeper_Vine.Vine_Smash",
@@ -681,8 +681,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 10114,
-      "PowerSetID": 3477,
+      "PowerIndex": 10130,
+      "PowerSetID": 3491,
       "PowerSetIndex": 1,
       "StaticIndex": 3077,
       "NGroupMembership": [],
@@ -1302,8 +1302,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 10115,
-      "PowerSetID": 3477,
+      "PowerIndex": 10131,
+      "PowerSetID": 3491,
       "PowerSetIndex": 2,
       "StaticIndex": 3078,
       "NGroupMembership": [],
@@ -1409,8 +1409,8 @@
     {
       "CastTimeReal": 0.83,
       "ToggleCost": 5.2,
-      "PowerIndex": 10116,
-      "PowerSetID": 3477,
+      "PowerIndex": 10132,
+      "PowerSetID": 3491,
       "PowerSetIndex": 3,
       "StaticIndex": 3079,
       "NGroupMembership": [],

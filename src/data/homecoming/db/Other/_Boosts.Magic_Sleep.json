@@ -4,12 +4,12 @@
   "FullName": "Boosts.Magic_Sleep",
   "ImageName": "",
   "Power": [
-    2311
+    2317
   ],
   "SetType": 10,
   "DisplayName": "Magic Sleep",
   "nArchetype": -1,
-  "nID": 2066,
+  "nID": 2072,
   "SubName": "Dimensional Entities (Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2311,
-      "PowerSetID": 2066,
+      "PowerIndex": 2317,
+      "PowerSetID": 2072,
       "StaticIndex": 8236,
       "NGroupMembership": [],
       "FullName": "Boosts.Magic_Sleep.Magic_Sleep",

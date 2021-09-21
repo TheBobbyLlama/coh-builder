@@ -4,12 +4,12 @@
   "FullName": "Incarnate.Defiler_Pets",
   "ImageName": "",
   "Power": [
-    4654
+    4663
   ],
   "SetType": 11,
   "DisplayName": "Defiler_Pets",
   "nArchetype": -1,
-  "nID": 2800,
+  "nID": 2811,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Incarnate",
   "Powers": [
     {
-      "PowerIndex": 4654,
-      "PowerSetID": 2800,
+      "PowerIndex": 4663,
+      "PowerSetID": 2811,
       "StaticIndex": 9377,
       "NGroupMembership": [],
       "FullName": "Incarnate.Defiler_Pets.Frigid_Storm",

@@ -4,16 +4,16 @@
   "FullName": "Epic.Dominator_Leviathan_Mastery",
   "ImageName": "PatronDMGBuff.png",
   "Power": [
-    4188,
-    4189,
-    4190,
-    4191,
-    4192
+    4197,
+    4198,
+    4199,
+    4200,
+    4201
   ],
   "SetType": 3,
   "DisplayName": "Leviathan Mastery",
   "nArchetype": -1,
-  "nID": 2751,
+  "nID": 2764,
   "SubName": "Leviathan Mastery",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
     {
       "CastTimeReal": 1.17,
       "ToggleCost": 26.0,
-      "PowerIndex": 4188,
-      "PowerSetID": 2751,
+      "PowerIndex": 4197,
+      "PowerSetID": 2764,
       "StaticIndex": 899,
       "NGroupMembership": [],
       "FullName": "Epic.Dominator_Leviathan_Mastery.Water_Spout",
@@ -114,6 +114,7 @@
           "MagPercent": 5000.0,
           "Duration": 30.0,
           "DisplayPercentage": true,
+          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Level",
@@ -172,8 +173,8 @@
     {
       "CastTimeReal": 2.67,
       "ToggleCost": 18.98,
-      "PowerIndex": 4189,
-      "PowerSetID": 2751,
+      "PowerIndex": 4198,
+      "PowerSetID": 2764,
       "PowerSetIndex": 1,
       "StaticIndex": 900,
       "NGroupMembership": [],
@@ -612,8 +613,8 @@
       "CastTimeReal": 0.07,
       "ToggleCost": 0.325,
       "IsEpic": true,
-      "PowerIndex": 4190,
-      "PowerSetID": 2751,
+      "PowerIndex": 4199,
+      "PowerSetID": 2764,
       "PowerSetIndex": 2,
       "StaticIndex": 3301,
       "NGroupMembership": [
@@ -631,11 +632,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4188,
+            4197,
             -1
           ],
           [
-            4189,
+            4198,
             -1
           ]
         ],
@@ -1216,7 +1217,7 @@
           "nID": 9,
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.NoPhase",
-          "nSummon": 9741,
+          "nSummon": 9757,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
@@ -1268,8 +1269,8 @@
       "CastTimeReal": 0.67,
       "ToggleCost": 0.325,
       "IsEpic": true,
-      "PowerIndex": 4191,
-      "PowerSetID": 2751,
+      "PowerIndex": 4200,
+      "PowerSetID": 2764,
       "PowerSetIndex": 3,
       "StaticIndex": 901,
       "NGroupMembership": [],
@@ -1285,11 +1286,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4188,
+            4197,
             -1
           ],
           [
-            4189,
+            4198,
             -1
           ]
         ],
@@ -1997,8 +1998,8 @@
       "CastTimeReal": 3.2,
       "ToggleCost": 26.0,
       "IsEpic": true,
-      "PowerIndex": 4192,
-      "PowerSetID": 2751,
+      "PowerIndex": 4201,
+      "PowerSetID": 2764,
       "PowerSetIndex": 4,
       "StaticIndex": 902,
       "NGroupMembership": [],
@@ -2014,24 +2015,24 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4188,
-            4189
+            4197,
+            4198
           ],
           [
-            4188,
-            4190
+            4197,
+            4199
           ],
           [
-            4188,
-            4191
+            4197,
+            4200
           ],
           [
-            4189,
-            4190
+            4198,
+            4199
           ],
           [
-            4189,
-            4191
+            4198,
+            4200
           ]
         ],
         "NPowerIDNot": [],

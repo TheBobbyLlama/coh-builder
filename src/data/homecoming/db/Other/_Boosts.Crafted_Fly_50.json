@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Fly_50",
   "ImageName": "",
   "Power": [
-    1534
+    1540
   ],
   "SetType": 10,
   "DisplayName": "Crafted Fly 50",
   "nArchetype": -1,
-  "nID": 1288,
+  "nID": 1294,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1534,
-      "PowerSetID": 1288,
+      "PowerIndex": 1540,
+      "PowerSetID": 1294,
       "StaticIndex": 7479,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Fly_50.Crafted_Fly_50",

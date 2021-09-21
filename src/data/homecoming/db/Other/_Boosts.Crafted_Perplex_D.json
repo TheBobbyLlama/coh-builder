@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Perplex_D",
   "ImageName": "",
   "Power": [
-    1866
+    1872
   ],
   "SetType": 10,
   "DisplayName": "Crafted Perplex D",
   "nArchetype": -1,
-  "nID": 1620,
+  "nID": 1626,
   "SubName": "Set: Perplex",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1866,
-      "PowerSetID": 1620,
+      "PowerIndex": 1872,
+      "PowerSetID": 1626,
       "StaticIndex": 7811,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Perplex_D.Crafted_Perplex_D",

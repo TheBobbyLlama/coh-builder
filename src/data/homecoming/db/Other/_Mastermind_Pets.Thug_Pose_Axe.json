@@ -4,12 +4,12 @@
   "FullName": "Mastermind_Pets.Thug_Pose_Axe",
   "ImageName": "",
   "Power": [
-    6075
+    6084
   ],
   "SetType": 8,
   "DisplayName": "Thug Posse",
   "nArchetype": -1,
-  "nID": 3000,
+  "nID": 3013,
   "SubName": "Thugs",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
     {
       "CastTimeReal": 1.83,
       "ToggleCost": 8.528,
-      "PowerIndex": 6075,
-      "PowerSetID": 3000,
+      "PowerIndex": 6084,
+      "PowerSetID": 3013,
       "StaticIndex": 1421,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Thug_Pose_Axe.Fireman_Axe",

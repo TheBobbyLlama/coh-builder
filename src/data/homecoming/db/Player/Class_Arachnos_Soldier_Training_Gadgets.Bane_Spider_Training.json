@@ -4,19 +4,19 @@
   "FullName": "Training_Gadgets.Bane_Spider_Training",
   "ImageName": "i12_Sec_Bane.png",
   "Power": [
-    10012,
-    10013,
-    10014,
-    10015
+    10028,
+    10029,
+    10030,
+    10031
   ],
   "SetType": 2,
   "DisplayName": "Bane Spider Training",
   "nArchetype": 14,
-  "nID": 3428,
+  "nID": 3442,
   "SubName": "Bane Spider Training",
   "ATClass": "Class_Arachnos_Soldier",
   "UIDTrunkSet": "Training_Gadgets.Training_and_Gadgets",
-  "nIDTrunkSet": 3430,
+  "nIDTrunkSet": 3444,
   "UIDLinkSecondary": "",
   "nIDLinkSecondary": -1,
   "UIDMutexSets": [],
@@ -24,8 +24,8 @@
   "GroupName": "Training_Gadgets",
   "Powers": [
     {
-      "PowerIndex": 10012,
-      "PowerSetID": 3428,
+      "PowerIndex": 10028,
+      "PowerSetID": 3442,
       "StaticIndex": 2990,
       "NGroupMembership": [],
       "FullName": "Training_Gadgets.Bane_Spider_Training.Bane_Spider_Armor",
@@ -1823,13 +1823,15 @@
       ],
       "FullSetName": "Training_Gadgets.Bane_Spider_Training",
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 0.73,
       "ToggleCost": 0.208,
-      "PowerIndex": 10013,
-      "PowerSetID": 3428,
+      "PowerIndex": 10029,
+      "PowerSetID": 3442,
       "PowerSetIndex": 1,
       "StaticIndex": 2991,
       "NGroupMembership": [
@@ -4279,8 +4281,8 @@
     {
       "CastTimeReal": 1.5,
       "ToggleCost": 10.66,
-      "PowerIndex": 10014,
-      "PowerSetID": 3428,
+      "PowerIndex": 10030,
+      "PowerSetID": 3442,
       "PowerSetIndex": 2,
       "StaticIndex": 2992,
       "NGroupMembership": [],
@@ -4920,8 +4922,8 @@
     {
       "CastTimeReal": 2.0,
       "ToggleCost": 10.66,
-      "PowerIndex": 10015,
-      "PowerSetID": 3428,
+      "PowerIndex": 10031,
+      "PowerSetID": 3442,
       "PowerSetIndex": 3,
       "StaticIndex": 2993,
       "NGroupMembership": [],

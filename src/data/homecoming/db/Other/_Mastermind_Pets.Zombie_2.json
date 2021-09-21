@@ -4,13 +4,13 @@
   "FullName": "Mastermind_Pets.Zombie_2",
   "ImageName": "Necromancy.png",
   "Power": [
-    6087,
-    6088
+    6096,
+    6097
   ],
   "SetType": 8,
   "DisplayName": "Zombie",
   "nArchetype": -1,
-  "nID": 3009,
+  "nID": 3020,
   "SubName": "Zombie",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
     {
       "CastTimeReal": 1.33,
       "ToggleCost": 5.2,
-      "PowerIndex": 6087,
-      "PowerSetID": 3009,
+      "PowerIndex": 6096,
+      "PowerSetID": 3020,
       "StaticIndex": 1433,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Zombie_2.Projectile_Vomit",
@@ -330,8 +330,8 @@
     {
       "CastTimeReal": 2.67,
       "ToggleCost": 6.864,
-      "PowerIndex": 6088,
-      "PowerSetID": 3009,
+      "PowerIndex": 6097,
+      "PowerSetID": 3020,
       "PowerSetIndex": 1,
       "StaticIndex": 1435,
       "NGroupMembership": [],

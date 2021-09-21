@@ -4,14 +4,14 @@
   "FullName": "Incarnate.Lore_Pet_Tsoo_LT",
   "ImageName": "",
   "Power": [
-    5432,
-    5433,
-    5434
+    5441,
+    5442,
+    5443
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Tsoo_LT",
   "nArchetype": -1,
-  "nID": 2875,
+  "nID": 2886,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "Powers": [
     {
       "CastTimeReal": 1.23,
-      "PowerIndex": 5432,
-      "PowerSetID": 2875,
+      "PowerIndex": 5441,
+      "PowerSetID": 2886,
       "StaticIndex": 9513,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Tsoo_LT.Hand_Clap",
@@ -263,8 +263,8 @@
     },
     {
       "CastTimeReal": 1.2,
-      "PowerIndex": 5433,
-      "PowerSetID": 2875,
+      "PowerIndex": 5442,
+      "PowerSetID": 2886,
       "PowerSetIndex": 1,
       "StaticIndex": 9514,
       "NGroupMembership": [],
@@ -442,8 +442,8 @@
     },
     {
       "CastTimeReal": 1.07,
-      "PowerIndex": 5434,
-      "PowerSetID": 2875,
+      "PowerIndex": 5443,
+      "PowerSetID": 2886,
       "PowerSetIndex": 2,
       "StaticIndex": 9515,
       "NGroupMembership": [],

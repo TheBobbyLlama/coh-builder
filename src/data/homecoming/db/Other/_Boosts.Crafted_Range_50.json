@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Range_50",
   "ImageName": "",
   "Power": [
-    1907
+    1913
   ],
   "SetType": 10,
   "DisplayName": "Crafted Range 50",
   "nArchetype": -1,
-  "nID": 1660,
+  "nID": 1666,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1907,
-      "PowerSetID": 1660,
+      "PowerIndex": 1913,
+      "PowerSetID": 1666,
       "StaticIndex": 7845,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Range_50.Crafted_Range_50",

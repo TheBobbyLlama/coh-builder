@@ -4,12 +4,12 @@
   "FullName": "Boosts.Generic_Endurance_Discount",
   "ImageName": "",
   "Power": [
-    2242
+    2248
   ],
   "SetType": 10,
   "DisplayName": "Generic Endurance Discount",
   "nArchetype": -1,
-  "nID": 1997,
+  "nID": 2003,
   "SubName": "Training (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2242,
-      "PowerSetID": 1997,
+      "PowerIndex": 2248,
+      "PowerSetID": 2003,
       "StaticIndex": 8167,
       "NGroupMembership": [],
       "FullName": "Boosts.Generic_Endurance_Discount.Generic_Endurance_Discount",

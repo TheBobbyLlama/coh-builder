@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Soaring_A",
   "ImageName": "",
   "Power": [
-    2053
+    2059
   ],
   "SetType": 10,
   "DisplayName": "Crafted Soaring A",
   "nArchetype": -1,
-  "nID": 1806,
+  "nID": 1812,
   "SubName": "Set: Soaring",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2053,
-      "PowerSetID": 1806,
+      "PowerIndex": 2059,
+      "PowerSetID": 1812,
       "StaticIndex": 7985,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Soaring_A.Crafted_Soaring_A",

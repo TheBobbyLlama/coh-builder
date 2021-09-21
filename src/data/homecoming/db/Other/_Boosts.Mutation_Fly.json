@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Fly",
   "ImageName": "",
   "Power": [
-    2326
+    2332
   ],
   "SetType": 10,
   "DisplayName": "Mutation Fly",
   "nArchetype": -1,
-  "nID": 2081,
+  "nID": 2087,
   "SubName": "Secondary Mutation (Mutation)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2326,
-      "PowerSetID": 2081,
+      "PowerIndex": 2332,
+      "PowerSetID": 2087,
       "StaticIndex": 8251,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Fly.Mutation_Fly",

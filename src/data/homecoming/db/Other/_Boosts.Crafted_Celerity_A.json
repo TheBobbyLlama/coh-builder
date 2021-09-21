@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Celerity_A",
   "ImageName": "",
   "Power": [
-    1301
+    1307
   ],
   "SetType": 10,
   "DisplayName": "Crafted Celerity A",
   "nArchetype": -1,
-  "nID": 1055,
+  "nID": 1061,
   "SubName": "Set: Celerity",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1301,
-      "PowerSetID": 1055,
+      "PowerIndex": 1307,
+      "PowerSetID": 1061,
       "StaticIndex": 7246,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Celerity_A.Crafted_Celerity_A",

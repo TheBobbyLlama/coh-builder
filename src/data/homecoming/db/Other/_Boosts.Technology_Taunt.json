@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Taunt",
   "ImageName": "",
   "Power": [
-    2811
+    2823
   ],
   "SetType": 10,
   "DisplayName": "Technology Taunt",
   "nArchetype": -1,
-  "nID": 2566,
+  "nID": 2578,
   "SubName": "Cybernetics (Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2811,
-      "PowerSetID": 2566,
+      "PowerIndex": 2823,
+      "PowerSetID": 2578,
       "StaticIndex": 8634,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Taunt.Technology_Taunt",

@@ -4,14 +4,14 @@
   "FullName": "Mastermind_Pets.Soldier_3",
   "ImageName": "",
   "Power": [
-    6021,
-    6022,
-    6023
+    6030,
+    6031,
+    6032
   ],
   "SetType": 8,
   "DisplayName": "Soldier",
   "nArchetype": -1,
-  "nID": 2984,
+  "nID": 2994,
   "SubName": "Mercenaries",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -25,8 +25,8 @@
     {
       "CastTimeReal": 6.0,
       "ToggleCost": 10.192,
-      "PowerIndex": 6021,
-      "PowerSetID": 2984,
+      "PowerIndex": 6030,
+      "PowerSetID": 2994,
       "StaticIndex": 1302,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Soldier_3.Assault_Rifle_Auto_Fire",
@@ -277,8 +277,8 @@
     {
       "CastTimeReal": 2.2,
       "ToggleCost": 5.2,
-      "PowerIndex": 6022,
-      "PowerSetID": 2984,
+      "PowerIndex": 6031,
+      "PowerSetID": 2994,
       "PowerSetIndex": 1,
       "StaticIndex": 1303,
       "NGroupMembership": [],
@@ -526,8 +526,8 @@
     {
       "CastTimeReal": 2.67,
       "ToggleCost": 8.528,
-      "PowerIndex": 6023,
-      "PowerSetID": 2984,
+      "PowerIndex": 6032,
+      "PowerSetID": 2994,
       "PowerSetIndex": 2,
       "StaticIndex": 1304,
       "NGroupMembership": [],

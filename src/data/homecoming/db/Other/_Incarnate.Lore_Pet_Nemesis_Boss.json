@@ -4,15 +4,15 @@
   "FullName": "Incarnate.Lore_Pet_Nemesis_Boss",
   "ImageName": "",
   "Power": [
-    5376,
-    5377,
-    5378,
-    5379
+    5385,
+    5386,
+    5387,
+    5388
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Nemesis_Boss",
   "nArchetype": -1,
-  "nID": 2853,
+  "nID": 2864,
   "SubName": "Nemesis",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -25,8 +25,8 @@
   "Powers": [
     {
       "CastTimeReal": 0.67,
-      "PowerIndex": 5376,
-      "PowerSetID": 2853,
+      "PowerIndex": 5385,
+      "PowerSetID": 2864,
       "StaticIndex": 5530,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Nemesis_Boss.Pummel",
@@ -261,8 +261,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5377,
-      "PowerSetID": 2853,
+      "PowerIndex": 5386,
+      "PowerSetID": 2864,
       "PowerSetIndex": 1,
       "StaticIndex": 5533,
       "NGroupMembership": [],
@@ -555,8 +555,8 @@
     },
     {
       "CastTimeReal": 6.33,
-      "PowerIndex": 5378,
-      "PowerSetID": 2853,
+      "PowerIndex": 5387,
+      "PowerSetID": 2864,
       "PowerSetIndex": 2,
       "StaticIndex": 5532,
       "NGroupMembership": [],
@@ -683,8 +683,8 @@
     },
     {
       "CastTimeReal": 2.0,
-      "PowerIndex": 5379,
-      "PowerSetID": 2853,
+      "PowerIndex": 5388,
+      "PowerSetID": 2864,
       "PowerSetIndex": 3,
       "StaticIndex": 5531,
       "NGroupMembership": [],

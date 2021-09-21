@@ -4,16 +4,16 @@
   "FullName": "Epic.Corruptor_Mace_Mastery",
   "ImageName": "PatronShield.png",
   "Power": [
-    4153,
-    4154,
-    4155,
-    4156,
-    4157
+    4162,
+    4163,
+    4164,
+    4165,
+    4166
   ],
   "SetType": 3,
   "DisplayName": "Mace Mastery",
   "nArchetype": -1,
-  "nID": 2759,
+  "nID": 2769,
   "SubName": "Mace Mastery",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
     {
       "CastTimeReal": 2.0,
       "ToggleCost": 12.74,
-      "PowerIndex": 4153,
-      "PowerSetID": 2759,
+      "PowerIndex": 4162,
+      "PowerSetID": 2769,
       "StaticIndex": 879,
       "NGroupMembership": [],
       "FullName": "Epic.Corruptor_Mace_Mastery.Web_Envelope",
@@ -522,8 +522,8 @@
     {
       "CastTimeReal": 2.0,
       "ToggleCost": 0.325,
-      "PowerIndex": 4154,
-      "PowerSetID": 2759,
+      "PowerIndex": 4163,
+      "PowerSetID": 2769,
       "PowerSetIndex": 1,
       "StaticIndex": 880,
       "NGroupMembership": [],
@@ -1713,14 +1713,16 @@
       "FullSetName": "Epic.Corruptor_Mace_Mastery",
       "CastTime": 2.0,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.17,
       "ToggleCost": 0.78,
       "IsEpic": true,
-      "PowerIndex": 4155,
-      "PowerSetID": 2759,
+      "PowerIndex": 4164,
+      "PowerSetID": 2769,
       "PowerSetIndex": 2,
       "StaticIndex": 3298,
       "NGroupMembership": [],
@@ -1736,11 +1738,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4153,
+            4162,
             -1
           ],
           [
-            4154,
+            4163,
             -1
           ]
         ],
@@ -2096,8 +2098,8 @@
       "CastTimeReal": 2.0,
       "ToggleCost": 10.66,
       "IsEpic": true,
-      "PowerIndex": 4156,
-      "PowerSetID": 2759,
+      "PowerIndex": 4165,
+      "PowerSetID": 2769,
       "PowerSetIndex": 3,
       "StaticIndex": 881,
       "NGroupMembership": [],
@@ -2113,11 +2115,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4153,
+            4162,
             -1
           ],
           [
-            4154,
+            4163,
             -1
           ]
         ],
@@ -2597,14 +2599,15 @@
       "FullSetName": "Epic.Corruptor_Mace_Mastery",
       "CastTime": 2.0,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 3.03,
       "ToggleCost": 26.0,
       "IsEpic": true,
-      "PowerIndex": 4157,
-      "PowerSetID": 2759,
+      "PowerIndex": 4166,
+      "PowerSetID": 2769,
       "PowerSetIndex": 4,
       "StaticIndex": 882,
       "NGroupMembership": [],
@@ -2620,24 +2623,24 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4153,
-            4154
+            4162,
+            4163
           ],
           [
-            4153,
-            4155
+            4162,
+            4164
           ],
           [
-            4153,
-            4156
+            4162,
+            4165
           ],
           [
-            4154,
-            4156
+            4163,
+            4165
           ],
           [
-            4155,
-            4155
+            4164,
+            4164
           ]
         ],
         "NPowerIDNot": [],

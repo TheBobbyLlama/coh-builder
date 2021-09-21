@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Horror_D",
   "ImageName": "",
   "Power": [
-    1655
+    1661
   ],
   "SetType": 10,
   "DisplayName": "Crafted Horror D",
   "nArchetype": -1,
-  "nID": 1409,
+  "nID": 1415,
   "SubName": "Set: Horror",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1655,
-      "PowerSetID": 1409,
+      "PowerIndex": 1661,
+      "PowerSetID": 1415,
       "StaticIndex": 7600,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Horror_D.Crafted_Horror_D",

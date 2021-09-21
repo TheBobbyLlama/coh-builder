@@ -4,20 +4,20 @@
   "FullName": "Stalker_Defense.Fiery_Aura",
   "ImageName": "FireMastery2.png",
   "Power": [
-    8346,
-    8347,
-    8348,
-    8349,
-    8350,
-    8351,
-    8352,
-    8353,
-    8354
+    8361,
+    8362,
+    8363,
+    8364,
+    8365,
+    8366,
+    8367,
+    8368,
+    8369
   ],
   "SetType": 2,
   "DisplayName": "Fiery Aura",
   "nArchetype": 9,
-  "nID": 3357,
+  "nID": 3371,
   "SubName": "Fiery Aura",
   "ATClass": "Class_Stalker",
   "UIDTrunkSet": "",
@@ -30,8 +30,8 @@
   "Powers": [
     {
       "CastTimeReal": 0.73,
-      "PowerIndex": 8346,
-      "PowerSetID": 3357,
+      "PowerIndex": 8361,
+      "PowerSetID": 3371,
       "StaticIndex": 10045,
       "NGroupMembership": [
         8
@@ -2487,8 +2487,8 @@
     {
       "CastTimeReal": 1.67,
       "ToggleCost": 0.26,
-      "PowerIndex": 8347,
-      "PowerSetID": 3357,
+      "PowerIndex": 8362,
+      "PowerSetID": 3371,
       "PowerSetIndex": 1,
       "StaticIndex": 10046,
       "NGroupMembership": [],
@@ -3141,8 +3141,8 @@
     {
       "CastTimeReal": 1.5,
       "ToggleCost": 10.4,
-      "PowerIndex": 8348,
-      "PowerSetID": 3357,
+      "PowerIndex": 8363,
+      "PowerSetID": 3371,
       "PowerSetIndex": 2,
       "StaticIndex": 10047,
       "NGroupMembership": [],
@@ -3325,8 +3325,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 8349,
-      "PowerSetID": 3357,
+      "PowerIndex": 8364,
+      "PowerSetID": 3371,
       "PowerSetIndex": 3,
       "StaticIndex": 10048,
       "NGroupMembership": [],
@@ -3780,8 +3780,8 @@
     {
       "CastTimeReal": 3.0,
       "ToggleCost": 0.26,
-      "PowerIndex": 8350,
-      "PowerSetID": 3357,
+      "PowerIndex": 8365,
+      "PowerSetID": 3371,
       "PowerSetIndex": 4,
       "StaticIndex": 10049,
       "NGroupMembership": [],
@@ -4888,8 +4888,8 @@
     {
       "CastTimeReal": 2.03,
       "ToggleCost": 0.52,
-      "PowerIndex": 8351,
-      "PowerSetID": 3357,
+      "PowerIndex": 8366,
+      "PowerSetID": 3371,
       "PowerSetIndex": 5,
       "StaticIndex": 10050,
       "NGroupMembership": [],
@@ -5318,8 +5318,8 @@
     {
       "CastTimeReal": 2.03,
       "ToggleCost": 5.2,
-      "PowerIndex": 8352,
-      "PowerSetID": 3357,
+      "PowerIndex": 8367,
+      "PowerSetID": 3371,
       "PowerSetIndex": 6,
       "StaticIndex": 10051,
       "NGroupMembership": [],
@@ -5743,8 +5743,8 @@
     {
       "CastTimeReal": 2.03,
       "ToggleCost": 0.065,
-      "PowerIndex": 8353,
-      "PowerSetID": 3357,
+      "PowerIndex": 8368,
+      "PowerSetID": 3371,
       "PowerSetIndex": 7,
       "StaticIndex": 10679,
       "NGroupMembership": [],
@@ -5867,8 +5867,8 @@
     },
     {
       "CastTimeReal": 1.5,
-      "PowerIndex": 8354,
-      "PowerSetID": 3357,
+      "PowerIndex": 8369,
+      "PowerSetID": 3371,
       "PowerSetIndex": 8,
       "StaticIndex": 10053,
       "NGroupMembership": [],

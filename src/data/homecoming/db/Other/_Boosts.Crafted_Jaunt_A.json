@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Jaunt_A",
   "ImageName": "",
   "Power": [
-    1710
+    1716
   ],
   "SetType": 10,
   "DisplayName": "Crafted Jaunt A",
   "nArchetype": -1,
-  "nID": 1464,
+  "nID": 1470,
   "SubName": "Set: Jaunt",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1710,
-      "PowerSetID": 1464,
+      "PowerIndex": 1716,
+      "PowerSetID": 1470,
       "StaticIndex": 7655,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Jaunt_A.Crafted_Jaunt_A",

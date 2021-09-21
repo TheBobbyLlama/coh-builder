@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Unquestioning_Loyalty_A",
   "ImageName": "",
   "Power": [
-    2215
+    2221
   ],
   "SetType": 10,
   "DisplayName": "Crafted Unquestioning Loyalty A",
   "nArchetype": -1,
-  "nID": 1967,
+  "nID": 1973,
   "SubName": "Set: Unquestioning Loyalty",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2215,
-      "PowerSetID": 1967,
+      "PowerIndex": 2221,
+      "PowerSetID": 1973,
       "StaticIndex": 8140,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Unquestioning_Loyalty_A.Crafted_Unquestioning_Loyalty_A",

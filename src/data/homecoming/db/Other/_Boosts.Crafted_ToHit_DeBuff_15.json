@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_ToHit_DeBuff_15",
   "ImageName": "",
   "Power": [
-    2155
+    2161
   ],
   "SetType": 10,
   "DisplayName": "Crafted ToHit DeBuff 15",
   "nArchetype": -1,
-  "nID": 1907,
+  "nID": 1913,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2155,
-      "PowerSetID": 1907,
+      "PowerIndex": 2161,
+      "PowerSetID": 1913,
       "StaticIndex": 8086,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_ToHit_DeBuff_15.Crafted_ToHit_DeBuff_15",

@@ -4,12 +4,12 @@
   "FullName": "Incarnate.Lore_Pet_Carnival_Support_Attack",
   "ImageName": "",
   "Power": [
-    5301
+    5310
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Carnival_Support_Attack",
   "nArchetype": -1,
-  "nID": 2827,
+  "nID": 2838,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -22,8 +22,8 @@
   "Powers": [
     {
       "CastTimeReal": 3.0,
-      "PowerIndex": 5301,
-      "PowerSetID": 2827,
+      "PowerIndex": 5310,
+      "PowerSetID": 2838,
       "StaticIndex": 5486,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Carnival_Support_Attack.Spit_Fire",

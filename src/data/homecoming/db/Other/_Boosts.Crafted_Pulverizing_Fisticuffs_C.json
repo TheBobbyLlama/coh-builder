@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Pulverizing_Fisticuffs_C",
   "ImageName": "",
   "Power": [
-    1888
+    1894
   ],
   "SetType": 10,
   "DisplayName": "Crafted Pulverizing Fisticuffs C",
   "nArchetype": -1,
-  "nID": 1641,
+  "nID": 1647,
   "SubName": "Set: Pulverizing Fisticuffs",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1888,
-      "PowerSetID": 1641,
+      "PowerIndex": 1894,
+      "PowerSetID": 1647,
       "StaticIndex": 7826,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Pulverizing_Fisticuffs_C.Crafted_Pulverizing_Fisticuffs_C",

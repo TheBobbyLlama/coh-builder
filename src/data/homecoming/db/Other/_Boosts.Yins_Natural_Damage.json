@@ -4,12 +4,12 @@
   "FullName": "Boosts.Yins_Natural_Damage",
   "ImageName": "",
   "Power": [
-    2827
+    2839
   ],
   "SetType": 10,
   "DisplayName": "Yins Natural Damage",
   "nArchetype": -1,
-  "nID": 2582,
+  "nID": 2594,
   "SubName": "Yin's Talisman (Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2827,
-      "PowerSetID": 2582,
+      "PowerIndex": 2839,
+      "PowerSetID": 2594,
       "StaticIndex": 8650,
       "NGroupMembership": [],
       "FullName": "Boosts.Yins_Natural_Damage.Yins_Natural_Damage",

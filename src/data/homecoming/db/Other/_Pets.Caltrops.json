@@ -4,12 +4,12 @@
   "FullName": "Pets.Caltrops",
   "ImageName": "",
   "Power": [
-    6233
+    6242
   ],
   "SetType": 8,
   "DisplayName": "Caltrops",
   "nArchetype": -1,
-  "nID": 3041,
+  "nID": 3052,
   "SubName": "Devices",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6233,
-      "PowerSetID": 3041,
+      "PowerIndex": 6242,
+      "PowerSetID": 3052,
       "StaticIndex": 1557,
       "NGroupMembership": [],
       "FullName": "Pets.Caltrops.Caltrops",

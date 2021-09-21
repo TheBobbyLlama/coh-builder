@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Natural_Taunt",
   "ImageName": "",
   "Power": [
-    2800
+    2812
   ],
   "SetType": 10,
   "DisplayName": "Technology Natural Taunt",
   "nArchetype": -1,
-  "nID": 2555,
+  "nID": 2567,
   "SubName": "Gadget (Technology, Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2800,
-      "PowerSetID": 2555,
+      "PowerIndex": 2812,
+      "PowerSetID": 2567,
       "StaticIndex": 8623,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Natural_Taunt.Technology_Natural_Taunt",

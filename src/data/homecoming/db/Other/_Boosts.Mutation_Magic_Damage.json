@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Magic_Damage",
   "ImageName": "",
   "Power": [
-    2337
+    2343
   ],
   "SetType": 10,
   "DisplayName": "Mutation Magic Damage",
   "nArchetype": -1,
-  "nID": 2091,
+  "nID": 2097,
   "SubName": "Focusing Device (Mutation, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2337,
-      "PowerSetID": 2091,
+      "PowerIndex": 2343,
+      "PowerSetID": 2097,
       "StaticIndex": 8262,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Magic_Damage.Mutation_Magic_Damage",

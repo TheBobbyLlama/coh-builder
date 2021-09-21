@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Cone",
   "ImageName": "",
   "Power": [
-    2759
+    2771
   ],
   "SetType": 10,
   "DisplayName": "Technology Range",
   "nArchetype": -1,
-  "nID": 2558,
+  "nID": 2570,
   "SubName": "Cybernetics (Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2759,
-      "PowerSetID": 2558,
+      "PowerIndex": 2771,
+      "PowerSetID": 2570,
       "StaticIndex": 8582,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Cone.Technology_Cone",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Natural_Endurance_Discount",
   "ImageName": "",
   "Power": [
-    2782
+    2794
   ],
   "SetType": 10,
   "DisplayName": "Technology Natural Endurance Discount",
   "nArchetype": -1,
-  "nID": 2537,
+  "nID": 2549,
   "SubName": "Gadget (Technology, Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2782,
-      "PowerSetID": 2537,
+      "PowerIndex": 2794,
+      "PowerSetID": 2549,
       "StaticIndex": 8605,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Natural_Endurance_Discount.Technology_Natural_Endurance_Discount",

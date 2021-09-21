@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Confuse",
   "ImageName": "",
   "Power": [
-    2403
+    2409
   ],
   "SetType": 10,
   "DisplayName": "Natural Confuse",
   "nArchetype": -1,
-  "nID": 2157,
+  "nID": 2163,
   "SubName": "Technique (Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2403,
-      "PowerSetID": 2157,
+      "PowerIndex": 2409,
+      "PowerSetID": 2163,
       "StaticIndex": 8328,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Confuse.Natural_Confuse",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Springfoot_A",
   "ImageName": "",
   "Power": [
-    1030
+    1036
   ],
   "SetType": 10,
   "DisplayName": "Attuned Springfoot A",
   "nArchetype": -1,
-  "nID": 785,
+  "nID": 791,
   "SubName": "Set: Springfoot",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1030,
-      "PowerSetID": 785,
+      "PowerIndex": 1036,
+      "PowerSetID": 791,
       "StaticIndex": 7006,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Springfoot_A.Attuned_Springfoot_A",

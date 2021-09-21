@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Natural_Fly",
   "ImageName": "",
   "Power": [
-    2784
+    2796
   ],
   "SetType": 10,
   "DisplayName": "Technology Natural Fly",
   "nArchetype": -1,
-  "nID": 2539,
+  "nID": 2551,
   "SubName": "Gadget (Technology, Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2784,
-      "PowerSetID": 2539,
+      "PowerIndex": 2796,
+      "PowerSetID": 2551,
       "StaticIndex": 8607,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Natural_Fly.Technology_Natural_Fly",

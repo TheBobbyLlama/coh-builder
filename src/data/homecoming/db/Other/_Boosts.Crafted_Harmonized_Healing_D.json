@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Harmonized_Healing_D",
   "ImageName": "",
   "Power": [
-    1618
+    1624
   ],
   "SetType": 10,
   "DisplayName": "Crafted Harmonized Healing D",
   "nArchetype": -1,
-  "nID": 1372,
+  "nID": 1378,
   "SubName": "Set: Harmonized Healing",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1618,
-      "PowerSetID": 1372,
+      "PowerIndex": 1624,
+      "PowerSetID": 1378,
       "StaticIndex": 7563,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Harmonized_Healing_D.Crafted_Harmonized_Healing_D",

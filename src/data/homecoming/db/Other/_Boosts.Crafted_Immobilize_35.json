@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Immobilize_35",
   "ImageName": "",
   "Power": [
-    1663
+    1669
   ],
   "SetType": 10,
   "DisplayName": "Crafted Immobilize 35",
   "nArchetype": -1,
-  "nID": 1417,
+  "nID": 1423,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1663,
-      "PowerSetID": 1417,
+      "PowerIndex": 1669,
+      "PowerSetID": 1423,
       "StaticIndex": 7608,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Immobilize_35.Crafted_Immobilize_35",

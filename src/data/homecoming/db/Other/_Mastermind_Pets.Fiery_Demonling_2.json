@@ -4,12 +4,12 @@
   "FullName": "Mastermind_Pets.Fiery_Demonling_2",
   "ImageName": "",
   "Power": [
-    5895
+    5904
   ],
   "SetType": 8,
   "DisplayName": "Fiery Demonling",
   "nArchetype": -1,
-  "nID": 2944,
+  "nID": 2955,
   "SubName": "Demons",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
     {
       "CastTimeReal": 1.2,
       "ToggleCost": 5.2,
-      "PowerIndex": 5895,
-      "PowerSetID": 2944,
+      "PowerIndex": 5904,
+      "PowerSetID": 2955,
       "StaticIndex": 4222,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Fiery_Demonling_2.Fire_Blast",

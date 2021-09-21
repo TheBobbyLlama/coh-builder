@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Eradication_C",
   "ImageName": "",
   "Power": [
-    1474
+    1480
   ],
   "SetType": 10,
   "DisplayName": "Crafted Eradication C",
   "nArchetype": -1,
-  "nID": 1228,
+  "nID": 1234,
   "SubName": "Set: Eradication",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1474,
-      "PowerSetID": 1228,
+      "PowerIndex": 1480,
+      "PowerSetID": 1234,
       "StaticIndex": 7419,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Eradication_C.Crafted_Eradication_C",

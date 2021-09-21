@@ -4,14 +4,14 @@
   "FullName": "Pets.Traps_FF_Generator_Defender",
   "ImageName": "",
   "Power": [
-    6609,
-    6610,
-    6611
+    6629,
+    6630,
+    6631
   ],
   "SetType": 8,
   "DisplayName": "Force Field Generator",
   "nArchetype": -1,
-  "nID": 3088,
+  "nID": 3100,
   "SubName": "Traps",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "Powers": [
     {
       "CastTimeReal": 1.07,
-      "PowerIndex": 6609,
-      "PowerSetID": 3088,
+      "PowerIndex": 6629,
+      "PowerSetID": 3100,
       "StaticIndex": 3538,
       "NGroupMembership": [],
       "FullName": "Pets.Traps_FF_Generator_Defender.Dispersion_Bubble",
@@ -1012,8 +1012,8 @@
       "AoEModifier": 4.75
     },
     {
-      "PowerIndex": 6610,
-      "PowerSetID": 3088,
+      "PowerIndex": 6630,
+      "PowerSetID": 3100,
       "PowerSetIndex": 1,
       "StaticIndex": 3539,
       "NGroupMembership": [],
@@ -1231,8 +1231,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 6611,
-      "PowerSetID": 3088,
+      "PowerIndex": 6631,
+      "PowerSetID": 3100,
       "PowerSetIndex": 2,
       "StaticIndex": 3540,
       "NGroupMembership": [],

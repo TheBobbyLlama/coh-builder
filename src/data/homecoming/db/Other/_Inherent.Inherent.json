@@ -4,15 +4,6 @@
   "FullName": "Inherent.Inherent",
   "ImageName": "",
   "Power": [
-    5484,
-    5485,
-    5486,
-    5487,
-    5488,
-    5489,
-    5490,
-    5491,
-    5492,
     5493,
     5494,
     5495,
@@ -172,12 +163,21 @@
     5649,
     5650,
     5651,
-    5652
+    5652,
+    5653,
+    5654,
+    5655,
+    5656,
+    5657,
+    5658,
+    5659,
+    5660,
+    5661
   ],
   "SetType": 4,
   "DisplayName": "Inherent",
   "nArchetype": -1,
-  "nID": 2893,
+  "nID": 2904,
   "SubName": "Inherent",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -192,8 +192,8 @@
       "CastTimeReal": 1.67,
       "IsEpic": true,
       "LocationIndex": 55,
-      "PowerIndex": 5484,
-      "PowerSetID": 2893,
+      "PowerIndex": 5493,
+      "PowerSetID": 2904,
       "StaticIndex": 1027,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Black_Dwarf_Antagonize",
@@ -212,7 +212,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            10325,
+            10341,
             -1
           ]
         ],
@@ -514,15 +514,16 @@
       "CastTime": 1.67,
       "Slottable": true,
       "AoEModifier": 3.25,
-      "DisplayLocation": 55
+      "DisplayLocation": 55,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.93,
       "ToggleCost": 15.6,
       "IsEpic": true,
       "LocationIndex": 43,
-      "PowerIndex": 5485,
-      "PowerSetID": 2893,
+      "PowerIndex": 5494,
+      "PowerSetID": 2904,
       "PowerSetIndex": 1,
       "StaticIndex": 1028,
       "NGroupMembership": [],
@@ -542,7 +543,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            10325,
+            10341,
             -1
           ]
         ],
@@ -1144,15 +1145,16 @@
       "CastTime": 1.93,
       "Slottable": true,
       "AoEModifier": 1.0,
-      "DisplayLocation": 43
+      "DisplayLocation": 43,
+      "Taken": true
     },
     {
       "CastTimeReal": 0.73,
       "ToggleCost": 15.6,
       "IsEpic": true,
       "LocationIndex": 37,
-      "PowerIndex": 5486,
-      "PowerSetID": 2893,
+      "PowerIndex": 5495,
+      "PowerSetID": 2904,
       "PowerSetIndex": 2,
       "StaticIndex": 1029,
       "NGroupMembership": [],
@@ -1172,7 +1174,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            10325,
+            10341,
             -1
           ]
         ],
@@ -1772,15 +1774,16 @@
       "CastTime": 0.73,
       "Slottable": true,
       "AoEModifier": 3.25,
-      "DisplayLocation": 37
+      "DisplayLocation": 37,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.5,
       "ToggleCost": 6.864,
       "IsEpic": true,
       "LocationIndex": 31,
-      "PowerIndex": 5487,
-      "PowerSetID": 2893,
+      "PowerIndex": 5496,
+      "PowerSetID": 2904,
       "PowerSetIndex": 3,
       "StaticIndex": 1030,
       "NGroupMembership": [],
@@ -1800,7 +1803,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            10325,
+            10341,
             -1
           ]
         ],
@@ -2753,15 +2756,16 @@
       "CastTime": 1.5,
       "Slottable": true,
       "AoEModifier": 1.0,
-      "DisplayLocation": 31
+      "DisplayLocation": 31,
+      "Taken": true
     },
     {
       "CastTimeReal": 0.73,
       "ToggleCost": 13.0,
       "IsEpic": true,
       "LocationIndex": 49,
-      "PowerIndex": 5488,
-      "PowerSetID": 2893,
+      "PowerIndex": 5497,
+      "PowerSetID": 2904,
       "PowerSetIndex": 4,
       "StaticIndex": 1031,
       "NGroupMembership": [],
@@ -2781,7 +2785,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            10325,
+            10341,
             -1
           ]
         ],
@@ -3183,15 +3187,16 @@
       "CastTime": 0.73,
       "Slottable": true,
       "AoEModifier": 1.0,
-      "DisplayLocation": 49
+      "DisplayLocation": 49,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.2,
       "ToggleCost": 4.368,
       "IsEpic": true,
       "LocationIndex": 25,
-      "PowerIndex": 5489,
-      "PowerSetID": 2893,
+      "PowerIndex": 5498,
+      "PowerSetID": 2904,
       "PowerSetIndex": 5,
       "StaticIndex": 1032,
       "NGroupMembership": [],
@@ -3211,7 +3216,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            10325,
+            10341,
             -1
           ]
         ],
@@ -4087,15 +4092,16 @@
       "CastTime": 1.2,
       "Slottable": true,
       "AoEModifier": 1.0,
-      "DisplayLocation": 25
+      "DisplayLocation": 25,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.5,
       "ToggleCost": 5.2,
       "IsEpic": true,
-      "LocationIndex": 30,
-      "PowerIndex": 5490,
-      "PowerSetID": 2893,
+      "LocationIndex": 10,
+      "PowerIndex": 5499,
+      "PowerSetID": 2904,
       "PowerSetIndex": 6,
       "StaticIndex": 1033,
       "NGroupMembership": [],
@@ -4115,7 +4121,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6197,
+            6206,
             -1
           ]
         ],
@@ -4475,15 +4481,16 @@
       "CastTime": 1.5,
       "Slottable": true,
       "AoEModifier": 1.0,
-      "DisplayLocation": 30
+      "DisplayLocation": 10,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.5,
       "ToggleCost": 3.12,
       "IsEpic": true,
-      "LocationIndex": 24,
-      "PowerIndex": 5491,
-      "PowerSetID": 2893,
+      "LocationIndex": 11,
+      "PowerIndex": 5500,
+      "PowerSetID": 2904,
       "PowerSetIndex": 7,
       "StaticIndex": 1034,
       "NGroupMembership": [],
@@ -4503,7 +4510,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6197,
+            6206,
             -1
           ]
         ],
@@ -4744,15 +4751,16 @@
       "CastTime": 1.5,
       "Slottable": true,
       "AoEModifier": 1.0,
-      "DisplayLocation": 24
+      "DisplayLocation": 11,
+      "Taken": true
     },
     {
       "CastTimeReal": 2.5,
       "ToggleCost": 15.184,
       "IsEpic": true,
-      "LocationIndex": 42,
-      "PowerIndex": 5492,
-      "PowerSetID": 2893,
+      "LocationIndex": 12,
+      "PowerIndex": 5501,
+      "PowerSetID": 2904,
       "PowerSetIndex": 8,
       "StaticIndex": 1035,
       "NGroupMembership": [],
@@ -4772,7 +4780,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6197,
+            6206,
             -1
           ]
         ],
@@ -5246,15 +5254,16 @@
       "CastTime": 2.5,
       "Slottable": true,
       "AoEModifier": 3.25,
-      "DisplayLocation": 42
+      "DisplayLocation": 12,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.5,
       "ToggleCost": 11.856,
       "IsEpic": true,
-      "LocationIndex": 36,
-      "PowerIndex": 5493,
-      "PowerSetID": 2893,
+      "LocationIndex": 13,
+      "PowerIndex": 5502,
+      "PowerSetID": 2904,
       "PowerSetIndex": 9,
       "StaticIndex": 1036,
       "NGroupMembership": [],
@@ -5274,7 +5283,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6197,
+            6206,
             -1
           ]
         ],
@@ -5517,15 +5526,16 @@
       "CastTime": 1.5,
       "Slottable": true,
       "AoEModifier": 3.06993747,
-      "DisplayLocation": 36
+      "DisplayLocation": 13,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.5,
       "ToggleCost": 5.2,
       "IsEpic": true,
-      "LocationIndex": 30,
-      "PowerIndex": 5494,
-      "PowerSetID": 2893,
+      "LocationIndex": 16,
+      "PowerIndex": 5503,
+      "PowerSetID": 2904,
       "PowerSetIndex": 10,
       "StaticIndex": 1037,
       "NGroupMembership": [],
@@ -5545,7 +5555,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            10335,
+            10351,
             -1
           ]
         ],
@@ -6080,15 +6090,16 @@
       "CastTime": 1.5,
       "Slottable": true,
       "AoEModifier": 1.0,
-      "DisplayLocation": 30
+      "DisplayLocation": 16,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.5,
       "ToggleCost": 3.12,
       "IsEpic": true,
-      "LocationIndex": 24,
-      "PowerIndex": 5495,
-      "PowerSetID": 2893,
+      "LocationIndex": 17,
+      "PowerIndex": 5504,
+      "PowerSetID": 2904,
       "PowerSetIndex": 11,
       "StaticIndex": 1038,
       "NGroupMembership": [],
@@ -6108,7 +6119,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            10335,
+            10351,
             -1
           ]
         ],
@@ -6583,15 +6594,16 @@
       "CastTime": 1.5,
       "Slottable": true,
       "AoEModifier": 1.0,
-      "DisplayLocation": 24
+      "DisplayLocation": 17,
+      "Taken": true
     },
     {
       "CastTimeReal": 2.5,
       "ToggleCost": 15.184,
       "IsEpic": true,
-      "LocationIndex": 42,
-      "PowerIndex": 5496,
-      "PowerSetID": 2893,
+      "LocationIndex": 18,
+      "PowerIndex": 5505,
+      "PowerSetID": 2904,
       "PowerSetIndex": 12,
       "StaticIndex": 1039,
       "NGroupMembership": [],
@@ -6611,7 +6623,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            10335,
+            10351,
             -1
           ]
         ],
@@ -7148,15 +7160,16 @@
       "CastTime": 2.5,
       "Slottable": true,
       "AoEModifier": 3.25,
-      "DisplayLocation": 42
+      "DisplayLocation": 18,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.5,
       "ToggleCost": 11.856,
       "IsEpic": true,
-      "LocationIndex": 36,
-      "PowerIndex": 5497,
-      "PowerSetID": 2893,
+      "LocationIndex": 19,
+      "PowerIndex": 5506,
+      "PowerSetID": 2904,
       "PowerSetIndex": 13,
       "StaticIndex": 1040,
       "NGroupMembership": [],
@@ -7176,7 +7189,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            10335,
+            10351,
             -1
           ]
         ],
@@ -7657,11 +7670,12 @@
       "CastTime": 1.5,
       "Slottable": true,
       "AoEModifier": 3.06993747,
-      "DisplayLocation": 36
+      "DisplayLocation": 19,
+      "Taken": true
     },
     {
-      "PowerIndex": 5498,
-      "PowerSetID": 2893,
+      "PowerIndex": 5507,
+      "PowerSetID": 2904,
       "PowerSetIndex": 14,
       "StaticIndex": 1041,
       "NGroupMembership": [],
@@ -8854,8 +8868,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5499,
-      "PowerSetID": 2893,
+      "PowerIndex": 5508,
+      "PowerSetID": 2904,
       "PowerSetIndex": 15,
       "StaticIndex": 1042,
       "NGroupMembership": [],
@@ -9572,8 +9586,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5500,
-      "PowerSetID": 2893,
+      "PowerIndex": 5509,
+      "PowerSetID": 2904,
       "PowerSetIndex": 16,
       "StaticIndex": 1043,
       "NGroupMembership": [],
@@ -9804,8 +9818,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5501,
-      "PowerSetID": 2893,
+      "PowerIndex": 5510,
+      "PowerSetID": 2904,
       "PowerSetIndex": 17,
       "StaticIndex": 3323,
       "NGroupMembership": [],
@@ -9856,9 +9870,9 @@
     {
       "CastTimeReal": 1.67,
       "IsEpic": true,
-      "LocationIndex": 49,
-      "PowerIndex": 5502,
-      "PowerSetID": 2893,
+      "LocationIndex": 14,
+      "PowerIndex": 5511,
+      "PowerSetID": 2904,
       "PowerSetIndex": 18,
       "StaticIndex": 1044,
       "NGroupMembership": [],
@@ -9878,7 +9892,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6187,
+            6196,
             -1
           ]
         ],
@@ -10179,15 +10193,16 @@
       "CastTime": 1.67,
       "Slottable": true,
       "AoEModifier": 3.25,
-      "DisplayLocation": 49
+      "DisplayLocation": 14,
+      "Taken": true
     },
     {
       "CastTimeReal": 2.1,
       "ToggleCost": 15.184,
       "IsEpic": true,
-      "LocationIndex": 37,
-      "PowerIndex": 5503,
-      "PowerSetID": 2893,
+      "LocationIndex": 15,
+      "PowerIndex": 5512,
+      "PowerSetID": 2904,
       "PowerSetIndex": 19,
       "StaticIndex": 1045,
       "NGroupMembership": [],
@@ -10207,7 +10222,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6187,
+            6196,
             -1
           ]
         ],
@@ -10631,15 +10646,16 @@
       "CastTime": 2.1,
       "Slottable": true,
       "AoEModifier": 3.25,
-      "DisplayLocation": 37
+      "DisplayLocation": 15,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.5,
       "ToggleCost": 6.864,
       "IsEpic": true,
-      "LocationIndex": 31,
-      "PowerIndex": 5504,
-      "PowerSetID": 2893,
+      "LocationIndex": 16,
+      "PowerIndex": 5513,
+      "PowerSetID": 2904,
       "PowerSetIndex": 20,
       "StaticIndex": 1046,
       "NGroupMembership": [],
@@ -10659,7 +10675,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6187,
+            6196,
             -1
           ]
         ],
@@ -11377,15 +11393,16 @@
       "CastTime": 1.5,
       "Slottable": true,
       "AoEModifier": 1.0,
-      "DisplayLocation": 31
+      "DisplayLocation": 16,
+      "Taken": true
     },
     {
       "CastTimeReal": 0.73,
       "ToggleCost": 13.0,
       "IsEpic": true,
-      "LocationIndex": 55,
-      "PowerIndex": 5505,
-      "PowerSetID": 2893,
+      "LocationIndex": 17,
+      "PowerIndex": 5514,
+      "PowerSetID": 2904,
       "PowerSetIndex": 21,
       "StaticIndex": 1047,
       "NGroupMembership": [],
@@ -11405,7 +11422,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6187,
+            6196,
             -1
           ]
         ],
@@ -11807,15 +11824,16 @@
       "CastTime": 0.73,
       "Slottable": true,
       "AoEModifier": 1.0,
-      "DisplayLocation": 55
+      "DisplayLocation": 17,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.2,
       "ToggleCost": 4.368,
       "IsEpic": true,
-      "LocationIndex": 25,
-      "PowerIndex": 5506,
-      "PowerSetID": 2893,
+      "LocationIndex": 18,
+      "PowerIndex": 5515,
+      "PowerSetID": 2904,
       "PowerSetIndex": 22,
       "StaticIndex": 1048,
       "NGroupMembership": [],
@@ -11835,7 +11853,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6187,
+            6196,
             -1
           ]
         ],
@@ -12476,15 +12494,16 @@
       "CastTime": 1.2,
       "Slottable": true,
       "AoEModifier": 1.0,
-      "DisplayLocation": 25
+      "DisplayLocation": 18,
+      "Taken": true
     },
     {
       "CastTimeReal": 0.73,
       "ToggleCost": 10.4,
       "IsEpic": true,
-      "LocationIndex": 43,
-      "PowerIndex": 5507,
-      "PowerSetID": 2893,
+      "LocationIndex": 19,
+      "PowerIndex": 5516,
+      "PowerSetID": 2904,
       "PowerSetIndex": 23,
       "StaticIndex": 1049,
       "NGroupMembership": [],
@@ -12504,7 +12523,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            6187,
+            6196,
             -1
           ]
         ],
@@ -12619,13 +12638,14 @@
       "CastTime": 0.73,
       "Slottable": true,
       "AoEModifier": 1.0,
-      "DisplayLocation": 43
+      "DisplayLocation": 19,
+      "Taken": true
     },
     {
       "IsEpic": true,
       "LocationIndex": 8,
-      "PowerIndex": 5508,
-      "PowerSetID": 2893,
+      "PowerIndex": 5517,
+      "PowerSetID": 2904,
       "PowerSetIndex": 24,
       "StaticIndex": 10919,
       "NGroupMembership": [],
@@ -12649,23 +12669,23 @@
             -1
           ],
           [
-            3541,
+            3550,
             -1
           ],
           [
-            3542,
+            3551,
             -1
           ],
           [
-            7208,
+            7223,
             -1
           ],
           [
-            7209,
+            7224,
             -1
           ],
           [
-            3805,
+            3814,
             -1
           ]
         ],
@@ -12760,14 +12780,13 @@
       "FullSetName": "Inherent.Inherent",
       "AoEModifier": 1.0,
       "DisplayLocation": 8,
-      "Active": true,
       "Taken": true
     },
     {
       "IsEpic": true,
-      "LocationIndex": 12,
-      "PowerIndex": 5509,
-      "PowerSetID": 2893,
+      "LocationIndex": 8,
+      "PowerIndex": 5518,
+      "PowerSetID": 2904,
       "PowerSetIndex": 25,
       "StaticIndex": 5863,
       "NGroupMembership": [
@@ -12785,59 +12804,59 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            2959,
+            2971,
             -1
           ],
           [
-            2960,
+            2972,
             -1
           ],
           [
-            6904,
+            6919,
             -1
           ],
           [
-            6905,
+            6920,
             -1
           ],
           [
-            8427,
+            8442,
             -1
           ],
           [
-            8428,
+            8443,
             -1
           ],
           [
-            8691,
+            8706,
             -1
           ],
           [
-            3106,
+            3118,
             -1
           ],
           [
-            3107,
+            3119,
             -1
           ],
           [
-            7051,
+            7066,
             -1
           ],
           [
-            7052,
+            7067,
             -1
           ],
           [
-            8571,
+            8586,
             -1
           ],
           [
-            8572,
+            8587,
             -1
           ],
           [
-            8838,
+            8853,
             -1
           ],
           [
@@ -12849,15 +12868,15 @@
             -1
           ],
           [
-            3898,
+            3907,
             -1
           ],
           [
-            3634,
+            3643,
             -1
           ],
           [
-            3635,
+            3644,
             -1
           ]
         ],
@@ -12969,13 +12988,14 @@
       "Effects": [],
       "FullSetName": "Inherent.Inherent",
       "AoEModifier": 1.0,
-      "DisplayLocation": 12
+      "DisplayLocation": 8,
+      "Taken": true
     },
     {
       "IsEpic": true,
-      "LocationIndex": 15,
-      "PowerIndex": 5510,
-      "PowerSetID": 2893,
+      "LocationIndex": 9,
+      "PowerIndex": 5519,
+      "PowerSetID": 2904,
       "PowerSetIndex": 26,
       "StaticIndex": 5864,
       "NGroupMembership": [
@@ -12993,59 +13013,59 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            2959,
+            2971,
             -1
           ],
           [
-            2960,
+            2972,
             -1
           ],
           [
-            6904,
+            6919,
             -1
           ],
           [
-            6905,
+            6920,
             -1
           ],
           [
-            8427,
+            8442,
             -1
           ],
           [
-            8428,
+            8443,
             -1
           ],
           [
-            8691,
+            8706,
             -1
           ],
           [
-            3106,
+            3118,
             -1
           ],
           [
-            3107,
+            3119,
             -1
           ],
           [
-            7051,
+            7066,
             -1
           ],
           [
-            7052,
+            7067,
             -1
           ],
           [
-            8571,
+            8586,
             -1
           ],
           [
-            8572,
+            8587,
             -1
           ],
           [
-            8838,
+            8853,
             -1
           ],
           [
@@ -13057,15 +13077,15 @@
             -1
           ],
           [
-            3634,
+            3643,
             -1
           ],
           [
-            3635,
+            3644,
             -1
           ],
           [
-            3898,
+            3907,
             -1
           ]
         ],
@@ -13177,13 +13197,14 @@
       "Effects": [],
       "FullSetName": "Inherent.Inherent",
       "AoEModifier": 1.0,
-      "DisplayLocation": 15
+      "DisplayLocation": 9,
+      "Taken": true
     },
     {
       "IsEpic": true,
-      "LocationIndex": 11,
-      "PowerIndex": 5511,
-      "PowerSetID": 2893,
+      "LocationIndex": 10,
+      "PowerIndex": 5520,
+      "PowerSetID": 2904,
       "PowerSetIndex": 27,
       "StaticIndex": 5865,
       "NGroupMembership": [
@@ -13201,59 +13222,59 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            2959,
+            2971,
             -1
           ],
           [
-            2960,
+            2972,
             -1
           ],
           [
-            6904,
+            6919,
             -1
           ],
           [
-            6905,
+            6920,
             -1
           ],
           [
-            8427,
+            8442,
             -1
           ],
           [
-            8428,
+            8443,
             -1
           ],
           [
-            8691,
+            8706,
             -1
           ],
           [
-            3106,
+            3118,
             -1
           ],
           [
-            3107,
+            3119,
             -1
           ],
           [
-            7051,
+            7066,
             -1
           ],
           [
-            7052,
+            7067,
             -1
           ],
           [
-            8571,
+            8586,
             -1
           ],
           [
-            8572,
+            8587,
             -1
           ],
           [
-            8838,
+            8853,
             -1
           ],
           [
@@ -13265,15 +13286,15 @@
             -1
           ],
           [
-            3634,
+            3643,
             -1
           ],
           [
-            3635,
+            3644,
             -1
           ],
           [
-            3898,
+            3907,
             -1
           ]
         ],
@@ -13385,11 +13406,12 @@
       "Effects": [],
       "FullSetName": "Inherent.Inherent",
       "AoEModifier": 1.0,
-      "DisplayLocation": 11
+      "DisplayLocation": 10,
+      "Taken": true
     },
     {
-      "PowerIndex": 5512,
-      "PowerSetID": 2893,
+      "PowerIndex": 5521,
+      "PowerSetID": 2904,
       "PowerSetIndex": 28,
       "StaticIndex": 1050,
       "NGroupMembership": [],
@@ -13627,8 +13649,8 @@
     {
       "IsEpic": true,
       "LocationIndex": 8,
-      "PowerIndex": 5513,
-      "PowerSetID": 2893,
+      "PowerIndex": 5522,
+      "PowerSetID": 2904,
       "PowerSetIndex": 29,
       "StaticIndex": 10917,
       "NGroupMembership": [],
@@ -13644,39 +13666,39 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            3014,
+            3026,
             -1
           ],
           [
-            3013,
+            3025,
             -1
           ],
           [
-            6959,
+            6974,
             -1
           ],
           [
-            6958,
+            6973,
             -1
           ],
           [
-            8482,
+            8497,
             -1
           ],
           [
-            8481,
+            8496,
             -1
           ],
           [
-            8746,
+            8761,
             -1
           ],
           [
-            8745,
+            8760,
             -1
           ],
           [
-            3934,
+            3943,
             -1
           ]
         ],
@@ -13742,7 +13764,7 @@
       "NeverAutoUpdateRequirements": true,
       "IncludeFlag": true,
       "ForcedClass": "",
-      "InherentType": 6,
+      "InherentType": 7,
       "Effects": [
         {
           "MagnitudeExpression": "",
@@ -13800,14 +13822,13 @@
       ],
       "FullSetName": "Inherent.Inherent",
       "AoEModifier": 1.0,
-      "DisplayLocation": 8,
-      "Taken": true
+      "DisplayLocation": 8
     },
     {
       "IsEpic": true,
-      "LocationIndex": 12,
-      "PowerIndex": 5514,
-      "PowerSetID": 2893,
+      "LocationIndex": 8,
+      "PowerIndex": 5523,
+      "PowerSetID": 2904,
       "PowerSetIndex": 30,
       "StaticIndex": 6111,
       "NGroupMembership": [],
@@ -13823,27 +13844,23 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            3133,
+            3145,
             -1
           ],
           [
-            3134,
+            3146,
             -1
           ],
           [
-            7060,
+            7075,
             -1
           ],
           [
-            7061,
+            7076,
             -1
           ],
           [
-            8865,
-            -1
-          ],
-          [
-            3143,
+            8880,
             -1
           ]
         ],
@@ -13867,10 +13884,6 @@
           ],
           [
             "Tanker_Melee.Titan_Weapons.Defensive_Sweep",
-            ""
-          ],
-          [
-            "Brute_Melee.Titan_Weapons_beta.Defensive_Sweep_Base",
             ""
           ]
         ],
@@ -13901,11 +13914,12 @@
       "Effects": [],
       "FullSetName": "Inherent.Inherent",
       "AoEModifier": 1.0,
-      "DisplayLocation": 12
+      "DisplayLocation": 8,
+      "Taken": true
     },
     {
-      "PowerIndex": 5515,
-      "PowerSetID": 2893,
+      "PowerIndex": 5524,
+      "PowerSetID": 2904,
       "PowerSetIndex": 31,
       "StaticIndex": 4396,
       "NGroupMembership": [],
@@ -13956,8 +13970,8 @@
     {
       "CastTimeReal": 1.07,
       "IsEpic": true,
-      "PowerIndex": 5516,
-      "PowerSetID": 2893,
+      "PowerIndex": 5525,
+      "PowerSetID": 2904,
       "PowerSetIndex": 32,
       "StaticIndex": 6155,
       "NGroupMembership": [],
@@ -13973,7 +13987,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            5516,
+            5525,
             -1
           ]
         ],
@@ -14025,7 +14039,7 @@
           "Special": "",
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.Alt_Granted_Frisbee",
-          "nSummon": 9325,
+          "nSummon": 9341,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 1,
@@ -14074,8 +14088,8 @@
     },
     {
       "CastTimeReal": 1.716,
-      "PowerIndex": 5517,
-      "PowerSetID": 2893,
+      "PowerIndex": 5526,
+      "PowerSetID": 2904,
       "PowerSetIndex": 33,
       "StaticIndex": 1051,
       "NGroupMembership": [],
@@ -14128,6 +14142,7 @@
       "NeverAutoUpdate": true,
       "IncludeFlag": true,
       "ForcedClass": "",
+      "InherentType": 2,
       "Effects": [
         {
           "MagnitudeExpression": "",
@@ -14526,12 +14541,11 @@
       ],
       "FullSetName": "Inherent.Inherent",
       "CastTime": 1.716,
-      "AoEModifier": 1.0,
-      "Taken": true
+      "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5518,
-      "PowerSetID": 2893,
+      "PowerIndex": 5527,
+      "PowerSetID": 2904,
       "PowerSetIndex": 34,
       "StaticIndex": 4397,
       "NGroupMembership": [],
@@ -14580,8 +14594,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5519,
-      "PowerSetID": 2893,
+      "PowerIndex": 5528,
+      "PowerSetID": 2904,
       "PowerSetIndex": 35,
       "StaticIndex": 4515,
       "NGroupMembership": [],
@@ -14867,8 +14881,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5520,
-      "PowerSetID": 2893,
+      "PowerIndex": 5529,
+      "PowerSetID": 2904,
       "PowerSetIndex": 36,
       "StaticIndex": 4516,
       "NGroupMembership": [],
@@ -15533,8 +15547,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5521,
-      "PowerSetID": 2893,
+      "PowerIndex": 5530,
+      "PowerSetID": 2904,
       "PowerSetIndex": 37,
       "StaticIndex": 4517,
       "NGroupMembership": [],
@@ -15826,8 +15840,8 @@
     {
       "CastTimeReal": 0.83,
       "LocationIndex": 1,
-      "PowerIndex": 5522,
-      "PowerSetID": 2893,
+      "PowerIndex": 5531,
+      "PowerSetID": 2904,
       "PowerSetIndex": 38,
       "StaticIndex": 1052,
       "NGroupMembership": [],
@@ -16305,8 +16319,8 @@
     },
     {
       "CastTimeReal": 1.716,
-      "PowerIndex": 5523,
-      "PowerSetID": 2893,
+      "PowerIndex": 5532,
+      "PowerSetID": 2904,
       "PowerSetIndex": 39,
       "StaticIndex": 1053,
       "NGroupMembership": [],
@@ -16417,12 +16431,13 @@
       ],
       "FullSetName": "Inherent.Inherent",
       "CastTime": 1.716,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.716,
-      "PowerIndex": 5524,
-      "PowerSetID": 2893,
+      "PowerIndex": 5533,
+      "PowerSetID": 2904,
       "PowerSetIndex": 40,
       "StaticIndex": 1054,
       "NGroupMembership": [],
@@ -17830,12 +17845,13 @@
       ],
       "FullSetName": "Inherent.Inherent",
       "CastTime": 1.716,
-      "AoEModifier": 46.0
+      "AoEModifier": 46.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.716,
-      "PowerIndex": 5525,
-      "PowerSetID": 2893,
+      "PowerIndex": 5534,
+      "PowerSetID": 2904,
       "PowerSetIndex": 41,
       "StaticIndex": 1055,
       "NGroupMembership": [],
@@ -17897,7 +17913,6 @@
           "Mag": 1.0,
           "MagPercent": 100.0,
           "DisplayPercentage": true,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "MLCrit",
           "EffectId": "Ones",
@@ -17945,7 +17960,6 @@
           "Mag": 1.0,
           "MagPercent": 100.0,
           "DisplayPercentage": true,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "BossCrit",
           "EffectId": "Ones",
@@ -17994,7 +18008,6 @@
           "Mag": 1.0,
           "MagPercent": 100.0,
           "DisplayPercentage": true,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "PlayerCrit",
           "EffectId": "Ones",
@@ -18043,7 +18056,6 @@
           "Mag": 1.0,
           "MagPercent": 100.0,
           "DisplayPercentage": true,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "CritSmall",
           "EffectId": "Ones",
@@ -18092,7 +18104,6 @@
           "Mag": 1.0,
           "MagPercent": 100.0,
           "DisplayPercentage": true,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "CritLarge",
           "EffectId": "Ones",
@@ -18141,7 +18152,6 @@
           "Mag": 1.0,
           "MagPercent": 100.0,
           "DisplayPercentage": true,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "CritPlayer",
           "EffectId": "Ones",
@@ -18190,7 +18200,6 @@
           "Mag": 1.0,
           "MagPercent": 100.0,
           "DisplayPercentage": true,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "ECCritModSmall",
           "EffectId": "Ones",
@@ -18239,7 +18248,6 @@
           "Mag": 1.0,
           "MagPercent": 100.0,
           "DisplayPercentage": true,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "ECCritModLarge",
           "EffectId": "Ones",
@@ -18288,7 +18296,6 @@
           "Mag": 1.0,
           "MagPercent": 100.0,
           "DisplayPercentage": true,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "ECCritModPlayer",
           "EffectId": "Ones",
@@ -18340,8 +18347,8 @@
     },
     {
       "CastTimeReal": 1.716,
-      "PowerIndex": 5526,
-      "PowerSetID": 2893,
+      "PowerIndex": 5535,
+      "PowerSetID": 2904,
       "PowerSetIndex": 42,
       "StaticIndex": 1056,
       "NGroupMembership": [],
@@ -19749,11 +19756,12 @@
       ],
       "FullSetName": "Inherent.Inherent",
       "CastTime": 1.716,
-      "AoEModifier": 46.0
+      "AoEModifier": 46.0,
+      "Taken": true
     },
     {
-      "PowerIndex": 5527,
-      "PowerSetID": 2893,
+      "PowerIndex": 5536,
+      "PowerSetID": 2904,
       "PowerSetIndex": 43,
       "StaticIndex": 1057,
       "NGroupMembership": [],
@@ -19864,8 +19872,8 @@
     },
     {
       "CastTimeReal": 1.17,
-      "PowerIndex": 5528,
-      "PowerSetID": 2893,
+      "PowerIndex": 5537,
+      "PowerSetID": 2904,
       "PowerSetIndex": 44,
       "StaticIndex": 1058,
       "NGroupMembership": [],
@@ -21312,11 +21320,12 @@
       ],
       "FullSetName": "Inherent.Inherent",
       "CastTime": 1.17,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
-      "PowerIndex": 5529,
-      "PowerSetID": 2893,
+      "PowerIndex": 5538,
+      "PowerSetID": 2904,
       "PowerSetIndex": 45,
       "StaticIndex": 1059,
       "NGroupMembership": [],
@@ -21430,8 +21439,8 @@
       "AoEModifier": 46.0
     },
     {
-      "PowerIndex": 5530,
-      "PowerSetID": 2893,
+      "PowerIndex": 5539,
+      "PowerSetID": 2904,
       "PowerSetIndex": 46,
       "StaticIndex": 1060,
       "NGroupMembership": [],
@@ -21541,8 +21550,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5531,
-      "PowerSetID": 2893,
+      "PowerIndex": 5540,
+      "PowerSetID": 2904,
       "PowerSetIndex": 47,
       "StaticIndex": 1061,
       "NGroupMembership": [],
@@ -21649,8 +21658,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5532,
-      "PowerSetID": 2893,
+      "PowerIndex": 5541,
+      "PowerSetID": 2904,
       "PowerSetIndex": 48,
       "StaticIndex": 1062,
       "NGroupMembership": [],
@@ -21817,8 +21826,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5533,
-      "PowerSetID": 2893,
+      "PowerIndex": 5542,
+      "PowerSetID": 2904,
       "PowerSetIndex": 49,
       "StaticIndex": 1063,
       "NGroupMembership": [],
@@ -21924,10 +21933,10 @@
       "AoEModifier": 1.0
     },
     {
-      "ToggleCost": 1.0,
-      "LocationIndex": 2,
-      "PowerIndex": 5534,
-      "PowerSetID": 2893,
+      "ToggleCost": 0.456,
+      "LocationIndex": 9,
+      "PowerIndex": 5543,
+      "PowerSetID": 2904,
       "PowerSetIndex": 50,
       "StaticIndex": 1064,
       "NGroupMembership": [
@@ -21963,10 +21972,11 @@
       "EntitiesAutoHit": 1,
       "Target": 1,
       "TargetLoS": true,
-      "EndCost": 0.5,
+      "EndCost": 0.228,
       "ActivatePeriod": 0.5,
       "EffectArea": 1,
       "MaxBoosts": "",
+      "AIReport": 1,
       "NumAllowed": 1,
       "BoostsAllowed": [
         "EnduranceDiscount_Boost",
@@ -22572,11 +22582,11 @@
       "FullSetName": "Inherent.Inherent",
       "Slottable": true,
       "AoEModifier": 1.0,
-      "DisplayLocation": 2
+      "DisplayLocation": 9
     },
     {
-      "PowerIndex": 5535,
-      "PowerSetID": 2893,
+      "PowerIndex": 5544,
+      "PowerSetID": 2904,
       "PowerSetIndex": 51,
       "StaticIndex": 4398,
       "NGroupMembership": [
@@ -22753,8 +22763,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5536,
-      "PowerSetID": 2893,
+      "PowerIndex": 5545,
+      "PowerSetID": 2904,
       "PowerSetIndex": 52,
       "StaticIndex": 4399,
       "NGroupMembership": [
@@ -22931,8 +22941,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5537,
-      "PowerSetID": 2893,
+      "PowerIndex": 5546,
+      "PowerSetID": 2904,
       "PowerSetIndex": 53,
       "StaticIndex": 3267,
       "NGroupMembership": [
@@ -23110,8 +23120,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5538,
-      "PowerSetID": 2893,
+      "PowerIndex": 5547,
+      "PowerSetID": 2904,
       "PowerSetIndex": 54,
       "StaticIndex": 4400,
       "NGroupMembership": [
@@ -23288,8 +23298,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5539,
-      "PowerSetID": 2893,
+      "PowerIndex": 5548,
+      "PowerSetID": 2904,
       "PowerSetIndex": 55,
       "StaticIndex": 3513,
       "NGroupMembership": [
@@ -23466,8 +23476,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5540,
-      "PowerSetID": 2893,
+      "PowerIndex": 5549,
+      "PowerSetID": 2904,
       "PowerSetIndex": 56,
       "StaticIndex": 3268,
       "NGroupMembership": [
@@ -23645,8 +23655,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5541,
-      "PowerSetID": 2893,
+      "PowerIndex": 5550,
+      "PowerSetID": 2904,
       "PowerSetIndex": 57,
       "StaticIndex": 3512,
       "NGroupMembership": [
@@ -23823,8 +23833,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5542,
-      "PowerSetID": 2893,
+      "PowerIndex": 5551,
+      "PowerSetID": 2904,
       "PowerSetIndex": 58,
       "StaticIndex": 5004,
       "NGroupMembership": [
@@ -24001,8 +24011,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5543,
-      "PowerSetID": 2893,
+      "PowerIndex": 5552,
+      "PowerSetID": 2904,
       "PowerSetIndex": 59,
       "StaticIndex": 3266,
       "NGroupMembership": [
@@ -24180,8 +24190,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5544,
-      "PowerSetID": 2893,
+      "PowerIndex": 5553,
+      "PowerSetID": 2904,
       "PowerSetIndex": 60,
       "StaticIndex": 5578,
       "NGroupMembership": [
@@ -24358,8 +24368,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5545,
-      "PowerSetID": 2893,
+      "PowerIndex": 5554,
+      "PowerSetID": 2904,
       "PowerSetIndex": 61,
       "StaticIndex": 4401,
       "NGroupMembership": [
@@ -24536,8 +24546,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5546,
-      "PowerSetID": 2893,
+      "PowerIndex": 5555,
+      "PowerSetID": 2904,
       "PowerSetIndex": 62,
       "StaticIndex": 3511,
       "NGroupMembership": [
@@ -24714,8 +24724,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5547,
-      "PowerSetID": 2893,
+      "PowerIndex": 5556,
+      "PowerSetID": 2904,
       "PowerSetIndex": 63,
       "StaticIndex": 5581,
       "NGroupMembership": [
@@ -24892,8 +24902,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5548,
-      "PowerSetID": 2893,
+      "PowerIndex": 5557,
+      "PowerSetID": 2904,
       "PowerSetIndex": 64,
       "StaticIndex": 5580,
       "NGroupMembership": [
@@ -25070,8 +25080,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5549,
-      "PowerSetID": 2893,
+      "PowerIndex": 5558,
+      "PowerSetID": 2904,
       "PowerSetIndex": 65,
       "StaticIndex": 5579,
       "NGroupMembership": [
@@ -25248,8 +25258,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5550,
-      "PowerSetID": 2893,
+      "PowerIndex": 5559,
+      "PowerSetID": 2904,
       "PowerSetIndex": 66,
       "StaticIndex": 4402,
       "NGroupMembership": [
@@ -25426,8 +25436,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5551,
-      "PowerSetID": 2893,
+      "PowerIndex": 5560,
+      "PowerSetID": 2904,
       "PowerSetIndex": 67,
       "StaticIndex": 5577,
       "NGroupMembership": [
@@ -25594,431 +25604,9 @@
       "AoEModifier": 1.0
     },
     {
-      "IsEpic": true,
-      "LocationIndex": 8,
-      "PowerIndex": 5552,
-      "PowerSetID": 2893,
+      "PowerIndex": 5561,
+      "PowerSetID": 2904,
       "PowerSetIndex": 68,
-      "StaticIndex": 10827,
-      "NGroupMembership": [],
-      "FullName": "Inherent.Inherent.Fast_Snipe",
-      "GroupName": "Inherent",
-      "SetName": "Inherent",
-      "PowerName": "Fast_Snipe",
-      "DisplayName": "Quick Form",
-      "Requires": {
-        "ClassName": [
-          "Class_Blaster",
-          "Class_Defender",
-          "Class_Scrapper",
-          "Class_Stalker",
-          "Class_Dominator",
-          "Class_Corruptor"
-        ],
-        "ClassNameNot": [],
-        "NClassName": [
-          0,
-          2,
-          3,
-          9,
-          11,
-          12
-        ],
-        "NClassNameNot": [],
-        "NPowerID": [
-          [
-            34,
-            -1
-          ],
-          [
-            42,
-            -1
-          ],
-          [
-            59,
-            -1
-          ],
-          [
-            81,
-            -1
-          ],
-          [
-            89,
-            -1
-          ],
-          [
-            101,
-            -1
-          ],
-          [
-            117,
-            -1
-          ],
-          [
-            126,
-            -1
-          ],
-          [
-            3793,
-            -1
-          ],
-          [
-            3801,
-            -1
-          ],
-          [
-            3811,
-            -1
-          ],
-          [
-            52,
-            -1
-          ],
-          [
-            3816,
-            -1
-          ],
-          [
-            3840,
-            -1
-          ],
-          [
-            3848,
-            -1
-          ],
-          [
-            3860,
-            -1
-          ],
-          [
-            3873,
-            -1
-          ],
-          [
-            126,
-            -1
-          ],
-          [
-            4334,
-            -1
-          ],
-          [
-            4399,
-            -1
-          ],
-          [
-            4404,
-            -1
-          ],
-          [
-            3912,
-            -1
-          ],
-          [
-            3930,
-            -1
-          ],
-          [
-            3941,
-            -1
-          ],
-          [
-            3950,
-            -1
-          ],
-          [
-            3977,
-            -1
-          ],
-          [
-            3968,
-            -1
-          ],
-          [
-            3986,
-            -1
-          ],
-          [
-            3529,
-            -1
-          ],
-          [
-            3537,
-            -1
-          ],
-          [
-            3547,
-            -1
-          ],
-          [
-            3552,
-            -1
-          ],
-          [
-            3576,
-            -1
-          ],
-          [
-            3584,
-            -1
-          ],
-          [
-            3596,
-            -1
-          ],
-          [
-            3609,
-            -1
-          ],
-          [
-            3620,
-            -1
-          ]
-        ],
-        "NPowerIDNot": [],
-        "PowerID": [
-          [
-            "Blaster_Ranged.Archery.Ranged_Shot",
-            ""
-          ],
-          [
-            "Blaster_Ranged.Assault_Rifle.Sniper_Rifle",
-            ""
-          ],
-          [
-            "Blaster_Ranged.Dark_Blast.Moonbeam",
-            ""
-          ],
-          [
-            "Blaster_Ranged.Electrical_Blast.Zapp",
-            ""
-          ],
-          [
-            "Blaster_Ranged.Energy_Blast.Sniper_Blast",
-            ""
-          ],
-          [
-            "Blaster_Ranged.Fire_Blast.Blazing_Bolt",
-            ""
-          ],
-          [
-            "Blaster_Ranged.Psychic_Blast.Psionic_Lance",
-            ""
-          ],
-          [
-            "Blaster_Ranged.Radiation_Blast.Proton_Volley",
-            ""
-          ],
-          [
-            "Defender_Ranged.Archery.Ranged_Shot",
-            ""
-          ],
-          [
-            "Defender_Ranged.Assault_Rifle.Sniper_Rifle",
-            ""
-          ],
-          [
-            "Defender_Ranged.Beam_Rifle.Penetrating_Ray",
-            ""
-          ],
-          [
-            "Blaster_Ranged.Beam_Rifle.Penetrating_Ray",
-            ""
-          ],
-          [
-            "Defender_Ranged.Dark_Blast.Moonbeam",
-            ""
-          ],
-          [
-            "Defender_Ranged.Electrical_Blast.Zapp",
-            ""
-          ],
-          [
-            "Defender_Ranged.Energy_Blast.Sniper_Blast",
-            ""
-          ],
-          [
-            "Defender_Ranged.Fire_Blast.Blazing_Bolt",
-            ""
-          ],
-          [
-            "Defender_Ranged.Psychic_Blast.Psionic_Lance",
-            ""
-          ],
-          [
-            "Blaster_Ranged.Radiation_Blast.Proton_Volley",
-            ""
-          ],
-          [
-            "Epic.Scrapper_Mace_Mastery.Mace_Beam",
-            ""
-          ],
-          [
-            "Epic.Stalker_Mu_Mastery.Zapp",
-            ""
-          ],
-          [
-            "Epic.Stalker_Soul_Mastery.Moonbeam",
-            ""
-          ],
-          [
-            "Dominator_Assault.Dark_Assault.Moonbeam",
-            ""
-          ],
-          [
-            "Dominator_Assault.Electricity_Manipulation.Lightning_Clap",
-            ""
-          ],
-          [
-            "Dominator_Assault.Energy_Assault.Sniper_Blast",
-            ""
-          ],
-          [
-            "Dominator_Assault.Fiery_Assault.Blazing_Bolt",
-            ""
-          ],
-          [
-            "Dominator_Assault.Psionic_Assault.Psionic_Lance",
-            ""
-          ],
-          [
-            "Dominator_Assault.Martial_Assault.Masterful_Throw",
-            ""
-          ],
-          [
-            "Dominator_Assault.Radioactive_Assault.Proton_Volley",
-            ""
-          ],
-          [
-            "Corruptor_Ranged.Archery.Ranged_Shot",
-            ""
-          ],
-          [
-            "Corruptor_Ranged.Assault_Rifle.Sniper_Rifle",
-            ""
-          ],
-          [
-            "Corruptor_Ranged.Beam_Rifle.Penetrating_Ray",
-            ""
-          ],
-          [
-            "Corruptor_Ranged.Dark_Blast.Moonbeam",
-            ""
-          ],
-          [
-            "Corruptor_Ranged.Electrical_Blast.Zapp",
-            ""
-          ],
-          [
-            "Corruptor_Ranged.Energy_Blast.Sniper_Blast",
-            ""
-          ],
-          [
-            "Corruptor_Ranged.Fire_Blast.Blazing_Bolt",
-            ""
-          ],
-          [
-            "Corruptor_Ranged.Psychic_Blast.Psionic_Lance",
-            ""
-          ],
-          [
-            "Corruptor_Ranged.Radiation_Blast.Proton_Volley",
-            ""
-          ]
-        ],
-        "PowerIDNot": []
-      },
-      "PowerType": 2,
-      "Accuracy": 1.0,
-      "AccuracyMult": 1.0,
-      "GroupMembership": [],
-      "EntitiesAffected": 1,
-      "EntitiesAutoHit": 1,
-      "Target": 1,
-      "TargetLoS": true,
-      "EffectArea": 1,
-      "MaxBoosts": "",
-      "BoostsAllowed": [],
-      "Enhancements": [],
-      "DescShort": "+QuickForm",
-      "DescLong": "Puts all Sniper attacks into their quick form. This power only affects Blasters, Corruptors, Defenders, Dominators, and those ATs whom receive a Sniper attack from an Epic pool.",
-      "SetTypes": [],
-      "Level": 1,
-      "VariableName": "",
-      "NIDSubPower": [],
-      "UIDSubPower": [],
-      "IgnoreEnh": [],
-      "Ignore_Buff": [],
-      "MutexAuto": true,
-      "NeverAutoUpdate": true,
-      "NeverAutoUpdateRequirements": true,
-      "IncludeFlag": true,
-      "ForcedClass": "",
-      "InherentType": 6,
-      "Effects": [
-        {
-          "MagnitudeExpression": "",
-          "Probability": 1.0,
-          "Mag": 1.0,
-          "MagPercent": 100.0,
-          "DisplayPercentage": true,
-          "BaseProbability": 1.0,
-          "Reward": "Damage",
-          "EffectId": "Ones",
-          "Special": "",
-          "EffectType": 78,
-          "Summon": "Arachnos_Soldiers.Arachnos_Soldier.Single_Shot",
-          "Buffable": true,
-          "Resistible": true,
-          "UIDClassName": "",
-          "nIDClassName": -1,
-          "ToWho": 2,
-          "Scale": 1.0,
-          "nMagnitude": 1.0,
-          "Aspect": 3,
-          "ModifierTable": "Melee_Ones",
-          "nModifierTable": 41,
-          "PowerFullName": "",
-          "Absorbed_PowerType": 1,
-          "Absorbed_Power_nID": -1,
-          "Absorbed_Class_nID": -1,
-          "Absorbed_EffectID": -1,
-          "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
-          "nOverride": -1
-        }
-      ],
-      "FullSetName": "Inherent.Inherent",
-      "AoEModifier": 1.0,
-      "DisplayLocation": 8,
-      "Taken": true
-    },
-    {
-      "PowerIndex": 5553,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 69,
       "StaticIndex": 1065,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Gauntlet",
@@ -26132,9 +25720,9 @@
     },
     {
       "CastTimeReal": 1.5,
-      "PowerIndex": 5554,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 70,
+      "PowerIndex": 5562,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 69,
       "StaticIndex": 4518,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.HAC_Rez",
@@ -26473,9 +26061,9 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5555,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 71,
+      "PowerIndex": 5563,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 70,
       "StaticIndex": 4519,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.HAC__Standard",
@@ -26714,9 +26302,9 @@
     {
       "CastTimeReal": 1.17,
       "ToggleCost": 3.25,
-      "PowerIndex": 5556,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 72,
+      "PowerIndex": 5564,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 71,
       "StaticIndex": 9546,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Knights_Bastion",
@@ -26767,9 +26355,9 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5557,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 73,
+      "PowerIndex": 5565,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 72,
       "StaticIndex": 3261,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.LKT_Remover",
@@ -26796,11 +26384,11 @@
             -1
           ],
           [
-            5629,
+            5637,
             -1
           ],
           [
-            5557,
+            5565,
             -1
           ]
         ],
@@ -26967,9 +26555,9 @@
     },
     {
       "CastTimeReal": 1.87,
-      "PowerIndex": 5558,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 74,
+      "PowerIndex": 5566,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 73,
       "StaticIndex": 4520,
       "NGroupMembership": [
         22
@@ -27085,9 +26673,9 @@
     },
     {
       "CastTimeReal": 1.716,
-      "PowerIndex": 5559,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 75,
+      "PowerIndex": 5567,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 74,
       "StaticIndex": 3257,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.MxD_Accolades_Hero",
@@ -27133,16 +26721,16 @@
       "Level": 1,
       "VariableName": "",
       "NIDSubPower": [
-        8902,
-        8904,
-        8906,
-        8907,
-        8913,
-        8914,
-        8915,
-        8918,
+        8917,
         8919,
-        8920
+        8921,
+        8922,
+        8928,
+        8929,
+        8930,
+        8933,
+        8934,
+        8935
       ],
       "UIDSubPower": [
         "Temporary_Powers.Accolades.Crey_CBX-9_Pistol",
@@ -27168,9 +26756,9 @@
     },
     {
       "CastTimeReal": 1.716,
-      "PowerIndex": 5560,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 76,
+      "PowerIndex": 5568,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 75,
       "StaticIndex": 3258,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.MxD_Accolades_Villain",
@@ -27216,16 +26804,16 @@
       "Level": 1,
       "VariableName": "",
       "NIDSubPower": [
-        8901,
-        8903,
-        8905,
-        8908,
-        8909,
-        8911,
-        8912,
-        8913,
-        8915,
-        8916
+        8916,
+        8918,
+        8920,
+        8923,
+        8924,
+        8926,
+        8927,
+        8928,
+        8930,
+        8931
       ],
       "UIDSubPower": [
         "Temporary_Powers.Accolades.Born_In_Battle",
@@ -27251,9 +26839,9 @@
     },
     {
       "CastTimeReal": 1.716,
-      "PowerIndex": 5561,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 77,
+      "PowerIndex": 5569,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 76,
       "StaticIndex": 3259,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.MxD_Temps",
@@ -27283,25 +26871,32 @@
       "Level": 1,
       "VariableName": "",
       "NIDSubPower": [
-        8956,
-        9408,
-        9457,
-        9561,
-        9562,
-        9563,
-        9564,
-        9697,
-        9699,
-        9700,
-        9701,
-        9702,
-        9705,
-        9712,
-        9990,
-        9998
+        8971,
+        9329,
+        9368,
+        9401,
+        9424,
+        9473,
+        9577,
+        9578,
+        9579,
+        9580,
+        9713,
+        9715,
+        9716,
+        9717,
+        9718,
+        9721,
+        9728,
+        10006,
+        10014,
+        10015
       ],
       "UIDSubPower": [
         "Temporary_Powers.Day_Job_Powers.Combat_Shield",
+        "Temporary_Powers.Temporary_Powers.Alt_Defense_Amplifier_1_hour",
+        "Temporary_Powers.Temporary_Powers.Alt_Offense_Amplifier_1_hour",
+        "Temporary_Powers.Temporary_Powers.Alt_Survival_Amplifier_1_hour",
         "Temporary_Powers.Temporary_Powers.Arachnos_Power_Shield",
         "Temporary_Powers.Temporary_Powers.Cryonite_Armor",
         "Temporary_Powers.Temporary_Powers.GRHeroAlignmentPower",
@@ -27316,7 +26911,8 @@
         "Temporary_Powers.Temporary_Powers.Mayhem_Low-G_Pack",
         "Temporary_Powers.Temporary_Powers.Mayhem_Store_Kinetic_Shield",
         "Temporary_Powers.Temporary_Powers.Warburg_Biological",
-        "Temporary_Powers.Temporary_Powers.Wedding_Band"
+        "Temporary_Powers.Temporary_Powers.Wedding_Band",
+        "Temporary_Powers.Temporary_Powers.Wedding_Band_FB"
       ],
       "IgnoreEnh": [],
       "Ignore_Buff": [],
@@ -27330,9 +26926,9 @@
     {
       "CastTimeReal": 1.17,
       "IsEpic": true,
-      "PowerIndex": 5562,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 78,
+      "PowerIndex": 5570,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 77,
       "StaticIndex": 3508,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Mystic_Fortune",
@@ -27347,7 +26943,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            5562,
+            5570,
             -1
           ]
         ],
@@ -27402,7 +26998,7 @@
           "Special": "",
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.Mystic_Fortune",
-          "nSummon": 9727,
+          "nSummon": 9743,
           "DelayedTime": 1.0,
           "UIDClassName": "",
           "nIDClassName": -1,
@@ -27451,9 +27047,9 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5563,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 79,
+      "PowerIndex": 5571,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 78,
       "StaticIndex": 10603,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Opportunity",
@@ -28631,9 +28227,9 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5564,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 80,
+      "PowerIndex": 5572,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 79,
       "StaticIndex": 10601,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Opportunity_Icon",
@@ -28742,9 +28338,9 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5565,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 81,
+      "PowerIndex": 5573,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 80,
       "StaticIndex": 10602,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Opportunity_Meter",
@@ -29025,7 +28621,6 @@
           "Mag": 0.01,
           "MagPercent": 1.0,
           "DisplayPercentage": true,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Ones",
@@ -29083,7 +28678,6 @@
           "Mag": 0.01,
           "MagPercent": 1.0,
           "DisplayPercentage": true,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Ones",
@@ -29141,7 +28735,6 @@
           "Mag": 0.01,
           "MagPercent": 1.0,
           "DisplayPercentage": true,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Ones",
@@ -29199,7 +28792,6 @@
           "Mag": 0.01,
           "MagPercent": 1.0,
           "DisplayPercentage": true,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Ones",
@@ -29257,7 +28849,6 @@
           "Mag": 0.01,
           "MagPercent": 1.0,
           "DisplayPercentage": true,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Ones",
@@ -29315,7 +28906,6 @@
           "Mag": 0.01,
           "MagPercent": 1.0,
           "DisplayPercentage": true,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Ones",
@@ -29373,7 +28963,6 @@
           "Mag": 0.01,
           "MagPercent": 1.0,
           "DisplayPercentage": true,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Ones",
@@ -29431,7 +29020,6 @@
           "Mag": 0.01,
           "MagPercent": 1.0,
           "DisplayPercentage": true,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Ones",
@@ -29485,14 +29073,16 @@
         }
       ],
       "FullSetName": "Inherent.Inherent",
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Active": true,
+      "Taken": true
     },
     {
       "ToggleCost": 0.2925,
-      "LocationIndex": 5,
-      "PowerIndex": 5566,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 82,
+      "LocationIndex": 9,
+      "PowerIndex": 5574,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 81,
       "StaticIndex": 1066,
       "NGroupMembership": [
         18,
@@ -29733,14 +29323,14 @@
       "FullSetName": "Inherent.Inherent",
       "Slottable": true,
       "AoEModifier": 1.0,
-      "DisplayLocation": 5,
+      "DisplayLocation": 9,
       "Taken": true
     },
     {
       "CastTimeReal": 2.33,
-      "PowerIndex": 5567,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 83,
+      "PowerIndex": 5575,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 82,
       "StaticIndex": 6004,
       "NGroupMembership": [
         22
@@ -29856,9 +29446,9 @@
     },
     {
       "CastTimeReal": 2.33,
-      "PowerIndex": 5568,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 84,
+      "PowerIndex": 5576,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 83,
       "StaticIndex": 1067,
       "NGroupMembership": [
         3
@@ -29978,9 +29568,9 @@
     {
       "CastTimeReal": 2.33,
       "IsEpic": true,
-      "PowerIndex": 5569,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 85,
+      "PowerIndex": 5577,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 84,
       "StaticIndex": 6149,
       "NGroupMembership": [
         22
@@ -29997,7 +29587,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            5569,
+            5577,
             -1
           ]
         ],
@@ -30106,9 +29696,9 @@
     },
     {
       "CastTimeReal": 2.33,
-      "PowerIndex": 5570,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 86,
+      "PowerIndex": 5578,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 85,
       "StaticIndex": 1068,
       "NGroupMembership": [
         22
@@ -30234,9 +29824,9 @@
     },
     {
       "CastTimeReal": 2.33,
-      "PowerIndex": 5571,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 87,
+      "PowerIndex": 5579,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 86,
       "StaticIndex": 1069,
       "NGroupMembership": [
         22
@@ -30352,9 +29942,9 @@
     },
     {
       "CastTimeReal": 2.33,
-      "PowerIndex": 5572,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 88,
+      "PowerIndex": 5580,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 87,
       "StaticIndex": 9544,
       "NGroupMembership": [
         22
@@ -30470,9 +30060,9 @@
     },
     {
       "CastTimeReal": 2.33,
-      "PowerIndex": 5573,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 89,
+      "PowerIndex": 5581,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 88,
       "StaticIndex": 1070,
       "NGroupMembership": [
         3
@@ -30589,9 +30179,9 @@
     },
     {
       "CastTimeReal": 2.33,
-      "PowerIndex": 5574,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 90,
+      "PowerIndex": 5582,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 89,
       "StaticIndex": 1071,
       "NGroupMembership": [
         22
@@ -30707,9 +30297,9 @@
     },
     {
       "CastTimeReal": 2.33,
-      "PowerIndex": 5575,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 91,
+      "PowerIndex": 5583,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 90,
       "StaticIndex": 9541,
       "NGroupMembership": [
         22
@@ -30825,10 +30415,10 @@
     },
     {
       "ToggleCost": 0.2925,
-      "LocationIndex": 2,
-      "PowerIndex": 5576,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 92,
+      "LocationIndex": 10,
+      "PowerIndex": 5584,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 91,
       "StaticIndex": 1072,
       "NGroupMembership": [
         18,
@@ -31127,15 +30717,15 @@
       "FullSetName": "Inherent.Inherent",
       "Slottable": true,
       "AoEModifier": 1.0,
-      "DisplayLocation": 2,
+      "DisplayLocation": 10,
       "Taken": true
     },
     {
       "ToggleCost": 0.2925,
-      "LocationIndex": 8,
-      "PowerIndex": 5577,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 93,
+      "LocationIndex": 11,
+      "PowerIndex": 5585,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 92,
       "StaticIndex": 1073,
       "NGroupMembership": [
         18,
@@ -31376,14 +30966,14 @@
       "FullSetName": "Inherent.Inherent",
       "Slottable": true,
       "AoEModifier": 1.0,
-      "DisplayLocation": 8,
+      "DisplayLocation": 11,
       "Taken": true
     },
     {
       "CastTimeReal": 2.33,
-      "PowerIndex": 5578,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 94,
+      "PowerIndex": 5586,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 93,
       "StaticIndex": 1074,
       "NGroupMembership": [
         3
@@ -31499,9 +31089,9 @@
     },
     {
       "CastTimeReal": 2.33,
-      "PowerIndex": 5579,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 95,
+      "PowerIndex": 5587,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 94,
       "StaticIndex": 9545,
       "NGroupMembership": [
         22
@@ -31617,10 +31207,10 @@
     },
     {
       "ToggleCost": 0.2925,
-      "LocationIndex": 14,
-      "PowerIndex": 5580,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 96,
+      "LocationIndex": 12,
+      "PowerIndex": 5588,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 95,
       "StaticIndex": 1075,
       "NGroupMembership": [
         18,
@@ -31861,15 +31451,15 @@
       "FullSetName": "Inherent.Inherent",
       "Slottable": true,
       "AoEModifier": 1.0,
-      "DisplayLocation": 14,
+      "DisplayLocation": 12,
       "Taken": true
     },
     {
       "ToggleCost": 0.2925,
-      "LocationIndex": 11,
-      "PowerIndex": 5581,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 97,
+      "LocationIndex": 13,
+      "PowerIndex": 5589,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 96,
       "StaticIndex": 1076,
       "NGroupMembership": [
         18,
@@ -32110,14 +31700,14 @@
       "FullSetName": "Inherent.Inherent",
       "Slottable": true,
       "AoEModifier": 1.0,
-      "DisplayLocation": 11,
+      "DisplayLocation": 13,
       "Taken": true
     },
     {
       "CastTimeReal": 1.17,
-      "PowerIndex": 5582,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 98,
+      "PowerIndex": 5590,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 97,
       "StaticIndex": 4403,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.prestige_InspirationGrant",
@@ -32229,7 +31819,7 @@
           "nID": 1,
           "EffectType": 12,
           "Summon": "Temporary_Powers.SilentPowers.Inner_Inspiration_Lock",
-          "nSummon": 9229,
+          "nSummon": 9244,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
@@ -32277,9 +31867,9 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5583,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 99,
+      "PowerIndex": 5591,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 98,
       "StaticIndex": 1077,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.prestige_Iron_Man",
@@ -32438,9 +32028,9 @@
     },
     {
       "ToggleCost": 0.039,
-      "PowerIndex": 5584,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 100,
+      "PowerIndex": 5592,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 99,
       "StaticIndex": 1078,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.prestige_Jump_Pack_Temp",
@@ -32728,9 +32318,9 @@
     {
       "CastTimeReal": 2.33,
       "IsEpic": true,
-      "PowerIndex": 5585,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 101,
+      "PowerIndex": 5593,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 100,
       "StaticIndex": 6148,
       "NGroupMembership": [
         3
@@ -32747,7 +32337,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            5585,
+            5593,
             -1
           ]
         ],
@@ -32858,9 +32448,9 @@
     {
       "CastTimeReal": 2.33,
       "IsEpic": true,
-      "PowerIndex": 5586,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 102,
+      "PowerIndex": 5594,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 101,
       "StaticIndex": 9540,
       "NGroupMembership": [
         22
@@ -32877,7 +32467,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            5587,
+            5595,
             -1
           ]
         ],
@@ -32987,9 +32577,9 @@
     {
       "CastTimeReal": 2.33,
       "IsEpic": true,
-      "PowerIndex": 5587,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 103,
+      "PowerIndex": 5595,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 102,
       "StaticIndex": 6150,
       "NGroupMembership": [
         22
@@ -33006,7 +32596,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            5587,
+            5595,
             -1
           ]
         ],
@@ -33115,9 +32705,9 @@
     },
     {
       "CastTimeReal": 2.33,
-      "PowerIndex": 5588,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 104,
+      "PowerIndex": 5596,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 103,
       "StaticIndex": 1079,
       "NGroupMembership": [
         22
@@ -33233,9 +32823,9 @@
     },
     {
       "CastTimeReal": 2.33,
-      "PowerIndex": 5589,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 105,
+      "PowerIndex": 5597,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 104,
       "StaticIndex": 9542,
       "NGroupMembership": [
         22
@@ -33351,9 +32941,9 @@
     },
     {
       "CastTimeReal": 2.33,
-      "PowerIndex": 5590,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 106,
+      "PowerIndex": 5598,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 105,
       "StaticIndex": 9543,
       "NGroupMembership": [
         22
@@ -33470,9 +33060,9 @@
     {
       "CastTimeReal": 2.5,
       "ToggleCost": 10.66,
-      "PowerIndex": 5591,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 107,
+      "PowerIndex": 5599,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 106,
       "StaticIndex": 1080,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.prestige_Permanent_Blackwand",
@@ -33708,9 +33298,9 @@
     {
       "CastTimeReal": 2.5,
       "ToggleCost": 10.66,
-      "PowerIndex": 5592,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 108,
+      "PowerIndex": 5600,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 107,
       "StaticIndex": 3271,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.prestige_Permanent_Blackwand_54",
@@ -33888,9 +33478,9 @@
     {
       "CastTimeReal": 2.5,
       "ToggleCost": 10.66,
-      "PowerIndex": 5593,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 109,
+      "PowerIndex": 5601,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 108,
       "StaticIndex": 1081,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.prestige_Permanent_Nemesis_Staff",
@@ -34183,9 +33773,9 @@
     {
       "CastTimeReal": 2.5,
       "ToggleCost": 10.66,
-      "PowerIndex": 5594,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 110,
+      "PowerIndex": 5602,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 109,
       "StaticIndex": 3272,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.prestige_Permanent_Nemesis_Staff_54",
@@ -34420,9 +34010,9 @@
     {
       "CastTimeReal": 3.07,
       "ToggleCost": 10.66,
-      "PowerIndex": 5595,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 111,
+      "PowerIndex": 5603,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 110,
       "StaticIndex": 1082,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.prestige_Permanent_Sands_of_Mu",
@@ -34668,9 +34258,9 @@
       "CastTimeReal": 10.0,
       "ToggleCost": 10.66,
       "IsEpic": true,
-      "PowerIndex": 5596,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 112,
+      "PowerIndex": 5604,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 111,
       "StaticIndex": 3273,
       "NGroupMembership": [
         15
@@ -34687,7 +34277,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            5596,
+            5604,
             -1
           ]
         ],
@@ -35519,9 +35109,9 @@
     {
       "CastTimeReal": 2.17,
       "ToggleCost": 8.58,
-      "PowerIndex": 5597,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 113,
+      "PowerIndex": 5605,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 112,
       "StaticIndex": 1083,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.prestige_Permanent_Undead_Slaying_Axe",
@@ -35751,9 +35341,9 @@
     },
     {
       "CastTimeReal": 2.33,
-      "PowerIndex": 5598,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 114,
+      "PowerIndex": 5606,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 113,
       "StaticIndex": 1084,
       "NGroupMembership": [
         3
@@ -35872,9 +35462,9 @@
     },
     {
       "CastTimeReal": 2.33,
-      "PowerIndex": 5599,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 115,
+      "PowerIndex": 5607,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 114,
       "StaticIndex": 1085,
       "NGroupMembership": [
         3
@@ -35993,9 +35583,9 @@
     },
     {
       "ToggleCost": 0.2925,
-      "PowerIndex": 5600,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 116,
+      "PowerIndex": 5608,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 115,
       "StaticIndex": 1086,
       "NGroupMembership": [
         18,
@@ -36237,9 +35827,9 @@
     },
     {
       "CastTimeReal": 2.33,
-      "PowerIndex": 5601,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 117,
+      "PowerIndex": 5609,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 116,
       "StaticIndex": 1087,
       "NGroupMembership": [
         22
@@ -36355,9 +35945,9 @@
     },
     {
       "CastTimeReal": 2.33,
-      "PowerIndex": 5602,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 118,
+      "PowerIndex": 5610,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 117,
       "StaticIndex": 1088,
       "NGroupMembership": [
         3
@@ -36476,9 +36066,9 @@
     },
     {
       "CastTimeReal": 1.5,
-      "PowerIndex": 5603,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 119,
+      "PowerIndex": 5611,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 118,
       "StaticIndex": 3509,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.prestige_reveal",
@@ -36585,9 +36175,9 @@
     },
     {
       "CastTimeReal": 2.33,
-      "PowerIndex": 5604,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 120,
+      "PowerIndex": 5612,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 119,
       "StaticIndex": 1089,
       "NGroupMembership": [
         22
@@ -36703,9 +36293,9 @@
     },
     {
       "CastTimeReal": 1.5,
-      "PowerIndex": 5605,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 121,
+      "PowerIndex": 5613,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 120,
       "StaticIndex": 4404,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.prestige_SelfRez",
@@ -37050,7 +36640,7 @@
           "nID": 5,
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.Phenomenal_Luck",
-          "nSummon": 9779,
+          "nSummon": 9795,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
@@ -37103,7 +36693,7 @@
           "nID": 6,
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.Robust",
-          "nSummon": 9860,
+          "nSummon": 9876,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
@@ -37156,7 +36746,7 @@
           "nID": 7,
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.Uncanny_Insight",
-          "nSummon": 9963,
+          "nSummon": 9979,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
@@ -37209,7 +36799,7 @@
           "nID": 8,
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.Righteous_Rage",
-          "nSummon": 9854,
+          "nSummon": 9870,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
@@ -37262,7 +36852,7 @@
           "nID": 9,
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.Escape",
-          "nSummon": 9523,
+          "nSummon": 9539,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
@@ -37311,9 +36901,9 @@
     },
     {
       "CastTimeReal": 2.33,
-      "PowerIndex": 5606,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 122,
+      "PowerIndex": 5614,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 121,
       "StaticIndex": 1090,
       "NGroupMembership": [
         3
@@ -37432,9 +37022,9 @@
     },
     {
       "CastTimeReal": 2.33,
-      "PowerIndex": 5607,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 123,
+      "PowerIndex": 5615,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 122,
       "StaticIndex": 1091,
       "NGroupMembership": [
         3
@@ -37554,9 +37144,9 @@
     {
       "CastTimeReal": 2.33,
       "IsEpic": true,
-      "PowerIndex": 5608,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 124,
+      "PowerIndex": 5616,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 123,
       "StaticIndex": 8964,
       "NGroupMembership": [
         22
@@ -37573,7 +37163,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            5608,
+            5616,
             -1
           ]
         ],
@@ -37683,9 +37273,9 @@
     {
       "CastTimeReal": 5.93,
       "ToggleCost": 26.0,
-      "PowerIndex": 5609,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 125,
+      "PowerIndex": 5617,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 124,
       "StaticIndex": 1092,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.prestige_Team_Recall",
@@ -37854,9 +37444,9 @@
     },
     {
       "CastTimeReal": 2.33,
-      "PowerIndex": 5610,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 126,
+      "PowerIndex": 5618,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 125,
       "StaticIndex": 9539,
       "NGroupMembership": [
         22
@@ -37973,9 +37563,9 @@
     {
       "CastTimeReal": 2.33,
       "IsEpic": true,
-      "PowerIndex": 5611,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 127,
+      "PowerIndex": 5619,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 126,
       "StaticIndex": 6151,
       "NGroupMembership": [
         22
@@ -37992,7 +37582,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            5611,
+            5619,
             -1
           ]
         ],
@@ -38101,9 +37691,9 @@
     },
     {
       "CastTimeReal": 2.33,
-      "PowerIndex": 5612,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 128,
+      "PowerIndex": 5620,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 127,
       "StaticIndex": 5574,
       "NGroupMembership": [
         22
@@ -38218,9 +37808,9 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5613,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 129,
+      "PowerIndex": 5621,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 128,
       "StaticIndex": 8966,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Primal_Energy_Dampen",
@@ -38324,9 +37914,9 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5614,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 130,
+      "PowerIndex": 5622,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 129,
       "StaticIndex": 8967,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Primal_Energy_Meter",
@@ -38429,9 +38019,9 @@
     },
     {
       "CastTimeReal": 1.716,
-      "PowerIndex": 5615,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 131,
+      "PowerIndex": 5623,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 130,
       "StaticIndex": 1093,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Rage",
@@ -38592,9 +38182,9 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5616,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 132,
+      "PowerIndex": 5624,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 131,
       "StaticIndex": 1094,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Rage_Buff",
@@ -39178,9 +38768,9 @@
       "Taken": true
     },
     {
-      "PowerIndex": 5617,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 133,
+      "PowerIndex": 5625,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 132,
       "StaticIndex": 1095,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Rage_Dampen",
@@ -39345,9 +38935,9 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5618,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 134,
+      "PowerIndex": 5626,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 133,
       "StaticIndex": 1096,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Rage_Strengthen",
@@ -39518,9 +39108,9 @@
     },
     {
       "CastTimeReal": 1.5,
-      "PowerIndex": 5619,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 135,
+      "PowerIndex": 5627,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 134,
       "StaticIndex": 4521,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Renewal_of_Light",
@@ -39918,9 +39508,9 @@
     },
     {
       "CastTimeReal": 1.716,
-      "PowerIndex": 5620,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 136,
+      "PowerIndex": 5628,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 135,
       "StaticIndex": 1097,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Scourge",
@@ -39964,6 +39554,7 @@
       "VariableEnabled": true,
       "VariableName": "HP %",
       "VariableMax": 100,
+      "VariableStart": 100,
       "NIDSubPower": [],
       "UIDSubPower": [],
       "IgnoreEnh": [],
@@ -40027,7 +39618,6 @@
           "Mag": -0.025,
           "MagPercent": -2.5,
           "DisplayPercentage": true,
-          "VariableModified": true,
           "BaseProbability": 1.0,
           "IgnoreED": true,
           "Reward": "ScourgeProc",
@@ -40123,14 +39713,15 @@
       "CastTime": 1.716,
       "AoEModifier": 1.0,
       "Active": true,
-      "Taken": true
+      "Taken": true,
+      "Stacks": 100
     },
     {
       "CastTimeReal": 0.67,
       "IsEpic": true,
-      "PowerIndex": 5621,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 137,
+      "PowerIndex": 5629,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 136,
       "StaticIndex": 4186,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Secondary_Mutation",
@@ -40145,7 +39736,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            5621,
+            5629,
             -1
           ]
         ],
@@ -40250,9 +39841,9 @@
       "CastTimeReal": 5.0,
       "ToggleCost": 15.6,
       "IsEpic": true,
-      "PowerIndex": 5622,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 138,
+      "PowerIndex": 5630,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 137,
       "StaticIndex": 3510,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Shadowy_Presence",
@@ -40267,7 +39858,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            5622,
+            5630,
             -1
           ]
         ],
@@ -40488,10 +40079,10 @@
     {
       "CastTimeReal": 1.67,
       "ToggleCost": 13.0,
-      "LocationIndex": 6,
-      "PowerIndex": 5623,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 139,
+      "LocationIndex": 8,
+      "PowerIndex": 5631,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 138,
       "StaticIndex": 1098,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Shadow_Step",
@@ -40901,13 +40492,14 @@
       "CastTime": 1.67,
       "Slottable": true,
       "AoEModifier": 1.0,
-      "DisplayLocation": 6
+      "DisplayLocation": 8,
+      "Taken": true
     },
     {
       "CastTimeReal": 3.33,
-      "PowerIndex": 5624,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 140,
+      "PowerIndex": 5632,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 139,
       "StaticIndex": 4522,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.SnowBall",
@@ -41020,17 +40612,16 @@
       "AoEModifier": 1.0
     },
     {
-      "LocationIndex": 3,
-      "PowerIndex": 5625,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 141,
+      "PowerIndex": 5633,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 140,
       "StaticIndex": 1099,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Spider_Conditioning",
       "GroupName": "Inherent",
       "SetName": "Inherent",
       "PowerName": "Spider_Conditioning",
-      "DisplayName": "Conditioning",
+      "DisplayName": "Conditioning | Hidden",
       "Requires": {
         "ClassName": [
           "Class_Arachnos_Soldier"
@@ -41061,7 +40652,7 @@
       "Enhancements": [],
       "IgnoreStrength": true,
       "DescShort": "Self +Regen, +Recovery",
-      "DescLong": "Soldiers of Arachnos undergo intense physical training before leaving \"\"boot camp.\"\"  Those that survive have greater than average healing rates and tire less quickly than others.",
+      "DescLong": "HIDDEN:  Arachnos' melee attacks are able to hit for critical damage when hidden.                                                                                                                                     CONDITIONING INHERENT: Soldiers of Arachnos undergo intense physical training before leaving \"\"boot camp.\"\"  Those that survive have greater than average healing rates and tire less quickly than others.                                                           NOTE: This grants you a 5% higher base recovery and a 20% higher base regeneration.",
       "SetTypes": [],
       "Level": 1,
       "VariableName": "",
@@ -41128,127 +40719,20 @@
           "AtrModSecondaryRange": -1.0,
           "ActiveConditionals": [],
           "nOverride": -1
-        },
-        {
-          "MagnitudeExpression": "",
-          "Probability": 1.0,
-          "Mag": 0.0008674265,
-          "MagPercent": 0.0867426544,
-          "DisplayPercentage": true,
-          "BaseProbability": 1.0,
-          "IgnoreED": true,
-          "Reward": "",
-          "EffectId": "Regeneration",
-          "Special": "",
-          "nID": 1,
-          "EffectType": 27,
-          "Summon": "",
-          "nSummon": -1,
-          "UIDClassName": "",
-          "nIDClassName": -1,
-          "ToWho": 2,
-          "Scale": 0.004,
-          "nMagnitude": 0.0018,
-          "Aspect": 3,
-          "ModifierTable": "Melee_HealSelf",
-          "nModifierTable": 4,
-          "PowerFullName": "",
-          "Absorbed_PowerType": 1,
-          "Absorbed_Power_nID": -1,
-          "Absorbed_Class_nID": -1,
-          "Absorbed_EffectID": -1,
-          "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
-          "nOverride": -1
-        },
-        {
-          "MagnitudeExpression": "",
-          "Probability": 1.0,
-          "Mag": 0.00192761433,
-          "MagPercent": 0.192761436,
-          "DisplayPercentage": true,
-          "BaseProbability": 1.0,
-          "Reward": "",
-          "EffectId": "Recovery",
-          "Special": "",
-          "nID": 2,
-          "EffectClass": 1,
-          "EffectType": 26,
-          "Summon": "",
-          "nSummon": -1,
-          "UIDClassName": "",
-          "nIDClassName": -1,
-          "ToWho": 2,
-          "Scale": 0.01,
-          "nMagnitude": 0.0016,
-          "Aspect": 3,
-          "ModifierTable": "Melee_HealSelf",
-          "nModifierTable": 4,
-          "PowerFullName": "",
-          "Absorbed_PowerType": 1,
-          "Absorbed_Power_nID": -1,
-          "Absorbed_Class_nID": -1,
-          "Absorbed_EffectID": -1,
-          "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
-          "nOverride": -1
         }
       ],
       "FullSetName": "Inherent.Inherent",
       "AoEModifier": 1.0,
-      "DisplayLocation": 3
+      "Active": true,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.37,
       "ToggleCost": 9.75,
       "IsEpic": true,
-      "PowerIndex": 5626,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 142,
+      "PowerIndex": 5634,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 141,
       "StaticIndex": 8965,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Spider_Pet_Web_Grenade",
@@ -41263,7 +40747,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            5608,
+            5616,
             -1
           ]
         ],
@@ -41312,9 +40796,9 @@
     {
       "ToggleCost": 0.2925,
       "LocationIndex": 2,
-      "PowerIndex": 5627,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 143,
+      "PowerIndex": 5635,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 142,
       "StaticIndex": 1100,
       "NGroupMembership": [
         18,
@@ -41556,13 +41040,14 @@
       "Slottable": true,
       "AoEModifier": 1.0,
       "DisplayLocation": 2,
+      "Active": true,
       "Taken": true
     },
     {
       "CastTimeReal": 1.716,
-      "PowerIndex": 5628,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 144,
+      "PowerIndex": 5636,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 143,
       "StaticIndex": 1101,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Supremacy",
@@ -42246,9 +41731,9 @@
     },
     {
       "ToggleCost": 0.195,
-      "PowerIndex": 5629,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 145,
+      "PowerIndex": 5637,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 144,
       "StaticIndex": 3260,
       "NGroupMembership": [
         6
@@ -42834,9 +42319,9 @@
     {
       "CastTimeReal": 2.03,
       "IsEpic": true,
-      "PowerIndex": 5630,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 146,
+      "PowerIndex": 5638,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 145,
       "StaticIndex": 4523,
       "NGroupMembership": [
         22
@@ -42853,7 +42338,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            5630,
+            5638,
             -1
           ]
         ],
@@ -42961,9 +42446,9 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5631,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 147,
+      "PowerIndex": 5639,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 146,
       "StaticIndex": 1102,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Vigilance",
@@ -43045,28 +42530,12 @@
           "Absorbed_EffectID": -1,
           "UniqueID": 1,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
           "ActiveConditionals": [],
           "nOverride": -1
         },
@@ -43100,30 +42569,14 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 2,
+          "UniqueID": 1,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
           "ActiveConditionals": [],
           "nOverride": -1
         },
@@ -43157,30 +42610,14 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 3,
+          "UniqueID": 1,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
           "ActiveConditionals": [],
           "nOverride": -1
         },
@@ -43214,30 +42651,14 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 4,
+          "UniqueID": 1,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
           "ActiveConditionals": [],
           "nOverride": -1
         },
@@ -43271,30 +42692,14 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 5,
+          "UniqueID": 1,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
           "ActiveConditionals": [],
           "nOverride": -1
         },
@@ -43328,30 +42733,14 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 6,
+          "UniqueID": 1,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
           "ActiveConditionals": [],
           "nOverride": -1
         },
@@ -43385,30 +42774,14 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 7,
+          "UniqueID": 1,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
           "ActiveConditionals": [],
           "nOverride": -1
         },
@@ -43442,30 +42815,14 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 8,
+          "UniqueID": 1,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
           "ActiveConditionals": [],
           "nOverride": -1
         },
@@ -43485,7 +42842,6 @@
           "DamageType": 1,
           "Summon": "",
           "nSummon": -1,
-          "SpecialCase": 39,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
@@ -43500,31 +42856,20 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 9,
+          "UniqueID": 10,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
+          "ActiveConditionals": [
+            {
+              "Key": "Team:Any",
+              "Value": "= 1"
+            }
+          ],
           "nOverride": -1
         },
         {
@@ -43543,7 +42888,6 @@
           "DamageType": 2,
           "Summon": "",
           "nSummon": -1,
-          "SpecialCase": 39,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
@@ -43560,29 +42904,18 @@
           "Absorbed_EffectID": -1,
           "UniqueID": 10,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
+          "ActiveConditionals": [
+            {
+              "Key": "Team:Any",
+              "Value": "= 1"
+            }
+          ],
           "nOverride": -1
         },
         {
@@ -43601,7 +42934,6 @@
           "DamageType": 3,
           "Summon": "",
           "nSummon": -1,
-          "SpecialCase": 39,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
@@ -43616,31 +42948,20 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 11,
+          "UniqueID": 10,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
+          "ActiveConditionals": [
+            {
+              "Key": "Team:Any",
+              "Value": "= 1"
+            }
+          ],
           "nOverride": -1
         },
         {
@@ -43659,7 +42980,6 @@
           "DamageType": 4,
           "Summon": "",
           "nSummon": -1,
-          "SpecialCase": 39,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
@@ -43674,31 +42994,20 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 12,
+          "UniqueID": 10,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
+          "ActiveConditionals": [
+            {
+              "Key": "Team:Any",
+              "Value": "= 1"
+            }
+          ],
           "nOverride": -1
         },
         {
@@ -43717,7 +43026,6 @@
           "DamageType": 5,
           "Summon": "",
           "nSummon": -1,
-          "SpecialCase": 39,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
@@ -43732,31 +43040,20 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 13,
+          "UniqueID": 10,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
+          "ActiveConditionals": [
+            {
+              "Key": "Team:Any",
+              "Value": "= 1"
+            }
+          ],
           "nOverride": -1
         },
         {
@@ -43775,7 +43072,6 @@
           "DamageType": 6,
           "Summon": "",
           "nSummon": -1,
-          "SpecialCase": 39,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
@@ -43790,31 +43086,20 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 14,
+          "UniqueID": 10,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
+          "ActiveConditionals": [
+            {
+              "Key": "Team:Any",
+              "Value": "= 1"
+            }
+          ],
           "nOverride": -1
         },
         {
@@ -43833,7 +43118,6 @@
           "DamageType": 7,
           "Summon": "",
           "nSummon": -1,
-          "SpecialCase": 39,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
@@ -43848,31 +43132,20 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 15,
+          "UniqueID": 10,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
+          "ActiveConditionals": [
+            {
+              "Key": "Team:Any",
+              "Value": "= 1"
+            }
+          ],
           "nOverride": -1
         },
         {
@@ -43891,7 +43164,6 @@
           "DamageType": 8,
           "Summon": "",
           "nSummon": -1,
-          "SpecialCase": 39,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
@@ -43906,38 +43178,27 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 16,
+          "UniqueID": 10,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
+          "ActiveConditionals": [
+            {
+              "Key": "Team:Any",
+              "Value": "= 1"
+            }
+          ],
           "nOverride": -1
         },
         {
           "MagnitudeExpression": "",
           "Probability": 1.0,
-          "Mag": -0.1,
-          "MagPercent": -10.0,
+          "Mag": -0.2,
+          "MagPercent": -20.0,
           "Duration": 1.25,
           "DisplayPercentage": true,
           "BaseProbability": 1.0,
@@ -43949,11 +43210,10 @@
           "DamageType": 1,
           "Summon": "",
           "nSummon": -1,
-          "SpecialCase": 40,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
-          "Scale": -0.1,
+          "Scale": -0.2,
           "nMagnitude": 1.0,
           "nDuration": 1.25,
           "Aspect": 3,
@@ -43966,36 +43226,25 @@
           "Absorbed_EffectID": -1,
           "UniqueID": 17,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
+          "ActiveConditionals": [
+            {
+              "Key": "Team:Any",
+              "Value": "= 2"
+            }
+          ],
           "nOverride": -1
         },
         {
           "MagnitudeExpression": "",
           "Probability": 1.0,
-          "Mag": -0.1,
-          "MagPercent": -10.0,
+          "Mag": -0.2,
+          "MagPercent": -20.0,
           "Duration": 1.25,
           "DisplayPercentage": true,
           "BaseProbability": 1.0,
@@ -44007,11 +43256,10 @@
           "DamageType": 2,
           "Summon": "",
           "nSummon": -1,
-          "SpecialCase": 40,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
-          "Scale": -0.1,
+          "Scale": -0.2,
           "nMagnitude": 1.0,
           "nDuration": 1.25,
           "Aspect": 3,
@@ -44022,38 +43270,27 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 18,
+          "UniqueID": 17,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
+          "ActiveConditionals": [
+            {
+              "Key": "Team:Any",
+              "Value": "= 2"
+            }
+          ],
           "nOverride": -1
         },
         {
           "MagnitudeExpression": "",
           "Probability": 1.0,
-          "Mag": -0.1,
-          "MagPercent": -10.0,
+          "Mag": -0.2,
+          "MagPercent": -20.0,
           "Duration": 1.25,
           "DisplayPercentage": true,
           "BaseProbability": 1.0,
@@ -44065,11 +43302,10 @@
           "DamageType": 3,
           "Summon": "",
           "nSummon": -1,
-          "SpecialCase": 40,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
-          "Scale": -0.1,
+          "Scale": -0.2,
           "nMagnitude": 1.0,
           "nDuration": 1.25,
           "Aspect": 3,
@@ -44080,38 +43316,27 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 19,
+          "UniqueID": 17,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
+          "ActiveConditionals": [
+            {
+              "Key": "Team:Any",
+              "Value": "= 2"
+            }
+          ],
           "nOverride": -1
         },
         {
           "MagnitudeExpression": "",
           "Probability": 1.0,
-          "Mag": -0.1,
-          "MagPercent": -10.0,
+          "Mag": -0.2,
+          "MagPercent": -20.0,
           "Duration": 1.25,
           "DisplayPercentage": true,
           "BaseProbability": 1.0,
@@ -44123,11 +43348,10 @@
           "DamageType": 4,
           "Summon": "",
           "nSummon": -1,
-          "SpecialCase": 40,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
-          "Scale": -0.1,
+          "Scale": -0.2,
           "nMagnitude": 1.0,
           "nDuration": 1.25,
           "Aspect": 3,
@@ -44138,38 +43362,27 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 20,
+          "UniqueID": 17,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
+          "ActiveConditionals": [
+            {
+              "Key": "Team:Any",
+              "Value": "= 2"
+            }
+          ],
           "nOverride": -1
         },
         {
           "MagnitudeExpression": "",
           "Probability": 1.0,
-          "Mag": -0.1,
-          "MagPercent": -10.0,
+          "Mag": -0.2,
+          "MagPercent": -20.0,
           "Duration": 1.25,
           "DisplayPercentage": true,
           "BaseProbability": 1.0,
@@ -44181,11 +43394,10 @@
           "DamageType": 5,
           "Summon": "",
           "nSummon": -1,
-          "SpecialCase": 40,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
-          "Scale": -0.1,
+          "Scale": -0.2,
           "nMagnitude": 1.0,
           "nDuration": 1.25,
           "Aspect": 3,
@@ -44196,38 +43408,27 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 21,
+          "UniqueID": 17,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
+          "ActiveConditionals": [
+            {
+              "Key": "Team:Any",
+              "Value": "= 2"
+            }
+          ],
           "nOverride": -1
         },
         {
           "MagnitudeExpression": "",
           "Probability": 1.0,
-          "Mag": -0.1,
-          "MagPercent": -10.0,
+          "Mag": -0.2,
+          "MagPercent": -20.0,
           "Duration": 1.25,
           "DisplayPercentage": true,
           "BaseProbability": 1.0,
@@ -44239,11 +43440,10 @@
           "DamageType": 6,
           "Summon": "",
           "nSummon": -1,
-          "SpecialCase": 40,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
-          "Scale": -0.1,
+          "Scale": -0.2,
           "nMagnitude": 1.0,
           "nDuration": 1.25,
           "Aspect": 3,
@@ -44254,38 +43454,27 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 22,
+          "UniqueID": 17,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
+          "ActiveConditionals": [
+            {
+              "Key": "Team:Any",
+              "Value": "= 2"
+            }
+          ],
           "nOverride": -1
         },
         {
           "MagnitudeExpression": "",
           "Probability": 1.0,
-          "Mag": -0.1,
-          "MagPercent": -10.0,
+          "Mag": -0.2,
+          "MagPercent": -20.0,
           "Duration": 1.25,
           "DisplayPercentage": true,
           "BaseProbability": 1.0,
@@ -44297,11 +43486,10 @@
           "DamageType": 7,
           "Summon": "",
           "nSummon": -1,
-          "SpecialCase": 40,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
-          "Scale": -0.1,
+          "Scale": -0.2,
           "nMagnitude": 1.0,
           "nDuration": 1.25,
           "Aspect": 3,
@@ -44312,38 +43500,27 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 23,
+          "UniqueID": 17,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
+          "ActiveConditionals": [
+            {
+              "Key": "Team:Any",
+              "Value": "= 2"
+            }
+          ],
           "nOverride": -1
         },
         {
           "MagnitudeExpression": "",
           "Probability": 1.0,
-          "Mag": -0.1,
-          "MagPercent": -10.0,
+          "Mag": -0.2,
+          "MagPercent": -20.0,
           "Duration": 1.25,
           "DisplayPercentage": true,
           "BaseProbability": 1.0,
@@ -44355,11 +43532,10 @@
           "DamageType": 8,
           "Summon": "",
           "nSummon": -1,
-          "SpecialCase": 40,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
-          "Scale": -0.1,
+          "Scale": -0.2,
           "nMagnitude": 1.0,
           "nDuration": 1.25,
           "Aspect": 3,
@@ -44370,38 +43546,27 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 24,
+          "UniqueID": 17,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
+          "ActiveConditionals": [
+            {
+              "Key": "Team:Any",
+              "Value": "= 2"
+            }
+          ],
           "nOverride": -1
         },
         {
           "MagnitudeExpression": "",
           "Probability": 1.0,
-          "Mag": -0.1,
-          "MagPercent": -10.0,
+          "Mag": -0.3,
+          "MagPercent": -30.0000019,
           "Duration": 1.25,
           "DisplayPercentage": true,
           "BaseProbability": 1.0,
@@ -44413,11 +43578,10 @@
           "DamageType": 1,
           "Summon": "",
           "nSummon": -1,
-          "SpecialCase": 41,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
-          "Scale": -0.1,
+          "Scale": -0.3,
           "nMagnitude": 1.0,
           "nDuration": 1.25,
           "Aspect": 3,
@@ -44428,38 +43592,27 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 25,
+          "UniqueID": 2,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
+          "ActiveConditionals": [
+            {
+              "Key": "Team:Any",
+              "Value": "> 2"
+            }
+          ],
           "nOverride": -1
         },
         {
           "MagnitudeExpression": "",
           "Probability": 1.0,
-          "Mag": -0.1,
-          "MagPercent": -10.0,
+          "Mag": -0.3,
+          "MagPercent": -30.0000019,
           "Duration": 1.25,
           "DisplayPercentage": true,
           "BaseProbability": 1.0,
@@ -44471,11 +43624,10 @@
           "DamageType": 2,
           "Summon": "",
           "nSummon": -1,
-          "SpecialCase": 41,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
-          "Scale": -0.1,
+          "Scale": -0.3,
           "nMagnitude": 1.0,
           "nDuration": 1.25,
           "Aspect": 3,
@@ -44486,38 +43638,27 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 26,
+          "UniqueID": 2,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
+          "ActiveConditionals": [
+            {
+              "Key": "Team:Any",
+              "Value": "> 2"
+            }
+          ],
           "nOverride": -1
         },
         {
           "MagnitudeExpression": "",
           "Probability": 1.0,
-          "Mag": -0.1,
-          "MagPercent": -10.0,
+          "Mag": -0.3,
+          "MagPercent": -30.0000019,
           "Duration": 1.25,
           "DisplayPercentage": true,
           "BaseProbability": 1.0,
@@ -44529,11 +43670,10 @@
           "DamageType": 3,
           "Summon": "",
           "nSummon": -1,
-          "SpecialCase": 41,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
-          "Scale": -0.1,
+          "Scale": -0.3,
           "nMagnitude": 1.0,
           "nDuration": 1.25,
           "Aspect": 3,
@@ -44544,38 +43684,27 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 27,
+          "UniqueID": 2,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
+          "ActiveConditionals": [
+            {
+              "Key": "Team:Any",
+              "Value": "> 2"
+            }
+          ],
           "nOverride": -1
         },
         {
           "MagnitudeExpression": "",
           "Probability": 1.0,
-          "Mag": -0.1,
-          "MagPercent": -10.0,
+          "Mag": -0.3,
+          "MagPercent": -30.0000019,
           "Duration": 1.25,
           "DisplayPercentage": true,
           "BaseProbability": 1.0,
@@ -44587,11 +43716,10 @@
           "DamageType": 4,
           "Summon": "",
           "nSummon": -1,
-          "SpecialCase": 41,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
-          "Scale": -0.1,
+          "Scale": -0.3,
           "nMagnitude": 1.0,
           "nDuration": 1.25,
           "Aspect": 3,
@@ -44602,38 +43730,27 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 28,
+          "UniqueID": 2,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
+          "ActiveConditionals": [
+            {
+              "Key": "Team:Any",
+              "Value": "> 2"
+            }
+          ],
           "nOverride": -1
         },
         {
           "MagnitudeExpression": "",
           "Probability": 1.0,
-          "Mag": -0.1,
-          "MagPercent": -10.0,
+          "Mag": -0.3,
+          "MagPercent": -30.0000019,
           "Duration": 1.25,
           "DisplayPercentage": true,
           "BaseProbability": 1.0,
@@ -44645,11 +43762,10 @@
           "DamageType": 5,
           "Summon": "",
           "nSummon": -1,
-          "SpecialCase": 41,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
-          "Scale": -0.1,
+          "Scale": -0.3,
           "nMagnitude": 1.0,
           "nDuration": 1.25,
           "Aspect": 3,
@@ -44660,38 +43776,27 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 29,
+          "UniqueID": 2,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
+          "ActiveConditionals": [
+            {
+              "Key": "Team:Any",
+              "Value": "> 2"
+            }
+          ],
           "nOverride": -1
         },
         {
           "MagnitudeExpression": "",
           "Probability": 1.0,
-          "Mag": -0.1,
-          "MagPercent": -10.0,
+          "Mag": -0.3,
+          "MagPercent": -30.0000019,
           "Duration": 1.25,
           "DisplayPercentage": true,
           "BaseProbability": 1.0,
@@ -44703,11 +43808,10 @@
           "DamageType": 6,
           "Summon": "",
           "nSummon": -1,
-          "SpecialCase": 41,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
-          "Scale": -0.1,
+          "Scale": -0.3,
           "nMagnitude": 1.0,
           "nDuration": 1.25,
           "Aspect": 3,
@@ -44718,38 +43822,27 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 30,
+          "UniqueID": 2,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
+          "ActiveConditionals": [
+            {
+              "Key": "Team:Any",
+              "Value": "> 2"
+            }
+          ],
           "nOverride": -1
         },
         {
           "MagnitudeExpression": "",
           "Probability": 1.0,
-          "Mag": -0.1,
-          "MagPercent": -10.0,
+          "Mag": -0.3,
+          "MagPercent": -30.0000019,
           "Duration": 1.25,
           "DisplayPercentage": true,
           "BaseProbability": 1.0,
@@ -44761,11 +43854,10 @@
           "DamageType": 7,
           "Summon": "",
           "nSummon": -1,
-          "SpecialCase": 41,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
-          "Scale": -0.1,
+          "Scale": -0.3,
           "nMagnitude": 1.0,
           "nDuration": 1.25,
           "Aspect": 3,
@@ -44776,38 +43868,27 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 31,
+          "UniqueID": 2,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
+          "ActiveConditionals": [
+            {
+              "Key": "Team:Any",
+              "Value": "> 2"
+            }
+          ],
           "nOverride": -1
         },
         {
           "MagnitudeExpression": "",
           "Probability": 1.0,
-          "Mag": -0.1,
-          "MagPercent": -10.0,
+          "Mag": -0.3,
+          "MagPercent": -30.0000019,
           "Duration": 1.25,
           "DisplayPercentage": true,
           "BaseProbability": 1.0,
@@ -44819,11 +43900,10 @@
           "DamageType": 8,
           "Summon": "",
           "nSummon": -1,
-          "SpecialCase": 41,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
-          "Scale": -0.1,
+          "Scale": -0.3,
           "nMagnitude": 1.0,
           "nDuration": 1.25,
           "Aspect": 3,
@@ -44834,31 +43914,20 @@
           "Absorbed_Power_nID": -1,
           "Absorbed_Class_nID": -1,
           "Absorbed_EffectID": -1,
-          "UniqueID": 32,
+          "UniqueID": 2,
           "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
+          "AtrOrigAccuracy": 1.0,
+          "AtrOrigActivatePeriod": 1.0,
+          "AtrOrigEffectArea": 1,
+          "AtrModAccuracy": 1.0,
+          "AtrModActivatePeriod": 1.0,
+          "AtrModEffectArea": 1,
+          "ActiveConditionals": [
+            {
+              "Key": "Team:Any",
+              "Value": "> 2"
+            }
+          ],
           "nOverride": -1
         }
       ],
@@ -44868,9 +43937,9 @@
       "Taken": true
     },
     {
-      "PowerIndex": 5632,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 148,
+      "PowerIndex": 5640,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 147,
       "StaticIndex": 4187,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Vigilance_PerTeamDebuffAdjustment",
@@ -44919,9 +43988,9 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5633,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 149,
+      "PowerIndex": 5641,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 148,
       "StaticIndex": 4188,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Vigilance_PerTeamEndAdjustment",
@@ -45032,9 +44101,9 @@
       "AoEModifier": 46.0
     },
     {
-      "PowerIndex": 5634,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 150,
+      "PowerIndex": 5642,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 149,
       "StaticIndex": 4405,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Vision_Phase",
@@ -46483,16 +45552,16 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5635,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 151,
+      "PowerIndex": 5643,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 150,
       "StaticIndex": 1103,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Widow_Conditioning",
       "GroupName": "Inherent",
       "SetName": "Inherent",
       "PowerName": "Widow_Conditioning",
-      "DisplayName": "Conditioning",
+      "DisplayName": "Conditioning | Hidden",
       "Requires": {
         "ClassName": [
           "Class_Arachnos_Widow"
@@ -46523,7 +45592,7 @@
       "Enhancements": [],
       "IgnoreStrength": true,
       "DescShort": "Self +Regen, +Recovery",
-      "DescLong": "Soldiers of Arachnos undergo intense physical training before leaving \"\"boot camp.\"\"  Those that survive have greater than average healing rates and tire less quickly than others.",
+      "DescLong": "HIDDEN:  Arachnos' melee attacks are able to hit for critical damage when hidden.                                                                                                                                     CONDITIONING INHERENT: Soldiers of Arachnos undergo intense physical training before leaving \"\"boot camp.\"\"  Those that survive have greater than average healing rates and tire less quickly than others.                                                           NOTE: This grants you a 5% higher base recovery and a 20% higher base regeneration.",
       "SetTypes": [],
       "Level": 1,
       "VariableName": "",
@@ -46590,114 +45659,6 @@
           "AtrModSecondaryRange": -1.0,
           "ActiveConditionals": [],
           "nOverride": -1
-        },
-        {
-          "MagnitudeExpression": "",
-          "Probability": 1.0,
-          "Mag": 0.000927664456,
-          "MagPercent": 0.09276645,
-          "DisplayPercentage": true,
-          "BaseProbability": 1.0,
-          "IgnoreED": true,
-          "Reward": "",
-          "EffectId": "Regeneration",
-          "Special": "",
-          "nID": 1,
-          "EffectType": 27,
-          "Summon": "",
-          "nSummon": -1,
-          "UIDClassName": "",
-          "nIDClassName": -1,
-          "ToWho": 2,
-          "Scale": 0.007,
-          "nMagnitude": 0.0011,
-          "Aspect": 3,
-          "ModifierTable": "Melee_HealSelf",
-          "nModifierTable": 4,
-          "PowerFullName": "",
-          "Absorbed_PowerType": 1,
-          "Absorbed_Power_nID": -1,
-          "Absorbed_Class_nID": -1,
-          "Absorbed_EffectID": -1,
-          "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
-          "nOverride": -1
-        },
-        {
-          "MagnitudeExpression": "",
-          "Probability": 1.0,
-          "Mag": 0.00192761456,
-          "MagPercent": 0.192761451,
-          "DisplayPercentage": true,
-          "BaseProbability": 1.0,
-          "Reward": "",
-          "EffectId": "Recovery",
-          "Special": "",
-          "nID": 2,
-          "EffectClass": 1,
-          "EffectType": 26,
-          "Summon": "",
-          "nSummon": -1,
-          "UIDClassName": "",
-          "nIDClassName": -1,
-          "ToWho": 2,
-          "Scale": 0.016,
-          "nMagnitude": 0.001,
-          "Aspect": 3,
-          "ModifierTable": "Melee_HealSelf",
-          "nModifierTable": 4,
-          "PowerFullName": "",
-          "Absorbed_PowerType": 1,
-          "Absorbed_Power_nID": -1,
-          "Absorbed_Class_nID": -1,
-          "Absorbed_EffectID": -1,
-          "Override": "",
-          "AtrOrigAccuracy": -1.0,
-          "AtrOrigActivatePeriod": -1.0,
-          "AtrOrigArc": -1,
-          "AtrOrigCastTime": -1.0,
-          "AtrOrigEnduranceCost": -1.0,
-          "AtrOrigInterruptTime": -1.0,
-          "AtrOrigMaxTargets": -1,
-          "AtrOrigRadius": -1.0,
-          "AtrOrigRange": -1.0,
-          "AtrOrigRechargeTime": -1.0,
-          "AtrOrigSecondaryRange": -1.0,
-          "AtrModAccuracy": -1.0,
-          "AtrModActivatePeriod": -1.0,
-          "AtrModArc": -1,
-          "AtrModCastTime": -1.0,
-          "AtrModEnduranceCost": -1.0,
-          "AtrModInterruptTime": -1.0,
-          "AtrModMaxTargets": -1,
-          "AtrModRadius": -1.0,
-          "AtrModRange": -1.0,
-          "AtrModRechargeTime": -1.0,
-          "AtrModSecondaryRange": -1.0,
-          "ActiveConditionals": [],
-          "nOverride": -1
         }
       ],
       "FullSetName": "Inherent.Inherent",
@@ -46705,9 +45666,9 @@
     },
     {
       "ToggleCost": 0.0195,
-      "PowerIndex": 5636,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 152,
+      "PowerIndex": 5644,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 151,
       "StaticIndex": 5576,
       "NGroupMembership": [
         6,
@@ -47577,9 +46538,9 @@
     },
     {
       "ToggleCost": 0.0195,
-      "PowerIndex": 5637,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 153,
+      "PowerIndex": 5645,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 152,
       "StaticIndex": 6005,
       "NGroupMembership": [
         6,
@@ -48449,9 +47410,9 @@
     },
     {
       "ToggleCost": 0.0195,
-      "PowerIndex": 5638,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 154,
+      "PowerIndex": 5646,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 153,
       "StaticIndex": 9094,
       "NGroupMembership": [
         6,
@@ -49322,9 +48283,9 @@
     {
       "CastTimeReal": 6.0,
       "LocationIndex": 3,
-      "PowerIndex": 5639,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 155,
+      "PowerIndex": 5647,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 154,
       "StaticIndex": 1104,
       "NGroupMembership": [
         14
@@ -50577,9 +49538,9 @@
       "Taken": true
     },
     {
-      "PowerIndex": 5640,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 156,
+      "PowerIndex": 5648,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 155,
       "StaticIndex": 4104,
       "NGroupMembership": [
         10,
@@ -50812,9 +49773,9 @@
     {
       "CastTimeReal": 17.0,
       "ToggleCost": 13.0,
-      "PowerIndex": 5641,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 157,
+      "PowerIndex": 5649,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 156,
       "StaticIndex": 1105,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.prestige_Base_Teleport",
@@ -50993,9 +49954,9 @@
       "CastTimeReal": 17.0,
       "ToggleCost": 13.0,
       "IsEpic": true,
-      "PowerIndex": 5642,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 158,
+      "PowerIndex": 5650,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 157,
       "StaticIndex": 3269,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.prestige_Mission_Teleport",
@@ -51010,7 +49971,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            5642,
+            5650,
             -1
           ]
         ],
@@ -51175,9 +50136,9 @@
     {
       "CastTimeReal": 17.0,
       "ToggleCost": 13.0,
-      "PowerIndex": 5643,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 159,
+      "PowerIndex": 5651,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 158,
       "StaticIndex": 1106,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.prestige_Pocket_D_VIP_Pass",
@@ -51354,9 +50315,9 @@
     },
     {
       "ToggleCost": 0.0195,
-      "PowerIndex": 5644,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 160,
+      "PowerIndex": 5652,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 159,
       "StaticIndex": 6153,
       "NGroupMembership": [
         6,
@@ -52130,9 +51091,9 @@
     {
       "ToggleCost": 0.0195,
       "IsEpic": true,
-      "PowerIndex": 5645,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 161,
+      "PowerIndex": 5653,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 160,
       "StaticIndex": 6006,
       "NGroupMembership": [
         6,
@@ -52155,7 +51116,7 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            5645,
+            5653,
             -1
           ]
         ],
@@ -52915,9 +51876,9 @@
     },
     {
       "ToggleCost": 0.0195,
-      "PowerIndex": 5646,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 162,
+      "PowerIndex": 5654,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 161,
       "StaticIndex": 6154,
       "NGroupMembership": [
         6,
@@ -53695,7 +52656,7 @@
           "nID": 12,
           "EffectType": 12,
           "Summon": "Temporary_Powers.Replacement_Powers.Panther_Stealth",
-          "nSummon": 9166,
+          "nSummon": 9181,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,
@@ -53797,9 +52758,9 @@
     {
       "ToggleCost": 0.455,
       "LocationIndex": 23,
-      "PowerIndex": 5647,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 163,
+      "PowerIndex": 5655,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 162,
       "StaticIndex": 5003,
       "NGroupMembership": [
         10,
@@ -53831,7 +52792,7 @@
             -1
           ],
           [
-            5647,
+            5655,
             -1
           ]
         ],
@@ -54545,10 +53506,10 @@
     {
       "CastTimeReal": 1.716,
       "ToggleCost": 0.455,
-      "LocationIndex": 9,
-      "PowerIndex": 5648,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 164,
+      "LocationIndex": 14,
+      "PowerIndex": 5656,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 163,
       "StaticIndex": 4105,
       "NGroupMembership": [
         10,
@@ -55258,14 +54219,14 @@
       "FullSetName": "Inherent.Inherent",
       "CastTime": 1.716,
       "AoEModifier": 1.0,
-      "DisplayLocation": 9,
+      "DisplayLocation": 14,
       "Taken": true
     },
     {
       "ToggleCost": 0.039,
-      "PowerIndex": 5649,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 165,
+      "PowerIndex": 5657,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 164,
       "StaticIndex": 5575,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Prestige_Steam_Jump",
@@ -55610,9 +54571,9 @@
     },
     {
       "CastTimeReal": 6.03,
-      "PowerIndex": 5650,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 166,
+      "PowerIndex": 5658,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 165,
       "StaticIndex": 6152,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Team_Transporter",
@@ -55833,10 +54794,10 @@
     },
     {
       "ToggleCost": 0.195,
-      "LocationIndex": 5,
-      "PowerIndex": 5651,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 167,
+      "LocationIndex": 8,
+      "PowerIndex": 5659,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 166,
       "StaticIndex": 1107,
       "NGroupMembership": [
         6
@@ -55875,6 +54836,7 @@
       "ActivatePeriod": 0.5,
       "EffectArea": 1,
       "MaxBoosts": "",
+      "AIReport": 1,
       "NumAllowed": 1,
       "BoostsAllowed": [
         "Buff_Defense_Boost",
@@ -56897,15 +55859,15 @@
       "FullSetName": "Inherent.Inherent",
       "Slottable": true,
       "AoEModifier": 1.0,
-      "DisplayLocation": 5
+      "DisplayLocation": 8
     },
     {
       "CastTimeReal": 3.93,
       "ToggleCost": 15.0,
-      "LocationIndex": 12,
-      "PowerIndex": 5652,
-      "PowerSetID": 2893,
-      "PowerSetIndex": 168,
+      "LocationIndex": 9,
+      "PowerIndex": 5660,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 167,
       "StaticIndex": 1108,
       "NGroupMembership": [],
       "FullName": "Inherent.Inherent.Shadow_Recall",
@@ -57937,7 +56899,439 @@
       "CastTime": 3.93,
       "Slottable": true,
       "AoEModifier": 1.0,
-      "DisplayLocation": 12
+      "DisplayLocation": 9,
+      "Taken": true
+    },
+    {
+      "IsEpic": true,
+      "LocationIndex": 8,
+      "PowerIndex": 5661,
+      "PowerSetID": 2904,
+      "PowerSetIndex": 168,
+      "StaticIndex": 10827,
+      "NGroupMembership": [],
+      "FullName": "Inherent.Inherent.Fast_Snipe",
+      "GroupName": "Inherent",
+      "SetName": "Inherent",
+      "PowerName": "Fast_Snipe",
+      "DisplayName": "Quick Form",
+      "Requires": {
+        "ClassName": [
+          "Class_Blaster",
+          "Class_Defender",
+          "Class_Scrapper",
+          "Class_Stalker",
+          "Class_Dominator",
+          "Class_Corruptor"
+        ],
+        "ClassNameNot": [],
+        "NClassName": [
+          0,
+          2,
+          3,
+          9,
+          11,
+          12
+        ],
+        "NClassNameNot": [],
+        "NPowerID": [
+          [
+            34,
+            -1
+          ],
+          [
+            42,
+            -1
+          ],
+          [
+            59,
+            -1
+          ],
+          [
+            81,
+            -1
+          ],
+          [
+            89,
+            -1
+          ],
+          [
+            101,
+            -1
+          ],
+          [
+            117,
+            -1
+          ],
+          [
+            126,
+            -1
+          ],
+          [
+            3802,
+            -1
+          ],
+          [
+            3810,
+            -1
+          ],
+          [
+            3820,
+            -1
+          ],
+          [
+            52,
+            -1
+          ],
+          [
+            3825,
+            -1
+          ],
+          [
+            3849,
+            -1
+          ],
+          [
+            3857,
+            -1
+          ],
+          [
+            3869,
+            -1
+          ],
+          [
+            3882,
+            -1
+          ],
+          [
+            3893,
+            -1
+          ],
+          [
+            4343,
+            -1
+          ],
+          [
+            4408,
+            -1
+          ],
+          [
+            4413,
+            -1
+          ],
+          [
+            3923,
+            -1
+          ],
+          [
+            3939,
+            -1
+          ],
+          [
+            3950,
+            -1
+          ],
+          [
+            3959,
+            -1
+          ],
+          [
+            3986,
+            -1
+          ],
+          [
+            3977,
+            -1
+          ],
+          [
+            3995,
+            -1
+          ],
+          [
+            3538,
+            -1
+          ],
+          [
+            3546,
+            -1
+          ],
+          [
+            3556,
+            -1
+          ],
+          [
+            3561,
+            -1
+          ],
+          [
+            3585,
+            -1
+          ],
+          [
+            3593,
+            -1
+          ],
+          [
+            3605,
+            -1
+          ],
+          [
+            3618,
+            -1
+          ],
+          [
+            3629,
+            -1
+          ],
+          [
+            4403,
+            -1
+          ]
+        ],
+        "NPowerIDNot": [],
+        "PowerID": [
+          [
+            "Blaster_Ranged.Archery.Ranged_Shot",
+            ""
+          ],
+          [
+            "Blaster_Ranged.Assault_Rifle.Sniper_Rifle",
+            ""
+          ],
+          [
+            "Blaster_Ranged.Dark_Blast.Moonbeam",
+            ""
+          ],
+          [
+            "Blaster_Ranged.Electrical_Blast.Zapp",
+            ""
+          ],
+          [
+            "Blaster_Ranged.Energy_Blast.Sniper_Blast",
+            ""
+          ],
+          [
+            "Blaster_Ranged.Fire_Blast.Blazing_Bolt",
+            ""
+          ],
+          [
+            "Blaster_Ranged.Psychic_Blast.Psionic_Lance",
+            ""
+          ],
+          [
+            "Blaster_Ranged.Radiation_Blast.Proton_Volley",
+            ""
+          ],
+          [
+            "Defender_Ranged.Archery.Ranged_Shot",
+            ""
+          ],
+          [
+            "Defender_Ranged.Assault_Rifle.Sniper_Rifle",
+            ""
+          ],
+          [
+            "Defender_Ranged.Beam_Rifle.Penetrating_Ray",
+            ""
+          ],
+          [
+            "Blaster_Ranged.Beam_Rifle.Penetrating_Ray",
+            ""
+          ],
+          [
+            "Defender_Ranged.Dark_Blast.Moonbeam",
+            ""
+          ],
+          [
+            "Defender_Ranged.Electrical_Blast.Zapp",
+            ""
+          ],
+          [
+            "Defender_Ranged.Energy_Blast.Sniper_Blast",
+            ""
+          ],
+          [
+            "Defender_Ranged.Fire_Blast.Blazing_Bolt",
+            ""
+          ],
+          [
+            "Defender_Ranged.Psychic_Blast.Psionic_Lance",
+            ""
+          ],
+          [
+            "Defender_Ranged.Radiation_Blast.Proton_Volley",
+            ""
+          ],
+          [
+            "Epic.Scrapper_Mace_Mastery.Mace_Beam",
+            ""
+          ],
+          [
+            "Epic.Stalker_Mu_Mastery.Zapp",
+            ""
+          ],
+          [
+            "Epic.Stalker_Soul_Mastery.Moonbeam",
+            ""
+          ],
+          [
+            "Dominator_Assault.Dark_Assault.Death_Shroud",
+            ""
+          ],
+          [
+            "Dominator_Assault.Electricity_Manipulation.Lightning_Clap",
+            ""
+          ],
+          [
+            "Dominator_Assault.Energy_Assault.Sniper_Blast",
+            ""
+          ],
+          [
+            "Dominator_Assault.Fiery_Assault.Blazing_Bolt",
+            ""
+          ],
+          [
+            "Dominator_Assault.Psionic_Assault.Psionic_Lance",
+            ""
+          ],
+          [
+            "Dominator_Assault.Martial_Assault.Masterful_Throw",
+            ""
+          ],
+          [
+            "Dominator_Assault.Radioactive_Assault.Proton_Volley",
+            ""
+          ],
+          [
+            "Corruptor_Ranged.Archery.Ranged_Shot",
+            ""
+          ],
+          [
+            "Corruptor_Ranged.Assault_Rifle.Sniper_Rifle",
+            ""
+          ],
+          [
+            "Corruptor_Ranged.Beam_Rifle.Penetrating_Ray",
+            ""
+          ],
+          [
+            "Corruptor_Ranged.Dark_Blast.Moonbeam",
+            ""
+          ],
+          [
+            "Corruptor_Ranged.Electrical_Blast.Zapp",
+            ""
+          ],
+          [
+            "Corruptor_Ranged.Energy_Blast.Sniper_Blast",
+            ""
+          ],
+          [
+            "Corruptor_Ranged.Fire_Blast.Blazing_Bolt",
+            ""
+          ],
+          [
+            "Corruptor_Ranged.Psychic_Blast.Psionic_Lance",
+            ""
+          ],
+          [
+            "Corruptor_Ranged.Radiation_Blast.Proton_Volley",
+            ""
+          ],
+          [
+            "Epic.Stalker_Mace_Mastery.Mace_Beam",
+            ""
+          ]
+        ],
+        "PowerIDNot": []
+      },
+      "PowerType": 2,
+      "Accuracy": 1.0,
+      "AccuracyMult": 1.0,
+      "GroupMembership": [],
+      "EntitiesAffected": 1,
+      "EntitiesAutoHit": 1,
+      "Target": 1,
+      "TargetLoS": true,
+      "EffectArea": 1,
+      "MaxBoosts": "",
+      "BoostsAllowed": [],
+      "Enhancements": [],
+      "DescShort": "+QuickForm",
+      "DescLong": "Puts all Sniper attacks into their quick form. This power only affects Blasters, Corruptors, Defenders, Dominators, and those ATs whom receive a Sniper attack from an Epic pool.",
+      "SetTypes": [],
+      "Level": 49,
+      "VariableName": "",
+      "NIDSubPower": [],
+      "UIDSubPower": [],
+      "IgnoreEnh": [],
+      "Ignore_Buff": [],
+      "MutexAuto": true,
+      "NeverAutoUpdate": true,
+      "NeverAutoUpdateRequirements": true,
+      "IncludeFlag": true,
+      "ForcedClass": "",
+      "InherentType": 6,
+      "Effects": [
+        {
+          "MagnitudeExpression": "",
+          "Probability": 1.0,
+          "Mag": 1.0,
+          "MagPercent": 100.0,
+          "DisplayPercentage": true,
+          "BaseProbability": 1.0,
+          "Reward": "Damage",
+          "EffectId": "Ones",
+          "Special": "",
+          "EffectType": 78,
+          "Summon": "Arachnos_Soldiers.Arachnos_Soldier.Single_Shot",
+          "Buffable": true,
+          "Resistible": true,
+          "UIDClassName": "",
+          "nIDClassName": -1,
+          "ToWho": 2,
+          "Scale": 1.0,
+          "nMagnitude": 1.0,
+          "Aspect": 3,
+          "ModifierTable": "Melee_Ones",
+          "nModifierTable": 41,
+          "PowerFullName": "",
+          "Absorbed_PowerType": 1,
+          "Absorbed_Power_nID": -1,
+          "Absorbed_Class_nID": -1,
+          "Absorbed_EffectID": -1,
+          "Override": "",
+          "AtrOrigAccuracy": -1.0,
+          "AtrOrigActivatePeriod": -1.0,
+          "AtrOrigArc": -1,
+          "AtrOrigCastTime": -1.0,
+          "AtrOrigEnduranceCost": -1.0,
+          "AtrOrigInterruptTime": -1.0,
+          "AtrOrigMaxTargets": -1,
+          "AtrOrigRadius": -1.0,
+          "AtrOrigRange": -1.0,
+          "AtrOrigRechargeTime": -1.0,
+          "AtrOrigSecondaryRange": -1.0,
+          "AtrModAccuracy": -1.0,
+          "AtrModActivatePeriod": -1.0,
+          "AtrModArc": -1,
+          "AtrModCastTime": -1.0,
+          "AtrModEnduranceCost": -1.0,
+          "AtrModInterruptTime": -1.0,
+          "AtrModMaxTargets": -1,
+          "AtrModRadius": -1.0,
+          "AtrModRange": -1.0,
+          "AtrModRechargeTime": -1.0,
+          "AtrModSecondaryRange": -1.0,
+          "ActiveConditionals": [],
+          "nOverride": -1
+        }
+      ],
+      "FullSetName": "Inherent.Inherent",
+      "AoEModifier": 1.0,
+      "DisplayLocation": 8,
+      "Active": true,
+      "Taken": true
     }
   ]
 }

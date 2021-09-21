@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Snare",
   "ImageName": "",
   "Power": [
-    2396
+    2402
   ],
   "SetType": 10,
   "DisplayName": "Mutation Snare",
   "nArchetype": -1,
-  "nID": 2151,
+  "nID": 2157,
   "SubName": "Secondary Mutation (Mutation)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2396,
-      "PowerSetID": 2151,
+      "PowerIndex": 2402,
+      "PowerSetID": 2157,
       "StaticIndex": 8321,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Snare.Mutation_Snare",

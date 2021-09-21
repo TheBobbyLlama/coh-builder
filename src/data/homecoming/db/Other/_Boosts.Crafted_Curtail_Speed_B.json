@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Curtail_Speed_B",
   "ImageName": "",
   "Power": [
-    1342
+    1348
   ],
   "SetType": 10,
   "DisplayName": "Crafted Curtail Speed B",
   "nArchetype": -1,
-  "nID": 1096,
+  "nID": 1102,
   "SubName": "Set: Curtail Speed",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1342,
-      "PowerSetID": 1096,
+      "PowerIndex": 1348,
+      "PowerSetID": 1102,
       "StaticIndex": 7287,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Curtail_Speed_B.Crafted_Curtail_Speed_B",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Magic_Taunt",
   "ImageName": "",
   "Power": [
-    2359
+    2365
   ],
   "SetType": 10,
   "DisplayName": "Mutation Magic Taunt",
   "nArchetype": -1,
-  "nID": 2114,
+  "nID": 2120,
   "SubName": "Focusing Device (Mutation, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2359,
-      "PowerSetID": 2114,
+      "PowerIndex": 2365,
+      "PowerSetID": 2120,
       "StaticIndex": 8284,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Magic_Taunt.Mutation_Magic_Taunt",

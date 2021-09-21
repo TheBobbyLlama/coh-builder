@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Science_Drain_Endurance",
   "ImageName": "",
   "Power": [
-    2373
+    2379
   ],
   "SetType": 10,
   "DisplayName": "Mutation Science Endurance",
   "nArchetype": -1,
-  "nID": 2128,
+  "nID": 2134,
   "SubName": "Genetic Alteration (Mutation, Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2373,
-      "PowerSetID": 2128,
+      "PowerIndex": 2379,
+      "PowerSetID": 2134,
       "StaticIndex": 8298,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Science_Drain_Endurance.Mutation_Science_Drain_Endurance",

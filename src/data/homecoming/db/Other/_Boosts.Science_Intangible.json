@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Intangible",
   "ImageName": "",
   "Power": [
-    2470
+    2476
   ],
   "SetType": 10,
   "DisplayName": "Science Intangible",
   "nArchetype": -1,
-  "nID": 2225,
+  "nID": 2231,
   "SubName": "Experiment (Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2470,
-      "PowerSetID": 2225,
+      "PowerIndex": 2476,
+      "PowerSetID": 2231,
       "StaticIndex": 8395,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Intangible.Science_Intangible",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Accuracy",
   "ImageName": "",
   "Power": [
-    2317
+    2323
   ],
   "SetType": 10,
   "DisplayName": "Mutation Accuracy",
   "nArchetype": -1,
-  "nID": 2072,
+  "nID": 2078,
   "SubName": "Secondary Mutation (Mutation)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2317,
-      "PowerSetID": 2072,
+      "PowerIndex": 2323,
+      "PowerSetID": 2078,
       "StaticIndex": 8242,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Accuracy.Mutation_Accuracy",

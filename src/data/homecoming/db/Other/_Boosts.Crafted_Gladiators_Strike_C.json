@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Gladiators_Strike_C",
   "ImageName": "",
   "Power": [
-    1599
+    1605
   ],
   "SetType": 10,
   "DisplayName": "Crafted Gladiators Strike C",
   "nArchetype": -1,
-  "nID": 1353,
+  "nID": 1359,
   "SubName": "Set: Gladiator's Strike",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1599,
-      "PowerSetID": 1353,
+      "PowerIndex": 1605,
+      "PowerSetID": 1359,
       "StaticIndex": 7544,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Gladiators_Strike_C.Crafted_Gladiators_Strike_C",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Immobilize",
   "ImageName": "",
   "Power": [
-    2413
+    2419
   ],
   "SetType": 10,
   "DisplayName": "Natural Immobilize",
   "nArchetype": -1,
-  "nID": 2168,
+  "nID": 2174,
   "SubName": "Technique (Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2413,
-      "PowerSetID": 2168,
+      "PowerIndex": 2419,
+      "PowerSetID": 2174,
       "StaticIndex": 8338,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Immobilize.Natural_Immobilize",

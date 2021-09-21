@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Fly",
   "ImageName": "",
   "Power": [
-    2410
+    2416
   ],
   "SetType": 10,
   "DisplayName": "Natural Fly",
   "nArchetype": -1,
-  "nID": 2165,
+  "nID": 2171,
   "SubName": "Technique (Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2410,
-      "PowerSetID": 2165,
+      "PowerIndex": 2416,
+      "PowerSetID": 2171,
       "StaticIndex": 8335,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Fly.Natural_Fly",

@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Malaises_Illusions_D",
   "ImageName": "",
   "Power": [
-    1789
+    1795
   ],
   "SetType": 10,
   "DisplayName": "Crafted Malaises Illusions D",
   "nArchetype": -1,
-  "nID": 1543,
+  "nID": 1549,
   "SubName": "Set: Malaises Illusions",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1789,
-      "PowerSetID": 1543,
+      "PowerIndex": 1795,
+      "PowerSetID": 1549,
       "StaticIndex": 7734,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Malaises_Illusions_D.Crafted_Malaises_Illusions_D",

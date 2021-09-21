@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Soulbound_Allegiance_E",
   "ImageName": "",
   "Power": [
-    2589
+    2595
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Soulbound Allegiance E",
   "nArchetype": -1,
-  "nID": 2344,
+  "nID": 2350,
   "SubName": "Set: Soulbound Allegiance",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2589,
-      "PowerSetID": 2344,
+      "PowerIndex": 2595,
+      "PowerSetID": 2350,
       "StaticIndex": 8490,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Soulbound_Allegiance_E.Superior_Attuned_Soulbound_Allegiance_E",

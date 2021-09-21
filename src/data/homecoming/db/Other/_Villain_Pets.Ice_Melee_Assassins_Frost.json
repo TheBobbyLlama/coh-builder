@@ -4,13 +4,13 @@
   "FullName": "Villain_Pets.Ice_Melee_Assassins_Frost",
   "ImageName": "",
   "Power": [
-    10154,
-    10155
+    10170,
+    10171
   ],
   "SetType": 8,
   "DisplayName": "",
   "nArchetype": -1,
-  "nID": 3446,
+  "nID": 3456,
   "SubName": "Dual Blades",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
     {
       "CastTimeReal": 3.67,
       "ToggleCost": 14.352,
-      "PowerIndex": 10154,
-      "PowerSetID": 3446,
+      "PowerIndex": 10170,
+      "PowerSetID": 3456,
       "StaticIndex": 10704,
       "NGroupMembership": [],
       "FullName": "Villain_Pets.Ice_Melee_Assassins_Frost.Assassins_Frost_Stealth",
@@ -218,7 +218,7 @@
           "nID": 2,
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.Demoralized",
-          "nSummon": 9289,
+          "nSummon": 9305,
           "SpecialCase": 9,
           "UIDClassName": "",
           "nIDClassName": -1,
@@ -384,8 +384,8 @@
     {
       "CastTimeReal": 1.67,
       "ToggleCost": 14.352,
-      "PowerIndex": 10155,
-      "PowerSetID": 3446,
+      "PowerIndex": 10171,
+      "PowerSetID": 3456,
       "PowerSetIndex": 1,
       "StaticIndex": 10705,
       "NGroupMembership": [],

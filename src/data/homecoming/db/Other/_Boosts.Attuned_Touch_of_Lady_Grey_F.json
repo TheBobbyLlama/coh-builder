@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Touch_of_Lady_Grey_F",
   "ImageName": "",
   "Power": [
-    1101
+    1107
   ],
   "SetType": 10,
   "DisplayName": "Attuned Touch of Lady Grey F",
   "nArchetype": -1,
-  "nID": 856,
+  "nID": 862,
   "SubName": "Set: Touch of Lady Grey",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1101,
-      "PowerSetID": 856,
+      "PowerIndex": 1107,
+      "PowerSetID": 862,
       "StaticIndex": 7077,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Touch_of_Lady_Grey_F.Attuned_Touch_of_Lady_Grey_F",

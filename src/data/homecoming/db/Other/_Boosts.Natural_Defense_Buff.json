@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Defense_Buff",
   "ImageName": "",
   "Power": [
-    2405
+    2411
   ],
   "SetType": 10,
   "DisplayName": "Natural Defense Buff",
   "nArchetype": -1,
-  "nID": 2159,
+  "nID": 2165,
   "SubName": "Technique (Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2405,
-      "PowerSetID": 2159,
+      "PowerIndex": 2411,
+      "PowerSetID": 2165,
       "StaticIndex": 8330,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Defense_Buff.Natural_Defense_Buff",

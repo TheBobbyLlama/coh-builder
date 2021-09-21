@@ -4,14 +4,14 @@
   "FullName": "Pets.Traps_Trip_Mine_Defender",
   "ImageName": "",
   "Power": [
-    6639,
-    6640,
-    6641
+    6659,
+    6660,
+    6661
   ],
   "SetType": 8,
   "DisplayName": "Mine",
   "nArchetype": -1,
-  "nID": 3142,
+  "nID": 3154,
   "SubName": "Devices",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6639,
-      "PowerSetID": 3142,
+      "PowerIndex": 6659,
+      "PowerSetID": 3154,
       "StaticIndex": 3559,
       "NGroupMembership": [],
       "FullName": "Pets.Traps_Trip_Mine_Defender.Trip_Mine",
@@ -415,8 +415,8 @@
       "AoEModifier": 2.8
     },
     {
-      "PowerIndex": 6640,
-      "PowerSetID": 3142,
+      "PowerIndex": 6660,
+      "PowerSetID": 3154,
       "PowerSetIndex": 1,
       "StaticIndex": 3561,
       "NGroupMembership": [],
@@ -2316,8 +2316,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 6641,
-      "PowerSetID": 3142,
+      "PowerIndex": 6661,
+      "PowerSetID": 3154,
       "PowerSetIndex": 2,
       "StaticIndex": 3560,
       "NGroupMembership": [],

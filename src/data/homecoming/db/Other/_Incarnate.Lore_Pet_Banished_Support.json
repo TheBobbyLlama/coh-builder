@@ -4,13 +4,13 @@
   "FullName": "Incarnate.Lore_Pet_Banished_Support",
   "ImageName": "",
   "Power": [
-    5289,
-    5290
+    5298,
+    5299
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Banished_Support",
   "nArchetype": -1,
-  "nID": 2822,
+  "nID": 2833,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "Powers": [
     {
       "CastTimeReal": 2.03,
-      "PowerIndex": 5289,
-      "PowerSetID": 2822,
+      "PowerIndex": 5298,
+      "PowerSetID": 2833,
       "StaticIndex": 9486,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Banished_Support.Frigid_Storm",
@@ -147,8 +147,8 @@
     },
     {
       "CastTimeReal": 1.67,
-      "PowerIndex": 5290,
-      "PowerSetID": 2822,
+      "PowerIndex": 5299,
+      "PowerSetID": 2833,
       "PowerSetIndex": 1,
       "StaticIndex": 9487,
       "NGroupMembership": [],

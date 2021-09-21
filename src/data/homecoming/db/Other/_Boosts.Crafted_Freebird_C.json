@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Freebird_C",
   "ImageName": "",
   "Power": [
-    1554
+    1560
   ],
   "SetType": 10,
   "DisplayName": "Crafted Freebird C",
   "nArchetype": -1,
-  "nID": 1308,
+  "nID": 1314,
   "SubName": "Set: Freebird",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1554,
-      "PowerSetID": 1308,
+      "PowerIndex": 1560,
+      "PowerSetID": 1314,
       "StaticIndex": 7499,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Freebird_C.Crafted_Freebird_C",

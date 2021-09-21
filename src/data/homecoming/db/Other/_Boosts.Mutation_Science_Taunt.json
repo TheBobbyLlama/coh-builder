@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Science_Taunt",
   "ImageName": "",
   "Power": [
-    2392
+    2398
   ],
   "SetType": 10,
   "DisplayName": "Mutation Science Taunt",
   "nArchetype": -1,
-  "nID": 2147,
+  "nID": 2153,
   "SubName": "Genetic Alteration (Mutation, Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2392,
-      "PowerSetID": 2147,
+      "PowerIndex": 2398,
+      "PowerSetID": 2153,
       "StaticIndex": 8317,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Science_Taunt.Mutation_Science_Taunt",

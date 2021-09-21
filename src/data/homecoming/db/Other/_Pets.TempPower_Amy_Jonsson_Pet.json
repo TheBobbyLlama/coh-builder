@@ -4,12 +4,12 @@
   "FullName": "Pets.TempPower_Amy_Jonsson_Pet",
   "ImageName": "",
   "Power": [
-    6562
+    6582
   ],
   "SetType": 8,
   "DisplayName": "Amy Jonsson",
   "nArchetype": -1,
-  "nID": 3024,
+  "nID": 3035,
   "SubName": "TempPower_Amy_Jonsson_Pet",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6562,
-      "PowerSetID": 3024,
+      "PowerIndex": 6582,
+      "PowerSetID": 3035,
       "StaticIndex": 1739,
       "NGroupMembership": [],
       "FullName": "Pets.TempPower_Amy_Jonsson_Pet.Metamorphosis",

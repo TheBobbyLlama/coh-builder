@@ -4,12 +4,12 @@
   "FullName": "Boosts.Magic_Fly",
   "ImageName": "",
   "Power": [
-    2298
+    2304
   ],
   "SetType": 10,
   "DisplayName": "Magic Fly",
   "nArchetype": -1,
-  "nID": 2053,
+  "nID": 2059,
   "SubName": "Dimensional Entities (Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2298,
-      "PowerSetID": 2053,
+      "PowerIndex": 2304,
+      "PowerSetID": 2059,
       "StaticIndex": 8223,
       "NGroupMembership": [],
       "FullName": "Boosts.Magic_Fly.Magic_Fly",

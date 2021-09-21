@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_ToHit_Buff_45",
   "ImageName": "",
   "Power": [
-    2151
+    2157
   ],
   "SetType": 10,
   "DisplayName": "Crafted ToHit Buff 45",
   "nArchetype": -1,
-  "nID": 1903,
+  "nID": 1909,
   "SubName": "Invention",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2151,
-      "PowerSetID": 1903,
+      "PowerIndex": 2157,
+      "PowerSetID": 1909,
       "StaticIndex": 8082,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_ToHit_Buff_45.Crafted_ToHit_Buff_45",

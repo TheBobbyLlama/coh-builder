@@ -4,12 +4,12 @@
   "FullName": "Boosts.Magic_Interrupt",
   "ImageName": "",
   "Power": [
-    2303
+    2309
   ],
   "SetType": 10,
   "DisplayName": "Magic Interrupt",
   "nArchetype": -1,
-  "nID": 2058,
+  "nID": 2064,
   "SubName": "Dimensional Entities (Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2303,
-      "PowerSetID": 2058,
+      "PowerIndex": 2309,
+      "PowerSetID": 2064,
       "StaticIndex": 8228,
       "NGroupMembership": [],
       "FullName": "Boosts.Magic_Interrupt.Magic_Interrupt",

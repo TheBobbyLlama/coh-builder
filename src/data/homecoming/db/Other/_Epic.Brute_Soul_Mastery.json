@@ -4,16 +4,16 @@
   "FullName": "Epic.Brute_Soul_Mastery",
   "ImageName": "PatronDrain.png",
   "Power": [
-    4123,
-    4124,
-    4125,
-    4126,
-    4127
+    4132,
+    4133,
+    4134,
+    4135,
+    4136
   ],
   "SetType": 3,
   "DisplayName": "Soul Mastery",
   "nArchetype": -1,
-  "nID": 2791,
+  "nID": 2799,
   "SubName": "Soul Mastery",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
     {
       "CastTimeReal": 1.1,
       "ToggleCost": 10.66,
-      "PowerIndex": 4123,
-      "PowerSetID": 2791,
+      "PowerIndex": 4132,
+      "PowerSetID": 2799,
       "StaticIndex": 867,
       "NGroupMembership": [],
       "FullName": "Epic.Brute_Soul_Mastery.Gloom",
@@ -521,13 +521,14 @@
       "FullSetName": "Epic.Brute_Soul_Mastery",
       "CastTime": 1.1,
       "Slottable": true,
-      "AoEModifier": 1.0
+      "AoEModifier": 1.0,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.67,
       "ToggleCost": 12.74,
-      "PowerIndex": 4124,
-      "PowerSetID": 2791,
+      "PowerIndex": 4133,
+      "PowerSetID": 2799,
       "PowerSetIndex": 1,
       "StaticIndex": 868,
       "NGroupMembership": [],
@@ -1265,8 +1266,8 @@
       "CastTimeReal": 2.37,
       "ToggleCost": 0.65,
       "IsEpic": true,
-      "PowerIndex": 4125,
-      "PowerSetID": 2791,
+      "PowerIndex": 4134,
+      "PowerSetID": 2799,
       "PowerSetIndex": 2,
       "StaticIndex": 3295,
       "NGroupMembership": [],
@@ -1282,11 +1283,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4123,
+            4132,
             -1
           ],
           [
-            4124,
+            4133,
             -1
           ]
         ],
@@ -2354,14 +2355,15 @@
       "FullSetName": "Epic.Brute_Soul_Mastery",
       "CastTime": 2.37,
       "Slottable": true,
-      "AoEModifier": 4.75
+      "AoEModifier": 4.75,
+      "Taken": true
     },
     {
       "CastTimeReal": 1.0,
       "ToggleCost": 18.98,
       "IsEpic": true,
-      "PowerIndex": 4126,
-      "PowerSetID": 2791,
+      "PowerIndex": 4135,
+      "PowerSetID": 2799,
       "PowerSetIndex": 3,
       "StaticIndex": 869,
       "NGroupMembership": [],
@@ -2377,11 +2379,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4123,
+            4132,
             -1
           ],
           [
-            4124,
+            4133,
             -1
           ]
         ],
@@ -2918,14 +2920,15 @@
       "FullSetName": "Epic.Brute_Soul_Mastery",
       "CastTime": 1.0,
       "Slottable": true,
-      "AoEModifier": 3.25
+      "AoEModifier": 3.25,
+      "Taken": true
     },
     {
       "CastTimeReal": 3.2,
       "ToggleCost": 26.0,
       "IsEpic": true,
-      "PowerIndex": 4127,
-      "PowerSetID": 2791,
+      "PowerIndex": 4136,
+      "PowerSetID": 2799,
       "PowerSetIndex": 4,
       "StaticIndex": 870,
       "NGroupMembership": [],
@@ -2941,24 +2944,24 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4123,
-            4124
+            4132,
+            4133
           ],
           [
-            4123,
-            4125
+            4132,
+            4134
           ],
           [
-            4123,
-            4126
+            4132,
+            4135
           ],
           [
-            4124,
-            4125
+            4133,
+            4134
           ],
           [
-            4124,
-            4126
+            4133,
+            4135
           ]
         ],
         "NPowerIDNot": [],

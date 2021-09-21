@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Fury_of_the_Gladiator_C",
   "ImageName": "",
   "Power": [
-    1557
+    1563
   ],
   "SetType": 10,
   "DisplayName": "Crafted Fury of the Gladiator C",
   "nArchetype": -1,
-  "nID": 1311,
+  "nID": 1317,
   "SubName": "Set: Fury of the Gladiator",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1557,
-      "PowerSetID": 1311,
+      "PowerIndex": 1563,
+      "PowerSetID": 1317,
       "StaticIndex": 7502,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Fury_of_the_Gladiator_C.Crafted_Fury_of_the_Gladiator_C",

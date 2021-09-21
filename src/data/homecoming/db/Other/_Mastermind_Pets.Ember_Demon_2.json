@@ -4,13 +4,13 @@
   "FullName": "Mastermind_Pets.Ember_Demon_2",
   "ImageName": "",
   "Power": [
-    5887,
-    5888
+    5896,
+    5897
   ],
   "SetType": 8,
   "DisplayName": "Ember Demon",
   "nArchetype": -1,
-  "nID": 2942,
+  "nID": 2954,
   "SubName": "Demons",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
     {
       "CastTimeReal": 2.67,
       "ToggleCost": 15.184,
-      "PowerIndex": 5887,
-      "PowerSetID": 2942,
+      "PowerIndex": 5896,
+      "PowerSetID": 2954,
       "StaticIndex": 4212,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Ember_Demon_2.Fire_Breath",
@@ -217,8 +217,8 @@
     {
       "CastTimeReal": 2.27,
       "ToggleCost": 13.0,
-      "PowerIndex": 5888,
-      "PowerSetID": 2942,
+      "PowerIndex": 5897,
+      "PowerSetID": 2954,
       "PowerSetIndex": 1,
       "StaticIndex": 4213,
       "NGroupMembership": [],

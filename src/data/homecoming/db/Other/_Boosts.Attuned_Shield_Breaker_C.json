@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Shield_Breaker_C",
   "ImageName": "",
   "Power": [
-    995
+    1001
   ],
   "SetType": 10,
   "DisplayName": "Attuned Shield Breaker C",
   "nArchetype": -1,
-  "nID": 750,
+  "nID": 756,
   "SubName": "Set: Shield Breaker",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 995,
-      "PowerSetID": 750,
+      "PowerIndex": 1001,
+      "PowerSetID": 756,
       "StaticIndex": 6977,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Shield_Breaker_C.Attuned_Shield_Breaker_C",

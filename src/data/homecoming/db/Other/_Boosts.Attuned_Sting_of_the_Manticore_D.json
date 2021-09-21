@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Sting_of_the_Manticore_D",
   "ImageName": "",
   "Power": [
-    1050
+    1056
   ],
   "SetType": 10,
   "DisplayName": "Attuned Sting of the Manticore D",
   "nArchetype": -1,
-  "nID": 805,
+  "nID": 811,
   "SubName": "Set: Sting of the Manticore",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1050,
-      "PowerSetID": 805,
+      "PowerIndex": 1056,
+      "PowerSetID": 811,
       "StaticIndex": 7026,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Sting_of_the_Manticore_D.Attuned_Sting_of_the_Manticore_D",

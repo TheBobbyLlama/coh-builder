@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Accuracy",
   "ImageName": "",
   "Power": [
-    2457
+    2463
   ],
   "SetType": 10,
   "DisplayName": "Science Accuracy",
   "nArchetype": -1,
-  "nID": 2212,
+  "nID": 2218,
   "SubName": "Experiment (Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2457,
-      "PowerSetID": 2212,
+      "PowerIndex": 2463,
+      "PowerSetID": 2218,
       "StaticIndex": 8382,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Accuracy.Science_Accuracy",

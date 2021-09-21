@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Stalkers_Guile_D",
   "ImageName": "",
   "Power": [
-    1041
+    1047
   ],
   "SetType": 10,
   "DisplayName": "Attuned Stalkers Guile D",
   "nArchetype": -1,
-  "nID": 796,
+  "nID": 802,
   "SubName": "Set: Stalker's Guile",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1041,
-      "PowerSetID": 796,
+      "PowerIndex": 1047,
+      "PowerSetID": 802,
       "StaticIndex": 7017,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Stalkers_Guile_D.Attuned_Stalkers_Guile_D",

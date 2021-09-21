@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Smashing_Haymaker_C",
   "ImageName": "",
   "Power": [
-    2041
+    2047
   ],
   "SetType": 10,
   "DisplayName": "Crafted Smashing Haymaker C",
   "nArchetype": -1,
-  "nID": 1794,
+  "nID": 1800,
   "SubName": "Set: Smashing Haymaker",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2041,
-      "PowerSetID": 1794,
+      "PowerIndex": 2047,
+      "PowerSetID": 1800,
       "StaticIndex": 7973,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Smashing_Haymaker_C.Crafted_Smashing_Haymaker_C",

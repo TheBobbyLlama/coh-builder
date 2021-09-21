@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Karma_B",
   "ImageName": "",
   "Power": [
-    1730
+    1736
   ],
   "SetType": 10,
   "DisplayName": "Crafted Karma B",
   "nArchetype": -1,
-  "nID": 1484,
+  "nID": 1490,
   "SubName": "Set: Karma",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1730,
-      "PowerSetID": 1484,
+      "PowerIndex": 1736,
+      "PowerSetID": 1490,
       "StaticIndex": 7675,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Karma_B.Crafted_Karma_B",

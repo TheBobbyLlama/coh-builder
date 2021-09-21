@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Science_Knockback",
   "ImageName": "",
   "Power": [
-    2383
+    2389
   ],
   "SetType": 10,
   "DisplayName": "Mutation Science Knockback",
   "nArchetype": -1,
-  "nID": 2138,
+  "nID": 2144,
   "SubName": "Genetic Alteration (Mutation, Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2383,
-      "PowerSetID": 2138,
+      "PowerIndex": 2389,
+      "PowerSetID": 2144,
       "StaticIndex": 8308,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Science_Knockback.Mutation_Science_Knockback",

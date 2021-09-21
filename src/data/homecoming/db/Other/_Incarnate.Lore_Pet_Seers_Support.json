@@ -4,13 +4,13 @@
   "FullName": "Incarnate.Lore_Pet_Seers_Support",
   "ImageName": "",
   "Power": [
-    5416,
-    5417
+    5425,
+    5426
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Seers_Support",
   "nArchetype": -1,
-  "nID": 2869,
+  "nID": 2880,
   "SubName": "Diviner",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "Powers": [
     {
       "CastTimeReal": 1.23,
-      "PowerIndex": 5416,
-      "PowerSetID": 2869,
+      "PowerIndex": 5425,
+      "PowerSetID": 2880,
       "StaticIndex": 4671,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Seers_Support.Soothe_Mind",
@@ -136,8 +136,8 @@
     },
     {
       "CastTimeReal": 1.23,
-      "PowerIndex": 5417,
-      "PowerSetID": 2869,
+      "PowerIndex": 5426,
+      "PowerSetID": 2880,
       "PowerSetIndex": 1,
       "StaticIndex": 4672,
       "NGroupMembership": [],

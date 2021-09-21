@@ -4,16 +4,16 @@
   "FullName": "Epic.Cold_Mastery",
   "ImageName": "IceArmor.png",
   "Power": [
-    4138,
-    4139,
-    4140,
-    4141,
-    4142
+    4147,
+    4148,
+    4149,
+    4150,
+    4151
   ],
   "SetType": 3,
   "DisplayName": "Cold Mastery",
   "nArchetype": -1,
-  "nID": 2729,
+  "nID": 2740,
   "SubName": "Cold Mastery",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
     {
       "CastTimeReal": 2.03,
       "ToggleCost": 0.65,
-      "PowerIndex": 4138,
-      "PowerSetID": 2729,
+      "PowerIndex": 4147,
+      "PowerSetID": 2740,
       "StaticIndex": 871,
       "NGroupMembership": [],
       "FullName": "Epic.Cold_Mastery.Snow_Storm",
@@ -508,8 +508,8 @@
     {
       "CastTimeReal": 2.37,
       "ToggleCost": 19.5,
-      "PowerIndex": 4139,
-      "PowerSetID": 2729,
+      "PowerIndex": 4148,
+      "PowerSetID": 2740,
       "PowerSetIndex": 1,
       "StaticIndex": 872,
       "NGroupMembership": [],
@@ -832,8 +832,8 @@
       "CastTimeReal": 0.73,
       "ToggleCost": 0.325,
       "IsEpic": true,
-      "PowerIndex": 4140,
-      "PowerSetID": 2729,
+      "PowerIndex": 4149,
+      "PowerSetID": 2740,
       "PowerSetIndex": 2,
       "StaticIndex": 873,
       "NGroupMembership": [],
@@ -849,11 +849,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4138,
+            4147,
             -1
           ],
           [
-            4139,
+            4148,
             -1
           ]
         ],
@@ -1917,8 +1917,8 @@
       "CastTimeReal": 0.73,
       "ToggleCost": 18.2,
       "IsEpic": true,
-      "PowerIndex": 4141,
-      "PowerSetID": 2729,
+      "PowerIndex": 4150,
+      "PowerSetID": 2740,
       "PowerSetIndex": 3,
       "StaticIndex": 3296,
       "NGroupMembership": [],
@@ -1934,11 +1934,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4138,
+            4147,
             -1
           ],
           [
-            4139,
+            4148,
             -1
           ]
         ],
@@ -2236,8 +2236,8 @@
       "CastTimeReal": 0.07,
       "ToggleCost": 0.325,
       "IsEpic": true,
-      "PowerIndex": 4142,
-      "PowerSetID": 2729,
+      "PowerIndex": 4151,
+      "PowerSetID": 2740,
       "PowerSetIndex": 4,
       "StaticIndex": 874,
       "NGroupMembership": [
@@ -2255,24 +2255,24 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4138,
-            4139
+            4147,
+            4148
           ],
           [
-            4138,
-            4140
+            4147,
+            4149
           ],
           [
-            4138,
-            4141
+            4147,
+            4150
           ],
           [
-            4139,
-            4140
+            4148,
+            4149
           ],
           [
-            4139,
-            4141
+            4148,
+            4150
           ]
         ],
         "NPowerIDNot": [],
@@ -2865,7 +2865,7 @@
           "nID": 9,
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.NoPhase",
-          "nSummon": 9741,
+          "nSummon": 9757,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 2,

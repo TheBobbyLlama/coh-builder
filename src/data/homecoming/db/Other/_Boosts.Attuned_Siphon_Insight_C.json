@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Siphon_Insight_C",
   "ImageName": "",
   "Power": [
-    1007
+    1013
   ],
   "SetType": 10,
   "DisplayName": "Attuned Siphon Insight C",
   "nArchetype": -1,
-  "nID": 762,
+  "nID": 768,
   "SubName": "Set: Siphon Insight",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1007,
-      "PowerSetID": 762,
+      "PowerIndex": 1013,
+      "PowerSetID": 768,
       "StaticIndex": 6989,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Siphon_Insight_C.Attuned_Siphon_Insight_C",

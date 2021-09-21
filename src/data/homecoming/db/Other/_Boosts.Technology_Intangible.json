@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Intangible",
   "ImageName": "",
   "Power": [
-    2771
+    2783
   ],
   "SetType": 10,
   "DisplayName": "Technology Intangible",
   "nArchetype": -1,
-  "nID": 2526,
+  "nID": 2538,
   "SubName": "Cybernetics (Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2771,
-      "PowerSetID": 2526,
+      "PowerIndex": 2783,
+      "PowerSetID": 2538,
       "StaticIndex": 8594,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Intangible.Technology_Intangible",

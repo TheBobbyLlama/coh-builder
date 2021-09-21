@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Hecatomb_E",
   "ImageName": "",
   "Power": [
-    2577
+    2583
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Hecatomb E",
   "nArchetype": -1,
-  "nID": 2332,
+  "nID": 2338,
   "SubName": "Set: Hecatomb",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2577,
-      "PowerSetID": 2332,
+      "PowerIndex": 2583,
+      "PowerSetID": 2338,
       "StaticIndex": 8478,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Hecatomb_E.Superior_Attuned_Hecatomb_E",

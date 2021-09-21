@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Technology_Endurance_Discount",
   "ImageName": "",
   "Power": [
-    2490
+    2496
   ],
   "SetType": 10,
   "DisplayName": "Science Technology Endurance Discount",
   "nArchetype": -1,
-  "nID": 2245,
+  "nID": 2251,
   "SubName": "Invention (Science, Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2490,
-      "PowerSetID": 2245,
+      "PowerIndex": 2496,
+      "PowerSetID": 2251,
       "StaticIndex": 8415,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Technology_Endurance_Discount.Science_Technology_Endurance_Discount",

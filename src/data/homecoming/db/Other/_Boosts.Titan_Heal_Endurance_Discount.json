@@ -4,12 +4,12 @@
   "FullName": "Boosts.Titan_Heal_Endurance_Discount",
   "ImageName": "",
   "Power": [
-    2822
+    2834
   ],
   "SetType": 10,
   "DisplayName": "Titan Heal Endurance Discount",
   "nArchetype": -1,
-  "nID": 2577,
+  "nID": 2589,
   "SubName": "Titan (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2822,
-      "PowerSetID": 2577,
+      "PowerIndex": 2834,
+      "PowerSetID": 2589,
       "StaticIndex": 8645,
       "NGroupMembership": [],
       "FullName": "Boosts.Titan_Heal_Endurance_Discount.Titan_Heal_Endurance_Discount",

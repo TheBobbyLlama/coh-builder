@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Superior_Essence_Transfer_A",
   "ImageName": "",
   "Power": [
-    2651
+    2657
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Superior Essence Transfer A",
   "nArchetype": -1,
-  "nID": 2406,
+  "nID": 2412,
   "SubName": "Set: Superior Essence Transfer",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2651,
-      "PowerSetID": 2406,
+      "PowerIndex": 2657,
+      "PowerSetID": 2412,
       "StaticIndex": 8817,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Superior_Essence_Transfer_A.Superior_Attuned_Superior_Essence_Transfer_A",

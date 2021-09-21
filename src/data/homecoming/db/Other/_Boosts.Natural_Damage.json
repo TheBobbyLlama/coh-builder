@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Damage",
   "ImageName": "",
   "Power": [
-    2404
+    2410
   ],
   "SetType": 10,
   "DisplayName": "Natural Damage",
   "nArchetype": -1,
-  "nID": 2158,
+  "nID": 2164,
   "SubName": "Technique (Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2404,
-      "PowerSetID": 2158,
+      "PowerIndex": 2410,
+      "PowerSetID": 2164,
       "StaticIndex": 8329,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Damage.Natural_Damage",

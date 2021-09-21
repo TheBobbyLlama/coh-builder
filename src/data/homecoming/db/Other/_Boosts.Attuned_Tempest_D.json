@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Tempest_D",
   "ImageName": "",
   "Power": [
-    1068
+    1074
   ],
   "SetType": 10,
   "DisplayName": "Attuned Tempest D",
   "nArchetype": -1,
-  "nID": 823,
+  "nID": 829,
   "SubName": "Set: Tempest",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1068,
-      "PowerSetID": 823,
+      "PowerIndex": 1074,
+      "PowerSetID": 829,
       "StaticIndex": 7044,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Tempest_D.Attuned_Tempest_D",

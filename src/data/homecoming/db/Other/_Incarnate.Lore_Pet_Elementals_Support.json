@@ -4,13 +4,13 @@
   "FullName": "Incarnate.Lore_Pet_Elementals_Support",
   "ImageName": "",
   "Power": [
-    5334,
-    5335
+    5343,
+    5344
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Elementals_Support",
   "nArchetype": -1,
-  "nID": 2838,
+  "nID": 2849,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "Powers": [
     {
       "CastTimeReal": 2.27,
-      "PowerIndex": 5334,
-      "PowerSetID": 2838,
+      "PowerIndex": 5343,
+      "PowerSetID": 2849,
       "StaticIndex": 5511,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Elementals_Support.O2_Boost",
@@ -651,8 +651,8 @@
     },
     {
       "CastTimeReal": 2.03,
-      "PowerIndex": 5335,
-      "PowerSetID": 2838,
+      "PowerIndex": 5344,
+      "PowerSetID": 2849,
       "PowerSetIndex": 1,
       "StaticIndex": 5512,
       "NGroupMembership": [],

@@ -4,12 +4,12 @@
   "FullName": "Pets.Air_Bomb",
   "ImageName": "",
   "Power": [
-    6208
+    6217
   ],
   "SetType": 8,
   "DisplayName": "Air_Bomb",
   "nArchetype": -1,
-  "nID": 3023,
+  "nID": 3034,
   "SubName": "Hero",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6208,
-      "PowerSetID": 3023,
+      "PowerIndex": 6217,
+      "PowerSetID": 3034,
       "StaticIndex": 1543,
       "NGroupMembership": [],
       "FullName": "Pets.Air_Bomb.Air_Bomb",

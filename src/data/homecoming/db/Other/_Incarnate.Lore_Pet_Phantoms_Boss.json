@@ -4,14 +4,14 @@
   "FullName": "Incarnate.Lore_Pet_Phantoms_Boss",
   "ImageName": "",
   "Power": [
-    5385,
-    5386,
-    5387
+    5394,
+    5395,
+    5396
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Phantoms_Boss",
   "nArchetype": -1,
-  "nID": 2857,
+  "nID": 2868,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "Powers": [
     {
       "CastTimeReal": 2.33,
-      "PowerIndex": 5385,
-      "PowerSetID": 2857,
+      "PowerIndex": 5394,
+      "PowerSetID": 2868,
       "StaticIndex": 5539,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Phantoms_Boss.Greater_Ice_Sword",
@@ -495,8 +495,8 @@
     },
     {
       "CastTimeReal": 1.67,
-      "PowerIndex": 5386,
-      "PowerSetID": 2857,
+      "PowerIndex": 5395,
+      "PowerSetID": 2868,
       "PowerSetIndex": 1,
       "StaticIndex": 5540,
       "NGroupMembership": [],
@@ -678,8 +678,8 @@
     },
     {
       "CastTimeReal": 2.67,
-      "PowerIndex": 5387,
-      "PowerSetID": 2857,
+      "PowerIndex": 5396,
+      "PowerSetID": 2868,
       "PowerSetIndex": 2,
       "StaticIndex": 5541,
       "NGroupMembership": [],

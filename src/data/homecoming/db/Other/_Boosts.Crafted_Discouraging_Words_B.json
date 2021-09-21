@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Discouraging_Words_B",
   "ImageName": "",
   "Power": [
-    1425
+    1431
   ],
   "SetType": 10,
   "DisplayName": "Crafted Discouraging Words B",
   "nArchetype": -1,
-  "nID": 1179,
+  "nID": 1185,
   "SubName": "Set: Discouraging Words",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1425,
-      "PowerSetID": 1179,
+      "PowerIndex": 1431,
+      "PowerSetID": 1185,
       "StaticIndex": 7370,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Discouraging_Words_B.Crafted_Discouraging_Words_B",

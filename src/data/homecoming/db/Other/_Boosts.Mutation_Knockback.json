@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Knockback",
   "ImageName": "",
   "Power": [
-    2333
+    2339
   ],
   "SetType": 10,
   "DisplayName": "Mutation Knockback",
   "nArchetype": -1,
-  "nID": 2088,
+  "nID": 2094,
   "SubName": "Secondary Mutation (Mutation)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2333,
-      "PowerSetID": 2088,
+      "PowerIndex": 2339,
+      "PowerSetID": 2094,
       "StaticIndex": 8258,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Knockback.Mutation_Knockback",

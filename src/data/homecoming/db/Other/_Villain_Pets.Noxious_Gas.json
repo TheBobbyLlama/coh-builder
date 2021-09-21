@@ -4,12 +4,12 @@
   "FullName": "Villain_Pets.Noxious_Gas",
   "ImageName": "",
   "Power": [
-    10200
+    10216
   ],
   "SetType": 8,
   "DisplayName": "Noxious Gas",
   "nArchetype": -1,
-  "nID": 3498,
+  "nID": 3512,
   "SubName": "Poison",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Villain_Pets",
   "Powers": [
     {
-      "PowerIndex": 10200,
-      "PowerSetID": 3498,
+      "PowerIndex": 10216,
+      "PowerSetID": 3512,
       "StaticIndex": 3138,
       "NGroupMembership": [],
       "FullName": "Villain_Pets.Noxious_Gas.Noxious_Gas",

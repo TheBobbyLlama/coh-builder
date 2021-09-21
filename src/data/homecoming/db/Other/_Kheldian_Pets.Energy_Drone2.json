@@ -4,14 +4,14 @@
   "FullName": "Kheldian_Pets.Energy_Drone2",
   "ImageName": "",
   "Power": [
-    5657,
-    5658,
-    5659
+    5666,
+    5667,
+    5668
   ],
   "SetType": 8,
   "DisplayName": "Energy_Drone2",
   "nArchetype": -1,
-  "nID": 2897,
+  "nID": 2908,
   "SubName": "Peacebringer",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "GroupName": "Kheldian_Pets",
   "Powers": [
     {
-      "PowerIndex": 5657,
-      "PowerSetID": 2897,
+      "PowerIndex": 5666,
+      "PowerSetID": 2908,
       "StaticIndex": 3243,
       "NGroupMembership": [],
       "FullName": "Kheldian_Pets.Energy_Drone2.Impact",
@@ -257,8 +257,8 @@
       "AoEModifier": 2.5
     },
     {
-      "PowerIndex": 5658,
-      "PowerSetID": 2897,
+      "PowerIndex": 5667,
+      "PowerSetID": 2908,
       "PowerSetIndex": 1,
       "StaticIndex": 3245,
       "NGroupMembership": [],
@@ -476,8 +476,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 5659,
-      "PowerSetID": 2897,
+      "PowerIndex": 5668,
+      "PowerSetID": 2908,
       "PowerSetIndex": 2,
       "StaticIndex": 3244,
       "NGroupMembership": [],

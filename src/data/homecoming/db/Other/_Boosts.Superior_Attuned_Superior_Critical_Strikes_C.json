@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Superior_Critical_Strikes_C",
   "ImageName": "",
   "Power": [
-    2623
+    2629
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Superior Critical Strikes C",
   "nArchetype": -1,
-  "nID": 2378,
+  "nID": 2384,
   "SubName": "Set: Superior Critical Strikes",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2623,
-      "PowerSetID": 2378,
+      "PowerIndex": 2629,
+      "PowerSetID": 2384,
       "StaticIndex": 8801,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Superior_Critical_Strikes_C.Superior_Attuned_Superior_Critical_Strikes_C",

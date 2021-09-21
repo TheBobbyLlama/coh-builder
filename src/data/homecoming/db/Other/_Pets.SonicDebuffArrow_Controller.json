@@ -4,12 +4,12 @@
   "FullName": "Pets.SonicDebuffArrow_Controller",
   "ImageName": "",
   "Power": [
-    6527
+    6547
   ],
   "SetType": 8,
   "DisplayName": "Disruption Arrow",
   "nArchetype": -1,
-  "nID": 3067,
+  "nID": 3078,
   "SubName": "Trick Arrow",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6527,
-      "PowerSetID": 3067,
+      "PowerIndex": 6547,
+      "PowerSetID": 3078,
       "StaticIndex": 1718,
       "NGroupMembership": [],
       "FullName": "Pets.SonicDebuffArrow_Controller.SonicDebuffArrow",

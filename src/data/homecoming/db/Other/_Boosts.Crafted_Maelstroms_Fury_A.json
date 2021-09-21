@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Maelstroms_Fury_A",
   "ImageName": "",
   "Power": [
-    1776
+    1782
   ],
   "SetType": 10,
   "DisplayName": "Crafted Maelstroms Fury A",
   "nArchetype": -1,
-  "nID": 1530,
+  "nID": 1536,
   "SubName": "Set: Maelstroms Fury",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1776,
-      "PowerSetID": 1530,
+      "PowerIndex": 1782,
+      "PowerSetID": 1536,
       "StaticIndex": 7721,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Maelstroms_Fury_A.Crafted_Maelstroms_Fury_A",

@@ -4,13 +4,13 @@
   "FullName": "Incarnate.Lore_Pet_Nemesis_Support",
   "ImageName": "",
   "Power": [
-    5382,
-    5383
+    5391,
+    5392
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Nemesis_Support",
   "nArchetype": -1,
-  "nID": 2855,
+  "nID": 2866,
   "SubName": "Nemesis",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "Powers": [
     {
       "CastTimeReal": 1.37,
-      "PowerIndex": 5382,
-      "PowerSetID": 2855,
+      "PowerIndex": 5391,
+      "PowerSetID": 2866,
       "StaticIndex": 5536,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Nemesis_Support.Triage",
@@ -955,8 +955,8 @@
     },
     {
       "CastTimeReal": 2.03,
-      "PowerIndex": 5383,
-      "PowerSetID": 2855,
+      "PowerIndex": 5392,
+      "PowerSetID": 2866,
       "PowerSetIndex": 1,
       "StaticIndex": 5537,
       "NGroupMembership": [],

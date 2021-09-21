@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Fear",
   "ImageName": "",
   "Power": [
-    2465
+    2471
   ],
   "SetType": 10,
   "DisplayName": "Science Fear",
   "nArchetype": -1,
-  "nID": 2220,
+  "nID": 2226,
   "SubName": "Experiment (Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2465,
-      "PowerSetID": 2220,
+      "PowerIndex": 2471,
+      "PowerSetID": 2226,
       "StaticIndex": 8390,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Fear.Science_Fear",

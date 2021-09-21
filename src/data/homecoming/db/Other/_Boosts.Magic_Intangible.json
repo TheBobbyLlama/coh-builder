@@ -4,12 +4,12 @@
   "FullName": "Boosts.Magic_Intangible",
   "ImageName": "",
   "Power": [
-    2302
+    2308
   ],
   "SetType": 10,
   "DisplayName": "Magic Intangible",
   "nArchetype": -1,
-  "nID": 2057,
+  "nID": 2063,
   "SubName": "Dimensional Entities (Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2302,
-      "PowerSetID": 2057,
+      "PowerIndex": 2308,
+      "PowerSetID": 2063,
       "StaticIndex": 8227,
       "NGroupMembership": [],
       "FullName": "Boosts.Magic_Intangible.Magic_Intangible",

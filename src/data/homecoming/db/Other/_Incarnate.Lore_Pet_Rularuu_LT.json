@@ -4,14 +4,14 @@
   "FullName": "Incarnate.Lore_Pet_Rularuu_LT",
   "ImageName": "",
   "Power": [
-    5405,
-    5406,
-    5407
+    5414,
+    5415,
+    5416
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Rularuu_LT",
   "nArchetype": -1,
-  "nID": 2864,
+  "nID": 2875,
   "SubName": "Rularuu",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "Powers": [
     {
       "CastTimeReal": 0.67,
-      "PowerIndex": 5405,
-      "PowerSetID": 2864,
+      "PowerIndex": 5414,
+      "PowerSetID": 2875,
       "StaticIndex": 5559,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Rularuu_LT.Pummel",
@@ -144,8 +144,8 @@
     },
     {
       "CastTimeReal": 1.17,
-      "PowerIndex": 5406,
-      "PowerSetID": 2864,
+      "PowerIndex": 5415,
+      "PowerSetID": 2875,
       "PowerSetIndex": 1,
       "StaticIndex": 5560,
       "NGroupMembership": [],
@@ -265,8 +265,8 @@
     },
     {
       "CastTimeReal": 1.07,
-      "PowerIndex": 5407,
-      "PowerSetID": 2864,
+      "PowerIndex": 5416,
+      "PowerSetID": 2875,
       "PowerSetIndex": 2,
       "StaticIndex": 5561,
       "NGroupMembership": [],

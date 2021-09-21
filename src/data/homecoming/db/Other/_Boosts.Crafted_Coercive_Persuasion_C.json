@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Coercive_Persuasion_C",
   "ImageName": "",
   "Power": [
-    1316
+    1322
   ],
   "SetType": 10,
   "DisplayName": "Crafted Coercive Persuasion C",
   "nArchetype": -1,
-  "nID": 1070,
+  "nID": 1076,
   "SubName": "Set: Coercive Persuasion",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1316,
-      "PowerSetID": 1070,
+      "PowerIndex": 1322,
+      "PowerSetID": 1076,
       "StaticIndex": 7261,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Coercive_Persuasion_C.Crafted_Coercive_Persuasion_C",

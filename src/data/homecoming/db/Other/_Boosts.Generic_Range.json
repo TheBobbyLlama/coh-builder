@@ -4,12 +4,12 @@
   "FullName": "Boosts.Generic_Range",
   "ImageName": "",
   "Power": [
-    2253
+    2259
   ],
   "SetType": 10,
   "DisplayName": "Generic Range",
   "nArchetype": -1,
-  "nID": 2008,
+  "nID": 2014,
   "SubName": "Training (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2253,
-      "PowerSetID": 2008,
+      "PowerIndex": 2259,
+      "PowerSetID": 2014,
       "StaticIndex": 8178,
       "NGroupMembership": [],
       "FullName": "Boosts.Generic_Range.Generic_Range",

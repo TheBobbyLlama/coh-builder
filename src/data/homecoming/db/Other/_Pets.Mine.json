@@ -4,14 +4,14 @@
   "FullName": "Pets.Mine",
   "ImageName": "",
   "Power": [
-    6413,
-    6414,
-    6415
+    6422,
+    6423,
+    6424
   ],
   "SetType": 8,
   "DisplayName": "Mine",
   "nArchetype": -1,
-  "nID": 3143,
+  "nID": 3155,
   "SubName": "Devices",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6413,
-      "PowerSetID": 3143,
+      "PowerIndex": 6422,
+      "PowerSetID": 3155,
       "StaticIndex": 1658,
       "NGroupMembership": [],
       "FullName": "Pets.Mine.Trip_Mine",
@@ -417,8 +417,8 @@
       "AoEModifier": 2.8
     },
     {
-      "PowerIndex": 6414,
-      "PowerSetID": 3143,
+      "PowerIndex": 6423,
+      "PowerSetID": 3155,
       "PowerSetIndex": 1,
       "StaticIndex": 1659,
       "NGroupMembership": [],
@@ -2317,8 +2317,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 6415,
-      "PowerSetID": 3143,
+      "PowerIndex": 6424,
+      "PowerSetID": 3155,
       "PowerSetIndex": 2,
       "StaticIndex": 1660,
       "NGroupMembership": [],

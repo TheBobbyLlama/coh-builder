@@ -4,15 +4,15 @@
   "FullName": "Pets.Transponder",
   "ImageName": "",
   "Power": [
-    6600,
-    6601,
-    6602,
-    6603
+    6620,
+    6621,
+    6622,
+    6623
   ],
   "SetType": 8,
   "DisplayName": "Transponder",
   "nArchetype": -1,
-  "nID": 3248,
+  "nID": 3263,
   "SubName": "Rikti",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6600,
-      "PowerSetID": 3248,
+      "PowerIndex": 6620,
+      "PowerSetID": 3263,
       "StaticIndex": 1755,
       "NGroupMembership": [],
       "FullName": "Pets.Transponder.Transport",
@@ -76,6 +76,7 @@
           "Mag": -1.0,
           "MagPercent": -100.0,
           "DisplayPercentage": true,
+          "VariableModified": true,
           "BaseProbability": 1.0,
           "Reward": "",
           "EffectId": "Ones",
@@ -131,6 +132,7 @@
           "Mag": -1.0,
           "MagPercent": -100.0,
           "DisplayPercentage": true,
+          "VariableModified": true,
           "BaseProbability": 0.5,
           "Reward": "",
           "EffectId": "Ones",
@@ -187,6 +189,7 @@
           "Mag": -1.0,
           "MagPercent": -100.0,
           "DisplayPercentage": true,
+          "VariableModified": true,
           "BaseProbability": 0.2,
           "Reward": "",
           "EffectId": "Ones",
@@ -243,6 +246,7 @@
           "Mag": -1.0,
           "MagPercent": -100.0,
           "DisplayPercentage": true,
+          "VariableModified": true,
           "BaseProbability": 0.1,
           "Reward": "",
           "EffectId": "Ones",
@@ -298,8 +302,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 6601,
-      "PowerSetID": 3248,
+      "PowerIndex": 6621,
+      "PowerSetID": 3263,
       "PowerSetIndex": 1,
       "StaticIndex": 1756,
       "NGroupMembership": [],
@@ -406,8 +410,8 @@
       "AoEModifier": 1.6
     },
     {
-      "PowerIndex": 6602,
-      "PowerSetID": 3248,
+      "PowerIndex": 6622,
+      "PowerSetID": 3263,
       "PowerSetIndex": 2,
       "StaticIndex": 1757,
       "NGroupMembership": [],
@@ -513,8 +517,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 6603,
-      "PowerSetID": 3248,
+      "PowerIndex": 6623,
+      "PowerSetID": 3263,
       "PowerSetIndex": 3,
       "StaticIndex": 1758,
       "NGroupMembership": [],

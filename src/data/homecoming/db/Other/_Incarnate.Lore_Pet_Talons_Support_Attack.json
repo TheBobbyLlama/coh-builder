@@ -4,12 +4,12 @@
   "FullName": "Incarnate.Lore_Pet_Talons_Support_Attack",
   "ImageName": "",
   "Power": [
-    5427
+    5436
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Talons_Support_Attack",
   "nArchetype": -1,
-  "nID": 2873,
+  "nID": 2884,
   "SubName": "Incarnate",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -22,8 +22,8 @@
   "Powers": [
     {
       "CastTimeReal": 1.67,
-      "PowerIndex": 5427,
-      "PowerSetID": 2873,
+      "PowerIndex": 5436,
+      "PowerSetID": 2884,
       "StaticIndex": 9508,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Talons_Support_Attack.Exhausting_Song",

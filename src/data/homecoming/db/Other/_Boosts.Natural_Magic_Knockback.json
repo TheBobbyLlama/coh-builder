@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Magic_Knockback",
   "ImageName": "",
   "Power": [
-    2434
+    2440
   ],
   "SetType": 10,
   "DisplayName": "Natural Magic Knockback",
   "nArchetype": -1,
-  "nID": 2189,
+  "nID": 2195,
   "SubName": "Relic (Natural, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2434,
-      "PowerSetID": 2189,
+      "PowerIndex": 2440,
+      "PowerSetID": 2195,
       "StaticIndex": 8359,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Magic_Knockback.Natural_Magic_Knockback",

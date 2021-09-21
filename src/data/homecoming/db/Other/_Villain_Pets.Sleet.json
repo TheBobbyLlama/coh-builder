@@ -4,13 +4,13 @@
   "FullName": "Villain_Pets.Sleet",
   "ImageName": "",
   "Power": [
-    10242,
-    10243
+    10258,
+    10259
   ],
   "SetType": 8,
   "DisplayName": "Sleet",
   "nArchetype": -1,
-  "nID": 3520,
+  "nID": 3534,
   "SubName": "Cold Domination",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -22,8 +22,8 @@
   "GroupName": "Villain_Pets",
   "Powers": [
     {
-      "PowerIndex": 10242,
-      "PowerSetID": 3520,
+      "PowerIndex": 10258,
+      "PowerSetID": 3534,
       "StaticIndex": 3145,
       "NGroupMembership": [],
       "FullName": "Villain_Pets.Sleet.Sleet",
@@ -1466,8 +1466,8 @@
       "AoEModifier": 4.0
     },
     {
-      "PowerIndex": 10243,
-      "PowerSetID": 3520,
+      "PowerIndex": 10259,
+      "PowerSetID": 3534,
       "PowerSetIndex": 1,
       "StaticIndex": 3146,
       "NGroupMembership": [],

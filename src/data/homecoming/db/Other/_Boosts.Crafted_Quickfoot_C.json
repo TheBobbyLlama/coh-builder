@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Quickfoot_C",
   "ImageName": "",
   "Power": [
-    1891
+    1897
   ],
   "SetType": 10,
   "DisplayName": "Crafted Quickfoot C",
   "nArchetype": -1,
-  "nID": 1644,
+  "nID": 1650,
   "SubName": "Set: Quickfoot",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1891,
-      "PowerSetID": 1644,
+      "PowerIndex": 1897,
+      "PowerSetID": 1650,
       "StaticIndex": 7829,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Quickfoot_C.Crafted_Quickfoot_C",

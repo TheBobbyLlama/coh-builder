@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Numinas_Convalesence_F",
   "ImageName": "",
   "Power": [
-    1827
+    1833
   ],
   "SetType": 10,
   "DisplayName": "Crafted Numina's Convalescence F",
   "nArchetype": -1,
-  "nID": 1581,
+  "nID": 1587,
   "SubName": "Set: Numinas Convalescence",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1827,
-      "PowerSetID": 1581,
+      "PowerIndex": 1833,
+      "PowerSetID": 1587,
       "StaticIndex": 7772,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Numinas_Convalesence_F.Crafted_Numinas_Convalesence_F",

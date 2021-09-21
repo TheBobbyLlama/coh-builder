@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Range",
   "ImageName": "",
   "Power": [
-    2803
+    2815
   ],
   "SetType": 10,
   "DisplayName": "Technology Range",
   "nArchetype": -1,
-  "nID": 2559,
+  "nID": 2571,
   "SubName": "Cybernetics (Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2803,
-      "PowerSetID": 2559,
+      "PowerIndex": 2815,
+      "PowerSetID": 2571,
       "StaticIndex": 8626,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Range.Technology_Range",

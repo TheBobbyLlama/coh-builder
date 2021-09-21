@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Superior_Blasters_Wrath_C",
   "ImageName": "",
   "Power": [
-    2605
+    2611
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Superior Blasters Wrath C",
   "nArchetype": -1,
-  "nID": 2360,
+  "nID": 2366,
   "SubName": "Set: Superior Blaster's Wrath",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2605,
-      "PowerSetID": 2360,
+      "PowerIndex": 2611,
+      "PowerSetID": 2366,
       "StaticIndex": 8500,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Superior_Blasters_Wrath_C.Superior_Attuned_Superior_Blasters_Wrath_C",

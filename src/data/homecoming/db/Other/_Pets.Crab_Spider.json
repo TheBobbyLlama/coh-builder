@@ -4,16 +4,16 @@
   "FullName": "Pets.Crab_Spider",
   "ImageName": "",
   "Power": [
-    6263,
-    6264,
-    6265,
-    6266,
-    6267
+    6272,
+    6273,
+    6274,
+    6275,
+    6276
   ],
   "SetType": 8,
   "DisplayName": "Crab Spider",
   "nArchetype": -1,
-  "nID": 3059,
+  "nID": 3070,
   "SubName": "Arachnos",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -25,8 +25,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6263,
-      "PowerSetID": 3059,
+      "PowerIndex": 6272,
+      "PowerSetID": 3070,
       "StaticIndex": 4257,
       "NGroupMembership": [],
       "FullName": "Pets.Crab_Spider.Resistance",
@@ -190,8 +190,8 @@
     {
       "CastTimeReal": 1.33,
       "ToggleCost": 5.2,
-      "PowerIndex": 6264,
-      "PowerSetID": 3059,
+      "PowerIndex": 6273,
+      "PowerSetID": 3070,
       "PowerSetIndex": 1,
       "StaticIndex": 4258,
       "NGroupMembership": [],
@@ -367,8 +367,8 @@
     {
       "CastTimeReal": 0.87,
       "ToggleCost": 4.42,
-      "PowerIndex": 6265,
-      "PowerSetID": 3059,
+      "PowerIndex": 6274,
+      "PowerSetID": 3070,
       "PowerSetIndex": 2,
       "StaticIndex": 4259,
       "NGroupMembership": [],
@@ -542,8 +542,8 @@
     {
       "CastTimeReal": 1.33,
       "ToggleCost": 7.8,
-      "PowerIndex": 6266,
-      "PowerSetID": 3059,
+      "PowerIndex": 6275,
+      "PowerSetID": 3070,
       "PowerSetIndex": 3,
       "StaticIndex": 4260,
       "NGroupMembership": [],
@@ -657,8 +657,8 @@
     {
       "CastTimeReal": 3.0,
       "ToggleCost": 11.7,
-      "PowerIndex": 6267,
-      "PowerSetID": 3059,
+      "PowerIndex": 6276,
+      "PowerSetID": 3070,
       "PowerSetIndex": 4,
       "StaticIndex": 4261,
       "NGroupMembership": [],

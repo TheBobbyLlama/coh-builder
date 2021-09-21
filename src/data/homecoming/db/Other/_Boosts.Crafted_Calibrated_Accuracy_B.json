@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Calibrated_Accuracy_B",
   "ImageName": "",
   "Power": [
-    1284
+    1290
   ],
   "SetType": 10,
   "DisplayName": "Crafted Calibrated Accuracy B",
   "nArchetype": -1,
-  "nID": 1038,
+  "nID": 1044,
   "SubName": "Set: Calibrated Accuracy",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1284,
-      "PowerSetID": 1038,
+      "PowerIndex": 1290,
+      "PowerSetID": 1044,
       "StaticIndex": 7229,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Calibrated_Accuracy_B.Crafted_Calibrated_Accuracy_B",

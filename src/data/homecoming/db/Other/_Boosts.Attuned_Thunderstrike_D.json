@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Thunderstrike_D",
   "ImageName": "",
   "Power": [
-    1078
+    1084
   ],
   "SetType": 10,
   "DisplayName": "Attuned Thunderstrike D",
   "nArchetype": -1,
-  "nID": 833,
+  "nID": 839,
   "SubName": "Set: Thunderstrike",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1078,
-      "PowerSetID": 833,
+      "PowerIndex": 1084,
+      "PowerSetID": 839,
       "StaticIndex": 7054,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Thunderstrike_D.Attuned_Thunderstrike_D",

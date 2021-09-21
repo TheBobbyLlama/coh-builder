@@ -4,12 +4,12 @@
   "FullName": "Boosts.Synthetic_Hamidon_DeBuff_Endurance_Discount",
   "ImageName": "",
   "Power": [
-    2754
+    2766
   ],
   "SetType": 10,
   "DisplayName": "Synthetic Hamidon DeBuff Endurance Discount",
   "nArchetype": -1,
-  "nID": 2509,
+  "nID": 2521,
   "SubName": "Hamidon (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2754,
-      "PowerSetID": 2509,
+      "PowerIndex": 2766,
+      "PowerSetID": 2521,
       "StaticIndex": 8577,
       "NGroupMembership": [],
       "FullName": "Boosts.Synthetic_Hamidon_DeBuff_Endurance_Discount.Synthetic_Hamidon_DeBuff_Endurance_Discount",

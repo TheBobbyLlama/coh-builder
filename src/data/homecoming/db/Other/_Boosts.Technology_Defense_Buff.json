@@ -4,12 +4,12 @@
   "FullName": "Boosts.Technology_Defense_Buff",
   "ImageName": "",
   "Power": [
-    2762
+    2774
   ],
   "SetType": 10,
   "DisplayName": "Technology Defense Buff",
   "nArchetype": -1,
-  "nID": 2516,
+  "nID": 2528,
   "SubName": "Cybernetics (Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2762,
-      "PowerSetID": 2516,
+      "PowerIndex": 2774,
+      "PowerSetID": 2528,
       "StaticIndex": 8585,
       "NGroupMembership": [],
       "FullName": "Boosts.Technology_Defense_Buff.Technology_Defense_Buff",

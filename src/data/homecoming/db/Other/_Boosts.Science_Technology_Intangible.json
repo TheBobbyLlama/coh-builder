@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Technology_Intangible",
   "ImageName": "",
   "Power": [
-    2496
+    2502
   ],
   "SetType": 10,
   "DisplayName": "Science Technology Intangible",
   "nArchetype": -1,
-  "nID": 2251,
+  "nID": 2257,
   "SubName": "Invention (Science, Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2496,
-      "PowerSetID": 2251,
+      "PowerIndex": 2502,
+      "PowerSetID": 2257,
       "StaticIndex": 8421,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Technology_Intangible.Science_Technology_Intangible",

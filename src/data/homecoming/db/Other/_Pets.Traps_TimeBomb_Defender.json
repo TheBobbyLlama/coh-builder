@@ -4,14 +4,14 @@
   "FullName": "Pets.Traps_TimeBomb_Defender",
   "ImageName": "",
   "Power": [
-    6633,
-    6634,
-    6635
+    6653,
+    6654,
+    6655
   ],
   "SetType": 8,
   "DisplayName": "Bomb",
   "nArchetype": -1,
-  "nID": 3032,
+  "nID": 3045,
   "SubName": "Traps",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6633,
-      "PowerSetID": 3032,
+      "PowerIndex": 6653,
+      "PowerSetID": 3045,
       "StaticIndex": 3556,
       "NGroupMembership": [],
       "FullName": "Pets.Traps_TimeBomb_Defender.Time_Bomb",
@@ -467,8 +467,8 @@
       "AoEModifier": 4.75
     },
     {
-      "PowerIndex": 6634,
-      "PowerSetID": 3032,
+      "PowerIndex": 6654,
+      "PowerSetID": 3045,
       "PowerSetIndex": 1,
       "StaticIndex": 3558,
       "NGroupMembership": [],
@@ -2534,8 +2534,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 6635,
-      "PowerSetID": 3032,
+      "PowerIndex": 6655,
+      "PowerSetID": 3045,
       "PowerSetIndex": 2,
       "StaticIndex": 3557,
       "NGroupMembership": [],

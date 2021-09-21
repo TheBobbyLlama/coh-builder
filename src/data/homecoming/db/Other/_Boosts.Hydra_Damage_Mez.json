@@ -4,12 +4,12 @@
   "FullName": "Boosts.Hydra_Damage_Mez",
   "ImageName": "",
   "Power": [
-    2282
+    2288
   ],
   "SetType": 10,
   "DisplayName": "Hydra Damage Mez",
   "nArchetype": -1,
-  "nID": 2037,
+  "nID": 2043,
   "SubName": "Hydra (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2282,
-      "PowerSetID": 2037,
+      "PowerIndex": 2288,
+      "PowerSetID": 2043,
       "StaticIndex": 8207,
       "NGroupMembership": [],
       "FullName": "Boosts.Hydra_Damage_Mez.Hydra_Damage_Mez",

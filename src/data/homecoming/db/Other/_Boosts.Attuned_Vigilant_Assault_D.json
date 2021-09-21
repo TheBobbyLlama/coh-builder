@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Vigilant_Assault_D",
   "ImageName": "",
   "Power": [
-    1155
+    1161
   ],
   "SetType": 10,
   "DisplayName": "Attuned Vigilant Assault D",
   "nArchetype": -1,
-  "nID": 910,
+  "nID": 916,
   "SubName": "Set: Vigilant Assault",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1155,
-      "PowerSetID": 910,
+      "PowerIndex": 1161,
+      "PowerSetID": 916,
       "StaticIndex": 8790,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Vigilant_Assault_D.Attuned_Vigilant_Assault_D",

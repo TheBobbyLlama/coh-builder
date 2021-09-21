@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Science_Sleep",
   "ImageName": "",
   "Power": [
-    2389
+    2395
   ],
   "SetType": 10,
   "DisplayName": "Mutation Science Sleep",
   "nArchetype": -1,
-  "nID": 2144,
+  "nID": 2150,
   "SubName": "Genetic Alteration (Mutation, Science)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2389,
-      "PowerSetID": 2144,
+      "PowerIndex": 2395,
+      "PowerSetID": 2150,
       "StaticIndex": 8314,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Science_Sleep.Mutation_Science_Sleep",

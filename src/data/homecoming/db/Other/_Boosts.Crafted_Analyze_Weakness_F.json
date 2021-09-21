@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Analyze_Weakness_F",
   "ImageName": "",
   "Power": [
-    1222
+    1228
   ],
   "SetType": 10,
   "DisplayName": "Crafted Analyze Weakness F",
   "nArchetype": -1,
-  "nID": 977,
+  "nID": 983,
   "SubName": "Set: Analyze Weakness",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1222,
-      "PowerSetID": 977,
+      "PowerIndex": 1228,
+      "PowerSetID": 983,
       "StaticIndex": 7174,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Analyze_Weakness_F.Crafted_Analyze_Weakness_F",
@@ -89,7 +89,7 @@
           "Special": "",
           "EffectType": 12,
           "Summon": "Set_Bonus.Set_Bonus.Analyze_Weakness",
-          "nSummon": 7785,
+          "nSummon": 7800,
           "Ticks": 1,
           "UIDClassName": "",
           "nIDClassName": -1,

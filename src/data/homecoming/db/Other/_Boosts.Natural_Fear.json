@@ -4,12 +4,12 @@
   "FullName": "Boosts.Natural_Fear",
   "ImageName": "",
   "Power": [
-    2409
+    2415
   ],
   "SetType": 10,
   "DisplayName": "Natural Fear",
   "nArchetype": -1,
-  "nID": 2164,
+  "nID": 2170,
   "SubName": "Technique (Natural)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2409,
-      "PowerSetID": 2164,
+      "PowerIndex": 2415,
+      "PowerSetID": 2170,
       "StaticIndex": 8334,
       "NGroupMembership": [],
       "FullName": "Boosts.Natural_Fear.Natural_Fear",

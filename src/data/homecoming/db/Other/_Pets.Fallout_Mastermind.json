@@ -4,12 +4,12 @@
   "FullName": "Pets.Fallout_Mastermind",
   "ImageName": "",
   "Power": [
-    6327
+    6336
   ],
   "SetType": 8,
   "DisplayName": "Fallout",
   "nArchetype": -1,
-  "nID": 3085,
+  "nID": 3095,
   "SubName": "",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6327,
-      "PowerSetID": 3085,
+      "PowerIndex": 6336,
+      "PowerSetID": 3095,
       "StaticIndex": 10772,
       "NGroupMembership": [],
       "FullName": "Pets.Fallout_Mastermind.Fallout",

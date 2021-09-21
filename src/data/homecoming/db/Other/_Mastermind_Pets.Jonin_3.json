@@ -4,14 +4,14 @@
   "FullName": "Mastermind_Pets.Jonin_3",
   "ImageName": "",
   "Power": [
-    5946,
-    5947,
-    5948
+    5955,
+    5956,
+    5957
   ],
   "SetType": 8,
   "DisplayName": "Jounin",
   "nArchetype": -1,
-  "nID": 2960,
+  "nID": 2971,
   "SubName": "Ninjas",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -25,8 +25,8 @@
     {
       "CastTimeReal": 2.0,
       "ToggleCost": 11.856,
-      "PowerIndex": 5946,
-      "PowerSetID": 2960,
+      "PowerIndex": 5955,
+      "PowerSetID": 2971,
       "StaticIndex": 1226,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Jonin_3.Head_Splitter",
@@ -562,8 +562,8 @@
     {
       "CastTimeReal": 1.07,
       "ToggleCost": 7.8,
-      "PowerIndex": 5947,
-      "PowerSetID": 2960,
+      "PowerIndex": 5956,
+      "PowerSetID": 2971,
       "PowerSetIndex": 1,
       "StaticIndex": 1227,
       "NGroupMembership": [],
@@ -1052,8 +1052,8 @@
     },
     {
       "CastTimeReal": 0.73,
-      "PowerIndex": 5948,
-      "PowerSetID": 2960,
+      "PowerIndex": 5957,
+      "PowerSetID": 2971,
       "PowerSetIndex": 2,
       "StaticIndex": 1230,
       "NGroupMembership": [],

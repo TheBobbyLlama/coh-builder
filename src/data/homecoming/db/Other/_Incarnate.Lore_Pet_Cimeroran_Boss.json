@@ -4,16 +4,16 @@
   "FullName": "Incarnate.Lore_Pet_Cimeroran_Boss",
   "ImageName": "",
   "Power": [
-    5302,
-    5303,
-    5304,
-    5305,
-    5306
+    5311,
+    5312,
+    5313,
+    5314,
+    5315
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Cimeroran_Boss",
   "nArchetype": -1,
-  "nID": 2828,
+  "nID": 2839,
   "SubName": "Cimeroran",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -26,8 +26,8 @@
   "Powers": [
     {
       "CastTimeReal": 1.33,
-      "PowerIndex": 5302,
-      "PowerSetID": 2828,
+      "PowerIndex": 5311,
+      "PowerSetID": 2839,
       "StaticIndex": 5487,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Cimeroran_Boss.Push_Back",
@@ -206,8 +206,8 @@
     },
     {
       "CastTimeReal": 1.33,
-      "PowerIndex": 5303,
-      "PowerSetID": 2828,
+      "PowerIndex": 5312,
+      "PowerSetID": 2839,
       "PowerSetIndex": 1,
       "StaticIndex": 5490,
       "NGroupMembership": [],
@@ -386,8 +386,8 @@
     },
     {
       "CastTimeReal": 2.5,
-      "PowerIndex": 5304,
-      "PowerSetID": 2828,
+      "PowerIndex": 5313,
+      "PowerSetID": 2839,
       "PowerSetIndex": 2,
       "StaticIndex": 5491,
       "NGroupMembership": [],
@@ -507,8 +507,8 @@
     },
     {
       "CastTimeReal": 1.33,
-      "PowerIndex": 5305,
-      "PowerSetID": 2828,
+      "PowerIndex": 5314,
+      "PowerSetID": 2839,
       "PowerSetIndex": 3,
       "StaticIndex": 5488,
       "NGroupMembership": [],
@@ -687,8 +687,8 @@
     },
     {
       "CastTimeReal": 2.0,
-      "PowerIndex": 5306,
-      "PowerSetID": 2828,
+      "PowerIndex": 5315,
+      "PowerSetID": 2839,
       "PowerSetIndex": 4,
       "StaticIndex": 5489,
       "NGroupMembership": [],

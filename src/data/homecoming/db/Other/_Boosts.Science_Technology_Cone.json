@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Technology_Cone",
   "ImageName": "",
   "Power": [
-    2484
+    2490
   ],
   "SetType": 10,
   "DisplayName": "Science Technology Range",
   "nArchetype": -1,
-  "nID": 2256,
+  "nID": 2262,
   "SubName": "Invention (Science, Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2484,
-      "PowerSetID": 2256,
+      "PowerIndex": 2490,
+      "PowerSetID": 2262,
       "StaticIndex": 8409,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Technology_Cone.Science_Technology_Cone",

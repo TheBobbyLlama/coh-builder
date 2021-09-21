@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Superior_Mark_of_Supremacy_B",
   "ImageName": "",
   "Power": [
-    2676
+    2682
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Superior Mark of Supremacy B",
   "nArchetype": -1,
-  "nID": 2431,
+  "nID": 2437,
   "SubName": "Set: Superior Mark of Supremacy",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2676,
-      "PowerSetID": 2431,
+      "PowerIndex": 2682,
+      "PowerSetID": 2437,
       "StaticIndex": 8830,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Superior_Mark_of_Supremacy_B.Superior_Attuned_Superior_Mark_of_Supremacy_B",

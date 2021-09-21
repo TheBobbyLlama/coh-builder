@@ -4,15 +4,15 @@
   "FullName": "Incarnate.Lore_Pet_Clockwork_Boss",
   "ImageName": "",
   "Power": [
-    5313,
-    5314,
-    5315,
-    5316
+    5322,
+    5323,
+    5324,
+    5325
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Clockwork_Boss",
   "nArchetype": -1,
-  "nID": 2831,
+  "nID": 2842,
   "SubName": "Clockwork",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -25,8 +25,8 @@
   "Powers": [
     {
       "CastTimeReal": 1.2,
-      "PowerIndex": 5313,
-      "PowerSetID": 2831,
+      "PowerIndex": 5322,
+      "PowerSetID": 2842,
       "StaticIndex": 4649,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Clockwork_Boss.Particle_Blast",
@@ -206,8 +206,8 @@
     },
     {
       "CastTimeReal": 4.2,
-      "PowerIndex": 5314,
-      "PowerSetID": 2831,
+      "PowerIndex": 5323,
+      "PowerSetID": 2842,
       "PowerSetIndex": 1,
       "StaticIndex": 4651,
       "NGroupMembership": [],
@@ -505,8 +505,8 @@
     },
     {
       "CastTimeReal": 3.93,
-      "PowerIndex": 5315,
-      "PowerSetID": 2831,
+      "PowerIndex": 5324,
+      "PowerSetID": 2842,
       "PowerSetIndex": 2,
       "StaticIndex": 5498,
       "NGroupMembership": [],
@@ -627,8 +627,8 @@
     {
       "CastTimeReal": 3.83,
       "ToggleCost": 36.12,
-      "PowerIndex": 5316,
-      "PowerSetID": 2831,
+      "PowerIndex": 5325,
+      "PowerSetID": 2842,
       "PowerSetIndex": 3,
       "StaticIndex": 4650,
       "NGroupMembership": [],

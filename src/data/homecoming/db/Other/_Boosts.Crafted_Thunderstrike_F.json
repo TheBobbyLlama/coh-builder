@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Thunderstrike_F",
   "ImageName": "",
   "Power": [
-    2133
+    2139
   ],
   "SetType": 10,
   "DisplayName": "Crafted Thunderstrike F",
   "nArchetype": -1,
-  "nID": 1885,
+  "nID": 1891,
   "SubName": "Set: Thunderstrike",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2133,
-      "PowerSetID": 1885,
+      "PowerIndex": 2139,
+      "PowerSetID": 1891,
       "StaticIndex": 8064,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Thunderstrike_F.Crafted_Thunderstrike_F",

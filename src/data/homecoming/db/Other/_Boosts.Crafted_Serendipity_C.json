@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Serendipity_C",
   "ImageName": "",
   "Power": [
-    2007
+    2013
   ],
   "SetType": 10,
   "DisplayName": "Crafted Serendipity C",
   "nArchetype": -1,
-  "nID": 1760,
+  "nID": 1766,
   "SubName": "Set: Serendipity",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2007,
-      "PowerSetID": 1760,
+      "PowerIndex": 2013,
+      "PowerSetID": 1766,
       "StaticIndex": 7939,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Serendipity_C.Crafted_Serendipity_C",

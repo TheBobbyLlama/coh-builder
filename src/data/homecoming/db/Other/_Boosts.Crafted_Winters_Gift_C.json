@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Winters_Gift_C",
   "ImageName": "",
   "Power": [
-    2233
+    2239
   ],
   "SetType": 10,
   "DisplayName": "Crafted Winter's Gift C",
   "nArchetype": -1,
-  "nID": 1985,
+  "nID": 1991,
   "SubName": "Set: Winter's Gift",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2233,
-      "PowerSetID": 1985,
+      "PowerIndex": 2239,
+      "PowerSetID": 1991,
       "StaticIndex": 8158,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Winters_Gift_C.Crafted_Winters_Gift_C",

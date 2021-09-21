@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Serendipity_B",
   "ImageName": "",
   "Power": [
-    988
+    994
   ],
   "SetType": 10,
   "DisplayName": "Attuned Serendipity B",
   "nArchetype": -1,
-  "nID": 743,
+  "nID": 749,
   "SubName": "Set: Serendipity",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 988,
-      "PowerSetID": 743,
+      "PowerIndex": 994,
+      "PowerSetID": 749,
       "StaticIndex": 6970,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Serendipity_B.Attuned_Serendipity_B",

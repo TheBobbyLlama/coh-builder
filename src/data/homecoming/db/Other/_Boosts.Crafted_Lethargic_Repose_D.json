@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Lethargic_Repose_D",
   "ImageName": "",
   "Power": [
-    1761
+    1767
   ],
   "SetType": 10,
   "DisplayName": "Crafted Lethargic Repose D",
   "nArchetype": -1,
-  "nID": 1515,
+  "nID": 1521,
   "SubName": "Set: Lethargic Repose",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1761,
-      "PowerSetID": 1515,
+      "PowerIndex": 1767,
+      "PowerSetID": 1521,
       "StaticIndex": 7706,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Lethargic_Repose_D.Crafted_Lethargic_Repose_D",

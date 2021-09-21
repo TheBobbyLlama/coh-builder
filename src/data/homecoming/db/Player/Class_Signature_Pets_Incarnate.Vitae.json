@@ -4,12 +4,12 @@
   "FullName": "Incarnate.Vitae",
   "ImageName": "",
   "Power": [
-    5479
+    5488
   ],
   "SetType": 11,
   "DisplayName": "Vitae",
   "nArchetype": 51,
-  "nID": 2891,
+  "nID": 2902,
   "SubName": "Incarnate",
   "ATClass": "Class_Signature_Pets",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
     {
       "CastTimeReal": 2.17,
       "ToggleCost": 20.0,
-      "PowerIndex": 5479,
-      "PowerSetID": 2891,
+      "PowerIndex": 5488,
+      "PowerSetID": 2902,
       "StaticIndex": 4681,
       "NGroupMembership": [],
       "FullName": "Incarnate.Vitae.Nothing",

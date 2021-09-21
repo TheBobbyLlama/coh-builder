@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Superior_Might_of_the_Tanker_C",
   "ImageName": "",
   "Power": [
-    2683
+    2689
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Superior Might of the Tanker C",
   "nArchetype": -1,
-  "nID": 2438,
+  "nID": 2444,
   "SubName": "Set: Superior Might of the Tanker",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2683,
-      "PowerSetID": 2438,
+      "PowerIndex": 2689,
+      "PowerSetID": 2444,
       "StaticIndex": 8542,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Superior_Might_of_the_Tanker_C.Superior_Attuned_Superior_Might_of_the_Tanker_C",

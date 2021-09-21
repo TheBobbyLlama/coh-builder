@@ -4,12 +4,12 @@
   "FullName": "Boosts.Superior_Attuned_Entomb_E",
   "ImageName": "",
   "Power": [
-    2553
+    2559
   ],
   "SetType": 10,
   "DisplayName": "Superior Attuned Entomb E",
   "nArchetype": -1,
-  "nID": 2308,
+  "nID": 2314,
   "SubName": "Set: Superior Entomb",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2553,
-      "PowerSetID": 2308,
+      "PowerIndex": 2559,
+      "PowerSetID": 2314,
       "StaticIndex": 9336,
       "NGroupMembership": [],
       "FullName": "Boosts.Superior_Attuned_Entomb_E.Superior_Attuned_Entomb_E",

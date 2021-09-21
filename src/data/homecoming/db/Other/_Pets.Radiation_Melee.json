@@ -4,13 +4,13 @@
   "FullName": "Pets.Radiation_Melee",
   "ImageName": "",
   "Power": [
-    6475,
-    6476
+    6495,
+    6496
   ],
   "SetType": 8,
   "DisplayName": "Radiation Melee",
   "nArchetype": -1,
-  "nID": 3171,
+  "nID": 3186,
   "SubName": "Radiation Melee",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -22,8 +22,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6475,
-      "PowerSetID": 3171,
+      "PowerIndex": 6495,
+      "PowerSetID": 3186,
       "StaticIndex": 10623,
       "NGroupMembership": [],
       "FullName": "Pets.Radiation_Melee.Irradiated_Ground",
@@ -371,7 +371,7 @@
           "nID": 5,
           "EffectType": 12,
           "Summon": "Temporary_Powers.Temporary_Powers.Radiation_Melee_Contaminated",
-          "nSummon": 9843,
+          "nSummon": 9859,
           "UIDClassName": "",
           "nIDClassName": -1,
           "ToWho": 1,
@@ -418,8 +418,8 @@
       "AoEModifier": 2.2
     },
     {
-      "PowerIndex": 6476,
-      "PowerSetID": 3171,
+      "PowerIndex": 6496,
+      "PowerSetID": 3186,
       "PowerSetIndex": 1,
       "StaticIndex": 10624,
       "NGroupMembership": [],

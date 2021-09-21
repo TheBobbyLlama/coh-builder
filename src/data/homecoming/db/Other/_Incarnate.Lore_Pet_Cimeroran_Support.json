@@ -4,13 +4,13 @@
   "FullName": "Incarnate.Lore_Pet_Cimeroran_Support",
   "ImageName": "",
   "Power": [
-    5311,
-    5312
+    5320,
+    5321
   ],
   "SetType": 11,
   "DisplayName": "Lore_Pet_Cimeroran_Support",
   "nArchetype": -1,
-  "nID": 2830,
+  "nID": 2841,
   "SubName": "Cimeroran",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -23,8 +23,8 @@
   "Powers": [
     {
       "CastTimeReal": 2.03,
-      "PowerIndex": 5311,
-      "PowerSetID": 2830,
+      "PowerIndex": 5320,
+      "PowerSetID": 2841,
       "StaticIndex": 5496,
       "NGroupMembership": [],
       "FullName": "Incarnate.Lore_Pet_Cimeroran_Support.Healing_Aura",
@@ -144,8 +144,8 @@
     },
     {
       "CastTimeReal": 2.27,
-      "PowerIndex": 5312,
-      "PowerSetID": 2830,
+      "PowerIndex": 5321,
+      "PowerSetID": 2841,
       "PowerSetIndex": 1,
       "StaticIndex": 5497,
       "NGroupMembership": [],

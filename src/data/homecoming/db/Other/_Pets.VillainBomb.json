@@ -4,15 +4,15 @@
   "FullName": "Pets.VillainBomb",
   "ImageName": "",
   "Power": [
-    6651,
-    6652,
-    6653,
-    6654
+    6671,
+    6672,
+    6673,
+    6674
   ],
   "SetType": 8,
   "DisplayName": "Bomb",
   "nArchetype": -1,
-  "nID": 3035,
+  "nID": 3041,
   "SubName": "Devices",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6651,
-      "PowerSetID": 3035,
+      "PowerIndex": 6671,
+      "PowerSetID": 3041,
       "StaticIndex": 1766,
       "NGroupMembership": [],
       "FullName": "Pets.VillainBomb.Time_Bomb",
@@ -248,8 +248,8 @@
       "AoEModifier": 4.0
     },
     {
-      "PowerIndex": 6652,
-      "PowerSetID": 3035,
+      "PowerIndex": 6672,
+      "PowerSetID": 3041,
       "PowerSetIndex": 1,
       "StaticIndex": 1767,
       "NGroupMembership": [],
@@ -358,8 +358,8 @@
       "AoEModifier": 6.25
     },
     {
-      "PowerIndex": 6653,
-      "PowerSetID": 3035,
+      "PowerIndex": 6673,
+      "PowerSetID": 3041,
       "PowerSetIndex": 2,
       "StaticIndex": 1768,
       "NGroupMembership": [],
@@ -2431,8 +2431,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 6654,
-      "PowerSetID": 3035,
+      "PowerIndex": 6674,
+      "PowerSetID": 3041,
       "PowerSetIndex": 3,
       "StaticIndex": 1769,
       "NGroupMembership": [],

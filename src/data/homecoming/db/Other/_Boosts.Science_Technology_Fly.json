@@ -4,12 +4,12 @@
   "FullName": "Boosts.Science_Technology_Fly",
   "ImageName": "",
   "Power": [
-    2492
+    2498
   ],
   "SetType": 10,
   "DisplayName": "Science Technology Fly",
   "nArchetype": -1,
-  "nID": 2247,
+  "nID": 2253,
   "SubName": "Invention (Science, Technology)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2492,
-      "PowerSetID": 2247,
+      "PowerIndex": 2498,
+      "PowerSetID": 2253,
       "StaticIndex": 8417,
       "NGroupMembership": [],
       "FullName": "Boosts.Science_Technology_Fly.Science_Technology_Fly",

@@ -4,13 +4,13 @@
   "FullName": "Mastermind_Pets.Hellfire_Gargoyle_3",
   "ImageName": "",
   "Power": [
-    5925,
-    5926
+    5934,
+    5935
   ],
   "SetType": 8,
   "DisplayName": "Hellfire Gargoyle",
   "nArchetype": -1,
-  "nID": 2956,
+  "nID": 2966,
   "SubName": "Demons",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
     {
       "CastTimeReal": 1.5,
       "ToggleCost": 8.528,
-      "PowerIndex": 5925,
-      "PowerSetID": 2956,
+      "PowerIndex": 5934,
+      "PowerSetID": 2966,
       "StaticIndex": 4242,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Hellfire_Gargoyle_3.Hellfire_Smash",
@@ -561,8 +561,8 @@
     {
       "CastTimeReal": 3.0,
       "ToggleCost": 13.0,
-      "PowerIndex": 5926,
-      "PowerSetID": 2956,
+      "PowerIndex": 5935,
+      "PowerSetID": 2966,
       "PowerSetIndex": 1,
       "StaticIndex": 4244,
       "NGroupMembership": [],

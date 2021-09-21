@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Air_Burst_B",
   "ImageName": "",
   "Power": [
-    1214
+    1220
   ],
   "SetType": 10,
   "DisplayName": "Crafted Air Burst B",
   "nArchetype": -1,
-  "nID": 969,
+  "nID": 975,
   "SubName": "Set: Air Burst",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1214,
-      "PowerSetID": 969,
+      "PowerIndex": 1220,
+      "PowerSetID": 975,
       "StaticIndex": 7166,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Air_Burst_B.Crafted_Air_Burst_B",

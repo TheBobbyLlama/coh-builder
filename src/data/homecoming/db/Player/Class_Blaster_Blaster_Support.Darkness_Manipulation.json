@@ -4345,6 +4345,7 @@
         31,
         33
       ],
+      "ClickBuff": true,
       "Level": 20,
       "VariableName": "",
       "NIDSubPower": [],

@@ -4,16 +4,16 @@
   "FullName": "Epic.Sentinel_Ice_Mastery",
   "ImageName": "IceManipulation.png",
   "Power": [
-    4353,
-    4354,
-    4355,
-    4356,
-    4357
+    4362,
+    4363,
+    4364,
+    4365,
+    4366
   ],
   "SetType": 3,
   "DisplayName": "Ice Mastery",
   "nArchetype": 7,
-  "nID": 2750,
+  "nID": 2759,
   "SubName": "Ice Mastery",
   "ATClass": "Class_Sentinel",
   "UIDTrunkSet": "",
@@ -27,8 +27,8 @@
     {
       "CastTimeReal": 2.07,
       "ToggleCost": 19.5,
-      "PowerIndex": 4353,
-      "PowerSetID": 2750,
+      "PowerIndex": 4362,
+      "PowerSetID": 2759,
       "StaticIndex": 10393,
       "NGroupMembership": [],
       "FullName": "Epic.Sentinel_Ice_Mastery.Frostbite",
@@ -937,8 +937,8 @@
     {
       "CastTimeReal": 1.33,
       "ToggleCost": 12.74,
-      "PowerIndex": 4354,
-      "PowerSetID": 2750,
+      "PowerIndex": 4363,
+      "PowerSetID": 2759,
       "PowerSetIndex": 1,
       "StaticIndex": 10394,
       "NGroupMembership": [],
@@ -1483,8 +1483,8 @@
       "CastTimeReal": 1.87,
       "ToggleCost": 10.66,
       "IsEpic": true,
-      "PowerIndex": 4355,
-      "PowerSetID": 2750,
+      "PowerIndex": 4364,
+      "PowerSetID": 2759,
       "PowerSetIndex": 2,
       "StaticIndex": 10395,
       "NGroupMembership": [],
@@ -1500,11 +1500,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4353,
+            4362,
             -1
           ],
           [
-            4354,
+            4363,
             -1
           ]
         ],
@@ -2341,8 +2341,8 @@
       "CastTimeReal": 2.1,
       "ToggleCost": 23.14,
       "IsEpic": true,
-      "PowerIndex": 4356,
-      "PowerSetID": 2750,
+      "PowerIndex": 4365,
+      "PowerSetID": 2759,
       "PowerSetIndex": 3,
       "StaticIndex": 10396,
       "NGroupMembership": [],
@@ -2358,11 +2358,11 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4353,
+            4362,
             -1
           ],
           [
-            4354,
+            4363,
             -1
           ]
         ],
@@ -2668,8 +2668,8 @@
       "CastTimeReal": 2.03,
       "ToggleCost": 0.65,
       "IsEpic": true,
-      "PowerIndex": 4357,
-      "PowerSetID": 2750,
+      "PowerIndex": 4366,
+      "PowerSetID": 2759,
       "PowerSetIndex": 4,
       "StaticIndex": 10397,
       "NGroupMembership": [],
@@ -2685,24 +2685,24 @@
         "NClassNameNot": [],
         "NPowerID": [
           [
-            4353,
-            4354
+            4362,
+            4363
           ],
           [
-            4353,
-            4355
+            4362,
+            4364
           ],
           [
-            4353,
-            4356
+            4362,
+            4365
           ],
           [
-            4354,
-            4355
+            4363,
+            4364
           ],
           [
-            4354,
-            4356
+            4363,
+            4365
           ]
         ],
         "NPowerIDNot": [],

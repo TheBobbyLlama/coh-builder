@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Cloud_Senses_C",
   "ImageName": "",
   "Power": [
-    1310
+    1316
   ],
   "SetType": 10,
   "DisplayName": "Crafted Cloud Senses C",
   "nArchetype": -1,
-  "nID": 1064,
+  "nID": 1070,
   "SubName": "Set: Cloud Senses",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1310,
-      "PowerSetID": 1064,
+      "PowerIndex": 1316,
+      "PowerSetID": 1070,
       "StaticIndex": 7255,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Cloud_Senses_C.Crafted_Cloud_Senses_C",

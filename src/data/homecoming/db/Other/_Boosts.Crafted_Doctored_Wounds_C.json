@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Doctored_Wounds_C",
   "ImageName": "",
   "Power": [
-    1429
+    1435
   ],
   "SetType": 10,
   "DisplayName": "Crafted Doctored Wounds C",
   "nArchetype": -1,
-  "nID": 1183,
+  "nID": 1189,
   "SubName": "Set: Doctored Wounds",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1429,
-      "PowerSetID": 1183,
+      "PowerIndex": 1435,
+      "PowerSetID": 1189,
       "StaticIndex": 7374,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Doctored_Wounds_C.Crafted_Doctored_Wounds_C",

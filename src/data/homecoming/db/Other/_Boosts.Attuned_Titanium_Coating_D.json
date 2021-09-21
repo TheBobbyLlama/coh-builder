@@ -4,12 +4,12 @@
   "FullName": "Boosts.Attuned_Titanium_Coating_D",
   "ImageName": "",
   "Power": [
-    1087
+    1093
   ],
   "SetType": 10,
   "DisplayName": "Attuned Titanium Coating D",
   "nArchetype": -1,
-  "nID": 842,
+  "nID": 848,
   "SubName": "Set: Titanium Coating",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1087,
-      "PowerSetID": 842,
+      "PowerIndex": 1093,
+      "PowerSetID": 848,
       "StaticIndex": 7063,
       "NGroupMembership": [],
       "FullName": "Boosts.Attuned_Titanium_Coating_D.Attuned_Titanium_Coating_D",

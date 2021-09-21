@@ -4,15 +4,15 @@
   "FullName": "Mastermind_Pets.Thug_Minion",
   "ImageName": "",
   "Power": [
-    6066,
-    6067,
-    6068,
-    6069
+    6075,
+    6076,
+    6077,
+    6078
   ],
   "SetType": 8,
   "DisplayName": "Thug Minion",
   "nArchetype": -1,
-  "nID": 2995,
+  "nID": 3006,
   "SubName": "Thugs",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -24,8 +24,8 @@
   "GroupName": "Mastermind_Pets",
   "Powers": [
     {
-      "PowerIndex": 6066,
-      "PowerSetID": 2995,
+      "PowerIndex": 6075,
+      "PowerSetID": 3006,
       "StaticIndex": 1392,
       "NGroupMembership": [],
       "FullName": "Mastermind_Pets.Thug_Minion.Resistance",
@@ -133,8 +133,8 @@
     {
       "CastTimeReal": 0.67,
       "ToggleCost": 4.368,
-      "PowerIndex": 6067,
-      "PowerSetID": 2995,
+      "PowerIndex": 6076,
+      "PowerSetID": 3006,
       "PowerSetIndex": 1,
       "StaticIndex": 1393,
       "NGroupMembership": [],
@@ -314,8 +314,8 @@
     {
       "CastTimeReal": 2.33,
       "ToggleCost": 5.2,
-      "PowerIndex": 6068,
-      "PowerSetID": 2995,
+      "PowerIndex": 6077,
+      "PowerSetID": 3006,
       "PowerSetIndex": 2,
       "StaticIndex": 1394,
       "NGroupMembership": [],
@@ -494,8 +494,8 @@
       "AoEModifier": 1.0
     },
     {
-      "PowerIndex": 6069,
-      "PowerSetID": 2995,
+      "PowerIndex": 6078,
+      "PowerSetID": 3006,
       "PowerSetIndex": 3,
       "StaticIndex": 1395,
       "NGroupMembership": [],

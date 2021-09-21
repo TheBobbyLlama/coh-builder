@@ -4,12 +4,12 @@
   "FullName": "Boosts.Crafted_Efficacy_Adaptor_F",
   "ImageName": "",
   "Power": [
-    1444
+    1450
   ],
   "SetType": 10,
   "DisplayName": "Crafted Efficacy Adaptor F",
   "nArchetype": -1,
-  "nID": 1198,
+  "nID": 1204,
   "SubName": "Set: Efficacy Adaptor",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 1444,
-      "PowerSetID": 1198,
+      "PowerIndex": 1450,
+      "PowerSetID": 1204,
       "StaticIndex": 7389,
       "NGroupMembership": [],
       "FullName": "Boosts.Crafted_Efficacy_Adaptor_F.Crafted_Efficacy_Adaptor_F",

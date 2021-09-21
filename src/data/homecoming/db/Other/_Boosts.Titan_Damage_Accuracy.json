@@ -4,12 +4,12 @@
   "FullName": "Boosts.Titan_Damage_Accuracy",
   "ImageName": "",
   "Power": [
-    2817
+    2829
   ],
   "SetType": 10,
   "DisplayName": "Titan Damage Accuracy",
   "nArchetype": -1,
-  "nID": 2572,
+  "nID": 2584,
   "SubName": "Titan (All Origins)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2817,
-      "PowerSetID": 2572,
+      "PowerIndex": 2829,
+      "PowerSetID": 2584,
       "StaticIndex": 8640,
       "NGroupMembership": [],
       "FullName": "Boosts.Titan_Damage_Accuracy.Titan_Damage_Accuracy",

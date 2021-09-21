@@ -4,13 +4,13 @@
   "FullName": "Pets.Epic_IceStorm",
   "ImageName": "",
   "Power": [
-    6319,
-    6320
+    6328,
+    6329
   ],
   "SetType": 8,
   "DisplayName": "Ice Storm",
   "nArchetype": -1,
-  "nID": 3108,
+  "nID": 3120,
   "SubName": "Ice Blast",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -22,8 +22,8 @@
   "GroupName": "Pets",
   "Powers": [
     {
-      "PowerIndex": 6319,
-      "PowerSetID": 3108,
+      "PowerIndex": 6328,
+      "PowerSetID": 3120,
       "StaticIndex": 1590,
       "NGroupMembership": [],
       "FullName": "Pets.Epic_IceStorm.IceStorm",
@@ -654,8 +654,8 @@
       "AoEModifier": 4.75
     },
     {
-      "PowerIndex": 6320,
-      "PowerSetID": 3108,
+      "PowerIndex": 6329,
+      "PowerSetID": 3120,
       "PowerSetIndex": 1,
       "StaticIndex": 1591,
       "NGroupMembership": [],

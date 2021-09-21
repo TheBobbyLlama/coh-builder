@@ -4,12 +4,12 @@
   "FullName": "Boosts.Mutation_Magic_Defense_DeBuff",
   "ImageName": "",
   "Power": [
-    2339
+    2345
   ],
   "SetType": 10,
   "DisplayName": "Mutation Magic Defense DeBuff",
   "nArchetype": -1,
-  "nID": 2093,
+  "nID": 2099,
   "SubName": "Focusing Device (Mutation, Magic)",
   "ATClass": "",
   "UIDTrunkSet": "",
@@ -21,8 +21,8 @@
   "GroupName": "Boosts",
   "Powers": [
     {
-      "PowerIndex": 2339,
-      "PowerSetID": 2093,
+      "PowerIndex": 2345,
+      "PowerSetID": 2099,
       "StaticIndex": 8264,
       "NGroupMembership": [],
       "FullName": "Boosts.Mutation_Magic_Defense_DeBuff.Mutation_Magic_Defense_DeBuff",
