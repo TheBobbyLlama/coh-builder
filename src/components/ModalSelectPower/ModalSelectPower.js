@@ -6,33 +6,30 @@ import { validPoolPower } from "../../utils/util";
 import "./ModalSelectPower.css";
 
 function ModalSelectPower() {
+	const [state, dispatch] = useStoreContext();
+
 	const findSelectedPowerset = () => {
 		const curPower = state.powers[state.modal.level]?.powerData;
 
 		if (curPower) {
-			if ((curPower.GroupName === "Pool") || (curPower.GroupName === "Epic")) {
-				return state.poolData.find(poolSet => poolSet.nID === curPower.PowerSetID);
-			} else if (curPower.GroupName === state.secondaryPowerset.GroupName) {
-				return state.secondaryPowerset;
-			}
+			return state.powersetData.find(curSet => curSet.nID === curPower.PowerSetID);
+		} else {
+			return state.primaryPowerset;
 		}
-
-		return state.primaryPowerset;
 	};
 
 	const findSelectedPowerList = (set) => {
 		if ((set.GroupName === "Pool") || (set.GroupName === "Epic")) {
 			return set.Powers.filter(item => ((item?.Level <= state.modal.level) && (validPoolPower(item, state.modal.level, state.powers))))
 		} else if (set.nID === state.primaryPowerset.nID) {
-			return set.Powers.filter(item => item?.Level <= state.modal.level);
+			return set.Powers.filter(item => ((item.Level) && (item.Level <= state.modal.level)));
 		} else if (set.nID === state.secondaryPowerset.nID) {
-			return set.Powers.filter(item => item?.Level <= state.modal.level && item.Level > 1)
+			return set.Powers.filter(item => ((item.Level) && (item.Level <= state.modal.level) && (item.Level > 1)));
 		} else {
 			return [];
 		}
 	}
 
-	const [state, dispatch] = useStoreContext();
 	const [selectedPowerset, setSelectedPowerset] = useState(findSelectedPowerset());
 	const [powerList, setPowerList] = useState(findSelectedPowerList(selectedPowerset));
 	const [showSelectedPowers, setShowSelectedPowers] = useState(false);
@@ -80,8 +77,8 @@ function ModalSelectPower() {
 		return icon;
 	}
 
-	const powerPools = ((state.pools.length >= 4) ? state.pools : state.poolData.filter(set => set.GroupName === "Pool")).filter(set => set.Powers.find(power => power.Level <= state.modal.level));
-	const epicPools = ((state.epicPool) ? [ state.epicPool ] : state.poolData.filter(set => state.archetype.Ancillary.indexOf(set.nID) > -1)).filter(set => set.Powers.find(power => power.Level <= state.modal.level));
+	const powerPools = ((state.pools.length >= 4) ? state.pools : state.powersetData.filter(set => set.GroupName === "Pool")).filter(set => set.Powers.find(power => ((power.Level) && (power.Level <= state.modal.level))));
+	const epicPools = ((state.epicPool) ? [ state.epicPool ] : state.powersetData.filter(set => state.archetype.Ancillary.indexOf(set.nID) > -1)).filter(set => set.Powers.find(power => power.Level <= state.modal.level));
 
 	return (
 		<div id="modalSelectPower" className="builderPanel">

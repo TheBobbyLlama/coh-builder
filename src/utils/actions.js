@@ -1,7 +1,6 @@
 export const SET_COLOR_THEME = "SET_COLOR_THEME";
 export const SET_DATA_ENVIRONMENT = "SET_DATA_ENVIRONMENT";
 export const SET_CURRENT_PAGE = "SET_CURRENT_PAGE";
-export const LOAD_POWER_POOL = "LOAD_POWER_POOL";
 export const SHOW_MODAL = "SHOW_MODAL";
 // Archetype Selector
 export const SELECT_ARCHETYPE = "SELECT_ARCHETYPE";

@@ -4,7 +4,6 @@ import {
 	SET_COLOR_THEME,
 	SET_DATA_ENVIRONMENT,
 	SET_CURRENT_PAGE,
-	LOAD_POWER_POOL,
 	SHOW_MODAL,
 	SELECT_ARCHETYPE,
 	SET_CHARACTER_NAME,
@@ -50,19 +49,6 @@ const clearCharacterData = (state) => {
 	state.slotCount = 0;
 };
 
-const getPowersetData = (state, powerType, powersetInfo) => {
-	if ((state.environment) && (state.archetype) && (powersetInfo)) {
-		var setName = powersetInfo.FileName || powersetInfo.DisplayName.replace(" ", "_");
-		var fileName = state.archetype.ClassName + "_" + powerType + ".";
-
-		let powerset = require("../data/" + state.environment + "/db/Player/" + fileName + setName + ".json");
-		return powerset;
-	}
-	else {
-		return null;
-	}
-};
-
 export const reducer = (state, action) => {
 	let newState;
 
@@ -74,21 +60,12 @@ export const reducer = (state, action) => {
 
 			if (action.environment) {
 				clearCharacterData(newState);
-				[newState.powerData, newState.poolData] = initializeDataset(action.environment);
+				[newState.archetypeData, newState.attribModData, newState.enhancementData, newState.enhancementClassData, newState.powersetData] = initializeDataset(action.environment);
 				localStorage.setItem("environment", action.environment);
 			}
 			return newState;
 		case SET_CURRENT_PAGE:
 			return { ...state, page: action.page, theme: "Hero" };
-		case LOAD_POWER_POOL:
-			newState = { ...state };
-
-			if ((action.powerPool) && (!newState.poolData.find(curPool => curPool.nID === action.powerPool.nID))) {
-				newState.poolData.push(action.powerPool);
-				newState.poolData = newState.poolData.sort(displayNameSort);
-			}
-
-			return newState;
 		case SHOW_MODAL:
 			newState = { ...state };
 
@@ -111,16 +88,12 @@ export const reducer = (state, action) => {
 					newState.origin = action.archetype.Origin[0];
 				}
 
-				newState.primaryPowersetList = newState.powerData.filter(curSet => curSet.nIDs.find(item => newState.archetype.Primary.indexOf(item) > -1)).sort(displayNameSort);
-				newState.secondaryPowersetList = newState.powerData.filter(curSet => curSet.nIDs.find(item => newState.archetype.Secondary.indexOf(item) > -1)).sort(displayNameSort);
 				newState.powers = {};
 
-				if (newState.primaryPowersetList.length) {
-					newState.primaryPowerset = getPowersetData(newState, newState.archetype.PrimaryGroup, newState.primaryPowersetList[0]);
-				}
+				newState.primaryPowerset = newState.powersetData.find(item => item.GroupName === newState.archetype.PrimaryGroup);
+				newState.secondaryPowerset = newState.powersetData.find(item => item.GroupName === newState.archetype.SecondaryGroup);
 
-				if (newState.secondaryPowersetList.length) {
-					newState.secondaryPowerset = getPowersetData(newState, newState.archetype.SecondaryGroup, newState.secondaryPowersetList[0]);
+				if (newState.secondaryPowerset) {
 					newState.powers[1.1] = { powerData: newState.secondaryPowerset.Powers.find(item => item.Level === 1), slots: [ undefined ] };
 				}
 
@@ -157,7 +130,7 @@ export const reducer = (state, action) => {
 			}
 
 			if ((newState.archetype) && (action.powerset)) {
-				newState.primaryPowerset = getPowersetData(newState, newState.archetype.PrimaryGroup, action.powerset);
+				newState.primaryPowerset = action.powerset;
 			} else {
 				delete newState.primaryPowerset;
 			}
@@ -175,7 +148,7 @@ export const reducer = (state, action) => {
 			}
 
 			if ((newState.archetype) && (action.powerset)) {
-				newState.secondaryPowerset = getPowersetData(newState, newState.archetype.SecondaryGroup, action.powerset);
+				newState.secondaryPowerset = action.powerset;
 				newState.powers[1.1] = { powerData: newState.secondaryPowerset.Powers.find(item => item.Level === 1), slots: [ undefined ] }
 			} else {
 				delete newState.secondaryPowerset;
@@ -199,13 +172,13 @@ export const reducer = (state, action) => {
 					var selectedPool = newState.pools.find(curPool => curPool.nID === action.power.PowerSetID);
 
 					if (!selectedPool) {
-						selectedPool = newState.poolData.find(mySet => mySet.nID === action.power.PowerSetID);
+						selectedPool = newState.powersetData.find(mySet => mySet.nID === action.power.PowerSetID);
 						newState.pools.push(selectedPool);
 						newState.pools.sort(displayNameSort);
 					}
 				} else if (action.power.GroupName === "Epic") {
 					if (!newState.epicPool) {
-						newState.epicPool = newState.poolData.find(mySet => mySet.nID === action.power.PowerSetID);
+						newState.epicPool = newState.powersetData.find(mySet => mySet.nID === action.power.PowerSetID);
 					} else if (state.epicPool.nID !== action.power.PowerSetID) {
 						console.log("ERROR!  Tried to add an epic power from another pool!"); // TODO - Make this an error modal!
 						return newState;

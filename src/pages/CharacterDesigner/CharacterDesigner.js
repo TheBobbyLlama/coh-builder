@@ -13,14 +13,16 @@ function CharacterDesigner() {
 	const [myName, setMyName] = useState("");
 
 	const powerLevels = [ 1, 1.1, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 35, 38, 41, 44, 47, 49 ];
+	const primaryPowersetList = state.powersetData.filter(item => item.GroupName === state.archetype.PrimaryGroup);
+	const secondaryPowersetList = state.powersetData.filter(item => item.GroupName === state.archetype.SecondaryGroup);
 
 	useEffect(() => {
 		if (state?.archetype) {
 			var ATinfo = state.archetype.DisplayName;
 
 			if ((state.primaryPowerset) && (state.secondaryPowerset)) {
-				var primary = state.powerData.find(set => set.DisplayName === state.primaryPowerset.DisplayName);
-				var secondary = state.powerData.find(set => set.DisplayName === state.secondaryPowerset.DisplayName);
+				var primary = primaryPowersetList.find(set => set.DisplayName === state.primaryPowerset.DisplayName);
+				var secondary = secondaryPowersetList.find(set => set.DisplayName === state.secondaryPowerset.DisplayName);
 				ATinfo = (primary.ShortName || primary.DisplayName) + "/" + (secondary.ShortName || secondary.DisplayName) + " " + ATinfo;
 			}
 
@@ -32,7 +34,7 @@ function CharacterDesigner() {
 		} else {
 			document.title = "CoH Builder";
 		}
-	 }, [ state ]);
+	 }, [ state, primaryPowersetList, secondaryPowersetList ]);
 
 	const showCloseModal = () => {
 		dispatch({ type: SHOW_MODAL, modal: { key: MODAL_LEAVE_DESIGNER } });
@@ -53,23 +55,23 @@ function CharacterDesigner() {
 	};
 
 	const getPrimaryPowersetIcon = (setName) => {
-		const powerset = state.powerData.find(item => item.DisplayName === setName);
+		const powerset = primaryPowersetList.find(item => item.DisplayName === setName);
 		const setIcon = require("../../assets/images/powersets/" + powerset.ImageName);
 		return setIcon;
 	};
 
 	const changePrimaryPowerset = (setName) => {
-		dispatch({ type: SELECT_PRIMARY_POWERSET, powerset: state.primaryPowersetList.find(item => item.DisplayName === setName) });
+		dispatch({ type: SELECT_PRIMARY_POWERSET, powerset: primaryPowersetList.find(item => item.DisplayName === setName) });
 	};
 
 	const getSecondaryPowersetIcon = (setName) => {
-		const powerset = state.powerData.find(item => item.DisplayName === setName);
+		const powerset = secondaryPowersetList.find(item => item.DisplayName === setName);
 		const setIcon = require("../../assets/images/powersets/" + powerset.ImageName);
 		return setIcon;
 	};
 
 	const changeSecondaryPowerset = (setName) => {
-		dispatch({ type: SELECT_SECONDARY_POWERSET, powerset: state.secondaryPowersetList.find(item => item.DisplayName === setName) });
+		dispatch({ type: SELECT_SECONDARY_POWERSET, powerset: secondaryPowersetList.find(item => item.DisplayName === setName) });
 	};
 
 	const setColorTheme = (theme) => {
@@ -96,13 +98,13 @@ function CharacterDesigner() {
 				</div>
 				<div id="powersetSelection">
 					<IconDropdown
-						itemList={state.primaryPowersetList.map(item => item.DisplayName)}
+						itemList={primaryPowersetList}
 						iconFunc={getPrimaryPowersetIcon}
 						selectedItem={state.primaryPowerset.DisplayName}
 						changeFunc={changePrimaryPowerset}
 					/>
 					<IconDropdown
-						itemList={state.secondaryPowersetList.map(item => item.DisplayName)}
+						itemList={secondaryPowersetList}
 						iconFunc={getSecondaryPowersetIcon}
 						selectedItem={state.secondaryPowerset.DisplayName}
 						changeFunc={changeSecondaryPowerset}

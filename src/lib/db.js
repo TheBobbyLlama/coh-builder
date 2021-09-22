@@ -1,5 +1,5 @@
 export const initializeDataset = (environment) => {
-	const powersetAtlas = require("../data/" + environment + "/PowerSets.json");
+/*	const powersetAtlas = require("../data/" + environment + "/PowerSets.json");
 	const poolAtlas = require("../data/" + environment + "/PowerPools.json");
 	const poolData = [];
 
@@ -18,9 +18,16 @@ export const initializeDataset = (environment) => {
 		}
 	}
 
-	return [powersetAtlas, poolData];
-}
+	return [powersetAtlas, poolData];*/
+	const archetypeData = require("../data/" + environment + "/Archetypes.json").filter(item => item.Playable);
+	const attribModData = require("../data/" + environment + "/AttribMods.json");
+	const enhancementData = require("../data/" + environment + "/Enhancement.json");
+	const enhancementClassData = require ("../data/" + environment + "/EnhancementClasses.json");
+	const powersetData = require("../data/" + environment + "/PowerSets.json");
 
+	return [archetypeData, attribModData, enhancementData, enhancementClassData, powersetData];
+}
+/*
 export const getArchetypeData = (environment) => {
 	var result = require("../data/" + environment + "/I12.json");
 
@@ -29,4 +36,4 @@ export const getArchetypeData = (environment) => {
 	} else {
 		return [];
 	}
-};
+};*/

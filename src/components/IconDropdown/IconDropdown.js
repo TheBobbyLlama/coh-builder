@@ -17,8 +17,9 @@ function IconDropdown({ itemList, iconFunc, selectedItem, changeFunc, disabled})
 			{((!disabled) && (openState)) ? <>
 				<div className="dropdownList">
 					{itemList.map(curItem => {
-						var selected = (curItem === selectedItem) ? "selected" : "";
-						return <div className={selected} key={curItem} onClick={() => { changeFunc(curItem); }}><img src={iconFunc(curItem).default} alt="" /> {curItem}</div>
+						var curName = curItem.DisplayName || curItem;
+						var selected = ((curItem === selectedItem) || (curItem.DisplayName === selectedItem)) ? "selected" : "";
+						return <div className={selected} key={curName} onClick={() => { changeFunc(curItem.DisplayName || curItem); }}><img src={iconFunc(curItem.DisplayName || curItem).default} alt="" /> {curItem.DisplayName || curItem}</div>
 					})}
 				</div>
 				<div className="modalBack" />
