@@ -22,7 +22,7 @@ function SlotWidget({ target, clickFunc, selectedIndex, showAdd }) {
 				<div key={index}  onClick={(event) => { event.stopPropagation(); clickFunc(index); }}><Enhancement enhancement={item} /></div>);
 			})}
 			{((showAdd) && (target.slots.length < 6) && (state.slotCount < state.slotMax)) ?
-				<div className="addMe" onClick={addSlot}>+</div> : <></>
+				<div className="addMe" onClick={addSlot}><div>+</div></div> : <></>
 			}
 		</div>
 	);

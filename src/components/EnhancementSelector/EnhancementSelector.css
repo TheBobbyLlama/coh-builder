@@ -1,0 +1,23 @@
+#enhancementSelector {
+	display: flex;
+	height: 100%;
+}
+
+#enhancementSelector > div {
+	width: 50%;
+}
+
+#enhancementSelector #enhancementList {
+	border-left: Solid 1px var(--main-blue);
+}
+
+#enhancementSelector #enhancementTabs {
+	align-items: center;
+	border-bottom: Solid 1px var(--main-blue-dark);
+	display: flex;
+	height: 40px;
+}
+
+.Villain #enhancementSelector #enhancementList {
+	border-color: var(--main-red);
+}

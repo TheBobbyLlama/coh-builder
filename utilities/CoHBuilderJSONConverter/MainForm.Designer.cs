@@ -86,6 +86,7 @@ namespace CoHBuilderJSONConverter
             // 
             // btnConvert
             // 
+            this.btnConvert.Enabled = false;
             this.btnConvert.Location = new System.Drawing.Point(6, 19);
             this.btnConvert.Name = "btnConvert";
             this.btnConvert.Size = new System.Drawing.Size(75, 23);

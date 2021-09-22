@@ -88,13 +88,13 @@ function ModalSelectPower() {
 			<h3>Select Power</h3>
 			<div id="powerSelectionPanel">
 				<div id="powersetList" className={"builderInset" + ((showSelectedPowers) ? " hideMobile" : "")}>
-					<div onClick={selectPrimaryPowerset} className={(state.primaryPowerset.nID === selectedPowerset?.nID) ? "selected" : ""}><img src={getIcon(state.primaryPowerset)} alt="" /> <b>{state.primaryPowerset.DisplayName}</b></div>
-					{(state.modal.level >= 2) ? <div onClick={selectSecondaryPowerset} className={(state.secondaryPowerset.nID === selectedPowerset?.nID) ? "selected" : ""}><img src={getIcon(state.secondaryPowerset)} alt="" /> <b>{state.secondaryPowerset.DisplayName}</b></div> : <></> }
+					<div onClick={selectPrimaryPowerset} className={(state.primaryPowerset.nID === selectedPowerset?.nID) ? "selected" : ""} title={state.primaryPowerset.Description}><img src={getIcon(state.primaryPowerset)} alt="" /> <b>{state.primaryPowerset.DisplayName}</b></div>
+					{(state.modal.level >= 2) ? <div onClick={selectSecondaryPowerset} className={(state.secondaryPowerset.nID === selectedPowerset?.nID) ? "selected" : ""} title={state.secondaryPowerset.Description}><img src={getIcon(state.secondaryPowerset)} alt="" /> <b>{state.secondaryPowerset.DisplayName}</b></div> : <></> }
 					{powerPools.map((poolSet, index) => {
-						return (<div key={"pool" + index} onClick={() => {selectPoolPowerset(poolSet); }} className={(poolSet.nID === selectedPowerset?.nID) ? "selected" : ""}><img src={getIcon(poolSet)} alt="" /> {poolSet.DisplayName}</div>);
+						return (<div key={"pool" + index} onClick={() => {selectPoolPowerset(poolSet); }} className={(poolSet.nID === selectedPowerset?.nID) ? "selected" : ""} title={poolSet.Description}><img src={getIcon(poolSet)} alt="" /> {poolSet.DisplayName}</div>);
 					})}
 					{epicPools.map((poolSet, index) => {
-						return (<div key={"pool" + index} onClick={() => {selectPoolPowerset(poolSet); }} className={(poolSet.nID === selectedPowerset?.nID) ? "selected" : ""}><img src={getIcon(poolSet)} alt="" /> <i>{poolSet.DisplayName}</i></div>);
+						return (<div key={"pool" + index} onClick={() => {selectPoolPowerset(poolSet); }} className={(poolSet.nID === selectedPowerset?.nID) ? "selected" : ""} title={poolSet.Description}><img src={getIcon(poolSet)} alt="" /> <i>{poolSet.DisplayName}</i></div>);
 					})}
 					{(state.powers[state.modal.level]) ? <div onClick={setClearList} className={"spaceMe" + ((selectedPowerset?.nID === -1) ? " selected" : "")}><i>Remove Power</i></div> : <></>}
 				</div>

@@ -3,6 +3,7 @@ import { useState } from "react";
 import { MODAL_HIDE, SHOW_MODAL } from "../../utils/actions";
 
 import SlotWidget from "../SlotWidget/SlotWidget";
+import EnhancementSelector from "../EnhancementSelector/EnhancementSelector";
 
 import "./ModalEnhancePower.css";
 
@@ -32,6 +33,8 @@ function ModalEnhancePower() {
 					showAdd={true}
 				/>
 			</div>
+			<EnhancementSelector
+			/>
 		</div>
 	);
 }

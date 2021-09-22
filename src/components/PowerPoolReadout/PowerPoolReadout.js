@@ -7,7 +7,7 @@ function PowerPoolReadout() {
 
 	const displayPool = (pool) => {
 		const setIcon = require("../../assets/images/powersets/" + pool.ImageName)?.default;
-		return (<div key={pool.nID}><img src={setIcon} alt="" /> {pool.DisplayName}</div>);
+		return (<div key={pool.nID} title={pool.Description}><img src={setIcon} alt="" /> {pool.DisplayName}</div>);
 	}
 
 	return (

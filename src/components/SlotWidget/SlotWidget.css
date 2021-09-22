@@ -29,7 +29,7 @@ div.slotWidget > div.selected > *, div.slotWidget > div.selected:hover > * {
 	cursor: default;
 }
 
-div.slotWidget > div.addMe {
+div.slotWidget > div.addMe > div {
 	align-items: center;
 	display: flex;
 	font-family: 'Red Circle';
@@ -39,7 +39,7 @@ div.slotWidget > div.addMe {
 	opacity: 0.5;
 }
 
-div.slotWidget > div.addMe:hover {
+div.slotWidget > div.addMe:hover > div {
 	opacity: 0.75;
 }
 

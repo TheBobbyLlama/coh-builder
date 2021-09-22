@@ -160,6 +160,26 @@ export const reducer = (state, action) => {
 
 			delete newState.modal;
 
+			if (newState.powers[action.level]) {
+				if (newState.powers[action.level].powerData.GroupName === "Pool") {
+					let powerCount = Object.entries(newState.powers).filter(item => item[1].powerData.PowerSetID === newState.powers[action.level].powerData.PowerSetID).length;
+
+					if (powerCount <= 1) {
+						let poolIndex = newState.pools.findIndex(item => item.nID === newState.powers[action.level].powerData.PowerSetID);
+
+						if (poolIndex > -1) {
+							newState.pools.splice(poolIndex, 1);
+						}
+					}
+				} else if (newState.powers[action.level].powerData.GroupName === "Epic") {
+					let powerCount = Object.entries(newState.powers).filter(item => item[1].powerData.PowerSetID === newState.powers[action.level].powerData.PowerSetID).length;
+
+					if (powerCount <= 1) {
+						delete newState.epicPool;
+					}
+				}
+			}
+
 			if (action.power?.PowerIndex > 0) {
 				// Clear out the power if we have it selected somewhere else.
 				for (const [key, value] of Object.entries(newState.powers)) {
@@ -187,24 +207,6 @@ export const reducer = (state, action) => {
 
 				newState.powers[action.level] = { powerData: action.power, slots: [ undefined ] };
 				return newState
-			} else if (newState.powers[action.level]) {
-				if (newState.powers[action.level].powerData.GroupName === "Pool") {
-					let powerCount = Object.entries(newState.powers).filter(item => item[1].powerData.PowerSetID === newState.powers[action.level].powerData.PowerSetID).length;
-
-					if (powerCount <= 1) {
-						let poolIndex = newState.pools.findIndex(item => item.nID === newState.powers[action.level].powerData.PowerSetID);
-
-						if (poolIndex > -1) {
-							newState.pools.splice(poolIndex, 1);
-						}
-					}
-				} else if (newState.powers[action.level].powerData.GroupName === "Epic") {
-					let powerCount = Object.entries(newState.powers).filter(item => item[1].powerData.PowerSetID === newState.powers[action.level].powerData.PowerSetID).length;
-
-					if (powerCount <= 1) {
-						delete newState.epicPool;
-					}
-				}
 			}
 
 			delete newState.powers[action.level]; // This is after all the other logic to ensure bad data is cleaned up.

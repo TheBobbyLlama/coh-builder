@@ -27,6 +27,8 @@ namespace CoHBuilderJSONConverter
                 txtConsole.Text += Environment.NewLine;
 
             txtConsole.Text += update;
+
+            Refresh();
         }
 
         private string FixATGRoupName(string groupName)
@@ -133,18 +135,23 @@ namespace CoHBuilderJSONConverter
         {
             if (File.Exists(workingFolder + "\\Archetypes.json"))
             {
+                List<ArchetypeData> ATOutput = new List<ArchetypeData>();
                 PostConsoleUpdate("Processing Archetypes.json...");
                 List<ArchetypeData> ATData = JsonConvert.DeserializeObject<List<ArchetypeData>>(File.ReadAllText(workingFolder + "\\Archetypes.json"));
 
                 for (int i = 0; i < ATData.Count; i++)
                 {
-                    ATData[i].PrimaryGroup = FixATGRoupName(ATData[i].PrimaryGroup);
-                    ATData[i].SecondaryGroup = FixATGRoupName(ATData[i].SecondaryGroup);
+                    if (ATData[i].Playable)
+                    {
+                        ATData[i].PrimaryGroup = FixATGRoupName(ATData[i].PrimaryGroup);
+                        ATData[i].SecondaryGroup = FixATGRoupName(ATData[i].SecondaryGroup);
+                        ATOutput.Add(ATData[i]);
+                    }
                 }
 
-                File.WriteAllText(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\Archetypes.json", JsonConvert.SerializeObject(ATData, Formatting.Indented));
+                File.WriteAllText(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\Archetypes.json", JsonConvert.SerializeObject(ATOutput, Formatting.Indented));
 
-                PostConsoleUpdate(string.Format("Processed {0} archetypes.", ATData.Count));
+                PostConsoleUpdate(string.Format("Processed {0} archetypes, wrote {1}.", ATData.Count, ATOutput.Count));
             }
             else
             {
@@ -197,13 +204,15 @@ namespace CoHBuilderJSONConverter
                 workingFolder = openMe.SelectedPath;
                 txtFolderName.Text = workingFolder;
             }
+
+            btnConvert.Enabled = !string.IsNullOrEmpty(workingFolder);
         }
 
         private void btnConvert_Click(object sender, EventArgs e)
         {
             ProcessArchetypeFile();
-            Refresh();
             ProcessPowersetFile();
+            PostConsoleUpdate("Done!");
         }
     }
 }
