@@ -29,6 +29,17 @@ namespace CoHBuilderJSONConverter
             txtConsole.Text += update;
         }
 
+        private string FixATGRoupName(string groupName)
+        {
+            string[] parts = groupName.Split(new char[] { '_' }, StringSplitOptions.RemoveEmptyEntries);
+
+            for (int i = 0; i < parts.Length; i++)
+            {
+                parts[i] = parts[i].Substring(0, 1).ToUpper() + parts[i].Substring(1).ToLower();
+            }
+
+            return string.Join("_", parts);
+        }
         private string GetShortPowersetName(string powersetName)
         {
             switch(powersetName)
@@ -118,6 +129,29 @@ namespace CoHBuilderJSONConverter
             }
         }
 
+        private void ProcessArchetypeFile()
+        {
+            if (File.Exists(workingFolder + "\\Archetypes.json"))
+            {
+                PostConsoleUpdate("Processing Archetypes.json...");
+                List<ArchetypeData> ATData = JsonConvert.DeserializeObject<List<ArchetypeData>>(File.ReadAllText(workingFolder + "\\Archetypes.json"));
+
+                for (int i = 0; i < ATData.Count; i++)
+                {
+                    ATData[i].PrimaryGroup = FixATGRoupName(ATData[i].PrimaryGroup);
+                    ATData[i].SecondaryGroup = FixATGRoupName(ATData[i].SecondaryGroup);
+                }
+
+                File.WriteAllText(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\Archetypes.json", JsonConvert.SerializeObject(ATData, Formatting.Indented));
+
+                PostConsoleUpdate(string.Format("Processed {0} archetypes.", ATData.Count));
+            }
+            else
+            {
+                PostConsoleUpdate("File not found - Archetypes.json");
+            }
+        }
+
         private void ProcessPowersetFile()
         {
             if (File.Exists(workingFolder + "\\PowerSets.json"))
@@ -167,6 +201,8 @@ namespace CoHBuilderJSONConverter
 
         private void btnConvert_Click(object sender, EventArgs e)
         {
+            ProcessArchetypeFile();
+            Refresh();
             ProcessPowersetFile();
         }
     }
