@@ -18,6 +18,52 @@
 	height: 40px;
 }
 
+#enhancementSelector #enhancementTabs > div {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	cursor: pointer;
+	height:32px;
+	padding: 8px 12px 8px 12px;
+	margin-top: -8px;
+	width: 32px;
+}
+
+#enhancementSelector #enhancementTabs > div + div {
+	border-left: solid 1px var(--main-blue-dark);
+}
+
+#enhancementSelector #enhancementTabs > div.selected {
+	background-color: var(--main-blue);
+	pointer-events: none;
+}
+
+#enhancementSelector #enhancementTabs > div:not(.selected):not(:hover) {
+	opacity: 0.5;
+}
+
+#enhancementSelector #enhancementTabs > div:hover {
+	background-color: var(--main-blue-dark);
+}
+
+#enhancementSelector #enhancementTabs > div.selected > *, #enhancementSelector #enhancementTabs > div:hover > * {
+	background-color: var(--main-blue-highlight);
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px 1px var(--main-blue-highlight);;
+}
+
 .Villain #enhancementSelector #enhancementList {
 	border-color: var(--main-red);
+}
+
+.Villain #enhancementSelector #enhancementTabs, .Villain #enhancementSelector #enhancementTabs > div + div {
+	border-color: var(--main-red-dark);
+}
+
+.Villain #enhancementSelector #enhancementTabs > div:hover {
+	background-color: var(--main-red-dark);
+}
+
+.Villain #enhancementSelector #enhancementTabs > div:hover > * {
+	background-color: var(--main-red-highlight);
+	box-shadow: 0px 0px 5px 1px var(--main-red-highlight);;
 }

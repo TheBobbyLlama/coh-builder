@@ -214,7 +214,6 @@ export const reducer = (state, action) => {
 		case ADD_SLOT_TO_POWER:
 			newState = { ...state };
 
-			// The index check was needed because clicking the item fired the dispatch twice???
 			if ((action.powerInfo.slots.length < 6) && (newState.slotCount < newState.slotMax)) {
 				action.powerInfo.slots.push(undefined);
 				newState.slotCount++;

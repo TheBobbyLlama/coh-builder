@@ -8,3 +8,9 @@ div.enhancement {
 	padding: 0;
 	width: 100%;
 }
+
+div.enhancement img {
+	border: none;
+	height: 100%;
+	width: 100%;
+}

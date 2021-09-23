@@ -34,6 +34,7 @@ function ModalEnhancePower() {
 				/>
 			</div>
 			<EnhancementSelector
+				slotIndex={slotIndex}
 			/>
 		</div>
 	);
