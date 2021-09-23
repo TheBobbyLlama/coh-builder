@@ -18,6 +18,14 @@
   src: local('Red Circle'), url(./assets/fonts/REDCIRCL.ttf) format('truetype');
 }
 
+a:link {
+  color: #80c0ff;
+}
+
+a:visited {
+  color: #60a0ff;
+}
+
 h1, h2, h3, h4, h5 {
   font-family: 'Red Circle';
   margin: 0;
