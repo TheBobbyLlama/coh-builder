@@ -1,9 +1,9 @@
 import "./Enhancement.css";
 
-function Enhancement({ enhancement, useSets }) {
+function Enhancement({ enhancement, pathOverride }) {
 	const getImage = () => {
 		if (enhancement?.Image) {
-			return require("../../assets/images/" + ((useSets) ? "sets" : "enhancements") + "/" + enhancement.Image).default;
+			return require("../../assets/images/" + (pathOverride || "enhancements") + "/" + enhancement.Image).default;
 		} else {
 			return undefined;
 		}
@@ -11,9 +11,23 @@ function Enhancement({ enhancement, useSets }) {
 
 	const myImage = getImage();
 
+	const getBackground = () => {
+		switch (enhancement?.TypeID) {
+			case -1:
+				return " blank";
+			case 2:
+				return " IO";
+			case 3:
+				return " HO";
+			default:
+				return "";
+		}
+	}
+
 	return (
-		<div className="enhancement" title={enhancement?.LongName}>
-			{(myImage) ? (<img src={myImage} alt={enhancement?.LongName} />) : <></>}
+		<div className={"enhancement" + getBackground()} title={enhancement?.Name || enhancement?.LongName}>
+			{(myImage) ? (<img src={myImage} alt={enhancement?.Name || enhancement?.LongName} />) : <></>}
+			{(enhancement?.SpecialText) ? <div className="specialText">{enhancement.SpecialText}</div> : <></>}
 		</div>
 	);
 }

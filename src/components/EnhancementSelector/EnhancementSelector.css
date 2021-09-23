@@ -1,5 +1,6 @@
 #enhancementSelector {
 	display: flex;
+	padding-top: 4px;
 	height: 100%;
 }
 
@@ -7,14 +8,11 @@
 	width: 50%;
 }
 
-#enhancementSelector #enhancementList {
-	border-left: Solid 1px var(--main-blue);
-}
-
 #enhancementSelector #enhancementTabs {
 	align-items: center;
 	border-bottom: Solid 1px var(--main-blue-dark);
 	display: flex;
+	flex-basis: 1%;
 	height: 40px;
 }
 
@@ -22,36 +20,87 @@
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
 	cursor: pointer;
-	height:32px;
+	height:30px;
 	padding: 8px 12px 8px 12px;
-	margin-top: -8px;
-	width: 32px;
+	width: 30px;
 }
 
 #enhancementSelector #enhancementTabs > div + div {
 	border-left: solid 1px var(--main-blue-dark);
 }
 
-#enhancementSelector #enhancementTabs > div.selected {
+#enhancementSelector #enhancementTabs > div.selected, #enhancementSelector #setCategories > div.selected {
 	background-color: var(--main-blue);
 	pointer-events: none;
 }
 
-#enhancementSelector #enhancementTabs > div:not(.selected):not(:hover) {
+#enhancementSelector #enhancementPanel #enhancementList > div.selected, #enhancementSelector #enhancementPanel #enhancementList > div.selected:hover {
+	background-color: var(--main-blue);
+}
+
+#enhancementSelector #enhancementTabs > div:not(.selected):not(:hover), #enhancementSelector #setCategories > div:not(.selected):not(:hover) {
 	opacity: 0.5;
 }
 
-#enhancementSelector #enhancementTabs > div:hover {
+#enhancementSelector #enhancementTabs > div:hover, #enhancementSelector #setCategories > div:hover, #enhancementSelector #enhancementPanel #enhancementList > div:hover {
 	background-color: var(--main-blue-dark);
 }
 
-#enhancementSelector #enhancementTabs > div.selected > *, #enhancementSelector #enhancementTabs > div:hover > * {
+#enhancementSelector #enhancementTabs > div.selected > *, #enhancementSelector #enhancementTabs > div:hover > *, #enhancementSelector #setCategories > div:hover > div, #enhancementSelector #enhancementPanel #enhancementList > div:hover > div  {
 	background-color: var(--main-blue-highlight);
 	border-radius: 50%;
-	box-shadow: 0px 0px 5px 1px var(--main-blue-highlight);;
+	box-shadow: 0px 0px 5px 1px var(--main-blue-highlight);
 }
 
-.Villain #enhancementSelector #enhancementList {
+#enhancementSelector #setCategories {
+	align-items: flex-start;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#enhancementSelector #setCategories > div {
+	border-radius: 4px;
+	cursor: pointer;
+	height: 30px;
+	margin: 2px 0px;
+	padding: 10px 13px 10px 12px;
+	width: 30px;
+}
+
+#enhancementSelector #enhancementTabs div.enhancement div.specialText {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#enhancementSelector #enhancementPanel {
+	border-left: Solid 1px var(--main-blue);
+	display: flex;
+	flex-direction: column;
+}
+
+#enhancementSelector #enhancementPanel #enhancementList {
+	height: 100%;
+	padding: 0 4px;
+}
+
+#enhancementSelector #enhancementPanel #enhancementList > div {
+	border-radius: 4px;
+	cursor: pointer;
+	display: inline-block;
+	padding: 10px 12px;
+}
+
+#enhancementSelector #enhancementPanel #enhancementList > div > div.enhancement {
+	height: 30px;
+	width: 30px;
+}
+
+#enhancementSelector #enhancementPanel #enhancementInfo {
+	height: 100%;
+	margin: 0px -5px -5px -1px;
+}
+
+.Villain #enhancementSelector #enhancementPanel {
 	border-color: var(--main-red);
 }
 
@@ -59,11 +108,21 @@
 	border-color: var(--main-red-dark);
 }
 
-.Villain #enhancementSelector #enhancementTabs > div:hover {
+.Villain #enhancementSelector #enhancementTabs > div.selected, .Villain #enhancementSelector #setCategories > div.selected, .Villain #enhancementSelector #enhancementTabs div.enhancement {
+	background-color: var(--main-red);
+}
+
+.Villain #enhancementSelector #enhancementTabs > div:hover, .Villain #enhancementSelector #setCategories > div:hover, .Villain #enhancementSelector #enhancementPanel #enhancementList > div:hover {
 	background-color: var(--main-red-dark);
 }
 
-.Villain #enhancementSelector #enhancementTabs > div:hover > * {
+.Villain #enhancementSelector #enhancementTabs > div.selected > *, .Villain #enhancementSelector #enhancementTabs > div:hover > *, .Villain #enhancementSelector #setCategories > div:hover > div, .Villain #enhancementSelector #enhancementPanel #enhancementList > div:hover > div {
 	background-color: var(--main-red-highlight);
-	box-shadow: 0px 0px 5px 1px var(--main-red-highlight);;
+	box-shadow: 0px 0px 5px 1px var(--main-red-highlight);
+}
+
+@media screen and (max-width: 680px) {
+	#enhancementSelector #enhancementPanel {
+		border: none;
+	}
 }

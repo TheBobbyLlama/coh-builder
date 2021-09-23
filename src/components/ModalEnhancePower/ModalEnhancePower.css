@@ -37,9 +37,26 @@
 	width: 212px;
 }
 
+#modalEnhancePower div.slotWidget > div:hover > * {
+	box-shadow: 0px 0px 5px 2px var(--main-blue);
+}
+
+#modalEnhancePower div.slotWidget > div.selected {
+	pointer-events: none;
+}
+
+#modalEnhancePower div.slotWidget > div.selected > *, #modalEnhancePower div.slotWidget > div.selected:hover > * {
+	box-shadow: 0px 0px 2px 2px var(--button-confirm-highlight);
+}
+
+.Villain #modalEnhancePower div.slotWidget > div:hover > * {
+	box-shadow: 0px 0px 5px 2px var(--main-red);
+}
+
 @media screen and (max-width: 680px) {
 	#modalEnhancePower {
 		margin: 0px 10px;
+		height: 90%;
 		width: 100%;
 	}
 }

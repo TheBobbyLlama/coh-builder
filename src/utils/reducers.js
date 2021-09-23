@@ -12,6 +12,7 @@ import {
 	SELECT_SECONDARY_POWERSET,
 	SELECT_POWER,
 	ADD_SLOT_TO_POWER,
+	APPLY_ENHANCEMENT_TO_POWER,
 	PAGE_MAIN_MENU,
 	PAGE_CHARACTER_DESIGNER
 } from "./actions";
@@ -217,6 +218,31 @@ export const reducer = (state, action) => {
 			if ((action.powerInfo.slots.length < 6) && (newState.slotCount < newState.slotMax)) {
 				action.powerInfo.slots.push(undefined);
 				newState.slotCount++;
+			}
+
+			return newState;
+		case APPLY_ENHANCEMENT_TO_POWER:
+			newState = { ...state };
+
+			if ((action.enhancement) && (action.slotIndex < action.powerInfo?.slots?.length)) {
+				switch (action.enhancement.TypeID) {
+					case -1:
+						switch (action.enhancement.SpecialText) {
+							case "Clear":
+								action.powerInfo.slots[action.slotIndex] = undefined;
+								break;
+							case "Remove":
+								action.powerInfo.slots.splice(action.slotIndex, 1);
+								newState.slotCount--;
+								break;
+							default:
+								break;
+						}
+						break;
+					default:
+						action.powerInfo.slots[action.slotIndex] = action.enhancement;
+						break;
+				}
 			}
 
 			return newState;

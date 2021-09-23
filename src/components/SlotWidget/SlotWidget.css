@@ -14,10 +14,10 @@ div.slotWidget > div > * {
 	background: var(--main-blue) url('../../assets/images/ui/enhancementSlot.png') no-repeat top right;
 	background-size: 100%;
 	border-radius: 50%;
-	height: 32px;
+	height: 30px;
 	margin: 0;
 	padding: 0;
-	width: 32px;
+	width: 30px;
 }
 
 div.slotWidget > div:hover > * {

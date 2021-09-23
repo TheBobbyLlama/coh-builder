@@ -28,12 +28,17 @@
 }
 
 #designerControls #themeChanger > div {
+	border-radius: 50%;
 	height: 32px;
 	width: 32px;
 }
 
 #designerControls #themeChanger > div:first-child {
 	background: url('../../assets/images/ui/heroIcon.png') no-repeat top right;
+}
+
+#designerControls #themeChanger > div:hover {
+	opacity: 0.375;
 }
 
 #designerControls #themeChanger > div:last-child {
