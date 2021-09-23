@@ -1,0 +1,77 @@
+#designerControls {
+	background-color: var(--main-blue-dark);
+	display: grid;
+	grid-template-columns: 34px auto auto 32px;
+	grid-template-rows: 34px 34px;
+	height: 68px;
+}
+
+#designerControls > div {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+#designerControls #themeChanger {
+	align-items: center;
+	background-color: black;
+	border-radius: 16px;
+	display: flex;
+	flex-direction: column;
+	grid-column: 1;
+	grid-row: 1 / 3;
+	height: 66px;
+	justify-content: center;
+	margin: 0;
+	padding: 1px;
+	width: 34px;
+}
+
+#designerControls #themeChanger > div {
+	height: 32px;
+	width: 32px;
+}
+
+#designerControls #themeChanger > div:first-child {
+	background: url('../../assets/images/ui/heroIcon.png') no-repeat top right;
+}
+
+#designerControls #themeChanger > div:last-child {
+	background: url('../../assets/images/ui/villainIcon.png') no-repeat top right;
+}
+
+#designerControls #themeChanger *.inactive {
+	cursor: pointer;
+	opacity: 0.25;
+}
+
+#designerControls #themeChanger *:not(.inactive) {
+	pointer-events: none;
+}
+
+#designerControls #counterHolder {
+	grid-column: 4;
+	grid-row: 1 / 3;
+}
+
+#designerControls #slotCounter {
+	align-items: center;
+	background: var(--main-blue) url('../../assets/images/ui/enhancementSlot.png') no-repeat top right;
+	background-size: 100%;
+	border-radius: 50%;
+	cursor: default;
+	display: flex;
+	height: 32px;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	width: 32px;
+}
+
+.Villain #designerControls {
+	background-color: var(--main-red-dark);
+}
+
+.Villain #designerControls #slotCounter {
+	background-color: var(--main-red);
+}

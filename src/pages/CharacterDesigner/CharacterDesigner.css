@@ -8,164 +8,27 @@
 	position: fixed;
 	right: 12px;
 	top: 0;
+	z-index: 10;
 }
 
-#characterDesigner #generalInfo {
-	background-color: var(--main-blue-dark);
-	display: flex;
-	flex-direction: column;
+#characterDesigner #characterInfoPanel {
 	grid-column: 1;
 	grid-row: 1;
-	position: relative;
 }
 
-#characterDesigner #generalInfo input {
-	border: 0;
-	font-family: 'Red Circle';
-	font-size: 15px;
-	margin: 0 0 4px 0;
-	overflow: visible;
-	padding: 0;
-	background-clip: initial;
-	background-color: var(--header-gold);
-    background-image: linear-gradient(to bottom, var(--header-gold), var(--header-gradient));
-    background-size: 100%;
-	white-space: nowrap;
-	width: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
-}
-
-#characterDesigner #ATinfo {
-	align-items: center;
-	display: flex;
-}
-
-#characterDesigner #ATname {
-	cursor: default;
-	flex-basis: 2;
-	font-family: 'Red Circle';
-	font-size: 14px;
-	display: inline;
-	margin: 0;
-	padding: 0;
-	color: white;
-	white-space: nowrap;
-}
-
-#characterDesigner #ATinfo > *:first-child {
-	width: 50%;
-}
-
-#characterDesigner #powersetSelection {
-	display: flex;
-}
-
-#characterDesigner #powersetSelection > * {
-	width: 50%;
-}
-
-#characterDesigner #generalControls {
-	background-color: var(--main-blue-dark);
-	display: grid;
+#characterDesigner #designerControls {
 	grid-column: 1;
 	grid-row: 2;
-	grid-template-columns: 34px auto auto 32px;
-	grid-template-rows: 34px 34px;
-	height: 68px;
 }
 
-#characterDesigner #generalControls > div {
-	align-items: center;
-	display: flex;
-	justify-content: center;
-}
-
-#characterDesigner #generalControls #themeChanger {
-	align-items: center;
-	background-color: black;
-	border-radius: 16px;
-	display: flex;
-	flex-direction: column;
-	grid-column: 1;
-	grid-row: 1 / 3;
-	height: 66px;
-	justify-content: center;
-	margin: 0;
-	padding: 1px;
-	width: 34px;
-}
-
-#characterDesigner #generalControls #themeChanger > div {
-	height: 32px;
-	width: 32px;
-}
-
-#characterDesigner #generalControls #themeChanger > div:first-child {
-	background: url('../../assets/images/ui/heroIcon.png') no-repeat top right;
-}
-
-#characterDesigner #generalControls #themeChanger > div:last-child {
-	background: url('../../assets/images/ui/villainIcon.png') no-repeat top right;
-}
-
-#characterDesigner #generalControls #themeChanger *.inactive {
-	cursor: pointer;
-	opacity: 0.25;
-}
-
-#characterDesigner #generalControls #themeChanger *:not(.inactive) {
-	pointer-events: none;
-}
-
-#characterDesigner #generalControls #counterHolder {
-	grid-column: 4;
-	grid-row: 1 / 3;
-}
-
-#characterDesigner #generalControls #slotCounter {
-	align-items: center;
-	background: var(--main-blue) url('../../assets/images/ui/enhancementSlot.png') no-repeat top right;
-	background-size: 100%;
-	border-radius: 50%;
-	cursor: default;
-	display: flex;
-	height: 32px;
-	justify-content: center;
-	margin: 0;
-	padding: 0;
-	width: 32px;
-}
-
-#characterDesigner #powerData {
+#characterDesigner #detailPanel {
 	grid-column: 1;
 	grid-row: 3;
 }
 
-#characterDesigner #powerHolder {
+#characterDesigner #powerPanel {
 	grid-column: 2;
 	grid-row: 1 / 4;
-	margin-top: 28px;
-	max-height: calc(100vh - 60px);
-	overflow-x: auto;
-}
-
-#characterDesigner #powerArea {
-	align-items: flex-start;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	height: 100%;
-}
-
-.Villain #characterDesigner #generalInfo, .Villain #characterDesigner #generalControls {
-	background-color: var(--main-red-dark);
-}
-
-.Villain #characterDesigner #generalControls #slotCounter {
-	background-color: var(--main-red);
 }
 
 @media screen and (max-width: 680px) {
@@ -174,35 +37,24 @@
 		display: grid;
 		grid-template-columns: 100%;
 		grid-template-rows: 220px 100px auto auto;
+		position: relative;
 	}
 
 	#characterDesigner #closeButtonHolder {
 		position: absolute;
-		right: -2px;
-		top: 6px;
+		right: 8px;
+		top: 16px;
 	}
 
-	#characterDesigner #generalInfo input {
-		width: calc(100% - 36px);
-	}
-
-	#characterDesigner #powerData {
+	#characterDesigner #detailPanel {
 		display: none;
 		grid-column: 0;
 		grid-row: 0;
 		position: absolute;
 	}
 
-	#characterDesigner #powerHolder {
+	#characterDesigner #powerPanel {
 		grid-column: 1;
 		grid-row: 4;
-		margin-top: 8px;
-		max-height: initial;
-		overflow: visible;
-	}
-
-	#characterDesigner #powerArea {
-		align-items: center;
-		flex-wrap: nowrap;
 	}
 }

@@ -1,0 +1,28 @@
+#powerPanel {
+	grid-column: 2;
+	grid-row: 1 / 4;
+	margin-top: 28px;
+	max-height: calc(100vh - 60px);
+	overflow-x: auto;
+}
+
+#powerList {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 100%;
+}
+
+@media screen and (max-width: 680px) {
+	#powerPanel {
+		margin-top: 8px;
+		max-height: initial;
+		overflow: visible;
+	}
+
+	#powerList{
+		align-items: center;
+		flex-wrap: nowrap;
+	}
+}

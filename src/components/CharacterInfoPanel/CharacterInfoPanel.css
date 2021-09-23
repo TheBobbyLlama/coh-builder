@@ -1,0 +1,67 @@
+#characterInfoPanel {
+	background-color: var(--main-blue-dark);
+	display: flex;
+	flex-direction: column;
+	grid-column: 1;
+	grid-row: 1;
+	position: relative;
+}
+
+#characterInfoPanel input {
+	background-color: red;
+	border: 0;
+	font-family: 'Red Circle';
+	font-size: 15px;
+	margin: 0 0 4px 0;
+	overflow: visible;
+	padding: 0;
+	background-clip: initial;
+	background-color: var(--header-gold);
+    background-image: linear-gradient(to bottom, var(--header-gold), var(--header-gradient));
+    background-size: 100%;
+	white-space: nowrap;
+	width: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+#characterInfoPanel #ATinfo {
+	align-items: center;
+	display: flex;
+}
+
+#characterInfoPanel #ATname {
+	cursor: default;
+	flex-basis: 2;
+	font-family: 'Red Circle';
+	font-size: 14px;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	color: white;
+	white-space: nowrap;
+}
+
+#characterInfoPanel #ATinfo > *:first-child {
+	width: 50%;
+}
+
+#characterInfoPanel #powersetSelection {
+	display: flex;
+}
+
+#characterInfoPanel #powersetSelection > * {
+	width: 50%;
+}
+
+.Villain #characterInfoPanel, .Villain #characterInfoPanel {
+	background-color: var(--main-red-dark);
+}
+
+@media screen and (max-width: 680px) {
+	#characterDesigner #characterInfoPanel input {
+		width: calc(100% - 36px);
+	}
+}

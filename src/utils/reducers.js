@@ -110,9 +110,9 @@ export const reducer = (state, action) => {
 			newState = { ...state };
 
 			if (action.name) {
-				state.characterName = action.name;
+				newState.characterName = action.name;
 			} else {
-				state.characterName = "";
+				newState.characterName = "";
 			}
 
 			return newState;
