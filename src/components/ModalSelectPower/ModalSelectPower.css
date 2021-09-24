@@ -30,7 +30,6 @@
 }
 
 #modalSelectPower #powerSelectionPanel > div {
-	margin: 0px 4px;
 	overflow-x: hidden;
 	overflow-y: auto;
 	padding: 0px;
@@ -38,19 +37,18 @@
 	width: 100%;
 }
 
-#modalSelectPower #powerSelectionPanel > div > * {
+#modalSelectPower #powerSelectionPanel #powersetList > div, #modalSelectPower #powerSelectionPanel #selectPowerList > div:first-child > div {
 	align-items: center;
-	cursor: pointer;
 	display: flex;
+	cursor: pointer;
 	padding: 0px 8px;
-	position: relative;
 }
 
-#modalSelectPower #powerSelectionPanel > div > * img {
+#modalSelectPower #powerSelectionPanel #powersetList * img {
 	margin-right: 4px;
 }
 
-#modalSelectPower #powerSelectionPanel > div > *.selected {
+#modalSelectPower #powersetList *.selected, #modalSelectPower #selectPowerList > div *.selected {
 	background-color: var(--main-blue-dark);
 }
 
@@ -60,11 +58,25 @@
 	right: 4px;
 }
 
-#modalSelectPower #powerSelectionPanel > div > *:hover {
+#modalSelectPower #powerSelectionPanel #powersetList *:hover, #modalSelectPower #selectPowerList > div:first-child > *:hover {
 	background-color: var(--main-blue);
 }
 
-#modalSelectPower #powerSelectionPanel > div > *.taken {
+#modalSelectPower #powerSelectionPanel #selectPowerList {
+	align-items: stretch;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	overflow: hidden;
+	padding: 0px;
+	position: relative;
+}
+
+#modalSelectPower #selectPowerList > div:first-child {
+	overflow-y: auto;
+}
+
+#modalSelectPower #powerSelectionPanel #selectPowerList *.taken {
 	color: #a0a0a0;
 }
 
@@ -74,11 +86,32 @@
 	padding: 0px !important;
 }
 
-.Villain #modalSelectPower #powerSelectionPanel > div > *.selected {
+#modalSelectPower #powerInfo {
+	bottom: -1px;
+	margin: 0px -1px;
+	padding: 0px;
+	position: relative;
+	white-space: normal;
+}
+
+#modalSelectPower #powerInfo div:last-child {
+	font-size: 13px;
+	padding: 8px 12px;
+}
+
+#modalSelectPower #powerInfo .header {
+	text-align: center;
+}
+
+#modalSelectPower #powerInfo i {
+	font-size: 10px;
+}
+
+.Villain #modalSelectPower #powersetList *.selected, .Villain #modalSelectPower #selectPowerList > div *.selected {
 	background-color: var(--main-red-dark);
 }
 
-.Villain #modalSelectPower #powerSelectionPanel > div > *:hover {
+.Villain #modalSelectPower #powerSelectionPanel #powersetList *:hover, .Villain #modalSelectPower #selectPowerList > div:first-child > *:hover {
 	background-color: var(--main-red);
 }
 
@@ -92,7 +125,7 @@
 		width: 100%;
 	}
 
-	#modalSelectPower #powerSelectionPanel > div > * {
+	#modalSelectPower #powerSelectionPanel > #powersetList > div, #modalSelectPower #powerSelectionPanel #selectPowerList > div:first-child > div {
 		height: 30px;
 	}
 

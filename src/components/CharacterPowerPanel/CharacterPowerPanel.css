@@ -6,7 +6,7 @@
 	overflow-x: auto;
 }
 
-#powerList {
+#powerPanel #powerList {
 	align-items: flex-start;
 	display: flex;
 	flex-direction: column;
@@ -21,7 +21,7 @@
 		overflow: visible;
 	}
 
-	#powerList{
+	#powerPanel #powerList {
 		align-items: center;
 		flex-wrap: nowrap;
 	}

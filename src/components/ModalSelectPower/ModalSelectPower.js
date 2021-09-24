@@ -32,6 +32,7 @@ function ModalSelectPower() {
 
 	const [selectedPowerset, setSelectedPowerset] = useState(findSelectedPowerset());
 	const [powerList, setPowerList] = useState(findSelectedPowerList(selectedPowerset));
+	const [displayedPower, setDisplayedPower] = useState(state.powers[state.modal.level]?.powerData);
 	const [showSelectedPowers, setShowSelectedPowers] = useState(false);
 
 	const cancel = () => {
@@ -63,18 +64,28 @@ function ModalSelectPower() {
 		setShowSelectedPowers(true);
 	};
 
-	const choosePower = (power) => {
-		dispatch({ type: SELECT_POWER, level: state.modal.level, power });
-	};
-
-	const backToPowersets = () => {
-		setSelectedPowerset(findSelectedPowerset());
-		setShowSelectedPowers(false);
-	}
-
 	const getIcon = (item) => {
 		var icon = require("../../assets/images/powersets/" + item.ImageName)?.default;
 		return icon;
+	}
+
+	const highlightPower = (power) => {
+		if (([power]) && (window.screen.width >= 680)) {
+			setDisplayedPower(power);
+		}
+	}
+
+	const clickPower = (power) => {
+		if ((power) && (power.PowerIndex === displayedPower?.PowerIndex)) {
+			dispatch({ type: SELECT_POWER, level: state.modal.level, power });
+		} else {
+			setDisplayedPower(power);
+		}
+	};
+
+	const backToPowersets = () => {
+		//setSelectedPowerset(findSelectedPowerset());
+		setShowSelectedPowers(false);
 	}
 
 	const powerPools = ((state.pools.length >= 4) ? state.pools : state.powersetData.filter(set => set.GroupName === "Pool")).filter(set => set.Powers.find(power => ((power.Level) && (power.Level <= state.modal.level))));
@@ -98,12 +109,23 @@ function ModalSelectPower() {
 					})}
 					{(state.powers[state.modal.level]) ? <div onClick={setClearList} className={"spaceMe" + ((selectedPowerset?.nID === -1) ? " selected" : "")}><i>Remove Power</i></div> : <></>}
 				</div>
-				<div id="powerList" className={"builderInset" + ((showSelectedPowers) ? "" : " hideMobile")}>
-					{powerList.map(item => {
-						var hasTaken = Object.entries(state.powers).find(testMe => { return testMe[1].powerData?.PowerIndex === item.PowerIndex});
-						return (<div key={item.PowerIndex} className={((hasTaken) ? "taken " : "") + ((state.powers[state.modal.level]?.powerData.PowerIndex === item.PowerIndex) ? "selected" : "") } title={item.DescShort} onClick={() => { choosePower(item); }}>{item.DisplayName}</div>);
-					})}
-					<div className="mobileOnly spaceMe" onClick={backToPowersets}>◄ <i>Go Back</i></div>
+				<div id="selectPowerList" className={"builderInset" + ((showSelectedPowers) ? "" : " hideMobile")}>
+					<div>
+						{powerList.map(item => {
+							var hasTaken = Object.entries(state.powers).find(testMe => { return testMe[1].powerData?.PowerIndex === item.PowerIndex});
+							return (<div key={item.PowerIndex} className={((hasTaken) ? "taken " : "") + ((state.powers[state.modal.level]?.powerData.PowerIndex === item.PowerIndex) ? "selected" : "") } title={item.DescShort} onClick={() => { clickPower(item); }} onMouseEnter={() => { highlightPower(item); }} onMouseLeave={() => { setDisplayedPower(state.powers[state.modal.level]?.powerData); }}>{item.DisplayName}</div>);
+						})}
+						<div className="mobileOnly spaceMe" onClick={backToPowersets}>◄ <i>Go Back</i></div>
+					</div>
+					{(displayedPower) ?
+					<div id="powerInfo" className="builderInset">
+						<div className="header">
+							<div><strong>{displayedPower.DisplayName}</strong></div>
+							{(state.powers[state.modal.level]?.powerData.PowerIndex !== displayedPower.PowerIndex) ? (<i className="mobileOnly">Tap again to add power.</i>) : <></>}
+						</div>
+						<div>{displayedPower.DescLong}</div>
+					</div>
+					: <></>}
 				</div>
 			</div>
 		</div>
