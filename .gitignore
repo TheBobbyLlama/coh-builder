@@ -19,6 +19,7 @@
 .env.production.local
 /utilities/*/obj
 /utilities/*/packages
+/utilities/*/.vs
 
 npm-debug.log*
 yarn-debug.log*

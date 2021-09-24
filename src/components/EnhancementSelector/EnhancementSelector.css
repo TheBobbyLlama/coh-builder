@@ -33,7 +33,8 @@
 
 #enhancementSelector #enhancementTabs > div.selected, #enhancementSelector #setCategories > div.selected, #enhancementSelector #setList > div.selected {
 	background-color: var(--main-blue);
-	pointer-events: none;
+	cursor: default;
+	/*pointer-events: none;*/
 }
 
 #enhancementSelector #enhancementPanel #enhancementList > div.selected, #enhancementSelector #enhancementPanel #enhancementList > div.selected:hover {
@@ -44,7 +45,7 @@
 	opacity: 0.5;
 }
 
-#enhancementSelector #enhancementTabs > div:hover, #enhancementSelector #setCategories > div:hover, #enhancementSelector #setList > div:hover, #enhancementSelector #enhancementPanel #enhancementList > div:hover {
+#enhancementSelector #enhancementTabs > div:not(.selected):hover, #enhancementSelector #setCategories > div:not(.selected):hover, #enhancementSelector #setList > div:not(.selected):hover, #enhancementSelector #enhancementPanel #enhancementList > div:not(.selected):hover {
 	background-color: var(--main-blue-dark);
 }
 
@@ -144,8 +145,31 @@
 	box-shadow: 0px 0px 5px 1px var(--main-red-highlight);
 }
 
+/* These are down here so the villain colors won't override. */
+#enhancementSelector #enhancementPanel #enhancementList > div.duplicate {
+	background-color: #403000;
+}
+
+#enhancementSelector #enhancementPanel #enhancementList > div.duplicate:hover {
+	background-color: #806010;
+}
+
+#enhancementSelector #enhancementPanel #enhancementList > div.duplicate:hover > div  {
+	background-color: #c09020;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px 1px #c09020;
+}
+
 @media screen and (max-width: 680px) {
+	#enhancementSelector > div {
+		width: 100%;
+	}
+
 	#enhancementSelector #enhancementPanel {
 		border: none;
+	}
+
+	#enhancementSelector #enhancementPanel #enhancementInfo {
+		margin-left: -5px;
 	}
 }

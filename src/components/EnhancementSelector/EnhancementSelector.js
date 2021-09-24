@@ -5,6 +5,8 @@ import { APPLY_ENHANCEMENT_TO_POWER } from "../../utils/actions";
 import Enhancement from "../Enhancement/Enhancement";
 import EnhancementInfo from "../EnhancementInfo/EnhancementInfo";
 
+import { setIOAlreadyPlaced } from "../../utils/util";
+
 import "./EnhancementSelector.css";
 
 function EnhancementSelector({slotIndex}) {
@@ -15,6 +17,7 @@ function EnhancementSelector({slotIndex}) {
 	const [currentType, setCurrentType] = useState(state.modal.powerInfo?.slots[slotIndex]?.TypeID || 0);
 	const [currentCategory, setCurrentCategory] = useState();
 	const [currentEnhancementSet, setCurrentEnhancementSet] = useState();
+	const [showEnhancementPanel, setShowEnhancementPanel] = useState(false);
 
 	useEffect(() => {
 	if (state.modal.powerInfo?.slots[slotIndex]) {
@@ -40,12 +43,6 @@ function EnhancementSelector({slotIndex}) {
 			}
 		}
 	}, [currentType, state.enhancementData, state.enhancementSetData, state.modal.powerInfo, slotIndex]);
-
-/*	useEffect(() => {
-		getCurrentEnhancementType(state.modal.powerInfo?.slots[slotIndex]?.TypeID);
-		setSelectedEnhancement(state.modal.powerInfo.slots[slotIndex]);
-		setDisplayedEnhancement(state.modal.powerInfo.slots[slotIndex]);
-	}, [ state.modal.powerInfo, slotIndex, getCurrentEnhancementType, currentType ]);*/
 
 	const getSetCategories = () => {
 		switch(currentType) {
@@ -114,11 +111,17 @@ function EnhancementSelector({slotIndex}) {
 	}
 
 	const setSelectedEnhancementType = (newType) => {
-		setCurrentType(newType);
-		setCurrentCategory(undefined);
-		setCurrentEnhancementSet(undefined);
-		setSelectedEnhancement(state.modal.powerInfo.slots[slotIndex]);
-		setDisplayedEnhancement(state.modal.powerInfo.slots[slotIndex]);
+		if (newType !== currentType) {
+			setCurrentType(newType);
+			setCurrentCategory(undefined);
+			setCurrentEnhancementSet(undefined);
+			setSelectedEnhancement(state.modal.powerInfo.slots[slotIndex]);
+			setDisplayedEnhancement(state.modal.powerInfo.slots[slotIndex]);
+
+			if (newType < 3) {
+				setShowEnhancementPanel(true);
+			}
+		}
 	}
 
 	const setSelectedCategory = (newCategory) => {
@@ -128,6 +131,7 @@ function EnhancementSelector({slotIndex}) {
 		switch (currentType) {
 			case 3:
 				setCurrentCategory(newCategory.SubTypeID);
+				setShowEnhancementPanel(true);
 				break;
 			case 4:
 				setCurrentCategory(newCategory.SubTypeID);
@@ -137,9 +141,11 @@ function EnhancementSelector({slotIndex}) {
 		}
 	}
 
-	const setSelectedEnhancmentSet = (newSet) => {
+	const setSelectedEnhancementSet = (newSet) => {
 		setCurrentEnhancementSet(newSet);
 		setSelectedEnhancement(undefined);
+		setDisplayedEnhancement(state.modal.powerInfo.slots[slotIndex]);
+		setShowEnhancementPanel(true);
 	}
 
 	const enhancementSetCategories = getSetCategories();
@@ -168,10 +174,16 @@ function EnhancementSelector({slotIndex}) {
 				return (<></>);
 		}
 	}
+	
+	const highlightEnhancement = (enhancement) => {
+		if ((enhancement) && (window.screen.width >= 680)) {
+			setDisplayedEnhancement(enhancement);
+		}
+	}
 
 	const clickEnhancement = (enhancement) => {
 		if ((displayedEnhancement) && (enhancement.StaticIndex === displayedEnhancement.StaticIndex)) {
-			dispatch({type: APPLY_ENHANCEMENT_TO_POWER, enhancement: selectedEnhancement, powerInfo: state.modal.powerInfo, slotIndex });
+			dispatch({type: APPLY_ENHANCEMENT_TO_POWER, enhancement: enhancement, powerInfo: state.modal.powerInfo, slotIndex });
 		} else {
 			setSelectedEnhancement(enhancement);
 			setDisplayedEnhancement(enhancement);
@@ -180,7 +192,7 @@ function EnhancementSelector({slotIndex}) {
 
 	return (
 		<div id="enhancementSelector" className="builderInset">
-			<div id="enhancementSets">
+			<div id="enhancementSets" className={(showEnhancementPanel) ? "hideMobile" : ""}>
 				<div id="enhancementTabs">
 					{(state.modal.powerInfo.powerData.Enhancements.length) ?
 						<>
@@ -203,18 +215,19 @@ function EnhancementSelector({slotIndex}) {
 				{(enhancementSetList?.length) ?
 				<div id="setList">
 					{enhancementSetList.map((set, index) => {
-						return (<div key={index} className={(set.Uid === currentEnhancementSet?.Uid) ? "selected" : ""} onClick={() => { setSelectedEnhancmentSet(set); }}><Enhancement enhancement={{ TypeID: 4, Image: set.Image, LongName: set.DisplayName }} /></div>);
+						return (<div key={index} className={(set.Uid === currentEnhancementSet?.Uid) ? "selected" : ""} onClick={() => { setSelectedEnhancementSet(set); }}><Enhancement enhancement={{ TypeID: 4, Image: set.Image, LongName: set.DisplayName }} /></div>);
 					})}
 				</div>
 				: <></>}
 			</div>
-			<div id="enhancementPanel">
+			<div id="enhancementPanel"  className={(showEnhancementPanel) ? "" : "hideMobile"}>
 				<div id="enhancementList">
 					{enhancementList.map((item, index) => {
-						return (<div key={index} className={((selectedEnhancement) && (item.StaticIndex === selectedEnhancement.StaticIndex)) ? "selected" : ""} onClick={() => { clickEnhancement(item); }}><Enhancement enhancement={item} /></div>)
+						return (<div key={index} className={((selectedEnhancement) && (item.StaticIndex === selectedEnhancement.StaticIndex)) ? "selected" : ((setIOAlreadyPlaced(item, state.powers, state.modal.powerInfo, slotIndex) ? "duplicate" : ""))} onClick={() => { clickEnhancement(item); }} onMouseEnter={() => { highlightEnhancement(item); }} onMouseLeave={() => { setDisplayedEnhancement(state.modal.powerInfo.slots[slotIndex]); }}><Enhancement enhancement={item} /></div>)
 					})}
+					<div className="mobileOnly" onClick={() => { setShowEnhancementPanel(false); }}>◄ <i>Go Back</i></div>
 				</div>
-				<EnhancementInfo enhancement={displayedEnhancement} slotIndex={slotIndex} />
+				<EnhancementInfo enhancement={displayedEnhancement} slotIndex={slotIndex} warning={setIOAlreadyPlaced(displayedEnhancement, state.powers, state.modal.powerInfo, slotIndex) ? "duplicate" : false} />
 			</div>
 		</div>
 	);

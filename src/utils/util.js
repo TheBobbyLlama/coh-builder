@@ -22,3 +22,32 @@ export const validPoolPower = (tryPower, tryLevel, powerList) => {
 		return true;
 	}
 };
+
+export const setIOAlreadyPlaced = (enhancement, powerList, curPower, slotIndex, debug=false) => {
+	if (enhancement?.TypeID === 4) {
+		if (enhancement.Unique) {
+			for (const [, value] of Object.entries(powerList)) {
+
+				if (value?.slots) {
+					let findSlot = value.slots.findIndex(item => ((item) && (item.StaticIndex === enhancement?.StaticIndex)));
+
+					if ((findSlot > -1) && ((value.label !== curPower.label) || (findSlot !== slotIndex))) {
+						return [value.label, findSlot];
+					}
+				}
+			}
+
+			return false;
+		} else {
+			let findSlot = curPower.slots.findIndex(item => ((item) && (item.StaticIndex === enhancement?.StaticIndex)));
+			
+			if ((findSlot > -1) && (findSlot !== slotIndex)) {
+				return [curPower.label, findSlot];
+			} else {
+				return false;
+			}
+		}
+	} else {
+		return false;
+	}
+};

@@ -18,6 +18,7 @@ import {
 } from "./actions";
 
 import { initializeDataset } from "../lib/db";
+import { setIOAlreadyPlaced } from "./util";
 
 const displayNameSort = (a, b, path="") => 
 {
@@ -95,7 +96,7 @@ export const reducer = (state, action) => {
 				newState.secondaryPowerset = newState.powersetData.find(item => item.GroupName === newState.archetype.SecondaryGroup);
 
 				if (newState.secondaryPowerset) {
-					newState.powers[1.1] = { powerData: newState.secondaryPowerset.Powers.find(item => item.Level === 1), slots: [ undefined ] };
+					newState.powers[1.1] = { label: 1.1, powerData: newState.secondaryPowerset.Powers.find(item => item.Level === 1), slots: [ undefined ] };
 				}
 
 				newState.theme = newState.archetype.Hero ? "Hero" : "Villain";
@@ -150,7 +151,7 @@ export const reducer = (state, action) => {
 
 			if ((newState.archetype) && (action.powerset)) {
 				newState.secondaryPowerset = action.powerset;
-				newState.powers[1.1] = { powerData: newState.secondaryPowerset.Powers.find(item => item.Level === 1), slots: [ undefined ] }
+				newState.powers[1.1] = { label: 1.1, powerData: newState.secondaryPowerset.Powers.find(item => item.Level === 1), slots: [ undefined ] }
 			} else {
 				delete newState.secondaryPowerset;
 			}
@@ -206,7 +207,7 @@ export const reducer = (state, action) => {
 					}
 				}
 
-				newState.powers[action.level] = { powerData: action.power, slots: [ undefined ] };
+				newState.powers[action.level] = { label: action.level, powerData: action.power, slots: [ undefined ] };
 				return newState
 			}
 
@@ -240,6 +241,12 @@ export const reducer = (state, action) => {
 						}
 						break;
 					default:
+						let placed = setIOAlreadyPlaced(action.enhancement, newState.powers, action.powerInfo, action.slotIndex);
+
+						if (placed) {
+							newState.powers[placed[0]].slots[placed[1]] = undefined;
+						}
+
 						action.powerInfo.slots[action.slotIndex] = action.enhancement;
 						break;
 				}

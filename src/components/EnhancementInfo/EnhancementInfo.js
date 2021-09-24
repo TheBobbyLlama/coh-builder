@@ -2,8 +2,17 @@ import { useStoreContext } from "../../utils/GlobalState";
 
 import "./EnhancementInfo.css";
 
-function EnhancementInfo({enhancement, slotIndex}) {
+function EnhancementInfo({enhancement, slotIndex, warning}) {
 	const [state,] = useStoreContext();
+
+	const getMessage = () => {
+		switch (warning) {
+			case "duplicate":
+				return (<i>WARNING - This enhancement has already been placed.</i>);
+			default:
+				return (<i className="mobileOnly">Tap again to apply enhancement.</i>);
+		}
+	}
 
 	return (
 		<>
@@ -11,7 +20,7 @@ function EnhancementInfo({enhancement, slotIndex}) {
 			<div id="enhancementInfo" className="builderInset">
 				<div className="header">
 					<div><strong>{enhancement.LongName}</strong></div>
-					{(state.modal?.powerInfo?.slots[slotIndex] !== enhancement) ? (<i><span className="hideMobile">Click</span><span className="mobileOnly">Tap</span> again to apply enhancement.</i>) : <></>}
+					{(state.modal?.powerInfo?.slots[slotIndex] !== enhancement) ? getMessage() : <></>}
 				</div>
 			</div>
 			: <></>}
