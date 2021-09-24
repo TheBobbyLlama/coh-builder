@@ -19,6 +19,11 @@ function ModalEnhancePower() {
 		dispatch({ type: SHOW_MODAL, modal: { key: MODAL_HIDE } });
 	}
 
+
+	if (slotIndex >= state.modal?.powerInfo?.slots.length) {
+		setSlotIndex(state.modal.powerInfo.slots.length - 1);
+	}
+
 	return (
 		<div id="modalEnhancePower" className="builderPanel">
 			<div id="enhanceHeader">

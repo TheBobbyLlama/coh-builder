@@ -61,7 +61,7 @@ export const reducer = (state, action) => {
 
 			if (action.environment) {
 				clearCharacterData(newState);
-				[newState.archetypeData, newState.attribModData, newState.enhancementData, newState.enhancementClassData, newState.powersetData] = initializeDataset(action.environment);
+				[newState.archetypeData, newState.attribModData, newState.enhancementData, newState.enhancementClassData, newState.enhancementSetData, newState.powersetData, newState.miscData] = initializeDataset(action.environment);
 				localStorage.setItem("environment", action.environment);
 			}
 			return newState;

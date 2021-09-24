@@ -164,6 +164,7 @@ namespace CoHBuilderJSONConverter
             if (File.Exists(workingFolder + "\\PowerSets.json"))
             {
                 List<PowerSetData> powersetOutput = new List<PowerSetData>();
+                //List<PowerSetData> boostOutput = new List<PowerSetData>();
                 PostConsoleUpdate("Processing PowerSets.json...");
                 List<PowerSetData> powersetData = JsonConvert.DeserializeObject<List<PowerSetData>>(File.ReadAllText(workingFolder + "\\PowerSets.json"));
 
@@ -174,18 +175,26 @@ namespace CoHBuilderJSONConverter
                         case 1: // Primaries
                         case 2: // Secondaries
                         case 3: // Epics
-                        case 4: // Inherents
-                        case 5: // Pools
-                        case 11: // Incarnates
                             powersetData[i].ShortName = GetShortPowersetName(powersetData[i].DisplayName);
                             powersetOutput.Add(powersetData[i]);
                             break;
+                        case 4: // Inherents
+                        case 5: // Pools
+                        case 6: // Accolades
+                        case 9: // Set Bonuses
+                        case 11: // Incarnates
+                            powersetOutput.Add(powersetData[i]);
+                            break;
+                        /*case 10: // Boosts
+                            boostOutput.Add(powersetData[i]);
+                            break;*/
                     }
                 }
 
                 File.WriteAllText(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\PowerSets.json", JsonConvert.SerializeObject(powersetOutput, Formatting.Indented));
+                //File.WriteAllText(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\Boosts.json", JsonConvert.SerializeObject(boostOutput, Formatting.Indented));
 
-                PostConsoleUpdate(string.Format("Processed {0} powersets, wrote {1}.", powersetData.Count, powersetOutput.Count));
+                PostConsoleUpdate(string.Format("Processed {0} powersets, wrote {1}.", powersetData.Count, powersetOutput.Count)); //, boostOutput.Count));
             }
             else
             {
@@ -193,7 +202,23 @@ namespace CoHBuilderJSONConverter
             }
         }
 
-        private void btnBrowse_Click(object sender, EventArgs e)
+        private void ExtractEnhancementSets()
+        {
+            if (File.Exists(workingFolder + "\\PowerSets.json"))
+            {
+                PostConsoleUpdate("Processing Database.json - This will be slow!!!");
+                // DANGER - This cannot be used because it will throw an Out of Memory Exception!
+                dynamic MidsDatabase = Newtonsoft.Json.Linq.JObject.Parse(File.ReadAllText(workingFolder + "\\Database.json"));
+                var enhancementSets = MidsDatabase.EnhancementSets;
+                File.WriteAllText(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\EnhancementSets.json", JsonConvert.SerializeObject(enhancementSets, Formatting.Indented));
+            }
+            else
+            {
+                PostConsoleUpdate("File not found - Database.json");
+            }
+    }
+
+    private void btnBrowse_Click(object sender, EventArgs e)
         {
             FolderBrowserDialog openMe = new FolderBrowserDialog();
             openMe.RootFolder = Environment.SpecialFolder.Desktop;
@@ -212,6 +237,7 @@ namespace CoHBuilderJSONConverter
         {
             ProcessArchetypeFile();
             ProcessPowersetFile();
+            //ExtractEnhancementSets();
             PostConsoleUpdate("Done!");
         }
     }

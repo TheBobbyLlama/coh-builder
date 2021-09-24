@@ -32,7 +32,6 @@
 }
 
 @media screen and (max-width: 680px) {
-
 	#characterDesigner {
 		display: grid;
 		grid-template-columns: 100%;

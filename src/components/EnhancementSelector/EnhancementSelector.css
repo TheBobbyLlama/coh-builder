@@ -13,15 +13,17 @@
 	border-bottom: Solid 1px var(--main-blue-dark);
 	display: flex;
 	flex-basis: 1%;
-	height: 40px;
 }
 
 #enhancementSelector #enhancementTabs > div {
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
 	cursor: pointer;
-	height:30px;
 	padding: 8px 12px 8px 12px;
+}
+
+#enhancementSelector #enhancementTabs > div > div {
+	height:30px;
 	width: 30px;
 }
 
@@ -29,7 +31,7 @@
 	border-left: solid 1px var(--main-blue-dark);
 }
 
-#enhancementSelector #enhancementTabs > div.selected, #enhancementSelector #setCategories > div.selected {
+#enhancementSelector #enhancementTabs > div.selected, #enhancementSelector #setCategories > div.selected, #enhancementSelector #setList > div.selected {
 	background-color: var(--main-blue);
 	pointer-events: none;
 }
@@ -38,15 +40,15 @@
 	background-color: var(--main-blue);
 }
 
-#enhancementSelector #enhancementTabs > div:not(.selected):not(:hover), #enhancementSelector #setCategories > div:not(.selected):not(:hover) {
+#enhancementSelector #enhancementTabs > div:not(.selected):not(:hover), #enhancementSelector #setCategories > div:not(.selected):not(:hover), #enhancementSelector #setList > div:not(.selected) {
 	opacity: 0.5;
 }
 
-#enhancementSelector #enhancementTabs > div:hover, #enhancementSelector #setCategories > div:hover, #enhancementSelector #enhancementPanel #enhancementList > div:hover {
+#enhancementSelector #enhancementTabs > div:hover, #enhancementSelector #setCategories > div:hover, #enhancementSelector #setList > div:hover, #enhancementSelector #enhancementPanel #enhancementList > div:hover {
 	background-color: var(--main-blue-dark);
 }
 
-#enhancementSelector #enhancementTabs > div.selected > *, #enhancementSelector #enhancementTabs > div:hover > *, #enhancementSelector #setCategories > div:hover > div, #enhancementSelector #enhancementPanel #enhancementList > div:hover > div  {
+#enhancementSelector #enhancementTabs > div.selected > *, #enhancementSelector #enhancementTabs > div:hover > *, #enhancementSelector #setCategories > div:hover > div, #enhancementSelector #setList > div:hover > *, #enhancementSelector #enhancementPanel #enhancementList > div:hover > div  {
 	background-color: var(--main-blue-highlight);
 	border-radius: 50%;
 	box-shadow: 0px 0px 5px 1px var(--main-blue-highlight);
@@ -63,7 +65,28 @@
 	cursor: pointer;
 	height: 30px;
 	margin: 2px 0px;
-	padding: 10px 13px 10px 12px;
+	padding: 10px 12px;
+	width: 30px;
+}
+
+#enhancementSelector #setCategories > div + div, #enhancementSelector #setList > div + div {
+	margin-left: 1px;
+}
+
+#enhancementSelector #setList {
+	border-top: Solid 1px var(--main-blue-dark);
+	padding-top: 2px;
+}
+
+#enhancementSelector #setList > div {
+	border-radius: 4px;
+	cursor: pointer;
+	display: inline-block;
+	padding: 10px 12px;
+}
+
+#enhancementSelector #setList > div > div.enhancment {
+	height: 30px;
 	width: 30px;
 }
 
@@ -104,7 +127,7 @@
 	border-color: var(--main-red);
 }
 
-.Villain #enhancementSelector #enhancementTabs, .Villain #enhancementSelector #enhancementTabs > div + div {
+.Villain #enhancementSelector #enhancementTabs, .Villain #enhancementSelector #enhancementTabs > div + div, .Villain #enhancementSelector #setList {
 	border-color: var(--main-red-dark);
 }
 
@@ -112,11 +135,11 @@
 	background-color: var(--main-red);
 }
 
-.Villain #enhancementSelector #enhancementTabs > div:hover, .Villain #enhancementSelector #setCategories > div:hover, .Villain #enhancementSelector #enhancementPanel #enhancementList > div:hover {
+.Villain #enhancementSelector #enhancementTabs > div:hover, .Villain #enhancementSelector #setCategories > div:hover, .Villain #enhancementSelector #setList > div:hover, .Villain #enhancementSelector #enhancementPanel #enhancementList > div:hover {
 	background-color: var(--main-red-dark);
 }
 
-.Villain #enhancementSelector #enhancementTabs > div.selected > *, .Villain #enhancementSelector #enhancementTabs > div:hover > *, .Villain #enhancementSelector #setCategories > div:hover > div, .Villain #enhancementSelector #enhancementPanel #enhancementList > div:hover > div {
+.Villain #enhancementSelector #enhancementTabs > div.selected > *, .Villain #enhancementSelector #enhancementTabs > div:hover > *, .Villain #enhancementSelector #setCategories > div:hover > div, .Villain #enhancementSelector #setList > div:hover > *, .Villain #enhancementSelector #enhancementPanel #enhancementList > div:hover > div {
 	background-color: var(--main-red-highlight);
 	box-shadow: 0px 0px 5px 1px var(--main-red-highlight);
 }

@@ -16,6 +16,7 @@ function Enhancement({ enhancement, pathOverride }) {
 			case -1:
 				return " blank";
 			case 2:
+			case 4:
 				return " IO";
 			case 3:
 				return " HO";
@@ -25,7 +26,7 @@ function Enhancement({ enhancement, pathOverride }) {
 	}
 
 	return (
-		<div className={"enhancement" + getBackground()} title={enhancement?.Name || enhancement?.LongName}>
+		<div className={"enhancement" + getBackground()} title={enhancement?.LongName || enhancement?.Name}>
 			{(myImage) ? (<img src={myImage} alt={enhancement?.Name || enhancement?.LongName} />) : <></>}
 			{(enhancement?.SpecialText) ? <div className="specialText">{enhancement.SpecialText}</div> : <></>}
 		</div>

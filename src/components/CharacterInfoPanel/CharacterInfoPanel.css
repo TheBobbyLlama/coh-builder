@@ -2,8 +2,6 @@
 	background-color: var(--main-blue-dark);
 	display: flex;
 	flex-direction: column;
-	grid-column: 1;
-	grid-row: 1;
 	position: relative;
 }
 
@@ -56,7 +54,7 @@
 	width: 50%;
 }
 
-.Villain #characterInfoPanel, .Villain #characterInfoPanel {
+.Villain #characterInfoPanel {
 	background-color: var(--main-red-dark);
 }
 

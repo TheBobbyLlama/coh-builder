@@ -5,3 +5,7 @@
 #enhancementInfo .header {
 	text-align: center;
 }
+
+#enhancementInfo .header i {
+	font-size: 10px;
+}

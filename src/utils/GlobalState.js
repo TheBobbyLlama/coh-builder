@@ -8,7 +8,7 @@ const { Provider } = StoreContext;
 
 const StoreProvider = ({ value = [], ...props }) => {
 	let environment = localStorage.getItem("environment") || "homecoming";
-	let [archetypeData, attribModData, enhancementData, enhancementClassData, powersetData] = initializeDataset(environment);
+	let [archetypeData, attribModData, enhancementData, enhancementClassData, enhancementSetData, powersetData, miscData] = initializeDataset(environment);
 	// Set default state here.
 	const [state, dispatch] = useBuilderReducer({
 		characterName: "",
@@ -19,7 +19,9 @@ const StoreProvider = ({ value = [], ...props }) => {
 		attribModData,
 		enhancementData,
 		enhancementClassData,
+		enhancementSetData,
 		powersetData,
+		miscData,
 		powers: {},
 		pools: [],
 		slotCount: 0,

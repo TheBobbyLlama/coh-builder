@@ -1,0 +1,587 @@
+{
+	"PowerSetTypes": [
+		{
+			"Name": "None"
+		},
+		{
+			"Name": "Primary"
+		},
+		{
+			"Name": "Ancillary"
+		},
+		{
+			"Name": "Inherent"
+		},
+		{
+			"Name": "Pool"
+		},
+		{
+			"Name": "Accolade"
+		},
+		{
+			"Name": "Temp"
+		},
+		{
+			"Name": "Pet"
+		}, 
+		{
+			"Name": "SetBonus"
+		},
+		{
+			"Name": "Boost"
+		},
+		{
+			"Name": "Incarnate"
+		}
+	],
+	"SetTypes": [
+		{
+			"Name": "Untyped"
+		},
+		{
+			"Name": "MeleeST",
+			"DisplayName": "Melee Damage"
+		},
+		{
+			"Name": "RangedST",
+			"DisplayName": "Ranged Damage"
+		},
+		{
+			"Name": "RangedAoE",
+			"DisplayName": "Ranged AoE Damage"
+		},
+		{
+			"Name": "MeleeAoE",
+			"DisplayName": "Melee AoE Damage"
+		},
+		{
+			"Name": "Snipe",
+			"DisplayName": "Sniper Attacks"
+		},
+		{
+			"Name": "Pets"
+		},
+		{
+			"Name": "Defense"
+		},
+		{
+			"Name": "Resistance",
+			"DisplayName": "Resist Damage"
+		},
+		{
+			"Name": "Heal",
+			"DisplayName": "Healing"
+		},
+		{
+			"Name": "Hold"
+		},
+		{
+			"Name": "Stun"
+		},
+		{
+			"Name": "Immob",
+			"DisplayName": "Immobilize"
+		},
+		{
+			"Name": "Slow",
+			"DisplayName": "Slow Movement"
+		},
+		{
+			"Name": "Sleep"
+		},
+		{
+			"Name": "Fear"
+		},
+		{
+			"Name": "Confuse"
+		},
+		{
+			"Name": "Flight"
+		},
+		{
+			"Name": "Jump",
+			"DisplayName": "Leaping"
+		},
+		{
+			"Name": "Run",
+			"DisplayName": "Running"
+		},
+		{
+			"Name": "Teleport"
+		},
+		{
+			"Name": "DefDebuff",
+			"DisplayName": "Defense Debuff"
+		},
+		{
+			"Name": "EndMod",
+			"DisplayName": "Endurance Modification"
+		},
+		{
+			"Name": "Knockback"
+		},
+		{
+			"Name": "Taunt"
+		},
+		{
+			"Name": "ToHit",
+			"DisplayName": "To Hit Buff"
+		},
+		{
+			"Name": "ToHitDeb",
+			"DisplayName": "To Hit Debuff"
+		},
+		{
+			"Name": "PetRech",
+			"DisplayName": "Recharge Intensive Pets"
+		},
+		{
+			"Name": "Travel",
+			"DisplayName": "Universal Travel"
+		},
+		{
+			"Name": "AccHeal",
+			"DisplayName": "Accurate Healing"
+		},
+		{
+			"Name": "AccDefDeb",
+			"DisplayName": "Accurate Defense Debuff"
+		},
+		{
+			"Name": "AccToHitDeb",
+			"DisplayName": "Accurate To Hit Debuff"
+		},
+		{
+			"Name": "Arachnos",
+			"DisplayName": "Arachnos ATO"
+		},
+		{
+			"Name": "Blaster",
+			"DisplayName": "Blaster ATO"
+		},
+		{
+			"Name": "Brute",
+			"DisplayName": "Brute ATO"
+		},
+		{
+			"Name": "Controller",
+			"DisplayName": "Controller ATO"
+		},
+		{
+			"Name": "Corruptor",
+			"DisplayName": "Corruptor ATO"
+		},
+		{
+			"Name": "Defender",
+			"DisplayName": "Defender ATO"
+		},
+		{
+			"Name": "Dominator",
+			"DisplayName": "Dominator ATO"
+		},
+		{
+			"Name": "Kheldian",
+			"DisplayName": "Kheldian ATO"
+		},
+		{
+			"Name": "Mastermind",
+			"DisplayName": "Mastermind ATO"
+		},
+		{
+			"Name": "Scrapper",
+			"DisplayName": "Scrapper ATO"
+		},
+		{
+			"Name": "Stalker",
+			"DisplayName": "Stalker ATO"
+		},
+		{
+			"Name": "Tanker",
+			"DisplayName": "Tanker ATO"
+		},
+		{
+			"Name": "UniversalDamage",
+			"DisplayName": "Universal Damage"
+		},
+		{
+			"Name": "Sentinel"
+		}
+	],
+	"SpecialCase": [
+		{
+			"Name": "None"
+		},
+		{
+			"Name": "Hidden"
+		},
+		{
+			"Name": "Domination"
+		},
+		{
+			"Name": "Scourge"
+		},
+		{
+			"Name": "Mezzed"
+		},
+		{
+			"Name": "CriticalHit",
+			"DisplayName": "Critical Hit"
+		},
+		{
+			"Name": "CriticalBoss",
+			"DisplayName": "Critical Hit (Boss)"
+		},
+		{
+			"Name": "CriticalMinion",
+			"DisplayName": "Critical Hit (Minion)"
+		},
+		{
+			"Name": "Robot"
+		},
+		{
+			"Name": "Assassination"
+		},
+		{
+			"Name": "Containment"
+		},
+		{
+			"Name": "Defiance"
+		},
+		{
+			"Name": "TargetDroneActive",
+			"DisplayName": "Target Drone Active"
+		},
+		{
+			"Name": "Combo"
+		},
+		{
+			"Name": "VersusSpecial",
+			"DisplayName": "Versus Special"
+		},
+		{
+			"Name": "NotDisintegrated",
+			"DisplayName": "Not Disintegrated"
+		},
+		{
+			"Name": "Disintegrated"
+		},
+		{
+			"Name": "NotAccelerated",
+			"DisplayName": "Not Accelerated"
+		},
+		{
+			"Name": "Accelerated"
+		},
+		{
+			"Name": "NotDelayed",
+			"DisplayName": "Not Delayed"
+		},
+		{
+			"Name": "Delayed"
+		},
+		{
+			"Name": "ComboLevel0",
+			"DisplayName": "Combo Level 0"
+		},
+		{
+			"Name": "ComboLevel1",
+			"DisplayName": "Combo Level 1"
+		},
+		{
+			"Name": "ComboLevel2",
+			"DisplayName": "Combo Level 2"
+		},
+		{
+			"Name": "ComboLevel3",
+			"DisplayName": "Combo Level 3"
+		},
+		{
+			"Name": "FastMode",
+			"DisplayName": "Fast Mode"
+		},
+		{
+			"Name": "NotAssassination",
+			"DisplayName": "Not Assassination"
+		},
+		{
+			"Name": "PerfectionOfBody0",
+			"DisplayName": "Perfection of Body 0"
+		},
+		{
+			"Name": "PerfectionOfBody1",
+			"DisplayName": "Perfection of Body 1"
+		},
+		{
+			"Name": "PerfectionOfBody2",
+			"DisplayName": "Perfection of Body 2"
+		},
+		{
+			"Name": "PerfectionOfBody3",
+			"DisplayName": "Perfection of Body 3"
+		},
+		{
+			"Name": "PerfectionOfMind0",
+			"DisplayName": "Perfection of Mind 0"
+		},
+		{
+			"Name": "PerfectionOfMind1",
+			"DisplayName": "Perfection of Mind 1"
+		},
+		{
+			"Name": "PerfectionOfMind2",
+			"DisplayName": "Perfection of Mind 2"
+		},
+		{
+			"Name": "PerfectionOfMind3",
+			"DisplayName": "Perfection of Mind 3"
+		},
+		{
+			"Name": "PerfectionOfSoul0",
+			"DisplayName": "Perfection of Soul 0"
+		},
+		{
+			"Name": "PerfectionOfSoul1",
+			"DisplayName": "Perfection of Soul 1"
+		},
+		{
+			"Name": "PerfectionOfSoul2",
+			"DisplayName": "Perfection of Soul 2"
+		},
+		{
+			"Name": "PerfectionOfSoul3",
+			"DisplayName": "Perfection of Soul 3"
+		},
+		{
+			"Name": "TeamSize1",
+			"DisplayName": "Team Size 1"
+		},
+		{
+			"Name": "TeamSize2",
+			"DisplayName": "Team Size 2"
+		},
+		{
+			"Name": "TeamSize3",
+			"DisplayName": "Team Size 3"
+		},
+		{
+			"Name": "DefensiveAdaptation",
+			"DisplayName": "Defensive Adaptation"
+		},
+		{
+			"Name": "EfficientAdaptation",
+			"DisplayName": "Efficient Adaptation"
+		},
+		{
+			"Name": "OffensiveAdaptation",
+			"DisplayName": "Offensive Adaptation"
+		},
+		{
+			"Name": "NotDefensiveAdaptation",
+			"DisplayName": "Not Defensive Adaptation"
+		},
+		{
+			"Name": "NotDefensiveNorOffensiveAdaptation",
+			"DisplayName": "Not Defensive Nor Offensive Adaptation"
+		},
+		{
+			"Name": "BoxingBuff",
+			"DisplayName": "Boxing Buff"
+		},
+		{
+			"Name": "KickBuff",
+			"DisplayName": "Kick Buff"
+		},
+		{
+			"Name": "Supremacy"
+		},
+		{
+			"Name": "SupremacyAndBuffPwr",
+			"DisplayName": "Supremacy and Buff Power"
+		},
+		{
+			"Name": "PetTier2",
+			"DisplayName": "Pet Tier 2"
+		},
+		{
+			"Name": "PetTier3",
+			"DisplayName": "Pet Tier 3"
+		},
+		{
+			"Name": "PackMentality",
+			"DisplayName": "Pack Mentality"
+		},
+		{
+			"Name": "NotPackMentality",
+			"DisplayName": "Not Pack Mentality"
+		},
+		{
+			"Name": "FastSnipe",
+			"DisplayName": "Fast Snipe"
+		},
+		{
+			"Name": "NotFastSnipe",
+			"DisplayName": "Not Fast Snipe"
+		},
+		{
+			"Name": "CrossPunchBuff",
+			"DisplayName": "Cross Punch Buff"
+		},
+		{
+			"Name": "NotCrossPunchBuff",
+			"DisplayName": "Not Cross Punch Buff"
+		},
+		{
+			"Name": "NotBoxingBuff",
+			"DisplayName": "Not Boxing Buff"
+		},
+		{
+			"Name": "NotKickBuff",
+			"DisplayName": "Not Kick Buff"
+		}
+	],
+	"Stats": [
+		{
+			"Name": "None"
+		},
+		{
+			"Name": "Smashing_Defense"
+		},
+		{
+			"Name": "Lethal_Defense"
+		},
+		{
+			"Name": "Fire_Defense"
+		},
+		{
+			"Name": "Cold_Defense"
+		},
+		{
+			"Name": "Energy_Defense"
+		},
+		{
+			"Name": "Negative_Defense"
+		},
+		{
+			"Name": "Psionic_Defense"
+		},
+		{
+			"Name": "Melee_Defense"
+		},
+		{
+			"Name": "Ranged_Defense"
+		},
+		{
+			"Name": "AOE_Defense"
+		},
+		{
+			"Name": "Smashing_Resistance"
+		},
+		{
+			"Name": "Lethal_Resistance"
+		},
+		{
+			"Name": "Fire_Resistance"
+		},
+		{
+			"Name": "Cold_Resistance"
+		},
+		{
+			"Name": "Energy_Resistance"
+		},
+		{
+			"Name": "Negative_Resistance"
+		},
+		{
+			"Name": "Toxic_Resistance"
+		},
+		{
+			"Name": "Psionic_Resistance"
+		},
+		{
+			"Name": "Damage_Buff"
+		},
+		{
+			"Name": "Endurance_Usage"
+		},
+		{
+			"Name": "Global_Recharge"
+		},
+		{
+			"Name": "Recovery"
+		},
+		{
+			"Name": "Regen"
+		},
+		{
+			"Name": "ToHit"
+		}
+	],
+	"Suppress": {
+		"0": "None",
+		"1": "Held",
+		"2": "Sleep",
+		"4": "Stunned",
+		"8": "Immobilized",
+		"16": "Terrorized",
+		"32": "Knocked",
+		"64": "Attacked",
+		"128": "HitByFoe",
+		"256": "MissionObjectiveClick",
+		"512": "ActivateAttackClick",
+		"1024": "Damaged",
+		"2048": "Phased",
+		"4096": "Confused"
+	},
+	"ToWho": [
+		{
+			"Name": "Unspecified"
+		},
+		{
+			"Name": "Target"
+		},
+		{
+			"Name": "Self"
+		},
+		{
+			"Name": "Ally"
+		},
+		{
+			"Name": "All"
+		}
+	],
+	"Vector": {
+		"0": "None",
+		"1": "Melee_Attack",
+		"2": "Ranged_Attack",
+		"4": "AoE_Attack",
+		"8": "Smashing_Attack",
+		"16": "Lethal_Attack",
+		"32": "Cold_Attack",
+		"64": "Fire_Attack",
+		"128": "Energy_Attack",
+		"256": "Negative_Energy_Attack",
+		"512": "Psionic_Attack"
+	},
+	"StatType": {
+		"11": "FlySpeed",
+		"14": "HPMax",
+		"16": "JumpHeight",
+		"17": "JumpSpeed",
+		"23": "Perception",
+		"26": "EndRec",
+		"27": "HPRegen",
+		"32": "RunSpeed",
+		"36": "StealthPvE",
+		"37": "StealthPvP",
+		"39": "ThreatLevel",
+		"40": "ToHit",
+		"44": "Elusivity",
+		"49": "MaxRunSpeed",
+		"50": "MaxJumpSpeed",
+		"51": "MaxFlySpeed",
+		"66": "Absorb",
+		"8": "BuffEndRdx",
+		"25": "Haste",
+		"1": "BuffAcc"
+	}
+}
