@@ -9,3 +9,15 @@
 #enhancementInfo .header i {
 	font-size: 10px;
 }
+
+#enhancementInfo .Rarity1 {
+	color: #ffff20;
+}
+
+#enhancementInfo .Rarity2 {
+	color: #ff9000;
+}
+
+#enhancementInfo .Rarity3 {
+	color: #8060c0;
+}

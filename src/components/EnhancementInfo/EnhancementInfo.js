@@ -14,12 +14,24 @@ function EnhancementInfo({enhancement, slotIndex, warning}) {
 		}
 	}
 
+	const getRarity = () => {
+		if (enhancement.RecipeName.indexOf("Superior") > -1) {
+			return 3;
+		} else if (enhancement.RecipeName.indexOf("Rare") > -1) {
+			return 2;
+		} else if (enhancement.RecipeName.indexOf("Uncommon") > -1) {
+			return 1;
+		} else {
+			return enhancement.Rarity;
+		}
+	}
+
 	return (
 		<>
 			{(enhancement) ?
 			<div id="enhancementInfo" className="builderInset">
 				<div className="header">
-					<div><strong>{enhancement.LongName}</strong></div>
+					<div><strong className={("Rarity" + getRarity())}>{enhancement.LongName}</strong></div>
 					{(state.modal?.powerInfo?.slots[slotIndex] !== enhancement) ? getMessage() : <></>}
 				</div>
 			</div>

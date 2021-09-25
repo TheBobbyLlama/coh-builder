@@ -202,23 +202,49 @@ namespace CoHBuilderJSONConverter
             }
         }
 
-        private void ExtractEnhancementSets()
+        private void ProcessEnhancements()
         {
-            if (File.Exists(workingFolder + "\\PowerSets.json"))
+            if ((File.Exists(workingFolder + "\\Enhancement.json")) && (File.Exists(workingFolder + "\\Recipes.json")))
             {
-                PostConsoleUpdate("Processing Database.json - This will be slow!!!");
-                // DANGER - This cannot be used because it will throw an Out of Memory Exception!
-                dynamic MidsDatabase = Newtonsoft.Json.Linq.JObject.Parse(File.ReadAllText(workingFolder + "\\Database.json"));
-                var enhancementSets = MidsDatabase.EnhancementSets;
-                File.WriteAllText(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\EnhancementSets.json", JsonConvert.SerializeObject(enhancementSets, Formatting.Indented));
+                PostConsoleUpdate("Processing Enhancements...");
+                List<EnhancementData> enhancements = JsonConvert.DeserializeObject<List<EnhancementData>>(File.ReadAllText(workingFolder + "\\Enhancement.json"));
+                List<RecipeData> recipes = JsonConvert.DeserializeObject<List<RecipeData>>(File.ReadAllText(workingFolder + "\\Recipes.json"));
+
+                for (int i = 0; i < enhancements.Count; i++)
+                {
+                    RecipeData findMe = recipes.Find(item => item.EnhIdx == enhancements[i].StaticIndex);
+
+                    enhancements[i].Rarity = ((findMe != null) ? findMe.Rarity : 0);
+                }
+
+                File.WriteAllText(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\Enhancement.json", JsonConvert.SerializeObject(enhancements, Formatting.Indented));
+
+                PostConsoleUpdate(string.Format("Processed {0} enhancements.", enhancements.Count));
             }
             else
             {
-                PostConsoleUpdate("File not found - Database.json");
+                PostConsoleUpdate("File not found - Enhancement.json or Recipes.json");
             }
-    }
+        }
 
-    private void btnBrowse_Click(object sender, EventArgs e)
+        // DANGER - This cannot be used because it will throw an Out of Memory Exception!
+        /*        private void ExtractEnhancementSets()
+                {
+                    if (File.Exists(workingFolder + "\\PowerSets.json"))
+                    {
+                        PostConsoleUpdate("Processing Database.json - This will be slow!!!");
+                        
+                        dynamic MidsDatabase = Newtonsoft.Json.Linq.JObject.Parse(File.ReadAllText(workingFolder + "\\Database.json"));
+                        var enhancementSets = MidsDatabase.EnhancementSets;
+                        File.WriteAllText(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\EnhancementSets.json", JsonConvert.SerializeObject(enhancementSets, Formatting.Indented));
+                    }
+                    else
+                    {
+                        PostConsoleUpdate("File not found - Database.json");
+                    }
+            }*/
+
+        private void btnBrowse_Click(object sender, EventArgs e)
         {
             FolderBrowserDialog openMe = new FolderBrowserDialog();
             openMe.RootFolder = Environment.SpecialFolder.Desktop;
@@ -237,6 +263,7 @@ namespace CoHBuilderJSONConverter
         {
             ProcessArchetypeFile();
             ProcessPowersetFile();
+            ProcessEnhancements();
             //ExtractEnhancementSets();
             PostConsoleUpdate("Done!");
         }
