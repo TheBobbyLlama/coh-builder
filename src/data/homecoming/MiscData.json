@@ -1,4 +1,7 @@
 {
+	"FileHeader": {
+		"Info": "This file has some definitions from the Mids Enums.cs file.  Powers are referenced by their FullName so this file doesn't need to worry about PowerIndex changes."
+	},
 	"PowerSetTypes": [
 		{
 			"Name": "None"
@@ -583,5 +586,93 @@
 		"8": "BuffEndRdx",
 		"25": "Haste",
 		"1": "BuffAcc"
-	}
+	},
+	"IncludeInherents": [
+		"Inherent.Inherent.Brawl",
+		"Inherent.Inherent.Sprint",
+		"Inherent.Fitness.Swift",
+		"Inherent.Fitness.Hurdle",
+		"Inherent.Fitness.Health",
+		"Inherent.Fitness.Stamina"
+	],
+	"ATInherents": {
+		"Blaster": {
+			"power": "Inherent.Inherent.Defiance_Buff",
+			"active": true
+		},
+		"Controller": {
+			"power": "Inherent.Inherent.Containment",
+			"active": false
+		},
+		"Defender": {
+			"power": "Inherent.Inherent.Vigilance",
+			"active": false
+		},
+		"Scrapper": {
+			"power": "Inherent.Inherent.Critical_Hit",
+			"active": true
+		},
+		"Sentinel": {
+			"power": "Inherent.Inherent.Opportunity",
+			"active": false
+		},
+		"Tanker": {
+			"power": "Inherent.Inherent.Gauntlet",
+			"active": true
+		},
+		"Peacebringer": {
+			"power": "Inherent.Inherent.Cosmic_Balance",
+			"active": true
+		},
+		"Warshade": {
+			"power": "Inherent.Inherent.Dark_Sustenance",
+			"active": true
+		},
+		"Brute": {
+			"power": "Inherent.Inherent.Rage_Buff",
+			"active": true
+		},
+		"Corruptor": {
+			"power": "Inherent.Inherent.Scourge",
+			"active": false
+		},
+		"Dominator": {
+			"power": "Inherent.Inherent.Domination",
+			"active": false
+		},
+		"Mastermind": {
+			"power": "Inherent.Inherent.Supremacy",
+			"active": true
+		},
+		"Stalker": {
+			"power": "Inherent.Inherent.Assassination",
+			"active": false
+		},
+		"Arachnos Soldier": {
+			"power": "Inherent.Inherent.Spider_Conditioning",
+			"active": true
+		},
+		"Arachnos Widow": {
+			"power": "Inherent.Inherent.Widow_Conditioning",
+			"active": true
+		}
+	},
+	"Accolades": [
+		[
+			"Temporary_Powers.Accolades.The_Atlas_Medallion",
+			"Temporary_Powers.Accolades.Marshall"
+		],
+		[
+			"Temporary_Powers.Accolades.Freedom_Phalanx_Reserve",
+			"Temporary_Powers.Accolades.High_Pain_Threshold"
+		],
+		[
+			"Temporary_Powers.Accolades.Portal_Jockey",
+			"Temporary_Powers.Accolades.Born_In_Battle"
+		],
+		[
+			"Temporary_Powers.Accolades.Task_Force_Commander",
+			"Temporary_Powers.Accolades.Invader"
+		]
+	]
 }

@@ -1,4 +1,5 @@
 import { useStoreContext } from "../../utils/GlobalState";
+import { useState } from "react";
 import { SHOW_MODAL, MODAL_SELECT_POWER, MODAL_ENHANCE_POWER } from "../../utils/actions";
 import { validPoolPower } from "../../utils/util";
 
@@ -8,6 +9,7 @@ import "./PowerWidget.css";
 
 function PowerWidget({ label, target, allowChange }) {
 	const [state, dispatch] = useStoreContext();
+	const [, setActive] = useState(!!target?.active); // Dummy state to force render
 
 	const determineValidPower = () => {
 		if ((!target) || (!state.powers) || ((target.powerData.GroupName !== "Pool") && (target.powerData.GroupName !== "Epic"))) {
@@ -36,7 +38,9 @@ function PowerWidget({ label, target, allowChange }) {
 				{(target?.powerData?.DisplayName) ? <b>{target.powerData.DisplayName}</b> : <i>Click to Add a Power</i>}
 			</div>
 			<div>
-				<></>
+				{(target?.powerData?.Effects.find(effect => effect.ToWho === 2)) ?
+				<div className={"activate" + ((target.active) ? " active" : "")} onClick={() => { target.active = !target.active; setActive(target.active); }}></div>
+				: <></>}
 			</div>
 			{(target?.slots?.length) ? 
 				<div className="slotHolder">

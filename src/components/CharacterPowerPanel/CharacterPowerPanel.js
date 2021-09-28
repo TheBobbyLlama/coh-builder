@@ -20,6 +20,17 @@ function CharacterPowerPanel() {
 								allowChange={item !== 1.1}
 							/>);
 				})}
+				{state.miscData.IncludeInherents.map(item => {
+					return (<PowerWidget
+								key={item}
+								target={state.powers[item]}
+								allowChange={false}
+							/>);
+				})}
+				<PowerWidget
+					target={state.powers[state.archetype.DisplayName]}
+					allowChange={false}
+				/>
 			</div>
 		</div>
 	);

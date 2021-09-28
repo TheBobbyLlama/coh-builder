@@ -58,6 +58,21 @@ div.powerWidget:not(.locked):hover, div.powerWidget:not(.locked):hover::before, 
 	text-shadow: 0 0 1px white;
 }
 
+div.powerWidget div.activate {
+	background: #101010 url('../../assets/images/ui/enhancementSlot.png') no-repeat center center;
+	background-size: 150%;
+	border: solid 1px #202020;
+	border-radius: 50%;
+	cursor: pointer;
+	height: 16px;
+	margin-top: 4px;
+	width: 16px;
+}
+
+div.powerWidget div.activate.active {
+	background-color: var(--button-confirm);
+}
+
 .Villain div.powerWidget, .Villain div.powerWidget::before, .Villain div.powerWidget::after {
 	background-color: var(--main-red);
 }
@@ -107,4 +122,12 @@ div.powerWidget .slotHolder {
 	padding: 0;
 	right: 22px;
 	top: 28px;
+}
+
+@media screen and (max-width: 680px) {
+	div.powerWidget div.activate
+	{
+		height: 20px;
+		width: 20px;
+	}
 }

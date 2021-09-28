@@ -13,12 +13,13 @@ import {
 	SELECT_POWER,
 	ADD_SLOT_TO_POWER,
 	APPLY_ENHANCEMENT_TO_POWER,
+	SELECT_ACCOLADE,
 	PAGE_MAIN_MENU,
 	PAGE_CHARACTER_DESIGNER
 } from "./actions";
 
 import { initializeDataset } from "../lib/db";
-import { setIOAlreadyPlaced } from "./util";
+import { findPower, setIOAlreadyPlaced } from "./util";
 
 const displayNameSort = (a, b, path="") => 
 {
@@ -51,12 +52,39 @@ const clearCharacterData = (state) => {
 	state.slotCount = 0;
 };
 
+const addDefaultInherents = (state) => {
+	state.miscData.IncludeInherents.forEach(item => {
+		let curPower = findPower(item, state.powersetData);
+
+		if (curPower) {
+			state.powers[item] = { powerData: curPower, active: !curPower.ToggleCost };
+
+			if (curPower.Slottable) {
+				state.powers[item].slots = [ undefined ];
+			}
+		}
+	})
+}
+
 export const reducer = (state, action) => {
 	let newState;
 
 	switch (action.type) {
 		case SET_COLOR_THEME:
-			return { ...state, theme: action.theme };
+			newState =  { ...state, theme: action.theme };
+
+			// Flip accolades to their redside/blueside counterparts
+			if (newState.powers) {
+				let offset = action.theme === "Villain" ? 1 : 0;
+
+				for (let i = 0; i < state.miscData.Accolades.length; i++) {
+					if (state.powers["Accolade" + i]) {
+						state.powers["Accolade" + i].powerData = findPower(state.miscData.Accolades[i][offset], state.powersetData);
+					}
+				}
+			}
+
+			return newState;
 		case SET_DATA_ENVIRONMENT:
 			newState = { ...state, environment: action.environment, page: PAGE_MAIN_MENU };
 
@@ -91,6 +119,12 @@ export const reducer = (state, action) => {
 				}
 
 				newState.powers = {};
+				addDefaultInherents(newState);
+
+				let powerInfo = state.miscData.ATInherents[action.archetype.DisplayName];
+				let curPower = findPower(powerInfo.power, state.powersetData);
+
+				newState.powers[action.archetype.DisplayName] = { powerData: curPower, active: powerInfo.active };
 
 				newState.primaryPowerset = newState.powersetData.find(item => item.GroupName === newState.archetype.PrimaryGroup);
 				newState.secondaryPowerset = newState.powersetData.find(item => item.GroupName === newState.archetype.SecondaryGroup);
@@ -250,6 +284,16 @@ export const reducer = (state, action) => {
 						action.powerInfo.slots[action.slotIndex] = action.enhancement;
 						break;
 				}
+			}
+
+			return newState;
+		case SELECT_ACCOLADE:
+			newState = { ...state };
+
+			if (action.accolade) {
+				state.powers["Accolade" + action.index] = { powerData: action.accolade, active: true };
+			} else {
+				delete state.powers["Accolade" + action.index];
 			}
 
 			return newState;

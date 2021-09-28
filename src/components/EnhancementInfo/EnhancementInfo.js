@@ -15,7 +15,9 @@ function EnhancementInfo({enhancement, slotIndex, warning}) {
 	}
 
 	const getRarity = () => {
-		if (enhancement.RecipeName.indexOf("Superior") > -1) {
+		if (!enhancement.RecipeName) {
+			return 0;
+		} else if (enhancement.RecipeName.indexOf("Superior") > -1) {
 			return 3;
 		} else if (enhancement.RecipeName.indexOf("Rare") > -1) {
 			return 2;
