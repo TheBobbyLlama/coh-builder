@@ -1,0 +1,70 @@
+#modalIncarnateSelection {
+	position: relative;
+	width: 600px;
+}
+
+#modalIncarnateSelection #closeButton {
+	position: absolute;
+	right: 12px;
+	top: 8px;
+}
+
+#modalIncarnateSelection .builderInset {
+	margin: 4px 0px;
+	padding: 4px 8px;
+}
+
+#modalIncarnateSelection #incarnateSets {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#modalIncarnateSelection #incarnateSets > button, #modalIncarnateSelection #incarnateSubtypes > button {
+	margin: 2px 16px;
+}
+
+#modalIncarnateSelection #incarnatePowers {
+	height: 200px;
+	overflow-y: auto;
+	padding: 0;
+}
+
+#modalIncarnateSelection #incarnatePowers > div {
+	color: silver;
+	cursor: pointer;
+	padding: 0 8px;
+}
+
+#modalIncarnateSelection #incarnatePowers > div.selected {
+	background-color: var(--main-blue-dark);
+	color: white;
+}
+
+#modalIncarnateSelection #incarnatePowers > div:hover {
+	background-color: var(--main-blue);
+}
+
+#modalIncarnateSelection #incarnateInfo {
+	height: 200px;
+	overflow-y: auto;
+}
+
+#modalIncarnateSelection button.selected, #modalIncarnateSelection button.selected::before, #modalIncarnateSelection button.selected::after {
+	background-color: var(--button-confirm);
+	pointer-events: none;
+}
+
+.Villain #modalIncarnateSelection #incarnatePowers > div.selected {
+	background-color: var(--main-red-dark);
+}
+
+.Villain #modalIncarnateSelection #incarnatePowers > div:hover {
+	background-color: var(--main-red);
+}
+
+@media screen and (max-width: 680px) {
+	#modalIncarnateSelection #incarnatePowers {
+		height: 220px;
+	}
+}

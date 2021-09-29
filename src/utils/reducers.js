@@ -14,6 +14,7 @@ import {
 	ADD_SLOT_TO_POWER,
 	APPLY_ENHANCEMENT_TO_POWER,
 	SELECT_ACCOLADE,
+	SELECT_INCARNATE,
 	PAGE_MAIN_MENU,
 	PAGE_CHARACTER_DESIGNER
 } from "./actions";
@@ -291,9 +292,19 @@ export const reducer = (state, action) => {
 			newState = { ...state };
 
 			if (action.accolade) {
-				state.powers["Accolade" + action.index] = { powerData: action.accolade, active: true };
+				state.powers["Accolade" + action.index] = { powerData: action.accolade, active: !action.accolade.RechargeTime };
 			} else {
 				delete state.powers["Accolade" + action.index];
+			}
+
+			return newState;
+		case SELECT_INCARNATE:
+			newState = { ...state };
+
+			if (action.incarnate) {
+				state.powers["Incarnate" + action.set] = { powerData: action.incarnate, active: !action.incarnate.RechargeTime };
+			} else {
+				delete state.powers["Incarnate" + action.set];
 			}
 
 			return newState;

@@ -13,6 +13,7 @@ export const SELECT_POWER = "SELECT_POWER";
 export const ADD_SLOT_TO_POWER = "ADD_SLOT_TO_POWER";
 export const APPLY_ENHANCEMENT_TO_POWER = "APPLY_ENHANCEMENT_TO_POWER";
 export const SELECT_ACCOLADE = "SELECT_ACCOLADE";
+export const SELECT_INCARNATE = "SELECT_INCARNATE";
 
 export const PAGE_MAIN_MENU = 0;
 export const PAGE_SELECT_ARCHETYPE = 1;
@@ -24,3 +25,4 @@ export const MODAL_LEAVE_DESIGNER = 1;
 export const MODAL_SELECT_POWER = 2;
 export const MODAL_ENHANCE_POWER = 3;
 export const MODAL_SELECT_ACCOLADE = 4;
+export const MODAL_SELECT_INCARNATE = 5;

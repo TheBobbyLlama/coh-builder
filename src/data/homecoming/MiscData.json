@@ -673,6 +673,91 @@
 		[
 			"Temporary_Powers.Accolades.Task_Force_Commander",
 			"Temporary_Powers.Accolades.Invader"
+		],
+		[
+			"Temporary_Powers.Accolades.RIWE_Accolade_Power",
+			"Temporary_Powers.Accolades.RIWE_Accolade_Power"
+		],
+		[
+			"Temporary_Powers.Accolades.Eye_of_the_Magus",
+			"Temporary_Powers.Accolades.Eye_of_the_Magus"
+		],
+		[
+			"Temporary_Powers.Accolades.Geas_of_the_Kind_Ones",
+			"Temporary_Powers.Accolades.Geas_of_the_Kind_Ones"
+		],
+		[
+			"Temporary_Powers.Accolades.Vanguard_Medal",
+			"Temporary_Powers.Accolades.Vanguard_Medal"
 		]
-	]
+	],
+	"Incarnates": {
+		"Alpha": [
+			"Agility",
+			"Cardiac",
+			"Intuition",
+			"Musculature",
+			"Nerve",
+			"Resilient",
+			"Spiritual",
+			"Vigor"
+		],
+		"Judgement": [
+			"Cryonic",
+			"Ion",
+			"Mighty",
+			"Pyronic",
+			"Void",
+			"Vorpal"
+		],
+		"Interface": [
+			"Cognitive",
+			"Degenerative",
+			"Diamagnetic",
+			"Gravitic",
+			"Paralytic",
+			"Preemptive",
+			"Reactive",
+			"Spectral"
+		],
+		"Lore": [
+			"Arachnos",
+			"Banished Pantheon",
+			"Carnival",
+			"Cimeroran",
+			"Clockwork",
+			"IDF",
+			"Knives of Vengeance",
+			"Longbow",
+			"Nemesis",
+			"Phantom",
+			"Polar Lights",
+			"Rikti",
+			"Robotic Drones",
+			"Rularuu",
+			"Seers",
+			"Storm Elemental",
+			"Talons of Vengeance",
+			"Tsoo",
+			"Vanguard",
+			"Warworks"
+		],
+		"Destiny": [
+			"Ageless",
+			"Barrier",
+			"Clarion",
+			"Incandescence",
+			"Rebirth"
+		],
+		"Hybrid": [
+			"Assault",
+			"Control",
+			"Melee",
+			"Support"
+		],
+		"Genesis": [],
+		"Stance": [],
+		"Vitae": [],
+		"Omega": []
+	}
 }

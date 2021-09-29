@@ -39,9 +39,21 @@ function CharacterPowerPanel() {
 									allowChange={false}
 								/>);
 					} else {
-						return <></>
+						return null;
 					}
 				})}
+				{Object.entries(state.miscData.Incarnates).map(info => {
+					if (state.powers["Incarnate" + info[0]]) {
+						return (<PowerWidget
+									key={"Incarnate" + info[0]}
+									target={state.powers["Incarnate" + info[0]]}
+									allowChange={false}
+								/>);
+					} else {
+						return null;
+					}
+				})
+				}
 			</div>
 		</div>
 	);

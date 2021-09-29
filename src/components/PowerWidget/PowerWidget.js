@@ -34,7 +34,7 @@ function PowerWidget({ label, target, allowChange }) {
 			<div>
 				{label || ""}
 			</div>
-			<div className={(determineValidPower()) ? "" : "invalid"}>
+			<div className={"powerName" + ((determineValidPower()) ? "" : " invalid")}>
 				{(target?.powerData?.DisplayName) ? <b>{target.powerData.DisplayName}</b> : <i>Click to Add a Power</i>}
 			</div>
 			<div>

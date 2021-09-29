@@ -41,6 +41,11 @@ div.powerWidget:after {
 	width: 20px;
 }
 
+div.powerWidget div.powerName {
+	overflow: hidden;
+	white-space: nowrap;
+}
+
 div.powerWidget.locked {
 	cursor: default;
 }

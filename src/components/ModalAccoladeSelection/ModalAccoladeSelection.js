@@ -35,13 +35,14 @@ function ModalAccoladeSelection() {
 
 	return (
 		<div id="modalAccoladeSelection" className="builderPanel">
+			<button id="closeButton" type="button" className="pretty cancel" onClick={done}>X</button>
 			<h2>Accolade Selection</h2>
 			<div>
 				<div className="builderInset">
 					{state.miscData.Accolades.map((accoladeInfo, index) => {
 						let hasAccolade = !!(state.powers["Accolade" + index]);
 						let curAccolade = findPower(accoladeInfo[accoladeOffset], state.powersetData);
-						return (<button type="button" className={"pretty" + ((hasAccolade) ? "" : " inactive")} title={curAccolade.DescShort} onClick={() => { setAccolade(curAccolade, index, hasAccolade); }} onMouseEnter={() => { highlightAccolade(curAccolade); }}>{curAccolade.DisplayName}</button>);
+						return (<button key={index} type="button" className={"pretty" + ((hasAccolade) ? "" : " inactive")} title={curAccolade.DescShort} onClick={() => { setAccolade(curAccolade, index, hasAccolade); }} onMouseEnter={() => { highlightAccolade(curAccolade); }}>{curAccolade.DisplayName}</button>);
 					})}
 				</div>
 				<div id="accoladeInfo" className="builderInset">
@@ -52,7 +53,6 @@ function ModalAccoladeSelection() {
 						<p>{displayedAccolade.DescLong}</p>
 					</>:<></>}
 				</div>
-				<button type="button" className="pretty confirm" onClick={done}>Ok</button>
 			</div>
 		</div>
 	);

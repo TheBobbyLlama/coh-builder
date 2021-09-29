@@ -1,3 +1,17 @@
+#modalAccoladeSelection {
+	position: relative;
+}
+
+#modalAccoladeSelection h2 {
+	margin: 0 50px;
+}
+
+#modalAccoladeSelection #closeButton {
+	position: absolute;
+	right: 12px;
+	top: 8px;
+}
+
 #modalAccoladeSelection div {
 	align-items: center;
 	display: flex;
@@ -11,11 +25,12 @@
 #modalAccoladeSelection > div > div {
 	margin-top: 8px;
 	padding: 20px;
-	width: 256px;
+	width: 380px;
 }
 
 #modalAccoladeSelection > div > div:last-of-type {
-	height: 100px;
+	height: 128px;
+	padding: 8px 20px;
 }
 
 #modalAccoladeSelection > div > div p {
@@ -33,4 +48,10 @@
 
 #modalAccoladeSelection button.inactive:hover, #modalAccoladeSelection button.inactive:hover::before, #modalAccoladeSelection button.inactive:hover::after {
 	background-color: #606060;
+}
+
+@media screen and (max-width: 680px) {
+	#modalAccoladeSelection > div > div {
+		width: 300px;
+	}
 }
