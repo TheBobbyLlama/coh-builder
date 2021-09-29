@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/coh-builder/static/css/main.3011853f.chunk.css",
-    "main.js": "/coh-builder/static/js/main.a8f56dc6.chunk.js",
-    "main.js.map": "/coh-builder/static/js/main.a8f56dc6.chunk.js.map",
+    "main.css": "/coh-builder/static/css/main.742cc89e.chunk.css",
+    "main.js": "/coh-builder/static/js/main.d7c1333d.chunk.js",
+    "main.js.map": "/coh-builder/static/js/main.d7c1333d.chunk.js.map",
     "runtime-main.js": "/coh-builder/static/js/runtime-main.b1e8830d.js",
     "runtime-main.js.map": "/coh-builder/static/js/runtime-main.b1e8830d.js.map",
     "static/js/2.744a0faf.chunk.js": "/coh-builder/static/js/2.744a0faf.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/coh-builder/index.html",
     "service-worker.js": "/coh-builder/service-worker.js",
     "service-worker.js.map": "/coh-builder/service-worker.js.map",
-    "static/css/main.3011853f.chunk.css.map": "/coh-builder/static/css/main.3011853f.chunk.css.map",
+    "static/css/main.742cc89e.chunk.css.map": "/coh-builder/static/css/main.742cc89e.chunk.css.map",
     "static/js/2.744a0faf.chunk.js.LICENSE.txt": "/coh-builder/static/js/2.744a0faf.chunk.js.LICENSE.txt",
     "static/media/App.css": "/coh-builder/static/media/REDCIRCL.79bf45ec.ttf",
     "static/media/bumperMiddle.xcf": "/coh-builder/static/media/bumperMiddle.f92ad92c.xcf",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.b1e8830d.js",
     "static/js/2.744a0faf.chunk.js",
-    "static/css/main.3011853f.chunk.css",
-    "static/js/main.a8f56dc6.chunk.js"
+    "static/css/main.742cc89e.chunk.css",
+    "static/js/main.d7c1333d.chunk.js"
   ]
 }
