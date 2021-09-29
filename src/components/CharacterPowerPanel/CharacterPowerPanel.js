@@ -31,6 +31,17 @@ function CharacterPowerPanel() {
 					target={state.powers[state.archetype.DisplayName]}
 					allowChange={false}
 				/>
+				{state.miscData.Accolades.map((item, index) => {
+					if (state.powers["Accolade" + index]) {
+						return (<PowerWidget
+									key={"Accolade" + index}
+									target={state.powers["Accolade" + index]}
+									allowChange={false}
+								/>);
+					} else {
+						return <></>
+					}
+				})}
 			</div>
 		</div>
 	);

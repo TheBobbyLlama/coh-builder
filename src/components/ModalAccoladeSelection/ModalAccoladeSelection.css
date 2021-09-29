@@ -1,0 +1,36 @@
+#modalAccoladeSelection div {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+#modalAccoladeSelection > div button {
+	margin-top: 8px;
+}
+
+#modalAccoladeSelection > div > div {
+	margin-top: 8px;
+	padding: 20px;
+	width: 256px;
+}
+
+#modalAccoladeSelection > div > div:last-of-type {
+	height: 100px;
+}
+
+#modalAccoladeSelection > div > div p {
+	font-size: 10px;
+	margin: 4px 0px;
+}
+
+#modalAccoladeSelection > div > div > button {
+	margin: 6px 20px;
+}
+
+#modalAccoladeSelection button.inactive, #modalAccoladeSelection button.inactive::before, #modalAccoladeSelection button.inactive::after {
+	background-color: #404040;
+}
+
+#modalAccoladeSelection button.inactive:hover, #modalAccoladeSelection button.inactive:hover::before, #modalAccoladeSelection button.inactive:hover::after {
+	background-color: #606060;
+}
