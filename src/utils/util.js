@@ -6,7 +6,7 @@ export const validPoolPower = (tryPower, tryLevel, powerList) => {
 	var testEntries = Object.entries(powerList).filter(curItem => Number(curItem[0]) < Number(tryLevel)).map(curItem => curItem[1].powerData.PowerIndex);
 	var checkArray = tryPower.Requires.NPowerID;
 
-	if (checkArray.length) {
+	if ((tryPower.Level) && (checkArray.length)) {
 		for (var i = 0; i < checkArray.length; i++) {
 			let count = 0;
 

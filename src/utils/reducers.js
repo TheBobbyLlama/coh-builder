@@ -54,12 +54,12 @@ const clearCharacterData = (state) => {
 };
 
 const checkAddSupplementalPowers = (addPower, state) => {
-	const addPowersets = state.powersetData.filter(set => (((set.SetType === 1) || (set.SetType === 2) || (set.SetType === 4)) && set.Powers.find(item => item.Requires?.NPowerID?.find(curReq => curReq.indexOf(addPower.PowerIndex) > -1))));
+	const addPowersets = state.powersetData.filter(set => set.Powers.find(item => item.Requires?.NPowerID?.find(curReq => curReq.indexOf(addPower.PowerIndex) > -1)));
 
 	const addMe = [];
 
 	addPowersets.forEach(set => {
-		let curAdd = set.Powers.filter(item => item.Requires?.NPowerID?.find(curReq => curReq.indexOf(addPower.PowerIndex) > -1));
+		let curAdd = set.Powers.filter(item => ((item.Level <= 1) && (item.Requires?.NPowerID?.find(curReq => curReq.indexOf(addPower.PowerIndex) > -1))));
 		addMe.push(...curAdd);
 	});
 
@@ -80,12 +80,12 @@ const checkRemoveSupplementalPowers = (remPower, state) => {
 			let useCount = 0;
 
 			Object.entries(state.powers).forEach(tryMe => {
-				if (info[1].powerData?.Requires?.NPowerID?.find(curReq => curReq.indexOf(tryMe[1].powerData?.PowerIndex) > -1)) {
+				if ((tryMe[1].powerData?.PowerIndex !== remPower.PowerIndex) && (info[1].powerData?.Requires?.NPowerID?.find(curReq => curReq.indexOf(tryMe[1].powerData?.PowerIndex) > -1))) {
 					useCount++;
 				}
 			});
 
-			if (useCount <= 1) {
+			if (useCount <= 0) {
 				if ((info[1].powerData.Slottable) && (info[1].slots?.length > 1)) {
 					state.slotCount = state.slotCount + 1 - info[1].slots.length;
 				}
