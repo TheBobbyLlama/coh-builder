@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/coh-builder/static/css/main.a848ece5.chunk.css",
-    "main.js": "/coh-builder/static/js/main.91391ea5.chunk.js",
-    "main.js.map": "/coh-builder/static/js/main.91391ea5.chunk.js.map",
+    "main.js": "/coh-builder/static/js/main.89cbe34c.chunk.js",
+    "main.js.map": "/coh-builder/static/js/main.89cbe34c.chunk.js.map",
     "runtime-main.js": "/coh-builder/static/js/runtime-main.b1e8830d.js",
     "runtime-main.js.map": "/coh-builder/static/js/runtime-main.b1e8830d.js.map",
     "static/js/2.23528607.chunk.js": "/coh-builder/static/js/2.23528607.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.b1e8830d.js",
     "static/js/2.23528607.chunk.js",
     "static/css/main.a848ece5.chunk.css",
-    "static/js/main.91391ea5.chunk.js"
+    "static/js/main.89cbe34c.chunk.js"
   ]
 }
