@@ -64,7 +64,7 @@ const checkAddSupplementalPowers = (addPower, state) => {
 	});
 
 	addMe.forEach(curPower => {
-		let curData = { powerData: curPower };
+		let curData = { powerData: curPower, active: false };
 
 		if (curData.Slottable) {
 			curData.slots = [undefined];
@@ -241,7 +241,14 @@ export const reducer = (state, action) => {
 
 			if ((newState.archetype) && (action.powerset)) {
 				newState.secondaryPowerset = action.powerset;
-				newState.powers[1.1] = { label: 1.1, powerData: newState.secondaryPowerset.Powers.find(item => item.Level === 1), slots: [ undefined ] }
+
+				let curData = { label: 1.1, powerData: newState.secondaryPowerset.Powers.find(item => item.Level === 1), slots: [ undefined ] }
+
+				if (curData.powerData.Effects?.find(effect => effect.ToWho === 2)) {
+					curData.active = !curData.powerData.RechargeTime;
+				}
+
+				newState.powers[1.1] = curData;
 			} else {
 				delete newState.secondaryPowerset;
 			}
@@ -303,7 +310,17 @@ export const reducer = (state, action) => {
 					}
 				}
 
-				newState.powers[action.level] = { label: action.level, powerData: action.power, slots: [ undefined ] };
+				let curData = { label: action.level, powerData: action.power };
+
+				if (action.power.Slottable) {
+					curData.slots = [ undefined ];
+				}
+
+				if (action.power.Effects?.find(effect => effect.ToWho === 2)) {
+					curData.active = !action.power.RechargeTime;
+				}
+
+				newState.powers[action.level] = curData;
 
 				checkAddSupplementalPowers(action.power, newState);
 

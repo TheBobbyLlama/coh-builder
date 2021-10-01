@@ -38,8 +38,8 @@ function PowerWidget({ label, target, allowChange }) {
 				{(target?.powerData?.DisplayName) ? <b>{target.powerData.DisplayName}</b> : <i>Click to Add a Power</i>}
 			</div>
 			<div>
-				{(target?.powerData?.Effects.find(effect => effect.ToWho === 2)) ?
-				<div className={"activate" + ((target.active) ? " active" : "")} onClick={() => { target.active = !target.active; setActive(target.active); }}></div>
+				{(target?.active !== undefined) ?
+				<div className={"activate" + ((target.active) ? " active" : "")} onClick={(event) => { target.active = !target.active; setActive(target.active); event.stopPropagation(); }}></div>
 				: <></>}
 			</div>
 			{(target?.slots?.length) ? 
