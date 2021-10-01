@@ -54,7 +54,7 @@ const clearCharacterData = (state) => {
 };
 
 const checkAddSupplementalPowers = (addPower, state) => {
-	const addPowersets = state.powersetData.filter(set => set.Powers.find(item => item.Requires?.NPowerID?.find(curReq => curReq.indexOf(addPower.PowerIndex) > -1)));
+	const addPowersets = state.powersetData.filter(set => (((set.SetType === 1) || (set.SetType === 2) || (set.SetType === 4)) && set.Powers.find(item => item.Requires?.NPowerID?.find(curReq => curReq.indexOf(addPower.PowerIndex) > -1))));
 
 	const addMe = [];
 
