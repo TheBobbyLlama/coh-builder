@@ -21,8 +21,8 @@ function DesignerControlsPanel() {
 	return (
 		<div id="designerControls" className="builderPanel">
 			<div id="themeChanger"><div className={(state.theme !== "Hero") ? "inactive" : ""} onClick={() => { setColorTheme("Hero"); }}></div><div className={(state.theme === "Hero") ? "inactive" : ""} onClick={() => { setColorTheme("Villain"); }}></div></div>
-			<div><button type="button" className="pretty">View Totals</button></div>
-			<div><button type="button" className="pretty">Active Sets</button></div>
+			<div><button type="button" className="pretty" disabled={true}>View Totals</button></div>
+			<div><button type="button" className="pretty" disabled={true}>Active Sets</button></div>
 			<div id="counterHolder"><div id="slotCounter">{(state.slotMax - state.slotCount)}</div></div>
 			<div><button type="button" className="pretty" onClick={showAccoladeSelection}>Accolades</button></div>
 			<div><button type="button" className="pretty" onClick={showIncarnateSelection}>Incarnate</button></div>

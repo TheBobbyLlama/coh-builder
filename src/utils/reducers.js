@@ -53,6 +53,49 @@ const clearCharacterData = (state) => {
 	state.slotCount = 0;
 };
 
+const checkAddSupplementalPowers = (addPower, state) => {
+	const addPowersets = state.powersetData.filter(set => set.Powers.find(item => item.Requires?.NPowerID?.find(curReq => curReq.indexOf(addPower.PowerIndex) > -1)));
+
+	const addMe = [];
+
+	addPowersets.forEach(set => {
+		let curAdd = set.Powers.filter(item => item.Requires?.NPowerID?.find(curReq => curReq.indexOf(addPower.PowerIndex) > -1));
+		addMe.push(...curAdd);
+	});
+
+	addMe.forEach(curPower => {
+		let curData = { powerData: curPower };
+
+		if (curData.Slottable) {
+			curData.slots = [undefined];
+		}
+
+		state.powers["Power_" + curPower.PowerIndex] = curData;
+	});
+}
+
+const checkRemoveSupplementalPowers = (remPower, state) => {
+	Object.entries(state.powers).forEach(info => {
+		if (info[0].startsWith("Power_")) {
+			let useCount = 0;
+
+			Object.entries(state.powers).forEach(tryMe => {
+				if (info[1].powerData?.Requires?.NPowerID?.find(curReq => curReq.indexOf(tryMe[1].powerData?.PowerIndex) > -1)) {
+					useCount++;
+				}
+			});
+
+			if (useCount <= 1) {
+				if ((info[1].powerData.Slottable) && (info[1].slots?.length > 1)) {
+					state.slotCount = state.slotCount + 1 - info[1].slots.length;
+				}
+
+				delete state.powers[info[0]];
+			}
+		}
+	});
+}
+
 const addDefaultInherents = (state) => {
 	state.miscData.IncludeInherents.forEach(item => {
 		let curPower = findPower(item, state.powersetData);
@@ -159,9 +202,15 @@ export const reducer = (state, action) => {
 			newState = { ...state };
 
 			if (newState.primaryPowerset) {
-				Object.entries(newState.powers).forEach(item => {
-					if (item[1].powerData.PowerSetID === newState.primaryPowerset.nID) {
-						delete newState.powers[item[0]];
+				Object.entries(newState.powers).forEach(info => {
+					if (info[1].powerData.PowerSetID === newState.primaryPowerset.nID) {
+						checkRemoveSupplementalPowers(info[1].powerData, newState);
+
+						if ((info[1].powerData.Slottable) && (info[1].slots?.length > 1)) {
+							newState.slotCount = newState.slotCount + 1 - info[1].slots.length;
+						}
+
+						delete newState.powers[info[0]];
 					}
 				})
 			}
@@ -177,9 +226,15 @@ export const reducer = (state, action) => {
 			newState = { ...state };
 
 			if (newState.secondaryPowerset) {
-				Object.entries(newState.powers).forEach(item => {
-					if (item[1].powerData.PowerSetID === newState.secondaryPowerset.nID) {
-						delete newState.powers[item[0]];
+				Object.entries(newState.powers).forEach(info => {
+					if (info[1].powerData.PowerSetID === newState.secondaryPowerset.nID) {
+						checkRemoveSupplementalPowers(info[1].powerData, newState);
+
+						if ((info[1].powerData.Slottable) && (info[1].slots?.length > 1)) {
+							newState.slotCount = newState.slotCount + 1 - info[1].slots.length;
+						}
+
+						delete newState.powers[info[0]];
 					}
 				})
 			}
@@ -198,6 +253,12 @@ export const reducer = (state, action) => {
 			delete newState.modal;
 
 			if (newState.powers[action.level]) {
+				checkRemoveSupplementalPowers(newState.powers[action.level].powerData, newState);
+
+				if ((newState.powers[action.level].powerData?.Slottable) && (newState.powers[action.level].slots?.length > 1)) {
+					newState.slotCount = newState.slotCount + 1 - newState.powers[action.level].slots.length;
+				}
+
 				if (newState.powers[action.level].powerData.GroupName === "Pool") {
 					let powerCount = Object.entries(newState.powers).filter(item => item[1].powerData.PowerSetID === newState.powers[action.level].powerData.PowerSetID).length;
 
@@ -243,6 +304,9 @@ export const reducer = (state, action) => {
 				}
 
 				newState.powers[action.level] = { label: action.level, powerData: action.power, slots: [ undefined ] };
+
+				checkAddSupplementalPowers(action.power, newState);
+
 				return newState
 			}
 

@@ -31,6 +31,13 @@ function CharacterPowerPanel() {
 					target={state.powers[state.archetype.DisplayName]}
 					allowChange={false}
 				/>
+				{Object.entries(state.powers).filter(info => info[0].startsWith("Power_")).map(info => {
+					return (<PowerWidget
+								key={info[0]}
+								target={info[1]}
+								allowChange={false}
+							/>)
+				})}
 				{state.miscData.Accolades.map((item, index) => {
 					if (state.powers["Accolade" + index]) {
 						return (<PowerWidget

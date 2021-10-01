@@ -85,6 +85,8 @@ namespace CoHBuilderJSONConverter
         //public int[] NClassNameNot;
         public int[][] NPowerID;
         public int[][] NPowerIDNot;
+        public string[][] PowerID;
+        public string[][] PowerIDNot;
     }
 
     public class PowerDataEffect
