@@ -15,12 +15,14 @@ import {
 	APPLY_ENHANCEMENT_TO_POWER,
 	SELECT_ACCOLADE,
 	SELECT_INCARNATE,
+	IMPORT_CHARACTER,
 	PAGE_MAIN_MENU,
 	PAGE_CHARACTER_DESIGNER
 } from "./actions";
 
 import { initializeDataset } from "../lib/db";
 import { findPower, setIOAlreadyPlaced } from "./util";
+import { getDataChunk, importCharacter } from "./buildImportExport";
 
 const displayNameSort = (a, b, path="") => 
 {
@@ -395,6 +397,24 @@ export const reducer = (state, action) => {
 			}
 
 			return newState;
+		case IMPORT_CHARACTER:
+			let tryChunk = getDataChunk(action.data);
+
+			if (tryChunk) {
+				newState = { ...state };
+
+				if (importCharacter(tryChunk, newState)) {
+					newState.page = PAGE_CHARACTER_DESIGNER;
+					return newState;
+				} else {
+					// TODO - Error modal instead!
+					clearCharacterData(newState);
+					newState.page = PAGE_MAIN_MENU;
+					return newState;
+				}
+			}
+
+			return state;
 		default:
 			return state;
 	}

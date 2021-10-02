@@ -1,0 +1,49 @@
+#importCharacter {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+#importCharacter h2 {
+	font-family: 'Red Circle';
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	background-clip: initial;
+	background-color: #f3ec78;
+    background-image: linear-gradient(to bottom, var(--header-gold), var(--header-gradient));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+#importCharacter .titleHolder {
+	background-color: black;
+	display: inline-block;
+	padding: 0px 8px;
+	position: relative;
+	top: -20px;
+}
+
+#importCharacter textarea {
+	background-color: var(--main-blue-dark);
+	border: solid 1px var(--main-blue);
+	border-radius: 4px;
+	color: white;
+	height: 400px;
+	margin: 0 20px;
+	padding: 4px 8px;
+	resize: none;
+	width: 600px;
+}
+
+#importCharacter .buttonControls {
+	display: flex;
+	justify-content: center;
+}
+
+#importCharacter .buttonControls button {
+	margin: 16px 24px 8px 24px;
+}

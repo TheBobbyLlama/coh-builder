@@ -6,4 +6,4 @@ https://thebobbyllama.github.io/coh-builder/
 
 ![Project Screenshot](/snapshot.png?raw=true)
 
-The data from this site was exported from the Mids Reborn Hero Designer desktop program. (https://midsreborn.com/)
+The data used by this project was exported from the Mids Reborn Hero Designer desktop program. (https://midsreborn.com/)

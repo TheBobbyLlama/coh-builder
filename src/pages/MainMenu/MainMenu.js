@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useStoreContext } from "../../utils/GlobalState";
-import { SET_CURRENT_PAGE, PAGE_SELECT_ARCHETYPE } from "../../utils/actions"
+import { SET_CURRENT_PAGE, PAGE_SELECT_ARCHETYPE, PAGE_IMPORT } from "../../utils/actions"
 
 import "./MainMenu.css";
 
@@ -16,6 +16,10 @@ function MainMenu() {
 		dispatch({ type: SET_CURRENT_PAGE, page: PAGE_SELECT_ARCHETYPE });
 	}
 
+	const importCharacter = () => {
+		dispatch({ type: SET_CURRENT_PAGE, page: PAGE_IMPORT });
+	}
+
 	return (
 		<div id="mainMenu">
 			<div>
@@ -29,7 +33,7 @@ function MainMenu() {
 			</div>
 			<div className="buttonHolder">
 				<button type="button" className="prettyBig" onClick={startNewCharacter}>Start a New Character</button>
-				<button type="button" className="prettyBig" disabled>Load a Character</button>
+				<button type="button" className="prettyBig" onClick={importCharacter}>Load a Character</button>
 			</div>
 		</div>
 	);
