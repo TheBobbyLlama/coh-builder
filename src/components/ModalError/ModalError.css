@@ -1,0 +1,28 @@
+#modalError {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+}
+
+#modalError > div {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	margin-top: 12px;
+}
+
+#modalError h2 {
+	margin-bottom: 12px;
+	background-clip: initial;
+	background-color: #f3ec78;
+    background-image: linear-gradient(to bottom, var(--header-gold), var(--header-gradient));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+#modalError p {
+	margin: 8px 20px;
+}

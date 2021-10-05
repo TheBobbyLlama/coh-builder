@@ -17,7 +17,8 @@ import {
 	SELECT_INCARNATE,
 	IMPORT_CHARACTER,
 	PAGE_MAIN_MENU,
-	PAGE_CHARACTER_DESIGNER
+	PAGE_CHARACTER_DESIGNER,
+	MODAL_ERROR
 } from "./actions";
 
 import { initializeDataset } from "../lib/db";
@@ -108,8 +109,9 @@ export const reducer = (state, action) => {
 			let error = selectPower(state, action.power, action.level);
 
 			if (error) {
-				console.log(error); // TODO - Error modal!
-				return state;
+				newState = { ...state };
+					newState.modal = {key: MODAL_ERROR, message: (error.message || error)};
+					return newState;
 			}
 			
 			return newState;
@@ -143,10 +145,8 @@ export const reducer = (state, action) => {
 				let error = importCharacter(tryChunk, newState);
 
 				if (error) {
-					// TODO - Error modal instead!
-					console.log(error);
 					newState = { ...state };
-					newState.page = PAGE_MAIN_MENU;
+					newState.modal = {key: MODAL_ERROR, message: "The character could not be loaded:\n" + (error.message || error)};
 					return newState;
 				} else {
 					newState.page = PAGE_CHARACTER_DESIGNER;

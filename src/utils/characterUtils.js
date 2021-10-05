@@ -227,7 +227,7 @@ export const selectPower = (state, power, level) => {
 			if (!state.epicPool) {
 				state.epicPool = state.powersetData.find(mySet => mySet.nID === power.PowerSetID);
 			} else if (state.epicPool.nID !== power.PowerSetID) {
-				return "ERROR!  Tried to add an epic power from another pool!";
+				return "Cannot add an epic power from another pool!";
 			}
 		}
 

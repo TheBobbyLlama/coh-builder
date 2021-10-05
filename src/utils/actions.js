@@ -23,8 +23,9 @@ export const PAGE_CHARACTER_DESIGNER = 2;
 export const PAGE_IMPORT = 3;
 
 export const MODAL_HIDE = 0;
-export const MODAL_LEAVE_DESIGNER = 1;
-export const MODAL_SELECT_POWER = 2;
-export const MODAL_ENHANCE_POWER = 3;
-export const MODAL_SELECT_ACCOLADE = 4;
-export const MODAL_SELECT_INCARNATE = 5;
+export const MODAL_ERROR = 1;
+export const MODAL_LEAVE_DESIGNER = 2;
+export const MODAL_SELECT_POWER = 3;
+export const MODAL_ENHANCE_POWER = 4;
+export const MODAL_SELECT_ACCOLADE = 5;
+export const MODAL_SELECT_INCARNATE = 6;
