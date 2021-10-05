@@ -2,8 +2,12 @@ export const findPower = (powerName, powersetData) => {
 	return powersetData.find(set => set.Powers.find(power => power.FullName === powerName))?.Powers.find(power => power.FullName === powerName);
 }
 
+export const findPowerID = (powerId, powersetData) => {
+	return powersetData.find(set => set.Powers.find(power => power.StaticIndex === powerId))?.Powers.find(power => power.StaticIndex === powerId);
+}
+
 export const validPoolPower = (tryPower, tryLevel, powerList) => {
-	var testEntries = Object.entries(powerList).filter(curItem => Number(curItem[0]) < Number(tryLevel)).map(curItem => curItem[1].powerData.PowerIndex);
+	var testEntries = Object.entries(powerList).filter(curItem => Number(curItem[1].label) < Number(tryLevel)).map(curItem => curItem[1].powerData.PowerIndex);
 	var checkArray = tryPower.Requires.NPowerID;
 
 	if ((tryPower.Level) && (checkArray.length)) {

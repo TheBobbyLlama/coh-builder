@@ -9,7 +9,7 @@ import "./CharacterInfoPanel.css";
 
 function CharacterInfoPanel() {
 	const [state,dispatch] = useStoreContext();
-	const [myName, setMyName] = useState("");
+	const [myName, setMyName] = useState(state.characterName || "");
 
 	const primaryPowersetList = state.powersetData.filter(item => item.GroupName === state.archetype.PrimaryGroup);
 	const secondaryPowersetList = state.powersetData.filter(item => item.GroupName === state.archetype.SecondaryGroup);

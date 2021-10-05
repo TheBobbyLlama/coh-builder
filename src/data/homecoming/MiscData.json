@@ -2,6 +2,7 @@
 	"FileHeader": {
 		"Info": "This file has some definitions from the Mids Enums.cs file.  Powers are referenced by their FullName so this file doesn't need to worry about PowerIndex changes."
 	},
+	"PowerLevels": [ 1, 1.1, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 35, 38, 41, 44, 47, 49 ],
 	"PowerSetTypes": [
 		{
 			"Name": "None"
@@ -590,6 +591,10 @@
 		"25": "Haste",
 		"1": "BuffAcc"
 	},
+	"LegacySetNames": [
+		[ "Pool.Leadership_beta", "Pool.Leadership" ],
+		[ "Blaster_Support.Atomic_Manipulation", "Blaster_Support.Radiation_Manipulation" ]
+	],
 	"IncludeInherents": [
 		"Inherent.Inherent.Brawl",
 		"Inherent.Inherent.Sprint",

@@ -40,7 +40,7 @@ function ModalAccoladeSelection() {
 			<div>
 				<div className="builderInset">
 					{state.miscData.Accolades.map((accoladeInfo, index) => {
-						let hasAccolade = !!(state.powers["Accolade" + index]);
+						let hasAccolade = !!(state.powers["Accolade_" + index]);
 						let curAccolade = findPower(accoladeInfo[accoladeOffset], state.powersetData);
 						return (<button key={index} type="button" className={"pretty" + ((hasAccolade) ? "" : " inactive")} title={curAccolade.DescShort} onClick={() => { setAccolade(curAccolade, index, hasAccolade); }} onMouseEnter={() => { highlightAccolade(curAccolade); }}>{curAccolade.DisplayName}</button>);
 					})}
