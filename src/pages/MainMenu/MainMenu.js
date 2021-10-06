@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { useStoreContext } from "../../utils/GlobalState";
-import { SET_CURRENT_PAGE, PAGE_SELECT_ARCHETYPE, PAGE_IMPORT } from "../../utils/actions"
+import { SET_CURRENT_PAGE, IMPORT_CHARACTER, PAGE_SELECT_ARCHETYPE, PAGE_IMPORT } from "../../utils/actions";
+
+import { getDataChunk } from '../../utils/buildImportExport';
 
 import "./MainMenu.css";
 
@@ -10,7 +12,11 @@ function MainMenu() {
 	// Bit of a kludge here, but make sure the document title is generic when we get here.
 	useEffect(() => {
 		document.title = "CoH Builder";
-	 }, []);
+
+		if (getDataChunk(window.location.href)) {
+			dispatch({type: IMPORT_CHARACTER, data: window.location.href });
+		}
+	 }, [dispatch]);
 
 	const startNewCharacter = () => {
 		dispatch({ type: SET_CURRENT_PAGE, page: PAGE_SELECT_ARCHETYPE });

@@ -150,6 +150,9 @@ export const reducer = (state, action) => {
 					return newState;
 				} else {
 					newState.page = PAGE_CHARACTER_DESIGNER;
+
+					window.history.replaceState("", "CoH Builder - " + newState.characterName, "/");
+
 					return newState;
 				}
 			}

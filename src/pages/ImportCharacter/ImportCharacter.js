@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { useStoreContext } from "../../utils/GlobalState";
-import { SET_CURRENT_PAGE, IMPORT_CHARACTER, PAGE_MAIN_MENU } from "../../utils/actions"
+import { SET_CURRENT_PAGE, IMPORT_CHARACTER, PAGE_MAIN_MENU } from "../../utils/actions";
+
+import { getDataChunk } from "../../utils/buildImportExport";
 
 import "./ImportCharacter.css";
 
@@ -27,7 +29,7 @@ function ImportCharacter() {
 					<textarea placeholder="You may paste a CoH Builder link here, or a Mids Reborn link or data chunk." value={importData} onChange={event => { setImportData(event.target.value); }} />
 				</div>
 				<div className="buttonControls">
-					<button type="button" className="prettyBig confirm" onClick={importCharacter} disabled={!importData}>Import!</button>
+					<button type="button" className="prettyBig confirm" onClick={importCharacter} disabled={!getDataChunk(importData)}>Import!</button>
 					<button type="button" className="prettyBig cancel" onClick={cancel}>Cancel</button>
 				</div>
 			</div>

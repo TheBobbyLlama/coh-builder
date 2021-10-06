@@ -1,0 +1,57 @@
+#modalExportCharacter {
+	width: 600px;
+}
+
+#modalExportCharacter h2 {
+	margin-bottom: 8px;
+	background-clip: initial;
+	background-color: #f3ec78;
+    background-image: linear-gradient(to bottom, var(--header-gold), var(--header-gradient));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+#modalExportCharacter textarea {
+	background-color: black;
+	border: Solid 1px var(--main-blue);
+	border-radius: 4px;
+	color: silver;
+	cursor: pointer;
+	font-size: 12px;
+	margin: 0;
+	padding: 4px 8px;
+	resize: none;
+	width: calc(100% - 20px) !important; /* Why does this need to be !important??? */
+}
+
+#modalExportCharacter textarea:first-of-type {
+	height: 240px;
+}
+
+#modalExportCharacter textarea:last-of-type {
+	height: 300px;
+}
+
+#modalExportCharacter textarea.copied {
+	color: white;
+	cursor: default;
+}
+
+#modalExportCharacter > div.clickMe i {
+	display: flex;
+	font-size: 12px;
+}
+
+#modalExportCharacter > div:last-of-type {
+	display: flex;
+	justify-content: center;
+}
+
+@media screen and (max-width: 440px) {
+	#modalExportCharacter {
+		width: 100%;
+	}
+}

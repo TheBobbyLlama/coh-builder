@@ -29,3 +29,4 @@ export const MODAL_SELECT_POWER = 3;
 export const MODAL_ENHANCE_POWER = 4;
 export const MODAL_SELECT_ACCOLADE = 5;
 export const MODAL_SELECT_INCARNATE = 6;
+export const MODAL_EXPORT_CHARACTER = 7;

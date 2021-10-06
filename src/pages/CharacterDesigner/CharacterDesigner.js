@@ -15,6 +15,8 @@ function CharacterDesigner() {
 		dispatch({ type: SHOW_MODAL, modal: { key: MODAL_LEAVE_DESIGNER } });
 	}
 
+	// window.location.href.substring(0, window.location.href.length - window.location.search.length)
+
 	return (
 		<div id="characterDesigner">
 			<div id="closeButtonHolder">

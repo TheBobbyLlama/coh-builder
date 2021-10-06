@@ -46,13 +46,13 @@ const readFloat = (bytes, position) => {
 	return [1.00, position + 4];
 }
 
-const writeFloat = (bytes, input) => {
+/*const writeFloat = (bytes, input) => {
 	// HACK - Currently only pushing 1.01 for the save version!
 	bytes.push(174);
 	bytes.push(71);
 	bytes.push(129);
 	bytes.push(63);
-}
+}*/
 
 const readInt = (bytes, position) => {
 	if (position >= bytes.length) {
@@ -77,9 +77,16 @@ const readInt = (bytes, position) => {
 }
 
 const writeInt = (bytes, input) => {
-	for (var i = 0; i < 4; i++) {
-		bytes.push(input & 255);
-		input = Math.floor(input / 256);
+	if (input < 0) { // Cheese it with a -1 value.
+		bytes.push(255);
+		bytes.push(255);
+		bytes.push(255);
+		bytes.push(255);
+	} else {
+		for (var i = 0; i < 4; i++) {
+			bytes.push(input & 255);
+			input = Math.floor(input / 256);
+		}
 	}
 }
 
@@ -183,6 +190,30 @@ const readSlotData = (data, position, curPower, state, qualifiedNames) => {
 	return [result, position];
 }
 
+const writeSlotData = (data, enhancement, state) => {
+	if (enhancement) {
+		writeInt(data, enhancement.StaticIndex);
+
+		switch (enhancement.TypeID) {
+			case 1:
+			case 3:
+				writeSByte(data, 4); // Relative level +0 (4 in the Mids enum)
+				writeSByte(data, 3); // SO
+				break;
+			case 2:
+			case 4:
+				let maxLevel = state.enhancementData.find(set => set.Uid === enhancement.UIDSet)?.LevelMax || 49;
+				writeSByte(data, maxLevel); // IO level - Always set to max!
+				writeSByte(data, 4); // Relative level +0 (4 in the Mids enum)
+				break;
+			default:
+				break;
+		}
+	} else {
+		writeInt(data, -1);
+	}
+}
+
 const readEnhancements = (data, position, curPower, state, qualifiedNames) => {
 	let slotCount;
 	let slots;
@@ -212,6 +243,20 @@ const readEnhancements = (data, position, curPower, state, qualifiedNames) => {
 	}
 
 	return [slots, position];
+}
+
+const writeEnhancements = (data, slots, state) => {
+	if (!slots?.length) {
+		writeSByte(data, -1);
+	} else {
+		writeSByte(data, slots.length - 1);
+		
+		for (let i = 0; i < slots.length; i++) {
+			writeSByte(data, 0); // Placed level	TODO - Will this work???
+			writeSlotData(data, slots[i], state);
+			writeBool(data, false); // includeAltEnh - Always false!
+		}
+	}
 }
 
 const readPower = (data, position, state, qualifiedNames) => {
@@ -310,20 +355,22 @@ const readPower = (data, position, state, qualifiedNames) => {
 				case 2: // Secondary
 				case 3: // Ancillary
 				case 5: // Pool
-					powerInfo = { label: tmpLevel, powerData: curPower };
+					if ((!state.powers["Level_" + tmpLevel]) || (tmpLevel === 1.1)) {
+						powerInfo = { label: tmpLevel, powerData: curPower };
 
-					if (curPower.Slottable) {
-						powerInfo.slots = slots || [ undefined ];
-						state.slotCount += powerInfo.slots.length - 1;
+						if (curPower.Slottable) {
+							powerInfo.slots = slots || [ undefined ];
+							state.slotCount += powerInfo.slots.length - 1;
+						}
+
+						if (curPower.Effects?.find(effect => ((effect.ToWho === 2) || (effect.ToWho === 3)))) {
+							powerInfo.active = statInclude;
+						}
+
+						state.powers["Level_" + tmpLevel] = powerInfo;
+
+						checkAddSupplementalPowers(curPower, state);
 					}
-
-					if (curPower.Effects?.find(effect => ((effect.ToWho === 2) || (effect.ToWho === 3)))) {
-						powerInfo.active = statInclude;
-					}
-
-					state.powers["Level_" + tmpLevel] = powerInfo;
-
-					checkAddSupplementalPowers(curPower, state);
 					break;
 				case 4: // Inherent
 					powerInfo = state.powers["Inherent_" + curPower.PowerName];
@@ -351,6 +398,21 @@ const readPower = (data, position, state, qualifiedNames) => {
 	}
 
 	return position;
+}
+
+const writePower = (data, powerInfo, state) => {
+	if (powerInfo?.powerData) {
+		let level = Math.floor((powerInfo.label || 1) - 1);
+
+		writeInt(data, powerInfo.powerData.StaticIndex);
+		writeSByte(data, level);
+		writeBool(data, !!powerInfo.active);
+		writeInt(data, 0); // TODO - VariableValue!
+		writeSByte(data, -1); // SubPower count - Always -1/none!
+		writeEnhancements(data, powerInfo.slots, state);
+	} else {
+		writeInt(data, -1);
+	}
 }
 
 export const importCharacter = (dataStream, state) => {
@@ -392,7 +454,7 @@ export const importCharacter = (dataStream, state) => {
 		state.origin = tmpData;
 
 		[tmpData, position] = readInt(data, position); // Alignment
-		state.theme = (tmpData > 0) ? "Villain" : "Hero";
+		state.theme = (tmpData & 1) ? "Villain" : "Hero";
 
 		[tmpData, position] = readString(data, position); // Character Name
 		state.characterName = tmpData;
@@ -465,4 +527,56 @@ export const importCharacter = (dataStream, state) => {
 	}
 
 	return false; // No errors!
+}
+
+export const exportCharacter = (state) => {
+	let tmpData;
+	const powerListing = Object.entries(state.powers);
+	const data = [ 77, 120, 68, 12, 174, 71, 129, 63, 0, 0 ];  // MagicNumber (int), SaveVersion (float), UseQualifiedNames (bool), UseOldSubpowerFields (bool)
+	writeString(data, state.archetype.ClassName);
+	writeString(data, state.origin);
+	writeInt(data, (state.theme === "Villain") ? 3 : 0);
+	writeString(data, state.characterName);
+
+	tmpData = 3 + state.pools.length + ((state.epicPool) ? 1 : 0); // Simulate power count.
+
+	writeInt(data, tmpData - 1);
+	writeString(data, state.primaryPowerset.FullName);
+	writeString(data, state.secondaryPowerset.FullName);
+	
+	state.pools.forEach(set => writeString(data, set.FullName));
+
+	if (state.epicPool) {
+		writeString(data, state.epicPool.FullName);
+	}
+
+	writeInt(data, -1); // LastPower
+	writeInt(data, powerListing.filter(info => !info[0].startsWith("Power_")).length - 1);
+
+
+	for (let i = 0; i < state.miscData.PowerLevels.length; i++) {
+		writePower(data, state.powers["Level_" + state.miscData.PowerLevels[i]], state);
+	}
+
+	powerListing.filter(info => info[0].startsWith("AT")).forEach(info => {
+		writePower(data, info[1], state);
+	});
+
+	powerListing.filter(info => info[0].startsWith("Inherent_")).forEach(info => {
+		writePower(data, info[1], state);
+	});
+
+	powerListing.filter(info => info[0].startsWith("Accolade_")).forEach(info => {
+		writePower(data, info[1], state);
+	});
+
+	powerListing.filter(info => info[0].startsWith("Incarnate")).forEach(info => {
+		writePower(data, info[1], state);
+	});
+
+	const buffer = new Uint8Array(data);
+	const compressMe = pako.deflate(buffer);
+	const hexMe = bytesToHex(compressMe).toUpperCase();
+
+	return { ucSize: buffer.length, cSize: compressMe.length, aSize: hexMe.length, hexData: hexMe };
 }
