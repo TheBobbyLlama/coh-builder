@@ -149,9 +149,15 @@ export const reducer = (state, action) => {
 					newState.modal = {key: MODAL_ERROR, message: "The character could not be loaded:\n" + (error.message || error)};
 					return newState;
 				} else {
+					let newUrl = window.location.origin + window.location.pathname;
+
+					if (newUrl.endsWith("/load")) {
+						newUrl = newUrl.substr(0, newUrl.length - 4);
+					}
+
 					newState.page = PAGE_CHARACTER_DESIGNER;
 
-					window.history.replaceState("", "CoH Builder - " + newState.characterName, "/");
+					window.history.replaceState("", "CoH Builder - " + newState.characterName, newUrl);
 
 					return newState;
 				}
