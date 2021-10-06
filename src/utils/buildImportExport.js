@@ -187,7 +187,6 @@ const readEnhancements = (data, position, curPower, state, qualifiedNames) => {
 	let slotCount;
 	let slots;
 
-
 	[slotCount, position] = readSByte(data, position);
 	slotCount++;
 
@@ -226,8 +225,6 @@ const readPower = (data, position, state, qualifiedNames) => {
 		[tmpData, position] = readInt(data, position);
 		curPower = findPowerID(tmpData, state.powersetData);
 	}
-
-	//console.log(i, tmpData, curPower?.DisplayName);
 
 	if (curPower) {
 		let tmpLevel;

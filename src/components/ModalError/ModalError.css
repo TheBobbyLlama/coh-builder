@@ -26,3 +26,9 @@
 #modalError p {
 	margin: 8px 20px;
 }
+
+@media screen and (max-width: 440px) {
+	#modalError {
+		width: 100%;
+	}
+}

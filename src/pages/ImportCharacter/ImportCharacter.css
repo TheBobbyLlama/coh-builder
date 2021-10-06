@@ -47,3 +47,21 @@
 #importCharacter .buttonControls button {
 	margin: 16px 24px 8px 24px;
 }
+
+@media screen and (max-width: 680px) {
+	#importCharacter {
+		align-items: stretch;
+		display: flex;
+		justify-content: stretch;
+	}
+
+	#importCharacter .importBox {
+		width: 100%;
+	}
+
+	#importCharacter textarea {
+		margin: 0;
+		height: calc(100vh - 128px);
+		width: calc(100% - 20px);
+	}
+}
