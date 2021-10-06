@@ -124,10 +124,14 @@ const readString = (bytes, position) => {
 }
 
 const writeString = (bytes, input) => {
-	bytes.push(input.length);
+	if (input) {
+		bytes.push(input.length);
 
-	for (var i = 0; i < input.length; i++) {
-		bytes.push(input.charCodeAt(i));
+		for (var i = 0; i < input.length; i++) {
+			bytes.push(input.charCodeAt(i));
+		}
+	} else {
+		bytes.push(0);
 	}
 }
 
