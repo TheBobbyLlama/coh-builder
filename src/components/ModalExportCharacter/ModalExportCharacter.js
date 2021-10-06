@@ -19,7 +19,7 @@ function ModalExportCharacter() {
 		const lineLength = 67;
 		let tmpChunk = characterData.hexData;
 		let result = "| Copy & Paste this data into Mids Reborn : Hero Designer to view the build |\n|-------------------------------------------------------------------|\n";
-		result += "|MxDz;" + characterData.ucSize + ";" + characterData.cSize + ";" + characterData.aSize + ";HEX; |\n";
+		result += "|MxDz;" + characterData.ucSize + ";" + characterData.cSize + ";" + characterData.aSize + ";HEX;|\n";
 
 		while (tmpChunk.length > lineLength) {
 			let tmpStr = tmpChunk.substr(0, lineLength);

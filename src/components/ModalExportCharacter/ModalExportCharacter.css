@@ -32,7 +32,7 @@
 }
 
 #modalExportCharacter textarea:last-of-type {
-	height: 300px;
+	height: 320px;
 }
 
 #modalExportCharacter textarea.copied {
@@ -53,5 +53,9 @@
 @media screen and (max-width: 440px) {
 	#modalExportCharacter {
 		width: 100%;
+	}
+
+	#modalExportCharacter textarea {
+		height: 35vh !important;
 	}
 }
