@@ -2,6 +2,7 @@ import pako from "pako";
 
 import { findPower, findPowerID } from "./util";
 import { displayNameSort, checkAddSupplementalPowers, setArchetype, selectPrimaryPowerset, selectSecondaryPowerset, selectIncarnate } from "./characterUtils";
+import { traverseTwoPhase } from "react-dom/test-utils";
 
 // https://stackoverflow.com/questions/14603205/how-to-convert-hex-string-into-a-bytes-array-and-a-bytes-array-in-the-hex-strin
 
@@ -266,21 +267,22 @@ const writeEnhancements = (data, slots, state) => {
 const readPower = (data, position, state, qualifiedNames) => {
 	let curPower;
 	let tmpData;
+	let tmpIdx = -1;
+	let tmpLevel;
+	let statInclude;
+	let variableValue;
+	let slots;
 
 	if (qualifiedNames) {
 		[tmpData, position] = readString(data, position);
 		curPower = findPower(tmpData, state.powersetData);
 	} else {
-		[tmpData, position] = readInt(data, position);
-		curPower = findPowerID(tmpData, state.powersetData);
+		[tmpIdx, position] = readInt(data, position);
+		curPower = findPowerID(tmpIdx, state.powersetData);
 	}
 
-	if (curPower) {
-		let tmpLevel;
-		let statInclude;
-		let variableValue;
+	if ((curPower) || (tmpIdx > -1)) {
 		let tmpSubs;
-		let slots;
 		[tmpLevel, position] = readSByte(data, position);
 		tmpLevel++;
 		[statInclude, position] = readBool(data, position);
@@ -305,9 +307,11 @@ const readPower = (data, position, state, qualifiedNames) => {
 				[, position] = readBool(data, position); // StatInclude
 			}
 		}
+	}
 
-		[slots, position] = readEnhancements(data, position, curPower, state);
+	[slots, position] = readEnhancements(data, position, curPower, state);
 
+	if (curPower) {
 		let ownerSet = state.powersetData.find(set => set.Powers.find(pwr => pwr.StaticIndex === curPower.StaticIndex));
 
 		if (ownerSet) {
@@ -389,10 +393,17 @@ const readPower = (data, position, state, qualifiedNames) => {
 					}
 					break;
 				case 4: // Inherent
-					powerInfo = state.powers["Inherent_" + curPower.PowerName];
+					powerInfo = state.powers["Inherent_" + curPower.PowerIndex];
 
 					if (powerInfo) {
 						if (curPower.Slottable) {
+							powerInfo.slots = slots || [ undefined ];
+							state.slotCount += powerInfo.slots.length - 1;
+						}
+					} else {
+						powerInfo = state.powers["Power_" + curPower.PowerIndex];
+
+						if ((powerInfo) && (curPower.Slottable)) {
 							powerInfo.slots = slots || [ undefined ];
 							state.slotCount += powerInfo.slots.length - 1;
 						}
@@ -512,7 +523,9 @@ export const importCharacter = (dataStream, state) => {
 						state.epicPool = tmpArray[i];
 						break;
 					case 5: // Pool
-						state.pools.push(tmpArray[i]);
+						if (!state.pools.find(set => set.SetName === tmpArray[i].SetName)) {
+							state.pools.push(tmpArray[i]);
+						}
 						break;
 					default:
 						break;
@@ -538,6 +551,14 @@ export const importCharacter = (dataStream, state) => {
 		for (let i = 0; i <= tmpCnt; i++) {
 			position = readPower(data, position, state, qualifiedNames);
 		}
+
+		tmpData = Object.entries(state.powers);
+
+		for (let i = state.pools.length - 1; i >= 0; i--) {
+			if (!tmpData.find(info => info[1].powerData.PowerSetID === state.pools[i].nID)) {
+				state.pools.splice(i, 1);
+			}
+		}
 	} catch (e) {
 		return e;
 	}
@@ -554,16 +575,24 @@ export const exportCharacter = (state) => {
 	writeInt(data, (state.theme === "Villain") ? 3 : 0);
 	writeString(data, state.characterName);
 
-	tmpData = 2 + state.pools.length + ((state.epicPool) ? 1 : 0); // Simulate power count.
+	tmpData = 7; //2 + state.pools.length + 1;
 
 	writeInt(data, tmpData);
 	writeString(data, state.primaryPowerset.FullName);
 	writeString(data, state.secondaryPowerset.FullName);
 	
-	state.pools.forEach(set => writeString(data, set.FullName));
+	for (let i = 0; i < 4; i++) {
+		if (state.pools[i]) {
+			writeString(data, state.pools[i].FullName);
+		} else {
+			writeSByte(data, 0);
+		}
+	}
 
 	if (state.epicPool) {
 		writeString(data, state.epicPool.FullName);
+	} else {
+		writeSByte(data, 0);
 	}
 
 	writeString(data, "Inherent.Inherent");
@@ -576,7 +605,7 @@ export const exportCharacter = (state) => {
 		writePower(data, state.powers["Level_" + state.miscData.PowerLevels[i]], state);
 	}
 
-	powerListing.filter(info => info[0].startsWith("AT")).forEach(info => {
+	powerListing.filter(info => info[0].startsWith("AT_")).forEach(info => {
 		writePower(data, info[1], state);
 	});
 

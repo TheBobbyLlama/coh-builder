@@ -605,64 +605,144 @@
 	],
 	"ATInherents": {
 		"Blaster": {
-			"power": "Inherent.Inherent.Defiance_Buff",
-			"active": true
+			"powers": [
+				{
+					"name": "Inherent.Inherent.Defiance_Buff",
+					"active": true
+				}
+			]
 		},
 		"Controller": {
-			"power": "Inherent.Inherent.Containment",
-			"active": false
+			"powers": [
+				{
+					"name": "Inherent.Inherent.Containment",
+					"active": false
+				}
+			]
 		},
 		"Defender": {
-			"power": "Inherent.Inherent.Vigilance",
-			"active": false
+			"powers": [
+				{
+					"name": "Inherent.Inherent.Vigilance",
+					"active": false
+				}
+			]
 		},
 		"Scrapper": {
-			"power": "Inherent.Inherent.Critical_Hit",
-			"active": true
+			"powers": [
+				{
+					"name": "Inherent.Inherent.Critical_Hit",
+					"active": true
+				}
+			]
 		},
 		"Sentinel": {
-			"power": "Inherent.Inherent.Opportunity",
-			"active": false
+			"powers": [
+				{
+					"name": "Inherent.Inherent.Opportunity",
+					"active": false
+				}
+			]
 		},
 		"Tanker": {
-			"power": "Inherent.Inherent.Gauntlet",
-			"active": true
+			"powers": [
+				{
+					"name": "Inherent.Inherent.Gauntlet",
+					"active": true
+				}
+			]
 		},
 		"Peacebringer": {
-			"power": "Inherent.Inherent.Cosmic_Balance",
-			"active": true
+			"powers": [
+				{
+					"name": "Inherent.Inherent.Cosmic_Balance",
+					"active": true
+				},
+				{
+					"name": "Inherent.Inherent.Combat_Flight",
+					"active": false
+				},
+				{
+					"name": "Inherent.Inherent.Energy_Flight",
+					"active": false
+				},
+				{
+					"name": "Inherent.Inherent.Quantum_Acceleration",
+					"active": false
+				}
+			]
 		},
 		"Warshade": {
-			"power": "Inherent.Inherent.Dark_Sustenance",
-			"active": true
+			"powers": [
+				{
+					"name": "Inherent.Inherent.Dark_Sustenance",
+					"active": true
+				},
+				{
+					"name": "Inherent.Inherent.Shadow_Step",
+					"active": false
+				},
+				{
+					"name": "Inherent.Inherent.Shadow_Recall",
+					"active": false
+				}
+			]
 		},
 		"Brute": {
-			"power": "Inherent.Inherent.Rage_Buff",
-			"active": true
+			"powers": [
+				{
+					"name": "Inherent.Inherent.Rage_Buff",
+					"active": true
+				}
+			]
 		},
 		"Corruptor": {
-			"power": "Inherent.Inherent.Scourge",
-			"active": false
+			"powers": [
+				{
+					"name": "Inherent.Inherent.Scourge",
+					"active": false
+				}
+			]
 		},
 		"Dominator": {
-			"power": "Inherent.Inherent.Domination",
-			"active": false
+			"powers": [
+				{
+					"name": "Inherent.Inherent.Domination",
+					"active": false
+				}
+			]
 		},
 		"Mastermind": {
-			"power": "Inherent.Inherent.Supremacy",
-			"active": true
+			"powers": [
+				{
+					"name": "Inherent.Inherent.Supremacy",
+					"active": true
+				}
+			]
 		},
 		"Stalker": {
-			"power": "Inherent.Inherent.Assassination",
-			"active": false
+			"powers": [
+				{
+					"name": "Inherent.Inherent.Assassination",
+					"active": false
+				}
+			]
 		},
 		"Arachnos Soldier": {
-			"power": "Inherent.Inherent.Spider_Conditioning",
-			"active": true
+			"powers": [
+				{
+					"name": "Inherent.Inherent.Spider_Conditioning",
+					"active": true
+				}
+			]
 		},
 		"Arachnos Widow": {
-			"power": "Inherent.Inherent.Widow_Conditioning",
-			"active": true
+			"powers": [
+				{
+					"name": "Inherent.Inherent.Widow_Conditioning",
+					"active": true
+				}
+			]
 		}
 	},
 	"Accolades": [

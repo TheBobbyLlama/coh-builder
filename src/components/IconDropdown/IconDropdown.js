@@ -12,7 +12,7 @@ function IconDropdown({ itemList, iconFunc, selectedItem, changeFunc, disabled})
 	}
 
 	return (
-		<div className={"iconDropdown" + ((disabled) ? " disabled" : "")} onClick={toggleOpenState}>
+		<div className={"iconDropdown" + (((disabled) || (itemList.length <=1)) ? " disabled" : "")} onClick={toggleOpenState}>
 			<div><img src={iconFunc(selectedItem).default} alt="" /> {selectedItem}</div>
 			{((!disabled) && (openState)) ? <>
 				<div className="dropdownList">

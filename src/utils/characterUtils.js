@@ -43,9 +43,13 @@ export const checkAddSupplementalPowers = (addPower, state) => {
 	});
 
 	addMe.forEach(curPower => {
-		let curData = { powerData: curPower, active: false };
+		let curData = { powerData: curPower };
 
-		if (curData.Slottable) {
+		if (curPower.Effects?.find(effect => ((effect.ToWho === 2) || (effect.ToWho === 3)))) {
+			curData.active = !curPower.EndCost;
+		}
+
+		if (curPower.Slottable) {
 			curData.slots = [undefined];
 		}
 
@@ -80,15 +84,17 @@ const addDefaultInherents = (state) => {
 		let curPower = findPower(item, state.powersetData);
 
 		if (curPower) {
-			state.powers["Inherent_" + curPower.PowerName] = { powerData: curPower };
+			let tmpInfo = { powerData: curPower };
 
 			if (curPower.Effects?.find(effect => ((effect.ToWho === 2) || (effect.ToWho === 3)))) {
-				state.powers["Inherent_" + curPower.PowerName].active = !curPower.EndCost;
+				tmpInfo.active = !curPower.EndCost;
 			}
 
 			if (curPower.Slottable) {
-				state.powers["Inherent_" + curPower.PowerName].slots = [ undefined ];
+				tmpInfo.slots = [ undefined ];
 			}
+
+			state.powers["Inherent_" + curPower.PowerIndex] = tmpInfo;
 		}
 	})
 }
@@ -106,10 +112,18 @@ export const setArchetype = (state, archetype) => {
 		state.powers = {};
 		addDefaultInherents(state);
 
-		let powerInfo = state.miscData.ATInherents[archetype.DisplayName];
-		let curPower = findPower(powerInfo.power, state.powersetData);
+		let powerInfo = state.miscData.ATInherents[archetype.DisplayName].powers;
 
-		state.powers["AT_" + archetype.DisplayName] = { powerData: curPower, active: powerInfo.active };
+		powerInfo.forEach(info => {
+			let curPower = findPower(info.name, state.powersetData);
+			let curInfo = { powerData: curPower, active: info.active };
+
+			if (curPower.Slottable) {
+				curInfo.slots = [ undefined ];
+			}
+
+			state.powers["Inherent_" + curPower.PowerIndex] = curInfo;
+		});
 
 		state.primaryPowerset = state.powersetData.find(item => item.GroupName === state.archetype.PrimaryGroup);
 		state.secondaryPowerset = state.powersetData.find(item => item.GroupName === state.archetype.SecondaryGroup);
@@ -185,7 +199,7 @@ export const selectPower = (state, power, level) => {
 		checkRemoveSupplementalPowers(state.powers[levelKey].powerData, state);
 
 		if ((state.powers[levelKey].powerData?.Slottable) && (state.powers[levelKey].slots?.length > 1)) {
-			state.slotCount = state.slotCount + 1 - state.powers[level].slots.length;
+			state.slotCount = state.slotCount + 1 - state.powers[levelKey].slots.length;
 		}
 
 		if (state.powers[levelKey].powerData.GroupName === "Pool") {

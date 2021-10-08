@@ -25,10 +25,13 @@ function CharacterPowerPanel() {
 								allowChange={false}
 							/>);
 				})}
-				<PowerWidget
-					target={state.powers["AT_" + state.archetype.DisplayName]}
-					allowChange={false}
-				/>
+				{Object.entries(state.powers).filter(info => info[0].startsWith("AT_")).map(info => {
+					return (<PowerWidget
+								key={info[0]}
+								target={info[1]}
+								allowChange={false}
+							/>)
+				})}
 				{Object.entries(state.powers).filter(info => info[0].startsWith("Power_")).map(info => {
 					return (<PowerWidget
 								key={info[0]}
