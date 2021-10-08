@@ -63,7 +63,7 @@ function ModalExportCharacter() {
 			</div>
 			<textarea readOnly={true} className={(copiedText === 2) ? "copied" : ""} value={createMidsDatachunk()} onClick={copyChunk} />
 			<div>
-				<button type="button" className="pretty confirm" onClick={done}>Ok</button>
+				<button type="button" className="pretty" onClick={done}>Ok</button>
 			</div>
 		</div>
 	);

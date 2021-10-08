@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { useStoreContext } from "../../utils/GlobalState";
 import { SET_CURRENT_PAGE, IMPORT_CHARACTER, PAGE_SELECT_ARCHETYPE, PAGE_IMPORT } from "../../utils/actions";
+import midsIcon from "../../assets/images/ui/MidsReborn.png";
+import paypalIcon from "../../assets/images/ui/PayPal.png";
 
 import { getDataChunk } from '../../utils/buildImportExport';
 
@@ -40,6 +42,25 @@ function MainMenu() {
 			<div className="buttonHolder">
 				<button type="button" className="prettyBig" onClick={startNewCharacter}>Start a New Character</button>
 				<button type="button" className="prettyBig" onClick={importCharacter}>Load a Character</button>
+			</div>
+			<div className="menuFooter">
+				<a className="builderInset" href="https://midsreborn.com/">
+					<div>
+						<img src={midsIcon} alt="Mids Reborn Logo" />
+					</div>
+					<div>
+						<div><i>Powered by</i></div>
+						<div><b>Mids Reborn</b></div>
+					</div>
+				</a>
+				<a className="builderInset" href="https://www.paypal.com/paypalme/thebobbyllama?locale.x=en_US">
+					<div>
+						<img src={paypalIcon} alt="Paypal Logo" />
+					</div>
+					<div>
+						<div>Tip Jar</div>
+					</div>
+				</a>
 			</div>
 		</div>
 	);

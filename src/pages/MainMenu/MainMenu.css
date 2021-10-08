@@ -34,15 +34,51 @@
 	background-color: var(--main-blue-dark);
 }
 
+#mainMenu .buttonHolder {
+	display: flex;
+	justify-content: space-evenly;
+	width: 640px;
+}
+
+#mainMenu .buttonHolder button {
+	margin: 0 40px;
+}
+
+#mainMenu .menuFooter {
+	align-self: center;
+	display: flex;
+	justify-content: center;
+	flex-basis: 1%;
+	width: 800px;
+}
+
+#mainMenu .menuFooter > a {
+	align-items: center;
+	color: white;
+	display: flex;
+	justify-content: center;
+	margin: 0 40px;
+	padding: 4px 8px;
+	text-decoration: none;
+	width: 160px;
+}
+
+#mainMenu .menuFooter > a:hover {
+	background-color: var(--main-blue-dark);
+}
+
+#mainMenu .menuFooter > a img {
+	height: 40px;
+	margin-right: 8px;
+	width: 40px;
+}
+
 .Villain #mainMenu .builderPanel {
 	background-color: var(--main-red-dark);
 }
 
-#mainMenu .buttonHolder {
-	display: flex;
-	justify-content: space-evenly;
-	max-width: 800px;
-	width: 100%;
+.Villain #mainMenu .menuFooter > a:hover {
+	background-color: var(--main-red-dark);
 }
 
 @media screen and (max-width: 980px) {
@@ -60,7 +96,7 @@
 	}
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 680px) {
 	#mainMenu {
 		align-items: stretch;
 	}
@@ -68,6 +104,14 @@
 	#mainMenu .builderIcon {
 		height: 100vw;
 		width: 100%;
+	}
+
+	#mainMenu .buttonHolder, #mainMenu .menuFooter {
+		width: 100%;
+	}
+
+	#mainMenu .menuFooter > a {
+		margin: 0 8px;
 	}
 }
 

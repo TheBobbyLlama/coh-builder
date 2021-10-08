@@ -148,10 +148,11 @@ div.builderPanel {
 	padding: 8px;
 }
 
-div.builderInset {
+*.builderInset {
   background-color: black;
   border: Solid 1px var(--main-blue);
   border-radius: 4px;
+  display: block;
   padding: 12px 4px 4px 4px;
   position: relative;
 }

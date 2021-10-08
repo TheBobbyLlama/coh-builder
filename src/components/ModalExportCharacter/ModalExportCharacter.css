@@ -50,6 +50,10 @@
 	justify-content: center;
 }
 
+.Villain #modalExportCharacter textarea {
+	border-color: var(--main-red);
+}
+
 @media screen and (max-width: 440px) {
 	#modalExportCharacter {
 		width: 100%;
