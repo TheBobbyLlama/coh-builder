@@ -11,8 +11,12 @@ function CharacterInfoPanel() {
 	const [state,dispatch] = useStoreContext();
 	const [myName, setMyName] = useState(state.characterName || "");
 
-	const primaryPowersetList = state.powersetData.filter(item => item.GroupName === state.archetype.PrimaryGroup);
-	const secondaryPowersetList = state.powersetData.filter(item => item.GroupName === state.archetype.SecondaryGroup);
+	const primaryPowersetList = state.powersetData.filter(item => ((item.GroupName === state.archetype.PrimaryGroup) && (!state.miscData.ATExclusionList[state.archetype.DisplayName]?.find(set => set === item.FullName))));
+
+	const secondaryPowersetList = (state.archetype.ClassType === 4) ?
+					state.powersetData.filter(item => item.FullName === state.primaryPowerset.UIDLinkSecondary) :
+					state.powersetData.filter(item => item.GroupName === state.archetype.SecondaryGroup);
+
 
 	useEffect(() => {
 		if (state?.archetype) {

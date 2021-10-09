@@ -44,7 +44,7 @@ function MainMenu() {
 				<button type="button" className="prettyBig" onClick={importCharacter}>Load a Character</button>
 			</div>
 			<div className="menuFooter">
-				<a className="builderInset" href="https://midsreborn.com/">
+				<a className="builderInset" href="https://midsreborn.com/" target="_blank" rel="noreferrer">
 					<div>
 						<img src={midsIcon} alt="Mids Reborn Logo" />
 					</div>
@@ -53,7 +53,7 @@ function MainMenu() {
 						<div><b>Mids Reborn</b></div>
 					</div>
 				</a>
-				<a className="builderInset" href="https://www.paypal.com/paypalme/thebobbyllama?locale.x=en_US">
+				<a className="builderInset" href="https://www.paypal.com/paypalme/thebobbyllama?locale.x=en_US" target="_blank" rel="noreferrer">
 					<div>
 						<img src={paypalIcon} alt="Paypal Logo" />
 					</div>

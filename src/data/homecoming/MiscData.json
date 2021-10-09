@@ -745,6 +745,16 @@
 			]
 		}
 	},
+	"ATExclusionList": {
+		"Arachnos Soldier": [
+			"Arachnos_Soldiers.Arachnos_Soldier",
+			"Training_Gadgets.Training_and_Gadgets"
+		],
+		"Arachnos Widow": [
+			"Widow_Training.Widow_Training",
+			"Teamwork.Teamwork"
+		]
+	},
 	"Accolades": [
 		[
 			"Temporary_Powers.Accolades.The_Atlas_Medallion",

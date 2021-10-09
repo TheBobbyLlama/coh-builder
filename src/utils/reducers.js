@@ -95,18 +95,18 @@ export const reducer = (state, action) => {
 			return { ...state, origin: action.origin };
 		case SELECT_PRIMARY_POWERSET:
 			newState = { ...state };
-			selectPrimaryPowerset(state, action.powerset);
+			selectPrimaryPowerset(newState, action.powerset);
 			return newState;
 		case SELECT_SECONDARY_POWERSET:
 			newState = { ...state };
-			selectSecondaryPowerset(state, action.powerset);
+			selectSecondaryPowerset(newState, action.powerset);
 			return newState;
 		case SELECT_POWER:
 			newState = { ...state };
 
 			delete newState.modal;
 
-			let error = selectPower(state, action.power, action.level);
+			let error = selectPower(newState, action.power, action.level);
 
 			if (error) {
 				newState = { ...state };

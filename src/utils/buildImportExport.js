@@ -2,7 +2,6 @@ import pako from "pako";
 
 import { findPower, findPowerID } from "./util";
 import { displayNameSort, checkAddSupplementalPowers, setArchetype, selectPrimaryPowerset, selectSecondaryPowerset, selectIncarnate } from "./characterUtils";
-import { traverseTwoPhase } from "react-dom/test-utils";
 
 // https://stackoverflow.com/questions/14603205/how-to-convert-hex-string-into-a-bytes-array-and-a-bytes-array-in-the-hex-strin
 
@@ -313,18 +312,19 @@ const readPower = (data, position, state, qualifiedNames) => {
 
 	if (curPower) {
 		let ownerSet = state.powersetData.find(set => set.Powers.find(pwr => pwr.StaticIndex === curPower.StaticIndex));
+		let backupSet = state.powersetData.find(set => ((set.SetType === ownerSet.SetType) && (state.miscData.ATExclusionList[state.archetype.DisplayName]?.find(tmpSet => tmpSet === set.FullName))));
 
 		if (ownerSet) {
 			// STEP 1 - Validate powers!
 			switch (ownerSet.SetType) {
 				case 1: // Primary
-					if (ownerSet.nID !== state.primaryPowerset.nID) {
+					if ((ownerSet.nID !== state.primaryPowerset.nID) && (backupSet?.nID !== ownerSet.nID)) {
 						console.log("Invalid power: " + curPower.DisplayName);
 						return position;
 					}
 					break;
 				case 2: // Secondary
-					if (ownerSet.nID !== state.secondaryPowerset.nID) {
+					if ((ownerSet.nID !== state.secondaryPowerset.nID) && (backupSet?.nID !== ownerSet.nID)) {
 						console.log("Invalid power: " + curPower.DisplayName);
 						return position;
 					}
@@ -517,7 +517,10 @@ export const importCharacter = (dataStream, state) => {
 						selectPrimaryPowerset(state, tmpArray[i]);
 						break;
 					case 2: // Secondary
-						selectSecondaryPowerset(state, tmpArray[i]);
+						// Selected automatically for VEATs, ignore it here.
+						if (state.archetype.ClassType !== 4) {
+							selectSecondaryPowerset(state, tmpArray[i]);
+						}
 						break;
 					case 3: // Ancillary
 						state.epicPool = tmpArray[i];
@@ -575,11 +578,16 @@ export const exportCharacter = (state) => {
 	writeInt(data, (state.theme === "Villain") ? 3 : 0);
 	writeString(data, state.characterName);
 
-	tmpData = 7; //2 + state.pools.length + 1;
-
-	writeInt(data, tmpData);
+	writeInt(data, 7);
 	writeString(data, state.primaryPowerset.FullName);
-	writeString(data, state.secondaryPowerset.FullName);
+
+	tmpData = state.powersetData.find(set => ((set.SetType === 2) && (state.miscData.ATExclusionList[state.archetype.DisplayName]?.find(tmpSet => tmpSet === set.FullName))));
+
+	if (tmpData) {
+		writeString(data, tmpData.FullName);
+	} else {
+		writeString(data, state.secondaryPowerset.FullName);
+	}
 	
 	for (let i = 0; i < 4; i++) {
 		if (state.pools[i]) {

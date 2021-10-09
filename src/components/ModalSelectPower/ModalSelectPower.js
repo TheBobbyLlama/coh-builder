@@ -25,9 +25,15 @@ function ModalSelectPower() {
 			return set.Powers.filter(item => ((item.Level) && (item.Level <= state.modal.level)));
 		} else if (set.nID === state.secondaryPowerset.nID) {
 			return set.Powers.filter(item => ((item.Level) && (item.Level <= state.modal.level) && (item.Level > 1)));
-		} else {
-			return [];
+		} else if (state.archetype.ClassType === 4) { // Special VEAT handling - Allow picks from base powersets!
+			if (set.SetType === 1) {
+				return set.Powers.filter(item => ((item.Level) && (item.Level <= state.modal.level)));
+			} else if (set.SetType === 2) {
+				return set.Powers.filter(item => ((item.Level) && (item.Level <= state.modal.level) && (item.Level > 1)));
+			}
 		}
+
+		return [];
 	}
 
 	const [selectedPowerset, setSelectedPowerset] = useState(findSelectedPowerset());
@@ -51,7 +57,7 @@ function ModalSelectPower() {
 		setShowSelectedPowers(true);
 	};
 
-	const selectPoolPowerset = (set) => {
+	const selectPowerset = (set) => {
 		setSelectedPowerset(set);
 		setPowerList(findSelectedPowerList(set));
 		setShowSelectedPowers(true);
@@ -88,6 +94,9 @@ function ModalSelectPower() {
 		setShowSelectedPowers(false);
 	}
 
+	const baseSetPrimary = state.powersetData.find(set => ((set.SetType === 1) && (state.miscData.ATExclusionList[state.archetype.DisplayName]?.find(tmpSet => tmpSet === set.FullName))));
+	const baseSetSecondary = state.powersetData.find(set => ((set.SetType === 2) && (state.miscData.ATExclusionList[state.archetype.DisplayName]?.find(tmpSet => tmpSet === set.FullName))));
+
 	const powerPools = ((state.pools.length >= 4) ? state.pools : state.powersetData.filter(set => set.GroupName === "Pool")).filter(set => set.Powers.find(power => ((power.Level) && (power.Level <= state.modal.level))));
 	const epicPools = ((state.epicPool) ? [ state.epicPool ] : state.powersetData.filter(set => state.archetype.Ancillary.indexOf(set.nID) > -1)).filter(set => set.Powers.find(power => power.Level <= state.modal.level));
 
@@ -99,13 +108,15 @@ function ModalSelectPower() {
 			<h3>Select Power</h3>
 			<div id="powerSelectionPanel">
 				<div id="powersetList" className={"builderInset" + ((showSelectedPowers) ? " hideMobile" : "")}>
+					{(baseSetPrimary) ? <div onClick={() => {selectPowerset(baseSetPrimary); }} className={(baseSetPrimary.nID === selectPowerset?.nID) ? "selected" : ""} title={baseSetPrimary.Description}><img src={getIcon(baseSetPrimary)} alt="" /> <b>{baseSetPrimary.DisplayName}</b></div> : <></>}
 					<div onClick={selectPrimaryPowerset} className={(state.primaryPowerset.nID === selectedPowerset?.nID) ? "selected" : ""} title={state.primaryPowerset.Description}><img src={getIcon(state.primaryPowerset)} alt="" /> <b>{state.primaryPowerset.DisplayName}</b></div>
-					{(state.modal.level >= 2) ? <div onClick={selectSecondaryPowerset} className={(state.secondaryPowerset.nID === selectedPowerset?.nID) ? "selected" : ""} title={state.secondaryPowerset.Description}><img src={getIcon(state.secondaryPowerset)} alt="" /> <b>{state.secondaryPowerset.DisplayName}</b></div> : <></> }
+					{((state.modal.level >= 2) && (baseSetSecondary)) ? <div onClick={() => {selectPowerset(baseSetSecondary); }} className={(baseSetSecondary.nID === selectPowerset?.nID) ? "selected" : ""} title={baseSetSecondary.Description}><img src={getIcon(baseSetSecondary)} alt="" /> <b>{baseSetSecondary.DisplayName}</b></div> : <></>}
+					{((state.modal.level >= 2) && (state.secondaryPowerset.Powers.find(pwr => pwr.Level <= state.modal.level))) ? <div onClick={selectSecondaryPowerset} className={(state.secondaryPowerset.nID === selectedPowerset?.nID) ? "selected" : ""} title={state.secondaryPowerset.Description}><img src={getIcon(state.secondaryPowerset)} alt="" /> <b>{state.secondaryPowerset.DisplayName}</b></div> : <></> }
 					{powerPools.map((poolSet, index) => {
-						return (<div key={"pool" + index} onClick={() => {selectPoolPowerset(poolSet); }} className={(poolSet.nID === selectedPowerset?.nID) ? "selected" : ""} title={poolSet.Description}><img src={getIcon(poolSet)} alt="" /> {poolSet.DisplayName}</div>);
+						return (<div key={"pool" + index} onClick={() => {selectPowerset(poolSet); }} className={(poolSet.nID === selectedPowerset?.nID) ? "selected" : ""} title={poolSet.Description}><img src={getIcon(poolSet)} alt="" /> {poolSet.DisplayName}</div>);
 					})}
 					{epicPools.map((poolSet, index) => {
-						return (<div key={"pool" + index} onClick={() => {selectPoolPowerset(poolSet); }} className={(poolSet.nID === selectedPowerset?.nID) ? "selected" : ""} title={poolSet.Description}><img src={getIcon(poolSet)} alt="" /> <i>{poolSet.DisplayName}</i></div>);
+						return (<div key={"pool" + index} onClick={() => {selectPowerset(poolSet); }} className={(poolSet.nID === selectedPowerset?.nID) ? "selected" : ""} title={poolSet.Description}><img src={getIcon(poolSet)} alt="" /> <i>{poolSet.DisplayName}</i></div>);
 					})}
 					{(state.powers[state.modal.level]) ? <div onClick={setClearList} className={"spaceMe" + ((selectedPowerset?.nID === -1) ? " selected" : "")}><i>Remove Power</i></div> : <></>}
 				</div>

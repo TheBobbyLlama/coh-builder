@@ -125,11 +125,17 @@ export const setArchetype = (state, archetype) => {
 			state.powers["Inherent_" + curPower.PowerIndex] = curInfo;
 		});
 
-		state.primaryPowerset = state.powersetData.find(item => item.GroupName === state.archetype.PrimaryGroup);
-		state.secondaryPowerset = state.powersetData.find(item => item.GroupName === state.archetype.SecondaryGroup);
+		state.primaryPowerset = state.powersetData.find(item => ((item.GroupName === state.archetype.PrimaryGroup) && (!state.miscData.ATExclusionList[state.archetype.DisplayName]?.find(set => set === item.FullName))));
+
+		if ((state.primaryPowerset) && (archetype.ClassType === 4)) {
+			state.secondaryPowerset = state.powersetData.find(item => item.FullName === state.primaryPowerset.UIDLinkSecondary);
+		} else {
+			state.secondaryPowerset = state.powersetData.find(item => item.GroupName === state.archetype.SecondaryGroup);
+		}
 
 		if (state.secondaryPowerset) {
-			let curData = { label: 1.1, powerData: state.secondaryPowerset.Powers.find(item => item.Level === 1), slots: [ undefined ] }
+			let tmpSecondaryPowerset = (state.archetype.ClassType === 4) ? state.powersetData.find(item => ((item.GroupName === state.archetype.SecondaryGroup) && (item.Powers.find(pwr => pwr.Level === 1)))) : state.secondaryPowerset;
+			let curData = { label: 1.1, powerData: tmpSecondaryPowerset.Powers.find(item => item.Level === 1), slots: [ undefined ] }
 
 			if (curData.powerData.Effects?.find(effect => ((effect.ToWho === 2) || (effect.ToWho === 3)))) {
 				curData.active = !curData.powerData.RechargeTime;
@@ -157,6 +163,10 @@ export const selectPrimaryPowerset = (state, powerset) => {
 
 	if ((state.archetype) && (powerset)) {
 		state.primaryPowerset = powerset;
+
+		if (state.archetype.ClassType === 4) {
+			selectSecondaryPowerset(state, state.powersetData.find(set => powerset.UIDLinkSecondary === set.FullName));
+		}
 	} else {
 		delete state.primaryPowerset;
 	}
@@ -180,7 +190,9 @@ export const selectSecondaryPowerset = (state, powerset) => {
 	if ((state.archetype) && (powerset)) {
 		state.secondaryPowerset = powerset;
 
-		let curData = { label: 1.1, powerData: state.secondaryPowerset.Powers.find(item => item.Level === 1), slots: [ undefined ] }
+		let tmpSecondaryPowerset = (state.archetype.ClassType === 4) ? state.powersetData.find(item => ((item.GroupName === state.archetype.SecondaryGroup) && (item.Powers.find(pwr => pwr.Level === 1)))) : state.secondaryPowerset;
+
+		let curData = { label: 1.1, powerData: tmpSecondaryPowerset.Powers.find(item => item.Level === 1), slots: [ undefined ] }
 
 		if (curData.powerData.Effects?.find(effect => ((effect.ToWho === 2) || (effect.ToWho === 3)))) {
 			curData.active = !curData.powerData.RechargeTime;
