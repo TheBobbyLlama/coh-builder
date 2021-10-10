@@ -1,4 +1,5 @@
 import pako from "pako";
+import { toByteArray, fromByteArray } from "base64-js";
 
 import { findPower, findPowerID } from "./util";
 import { displayNameSort, checkAddSupplementalPowers, setArchetype, selectPrimaryPowerset, selectSecondaryPowerset, selectIncarnate } from "./characterUtils";
@@ -446,7 +447,14 @@ export const importCharacter = (dataStream, state) => {
 	let data;
 
 	try {
-		const ucData = hexToBytes(dataStream);
+		let ucData;
+
+		if (dataStream.charCodeAt(0) === 64) { // '@'
+			ucData = toByteArray(dataStream.substr(1));
+		} else {
+			ucData = hexToBytes(dataStream);
+		}
+
 		data = pako.inflate(ucData);
 	} catch (e) {
 		return "Character data could not be decompressed: " + e;
@@ -638,6 +646,7 @@ export const exportCharacter = (state) => {
 	const buffer = new Uint8Array(data);
 	const compressMe = pako.deflate(buffer);
 	const hexMe = bytesToHex(compressMe).toUpperCase();
+	const base64Me = fromByteArray(compressMe);
 
-	return { ucSize: buffer.length, cSize: compressMe.length, aSize: hexMe.length, hexData: hexMe };
+	return { ucSize: buffer.length, cSize: compressMe.length, aSize: hexMe.length, hexData: hexMe, base64Data: base64Me };
 }

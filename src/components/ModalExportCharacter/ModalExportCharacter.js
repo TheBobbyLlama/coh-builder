@@ -13,7 +13,8 @@ function ModalExportCharacter() {
 
 	let myName = state.characterName || "Character";
 	let characterData = exportCharacter(state);
-	let builderUrl = window.location.href + "load?data=" + characterData.hexData;
+	// The '@' character that prefixes the data chunk is character code 64, indicating base64.
+	let builderUrl = window.location.href + ((window.location.href.endsWith("/")) ? "" : "/") + "load?data=@" + characterData.base64Data;
 
 	const createMidsDatachunk = () => {
 		const lineLength = 67;
